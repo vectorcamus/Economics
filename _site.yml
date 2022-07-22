@@ -9,5 +9,7 @@ navbar:
     - text: "Links"
       href: Links.html
     - text: "ANOTHER"
-      href: "Untitled.Rmd"
+      href: "Untitled.html"
+    - text: "Ahgfddyh"
+      href: "Journal-copy1.html"
 output_dir: "docs"

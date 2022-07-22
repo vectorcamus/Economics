@@ -2,13 +2,9 @@
 title: "Untitled"
 author: "dhananjaya"
 date: "7/22/2022"
-output:html_document:
-    toc: true
-    toc_float: true
-    collapsed: false
-    number_sections: false
-    toc_depth: 1
+output: "html_document"
 ---
+
 *2 **goods case 
 ###  u = $x^\alpha y^{1-\alpha}$ s.t. 2x+3y $\leq$ 12 . Find the optimal solution .
 -  lagrange ,   $Z=  x^\alpha y^{1-\alpha} + \lambda  (12-2x-3y)$
@@ -27,8 +23,11 @@ output:html_document:
 - $y=\frac{2x}{3}=2$
 - hence the optimal consumption bundle 
 - **$(x*,y*)=(2,3)$**
+
 ---
+
 --- 
+
 ## $U= x^{0.2}  y^{0.8}$  s.t  $3x+4y\leq 12$
 - from First order conditions we get 
 - $\frac{0.2 x^{-0.8} y^{0.8}}{0.8x^{0.2}y^{-0.2}}=\frac{3\lambda}{4\lambda}$
@@ -41,7 +40,9 @@ output:html_document:
 - $\implies y= \frac{3x}{4}=\frac{3}{2}$
 - hence,
 - $(x*,y*)= (2,\frac{3}{2})$
+
 --- 
+
 ## for $\alpha_1 +\alpha_2 \neq 1$
 you can easily solve using lagrange 
 for example 
