@@ -4,12 +4,12 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "Journal"
-      href: Journal.html
-    - text: "Links"
+    - text: "microeconomics"
+      href: microeconomics.html
+    - text: "Statistics"
       href: Links.html
-    - text: "ANOTHER"
+    - text: "Mathematics"
       href: "Untitled.html"
-    - text: "Ahgfddyh"
-      href: "Journal-copy1.html"
+    - text: "Macroeconomics"
+      href: "Macroeconomics.html"
 output_dir: "docs"

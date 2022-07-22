@@ -1,0 +1,26 @@
+---
+title: "Journal"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+## When MRS =$\frac{p_x}{p_y}$ 
+$U=2x+3y$ s.t. $4x+6y =48$
+- any bundle on the budget line including the corner bundles of $(\frac{M}{p_x},0)$ and $(0,\frac{M}{p_y})$  are optimal bundle. 
+--- 
+## When MRS $\neq \frac{p_X}{p_y}$
+## $U= 2x+3y$ s.t. $3x+4y=48$
+|Extreme bundles | substituting in Utility function| Utils|optimality |
+|---|---|---|---|
+|$(\frac{M}{p_x},0)$=$(16,0)$|$U= 2(16)+3(0)$|32 utils|not optimal|
+|$(0,\frac{M}{p_y})$=$(0,12)$|$U= 2(0)+3(12)$|36 utils|optimal|
+
+
+ 
+
