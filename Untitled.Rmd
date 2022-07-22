@@ -1,0 +1,89 @@
+---
+title: "Untitled"
+author: "dhananjaya"
+date: "7/22/2022"
+output:html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+---
+*2 **goods case 
+###  u = $x^\alpha y^{1-\alpha}$ s.t. 2x+3y $\leq$ 12 . Find the optimal solution .
+-  lagrange ,   $Z=  x^\alpha y^{1-\alpha} + \lambda  (12-2x-3y)$
+- first order conditions are 
+- $\frac{\partial Z}{\partial x} = \alpha x^{\alpha -1} y^{1-\alpha} - \lambda 2= 0$
+- $\frac{\partial Z}{\partial y} = x^{\alpha} \alpha y^{- \alpha } - \lambda 3 = 0$
+- $\frac{\partial Z}{\partial \lambda } = 12-2x-3y =0$
+- from above equations we get 
+- $\frac {\alpha x^{\alpha - 1} y^{1-\alpha}} {\alpha x^{\alpha} y^{- \alpha }} = \frac {\lambda 2}{\lambda 3}$
+- $\implies \frac{y}{x} = \frac{2}{3 }$
+- $\implies y=\frac {2x}{ 3}$
+- putting the value of y  in  **$12-2x-3y=0$** we get
+-  $12-2x-3(\frac{2x}{3 })=0$
+- $12-4x=0$
+- $x=3$
+- $y=\frac{2x}{3}=2$
+- hence the optimal consumption bundle 
+- **$(x*,y*)=(2,3)$**
+---
+--- 
+## $U= x^{0.2}  y^{0.8}$  s.t  $3x+4y\leq 12$
+- from First order conditions we get 
+- $\frac{0.2 x^{-0.8} y^{0.8}}{0.8x^{0.2}y^{-0.2}}=\frac{3\lambda}{4\lambda}$
+- $\implies \frac{y}{x}=\frac {3}{4}$
+- $\implies y= \frac{3x}{4}$
+- substituting $y=\frac{3x}{4}$ in  $12-3x-4y= 12$ we get, 
+- $12-3x-4(\frac{3x}{4})=0$
+- $\implies 12-6x=0$
+- $\implies x=2$
+- $\implies y= \frac{3x}{4}=\frac{3}{2}$
+- hence,
+- $(x*,y*)= (2,\frac{3}{2})$
+--- 
+## for $\alpha_1 +\alpha_2 \neq 1$
+you can easily solve using lagrange 
+for example 
+for $U= x^{0.2} y^{0.3}$ or $U=x^{0.4} y^{0.6}$ the optimal bundle will be same as long as they both have same budget constriant and same *marginal rate of substitution . 
+
+
+|utility function|budget constraint|FOC|optimal bundle $(x*,y*)$|remarks|
+|---|---|---|---|-----|
+|$U=x^{0.2}y^{0.3}$|$2x+3y=6$|$\frac{2y}{3x}= \frac{2\lambda}{3\lambda} \implies y=x$ |$(\frac{6}{5},\frac{6}{5})$|$MRS=$ $\frac{\frac{\partial U}{\partial x}}{{\frac{\partial U}{\partial y}}}=\frac{2y}{3x}$ & $\frac{p_x}{p_y}=\frac{2}{3}$
+|$U=x^{0.4}y^{0.6}$|$2x+3y=6$|$\frac{2y}{3x}= \frac{2\lambda}{3\lambda} \implies y=x$|$(\frac{6}{5},\frac{6}{5}$)|MRS= $\frac{2y}{3x}$  &  $\frac{p_x}{p_y}=\frac{2}{3}$|
+
+what will happen if we change the income without changing marginal rate of substitution ?
+|utility function|budget constraint|FOC|optimal bundle $(x*,y*)$|remarks|
+|---|---|---|---|-----|
+|$U=x^{0.2}y^{0.3}$|$2x+3y=6$|$\frac{2y}{3x}= \frac{2\lambda}{3\lambda} \implies y=x$ |$(\frac{6}{5},\frac{6}{5})$|$MRS=$ $\frac{\frac{\partial U}{\partial x}}{{\frac{\partial U}{\partial y}}}=\frac{2y}{3x}$ & $\frac{p_x}{p_y}=\frac{2}{3}$
+|$U=x^{0.4}y^{0.6}$|$2x+3y=$ **12**|$\frac{2y}{3x}= \frac{2\lambda}{3\lambda} \implies y=x$|$(\frac{12}{5},\frac{12}{5}$)|MRS= $\frac{2y}{3x}$  &  $\frac{p_x}{p_y}=\frac{2}{3}$|
+*so if marginal rate of substitution and price ratio remains the same and we increase income twice then  the optimal consumption bundle will increase $(2x*,2y*)$ in case of cobb dogulas functions. 
+in other terms cobb dogulas utility function is homogenous to degree 1.
+# prove that for any number  $\gamma$ , $f( \gamma x,\gamma y)=  \gamma f(x,y)$ where $f(x,y)= Ax^\alpha y^\beta$
+
+let $\gamma$ be value $> 0$
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
