@@ -1,5 +1,5 @@
 ---
-title: "MyLabJournal"
+title: "Economics draft"
 output: html_document
 ---
 
