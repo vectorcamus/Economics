@@ -21,6 +21,13 @@ $U=2x+3y$ s.t. $4x+6y =48$
 |$(\frac{M}{p_x},0)$=$(16,0)$|$U= 2(16)+3(0)$|32 utils|not optimal|
 |$(0,\frac{M}{p_y})$=$(0,12)$|$U= 2(0)+3(12)$|36 utils|optimal|
 
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
+
+
 
  
 
