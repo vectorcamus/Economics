@@ -22,11 +22,57 @@ output:
 
 # **Economics**
 
-Welcome to my personal economics website. This website contains concepts of  economics, programming for economics ans statistics , mathematics, research papers and various entrance related resources. 
+Welcome to my personal economics website. This website contains concepts of  economics, programming for economics and statistics , mathematics, research papers and various entrance related resources. 
 
-<a href = "https://crumplab.github.io">
-![](images/logo.png)
 
+#### index 
+
+index contains navigational map of the site .
+
+#### core concepts
+
+It contains conceptual understanding and resources for important concepts of economics.
+
+- Microeconomics
+- Macroeconomics
+- Game theory
+
+#### Tools
+
+- Mathematics
+- statistics
+- Programming and Data analysis 
+- Econometrics
+
+#### indian economy
+
+Data related to indian economic development and economic history. 
+
+#### Resources
+
+it includes academic resources for economics students or any one who is interested to learn further about subject . 
+
+#### Reviews
+
+- book review
+- research paper review
+- review about movies and other forms of media
+
+#### Reading list
+
+- list of books
+- list of research papers
+
+#### Test series
+
+- Numerical problem sets for Economics
+- Paid test series for IES & CSE
+
+#### About
+
+- my cv
+- list of my other notebooks
+- blogs & opinion
 
 </a>
 </div>
