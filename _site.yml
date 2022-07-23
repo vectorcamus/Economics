@@ -20,5 +20,4 @@ navbar:
         href: "CSE-ECONOMICS.html"
       - text: "ISI MSQE"
         href: "ISI-MSQE.html"
-      - text: ""
 output_dir: "docs"

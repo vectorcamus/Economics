@@ -41,5 +41,7 @@ This is a template example for lab journaling. Students in Matt Crump's Human Co
 
 <a href = "https://crumplab.github.io">
 ![](images/logo.png)
+
+
 </a>
 </div>
