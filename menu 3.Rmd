@@ -16,6 +16,15 @@ output:
 # isi
 ## iusagi agdsagd
 ### iusagidgiahdhasd
+
+# this worked
+[link](new-unrelated-file.html)
+
+# these 2 did not 
+[link22](~/Documents/GitHub/LabJournalWebsitedraft)
+
+[tag](~/Documents/GitHub/LabJournalWebsitedraft/docs)
+
 asgdgdgdaaslkasd
 adsnkjbhckhadskcbad
 sdnlkl
