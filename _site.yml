@@ -4,7 +4,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "microeconomics"
+    - text: "Microeconomics"
       href: microeconomics.html
     - text: "Statistics"
       href: Links.html
@@ -12,12 +12,26 @@ navbar:
       href: "Untitled.html"
     - text: "Macroeconomics"
       href: "Macroeconomics.html"
+    - text: "Programming for Economics"
+      href: ""
+    - text: "Resources"
+      href: ""
+    - text: "Research"
+      href: ""
     - text: "Test series"
       menu:
       - text: "IES"
         href: "IES.html"
-      - text: "CSE-ECONOMICS"
-        href: "CSE-ECONOMICS.html"
       - text: "ISI MSQE"
         href: "ISI-MSQE.html"
+    - text: "My Notebooks"
+      menu:
+      - text: "Bio-diversity"
+        href: "new-new.html"
+      - text: "Human settlements"
+        href: ""
+      - text: "being a droput"
+        href: ""
+      - text: "blog"
+        href: ""
 output_dir: "docs"

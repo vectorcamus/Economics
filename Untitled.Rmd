@@ -1,13 +1,15 @@
 ---
-title: "Untitled"
+title: "Utility Functions"
 author: "dhananjaya"
 date: "7/22/2022"
 output: "html_document"
 ---
 
-*2 **goods case 
-###  u = $x^\alpha y^{1-\alpha}$ s.t. 2x+3y $\leq$ 12 . Find the optimal solution .
--  lagrange ,   $Z=  x^\alpha y^{1-\alpha} + \lambda  (12-2x-3y)$
+*2 **goods case
+
+###  u = $x^\alpha y^{1-\alpha}$ s.t. 2x+3y $\leq$ 12 . Find the optimal solution.
+
+- lagrange ,$Z=  x^\alpha y^{1-\alpha} + \lambda  (12-2x-3y)$
 - first order conditions are 
 - $\frac{\partial Z}{\partial x} = \alpha x^{\alpha -1} y^{1-\alpha} - \lambda 2= 0$
 - $\frac{\partial Z}{\partial y} = x^{\alpha} \alpha y^{- \alpha } - \lambda 3 = 0$
