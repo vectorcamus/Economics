@@ -1,59 +1,13 @@
 ---
 title: "Economics"
-output:
-   html_document:
-    toc: true
-    toc_float: true
-    collapsed: false
-    number_sections: false
-    toc_depth: 2
-    #code_folding: hide
-    
-
+output: html_document
 ---
 
-# - [index](index.html)
 
-# core concept
 
-## - [Microeconomics](microeconomics.html)
-## - [Macroeconomics](Macroeconomics.html)
-## - [Game theory](Game-Theory.html)
+**Test series**    
 
-# Tool 
+[IES](Test-series-IES.html)  
 
-## - [mathematics](Mathematics.html)
-## - [programming](programming.html)
-## - [econometrics](econometrics.html)
+[GATE](GATE.html)
 
-# [indian economy](indian-economy.html)
-
-# [resources](resources.html)
-
-# Reviews
-
-## - [Research reviews](research-reviews.html)
-## - [book reviews](book-reviews.html)
-## - [media](media-reviews.html)
-
-# Reading list
-
-## - [book list](book-list.html)
-## - [research papers](research-paper-list.html)
-## - [website](website-list.html)
-## - [data](data-list.html)
-
-# Test series
-
-## - [ies](Test-series-IES.html)
-## - [isi msqe](ISI-MSQE.html)
-## - [igidr](test-series-igidr.html)
-## - [dse](test-series-dse.html)
-## - [Gate](GATE.html)
-
-# About
-
-## - [cv](about-cv.html)
-## - [my notebooks](my-notebooks.html)
-## - [blog](about-blogs.html)
-## - [opinion](about-opinion.html)

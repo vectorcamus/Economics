@@ -5,13 +5,13 @@ output: html_document
 
 **schedule**
 
-- ( click on topic to get the reference and reading list)
+- ( click on topic to get the reference and study material)
 
 |status|test number|Test code| Time|Type|Date| Question| Answers key  | submit Answers |
 |---|---|---|---|---|---|---|---|---|---|
 |active|001|W-01-P1-1|20 MINUTES| NUMERICAL|30-JULY-2022||||
 
-[Theory of Consumer’s Demand—Cardinal utility Analysis: * Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium]()
+[Theory of Consumer’s Demand—Cardinal utility Analysis: * Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium](IES-P1-01.html)
 
 ---
 
@@ -33,7 +33,7 @@ Public Finance—Theories of taxation: Optimal taxes and tax reforms, incidence 
 
 |status|test number|Test code| Time| Type|Date| Question| Answer key |submit answer|
 |---|---|---|---|---|---|---|---|---|---|
-|inactive|004|W-01-P4-1|30 MINUTES|SUBJECTIVE|07-AUG-2022||||
+|inactive|004|W-02-P4-1|30 MINUTES|SUBJECTIVE|07-AUG-2022||||
 
 History of development and planning— Alternative development strategies—goal of self-reliance based on import substitution and protection, the post-1991 globalisation strategies based on stabilization and structural adjustment packages: fiscal reforms, financial sector reforms and trade reforms.
 

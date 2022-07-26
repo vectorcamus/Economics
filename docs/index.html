@@ -29,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -221,69 +218,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -291,16 +225,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -336,15 +260,6 @@ div.tocify {
     <li>
       <a href="Game-Theory.html">Game theory</a>
     </li>
-  </ul>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Tools
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
     <li>
       <a href="STATISTICS.html">Statistics</a>
     </li>
@@ -357,50 +272,34 @@ div.tocify {
     <li>
       <a href="econometrics.html">Econometrics</a>
     </li>
-  </ul>
-</li>
-<li>
-  <a href="indian-economy.html">Indian Economy</a>
-</li>
-<li>
-  <a href="resources.html">Resources</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Reviews
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="research-reviews.html">Reseach reviews</a>
-    </li>
-    <li>
-      <a href="book-reviews.html">Book reviews</a>
-    </li>
-    <li>
-      <a href="media-reviews.html">Media reviews</a>
+      <a href="indian-economy.html">Indian Economy</a>
     </li>
   </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Reading list
+    Resources
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="book-list.html">Book list</a>
-    </li>
-    <li>
-      <a href="research-paper-list.html">Research papers</a>
-    </li>
-    <li>
-      <a href="website-list.html">websites</a>
-    </li>
-    <li>
-      <a href="data-list.html">Data</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Reading list</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="book-list.html">Book list</a>
+        </li>
+        <li>
+          <a href="research-paper-list.html">Research papers</a>
+        </li>
+        <li>
+          <a href="website-list.html">websites</a>
+        </li>
+        <li>
+          <a href="data-list.html">Data</a>
+        </li>
+      </ul>
     </li>
   </ul>
 </li>
@@ -415,15 +314,6 @@ div.tocify {
       <a href="Test-series-IES.html">IES</a>
     </li>
     <li>
-      <a href="ISI-MSQE.html">ISI MSQE</a>
-    </li>
-    <li>
-      <a href="test-series-igidr.html">IGIDR</a>
-    </li>
-    <li>
-      <a href="test-series-dse.html">DSE</a>
-    </li>
-    <li>
       <a href="GATE.html">GATE</a>
     </li>
   </ul>
@@ -435,17 +325,19 @@ div.tocify {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="about-cv.html">cv</a>
-    </li>
-    <li>
-      <a href="my-notebooks.html">My notebooks</a>
-    </li>
-    <li>
-      <a href="about-blogs.html">blogs</a>
-    </li>
-    <li>
-      <a href="about-opinion.html">opinion</a>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Reviews</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="research-reviews.html">Reseach reviews</a>
+        </li>
+        <li>
+          <a href="book-reviews.html">Book reviews</a>
+        </li>
+        <li>
+          <a href="media-reviews.html">Media reviews</a>
+        </li>
+      </ul>
     </li>
   </ul>
 </li>
@@ -466,104 +358,12 @@ div.tocify {
 </div>
 
 
-<div id="index" class="section level1">
-<h1>- <a href="index.html">index</a></h1>
-</div>
-<div id="core-concept" class="section level1">
-<h1>core concept</h1>
-<div id="microeconomics" class="section level2">
-<h2>- <a href="microeconomics.html">Microeconomics</a></h2>
-</div>
-<div id="macroeconomics" class="section level2">
-<h2>- <a href="Macroeconomics.html">Macroeconomics</a></h2>
-</div>
-<div id="game-theory" class="section level2">
-<h2>- <a href="Game-Theory.html">Game theory</a></h2>
-</div>
-</div>
-<div id="tool" class="section level1">
-<h1>Tool</h1>
-<div id="mathematics" class="section level2">
-<h2>- <a href="Mathematics.html">mathematics</a></h2>
-</div>
-<div id="programming" class="section level2">
-<h2>- <a href="programming.html">programming</a></h2>
-</div>
-<div id="econometrics" class="section level2">
-<h2>- <a href="econometrics.html">econometrics</a></h2>
-</div>
-</div>
-<div id="indian-economy" class="section level1">
-<h1><a href="indian-economy.html">indian economy</a></h1>
-</div>
-<div id="resources" class="section level1">
-<h1><a href="resources.html">resources</a></h1>
-</div>
-<div id="reviews" class="section level1">
-<h1>Reviews</h1>
-<div id="research-reviews" class="section level2">
-<h2>- <a href="research-reviews.html">Research reviews</a></h2>
-</div>
-<div id="book-reviews" class="section level2">
-<h2>- <a href="book-reviews.html">book reviews</a></h2>
-</div>
-<div id="media" class="section level2">
-<h2>- <a href="media-reviews.html">media</a></h2>
-</div>
-</div>
-<div id="reading-list" class="section level1">
-<h1>Reading list</h1>
-<div id="book-list" class="section level2">
-<h2>- <a href="book-list.html">book list</a></h2>
-</div>
-<div id="research-papers" class="section level2">
-<h2>- <a href="research-paper-list.html">research papers</a></h2>
-</div>
-<div id="website" class="section level2">
-<h2>- <a href="website-list.html">website</a></h2>
-</div>
-<div id="data" class="section level2">
-<h2>- <a href="data-list.html">data</a></h2>
-</div>
-</div>
-<div id="test-series" class="section level1">
-<h1>Test series</h1>
-<div id="ies" class="section level2">
-<h2>- <a href="Test-series-IES.html">ies</a></h2>
-</div>
-<div id="isi-msqe" class="section level2">
-<h2>- <a href="ISI-MSQE.html">isi msqe</a></h2>
-</div>
-<div id="igidr" class="section level2">
-<h2>- <a href="test-series-igidr.html">igidr</a></h2>
-</div>
-<div id="dse" class="section level2">
-<h2>- <a href="test-series-dse.html">dse</a></h2>
-</div>
-<div id="gate" class="section level2">
-<h2>- <a href="GATE.html">Gate</a></h2>
-</div>
-</div>
-<div id="about" class="section level1">
-<h1>About</h1>
-<div id="cv" class="section level2">
-<h2>- <a href="about-cv.html">cv</a></h2>
-</div>
-<div id="my-notebooks" class="section level2">
-<h2>- <a href="my-notebooks.html">my notebooks</a></h2>
-</div>
-<div id="blog" class="section level2">
-<h2>- <a href="about-blogs.html">blog</a></h2>
-</div>
-<div id="opinion" class="section level2">
-<h2>- <a href="about-opinion.html">opinion</a></h2>
-</div>
-</div>
+<p><strong>Test series</strong></p>
+<p><a href="Test-series-IES.html">IES</a></p>
+<p><a href="GATE.html">GATE</a></p>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -596,35 +396,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
