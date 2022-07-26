@@ -1,0 +1,85 @@
+---
+title: "GATE 2022 Solution"
+author: "dhananjaya"
+date: "26/07/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**1.Suppose $\alpha$ is a real number between 0 and 1.Rohit is choosing 𝑥 and 𝑦 to maximize the following utility function: $𝑈(𝑥, 𝑦) = 𝑥^2 + 2𝑥𝑦 + 𝑦^2 + 4𝛼^2 + 8𝛼 + 10$ subject to the following constraints: $2𝑥 + 𝑦 = 10$, $𝑥, 𝑦 ≥ 0$ .\ Then the optimal value of 𝑦 chosen by Rohit is _________ ________  (in integer)**
+
+---
+
+
+Ans.
+$u=𝑥^{2} + 2xy + 𝑦^2 + 4\alpha^{2}+ 8\alpha + 10$ \ is monotonic transformation of \ $x^2 +2xy +y^2$ \ which is another monotonic transformation of\  $U=x+y$.
+
+Here , MRS=1
+Hence, They are perfect substitutes. 
+As MRS$\neq\frac{p_x}{p_y}$ it's a corner solution.
+
+|Bundles |Utils|
+|---|---|
+|$(5,0)$|5 utils|
+|$(0,10)$|10 utils|
+
+Hence, the optimal solution is $(0,10)$ and $y*=10$
+
+Alternatively , 
+AS mrs indicates perfect substitution between two goods the consumer should consume the good which has lower price. in this cas $p_y<p_x$ and consumer will spend all his/her income on y. so with income 10 the consumer can buy $\frac{M}{p_y}=\frac{10}{1}=10$ units of $y$.
+
+---
+
+**13. Piku faces a lottery with utcome of INR 24, INR 12, INR 48 and INR 6 given by the following probbaility distibution**
+
+|Lottery income|24|12|48|6|
+|---|---|---|---|---|
+|Probability outcome|$\frac{2}{6}$|$\frac{3}{6}$|$\frac{1}{6}$|$0$|**
+
+**she is indifferent between lottery and eceiving INR 28 with certanity . given the information we can conclude that piku is a $___________$**
+
+---
+
+
+Ans.
+Expected value of lottery = $E(X)=\sum p_i x_i= 24(\frac{2}{6})+12(\frac{3}{6})+48(\frac{1}{6})+6(0)=8+6+8+0=22$
+
+she is indifferent between getting INR 22 by playing and getting INR 28 with certanity.
+
+she is definately a risk lover person. 
+
+---
+
+**27. Suppose that a firm has a technology represented by the following production function: *$𝑌(𝐾, 𝐿) = 𝐾^x 𝐿^y$* where K denotes capital, L denotes labour, Y denotes the maximum output that is possible to produce using capital K and labour L.** 
+
+**$x$ and $y$ are two positive real numbers. It is also known that the production function satisfies constant returns to scale. Then which of the following is true?**
+
+**(A) $𝑥 + 𝑦 = 0.5$**
+
+**(B) $𝑥 + 𝑦 = 1$**
+
+**(C) $𝑥 + 𝑦 = 1.5$**
+
+**(D) $𝑥 + 𝑦 = 2$**
+
+---
+
+
+
+Ans.
+$x+y=1$
+
+why ?
+
+let say $\alpha>0$
+
+so for $Y(\alpha K, \alpha L)= (\alpha K)^x (\alpha L)^y= \alpha^x K^x \alpha^y L^y= \alpha^{x+y} K^x L^y = \alpha^{x+y} F(K,L)$
+
+so the function is constant return to scale if $Y(\alpha K,\alpha L)=\alpha F(K,L)$
+
+This is only possible if $\alpha^{x+y} F(K,L)=\alpha F(K,L)$
+
+Hence , $x+y=1$
