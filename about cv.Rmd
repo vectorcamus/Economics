@@ -1,7 +1,5 @@
 ---
-title: "about cv"
-author: "dhananjaya"
-date: "25/07/2022"
+title: "cv"
 output:
   html_document:
     toc: true
@@ -10,4 +8,13 @@ output:
     number_sections: false
     toc_depth: 1
     #code_folding: hide
+---
+
+**Educational History**
+
+|Course| Grade/Status|Institutiion | Year|
+|---|---|---|
+|M.A. Economics| incomplete| J.N.U., New delhi| 2020-2022|
+|B.A. Economics| 61.83%| Ravenshaw University, Odisha|2016-2020|
+|+2 Arts| 73.17%|BJB Junior college, Odisha| 2014-2016|
 ---

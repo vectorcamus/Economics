@@ -11,3 +11,23 @@ output:
     toc_depth: 1
     #code_folding: hide
 ---
+
+current workshop 
+
+- https://quantecon.github.io/indian_summer_workshop/
+
+
+Github Repositories
+
+- [Quant econ open source code for economic modelling](https://quantecon.org/)
+- 
+
+Blogs list 
+
+- [aea blog list](https://www.aeaweb.org/resources/students/other-resources)
+
+[ECON RA](https://aadityadar.com/econ_ra_india/)
+
+Working papers 
+
+- [indian statistical institute, delhi](https://ideas.repec.org/s/alo/isipdp.html)

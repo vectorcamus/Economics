@@ -1,7 +1,5 @@
 ---
-title: "book reviews"
-author: "dhananjaya"
-date: "25/07/2022"
+title: "*unprofessional book reviews*"
 output:
   html_document:
     toc: true
@@ -11,3 +9,10 @@ output:
     toc_depth: 1
     #code_folding: hide
 ---
+
+---
+
+| Book name| Author| Review|
+|---|---|---|
+|Desperately Seeking Shah Rukh: *India's Lonely Young Women and the Search for Intimacy and Independence*|Shrayana Bhattacharya|[Review]()|
+

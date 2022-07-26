@@ -1,7 +1,5 @@
 ---
 title: "Programming"
-author: "dhananjaya"
-date: "25/07/2022"
 output:
   html_document:
     toc: true
@@ -13,3 +11,31 @@ output:
 ---
 
     
+*What an economics student should know ?*
+
+Basics 
+
+|Programme/code| Packages|uses|
+|---|---|---|
+|R|Hydelverse,ggplot,Markdown||
+|Python|jupyter lab||
+|STATA|||
+|SPSS|||
+|MatLab|||
+|SQL||Data base management|
+|Github|||
+|Arc Gis|||
+|LateX|||
+
+
+**Optional**
+
+it is harmeless even if we consider opportunity cost. 
+
+|Programme/code|packages|uses|
+|---|---|---|
+|C,C++|||
+|Julia|||
+|Html,CSS,PHP|||
+
+

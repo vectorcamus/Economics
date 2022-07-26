@@ -1,13 +1,19 @@
 ---
-title: "book list"
-author: "dhananjaya"
-date: "25/07/2022"
+title: "*book list for marginally insecured economy*"
+
 output:
   html_document:
     toc: true
     toc_float: true
     collapsed: false
     number_sections: false
-    toc_depth: 1
+    toc_depth: 3
     #code_folding: hide
 ---
+
+
+### Economics
+
+| Name| Author| Link |
+|---|---|---|
+| Economic history of india | Tirthankar roy| |

@@ -2,4 +2,40 @@
 title: "Indian economic service"
 output: html_document
 ---
-draft
+
+**schedule**
+
+- ( click on topic to get the reference and reading list)
+
+|status|test number|Test code| Time|Type|Date| Question| Answers key  | submit Answers |
+|---|---|---|---|---|---|---|---|---|---|
+|active|001|W-01-P1-1|20 MINUTES| NUMERICAL|30-JULY-2022||||
+
+[Theory of Consumer’s Demand—Cardinal utility Analysis: * Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium]()
+
+---
+
+|status|test number|Test code| Time|Type|Date| Question| Answers key |submit answer|
+|---|---|---|---|---|---|---|---|---|---|
+|inactive|002|W-01-P2-1|20 MINUTES| SUBJECTIVE| 31-JULY-2022||||
+
+Economic Thought: Mercantilism Physiocrats, Classical,Marxist, Neo-classical, Keynesian and Monetarist schools of thought
+
+---
+
+|status|test number|Test code| Time |Type|Date| Question| Answer key|submit answer|
+|---|---|---|---|---|---|---|---|---|---|
+|inactive|003|W-02-P3-1|30 MINUTES|SUBJECTIVE|06-AUG-2022||||
+
+Public Finance—Theories of taxation: Optimal taxes and tax reforms, incidence of taxation. Theories of public expenditure: objectives and effects of public expenditure, public expenditure policy and social cost benefit analysis, criteria of public investment decisions, social rate of discount, shadow prices of investment, unskilled labour and foreign exchange. Budgetary deficits. Theory of public debt management.
+
+--
+
+|status|test number|Test code| Time| Type|Date| Question| Answer key |submit answer|
+|---|---|---|---|---|---|---|---|---|---|
+|inactive|004|W-01-P4-1|30 MINUTES|SUBJECTIVE|07-AUG-2022||||
+
+History of development and planning— Alternative development strategies—goal of self-reliance based on import substitution and protection, the post-1991 globalisation strategies based on stabilization and structural adjustment packages: fiscal reforms, financial sector reforms and trade reforms.
+
+---
+
