@@ -9,28 +9,20 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-64. Suppose $\alpha$ 
+1.Suppose $\alpha$ is a real number between 0 and 1.Rohit is choosing 𝑥 and 𝑦 to maximize the following utility function: $𝑈(𝑥, 𝑦) = 𝑥^2 + 2𝑥𝑦 + 𝑦^2 + 4𝛼^2 + 8𝛼 + 10$ subject to the following constraints: $2𝑥 + 𝑦 = 10$, $𝑥, 𝑦 ≥ 0$ .\ Then the optimal value of 𝑦 chosen by Rohit is _________ ________  (in integer).
 
-is a real number between 0 and 1. Rohit is choosing 𝑥 and 𝑦 to maximize the following utility function: 
+Ans.
+$u=𝑥^{2} + 2xy + 𝑦^2 + 4\alpha^{2}+ 8\alpha + 10$ \ is monotonic transformation of \ $x^2 +2xy +y^2$ \ which is another monotonic transformation of\  $U=x+y$.
 
-$$𝑈(𝑥, 𝑦) = 𝑥^2 + 2𝑥𝑦 + 𝑦^2 + 4𝛼^2 + 8𝛼 + 10$$ subject to the following constraints: 2𝑥 + 𝑦 = 10, 𝑥, 𝑦 ≥ 0 Then the optimal value of 𝑦 chosen by Rohit is _________ ________  (in integer).
-
-Ans. 
-
-$x^2$
-
-\x^2
-$u=𝑥^{2} + 2𝑥𝑦 + 𝑦^2 + 4𝛼^2 + 8𝛼 + 10$ is monotonic transformation of 
-$x^2 +2xy +y^2$ which is another monotonic transformation of 
-$U=x+y$.
 Here , MRS=1
 Hence, They are perfect substitutes. 
-As MRS$\neq\frac{p_x}{p_y}$  it's a corner solution.
+As MRS$\neq\frac{p_x}{p_y}$ it's a corner solution.
 
-| Bundles |Utils|
+|Bundles |Utils|
 |---|---|
 |$(5,0)$|5 utils|
 |$(0,10)$|10 utils|
+
 Hence, the optimal solution is $(0,10)$ and $y*=10$
 
 Alternatively , 
