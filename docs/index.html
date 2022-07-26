@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -218,6 +221,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -225,6 +291,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -258,7 +334,7 @@ $(document).ready(function () {
       <a href="Macroeconomics.html">Macroeconomics</a>
     </li>
     <li>
-      <a href="">Game theory</a>
+      <a href="Game-Theory.html">Game theory</a>
     </li>
   </ul>
 </li>
@@ -270,24 +346,24 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="Links.html">Statistics</a>
+      <a href="STATISTICS.html">Statistics</a>
     </li>
     <li>
-      <a href="Untitled.html">Mathematics</a>
+      <a href="Mathematics.html">Mathematics</a>
     </li>
     <li>
-      <a href="">Programming</a>
+      <a href="Programming.html">Programming</a>
     </li>
     <li>
-      <a href="">Econometrics</a>
+      <a href="econometrics.html">Econometrics</a>
     </li>
   </ul>
 </li>
 <li>
-  <a href="">Indian Economy</a>
+  <a href="indian-economy.html">Indian Economy</a>
 </li>
 <li>
-  <a href="">Resources</a>
+  <a href="resources.html">Resources</a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -297,13 +373,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="">Reseach reviews</a>
+      <a href="research-reviews.html">Reseach reviews</a>
     </li>
     <li>
-      <a href="">Book reviews</a>
+      <a href="book-reviews.html">Book reviews</a>
     </li>
     <li>
-      <a href="">Media reviews</a>
+      <a href="media-reviews.html">Media reviews</a>
     </li>
   </ul>
 </li>
@@ -315,16 +391,16 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="">Book list</a>
+      <a href="book-list.html">Book list</a>
     </li>
     <li>
-      <a href="">Research papers</a>
+      <a href="research-paper-list.html">Research papers</a>
     </li>
     <li>
-      <a href="">websites</a>
+      <a href="website-list.html">websites</a>
     </li>
     <li>
-      <a href="">Data</a>
+      <a href="data-list.html">Data</a>
     </li>
   </ul>
 </li>
@@ -336,16 +412,19 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="IES.html">IES</a>
+      <a href="Test-series-IES.html">IES</a>
     </li>
     <li>
       <a href="ISI-MSQE.html">ISI MSQE</a>
     </li>
     <li>
-      <a href="">IGIDR</a>
+      <a href="test-series-igidr.html">IGIDR</a>
     </li>
     <li>
-      <a href="">DSE</a>
+      <a href="test-series-dse.html">DSE</a>
+    </li>
+    <li>
+      <a href="GATE.html">GATE</a>
     </li>
   </ul>
 </li>
@@ -357,16 +436,16 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="new-new.html">cv</a>
+      <a href="about-cv.html">cv</a>
     </li>
     <li>
-      <a href="">My notebooks</a>
+      <a href="my-notebooks.html">My notebooks</a>
     </li>
     <li>
-      <a href="">blogs</a>
+      <a href="about-blogs.html">blogs</a>
     </li>
     <li>
-      <a href="">opinion</a>
+      <a href="about-opinion.html">opinion</a>
     </li>
   </ul>
 </li>
@@ -387,85 +466,12 @@ $(document).ready(function () {
 </div>
 
 
-<style type="text/css">
-.title {
-  display: none;
-}
-
-#getting-started img {
-  margin-right: 10px;
-}
-
-</style>
-<div class="row" style="padding-top: 30px;">
-<div id="economics" class="section level1 col-sm-6">
-<h1><strong>Economics</strong></h1>
-<p>Welcome to my personal economics website. This website contains concepts of economics, programming for economics and statistics , mathematics, research papers and various entrance related resources.</p>
-<div id="index" class="section level4">
-<h4>index</h4>
-<p>index contains navigational map of the site .</p>
-</div>
-<div id="core-concepts" class="section level4">
-<h4>core concepts</h4>
-<p>It contains conceptual understanding and resources for important concepts of economics.</p>
-<ul>
-<li>Microeconomics</li>
-<li>Macroeconomics</li>
-<li>Game theory</li>
-</ul>
-</div>
-<div id="tools" class="section level4">
-<h4>Tools</h4>
-<ul>
-<li>Mathematics</li>
-<li>statistics</li>
-<li>Programming and Data analysis</li>
-<li>Econometrics</li>
-</ul>
-</div>
-<div id="indian-economy" class="section level4">
-<h4>indian economy</h4>
-<p>Data related to indian economic development and economic history.</p>
-</div>
-<div id="resources" class="section level4">
-<h4>Resources</h4>
-<p>it includes academic resources for economics students or any one who is interested to learn further about subject .</p>
-</div>
-<div id="reviews" class="section level4">
-<h4>Reviews</h4>
-<ul>
-<li>book review</li>
-<li>research paper review</li>
-<li>review about movies and other forms of media</li>
-</ul>
-</div>
-<div id="reading-list" class="section level4">
-<h4>Reading list</h4>
-<ul>
-<li>list of books</li>
-<li>list of research papers</li>
-</ul>
-</div>
-<div id="test-series" class="section level4">
-<h4>Test series</h4>
-<ul>
-<li>Numerical problem sets for Economics</li>
-<li>Paid test series for IES &amp; CSE</li>
-</ul>
-</div>
-<div id="about" class="section level4">
-<h4>About</h4>
-<ul>
-<li>my cv</li>
-<li>list of my other notebooks</li>
-<li>blogs &amp; opinion</li>
-</ul>
-<p></a></p>
-</div>
-</div>
+<p>draft</p>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -498,6 +504,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

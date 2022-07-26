@@ -1,0 +1,14 @@
+---
+
+title: "Mathematics"
+output: html_document:
+   toc: true
+   toc_depth: 2
+   number_sections: false
+
+
+$x^2$
+
+draft
+
+----

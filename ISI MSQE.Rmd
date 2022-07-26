@@ -8,23 +8,3 @@ output:
     number_sections: false
     toc_depth: 2
 ---
-
-# jnu
-## hjsgdjgishdkjhsaljdl
-# dse
-## jhgsaugdugdagdhdksahdk
-# isi
-## iusagi agdsagd
-### iusagidgiahdhasd
-
-# this worked
-[link](new-unrelated-file.html)
-
-# these 2 did not 
-[link22](~/Documents/GitHub/LabJournalWebsitedraft)
-
-[tag](~/Documents/GitHub/LabJournalWebsitedraft/docs)
-
-asgdgdgdaaslkasd
-adsnkjbhckhadskcbad
-sdnlkl

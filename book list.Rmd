@@ -1,5 +1,7 @@
 ---
-title: "Macroeconomics"
+title: "book list"
+author: "dhananjaya"
+date: "25/07/2022"
 output:
   html_document:
     toc: true
@@ -9,5 +11,3 @@ output:
     toc_depth: 1
     #code_folding: hide
 ---
-
-draft
