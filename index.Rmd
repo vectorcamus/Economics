@@ -12,5 +12,34 @@ output:
 
 ---
 
-
-draft
+[index](index.html)
+core concept
+   - [Microeconomics](microeconomics.html)
+   - [Macroeconomics](Macroeconomics.html)
+   - [Game theory](Game-Theory.html)
+Tool 
+   - [mathematics](Mathematics.html)
+   - [programming](programming.html)
+   - [econometrics](econometrics.html)
+[indian economy](indian-economy.html)
+[resources](resources.html)
+Reviews
+   - [Research reviews](research-reviews.html)
+   - [book reviews](book-reviews.html)
+   - [media](media-reviews.html)
+Reading list
+   - [book list](book-list.html)
+   - [research papers](research-paper-list.html)
+   - [website](website-list.html)
+   - [data](data-list.html)
+Test series
+   - [ies](Test-series-IES.html)
+   - [isi msqe](ISI-MSQE.html)
+   - [igidr](test-series-igidr.html)
+   - [dse](test-series-dse.html)
+   - [Gate](GATE.html)
+About
+   - [cv](about-cv.html)
+   - [my notebooks](my-notebooks.html)
+   - [blog](about-blogs.html)
+   - [opinion](about-opinion.html)
