@@ -4,52 +4,14 @@ navbar:
   left:
     - text: "Index"
       href: index.html
-    - text: "Core Concepts"
-      menu:
-      - text: "Microeconomics"
-        href: "microeconomics.html"
-      - text: "Macroeconomics"
-        href: "Macroeconomics.html"
-      - text: "Game theory"
-        href: "Game-Theory.html"
-      - text: "Statistics"
-        href: "STATISTICS.html"
-      - text: "Mathematics"
-        href: "Mathematics.html"
-      - text: "Programming"
-        href: "Programming.html"
-      - text: "Econometrics"
-        href: "econometrics.html"
-      - text: "Indian Economy"
-        href: "indian-economy.html"
-    - text: "Resources"
-      menu:
-      - text: "Reading list"
-        menu:
-        - text: "Book list"
-          href: "book-list.html"
-        - text: "Research papers"
-          href: "research-paper-list.html"
-        - text: "websites"
-          href: "website-list.html"
-        - text: "Data"
-          href: "data-list.html"
-      
     - text: "Test series"
       menu:
       - text: "IES"
         href: "Test-series-IES.html"
-      - text: "GATE"
-        href: "GATE.html"
-    - text: "About"
-      menu:
-      - text: "Reviews"
-        menu:
-        - text: "Reseach reviews"
-          href: "research-reviews.html"
-        - text: "Book reviews"
-          href: "book-reviews.html"
-        - text: "Media reviews"
-          href: "media-reviews.html"
-     
+    - text: " Daily Answer writing "
+      href: "DAILY-ANSWER-WRITING.html"
+    - text: "PYQ solutions"
+      href: "PYQIES.html"
+    - text: "Resources"
+      href: "resources.html"
 output_dir: "docs"

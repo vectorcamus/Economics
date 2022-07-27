@@ -9,5 +9,4 @@ output: html_document
 
 [IES](Test-series-IES.html)  
 
-[GATE](GATE.html)
 

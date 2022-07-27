@@ -1,33 +1,6 @@
 ---
-title: "resources"
-author: "dhananjaya"
-date: "25/07/2022"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    collapsed: false
-    number_sections: false
-    toc_depth: 1
-    #code_folding: hide
+title: "Resources"
+output: html_document
 ---
 
-current workshop 
-
-- https://quantecon.github.io/indian_summer_workshop/
-
-
-Github Repositories
-
-- [Quant econ open source code for economic modelling](https://quantecon.org/)
-- 
-
-Blogs list 
-
-- [aea blog list](https://www.aeaweb.org/resources/students/other-resources)
-
-[ECON RA](https://aadityadar.com/econ_ra_india/)
-
-Working papers 
-
-- [indian statistical institute, delhi](https://ideas.repec.org/s/alo/isipdp.html)
+[syllabus](syllabusies.html)
