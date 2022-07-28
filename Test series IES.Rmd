@@ -8,15 +8,15 @@ output: html_document
 
 |status|test number|Test code| Time|Type|Date| Question| Answers key  | submit Answers |
 |---|---|---|---|---|---|---|---|---|---|
-|active|001|W-01/P1/SM1|120 MINUTES| SUBJECTIVE+NUMERICAL|7-aug-2022||||
+|inactive|001|W-01/P1/SM1|120 MINUTES| SUBJECTIVE+NUMERICAL|7-aug-2022|Will be uploaded |will be uploaded|closed|
 
-[**Theory of Consumer’s Demand**—Cardinal utility Analysis:  Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium](IES-P1-01.html)
+**Theory of Consumer’s Demand**—Cardinal utility Analysis:  Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium
 
 ---
 
 |status|test number|Test code| Time|Type|Date| Question| Answers key |submit answer|
 |---|---|---|---|---|---|---|---|---|---|
-|inactive|002|W-02/P1/SM2|120 MINUTES| SUBJECTIVE| 14-aug-2022||||
+|inactive|002|W-02/P1/SM2|120 MINUTES| SUBJECTIVE| 14-aug-2022|Will be uploaded |will be uploaded|closed|
 
 **Theory of Production**:Factors of production and production function. Forms of Production Functions: Cobb Douglas, CES and Fixed coefficient type, Translog production function. Laws of return, Returns to scale and Return to factors of production. Duality and cost function, Measures of productive efficiency of firms, technical and allocative efficiency. Partial Equilibrium versus General Equilibrium approach. Equilibrium of the firm and industry
 

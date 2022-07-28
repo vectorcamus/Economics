@@ -5,7 +5,7 @@ output: html_document
 
 **Numericals** (120 words)
 
-1. Consider a market with aggregate supply $Q_S(p)=d+cp$, and aggregate demand $Q_D(p)=a−bp$ where $a>d$. Find consumer surplus . why must be the case that  $a>d$ ?
+1. Consider a market with aggregate supply $Q_S(p)=d+cp$, and aggregate demand $Q_D(p)=a−bp$ where $a>d$. Find consumer surplus.Why must be the case that  $a>d$ ?
 
 
 2. Suppose the demand and supply for milk in the European Union (EU)  is given by $p = 120−0.7Q_d$ and $p = 3+0.2Q_s$. Find consumer surplus . If The European farmers successfully lobby for a price floor of $\bar p = 36$ cents per liter. what will be consumer surplus  after this ? ( Price is in cents/liter and Quantity is in million of liters)
@@ -16,7 +16,7 @@ output: html_document
 
 2. "Cardinal  utility analysis is considered to be inconsistent with it's own assumption." Is above statement is true or false ? Give reason.
 
-**Long Answers**( 200-250 words)
+**Long Answers** (200-250 words)
 
 1. Explain marshall's measure of consumer surplus ? How it is different from Hicksian measure of consumer surplus. 
     
@@ -24,7 +24,7 @@ output: html_document
 
 
 
-#### References
+**References**
 
 - *Advance Economic theory , H.L. Ahuja*
 - *Intermediate Microeconomics , A tool building approch , Samiran banerjee*

@@ -7,7 +7,7 @@ output: html_document
 
 |DAY|status|Question|DATE|TEST TOPIC|
 |---|---|---|---|---|
-|1|**active**|[PDF](DT1.pdf) [link]()|28-july-2022|Cardinal utility analysis: marginal utility and demand, consumer surplus|
+|1|**active**|[Link](DT1.html)|28-july-2022|Cardinal utility analysis: marginal utility and demand, consumer surplus|
 |2|inactive||29-july-2022|indifference curve analysis and utility function|
 |3|inactive||30-july-2022|price, income and substitution effect, slutsky theorm and derivation of demand curve|
 |4|inactive||1-aug-2022|Revealed preference theory|
