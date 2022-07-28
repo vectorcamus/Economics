@@ -56,8 +56,28 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
 
 #### 2021
 
+1. Define homothetic preferences.explain the common characteristics of such preferences with help of necessary diagrams.(5 marks)
+
+2. suppose the utiliy function for the consumer akes on the following form :
+
+   - $U=50x+20y$
+   - $U=20X+50Y$
+   - $U=80X+40Y$
+
+   The budget of the consumer is 10000.the prices of good$x$ and $y$ are 50 nd 20 per unit respectively.Determine the possibility of determination of equilibrium basket in each case using comment and diagram on the nature of solution.(12 marks)
+
 
 #### 2020
+
+1. The demand and supply functions are $P_D =(6-X)^2$ and $P_S =14+X$ respectively . Find the consumer surplus under pure competitive market.(5 marks)
+2. Derive slutsky equation and interpret it. (5 marks)
+3. Given the utility function as 
+   $12y=36-x^2$
+   and the budget line as 
+   $M=12x+24y$
+   Determine the utility maximizing basket of the two goods.(8 marks)
+
+
 
 ---
 
