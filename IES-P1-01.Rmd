@@ -118,13 +118,13 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
    
    from Roy's identity we get that 
    
-   $x_1^* = - \frac{\frac{\partial V}{\partial p_1}}{\frac{\partial V}{\partial M}}=\frac{- \frac{M^2}{4p_2 p_1 ^2}}{\frac{2M}{4p_1 p_2}}$
+   $x_1^* = - \frac{\frac{\partial V}{\partial p_1}}{\frac{\partial V}{\partial M}}=-(\frac{- \frac{M^2}{4p_2 p_1 ^2}}{\frac{2M}{4p_1 p_2}})$
    
    $\implies x_1^* = \frac{M}{2p_1}$
    
    Likewise 
    
-   $x_2^*= - \frac{\frac{\partial V}{\partial p_2}}{\frac{\partial V}{\partial M}}=\frac{-  \frac{M^2}{4p_1 p_2 ^2}}{\frac{2M}{4p_1 p_2}}$
+   $x_2^*= - \frac{\frac{\partial V}{\partial p_2}}{\frac{\partial V}{\partial M}}=-(\frac{-  \frac{M^2}{4p_1 p_2 ^2}}{\frac{2M}{4p_1 p_2}})$
   
    $\implies x_2^* = \frac {M}{2p_2}$
   
