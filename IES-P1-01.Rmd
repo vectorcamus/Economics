@@ -89,22 +89,6 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
 
 ##### 2022
 
-1. A compensated demand curve ignores the income effect of a price change.It only measures the substitution effect. A compensated demand curve is therefore less elastic than an ordinary demand curve.
-   
-   as we know the compensated own price effect is negative . 
-   
-   $\frac{\partial h_i(p,u)}{\partial p_i}= \frac{\partial ^2 e(p,u)}{\partial p_i ^{2}} \leq 0$
-   
-   $\frac{\partial h_i(p,u)}{\partial p_i}= \frac {\partial x_i}{\partial p_i} -\frac{\partial x_i}{\partial I} \frac{\partial E}{\partial p_x}$
-   
-   multiplying both sides by $\frac {p_i}{x_i}$ we get,
-   
-   
-   $\frac{\partial h_i(p,u)}{\partial p_i} \frac {p_i}{x_i}= \frac {\partial x_i}{\partial p_i} -\frac{\partial x_i}{\partial I} \frac{\partial E}{\partial p_x} \frac {p_i}{x_i}$
-   
-   $\epsilon _{h_i,p_i}= \epsilon _{x_i,p_i} - \frac{\partial x_i}{\partial I} \frac{\partial E}{\partial p_i}$
-   
-   #unfinished draft
    
 2. The indirect utility function is
 
