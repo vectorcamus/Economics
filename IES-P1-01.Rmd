@@ -3,13 +3,17 @@ title: "Theory of Consumer's Demand"
 output: html_document
 ---
 
+
 **syllabus**
 
-Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium.
+Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium
 
-**past year questions.**
 
-### 2022
+
+
+#### Past year Questions {.tabset}
+
+##### 2022
 
 1. Show that the ordinary demand curve will have greater demand elasticity than the compensated demand curve.(5 Marks)
 
@@ -31,7 +35,7 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
    Derive the expenditure function of the consumer.
    ( 6 marks)
 
-4. Show that the elasticity of demand is same at all points on the demand curve:
+3. Show that the elasticity of demand is same at all points on the demand curve:
 
    $x=ap^{-\alpha}$
 
@@ -43,7 +47,7 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
    (5 marks)
 
 
-   consider the demand function of 2 goods $x_1$ and $x_2$ respectively.
+4. consider the demand function of 2 goods $x_1$ and $x_2$ respectively.
 
    $x_1=p_1 ^{-0.7} p_2 ^{0.2}$
 
@@ -54,7 +58,8 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
 
 
 
-#### 2021
+
+##### 2021
 
 1. Define homothetic preferences.explain the common characteristics of such preferences with help of necessary diagrams.(5 marks)
 
@@ -67,15 +72,66 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
    The budget of the consumer is 10000.the prices of good$x$ and $y$ are 50 nd 20 per unit respectively.Determine the possibility of determination of equilibrium basket in each case using comment and diagram on the nature of solution.(12 marks)
 
 
-#### 2020
+
+##### 2020
 
 1. The demand and supply functions are $P_D =(6-X)^2$ and $P_S =14+X$ respectively . Find the consumer surplus under pure competitive market.(5 marks)
+
 2. Derive slutsky equation and interpret it. (5 marks)
+
 3. Given the utility function as 
    $12y=36-x^2$
    and the budget line as 
    $M=12x+24y$
    Determine the utility maximizing basket of the two goods.(8 marks)
+   
+#### solutions {.tabset}
+
+##### 2022
+
+1. A compensated demand curve ignores the income effect of a price change.It only measures the substitution effect. A compensated demand curve is therefore less elastic than an ordinary demand curve.
+   
+   as we know the compensated own price effect is negative . 
+   
+   $\frac{\partial h_i(p,u)}{\partial p_i}= \frac{\partial ^2 e(p,u)}{\partial p_i ^{2}} \leq 0$
+   
+   $\frac{\partial h_i(p,u)}{\partial p_i}= \frac {\partial x_i}{\partial p_i} -\frac{\partial x_i}{\partial I} \frac{\partial E}{\partial p_x}$
+   
+   multiplying both sides by $\frac {p_i}{x_i}$ we get,
+   
+   
+   $\frac{\partial h_i(p,u)}{\partial p_i} \frac {p_i}{x_i}= \frac {\partial x_i}{\partial p_i} -\frac{\partial x_i}{\partial I} \frac{\partial E}{\partial p_x} \frac {p_i}{x_i}$
+   
+   $\epsilon _{h_i,p_i}= \epsilon _{x_i,p_i} - \frac{\partial x_i}{\partial I} \frac{\partial E}{\partial p_i}$
+   
+   #unfinished draft
+   
+2. The indirect utility function is
+
+   $V=\frac{M^2}{4p_1 p_2}$
+   
+   $\frac{\partial V}{\partial M}= \frac{2M}{4p_1 p_2}$
+   
+   and
+   
+   $\frac{\partial V}{\partial p_1}= - \frac{M^2}{4p_2 p_1 ^2}$
+   
+   from Roy's identity we get that 
+   
+   $x_1= \frac{(\frac{\partial V}{\partial p_1})}{(\frac{\partial V}{\partial M})}=\frac{- (\frac{M^2}{4p_2 p_1 ^2}){(\frac{2M}{4p_1 p_2})}}$
+   
+   $\implies x_1 =
+   
+   
+
+   
+   
+   
+
+
+##### 2021
+
+##### 2020
 
 
 
