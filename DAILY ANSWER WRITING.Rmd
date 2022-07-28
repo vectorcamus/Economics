@@ -3,12 +3,12 @@ title: "Daily answer writing"
 output: html_document
 ---
 
-|DAY|status|Question|DATE|TEST TOPIC|
-|---|---|---|---|---|
-|1|**active**|[Link](DT1.html)|28-july-2022|Cardinal utility analysis: marginal utility and demand, consumer surplus|
-|2|inactive||29-july-2022|indifference curve analysis and utility function|
-|3|inactive||30-july-2022|price, income and substitution effect, slutsky theorm and derivation of demand curve|
-|4|inactive||1-aug-2022|Revealed preference theory|
-|5|inactive||2-aug-2022|Duality and indirect utility function and expenditure function|
-|6|inactive||3-aug-2022|Choice under risk and uncertainty|
-|7|inactive||4-aug-2022|Simple games of complete information, Concept of Nash equilibrium|
+|DAY|status|Question|Submit|DATE|TEST TOPIC|
+|---|---|---|---|---|---|
+|1|**active**|[Link](DT1.html)|[submit your answer](https://forms.gle/oNJnpFAWfMyoNJTm6)|28-july-2022|Cardinal utility analysis: marginal utility and demand, consumer surplus|
+|2|inactive|||29-july-2022|indifference curve analysis and utility function|
+|3|inactive|||30-july-2022|price, income and substitution effect, slutsky theorm and derivation of demand curve|
+|4|inactive|||1-aug-2022|Revealed preference theory|
+|5|inactive|||2-aug-2022|Duality and indirect utility function and expenditure function|
+|6|inactive|||3-aug-2022|Choice under risk and uncertainty|
+|7|inactive|||4-aug-2022|Simple games of complete information, Concept of Nash equilibrium|
