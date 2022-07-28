@@ -1,7 +1,0 @@
----
-title: "Game theory"
-author: "dhananjaya"
-date: "7/22/2022"
-output: "html_document"
----
-draft
