@@ -1,7 +1,5 @@
 ---
 title: "Daily answer writing"
-author: "dhananjaya"
-date: "27/07/2022"
 output: html_document
 ---
 
