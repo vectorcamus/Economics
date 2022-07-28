@@ -13,8 +13,7 @@ Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, In
 
 1. Show that the ordinary demand curve will have greater demand elasticity than the compensated demand curve.(5 Marks)
 
-2. (a)Define the indirect utility function.
-Derive the indirect utility finction from the direct utity    function.
+2. (a)Define the indirect utility function.Derive the indirect utility finction from the direct utity    function.
    (6 marks)
 
    (b)consider the indirect utility function.

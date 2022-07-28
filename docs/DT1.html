@@ -9,10 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="dhananjaya" />
 
 
-<title>Econometrics</title>
+<title>Daily Test-001</title>
 
 <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -30,9 +29,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -222,69 +218,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -292,16 +225,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -354,19 +277,38 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Econometrics</h1>
-<h4 class="author">dhananjaya</h4>
-<h4 class="date">25/07/2022</h4>
+<h1 class="title toc-ignore">Daily Test-001</h1>
 
 </div>
 
 
-
-
-
-
+<p><strong>Numericals</strong> (120 words)</p>
+<ol style="list-style-type: decimal">
+<li><p>Consider a market with aggregate supply <span class="math inline">\(Q_S(p)=d+cp\)</span>, and aggregate demand <span class="math inline">\(Q_D(p)=a−bp\)</span> where <span class="math inline">\(a&gt;d\)</span>. Find consumer surplus . why must be the case that <span class="math inline">\(a&gt;d\)</span> ?</p></li>
+<li><p>Suppose the demand and supply for milk in the European Union (EU) is given by <span class="math inline">\(p = 120−0.7Q_d\)</span> and <span class="math inline">\(p = 3+0.2Q_s\)</span>. Find consumer surplus . If The European farmers successfully lobby for a price floor of <span class="math inline">\(\bar p = 36\)</span> cents per liter. what will be consumer surplus after this ? ( Price is in cents/liter and Quantity is in million of liters)</p></li>
+</ol>
+<p><strong>Short answers</strong> (50-100 words )</p>
+<ol style="list-style-type: decimal">
+<li><p>what will happen if we remove the assumption of constant marginal utility of money from cardinal utility analysis ?</p></li>
+<li><p>“Cardinal utility analysis is considered to be inconsistent with it’s own assumption.” Is above statement is true or false ? Give reason.</p></li>
+</ol>
+<p><strong>Long Answers</strong>( 200-250 words)</p>
+<ol style="list-style-type: decimal">
+<li><p>Explain marshall’s measure of consumer surplus ? How it is different from Hicksian measure of consumer surplus.</p></li>
+<li><p>State and explain smiliar asssumptions between cardinal and ordinal utility analysis.</p></li>
+</ol>
+<div id="references" class="section level4">
+<h4>References</h4>
+<ul>
+<li><em>Advance Economic theory , H.L. Ahuja</em></li>
+<li><em>Intermediate Microeconomics , A tool building approch , Samiran banerjee</em></li>
+<li><em>Intermediate Microeconomics , A step by step example ,Felix munoz garcia</em></li>
+</ul>
+<hr />
 </div>
-</div>
+
+
+
 
 </div>
 
@@ -399,35 +341,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
