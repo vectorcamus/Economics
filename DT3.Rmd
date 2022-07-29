@@ -1,0 +1,41 @@
+---
+title: "Daily Test-003"
+output: html_document
+---
+
+---
+
+
+1. Mariá's demand function for good $x$ is $x=\frac{5I}{\sqrt P_x}$ and 
+     her demand for good $y$ is $x=\frac{5I}{\sqrt P_y}$.
+     Find her price-consumption curve and interpret your results.
+     
+2. John's utility function is $u(x, y) = x^{\frac{1}{3}}y^{\frac{2}{3}}$  and his income is M= $150$, and the price of good $y$ is $p_y =1$. The price of good x decreases from $p_x =3$ to $p'_x =1$.  
+    Find income and substitution effects.
+    
+3. suppose that the demand for samosa (good x) can be expressed as $x = \frac{2M-M^2}{P_x}$ , where 
+    M is the consumers income , measured in 100000 $. for what values of M 
+    samosa is a normal good ?
+    
+4. Derive CV and EV using Hicksian demand . How it it is different from CV and EV derived from marshallian demand ?  Consider a consumer with the Cobb-Douglas utility $u(x, y) = xy$, an income of M = 100, and a normalized price of good y at $p_y$ =$1. What is the CV of a change in the price of $x$ from $p_x$ to $p'_x$.
+
+5. Consider a consumer with the Cobb-Douglas demand $u(x,y) = x \sqrt y$ , with income of  M = $100, and the price of good $y$ is normalized at $p_y$= $1. Calculate the EV of the change in price of good x from $p_x$ = $5 to $p'_x$ = $10.
+
+
+---
+
+#### Answers {.tabset .tabset-fade .tabset-pills}
+
+##### 1
+
+##### 2
+
+##### 3
+
+##### 4
+
+##### 5
+
+##### Refernces
+
+- Advance Microeconomics , Felix Munoz Garcia
