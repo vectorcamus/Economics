@@ -4,3 +4,6 @@ output: html_document
 ---
 
 [syllabus](syllabusies.html)
+
+
+[syllabus for cse economics optional ](cse-econ-optional-syllabus.html)
