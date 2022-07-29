@@ -12,19 +12,34 @@ output: html_document
 
 **Short answers** (50-100 words )
 
-1. what will happen if we remove the assumption of constant marginal utility of money from cardinal utility analysis ? 
+3. what will happen if we remove the assumption of constant marginal utility of money from cardinal utility analysis ? 
 
-2. "Cardinal  utility analysis is considered to be inconsistent with it's own assumption." Is above statement is true or false ? Give reason.
+4. "Cardinal  utility analysis is considered to be inconsistent with it's own assumption." Is above statement is true or false ? Give reason.
 
 **Long Answers** (200-250 words)
 
-1. Explain marshall's measure of consumer surplus ? How it is different from Hicksian measure of consumer surplus. 
+5. Explain marshall's measure of consumer surplus ? How it is different from Hicksian measure of consumer surplus. 
     
-2. State and explain smiliar asssumptions between cardinal and ordinal utility analysis. 
+6. State and explain smiliar asssumptions between cardinal and ordinal utility analysis. 
 
 
 
-**References**
+### Answers {.tabset .tabset-fade .tabset-pills}
+
+#### 1
+
+#### 2
+
+#### 3
+
+#### 4
+
+
+#### 5
+
+#### 6
+
+#### References
 
 - *Advance Economic theory , H.L. Ahuja*
 - *Intermediate Microeconomics , A tool building approch , Samiran banerjee*

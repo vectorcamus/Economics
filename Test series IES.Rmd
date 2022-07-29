@@ -20,6 +20,7 @@ output: html_document
 
 **Theory of Production**:Factors of production and production function. Forms of Production Functions: Cobb Douglas, CES and Fixed coefficient type, Translog production function. Laws of return, Returns to scale and Return to factors of production. Duality and cost function, Measures of productive efficiency of firms, technical and allocative efficiency. Partial Equilibrium versus General Equilibrium approach. Equilibrium of the firm and industry
 
+
 ---
 
 
