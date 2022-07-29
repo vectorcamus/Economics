@@ -27,7 +27,7 @@ output: html_document
     
     - $ax_1^2 bx_2 ^2$
     
-8. What is an utility function ?
+8. What is a utility function ?
 
 9. why indifference curve are not supposed to intersect each other ?
 
