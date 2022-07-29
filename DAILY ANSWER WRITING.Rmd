@@ -3,43 +3,195 @@ title: "Daily answer writing"
 output: html_document
 ---
 
-|DAY|status|Question|DATE|
-|---|---|---|---|
-|1|closed|[Link](DT1.html)|28-july-2022|
 
-Cardinal utility analysis: marginal utility and demand, consumer surplus
+---
 
-|DAY|status|Question|DATE|
-|---|---|---|---|
-|2|**active**|[Link](DT2.html)|29-july-2022|
+**Today's Test link** [29 th july 2022](DT2.html)
 
-indifference curve analysis and utility function
+**Archive**
 
-|DAY|status|Question|DATE|
-|---|---|---|---|
-|3|inactive||30-july-2022|
+# {.tabset .tabset-fade .tabset-pills}
 
-price, income and substitution effect, slutsky theorm and derivation of demand curve
+## syllabus wise {.tabset .tabset-fade .tabset-pills}
 
-|DAY|status|Question|DATE|
-|---|---|---|---|
-|4|inactive||1-aug-2022|
+### General Economics-I{.tabset .tabset-fade .tabset-pills}
 
-Revealed preference theory
+#### Theory of consumer demand 
+- [Cardinal utility analysis: marginal utility and demand, consumer surplus](DT1.html)
 
-|DAY|status|Question|DATE|
-|---|---|---|---|
-|5|inactive||2-aug-2022|
+- [indifference curve analysis and utility function](DT2.html)
 
-Duality and indirect utility function and expenditure function
+- price, income and substitution effect, slutsky theorm and derivation of demand curve
 
-|DAY|status|Question|DATE|
-|---|---|---|---|
-|6|inactive||3-aug-2022|
-Choice under risk and uncertainty
+- Revealed preference theory, Duality and indirect utility function and expenditure function
 
-|DAY|status|Question|DATE|
-|---|---|---|---|
-|7|inactive||4-aug-2022|
+- Choice under risk and uncertainty
 
-Simple games of complete information, Concept of Nash equilibrium
+- Simple games of complete information, Concept of Nash equilibrium
+
+#### Theory of Production:
+
+- Factors of production and production function. 
+
+- Forms of Production Functions: Cobb Douglas, CES and Fixed coefficient type, Translog production function. 
+
+- Laws of return, Returns to scale and Return to factors of production. 
+
+- Duality and cost function, Measures of productive efficiency of firms, technical and allocative efficiency.
+
+- Partial Equilibrium versus General Equilibrium approach. Equilibrium of the firm and industry.
+
+#### Theory of Value:
+
+- Pricing under different market structures, 
+
+- public sector pricing, marginal cost pricing, peak load pricing, cross-subsidy free pricing and average cost pricing. 
+
+- Marshallian and Walrasian stability analysis.
+
+- Pricing with incomplete information and moral hazard problems
+
+#### Theory of Distribution:
+
+- Neo classical distribution theories; Marginal productivity theory of determination of factor prices, Factor shares and adding up problems. 
+
+- Euler’s theorem, Pricing of factors under imperfect competition, monopoly and bilateral monopoly.
+
+- Macro-distribution theories of Ricardo, Marx, Kaldor, Kalecki.
+
+#### Welfare Economics:
+
+- Inter-personal comparison and aggression problem,
+
+- Public goods and externalities, 
+
+- Divergence between social and private welfare, compensation principle. 
+
+- Pareto optimality. Social choice and other recent schools, including Coase and Sen
+
+#### Mathematical Methods in Economics:
+
+Differentiation and Integration and their application in economics. Optimisation techniques, Sets, Matrices and their application in economics. Linear algebra and Linear programming in economics and Input-output model of Leontief.
+
+#### Statistical and Econometric Methods:
+
+- Measures of central tendency and dispersions, Correlation and Regression. 
+
+- Time series. 
+
+- Index numbers. 
+
+- Sampling of curves based on various linear and non-linear function. Least square methods and other multivariate analysis (only concepts and interpretation of results). 
+
+- Analysis of Variance, Factor analysis, Principle component analysis, Discriminant analysis. 
+
+- Income distribution: Pareto law of Distribution, longnormal distribution, measurement of income inequality. Lorenz curve and Gini coefficient. 
+
+- Univariate and multivariate regression analysis. Problems and remedies of Hetroscedasticity, Autocorrelation and Multicollnearity
+
+### General Economics-II{.tabset .tabset-fade .tabset-pills}
+
+#### Economic Thought:
+
+- Mercantilism 
+- Physiocrats
+- Classical
+- Marxist
+- Neo-classical
+- Keynesian 
+- Monetarist schools of thought
+
+#### Concept of National Income and Social Accounting:
+
+- Measurement of National Income, Inter relationship between three measures of national income in the presence of Government sector and International transactions. 
+- Environmental considerations, Green national income
+
+#### Theory of employment, Output, Inflation, Money and Finance:
+
+- The Classical theory of Employment and Output and Neo classical approaches. 
+
+- Equilibrium, analysis under classical and neo classical analysis. 
+
+- Keynesian theory of Employment and output. Post Keynesian developments. 
+
+- The inflationary gap; Demand pull versus cost push inflation, the Philip’s curve and its policy implication. Classical theory of Money, Quantity theory of Money. 
+
+- Friedman’s restatement of the quantity theory, the neutrality of money. The supply and demand for loanable funds and equilibrium in financial markets, Keynes’ theory on demand for money. 
+
+- IS-LM Model and AD-AS Model in Keynesian Theory.
+
+#### Financial and Capital Market:
+
+- Finance and economic development, financial markets, stock market, gift market, banking and insurance. Equity markets, Role of primary and secondary markets and efficiency, 
+
+- Derivatives markets; Future and options.
+
+#### Economic Growth and Development:
+
+- concepts of Economic Growth and Development and their measurement: characteristics of less developed countries and obstacles to their development – growth, poverty and income distribution. 
+
+- Theories of growth: Classical Approach: Adam Smith, Marx and Schumpeter- 
+
+- Neo classical approach; Robinson, Solow, Kaldor and Harrod Domar. 
+
+- Theories of Economic Development, Rostow, Rosenstein-Roden, Nurske, Hirschman, Leibenstien and Arthur Lewis, Amin and Frank (Dependency scool) respective role of state and the market. Utilitarian and Welfarist approach to social development and A.K. Sen’s critique. Sen’s capability approach to economic development. 
+
+- The Human Development Index. Physical quality of Life Index and Human Poverty Index. Basics of Endogenous Growth Theory.
+
+#### International Economics:
+
+- Gains from International Trade, Terms of Trade, policy, international trade and economic development- 
+
+- Theories of International Trade; Ricardo, Haberler, Heckscher- Ohlin and Stopler- Samuelson- Theory of Tariffs- 
+
+- Regional Trade Arrangements. Asian Financial Crisis of 1997, Global Financial Crisis of 2008 and Euro Zone Crisis- Causes and Impact
+
+#### Balance of Payments:
+
+- Disequilibrium in Balance of Payments, Mechanism of Adjustments, Foreign Trade Multiplier, Exchange Rates, Import and Exchange Controls and 14 Multiple Exchange Rates. 
+
+- IS-LM Model and Mundell- Fleming Model of Balance of Payments.
+
+#### Global Institutions:
+
+UN agencies dealing with economic aspects, role of Multilateral Development Bodies (MDBs), such as World Bank, IMF and WTO, Multinational Corporations. G-20.
+
+
+
+### General Economics-III{.tabset .tabset-fade .tabset-pills}
+
+### Indian Economy{.tabset}
+
+
+
+## Test wise
+
+|DT|DT|DT|DT|DT|DT|WT|
+|---|---|---|---|---|---|---|
+|[1](DT1.html)|[2](DT2.html)|3|4|5|6|WT1|
+|7|8|9|10|11|12|WT2|
+
+## Month wise {.tabset}
+
+### July
+
+|M|Tu|W|Th|F|Sa|S|
+|---|---|---|---|---|---|---|
+||||||1|2|
+|3|4|5|6|7|8|9|
+|10|11|12|13|14|15|16|
+|17|18|19|20|21|22|23|
+|24|25|26|[28](DT1.html)|[29](DT2.html)|30|31|
+
+
+### August
+
+|M|Tu|W|Th|F|Sa|S|
+|---|---|---|---|---|---|---|
+|1|2|3|4|5|6|7|
+|8|9|10|11|12|13|14|
+|15|16|17|18|19|20|21|
+|22|23|24|25|26|27|28|
+|29|30||||||
+
+
