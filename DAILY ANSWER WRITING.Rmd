@@ -24,7 +24,7 @@ output: html_document
 
 - [indifference curve analysis and utility function](DT2.html)
 
-- price, income and substitution effect, slutsky theorm and derivation of demand curve
+- [price, income and substitution effect, slutsky theorm and derivation of demand curve](DT3.html)
 
 - Revealed preference theory, Duality and indirect utility function and expenditure function
 
