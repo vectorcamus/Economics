@@ -17,6 +17,9 @@ output: html_document
 ### General Economics-I{.tabset .tabset-fade .tabset-pills}
 
 #### Theory of consumer demand 
+
+---
+
 - [Cardinal utility analysis: marginal utility and demand, consumer surplus](DT1.html)
 
 - [indifference curve analysis and utility function](DT2.html)
@@ -31,6 +34,8 @@ output: html_document
 
 #### Theory of Production:
 
+---
+
 - Factors of production and production function. 
 
 - Forms of Production Functions: Cobb Douglas, CES and Fixed coefficient type, Translog production function. 
@@ -43,6 +48,8 @@ output: html_document
 
 #### Theory of Value:
 
+---
+
 - Pricing under different market structures, 
 
 - public sector pricing, marginal cost pricing, peak load pricing, cross-subsidy free pricing and average cost pricing. 
@@ -53,6 +60,8 @@ output: html_document
 
 #### Theory of Distribution:
 
+---
+
 - Neo classical distribution theories; Marginal productivity theory of determination of factor prices, Factor shares and adding up problems. 
 
 - Euler’s theorem, Pricing of factors under imperfect competition, monopoly and bilateral monopoly.
@@ -60,6 +69,8 @@ output: html_document
 - Macro-distribution theories of Ricardo, Marx, Kaldor, Kalecki.
 
 #### Welfare Economics:
+
+---
 
 - Inter-personal comparison and aggression problem,
 
@@ -71,9 +82,13 @@ output: html_document
 
 #### Mathematical Methods in Economics:
 
+---
+
 Differentiation and Integration and their application in economics. Optimisation techniques, Sets, Matrices and their application in economics. Linear algebra and Linear programming in economics and Input-output model of Leontief.
 
 #### Statistical and Econometric Methods:
+
+---
 
 - Measures of central tendency and dispersions, Correlation and Regression. 
 
@@ -93,6 +108,8 @@ Differentiation and Integration and their application in economics. Optimisation
 
 #### Economic Thought:
 
+---
+
 - Mercantilism 
 - Physiocrats
 - Classical
@@ -103,10 +120,14 @@ Differentiation and Integration and their application in economics. Optimisation
 
 #### Concept of National Income and Social Accounting:
 
+---
+
 - Measurement of National Income, Inter relationship between three measures of national income in the presence of Government sector and International transactions. 
 - Environmental considerations, Green national income
 
 #### Theory of employment, Output, Inflation, Money and Finance:
+
+---
 
 - The Classical theory of Employment and Output and Neo classical approaches. 
 
@@ -122,11 +143,15 @@ Differentiation and Integration and their application in economics. Optimisation
 
 #### Financial and Capital Market:
 
+---
+
 - Finance and economic development, financial markets, stock market, gift market, banking and insurance. Equity markets, Role of primary and secondary markets and efficiency, 
 
 - Derivatives markets; Future and options.
 
 #### Economic Growth and Development:
+
+---
 
 - concepts of Economic Growth and Development and their measurement: characteristics of less developed countries and obstacles to their development – growth, poverty and income distribution. 
 
@@ -140,6 +165,8 @@ Differentiation and Integration and their application in economics. Optimisation
 
 #### International Economics:
 
+---
+
 - Gains from International Trade, Terms of Trade, policy, international trade and economic development- 
 
 - Theories of International Trade; Ricardo, Haberler, Heckscher- Ohlin and Stopler- Samuelson- Theory of Tariffs- 
@@ -148,11 +175,15 @@ Differentiation and Integration and their application in economics. Optimisation
 
 #### Balance of Payments:
 
+---
+
 - Disequilibrium in Balance of Payments, Mechanism of Adjustments, Foreign Trade Multiplier, Exchange Rates, Import and Exchange Controls and 14 Multiple Exchange Rates. 
 
 - IS-LM Model and Mundell- Fleming Model of Balance of Payments.
 
 #### Global Institutions:
+
+---
 
 UN agencies dealing with economic aspects, role of Multilateral Development Bodies (MDBs), such as World Bank, IMF and WTO, Multinational Corporations. G-20.
 
