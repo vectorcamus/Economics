@@ -38,7 +38,7 @@ output: html_document
 7. Consider a consumer with the Cobb-Douglas demand $u(x,y) = x \sqrt y$ , with income of  M = $100, and the price of good $y$ is normalized at $p_y$= $1. Calculate the EV of the change in price of good x from $p_x$ = $5 to $p'_x$ = $10.
 
 
-**Note- other questions will be covered in weekely test**
+**Note- other questions will be covered in weekly test**
 
 
 
