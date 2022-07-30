@@ -3,7 +3,43 @@ title: "Resources"
 output: html_document
 ---
 
-[syllabus](syllabusies.html)
+**syllabus**
+
+[ies syllabus](syllabusies.html)
 
 
 [syllabus for cse economics optional ](cse-econ-optional-syllabus.html)
+
+
+**sites**
+
+[Blog List IES+CSE]()
+
+[Blog List for economics + Research + Academics]()
+
+
+**Notebooks**
+
+[Evernote]()
+
+[One note]()
+
+[Notion+Obsedian]()
+
+[Github Repositories]()
+
+[drive]()
+
+[dropbox]()
+
+
+**Other sites**
+
+[wordpress]()
+
+[blogger]()
+
+[newsletters]()
+
+[google site]()
+
