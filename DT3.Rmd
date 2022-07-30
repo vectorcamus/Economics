@@ -12,28 +12,36 @@ output: html_document
      
 2. John's utility function is $u(x, y) = x^{\frac{1}{3}}y^{\frac{2}{3}}$  and his income is M= $150$, and the price of good $y$ is $p_y =1$. The price of good x decreases from $p_x =3$ to $p'_x =1$.  
     Find income and substitution effects.
+    
+3. Derive CV and EV using Hicksian demand . How it it is different from CV and EV derived from marshallian demand ?
 
 **Income elasticity**
 
-3. suppose that the demand for samosa (good x) can be expressed as $x = \frac{2M-M^2}{P_x}$ , where 
+4. suppose that the demand for samosa (good x) can be expressed as $x = \frac{2M-M^2}{P_x}$ , where 
     M is the consumers income , measured in 100000 $. for what values of M 
     samosa is a normal good ?
     
 **CV with general price change**
     
-4. Derive CV and EV using Hicksian demand . How it it is different from CV and EV derived from marshallian demand ?  Consider a consumer with the Cobb-Douglas utility $u(x, y) = xy$, an income of M = 100, and a normalized price of good y at $p_y$ =$1. What is the CV of a change in the price of $x$ from $p_x$ to $p'_x$ . for simplicity you can assume that $p_x=1$.
+5. Consider a consumer with the Cobb-Douglas utility $u(x, y) = xy$, an income of M = 100, and a normalized price of good y at $p_y$ =$1. What is the CV of a change in the price of $x$ from $p_x$ to $p'_x$ . for simplicity you can assume that $p_x=1$.
 
 **Giffen good**
 
-5. Suppose that you work in a hardware store in a community that is expecting a major hurricane in the next few days. To ration your plywood, you start to increase its price, but you find that with each price increase, more people seem to purchase your plywood. You begin to expect that your plywood may be a Gifen good.
+6. Suppose that you work in a hardware store in a community that is expecting a major hurricane in the next few days. To ration your plywood, you start to increase its price, but you find that with each price increase, more people seem to purchase your plywood. You begin to expect that your plywood may be a Gifen good.
 
-(a) Provide an argument why plywood is a Gifen good under these circumstances.
+(a) Provide an argument why plywood is a Giffen good under these circumstances.
 
 (b) Provide an alternative explanation for the increase in plywood sales.
 
 **EV with cobb dogulas demand**
 
-6. Consider a consumer with the Cobb-Douglas demand $u(x,y) = x \sqrt y$ , with income of  M = $100, and the price of good $y$ is normalized at $p_y$= $1. Calculate the EV of the change in price of good x from $p_x$ = $5 to $p'_x$ = $10.
+7. Consider a consumer with the Cobb-Douglas demand $u(x,y) = x \sqrt y$ , with income of  M = $100, and the price of good $y$ is normalized at $p_y$= $1. Calculate the EV of the change in price of good x from $p_x$ = $5 to $p'_x$ = $10.
+
+
+**Note- other questions will be covered in weekely test**
+
+
+
 
 
 
@@ -50,6 +58,10 @@ output: html_document
 ##### 4
 
 ##### 5
+
+##### 6
+
+##### 7
 
 ##### Refernces
 
