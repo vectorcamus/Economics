@@ -1,24 +1,65 @@
 ---
-title: "previous year solutions"
+title: "Previous year solutions"
 output: html_document
 ---
 
-year wise solution
 
-- [2022]()
-- [2021]()
-- [2020]()
-- [2019]()
-- [2018]()
-- [2017]()
-- [2016]()
-- [2015]()
-- [2014]()
 
-Sub Module  wise 
+---
 
-- [General economics-1]()
-- [General economics-2]()
-- [General economics-3]()
-- [Indian Economy]()
+
+##  {.tabset .tabset-fade .tabset-pills}
+
+### Year wise solution {.tabset .tabset-fade .tabset-pills}
+
+#### IES {.tabset .tabset-fade .tabset-pills}
+
+##### 2022
+##### 2021
+##### 2020
+##### 2019
+##### 2018
+##### 2017
+##### 2016
+##### 2015
+##### 2014
+
+#### CSE {.tabset  .tabset-fade  .tabset-pills}
+
+##### PAPER-I {.tabset  .tabset-fade  .tabset-pills}
+
+###### 2022
+###### 2021
+###### 2020
+###### 2019
+###### 2018
+###### 2017
+###### 2016
+###### 2015
+###### 2014
+
+##### PAPER-II {.tabset  .tabset-fade  .tabset-pills}
+
+
+###### 2022
+###### 2021
+###### 2020
+###### 2019
+###### 2018
+###### 2017
+###### 2016
+###### 2015
+###### 2014
+
+### Sub Module  wise {.tabset  .tabset-fade .tabset-pills}
+
+#### IES {.tabset  .tabset-fade  .tabset-pills}
+
+##### General economics-1
+##### General economics-2
+##### General economics-3
+##### Indian Economy
+
+
+#### CSE
 
