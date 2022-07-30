@@ -23,7 +23,7 @@ output: html_document
     
 **CV with general price change**
     
-5. Consider a consumer with the Cobb-Douglas utility $u(x, y) = xy$, and income of M = 100, and a normalized price of good y at $p_y$ =$1. What is the CV of a change in the price of $x$ from $p_x$ to $p'_x$ . for simplicity you can assume that $p_x=1$.
+5. Consider a consumer with the Cobb-Douglas utility $u(x, y) = xy$, an income of M = 100, and a normalized price of good y at $p_y$ =$1. What is the CV of a change in the price of $x$ from $p_x$ to $p'_x$ . for simplicity you can assume that $p_x=1$.
 
 **Giffen good**
 
