@@ -18,7 +18,8 @@ output: html_document
 
 6. what is the difference between quasi-concavity and strict quasi -concavity of utility functions ?
 
-**7. which of the following function satisfies convexity and strict convexity ?**
+7. which of the following function satisfies convexity and strict convexity ?
+
     - $ax_1 +bx_2$
     
     - $min(ax_1+bx_2)$
@@ -31,7 +32,7 @@ output: html_document
 
 9. why indifference curve are not supposed to intersect each other ?
 
-**10. If $U=-2x-3y$ ,  $P_x=0$ , $P_y=2$ and income =100 $ what will be the optimal bundle for the consumer ?**
+10. If $U=-2x-3y$ ,  $P_x=0$ , $P_y=2$ and income =100 $ what will be the optimal bundle for the consumer ?
 
 ### Answers {.tabset .tabset-fade .tabset-pills}
 
