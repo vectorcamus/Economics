@@ -8,7 +8,17 @@ navbar:
       menu:
       - text: "IES"
         href: "Test-series-IES.html"
-    - text: " Daily Answer writing "
+      - text: "CSE"
+        href: ""
+      - text: "DEPR"
+        href: ""
+    - text: "Entrance"
+      menu:
+      - text: "Post graduate"
+        href: ""
+      - text: "Graduate"
+        href: ""
+    - text: " Daily Answer writing (IES)"
       href: "DAILY-ANSWER-WRITING.html"
     - text: "PYQ solutions"
       href: "PYQIES.html"
