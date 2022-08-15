@@ -1,8 +1,0 @@
----
-title: "Statistics"
-author: "dhananjaya"
-date: "7/23/2022"
-output: html_document
----
-
-draft

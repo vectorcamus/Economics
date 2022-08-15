@@ -3,11 +3,6 @@ title: "Economics"
 output: html_document
 ---
 
+“When my information changes, I alter my conclusions. What do you do, sir?”
 
-
-**Test series**    
-
-[IES](Test-series-IES.html)  
-
-# site under construction
-
+― John Maynard Keynes
