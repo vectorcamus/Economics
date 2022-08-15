@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>syllabus</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    IES
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Test-series-IES.html">TEST SERIES</a>
+    </li>
+    <li>
+      <a href="DAILY-ANSWER-WRITING.html">Daily Answer writing</a>
+    </li>
+    <li>
+      <a href="PYQIES.html">PYQ solutions</a>
+    </li>
+    <li>
+      <a href="resources.html">Resources</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    SKILLS
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="">QGIS</a>
+    </li>
+    <li>
+      <a href="">R</a>
+    </li>
+    <li>
+      <a href="">Python</a>
+    </li>
+    <li>
+      <a href="">Julia</a>
+    </li>
+    <li>
+      <a href="">MySQL</a>
+    </li>
+  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">syllabus</h1>
+
+</div>
+
+
+<div id="ies" class="section level1">
+<h1>IES</h1>
+<hr />
+<div id="general-economics--i" class="section level4">
+<h4>General Economics -I</h4>
+<ol style="list-style-type: decimal">
+<li><strong>Theory of Consumer’s Demand</strong></li>
+</ol>
+<p>Cardinal utility Analysis: Marginal utility and demand, Consumer’s surplus, Indifference curve, Analysis and utility function, Price income and substitution effects, Slutsky theorem and derivation of demand curve, Revealed preference theory. Duality and indirect utility function and expenditure function, Choice under risk and uncertainty. Simple games of complete information, Concept of Nash equilibrium</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Theory of Production</strong>:</li>
+</ol>
+<p>Factors of production and production function. Forms of Production Functions: Cobb Douglas, CES and Fixed coefficient type, Translog production function. Laws of return, Returns to scale and Return to factors of production. Duality and cost function, Measures of productive efficiency of firms, technical and allocative efficiency. Partial Equilibrium versus General Equilibrium approach. Equilibrium of the firm and industry.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Theory of Value</strong>:</li>
+</ol>
+<p>Pricing under different market structures, public sector pricing, marginal cost pricing, peak load pricing, cross-subsidy free pricing and average cost pricing. Marshallian and Walrasian stability analysis. Pricing with incomplete information and moral hazard problems</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Theory of Distribution</strong>:</li>
+</ol>
+<p>Neo classical distribution theories; Marginal productivity theory of determination of factor prices, Factor shares and adding up problems. Euler’s theorem, Pricing of factors under imperfect competition, monopoly and bilateral monopoly. Macro- distribution theories of Ricardo, Marx, Kaldor, Kalecki.</p>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Welfare Economics</strong>:</li>
+</ol>
+<p>Inter-personal comparison and aggression problem, Public goods and externalities, Divergence between social and private welfare, compensation principle. Pareto optimality. Social choice and other recent schools, including Coase and Sen</p>
+<ol style="list-style-type: decimal">
+<li><strong>Mathematical Methods in Economics</strong>:</li>
+</ol>
+<p>Differentiation and Integration and their application in economics. Optimisation techniques, Sets, Matrices and their application in economics. Linear algebra and Linear programming in economics and Input-output model of Leontief.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Statistical and Econometric Methods</strong>:</li>
+</ol>
+<p>Measures of central tendency and dispersions, Correlation and Regression. Time series. Index numbers. Sampling of curves based on various linear and non-linear function. Least square methods and other multivariate analysis (only concepts and interpretation of results). Analysis of Variance, Factor analysis, Principle component analysis, Discriminant analysis. Income distribution: Pareto law of Distribution, longnormal distribution, measurement of income inequality. Lorenz curve and Gini coefficient. Univariate and multivariate regression analysis. Problems and remedies of Hetroscedasticity, Autocorrelation and Multicollnearity</p>
+<hr />
+</div>
+<div id="general-economics--ii" class="section level4">
+<h4>General Economics -II</h4>
+<ol style="list-style-type: decimal">
+<li><strong>Economic Thought</strong>:</li>
+</ol>
+<p>Mercantilism Physiocrats, Classical, Marxist, Neo-classical, Keynesian and Monetarist schools of thought</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Concept of National Income and Social Accounting</strong>:</li>
+</ol>
+<p>Measurement of National Income, Inter relationship between three measures of national income in the presence of Government sector and International transactions. Environmental considerations, Green national income</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Theory of employment, Output, Inflation, Money and Finance</strong>:</li>
+</ol>
+<p>The Classical theory of Employment and Output and Neo classical approaches. Equilibrium, analysis under classical and neo classical analysis. Keynesian theory of Employment and output. Post Keynesian developments. The inflationary gap; Demand pull versus cost push inflation, the Philip’s curve and its policy implication. Classical theory of Money, Quantity theory of Money. Friedman’s restatement of the quantity theory, the neutrality of money. The supply and demand for loanable funds and equilibrium in financial markets, Keynes’ theory on demand for money. IS-LM Model and AD-AS Model in Keynesian Theory.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Financial and Capital Market</strong>:</li>
+</ol>
+<p>Finance and economic development, financial markets, stock market, gift market, banking and insurance. Equity markets, Role of primary and secondary markets and efficiency, Derivatives markets; Future and options.</p>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Economic Growth and Development</strong>:</li>
+</ol>
+<p>concepts of Economic Growth and Development and their measurement: characteristics of less developed countries and obstacles to their development – growth, poverty and income distribution. Theories of growth: Classical Approach: Adam Smith, Marx and Schumpeter- Neo classical approach; Robinson, Solow, Kaldor and Harrod Domar. Theories of Economic Development, Rostow, Rosenstein-Roden, Nurske, Hirschman, Leibenstien and Arthur Lewis, Amin and Frank (Dependency scool) respective role of state and the market. Utilitarian and Welfarist approach to social development and A.K. Sen’s critique. Sen’s capability approach to economic development. The Human Development Index. Physical quality of Life Index and Human Poverty Index. Basics of Endogenous Growth Theory.</p>
+<ol start="6" style="list-style-type: decimal">
+<li><strong>International Economics</strong>:</li>
+</ol>
+<p>Gains from International Trade, Terms of Trade, policy, international trade and economic development- Theories of International Trade; Ricardo, Haberler, Heckscher- Ohlin and Stopler- Samuelson- Theory of Tariffs- Regional Trade Arrangements. Asian Financial Crisis of 1997, Global Financial Crisis of 2008 and Euro Zone Crisis- Causes and Impact</p>
+<ol start="7" style="list-style-type: decimal">
+<li><strong>Balance of Payments</strong>:</li>
+</ol>
+<p>Disequilibrium in Balance of Payments, Mechanism of Adjustments, Foreign Trade Multiplier, Exchange Rates, Import and Exchange Controls and 14 Multiple Exchange Rates. IS-LM Model and Mundell- Fleming Model of Balance of Payments.</p>
+<ol start="8" style="list-style-type: decimal">
+<li><strong>Global Institutions</strong>:</li>
+</ol>
+<p>UN agencies dealing with economic aspects, role of Multilateral Development Bodies (MDBs), such as World Bank, IMF and WTO, Multinational Corporations. G-20.</p>
+<hr />
+</div>
+<div id="general-economics--iii" class="section level4">
+<h4>General Economics -III</h4>
+<ol style="list-style-type: decimal">
+<li><strong>Public Finance</strong>—</li>
+</ol>
+<p>Theories of taxation: Optimal taxes and tax reforms, incidence of taxation. Theories of public expenditure: objectives and effects of public expenditure, public expenditure policy and social cost benefit analysis, criteria of public investment decisions, social rate of discount, shadow prices of investment, unskilled labour and foreign exchange. Budgetary deficits. Theory of public debt management.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Environmental Economics</strong>—</li>
+</ol>
+<p>Environmentally sustainable development, Rio process 1992 to 2012, Green GDP, UN Methodology of Integrated Environmental and Economic Accounting. Environmental Values: Users and non-users values, option value. Valuation Methods : Stated and revealed preference methods. Design of Environmental Policy Instruments: Pollution taxes and pollution permits, collective action and informal regulation by local communities. Theories of exhaustible and renewable resources. International environmental agreements, RIO Conventions. Climatic change problems. Kyoto protocol, UNFCC, Bali Action Plan, Agreements up to 2017, tradable permits and carbon taxes. Carbon Markets and Market Mechanisms. Climate Change Finance and Green Climate Fund.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Industrial Economics</strong> —</li>
+</ol>
+<p>Market structure, conduct and performance of firms, product differentiation and market concentration, monopolistic price theory and oligopolistic interdependence and pricing, entry preventing pricing, micro level investment decisions and the behaviour of firms, research and development and innovation, market structure and profitability, public policy and development of firms</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>State, Market and Planning</strong>—</li>
+</ol>
+<p>Planning in a developing economy. Planning regulation and market. Indicative planning. Decentralised planning.</p>
+<hr />
+</div>
+<div id="indian-economy" class="section level4">
+<h4>Indian Economy</h4>
+<ol style="list-style-type: decimal">
+<li><strong>History of development and planning</strong>—</li>
+</ol>
+<p>Alternative development strategies—goal of self-reliance based on import substitution and protection, the post-1991 globalisation strategies based on stabilization and structural adjustment packages: fiscal reforms, financial sector reforms and trade reforms.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Federal Finance</strong>—</li>
+</ol>
+<p>Constitutional provisions relating to fiscal and financial powers of the States, Finance Commissions and their formulae for sharing taxes, Financial aspect of Sarkaria Commission Report, financial aspects of 73rd and 74th Constitutional Amendments</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Budgeting and Fiscal Policy</strong>—</li>
+</ol>
+<p>Tax, expenditure, budgetary deficits, pension and fiscal reforms, Public debt management and reforms, Fiscal Responsibility and Budget Management (FRBM) Act, Black money and Parallel economy in India—definition, estimates, genesis, consequences and remedies.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Poverty, Unemployment and Human Development</strong>—</li>
+</ol>
+<p>Estimates of inequality and poverty measures for India, appraisal of Government measures, India’s human development record in global perspective. India’s population policy and development.</p>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Agriculture and Rural Development Strategies</strong>—</li>
+</ol>
+<p>Technologies and institutions, land relations and land reforms, rural credit, modern farm inputs and marketing— price policy and subsidies; commercialisation and diversification. Rural development programmes including poverty alleviation programmes, development of economic and social infrastructure and New Rural Employment Guarantee Scheme</p>
+<ol start="6" style="list-style-type: decimal">
+<li><strong>India’s experience with Urbanisation and Migration</strong>—</li>
+</ol>
+<p>Different types of migratory flows and their impact on the economies of their origin and destination, the process of growth of urban settlements; urban development strategies.</p>
+<ol start="7" style="list-style-type: decimal">
+<li><strong>Industry</strong>:</li>
+</ol>
+<p>Strategy of industrial development— Industrial Policy Reform; Reservation Policy relating to small scale industries. Competition policy, Sources of industrial finances. Bank, share market, insurance companies, pension funds, non-banking sources and foreign direct investment, role of foreign capital for direct investment and portfolio investment, Public sector reform, privatisation and disinvestment.</p>
+<ol start="8" style="list-style-type: decimal">
+<li><strong>Labour</strong>—</li>
+</ol>
+<p>Employment, unemployment and underemployment, industrial relations and labour welfare— strategies for employment generation—Urban labour market and informal sector employment, Report of National Commission on Labour, Social issues relating to labour e.g. Child Labour, Bonded Labour International Labour Standard and its impact.</p>
+<ol start="9" style="list-style-type: decimal">
+<li><strong>Foreign trade</strong>—</li>
+</ol>
+<p>Salient features of India’s foreign trade, composition, direction and organisation of trade, recent changes in trade, balance of payments, tariff policy, exchange rate, India and WTO requirements. Bilateral Trade Agreements and their implications.</p>
+<ol start="10" style="list-style-type: decimal">
+<li><strong>Inflation</strong>—</li>
+</ol>
+<p>Definition, trends, estimates, consequences and remedies (control): Wholesale Price Index. Consumer Price Index: components and trends.</p>
+<hr />
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
