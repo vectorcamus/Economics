@@ -3,9 +3,9 @@ navbar:
   title: "Home"
   left:
     - text: "Blog"
-      href:""
+      href: ""
     - text: "Github"
-      href:""
+      href: ""
     - text: "IES"
       menu:
       - text: "TEST SERIES"
