@@ -2,6 +2,10 @@ name: "Economics"
 navbar:
   title: "Home"
   left:
+    - text: "Blog"
+      href:""
+    - text: "Github"
+      href:""
     - text: "IES"
       menu:
       - text: "TEST SERIES"
@@ -24,4 +28,12 @@ navbar:
         href: ""
       - text: "MySQL"
         href: ""
+   - text: "Note book"
+      menu:
+      - text: "Jupyter"
+        href: 
+      - text: "R Notebook"
+        href: 
+      - text: "Others"
+        href: 
 output_dir: "docs"
