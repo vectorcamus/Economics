@@ -28,12 +28,12 @@ navbar:
         href: ""
       - text: "MySQL"
         href: ""
-   - text: "Note book"
+    - text: "Note book"
       menu:
       - text: "Jupyter"
-        href: 
+        href: ""
       - text: "R Notebook"
-        href: 
+        href: ""
       - text: "Others"
-        href: 
+        href: ""
 output_dir: "docs"
