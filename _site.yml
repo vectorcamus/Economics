@@ -28,7 +28,7 @@ navbar:
         href: ""
       - text: "MySQL"
         href: ""
-    - text: "Note book"
+    - text:  "Note book"
       menu:
       - text: "Jupyter"
         href: ""
