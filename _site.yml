@@ -36,4 +36,6 @@ navbar:
         href: ""
       - text: "Others"
         href: ""
+      - text: "draft"
+        Href: ""
 output_dir: "docs"
