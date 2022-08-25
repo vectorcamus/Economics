@@ -1,0 +1,45 @@
+---
+title: "cv"
+output: html_document
+---
+
+Name : Dhananjaya Pradhan
+
+Email:  vectorhistory1@gmail.com  
+
+Phone: +91 9078843031
+
+
+**Educational Qualification** 
+
+B.A. Economics , Ravenshaw University , Odisha, 2016-20, 61.84 %
+
+**Language Known** 
+
+- English 
+- Hindi
+- Odia & Sambalpuri(Mother tongue)
+- Braille (Elementary)
+
+
+**Skills**
+
+- R
+- MySQL
+- QGIS 
+- STATA
+- Python
+- Julia
+- Gretel
+
+**Other skills**
+
+- Quantitative sociology 
+- Econometrics
+- Microsoft Office & Keynote
+- Github, API
+
+
+**Non-professional Experience**
+
+- Teaching (children aged 5-12 in slum areas of Cuttack for 18 months)

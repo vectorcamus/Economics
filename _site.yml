@@ -35,7 +35,8 @@ navbar:
       - text: "R Notebook"
         href: ""
       - text: "Others"
-        href: ""
-      - text: "draft"
-        Href: ""
+        href: "pea-2021.html"
+    - text: "About"
+      href: "cv.html"
 output_dir: "docs"
+

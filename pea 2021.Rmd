@@ -1,0 +1,158 @@
+---
+title: "isi pea 2021"
+output: html_document
+---
+
+## 1. 
+
+If the nth partial sum of the series $\sum_{n=1}^{\infty} a_n$ is $s_n =\frac{2n^2 +2}{3n^2+1}$ then $\sum_{n=1}^{\infty} a_n$ is 
+
+- 0
+- divergent
+- $\frac{2}{3}$
+- $\frac{3}{2}$
+
+---
+
+>- check divergence 
+>- 
+>- $s_n =\frac{4n}{6n}$
+>- $s_n =\frac{4}{6}$ 
+>- $s_n =\frac{2}{3}$  
+>- The $s_n$ converges to value $\frac{2}{3}$
+>- Suggested resources [Paul maths e.g. 6](https://tutorial.math.lamar.edu/Classes/CalcII/RatioTest.aspx)
+
+
+
+## 2. 
+Using data from a sample of sizen, the intercept and slope coefficients from an ordinary least squares regression of y on x, are a and b respectively. Which of the following is false?
+
+- $\sum_{i=1}^{n} (y_i−a−bx_i)x_i= 0$
+
+- $\frac{1}{n} \sum_{i=1}^{n} y_i=a+\frac{b}{n}\sum_{i=1}^n x_i$
+
+-  a and b are the solution to $min_{α,β} \sum_{i=1}^{n} (y_i -\alpha-\beta x_i)^2 =0$
+
+- a and b are the solution to $min_{α,β} \sum_{i=1}^{n} |y_i -\alpha-\beta x_i| =0$ 
+
+---
+
+- $\sum_{i=1}^{n} (y_i−a−bx_i)x_i$
+
+$=\sum_{i=1}^{n} (y_i−a−bx_i)x_i$
+
+$=\sum_{i=1}^{n} (y_i x_i-ax_i-bx_i^2)$
+
+$=n\bar y \bar x-na\bar x-b\sum_{i=1}^n x_i^2)$
+
+$\neq 0$
+
+- $\frac{1}{n} \sum_{i=1}^{n} y_i=a+\frac{b}{n}\sum_{i=1}^n x_i$
+
+as we know $y_i=a+bx_i$
+
+$\sum y_i=\sum(a+bx_i)$
+
+$\frac{1}{n} \sum y_i=\frac{1}{n} \sum (a+bx_i)= \frac{1}{n} (na+b\sum x_i)= a+\frac{b}{n}\sum x_i$
+
+- a and b are coefficients , they are not likely to be solution.
+
+## 3. 
+Consider a production function z= 2x+ 3y. For what price ratio $\frac{p_x}{p_y}$ ,will a corner solution in y, i.e. (x= 0) be possible, if the objective is to minimize the cost of producing a given positive quantit of $z_o$  of z ?
+
+- $\frac{p_x}{p_y}= \frac{2}{3}$
+- $\frac{p_x}{p_y} \geq \frac{2}{3}$
+- $\frac{p_x}{p_y}< \frac{2}{3}$
+- $\frac{p_x}{p_y} \leq \frac{2}{3}$
+
+## 4. 
+A number is chosen randomly from the first billion natural numbers. The probability that the product of the number with its two immediate successors is divisible by 24 is closest to
+
+- $\frac{1}{2}$
+- $\frac{3}{4}$
+- $\frac{5}{8}$
+- $\frac{2}{3}$
+
+
+## 5. 
+Each of the four entries of a $2 \times 2$ matrix is filled by independently  choosing either 1 or −1 uniformly at random. What is the probablity that the matrix is singular?
+
+- $\frac{1}{16}$
+- $\frac{1}{4}$
+- $\frac{1}{2}$ 
+- $\frac{1}{3}$
+
+
+## 6. 
+We need to fill a $3 \times 3$ matrix by either 0 or 1 such that each row has exactly one 0 and each column has exactly one 0. The number of ways we can do this is
+
+- 8
+- 6
+- 4
+- 2
+
+## 7. 
+Let $f: [0,1] → R$ be a convex function with $f(0) = 0. Which of the following is always true for f?
+
+
+- f is differentiable
+- f may not be differentiable but it is continuous
+- $f(x) \geq xf′(x)$ for all x∈[0,1] if f is differentiable
+- none of the above
+
+## 8. 
+If $f:R→R$ is strictly quasi-concave, then it follows that
+
+- f is not strictly convex
+- f is not linear
+- f is monotonic
+- if f is quadratic, then the coefficient of $x^2 ≤ 0$
+
+## 9. 
+The rank of the matrix 
+
+
+$$
+\left(\begin{array}{cc} 
+2 & 1 & 0\\
+1 & 2 & -1\\
+-1 & 1 & 1
+\end{array}\right)
+$$
+
+- 0
+- 1
+- 2
+- 3
+
+
+## 10. 
+Let V be the vector space of polynomials p(x) of degree less than or equal to 2 that have real coefficients. Then T is a linear transformation from V to V if T is defined by
+
+
+- $T(p(x)) =x+p(x)$
+- $T(p(x)) =xp(x)$
+- $T(p(x)) =\frac{dp(x)}{dx}$
+- $T(p(x)) =\int p(x)dx$  where the constant of integration is taken to be zero.
+
+## 11. 
+X is a random variable that can take values only in [0,10].  $P(X >5)≤\frac{2}{5}$ and $P(X < 1) \leq \frac{1}{2}$. Then
+
+- E(X)≥ 1
+
+- E(X)≤ 5
+- E(X)≥ 0 .5 and E(X)≤ 8. 5
+- None of the above is true
+
+## 12. 
+Given data (− 1 ,1),(0,0),(1,1) on (x,y), the standard deviations of x and y and the correlation coefficient of x and y are respectively
+
+
+- $\sigma_x = \frac{\sqrt 2}{\sqrt 3}$ ,  $\sigma_y =\frac{\sqrt 2}{3}$  r=0
+
+- $\sigma_x = \frac{2}{3}$ ,  $\sigma_y =\frac{2}{9}$  r=0
+
+- $\sigma_x = 0$ ,  $\sigma_y =0$  r=undefined
+- None of the above 
+
+```
