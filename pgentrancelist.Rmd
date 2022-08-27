@@ -4,4 +4,65 @@ output: html_document
 ---
 
 
-1. [isi msqe](ISI-MSQE.html)
+
+[Academic guide to Economics in india and abroad]()
+
+**RESOURCES, PYQ SOLUTIONS & PRACTICE QUESTIONS**
+
+MASTERS 
+
+ECONOMICS
+
+1. [ISI MSQE](ISI-MSQE.html)
+2. [DSE]()
+3. [IGIDR]()
+4. [JNU, UOH,CUET PG]()
+5. [CDS]()
+6. [TERI SAS]()
+6. [SAU]()
+7. [IIFT]()
+8. [IIT JAM]()
+9. [ASHOKA]()
+10. [SNU]()
+
+DEVELOPMENT STUDIES
+
+1. [IIT G]()
+2. [JNU CUET LABOUR STUDIES]()
+3. [TISS]()
+4. [IIT MANDI]()
+5. [IIT H]()
+
+
+
+
+
+PH.D ([READ ABOUT JRF AND NON JRF PATHS]())
+
+1. [ISI JRF]()
+2. [UGC JRF]()
+3. [IIM B TEST]()
+4. [CDS]()
+
+QUALIFYING EXAMS
+
+1. [GATE]()
+2. [IES]()
+3. [RBI DEPR]()
+4. [CSE ECONOMICS]()
+
+SUGGESTIONS
+
+1. [GRE]()
+2. [TOEFL]()
+5. [STATE ECONOMICS SERVICES]()
+
+
+IMPORTANT 
+
+1. [INTERNSHIPS]()
+2. [RESEARCH ASSISTANT]()
+
+
+
+
