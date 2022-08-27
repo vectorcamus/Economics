@@ -79,7 +79,7 @@ list
 3. abel and bernake
 4. froyen
 
-you can refer this [recommendation]() for which book you can choose.
+you can refer this [recommendation](listmathstat.html) for which book you can choose.
 
 Btw there is always internet.
 

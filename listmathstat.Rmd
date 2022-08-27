@@ -1,0 +1,8 @@
+---
+title: "list"
+output: html_document
+---
+
+|Topic|Concept  |MCQ|
+|---|---|---|
+|Binomial theorm|||
