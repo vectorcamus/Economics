@@ -1,0 +1,29 @@
+---
+title: "blog & newsletters"
+author: "dhananjaya"
+date: "27/08/2022"
+output: html_document
+---
+
+
+1. [wordpress]()
+2. [medium]()
+3. [blogger]()
+
+
+Newsletters
+
+1. [stck.me]()
+2. [substack]()
+
+Accounts
+
+1. [twitter]()
+2. [Researcher]()
+3. [Academia]()
+4. [Studocu]()
+5. [Stack exchange]()
+6. [Github]()
+
+
+

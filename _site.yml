@@ -6,17 +6,17 @@ navbar:
       menu:
       - text: "QGIS"
         href: "QGIS.html"
-      - text: "R"
-        href: "R.html"
-      - text: "Python"
-        href: "python.html"
-      - text: "Julia"
-        href: "julia.html"
-      - text: "Using API"
-        href: ""
-    - text: "Entrance"
-      href: "pgentrancelist.html"
+    - text: "Open source"
+      menu:
+      - text: "Entrance"
+        href: "entrance.html"
     - text: "About"
-      href: "cv.html"
+      menu:
+      - text: "cv"
+        href: "cv.html"
+      - text: "Notebook"
+        href: "notebook.html"
+      - text: "Blog & Newslettes"
+        href: "blog.html"
 output_dir: "docs"
 
