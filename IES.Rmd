@@ -1,0 +1,35 @@
+---
+title: "IES"
+output: html_document
+---
+
+
+# {.tabset .tabset-fade}
+
+## PYQ solutions
+
+- [2022]()
+- [2021]()
+- [2020]()
+- [2019]()
+- [2018]()
+- [2017]()
+- [2016]()
+- [2015]()
+- [2014]()
+
+
+## Daily test 
+
+- [TEST-1](DT1.html)
+- [TEST-2](DT2.html)
+- [TEST-3](DT3.html)
+- [TEST-4](DT4.html)
+
+
+
+## Weekely test
+
+- [TEST-1](IES-P1-01.html)
+
+

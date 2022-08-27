@@ -1,9 +1,8 @@
 ---
 title: "Entrance"
-author: "dhananjaya"
-date: "27/08/2022"
 output: html_document
 ---
 
 
 1. [ISI MSQE](ISI-MSQE.html)
+2. [IES](IES.html)

@@ -1,12 +1,4 @@
 ---
-title: "notebook"
+title: "Notebook"
 output: html_document
 ---
-
-1. [notion]()
-2. [obsidian]()
-3. [one note]()
-4. [Roam researcher]()
-5. [Evernote]()
-6. [samsung notes]()
-7. [Paper based drive]()
