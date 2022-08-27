@@ -11,39 +11,44 @@ draft
 
 2. PYQ solutions [Econschool](https://www.econschool.in/resources/past-year-exams)
 
-3. Books
 
 **Microeconomics**
 
-Look at the question paper. Everyhing more or less an Intermediate level optimization problem with sound  economic logic. You need to know optimal consumption bundle, production bundle, properties of market and respective equilibrium, game theory solution, optimal wages and allocation as well as general equilibrium.
+Look at the question paper. Everything is more or less an Intermediate level optimization problem with sound  economic logic. You need to know optimal consumption , production , properties of market equilibrium, game theory , optimal wages ,endowment as well as general equilibrium.
 
-for basic production you can refer [osborne utoronto](https://www.economics.utoronto.ca/osborne/2x3/tutorial/index.html)
+for basic production you can refer [osborne university_of _toronto](https://www.economics.utoronto.ca/osborne/2x3/tutorial/index.html)
 
-You can read hal varian and snyder nicholson. This is the traditional combination. But Hal varian itseld does not have numericals. I t has a test bank and workbook. You can do it selectively as most of us do not have time to solve all the question.snyder nicholson can be read and end each chapter exercise are helpful both for pea and peb perspective.
+You can read hal varian and snyder, nicholson. This is the traditional combination. But Hal varian itself does not have numericals. It has a [test bank]() and [workbook](). You can do it selectively as most of us do not have time to solve all the question.snyder nicholson end chapter exercise are helpful both for pea and peb perspective.
 
-but there are 2 books which works as a nice alternative and have integrated combination  theory and numericals.
+but there are 2 books which works as a nice alternative and have integrated combination  of theory and numerical.
 
-i. Intermediate microeconomics by samiran banerjee, a tool building approch.
-2. Intermediate micro by garcia 
-
-
-just look at the books approch.
-
-samiran banerjee chapter 2 has a portion called non competitive budget. read that. in garcia book you will know how to find income and substitution effect.
-
-special mention- amit goyals [you tube playlist](https://www.youtube.com/c/AmitGoyal-econschool/playlists) on i. demand and ii.general equilibrium iii.solved problems iv.convxity
+i. Intermediate microeconomics by samiran banerjee, a tool building approach.
+2. Intermediate micro a step by step guide by garcia 
 
 
-There are other 2 channels if you have time or if you want a video approch for numerical solution
+just look at the bookss you will know.
 
-- [economicurtis](https://www.youtube.com/c/economicurtis/playlists)
+samiran banerjee chapter 2 has a portion called non competitive budget. read that. in garcia book you will know how to find income and substitution effect and intersting utility functions.
+
+special mention- amit goyals [you tube playlist](https://www.youtube.com/c/AmitGoyal-econschool/playlists) on 
+
+i. demand 
+ii. general equilibrium 
+iii. solved problems 
+iv. convxity
+
+
+if you want a video approach for numerical solution browse videos of these channels.
+
+i. [economicurtis](https://www.youtube.com/c/economicurtis/playlists)
 
 
 other thing you can follow
+
 i. economics stack exchange.
 ii. amit goyals quora page on microeconomics solution. He is also in economics stack exchange.
 
-if you want to solve further general equilibrim question and more difficult problems you can refer foreign university pages. They provid egood problem set. These problem sets are more or less copied by coaching institutes in india . If you ever take coaching you will realize that either many peb practice  questions are either from [mit ocw] or [problems sets by professors]
+if you want to solve further general equilibrim question and more difficult problems you can refer foreign university pages. They provide good problem sets. These problem sets are more or less copied by coaching institutes in India . If you ever take coaching you will realize that many peb practice  questions are either from [mit ocw]() or [problems sets by professors]()
 
 try this problem set by [mawalker](http://www.u.arizona.edu/~mwalker/Exercises/)
 
@@ -52,39 +57,38 @@ there are some question comes from hecksher olhin theory and trade models. use t
 
 some problem sets for trade model [alander 441](http://www-personal.umich.edu/~alandear/courses/441/ps/) . solve problem set 2 and 3 only.
 
-But let assume you do not understand much of economics but you are interested. Then try this book out .[core econ]
+But let assume you do not understand much of economics but you are interested. Then try this book out .[core econ]()
 
 
 **Macroeconomics**
 
-They are asking basic question. Solow model seems to be their favrouit question
+They are asking basic question. Solow model seems to be their favorite question
 
 Try to read directly these two if you have already read froyen/makiw/blanchard
 
 - [ucla 102](https://fgeerolf.com/econ102/) (If you like maths)
 - [george lukynov](https://sites.google.com/view/glukyanov/teaching)
 
-Then you can read any of one book. One book may not have all the chapters so you can just use other book to read that chapter. I am saying this becasue nobody has time to reasd everything.
+Then you can read any of one book. One book may not have all the chapters so you can just use other book to read that chapter. I am saying this because nobody has time to read everything.
 
 list
+
 1. dornbush and fisher
 2. mankiw adavnce macro
 3. abel and bernake
 4. froyen
 
-you can refere this recoomandation for which book you can choose.
+you can refer this [recommendation]() for which book you can choose.
 
-Btw there is alwasy intnret.
+Btw there is always internet.
 
-other problems sets
-- [mit ocw]()
 
 
 **Mathematics and statistics**
 
 
 
-reading alpha chaoing once helps. especially th eoptimization
+Reading alpha chiang once helps. especially the chapter on  optimization
 
 This is the portion you can use online reference extensively.
 
@@ -98,7 +102,7 @@ some indicative list topic wise
 
 for statistics
 
-you can read freunds mathematical statistics and sheldon ross probabilty. 
+you can read freund's mathematical statistics and sheldon ross probabilty. 
 
 3. https://ocw.mit.edu/courses/14-30-introduction-to-statistical-methods-in-economics-spring-2009/pages/assignments/
 4. https://ocw.mit.edu/courses/14-30-introduction-to-statistical-method-in-economics-spring-2006/pages/assignments/
@@ -109,12 +113,12 @@ you can read freunds mathematical statistics and sheldon ross probabilty.
 9. https://bookdown.org/lgpcappiello/IntroStats/
 
 
-for econometics part simply solve [gujrato porter gunasekhar ](). For that you have to read the book
+for econometrics part simply solve [gujrati porter gunasekhar ](). For that you have to read the book. solve end chapter exercise and mcq. 
 
 
 
 
-Now if you want to practice mcq ?( everything is not isi type question but you will able to check your knowlwdge on economics)
+Now if you want to practice mcq ?everything is not isi type question but you will able to check your knowledge on economics
 
 list
 
@@ -126,18 +130,8 @@ Basic MCQ for PEA
 5. https://wps.pearsoned.ca/ca_aw_abel_macro_6/214/54870/14046834.cw/index.html
 6. https://wps.pearsoned.co.uk/ema_uk_he_howells_econmoney_4/98/25261/6466832.cw/index.html
 
- i have personally made/collected 20-30 important questions for each topic. You can try [here]()
+i have personally made/collected 20-30 important questions for each topic. You can try [here]()
  
  
- Above list is indiactive. You can make your own list. Internet has so many websites. At the end of day if youno  and cans olve problems at stipulated time wthan that is all that matters.
+Above list is indicative. You can make your own list. Internet has so many websites.
  
- DSE
- - SOLVE previous year questions
- 
- 
- JNU 
- 
- Before jnu cuet happend i gave jnu entranc etwice. 
- in 2019 i qulified for world economy. in 2020 i qualified for ma economics. Although i m  a jnu dropout i still have some credibility to say little thigs about entrance.
-
-

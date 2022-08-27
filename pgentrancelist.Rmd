@@ -1,7 +1,5 @@
 ---
-title: "Post graduate Entrance list"
-author: "dhananjaya"
-date: "25/08/2022"
+title: "Entrance"
 output: html_document
 ---
 
