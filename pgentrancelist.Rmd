@@ -1,0 +1,9 @@
+---
+title: "Post graduate Entrance list"
+author: "dhananjaya"
+date: "25/08/2022"
+output: html_document
+---
+
+
+1. [isi msqe](ISI-MSQE.html)

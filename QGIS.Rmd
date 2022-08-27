@@ -1,0 +1,58 @@
+---
+title: "QGIS"
+author: "dhananjaya"
+date: "25/08/2022"
+output: html_document
+---
+
+1. [examples of what you can do with qgis]()
+2. [basic interface]() [basics of crs system and map projection]()
+- [layers]()
+- [raster]()
+- [plugins]()
+3. [How to add files]() ? [what kind of file you can upload]()
+
+
+Insted of telling you how to do qgis. lets directly jump into some project and problems. you will know mist of the things in process.
+
+list of projects.
+
+1. show state in a map with different color.
+2. How to make you own river. Introduction to shape file making.
+3. working with socioeconomic data nd its visualization.
+4. publishing to web
+5. working with api and automation
+
+
+
+some of my sample work 
+
+list of files
+
+1. upsc series
+
+- modern india through maps
+- ancient india through maps
+- medivial india through map
+- ncert geography lessons through maps
+
+2. visualizing Data base on indian economy
+
+- RBI data
+- HMIS DATA
+- Census data
+
+3. Research
+- Migration
+
+4.Persoanl project
+
+- my village utkela 
+- industry of kalahandi districts
+
+5. Ph.d Research
+- 
+
+
+
+

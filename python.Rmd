@@ -1,0 +1,11 @@
+---
+title: "python"
+author: "dhananjaya"
+date: "25/08/2022"
+output: html_document
+---
+
+
+1. Working with manim ( making beautiful animated math videos using code)
+2. scarapping data
+3. econometrics with python
