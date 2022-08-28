@@ -160,7 +160,7 @@ Some other sources /practice MCQ
 
 20. [kouba](https://www.math.ucdavis.edu/~kouba/)
 
-21. []
+21. [kouba problem sets](https://www.math.ucdavis.edu/~kouba/ProblemsList.html)
 
 
 List 
@@ -196,6 +196,8 @@ List
 
 11. [devore](https://drive.google.com/file/d/1xbDrkV4nCUIN_Jd2vq3AMgAe5KwdKn7T/view?usp=sharing)
 
+12. [gujrati econometrics]()
+
 
 
 
@@ -206,5 +208,25 @@ some online testbank
 1. [applied economics griffiths](https://wps.pearsoned.co.uk/ema_uk_he_griffiths_appecon_12/204/52362/13404752.cw/index.html)
 
 2. [howells](https://wps.pearsoned.co.uk/ema_uk_he_howells_econmoney_4/98/25261/6466832.cw/index.html)
+
+
+
+**international trade**
+
+1. [int trade saylor academy](https://saylordotorg.github.io/text_international-trade-theory-and-policy/)
+
+
+
+ALL THE BOOKS AND AVILABLE SOLUTION
+
+|Book |Solution file|
+|---|---|
+|[Oliver blanchard , Macroeconomics](https://drive.google.com/file/d/15QWl0VH0lJMfpHCFRvjk0P6mM-WYcKG6/view?usp=sharing)|[drive](https://drive.google.com/file/d/1xJW3faVn8_ZazrDKQEjh8NnnuJ6Sv_Fr/view?usp=sharing)|
+|[Froyen, Macroeconomics](https://drive.google.com/file/d/1oNX7_q-gsRNR04wkoWTgpvYJL1ipk7T1/view?usp=sharing)|
+|[dorrbursch](https://drive.google.com/file/d/1yxK4SWCrLgWcNnIZ-PJ2ZL7P3GkiopGo/view?usp=sharing)||
+|[snyder nicholson](https://drive.google.com/file/d/1HqnOvcGbYUl-8Yw2uvYuYN-K3CRwGGpr/view?usp=sharing)||
+|[perloff](https://drive.google.com/file/d/1CihRPgUyNI_cS6O73NyySjFy_-rRy6_k/view?usp=sharing)||
+
+
 
 
