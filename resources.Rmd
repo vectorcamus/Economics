@@ -1,9 +1,0 @@
----
-title: "Resources"
-output: html_document
----
-
-
-[syllabus](syllabusies.html)
-
-
