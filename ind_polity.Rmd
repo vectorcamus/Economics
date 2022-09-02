@@ -1,0 +1,10 @@
+---
+title: "indian polity"
+author: "dhananjaya"
+date: "02/09/2022"
+output: html_document
+---
+
+
+1. [Historical background](Untitled.html)
+2. 
