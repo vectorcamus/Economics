@@ -3,13 +3,7 @@ navbar:
   title: "Home"
   left:
     - text: "Projects"
-      menu:
-      - text: "QGIS"
-        href: "QGIS.html"
-    - text: "Open source"
-      menu:
-      - text: "Entrance"
-        href: "entrance.html"
+      href: "projects.html"
     - text: "About"
       menu:
       - text: "cv"

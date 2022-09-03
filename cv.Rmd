@@ -1,6 +1,11 @@
 ---
 title: "cv"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    theme: cosmo
+    highlight: kate
+    center: true
 ---
 
 Name : Dhananjaya Pradhan
@@ -18,21 +23,17 @@ B.A. Economics , Ravenshaw University , Odisha, 2016-20, 61.84 %
 
 - English 
 - Hindi
-- Odia & Sambalpuri(Mother tongue)
-- Braille (Elementary)
+- odia 
 
 
 **Skills**
 
 - R
-- MySQL
 - QGIS 
 - Python
 
 **Other skills**
 
-- Quantitative sociology 
 - Econometrics
-- Microsoft Office & Keynote
-- Github, API
+- Github
 

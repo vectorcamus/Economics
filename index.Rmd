@@ -1,12 +1,14 @@
 ---
 title: "Economics"
-output: html_document
+output: 
+  html_document:
+    toc: true
+    theme: cosmo
+    highlight: tango
 ---
 
 “When my information changes, I alter my conclusions. What do you do, sir?”
 
 ― John Maynard Keynes
 
-
-draft
 
