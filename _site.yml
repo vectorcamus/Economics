@@ -2,8 +2,6 @@ name: "Economics"
 navbar:
   title: "Home"
   left:
-    - text: "Projects"
-      href: "projects.html"
     - text: "About"
       menu:
       - text: "cv"

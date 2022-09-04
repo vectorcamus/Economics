@@ -19,6 +19,7 @@ output:
 |Language Known| English ![](images/hindilogo.png){width=7%} ![](images/odialogo.png){width=7%}| 
 |**Skills**| ![](images/pythonlogo.png){width=9%} ![](images/rlogo.png){width=5%}  ![](images/qgislogo.png){width=8%}|
 |Other skills| ![](images/githublogo.png){width=3%}|
+|Hobby|[Projects](projects.html)|
 
 
 

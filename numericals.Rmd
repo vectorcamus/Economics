@@ -67,6 +67,8 @@ Numericals
 
 #### leontief
 
+**1. 
+
 #### linear
 
 #### ces
@@ -94,7 +96,7 @@ Numericals
 **4. $u=min(x+y)+max(x+y)$ s.t.$p_x+p_y=20$**
 
 
-## Macroeconomics {.tabset} {.tabset-fade}
+## Macroeconomics 
 
 ### competitive budgets 
 
