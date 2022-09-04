@@ -1,5 +1,5 @@
 ---
-title: "Numericals"
+title: "-"
 output:
   html_document:
     theme: cosmo
@@ -7,10 +7,17 @@ output:
     
 ---
 
-# {.tabset .tabset-fade}
-## Microeconomics {.tabset .tabset-fade} 
+```
+Numericals 
+```
 
-### Basics
+## Microeconomics  
+
+---
+
+### Basics 
+
+#### Graphs & slope
 
 
 **1. $Q_D=5-3X$ , What is the maximum $Q_d$ and price possible ?**
@@ -33,13 +40,15 @@ output:
 
 **4. Draw the supply curve by two industries a and b  $x_a=-4+3y$ and $x_b=4+3y$ and therir aggrate supply curve.**
 
+#### market demand and supply
+
 
 
 ### Budget 
 
 1. 
 
-### preference & utilty functions {.tabset .tabset-fade}
+### preference & utilty functions 
 
 #### cobb dogulas
 
@@ -83,6 +92,13 @@ output:
 **3. $u=max(x+2y)$ s.t. $x+3y=24$**
 
 **4. $u=min(x+y)+max(x+y)$ s.t.$p_x+p_y=20$**
+
+
+## Macroeconomics {.tabset} {.tabset-fade}
+
+### competitive budgets 
+
+### non- competitive budgets
 
 
 

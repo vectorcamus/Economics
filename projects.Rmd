@@ -10,4 +10,8 @@ output:
     
 ---
 
-
+||Name|Tool|Access|
+|---:|---:|---:|---:|
+|1.|[ Numericals for Economics entrance  ](numericals.html)|![](images/rlogo.png){width=8%}|[![](images/gdrive.png){width=10%}]()|
+|2.|[ Mahanadi Distributaries shape files  ]()|![](images/qgislogo.png){width=8%}|[![](images/githublogo.png){width=10%}]()|
+|3.|[Shape files for Villages of odisha  ]()|![](images/qgislogo.png){width=8%}|[![](images/githublogo.png){width=10%}]()|
