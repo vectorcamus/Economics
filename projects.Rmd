@@ -1,11 +1,13 @@
 ---
-title: "projects"
-author: "dhananjaya"
-date: "04/09/2022"
+title: "Projects"
 output: 
   html_document:
     toc: true
+    toc_float: true
+    toc_depth: 3
     theme: cosmo
     highlight: tango
     
 ---
+
+
