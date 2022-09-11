@@ -7,6 +7,6 @@ navbar:
       - text: "cv"
         href: "cv.html"
     - text: "Test Series"
-      href: "Test.html"
+      href: "test.html"
 output_dir: "docs"
 
