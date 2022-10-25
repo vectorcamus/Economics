@@ -6,7 +6,5 @@ navbar:
       menu:
       - text: "cv"
         href: "cv.html"
-    - text: "PYQ"
-      href: "test.html"
 output_dir: "docs"
 
