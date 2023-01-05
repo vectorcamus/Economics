@@ -2,9 +2,7 @@ name: "Economics"
 navbar:
   title: "Home"
   left:
-    - text: "About"
-      menu:
-      - text: "cv"
-        href: "cv.html"
+    - text: "Resources"
+      href: "Resources.html"
 output_dir: "docs"
 
