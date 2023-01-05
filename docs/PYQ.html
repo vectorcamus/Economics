@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>PYQ</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ</h1>
+
+</div>
+
+
+<p>DSE</p>
+<p>2006</p>
+<div id="dse-2006" class="section level1">
+<h1>DSE 2006</h1>
+<ol style="list-style-type: decimal">
+<li>Suppose A and B have to divide a box of chocolates and both of them
+prefer to have more chocolates to fewer chocolates. An allocation that
+gives all the chocolates to A is</li>
+</ol>
+<p>A.    Pareto inefficient</p>
+<p>B.    Pareto efficient</p>
+<p>C.    Pareto unfair</p>
+<p>D.    Pareto fair</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Among the effects of urban rent control are</li>
+</ol>
+<p>A.    a disincentive to build for rental purposes</p>
+<p>B.    an implicit redistribution of wealth from those who do not have
+rent-controlled housing to those who do have rent-controlled housing</p>
+<p>C.    a low degree of mobility in housing market</p>
+<p>D.    all of the above</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Processed and piped water is</li>
+</ol>
+<p>A.    a public good</p>
+<p>B.    a private good</p>
+<p>C.    a private bad</p>
+<p>D.    a public bad</p>
+<ol start="4" style="list-style-type: decimal">
+<li>A situation in which all electricity generators in a state can sell
+their output only to the State Electricity Board is described as</li>
+</ol>
+<p>A.    a monopoly</p>
+<p>B.    a monopsony</p>
+<p>C.    an oligopolistic market</p>
+<p>D.    a monopolistically competitive market</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Consider a firm that produces single good using labor and capital.
+Let <span class="math inline">\(C,Q,L,K,w,r\)</span> and p denote cost
+of production, output, labor input, capital input, the wage rate, the
+price of capital and the price of output respectively. An example of the
+cost function for the firm is</li>
+</ol>
+<p>A.    <span class="math inline">\(C=wL+rK\)</span></p>
+<p>B.    <span class="math inline">\(C= \min (wL,rK)\)</span></p>
+<p>C.    <span class="math inline">\(C=\frac{pQ}{[wL+rK]}\)</span></p>
+<p>D.    <span class="math inline">\(C=Q\sqrt{wr}\)</span></p>
+<ol start="6" style="list-style-type: decimal">
+<li>If the IS curve is downward sloping and the LM curve is vertical, a
+unit increase in government expenditure results in</li>
+</ol>
+<p>A.    crowding in and higher increase in equilibrium income</p>
+<p>B.    no crowding out and equivalent increase in the equilibrium
+income</p>
+<p>C.    partial crowding out and lower increase in equilibrium
+income</p>
+<p>D.    complete crowding out and no increase in equilibrium income</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Monetary policy is completely ineffective in raising output if</li>
+</ol>
+<p>A.    the IS curve is horizontal and the LM curve is upward
+sloping</p>
+<p>B.    the IS curve is vertical and the LM curve is upward sloping</p>
+<p>C.    the IS curve is downward sloping and the LM curve is upward
+sloping</p>
+<p>D.    the IS curve is downward sloping and the LM curve is
+vertical</p>
+<ol start="8" style="list-style-type: decimal">
+<li>The price and quantity combinations of two services (trim and perm)
+sold at the “Be Handsome” beauty parlour are as follows (<span
+class="math inline">\(P_t\)</span> and <span
+class="math inline">\(Q_t\)</span> denote the price and quantity 
+respectively of a given service at time t):</li>
+</ol>
+<pre><code>insert matrix</code></pre>
+<p>The Laspeyres price index for time <span class="math inline">\(t =
+1\)</span> is</p>
+<p>A.    117.2</p>
+<p>B.    115.3</p>
+<p>C.    121.8</p>
+<p>D.    119.6</p>
+<ol start="9" style="list-style-type: decimal">
+<li>Suppose we flip a fair coin three times. The probability of getting
+two heads is</li>
+</ol>
+<p>A.     <span class="math inline">\(\frac{2}{ 8}\)</span></p>
+<p>B.     <span class="math inline">\(\frac{1} {3}\)</span></p>
+<p>C.     <span class="math inline">\(\frac{2}{3}\)</span></p>
+<p>D.     <span class="math inline">\(\frac{3}{8}\)</span></p>
+<ol start="10" style="list-style-type: decimal">
+<li>Which one of the following is true?</li>
+</ol>
+<p>A.    A consumer never buys an inferior good.</p>
+<p>B.    A consumer’s budget share for an inferior good is necessarily
+less than half.</p>
+<p>C.    A consumer’s budget share for an inferior good is constant.</p>
+<p>D.    A consumer’s budget share for an inferior good decreases with
+an increase in money income.</p>
+<ol start="11" style="list-style-type: decimal">
+<li>Consider a consumer with the utility function <span
+class="math inline">\(u(x,y) = x^{\frac{1}{2}} +y\)</span>. Which one of
+the following is true?</li>
+</ol>
+<p>A.    Income elasticity of both goods x and y is 1.</p>
+<p>B.    Income elasticity of good x is 0.</p>
+<p>C.    Income elasticity of good y is 0.</p>
+<p>D.    Income elasticity of good x is 1 and of good y is 0.</p>
+<ol start="12" style="list-style-type: decimal">
+<li>Consider the experiment of tossing two unbiased coins in succession.
+What is the prob ability of obtaining two heads, given that at least one
+of the coins comes up heads?</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{1}{4}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{2}{3}\)</span></p>
+<ol start="13" style="list-style-type: decimal">
+<li>Suppose all input prices as well as output price double. The level
+of output produced by a profit-maximizing firm which uses a decreasing
+returns to scale technology will</li>
+</ol>
+<p>A.    be double of its original level</p>
+<p>B.    increase, but not necessarily double</p>
+<p>C.    remain constant</p>
+<p>D.     change, but we cannot say in which direction</p>
+<ol start="14" style="list-style-type: decimal">
+<li>Consider an <span class="math inline">\(n\times n\)</span> matrix A
+with real entries. Ais non-singular if and only if</li>
+</ol>
+<p>A.    the determinant of A is not equal to 0</p>
+<p>B.    the columns vectors of A are linearly independent</p>
+<p>C.    the row vectors of A are linearly independent</p>
+<p>D.    any of the above three conditions is satisfied</p>
+<ol start="15" style="list-style-type: decimal">
+<li>Consider a function <span class="math inline">\(f : R → R\)</span>
+where <span class="math inline">\(R\)</span> denotes the set of real
+numbers. If <span class="math inline">\(f\)</span> is increasing, i.e.,
+<span class="math inline">\(x\geq y\)</span> implies <span
+class="math inline">\(f(x)\geq f(y)\)</span> , then</li>
+</ol>
+<p>A.    <span class="math inline">\(f\)</span> is concave</p>
+<p>B.    <span class="math inline">\(f\)</span> is convex</p>
+<p>C.    <span class="math inline">\(f\)</span> is quasi-convex</p>
+<p>D.    <span class="math inline">\(f\)</span> is continuous</p>
+<ol start="16" style="list-style-type: decimal">
+<li>Consider a singular <span class="math inline">\(n\times n\)</span>
+matrix A with real entries. Interchanging the positions of a pair of
+adjacent columns of A</li>
+</ol>
+<p>A.    does not change the value of the determinant of A</p>
+<p>B.    changes the sign of the determinant</p>
+<p>C.    increases the value of the determinant</p>
+<p>D.    decreases the value of the determinant</p>
+<ol start="17" style="list-style-type: decimal">
+<li>There are three women on the platform of a train station. The train
+that they are  waiting for has 5 coaches and each of them is equally
+likely to enter any coach. What is  the probability that they will all
+enter the same coach?</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{12}{25}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{3}{5}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{3}{125}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{9}{25}\)</span></p>
+<p>E.    <span class="math inline">\(\frac{1}{25}\)</span></p>
+<ol start="18" style="list-style-type: decimal">
+<li>Suppose a neighborhood has 90 Hindus and 10 Muslims. What is the
+probability that  two randomly selected persons from that neighborhood
+will have the same religion?</li>
+</ol>
+<p>A.    0. 5</p>
+<p>B.    0. 81</p>
+<p>C.    0. 9</p>
+<p>D.    0. 82</p>
+<ol start="19" style="list-style-type: decimal">
+<li>Exchange rate overshooting occurs</li>
+</ol>
+<p>A.    under fixed exchange rates when the central bank mistakenly
+buys or sells too much foreign exchange</p>
+<p>B.    under fixed exchange rates as a necessary part of the
+adjustment process for any monetary shock</p>
+<p>C.    under flexible exchange rates when the exchange rate rises
+(depreciates) above and then falls down to equilibrium after a monetary
+expansion</p>
+<p>D.    under flexible exchange rates, so that large financial shocks
+in the domestic economy have very little impact on exchange rates</p>
+<ol start="20" style="list-style-type: decimal">
+<li>In an open economy with a system of fixed exchange rates</li>
+</ol>
+<p>A.    monetary policy is an effective tool for stabilizing the
+economy</p>
+<p>B.    fiscal policy is a by-product of exchange rate policy</p>
+<p>C.    fiscal policy is an effective tool for stabilizing the
+economy</p>
+<p>D.    both (a) and (b) above</p>
+<p>Answer 21, 22 and 23 for the following situation. Consider a
+competitive exchange economy with two agents (1 and 2) and two goods (X
+and Y). Agent 1’s endowment of (X,Y) is (0,5) and Agent 2’s endowment of
+(X,Y) is (10,0). An allocation for Agent i is denoted <span
+class="math inline">\((x_i,y_i)\)</span> , where <span
+class="math inline">\(x_i\)</span> is his allocation of X and <span
+class="math inline">\(y_i\)</span> is his allocation of Y. Agent i’s
+objective is to choose <span class="math inline">\((x_i,y_i)\)</span> to
+maximise his utility <span class="math inline">\(\min\)</span>{<span
+class="math inline">\(x_i,y_i\)</span>}</p>
+<ol start="21" style="list-style-type: decimal">
+<li>The allocation with <span class="math inline">\((x_1 ,y_1 )\)</span>
+= <span class="math inline">\((3,3)\)</span> and <span
+class="math inline">\((x_2 ,y_2 )\)</span> = <span
+class="math inline">\((7,2)\)</span> is</li>
+</ol>
+<p>A.    a competitive equilibrium allocation and is Pareto
+efficient</p>
+<p>B.    not a competitive equilibrium allocation but is Pareto
+efficient</p>
+<p>C.    neither a competitive equilibrium allocation nor is Pareto
+efficient</p>
+<p>D.    a competitive equilibrium allocation but is not Pareto
+efficient</p>
+<ol start="22" style="list-style-type: decimal">
+<li>The allocation with <span class="math inline">\((x_1 ,y_1 )\)</span>
+= (10,5) and <span class="math inline">\((x_2 ,y_2 )\)</span> = (0,0)
+is</li>
+</ol>
+<p>A.    a competitive equilibrium allocation and is Pareto
+efficient</p>
+<p>B.    not a competitive equilibrium allocation but is Pareto
+efficient</p>
+<p>C.    neither a competitive equilibrium allocation nor is Pareto
+efficient</p>
+<p>D.    a competitive equilibrium allocation but is not Pareto
+efficient</p>
+<ol start="23" style="list-style-type: decimal">
+<li>Assuming the sum of prices is 1, the competitive equilibrium prices
+<span class="math inline">\((p_1 ,p_2 )\)</span> are</li>
+</ol>
+<p>A.    (1,0)</p>
+<p>B.    (0,1)</p>
+<p>C.    <span class="math inline">\((\frac{1}{2} ,
+\frac{1}{2})\)</span></p>
+<p>D.    <span class="math inline">\((\frac{1}{3} ,
+\frac{2}{3})\)</span></p>
+<ol start="24" style="list-style-type: decimal">
+<li>Consider an economy which is demand constrained.  The components of
+aggregate demand are: (i) Household Consumption; (ii) Government
+Investment Expenditure; and (iii) Private Investment. The government
+finances its expenditure by imposing a lump- sum tax on the households
+and always maintains a balanced budget. Households consume <span
+class="math inline">\(\frac{1}{2}\)</span> of their disposable income.
+Private investment and government investment are complementary and the
+two are related in the following way: a unit investment by the
+government induces private investors to invest 2 units. Starting from an
+equilibrium situation, the government raises its investment expenditure
+by 10 units, what will be the corresponding increase in the equilibrium
+level of income for this economy?</li>
+</ol>
+<p>A.    20 units</p>
+<p>B.    10 units</p>
+<p>C.    50 units</p>
+<p>D.    income remains the same</p>
+<ol start="25" style="list-style-type: decimal">
+<li>Consider an economy where <span
+class="math inline">\(\frac{1}{2}\)</span> of the total income (output)
+is distributed to the workers and the other half is distributed to the
+capitalists. The capitalists save upto 50% of their income and consume
+the rest; the workers save 25% of their income and consume the  rest.
+The aggregate demand consists of total consumption demand and total
+investment demand. Investment demand is autonomously given at 100 units.
+Output is demand determined. How does the equilibrium income value
+change if <span class="math inline">\(\frac{3}{4}\)</span> of the total
+income is distributed to the workers and <span
+class="math inline">\(\frac{1}{4}\)</span> to the capitalists?</li>
+</ol>
+<p>A.    equilibrium output increases by <span
+class="math inline">\(\frac{160}{3}\)</span> units</p>
+<p>B.    equilibrium output increases by <span
+class="math inline">\(\frac{100}{3}\)</span> units</p>
+<p>C.    equilibrium output increases by <span
+class="math inline">\(\frac{800}{3}\)</span> units</p>
+<p>D.    equilibrium output does not change</p>
+<ol start="26" style="list-style-type: decimal">
+<li>The aggregate production function in an economy at any time period t
+is given by $Y_t= min( , ), where <span class="math inline">\(K_t \ and
+\ L_t\)</span> are respectively the aggregate stock of capital  and the
+available stock of labour at time t. In each period, 20% of the total
+output  is saved and invested, which augments the next period’s capital
+stock. Capital does  not depreciate. Available labour stock grows by 4
+units in every period.      The economy currently has 200 units of
+capital and 420 units of labour. What is the current level of 
+employment and what will be the level of employment tomorrow?</li>
+</ol>
+<p>A.    Current Employment: 420; Employment tomorrow: 424</p>
+<p>B.    Current Employment: 400; Employment tomorrow: 424</p>
+<p>C.    Current Employment: 400; Employment tomorrow: 400</p>
+<p>D.    Current Employment: 420; Employment tomorrow: 420</p>
+<ol start="27" style="list-style-type: decimal">
+<li>Members of the Gymkhana Club are charged quarterly fees on the basis
+of their average weight, rounded to the nearest kg. Of the 560 members,
+120 weighed between 60 and 69 kg, 140 weighed between 70 and 79 kg, 170
+weighed between 80 and 89 kg, and the remaining weighed between 90 and
+99 kg. If members are charged Rs. 50 per kilo o their weight, on average
+how much must each member pay?</li>
+</ol>
+<p>A.    Rs. 3800</p>
+<p>B.    Rs. 3900</p>
+<p>C.    Rs. 4000</p>
+<p>D.    Rs. 4100</p>
+<ol start="28" style="list-style-type: decimal">
+<li>ICICI Bank collects data on 10000 respondents. Out of the 6800 men,
+4200 have credit  cards, and out of the 3200 women, 2500 have credit
+cards. Out of the men with credit cards, 1200 have unpaid balances,
+whereas out of the women with credit cards, 1400  have unpaid balances.
+What is the probability that an individual selected at random is  a man
+without an unpaid balance?</li>
+</ol>
+<p>A.    0. 68</p>
+<p>B.    0. 56</p>
+<p>C.    0. 12</p>
+<p>D.    0. 84</p>
+<ol start="29" style="list-style-type: decimal">
+<li>A monopolist has two plants. In plant 1, the total cost function is
+<span class="math inline">\(c_1(q_1 ) = 2q_1\)</span> and in plant 2,
+the total cost function is <span class="math inline">\(c_2 (q_2 )
+=\frac{q_2^2 }{2}\)</span> , where q represents the quantity of
+good produce D. The demand faced by the monopolist is <span
+class="math inline">\(p= 10−q\)</span> , where <span
+class="math inline">\(q=q_1 +q_2\)</span> . How does the monopolist
+allocate its total production to serve the market?</li>
+</ol>
+<p>A.    <span class="math inline">\(q_1 = 6 \ and \ q_2 =
+2\)</span></p>
+<p>B.    <span class="math inline">\(q_1 = 2 \ and \ q_2 =
+2\)</span></p>
+<p>C.    <span class="math inline">\(q_1 = 4 \ and \ q_2 =
+4\)</span></p>
+<p>D.    <span class="math inline">\(q_1 = 4 \ and\ q_2 = \frac{10}{
+3}\)</span></p>
+<ol start="30" style="list-style-type: decimal">
+<li>There are two individualsAandB.    The utility function of both
+individuals are identical  and given by <span
+class="math inline">\(u(x,y) = \max (x,y)\)</span> . Each of them has 1
+unit of good x and 1 unit of good y. Which of the following is a Pareto
+optimal allocation?</li>
+</ol>
+<p>A.    A has x= 1,y= 1 and B has x= 1,y= 1</p>
+<p>B.    A has x= 2,y= 0 and B has x= 0,y= 2</p>
+<p>C.    A has x= 0,y= 0 and B has x= 2,y= 2</p>
+<p>D.    A has x= <span class="math inline">\(\frac{3}{2} ,y=
+\frac{1}{2}\)</span> and B has <span class="math inline">\(x=
+\frac{1}{2} ,y= \frac{3}{2}\)</span></p>
+<p>Answer 31, 32 and 33 for the following information. Three players A,B
+and C take turns playing a game as follows. A and B play in the first
+round. The winner plays C in the second round, while the loser sits out.
+The winner of the second round plays the person who was sitting out. The
+game continues in this fashion, with the winner of the current round
+playing the next round with the person who sits out in the current
+round.The game ends when a player wins twice in succession; this player
+is declared the winner of the contest. For any of the rounds, assume
+that the two players playing the round each have a probability <span
+class="math inline">\(\frac{1} {2}\)</span> of winning the round,
+regardless of how the past rounds were won or lost.</p>
+<ol start="31" style="list-style-type: decimal">
+<li>The probability that A becomes the winner of the contest is</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{5}{14}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{3}{7}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{7}{16}\)</span></p>
+<ol start="32" style="list-style-type: decimal">
+<li>The probability that C becomes the winner of the contest is</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{1}{7}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{1}{5}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{1}{8}\)</span></p>
+<p>D.     <span class="math inline">\(\frac{2}{7}\)</span></p>
+<ol start="33" style="list-style-type: decimal">
+<li>The probability that the game continues indefinitely, with no one
+winning twice in succession, is</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{1}{10^{23}}\)</span></p>
+<p>B.    0</p>
+<p>C.    <span class="math inline">\({1}{2^{23}}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{1}{2^{16}}\)</span></p>
+<ol start="34" style="list-style-type: decimal">
+<li>Consider collecting a random sample that has two observations, from
+a population that  is normally distributed with meanμand variance 16.
+The variance associated with th  distribution of twice the difference
+between these two observations equals</li>
+</ol>
+<p> A.    64    B.    128    C.    <span
+class="math inline">\(\frac{32}{\sqrt 2}\)</span>    D. <span
+class="math inline">\(\frac{64}{\sqrt 2}\)</span></p>
+<ol start="35" style="list-style-type: decimal">
+<li>In an open economy with a system of flexible exchange rates and
+perfect capital mobility, an expansionary monetary policy</li>
+</ol>
+<p>A.    causes the domestic currency to appreciate</p>
+<p>B.    has a greater impact on income than in a closed economy</p>
+<p>C.    increases capital inflows into the country</p>
+<p>D.    induces a balance of payments deficit</p>
+<ol start="36" style="list-style-type: decimal">
+<li>Which of the following would make the LM curve flatter in the (Y,r)
+space?</li>
+</ol>
+<p>A.    an increase in income sensitivity of money demand</p>
+<p>B.    an increase in interest sensitivity of planned investment</p>
+<p>C.    an increase in the marginal propensity to consume</p>
+<p>D.    an increase in the interest sensitivity of money demand</p>
+<ol start="37" style="list-style-type: decimal">
+<li>Consider the graph of the function <span class="math inline">\(f(x)
+= \frac{(x^2 + 2x−1)}{x}\)</span>defined over all positive real values
+of <span class="math inline">\(x\)</span> . This graph has the following
+asymptotes</li>
+</ol>
+<p>A.    The line defined by <span class="math inline">\(2x+ 2\)</span>
+and the vertical axis</p>
+<p>B.    One asymptote: the line defined by <span
+class="math inline">\(y=x+ 2\)</span></p>
+<p>C.    The line defined by <span class="math inline">\(y=x+ 2\)</span>
+and the vertical axis</p>
+<p>D.    The line defined by <span class="math inline">\(y= 2x+
+1\)</span> and the vertical axis</p>
+<ol start="38" style="list-style-type: decimal">
+<li>Which of the following statements is correct? In a closed economy,
+fiscal policy is more effective</li>
+</ol>
+<p>A.    the smaller the induced change in interest rates and smaller
+the responsivenes of investment to these changes</p>
+<p>B.    the larger the induced change in interest rates and smaller the
+responsivenes of investment to these changes</p>
+<p>C.    the smaller the induced change in interest rates and larger the
+responsiveness of investment to these changes</p>
+<p>D.    the larger the induced change in interest rates and larger the
+responsiveness of investment to these changes</p>
+<ol start="39" style="list-style-type: decimal">
+<li>Along the long run supply curve of a perfectly competitive industry,
+all of the following may change, except</li>
+</ol>
+<p>A.    the prices of inputs used</p>
+<p>B.    the amounts of inputs used</p>
+<p>C.    the number of firms in the industry</p>
+<p>D.    the level of profits</p>
+<p>Answer 40 and 41 for the following situation. Consider a market
+served by a pair of firms, 1 and 2. The inverse market demand is given
+by <span class="math inline">\(p= 1−(x_1 +x_2 )\)</span> , where <span
+class="math inline">\(x_i\)</span> is the output of Firm i. Let Firm 1’s
+cost function be <span class="math inline">\(C_1 (x_1 )
+=\frac{x_1}{2}\)</span> and Firm 2’s cost function be <span
+class="math inline">\(C_2 (x_2 ) =\frac{x_2}{3}\)</span></p>
+<ol start="40" style="list-style-type: decimal">
+<li>If Firms 1 and 2 are Cournot duopolists, then Cournot equilibrium
+outputs are</li>
+</ol>
+<p>A.    <span class="math inline">\((x_1 ,x_2 ) = (\frac{4}{18} ,
+\frac{4}{18})\)</span></p>
+<p>B.    <span class="math inline">\((x_1 ,x_2 ) = (\frac{2}{18} ,
+\frac{5}{18})\)</span></p>
+<p>C.    <span class="math inline">\((x_1 ,x_2 ) = (\frac{5}{18} ,
+\frac{3}{18})\)</span></p>
+<p>D.    <span class="math inline">\((x_1 ,x_2 ) = (0 ,
+\frac{1}{3})\)</span></p>
+<ol start="41" style="list-style-type: decimal">
+<li>Now suppose the situation changes so that Firm 1 chooses <span
+class="math inline">\(x_1\)</span> first and Firm 2 chooses <span
+class="math inline">\(x_2\)</span> after observing Firm 1’s choice.
+Relative to Cournot situation, in this new situation,</li>
+</ol>
+<p>A.    <span class="math inline">\(x_1\)</span> and <span
+class="math inline">\(x_2\)</span> decrease</p>
+<p>B.    <span class="math inline">\(x_1\)</span> decreases and <span
+class="math inline">\(x_2\)</span> increases</p>
+<p>C.    <span class="math inline">\(x_1\)</span> increases and <span
+class="math inline">\(x_2\)</span> decreases</p>
+<p>D.    <span class="math inline">\(x_1\)</span> and <span
+class="math inline">\(x_2\)</span> increase</p>
+<ol start="42" style="list-style-type: decimal">
+<li>Suppose Asha’s preferences between two commodities <span
+class="math inline">\(x_1\)</span> and <span
+class="math inline">\(x_2\)</span> can be represented by <span
+class="math inline">\(u(x_1 ,x_2 ) = min(x_1 − 5 ,x_2 + 3)\)</span> .
+Given an income of Rs. 73, and facing prices of Rs. 3 for <span
+class="math inline">\(x_1\)</span> and Rs. 4 for <span
+class="math inline">\(x_2\)</span> , Asha’s optimal consumption bundle
+of <span class="math inline">\((x_1 ,x_2 )\)</span> will be</li>
+</ol>
+<p>A.    (12. 5 , 4 .5)</p>
+<p>B.    (10. 42 , 10 .42)</p>
+<p>C.    (15,7)</p>
+<p>D.    (3,16)</p>
+<ol start="43" style="list-style-type: decimal">
+<li>Consider the following macroeconomic model:</li>
+</ol>
+<p><span class="math display">\[C = 2000 + 0. 4 Y_D \]</span></p>
+<p><span class="math display">\[ I = 500− 10 r+ 0. 4 Y \]</span></p>
+<p><span class="math display">\[ G = 400  , T = 1000 \]</span></p>
+<p><span class="math display">\[ (\frac{M}{P})^D = 0. 2 Y− 50 r
+\]</span><br />
+<span class="math display">\[ (\frac{M}{P})^S = 1000\]</span></p>
+<p>where <span class="math inline">\(Y_D\)</span> is disposable income.
+The equation of the IS curve for this model is</p>
+<p>A.    Y = 9500− 50 r</p>
+<p>B.    Y = 12500− 50 r</p>
+<p>C.    Y = 14500− 100 r</p>
+<p>D.    Y = 14500− 60 r</p>
+<ol start="44" style="list-style-type: decimal">
+<li>A negative supply shock (e.g., oil price increase) shifts the
+Phillips curve and  the natural rate of unemployment. If the government
+wants to keep the economy at the  original rate of unemployment, it must
+have inflation.</li>
+</ol>
+<p>A.    lowers, ever increasing</p>
+<p>B.    raises, ever decreasing</p>
+<p>C.    raises, ever increasing</p>
+<p>D.    does not change, ever increasing</p>
+<ol start="45" style="list-style-type: decimal">
+<li>An increase in foreign income the equilibrium output of a small open
+economy with uncovered interest parity and flexible exchange rates.</li>
+</ol>
+<p>A.    increases</p>
+<p>B.    decreases</p>
+<p>C.    leaves unchanged</p>
+<p>D.    first increases then decreases</p>
+<ol start="46" style="list-style-type: decimal">
+<li>Amit has a box containing 6 red balls and 3 yellow balls. Amita has
+a box containing 4 red balls and 5 yellow balls. Amit randomly draws one
+ball from his box and puts it into Amita’s box. Now Amita randomly draws
+one ball out of her box. What is the probability that balls drawn by
+Amit and Amita were of different colours?</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{2}{15}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{4}{15}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{7}{15}\)</span></p>
+<ol start="47" style="list-style-type: decimal">
+<li>Two patients share a hospital room for two days. Suppose that, on
+any given day, a person independently picks up an airborne infection
+with probability 1/4. An individual who is infected on the first day
+will certainly pass it to the other patient on the second day. Once
+contracted, the infection stays for at least two days. What is the
+probability  that both patients have contracted the infection by the end
+of the second day?</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{125}{256}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{121}{256}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{135}{256}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{131}{256}\)</span></p>
+<ol start="48" style="list-style-type: decimal">
+<li>A blood test detects a given disease with probability <span
+class="math inline">\(\frac{8}{10}\)</span> given that the tested person
+actually has the disease. With probability <span
+class="math inline">\(\frac{2}{10}\)</span> , the test incorrectly shows
+the presence  of the disease in a disease-free person. Suppose <span
+class="math inline">\(\frac{1}{10}\)</span> of the population has the
+disease. What is the probability that the person tested actually has the
+disease if the test indicates  the presence of the disease?</li>
+</ol>
+<p>A.    1</p>
+<p>B.    <span class="math inline">\(\frac{9}{13}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{4}{13}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{7}{13}\)</span></p>
+<ol start="49" style="list-style-type: decimal">
+<li>Your teacher knows 6 jokes and in each class tells 2 jokes; each
+joke has an equal chance of being selected. What is the probability
+that, in a given lecture, at least 1 joke is told which was not told in
+the previous class?</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{28}{30}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{14}{30}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{16}{30}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{12}{30}\)</span></p>
+<ol start="50" style="list-style-type: decimal">
+<li>Suppose there are only two goods (X and Y), two countries (A and B),
+and labour is  the only factor of production. The amount of labour
+required to produce a unit of the  <span
+class="math inline">\(i^{th}\)</span> good in the <span
+class="math inline">\(j^{th}\)</span> country is a constant <span
+class="math inline">\(l_{ij}\)</span> . Suppose <span
+class="math inline">\(\frac{l_{XA}}{l_{YA}}&lt; \frac
+{l_{XB}}{l_{YB}}\)</span> .    If these two countries trade with each
+other, which of the following outcomes would definitely not occur in
+equilibrium?</li>
+</ol>
+<p>A.    A produces only X and B produces only Y</p>
+<p>B.    A produces both goods and B produces onlyY</p>
+<p>C.    A produces onlyX and B produces both goods</p>
+<p>D.    Both countries produce both goods</p>
+<ol start="51" style="list-style-type: decimal">
+<li>Suppose that in a particular country, the (inverse) demand curve for
+a certain good is given by <span class="math inline">\(P=a−Q\)</span> ,
+where <span class="math inline">\(P\)</span> is price, <span
+class="math inline">\(Q\)</span> is quantity demanded and a is a
+positive constant. The market supply curve of a competitive domestic
+industry is given by <span class="math inline">\(P=bQ\)</span> , where b
+is a positive constant. The country can import any amount of the same
+good at an exogenously given world price of <span
+class="math inline">\(P^{∗}\)</span> . If, in order to raise revenue,
+the government imposes a tariff oftper unit on imports, it will result
+in a deadweight welfare loss of</li>
+</ol>
+<p>A.    <span class="math inline">\(t(a−P^{∗})\)</span></p>
+<p>B.    <span class="math inline">\(a−b(P^{∗}+t)\)</span></p>
+<p>C.    t</p>
+<p>D.    <span class="math inline">\(t^2\)</span></p>
+<p>E.     <span class="math inline">\(\frac{t^2 (1 +b)}{2
+b}\)</span></p>
+<ol start="52" style="list-style-type: decimal">
+<li>Consider a function <span class="math inline">\(f : R→ R\)</span>,
+where <span class="math inline">\(R\)</span> , where <span
+class="math inline">\(R\)</span> denotes the set of real numbers.  If
+<span class="math inline">\(f\)</span> is strictly increasing
+(i.e.,<span class="math inline">\(x &gt; y\)</span> implies <span
+class="math inline">\(f(x)&gt; f(y))\)</span> and differentiable, then
+the derivative off</li>
+</ol>
+<p>A.    may be less than 0 at some <span class="math inline">\(x\in
+R\)</span></p>
+<p>B.    may be infinite at some <span class="math inline">\(x\in
+R\)</span></p>
+<p>C.    is greater than or equal to 0 at every <span
+class="math inline">\(x\in R\)</span></p>
+<p>D.    is greater than 0 at every <span class="math inline">\(x \in
+R\)</span></p>
+<ol start="53" style="list-style-type: decimal">
+<li>Consider the following claim: ”There is some general election and
+some party such that all the candidates of that party in that election
+are honest.” If this claim is false, then which of the following
+statements must be true?</li>
+</ol>
+<p>A.    In every election, there exists a party such that all its
+candidates are dishonest.</p>
+<p>B.    There is some general election and some party such that all the
+candidates of that party in that election are honest.</p>
+<p>C.    In every election, all candidates of all parties are
+dishonest.</p>
+<p>D.    In every election, every party has at least one dishonest
+candidate.</p>
+<p>Answer 54, 55, 56 and 57 using the following information. Consider a
+society consists of individuals who may belong to various sets called
+Family and/or Gangs. The collections of Families and Gangs satisfy the
+following rules:</p>
+<p>-  The entire society is a Family.</p>
+<p>-  The empty subset of a Society is also a family.</p>
+<p>-  Given a collection of Families, the set of individuals who belong
+to every Family in that collection is also a Family.</p>
+<p>-  Given any two Families, the set of individuals who belong to
+either of the two Families is also a Family.</p>
+<p>-  A set of individuals is called a Gang if and only if the set of
+individuals not in it constitute a Family.</p>
+<ol start="54" style="list-style-type: decimal">
+<li>The intersection of two Gangs is necessarily</li>
+</ol>
+<p>A.    a Family</p>
+<p>B.    a Gang</p>
+<p>C.    not a Family</p>
+<p>D.    not a Gang</p>
+<ol start="55" style="list-style-type: decimal">
+<li>The union of a collection of Gangs is necessarily</li>
+</ol>
+<p>A.    not a Family</p>
+<p>B.    not a Gang</p>
+<p>C.    a Family</p>
+<p>D.    a Gang</p>
+<ol start="56" style="list-style-type: decimal">
+<li>Which of the following statements is necessarily true?</li>
+</ol>
+<p>A.    A set of individuals cannot be a Gang and a Family.</p>
+<p>B.    There are at least two sets of individuals that are both a
+Family and a Gang.</p>
+<p>C.    The union of a Family and a Gang is a Gang.</p>
+<p>D.    The intersection of a Family and a Gang is a Family.</p>
+<ol start="57" style="list-style-type: decimal">
+<li>Suppose we are given a Family and a Gang. Then, the set of
+individuals who belong to  the given Family but not to the given Gang
+necessarily constitute</li>
+</ol>
+<p>A.    a Family</p>
+<p>B.    a Gang</p>
+<p>C.    neither a Family, nor a Gang</p>
+<p>D.    a Family and a Gang</p>
+<ol start="58" style="list-style-type: decimal">
+<li>You have 10 pockets. What is the smallest number of one rupee coins
+you need to have a different number of coins in each pocket?</li>
+</ol>
+<p>A.    45</p>
+<p>B.    35</p>
+<p>C.    60</p>
+<p>D.    50</p>
+<ol start="59" style="list-style-type: decimal">
+<li>There are 3 red and 5 black balls in an urn. You draw two balls in
+succession without  replacing the first ball. What is the probability
+that the second ball you draw is red ?</li>
+</ol>
+<p>A.    <span class="math inline">\(\frac{2}{7}\)</span></p>
+<p>B.    <span class="math inline">\(\frac{3}{8}\)</span></p>
+<p>C.    <span class="math inline">\(\frac{5}{7}\)</span></p>
+<p>D.    <span class="math inline">\(\frac{1}{4}\)</span></p>
+<ol start="60" style="list-style-type: decimal">
+<li>Given that R denotes the set of real numbers, which of the following
+mappings is a one-to-one (i.e., injective) function?</li>
+</ol>
+<p>A.    <span class="math inline">\(f(x) = \tan x, where \ x\in R \ and
+\ x \geq 0\)</span></p>
+<p>B.    <span class="math inline">\(f(x) =|x|, \ where \ x\in
+R\)</span></p>
+<p>C.    <span class="math inline">\(f(x) = \frac{1}{x}, \ where \ x\in
+R \ and \geq 0\)</span></p>
+<p>D.    <span class="math inline">\(f(x) =|x|, \ where \ x\in R \ and \
+x\geq 0\)</span></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
