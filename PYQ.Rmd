@@ -2,7 +2,39 @@
 title: "PYQ"
 output: html_document
 ---
+IES 
 
+100 words 
+
+1. Write down the key recommendations of the 15th Finance Commission of India.
+3. What are the basic approaches of financial sector reforms in India ? 
+4. Discuss how e-NAM and derivatives market linkages can benefit farmers in India.
+5. Discuss the role of Monetary Policy Committee (MPC) in India in the context of inflation targeting.
+6. Write down the main features of foreign trade policy (2015-20) of India. 
+7. Analyse the trends in ‘Fuel and Power’ inflation in India based on WPI. 
+
+200 words
+
+1. “India has a worse underemployment problem than unemployment.” Do you agree ? Give reasons. 
+2. Analyse the performance of commodity futures markets in India. Critically evaluate the working of Forward Markets Commission (FMC) in India. 
+3. Describe the measures taken by the Government of India to tackle the problem of black money. To what extent these measures are successful in addressing the problem ? 
+4. What is competition policy? Why do we need a national competition policy (NCP) ? How does NCP affect economic growth in India ? 
+5. Discuss the opportunities and challenges of India’s insurance sector. How the insurance sector reforms can resolve these challenges ? 
+6. Analyse the effects of tariff protections on domestic industries in India. Evaluate India’s trade openness and tariff policy since the 1991 reforms. 
+7. Explain the rationale for various monetary policy measures undertaken by the RBI during COVID-19 Pandemic in India. 
+8. How is core inflation different from CPI headline inflation ? What is the rationale in measuring core inflation ? Explain. 
+9. What is the Aspirational Districts Programme of the Government of India ? Discuss how it is a manifestation of the inclusive development agenda. 
+
+300 Words 
+
+1. (a). Differentiate between the strategies for self-reliance through protection and self-reliance through globalisation. 
+1. (b). Evaluate Public Expenditure Management Policy as an instrument of fiscal reforms in India. 
+2. What are the basic principles of fiscal management in India ? Discuss the role of FRBM rules (2004) to improve the fiscal health at sub-national level. 
+3. (a). Critically examine whether growing population is the cause of poverty or poverty is the main cause of population growth in India. 
+3. (b).Analyse the trend in consumption inequality in India since the early 1990s. 
+4. Examine the complementarity between technological change and institutional change in enhancing agricultural growth in India. Suggest some measures for adoption of technologies for sustainable farming system in India. 
+5. Discuss the characteristic features of internal migration in India. Explain how urbanisation is linked with migration. What are the major determinants of rural to urban migration in large agglomerations in India ? 
+6. Analyse the complementarity, difference and integration between Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI). “FDI is necessary but not sufficient condition for economic growth in India”. Critically examine. 
 DSE
 
 2006
