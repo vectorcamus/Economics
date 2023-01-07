@@ -4,5 +4,3 @@ output: html_document
 ---
 
 drafts
-
-I do not want to expalin why i am writing in such a way but "writing something bad"  $\geq$ "writing nothing"
