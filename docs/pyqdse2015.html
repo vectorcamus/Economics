@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2015</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2015</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<div id="dse-2015" class="section level1">
+<h1>DSE 2015</h1>
+<ol style="list-style-type: decimal">
+<li>There are two individuals, 1 and 2. Suppose, they are offered a
+lottery that gives Rs 160 or Rs 80 each with probability equal to <span
+class="math inline">\(\frac{1}{2}\)</span> . The alternative to the
+lottery is a fixed amount of money given to the individual. Assume that
+individuals are expected utility maximizers. Suppose, individual 1 will
+prefer to get Rs 110 with certainty over the lottery. However,
+Individual 2 is happy receiving a sure sum of Rs 90 rather than facing
+the lottery. Which of the following statements is correct? Given these
+statements, which of the following is true?</li>
+</ol>
+<p>      A. both individuals are risk averse</p>
+<p>      B. 2 is risk averse but 1 loves risk</p>
+<p>      C. 1 is risk averse but 2 loves risk</p>
+<p>      D. none of the above</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Consider an exchange economy with agents 1 and 2 and goods x and y.
+The agents’ preferences over x and y are given. If it rains, 1’s
+endowment is (10, 0) and 2’s endowment is (0, 10). If it shines, 1’s
+endowment is (0, 10) and 2’s endowment is (10, 0)</li>
+</ol>
+<p>  A. the set of Pareto efficient allocations is independent of
+whether it rains or shines      B. the set of Pareto efficient
+allocations will depend on the weather      C. the set of Pareto
+efficient allocations may depend on the weather      D. whether the set
+of Pareto efficient allocations varies with the weather depends on the
+preference of the agents</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Deadweight loss is a measure of</li>
+</ol>
+<p>    A. change in consumer welfare</p>
+<p>    B. change in producer welfare</p>
+<p>   C. change in social welfare</p>
+<p>    D. change in social inequality</p>
+<ol start="4" style="list-style-type: decimal">
+<li>To regulate a natural monopolist with cost function <span
+class="math inline">\(C(q) =a+bq\)</span> , the government has to
+subsidize the monopolist under</li>
+</ol>
+<p>      A. average cost pricing</p>
+<p>      B. marginal cost pricing</p>
+<p>      C. non-linear pricing</p>
+<p>      D. all of the above</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Suppose an economic agent lexicographically prefersxtoy, then her
+indifference curves are</li>
+</ol>
+<p>      A. straight lines are parallel to the x axis              B.
+straight lines are parallel to the y axis              C. convex sets   
+          D. L shaped curves</p>
+<p>The following Two questions are based on the function <span
+class="math inline">\(f:\mathbb{R^2} \to \mathbb{R}\)</span> given
+by</p>
+<pre><code>Insert function</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>Which of the following statements is correct?</li>
+</ol>
+<p>    A. f is continuous and has partial derivatives at all points</p>
+<p>   B. f is discontinuous but has partial derivatives at all
+points</p>
+<p>   C. f is continuous but does not have partial derivatives at all
+points</p>
+<p>    D. f is discontinuous and does not have partial derivatives at
+all points</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Which of the following statements is correct?</li>
+</ol>
+<p>    A. f is continuous and differentiable         B. f is
+discontinuous and differentiable         C. f is continuous but not
+differentiable</p>
+<p>    D. f is discontinuous and non-differentiable</p>
+<ol start="8" style="list-style-type: decimal">
+<li>Consider the following system of equations:</li>
+</ol>
+<p><span class="math inline">\(x+ 2y+ 2z−s+ 2t= 0\)</span></p>
+<p><span class="math inline">\(x+ 2y+ 3z+s+t= 0\)</span></p>
+<p><span class="math inline">\(3 x+ 6y+ 8z+s+ 4t= 0\)</span></p>
+<p>The dimension of the solution space of this system of equations
+is</p>
+<p>A. 1</p>
+<p>B. 2</p>
+<p>C. 3</p>
+<p>D. 4</p>
+<ol start="9" style="list-style-type: decimal">
+<li>The vectors <span class="math inline">\(v_0 ,v_1 ,\dots
+,v_n\)</span> in <span class="math inline">\(\mathbb{R^m}\)</span> are
+said to be affinely independent if with scalars <span
+class="math inline">\(c_0 ,c_1 ,\dots ,c_n\)</span> , we have that <span
+class="math inline">\(\sum_{i=0}^n c_iv_i= 0 \ and\ \sum_{i=0}^n c_i=
+0\)</span> implies <span class="math inline">\(c_i= 0 \ for\ i= 0, 1
+,\dots ,n\)</span> .For such an affinely independent set of vectors,
+which of the following is an implication:</li>
+</ol>
+<ol style="list-style-type: upper-roman">
+<li><p><span class="math inline">\(v_0 ,v_1 ,...,v_n\)</span> are
+linearly independent.</p></li>
+<li><p><span class="math inline">\((v_1 −v_0 ),(v_2 −v_0 ),\dots
+,(v_n−v_0 )\)</span> are linearly independent.</p></li>
+<li><p><span class="math inline">\(n\leq m\)</span> .</p></li>
+</ol>
+<p>A. Only I and II are true</p>
+<p>B. Only I and III are true</p>
+<p>C. Only II is true</p>
+<p>D. Only II and III are true</p>
+<ol start="10" style="list-style-type: decimal">
+<li><span class="math inline">\(\mathbb{R}^2 \to \mathbb{R}^2\)</span>
+be a linear mapping (i.e., for every pair of vectors <span
+class="math inline">\((x_1 ,x_2 ),(y_1 ,y_2 )\)</span> and scalars 
+<span class="math inline">\(c_1 ,c_2 ,F(c_1 (x_1 ,x_2 ) +c_2 (y_1 ,y_2
+)) =c_1 F(x_1 ,x_2 ) +c_2 F(y_1 ,y_2 )\)</span> .Suppose <span
+class="math inline">\(F(1,2) = (2,3)\)</span> and F(0,1) = (1,4). Then
+in general, <span class="math inline">\(F(x_1 ,x_2 )\)</span>
+equals</li>
+</ol>
+<p>       A. <span class="math inline">\((x_2 , 4 x_2 )\)</span>       
+       B. (x_2 ,x_1 +x_2 )</p>
+<p>      C. (1 +x_1 , 4 x_2 )</p>
+<p>       D. (x_2 ,− 5 x_1 + 4x_2 )</p>
+<ol start="11" style="list-style-type: decimal">
+<li>A correlation coefficient of 0.2 between Savings and Investment
+implies that:</li>
+</ol>
+<p>    A. A unit change in Income leads to a less than 20 percent
+increase in Savings         B. A unit change in Income leads to a 20
+percent increase in Savings         C. A unit change in Income may cause
+Savings to increase by less than or more than 20</p>
+<p>    D. If we plot Savings against Income, the points would lie more
+or less on a straight line</p>
+<ol start="12" style="list-style-type: decimal">
+<li>In a simple regression model estimated using OLS, the covariance
+between the estimated errors and the regressors is zero by construction.
+This statement is:</li>
+</ol>
+<p>       A. True only if the regression model contains an intercept
+term               B. True only if the regression model does not contain
+an intercept term               C. True irrespective of whether the
+regression model contains an intercept term</p>
+<p>       D. False</p>
+<ol start="13" style="list-style-type: decimal">
+<li>Consider the uniform distribution over the interval <span
+class="math inline">\([a,b]\)</span> .</li>
+</ol>
+<p>    A. The mean of this distribution depends on the length of the
+interval, but the variance does not         B. The mean of this
+distribution does not depend on the length of the interval, but the
+variance does         C. Neither the mean, nor the variance, of this
+distribution depends on the length of the interval</p>
+<p>    D. The mean and the variance of this distribution depend on the
+length of the interval</p>
+<p>The next Two questions are based on the following information. Let
+<span class="math inline">\(F : \mathbb{R} \to \mathbb{R}\)</span> be a
+(cumulative) distribution function. Define <span
+class="math inline">\(b: [0,1]\to \mathbb{R}\)</span> by</p>
+<pre><code>insert </code></pre>
+<ol start="14" style="list-style-type: decimal">
+<li>IfFhas a jump at x, say <span class="math inline">\(c=F(x)&gt; a\geq
+F(x−)\)</span> , then</li>
+</ol>
+<p>    A. b has a jump at c</p>
+<p>    B. b has a jump at a</p>
+<p>    C.b is strictly increasing over (a,c)</p>
+<p>    D. b is constant over (a,c)</p>
+<ol start="15" style="list-style-type: decimal">
+<li>If F is constant over (x,y) with F(z)&lt; F(x) for every z &lt; x,
+then</li>
+</ol>
+<p>    A. b has a jump at y         B. b has a jump at x         C.b is
+continuous at F(x)</p>
+<p>    D. b is decreasing over <span
+class="math inline">\([0,F(x)]\)</span></p>
+<p>The following set of information is relevant for the next Four
+questions. Consider a closed</p>
+<p>economy where at any periodt the actual output <span
+class="math inline">\((Y_t)\)</span> is demand-determined. Aggregate
+demand on the other hand has two components: consumption demand <span
+class="math inline">\((C_t)\)</span> and investment demand <span
+class="math inline">\((I_t)\)</span> . Both consumption and investment
+demands depend on agents’ expectation about period t output <span
+class="math inline">\((Y_t^e)\)</span> in the following way:</p>
+<p><span class="math inline">\(C_t=\alpha Y_t^e; 0&lt; \alpha
+&lt;1\)</span> ,</p>
+<p><span class="math inline">\(I_t=\gamma (Y_t^e)^2 ;\gamma &gt;
+0\)</span></p>
+<ol start="16" style="list-style-type: decimal">
+<li>Suppose agents have static expectations. Static expectation implies
+that</li>
+</ol>
+<p>    A. in every period agents expect the previous period’s actual
+value to prevail         B. in every period agents adjust their expected
+value by a constant positive fraction of the expectational error made in
+the previous period         C. in every period agents use all the
+information available in that period so that the expected value can
+differ from the actual value if and only if there is a stochastic
+element present</p>
+<p>    D. none of the above</p>
+<ol start="17" style="list-style-type: decimal">
+<li>Under static expectations, starting from any given initial level of
+actual output <span class="math inline">\(Y_0 \neq \frac{1
+−\alpha}{\gamma}\)</span> in the long run the actual output in this
+economy</li>
+</ol>
+<p>      A. will always go to zero</p>
+<p>       B. will always go to infinity</p>
+<p>       C. will always go to a finite positive value given by <span
+class="math inline">\(\frac{1 −α}{\gamma}\)</span>               D. will
+go to zero or infinity depending on whether <span
+class="math inline">\(Y_0 &gt; \ or\ &lt;\frac{1
+−α}{\gamma}\)</span></p>
+<ol start="18" style="list-style-type: decimal">
+<li>Suppose now agents have rational expectations. Rational expectation
+implies that</li>
+</ol>
+<p>    A. in every period agents expect the previous period’s actual
+value to prevail         B. in every period agents adjust their expected
+value by a constant positive fraction of the expectational error made in
+the previous period         C. in every period agents use all the
+information available in that period so that the expected value can
+differ from the actual value if and only if there is stochastic element
+present</p>
+<p>    D. none of the above</p>
+<ol start="19" style="list-style-type: decimal">
+<li>Under rational expectations, in the long run the actual output in
+this economy</li>
+</ol>
+<p>    A. will always go to zero</p>
+<p>    B. will always go to infinity</p>
+<p>    C. will always go to a finite positive value given by <span
+class="math inline">\(\frac{1 −\alpha}{\gamma}\)</span></p>
+<p>    D. will go to zero or infinity depending on agent’s
+expectations</p>
+<ol start="20" style="list-style-type: decimal">
+<li>Suppose we conduct n independent Bernoulli trials, each with
+probability of success p. If k is such that the probability of k
+successes is equal to the probability of k+ 1 successes, then</li>
+</ol>
+<p>       A. <span class="math inline">\((n+ 1)p=n(1 +p)\)</span>       
+       B. <span class="math inline">\(np= (n−1)(1 +p)\)</span></p>
+<p>       C. <span class="math inline">\(np\)</span> is a positive
+integer</p>
+<p>       D. <span class="math inline">\((n+ 1)p\)</span> is a positive
+integer</p>
+<p>The next Two questions are based on the following. Consider a pure
+exchange economy with three persons: 1 , 2, 3 and two goods x and y. The
+utilities are given by <span class="math inline">\(u^1 (.) =xy,u^2 (.)
+=x^3 y\)</span> and <span class="math inline">\(u^3 (.) =xy^2\)</span> ,
+respectively.</p>
+<ol start="21" style="list-style-type: decimal">
+<li>If the endowments are (2,0), (0,12) and (12,0), respectively,
+then</li>
+</ol>
+<p>    A. an equilibrium price ratio does not exist         B.<span
+class="math inline">\(\frac{p_x}{p_y}= 1\)</span> is an equilibrium
+price ratio         C. <span
+class="math inline">\(\frac{p_x}{p_y}&gt;1\)</span> is an equilibrium
+price ratio         D. <span
+class="math inline">\(\frac{p_x}{p_y}&lt;1\)</span> is an equilibrium
+price ratio</p>
+<ol start="22" style="list-style-type: decimal">
+<li>If the endowments are (0,2), (12,0) and (0,12), respectively,
+then</li>
+</ol>
+<p>    A. an equilibrium price ratio does not exist         B.
+equilibrium price ratio is the same as in the above question         C.
+<span class="math inline">\(\frac{p_x}{p_y}&lt;1\)</span> is an
+equilibrium price ratio</p>
+<p>    D. <span class="math inline">\(\frac{p_x}{p_y}&gt;1\)</span> is
+an equilibrium price ratio</p>
+<p>The next Two questions are based on the following information. A city
+has a single electricity supplier. Electricity production cost is Rs.
+cper unit. There are two types of customers. Utility function for typei
+is given by <span class="math inline">\(u_i(q,t) = \theta_i \ln (1
++q)−t\)</span> , where q is electricity consumption andtis electricity
+tariff. High type customers are more energy efficient, that is, <span
+class="math inline">\(\theta_H&gt;  \theta_L\)</span> ; moreover <span
+class="math inline">\(\theta_L&gt; c\)</span> .</p>
+<ol start="23" style="list-style-type: decimal">
+<li>Suppose the supplier can observe type of the consumer, i.e., whether
+<span class="math inline">\(\theta = \theta_H \ or \  \theta =
+\theta_L\)</span> . If the supplier decides to sell package <span
+class="math inline">\((q_H,t_H)\)</span> to those for whom <span
+class="math inline">\(\theta = \theta_H \ and \  (q_L,t_L)\)</span> to
+those for whom <span class="math inline">\(\theta = \theta_L\)</span> ,
+then profit maximizing tariffs will be</li>
+</ol>
+<p>       A. <span class="math inline">\(t_H=c \ln (\frac{\theta_H}{c})
+\ and \ t_L=c \ln (\frac{\theta_L}{c})\)</span>        B. <span
+class="math inline">\(t_H=\theta_H \ln (\frac{\theta_H}{c}) \ and \
+t_L=0\)</span>        C <span class="math inline">\(t_H=\theta_H \ln
+(\frac{\theta_H}{c}) \ and \ t_L=\theta_L \ln
+(\frac{\theta_L}{c})\)</span>        D. <span
+class="math inline">\(t_H=t_L=c \ln
+(\frac{\theta_H+\theta_L}{c})\)</span></p>
+<ol start="24" style="list-style-type: decimal">
+<li>Now, assume that the supplier cannot observe type of the consumer.
+Suppose, he puts on offer both of the packages that he would offer in
+the above question. If consumers are free to choose any of the offered
+packages, then</li>
+</ol>
+<p>       A. Both types will earn zero utility</p>
+<p>       B. Only low type can earn positive utility</p>
+<p>       C. Only high type can earn positive utility</p>
+<p>       D. Both types can earn positive utility</p>
+<ol start="25" style="list-style-type: decimal">
+<li>Suppose buyers of ice-cream are uniformly distributed on the
+interval <span class="math inline">\([0,1]\)</span> . Ice-cream sellers
+1 and 2 simultaneously locate on the interval, each locating so to
+maximize her market share given the location of the rival. Each seller’s
+market share corresponds to the proportion of buyers who are located
+closer to her location than to the rival’s location</li>
+</ol>
+<p>       A. Both will locate at <span
+class="math inline">\(\frac{1}{2}\)</span></p>
+<p>       B. One will locate at <span
+class="math inline">\(\frac{1}{4}\)</span> and the other at <span
+class="math inline">\(\frac{3}{4}\)</span>                C. One will
+locate at 0 and the other at 1                D. One will locate at
+<span class="math inline">\(\frac{1}{3}\)</span> and the other at <span
+class="math inline">\(\frac{2}{3}\)</span></p>
+<ol start="26" style="list-style-type: decimal">
+<li>In the context of previous question, suppose it is understood by all
+players that seller 3 will locate on <span class="math inline">\([0,
+1]\)</span> after observing the simultaneous location choices of sellers
+1 and 2. Seller 3 aims to maximize market share given the locations of 1
+and 2. The locations of sellers 1 and 2 are as follows:</li>
+</ol>
+<p>       A. Both will locate at <span
+class="math inline">\(\frac{1}{2}\)</span>               B. One will
+locate at <span class="math inline">\(\frac{1}{4}\)</span> and the other
+at <span class="math inline">\(\frac{3}{4}\)</span>               C. One
+will locate at 0 and the other at 1</p>
+<p>       D. One will locate at <span
+class="math inline">\(\frac{1}{3}\)</span> and the other at <span
+class="math inline">\(\frac{2}{3}\)</span></p>
+<ol start="27" style="list-style-type: decimal">
+<li>Consider a government and two citizens. The government has to decide
+whether to create a public good, say a park, at cost Rs 100. The value
+of the park is Rs 30 to the citizen 1 and Rs 60 to citizen 2; each
+valuation is private information for the relevant citizen and not known
+to the government. The government asks the citizens to report their
+valuations, say <span class="math inline">\(r_1\)</span> and <span
+class="math inline">\(r_2\)</span>. It cannot verify the truthfulness of
+the reports. It decides to build the park if <span
+class="math inline">\(r_1 +r_2 \geq 100\)</span> , in which case,
+citizen 1 will pay the tax <span class="math inline">\(100 -r_2\)</span>
+and citizen 2 will pay the tax <span class="math inline">\(100
+-r_1\)</span> . If the park is not built, then no taxes are imposed. The
+reported valuations will be</li>
+</ol>
+<p>       A. <span class="math inline">\(r_1 &lt;30 \ and \ r_2 &gt;
+60\)</span></p>
+<p>       B. <span class="math inline">\(r_1 &gt;30 \ and \ r_2 &lt;
+60\)</span></p>
+<p>       C.<span class="math inline">\(r_1 = 60 \ and \ r_2 =
+30\)</span></p>
+<p>       D. <span class="math inline">\(r_1 = 30 \ and \ r_2 =
+60\)</span></p>
+<ol start="28" style="list-style-type: decimal">
+<li>In the context of the previous question, suppose the only change is
+that citizen 1’s valuation rises to 50 and the same procedure is
+followed, then</li>
+</ol>
+<p>       A. The park will be built and result in a government budget
+surplus of Rs 10</p>
+<p>       B. The park will be built and result in a government budget
+deficit of Rs 10</p>
+<p>       C. The park will be built and result in a government balanced
+budget</p>
+<p>       D. The park will not be built</p>
+<ol start="29" style="list-style-type: decimal">
+<li>Consider the following two games in which player 1 chooses a row and
+player 2 chooses a column.</li>
+</ol>
+<pre><code>insert games</code></pre>
+<p>Analysis of these games shows</p>
+<p>A. Having an extra option cannot hurt</p>
+<p>B. Having an extra option cannot hurt as long as it dominates other
+options</p>
+<p>C. Having an extra option can hurt if the other player is
+irrational</p>
+<p>D. Having an extra option can hurt if the other player is
+rational</p>
+<ol start="30" style="list-style-type: decimal">
+<li>Consider an exchange economy with agents 1 and 2 and goodsxandy.
+Agent 1 lexicographically prefers <span class="math inline">\(x\)</span>
+to <span class="math inline">\(y\)</span> . Agent 2’s utility function
+is <span class="math inline">\(\min\)</span>{<span
+class="math inline">\(x,y\)</span>}. Agent 1’s endowment is (0, 10) and
+agent 2’s endowment is (10, 0). The competitive equilibrium price ratio,
+<span class="math inline">\(\frac{p_x}{p_y}\)</span> , for this
+economy</li>
+</ol>
+<p>       A. can be any positive number</p>
+<p>       B. is greater than 1</p>
+<p>       C. is less than 1</p>
+<p>       D. does not exist</p>
+<ol start="31" style="list-style-type: decimal">
+<li>Consider a strictly increasing , differentiable function <span
+class="math inline">\(u:\mathbb{R}^2 \to \mathbb{R}\)</span> and the
+equations:</li>
+</ol>
+<p><span class="math inline">\(\frac{D_1 u(x_1 ,x_2 )}{D_2 u(x_1 ,x_2
+)}=\frac{p_1}{p_2}\)</span> and <span class="math inline">\(p_1 x_1 +p_2
+x_2 =w\)</span> , where <span class="math inline">\(p_1 ,p_2 ,w\)</span>
+are strictly positive. What additional assumptions will guarantee the
+existence of continuously differentiable functions <span
+class="math inline">\(x_1 (p_1 ,p_2 ,w)\)</span> and <span
+class="math inline">\(x_2 (p_1 ,p_2 ,w)\)</span> that will solve these
+equations for all strictly positive <span class="math inline">\(p_1 ,p_2
+,w\)</span> ?</p>
+<p>A. u is injective</p>
+<p>B. u is bijective</p>
+<p>C. u is twice continuously differentiable</p>
+<p>D. u is twice continuously differentiable and</p>
+<pre><code>insert matrix</code></pre>
+<p>is nonsingular</p>
+<ol start="32" style="list-style-type: decimal">
+<li>As <span class="math inline">\(n \up? \infty\)</span> , the sequence
+<span class="math inline">\((−1)^n(1 +n^{-1} )\)</span></li>
+</ol>
+<p>    A. converges to 1</p>
+<p>    B. converges to -1</p>
+<p>   C. converges to both -1 and 1</p>
+<p>    D. does not converge</p>
+<ol start="33" style="list-style-type: decimal">
+<li>The set (0,1) can be expressed as</li>
+</ol>
+<p>    A. the union of a finite family of closed intervals</p>
+<p>    B. the intersection of a finite family of closed intervals</p>
+<p>    C. the union of an infinite family of closed intervals</p>
+<p>    D. the intersection of an infinite family of closed intervals</p>
+<ol start="34" style="list-style-type: decimal">
+<li>The set <span class="math inline">\([0,1]\)</span> can be expressed
+as</li>
+</ol>
+<p>    A. the union of a finite family of open intervals</p>
+<p>    B. the intersection of a finite family of open intervals</p>
+<p>    C. the union of an infinite family of open intervals</p>
+<p>    D. the intersection of an infinite family of open intervals</p>
+<p>The following information is used in the next Two questions. Consider
+a linear transformation <span class="math inline">\(P:\mathbb{R}^n\to
+\mathbb{R}^n\)</span> . Let <span class="math inline">\(R(P)
+=\)</span>{<span class="math inline">\(P_x|x\in R^n\)</span> } and <span
+class="math inline">\(N(P) =\)</span>{<span class="math inline">\(x\in
+R^n|P_x= 0\)</span> }. P is said to be a projector if</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>every <span class="math inline">\(x\in R^n\)</span> can be
+uniquely written as <span class="math inline">\(x=y+z\)</span> for some
+<span class="math inline">\(y\in R(P) \ and\ z\in N(P)\)</span> ,
+and</p></li>
+<li><p><span class="math inline">\(P(y+z) =y\)</span> for all <span
+class="math inline">\(y\in R(P) \ and\ z\in N(P)\)</span></p></li>
+</ol>
+<ol start="35" style="list-style-type: decimal">
+<li>If P is a projector, then</li>
+</ol>
+<p>A. <span class="math inline">\(P^2 =I\)</span> , where I is the
+identity mapping</p>
+<p>B. <span class="math inline">\(P=P^{-1}\)</span></p>
+<p>C.<span class="math inline">\(P^2 =P\)</span></p>
+<p>D. Both (a) and (b)</p>
+<ol start="36" style="list-style-type: decimal">
+<li>If P is a projector and <span
+class="math inline">\(Q:\mathbb{R^m}\to \mathbb{R^n}\)</span> is a
+linear transformation such that R(P) =R(Q), then</li>
+</ol>
+<p>       A. QP=P</p>
+<p>       B.PQ=Q</p>
+<p>       C.QP=I</p>
+<p>       D. PQ=I</p>
+<ol start="37" style="list-style-type: decimal">
+<li>Suppose that a and b are two consecutive roots of a polynomial
+function f, with a &lt; b. Suppose a and b are non-repeated roots.
+Consequently,f(x) = (x−a)(x−b)g(x) for some polynomial function g.
+Consider the statements:</li>
+</ol>
+<p>       (I) g(a) and g(b) have opposite signs               (II) f′(x)
+= 0 for some <span class="math inline">\(x\in (a,b)\)</span></p>
+<p>    Of these statements,</p>
+<p>       A. Both I and II are true</p>
+<p>       B. Only I is true</p>
+<p>       C. Only II is true</p>
+<p>       D. Both I and II are false</p>
+<ol start="38" style="list-style-type: decimal">
+<li>Suppose <span class="math inline">\(f: [0,1]\to R\)</span> is a
+twice differentiable function that satisfies <span
+class="math inline">\(D^2 f(x)+Df(x) = 1\)</span> for every <span
+class="math inline">\(x\in (0,1)\)</span> and <span
+class="math inline">\(f(0) = 0 =f(1)\)</span> . Then,</li>
+</ol>
+<p>A. f does not attain positive values over (0,1)</p>
+<p>B. f does not attain negative values over (0,1)</p>
+<p>C. f attains positive and negative values over (0,1)</p>
+<p>D. f is constant over (0,1)</p>
+<ol start="39" style="list-style-type: decimal">
+<li>Suppose <span class="math inline">\(x_1 ,\dots ,x_n\)</span> are
+positive and <span class="math inline">\(\lambda_1 ,\dots
+,\lambda_n\)</span> are non-negative with <span
+class="math inline">\(\sum_{i=1}^n \lambda_i= 1\)</span> . Then</li>
+</ol>
+<p>    A. <span class="math inline">\(\sum_{i=1}^n \lambda_i x_i\geq
+x_1^{\lambda_1} , \dots , \lambda_n^{\lambda_n}\)</span></p>
+<p>    B. <span class="math inline">\(\sum_{i=1}^n \lambda_i x_i &lt;
+x_1^{\lambda_1} , \dots , \lambda_n^{\lambda_n}\)</span></p>
+<p>   C.<span class="math inline">\(\sum_{i=1}^n \lambda_i x_i \leq
+sqrt{x_1^{\lambda_1} , \dots , \lambda_n^{\lambda_n}}\)</span>    D.
+None of the above is necessarity true</p>
+<ol start="40" style="list-style-type: decimal">
+<li>Let N={ 1 , 2 , 3 ,…}. Suppose there is a bijection, i.e., a
+one-to-one correspondence (an “into” and “onto” mapping), between N and
+a set X. Suppose there is also a bijection betweenNand a setY.
+Then,</li>
+</ol>
+<p>       A. there is a bijection between N and <span
+class="math inline">\(X\cup Y\)</span></p>
+<p>       B. there is a bijection between N and <span
+class="math inline">\(X\cap Y\)</span></p>
+<p>      C. there is no bijection between N and <span
+class="math inline">\(X\cap Y\)</span></p>
+<p>       D. there is no bijection between N and <span
+class="math inline">\(X\cup Y\)</span></p>
+<p>The next Three questions pertain to the following: A simple linear
+regression of wages on gender, run on a sample of 200 individuals, 150
+of whom are men, yields the following <span class="math inline">\(W_i=
+300− 50 D_i+u_i\)</span></p>
+<ol start="20" style="list-style-type: decimal">
+<li><ol start="10" style="list-style-type: decimal">
+<li><h1 id="edit">edit</h1></li>
+</ol></li>
+</ol>
+<p>where <span class="math inline">\(W_i\)</span> is the wage in Rs per
+day of the <span class="math inline">\(i^{th}\)</span> individual,<span
+class="math inline">\(D_i= 1\)</span> if individual <span
+class="math inline">\(i\)</span> is male, and 0 otherwise,<span
+class="math inline">\(u_i\)</span> is a classical error term , and the
+figures in parentheses are standard errors.</p>
+<ol start="41" style="list-style-type: decimal">
+<li>What is the average wage in the sample?</li>
+</ol>
+<p>    A. Rs. 250 per day</p>
+<p>    B. Rs. 275 per day</p>
+<p>    C. Rs. 262.50 per day</p>
+<p>    D. Rs. 267.50 per day</p>
+<ol start="42" style="list-style-type: decimal">
+<li>The most precise estimate of the difference in wages between men and
+women would have been obtained if, among these 200 individuals,</li>
+</ol>
+<p>       A. There were an equal number (100) of men and women in the
+sample</p>
+<p>       B. The ratio of the number of men and women in the sample was
+the same as the ratio of their average wages                C. There
+were at least 30 men and 30 women; this is sufficient for estimation:
+precision does not depend on the distribution of the sample across men
+and women                D. None of the above</p>
+<ol start="43" style="list-style-type: decimal">
+<li>The explained (regression) sum of squares in this case is:</li>
+</ol>
+<p>    A. 93750</p>
+<p>    B. 1406.25</p>
+<p>    C. 15000</p>
+<p>    D. This cannot be calculated from the information given</p>
+<ol start="44" style="list-style-type: decimal">
+<li>A researcher estimate the following two models using OLS</li>
+</ol>
+<p>    Model <span class="math inline">\(A:y_i= \beta_0 + \beta_1 S_i+
+\beta_2 A_i+i\)</span></p>
+<p>    Model <span class="math inline">\(B:y_i= \beta_0 + \beta_1
+S_i+i\)</span></p>
+<p>    where <span class="math inline">\(y_i\)</span> refers to the
+marks (out of 100) that a studentigets on an exam,<span
+class="math inline">\(S_i\)</span> refers to the number of hours spent
+studying for the exam by the student, and <span
+class="math inline">\(A_i\)</span> is an index of innate ability
+(varying continuously from a low ability score of 1 to a high ability
+score of 10).ithe usual classical error term. The estimated <span
+class="math inline">\(\beta_1\)</span> coefficient is 7.1 for Model A,
+but 2.1 for Model B; both are statistically significant. The estimated  
+2 coefficient is 1.9 and is also significantly different from zero. This
+suggests that:</p>
+<p>       A. Students with lower ability also spend fewer hours
+studying</p>
+<p>       B. Students with lower ability spend more time studying</p>
+<p>       C. There is no way that students of even high ability can get
+more than 40 marks</p>
+<p>       D. None of the above</p>
+<ol start="45" style="list-style-type: decimal">
+<li>An analyst estimates the model <span class="math inline">\(Y =
+\beta _1 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 +u\)</span> using
+OLS.</li>
+</ol>
+<p>    But the true <span class="math inline">\(\beta  3 = 0\)</span> .
+In this case, by including <span class="math inline">\(X_3\)</span></p>
+<p>       A. there is no harm done as all the estimates would be
+unbiased and efficient</p>
+<p>       B. there is a problem because all the estimates would be
+biased and inconsistent</p>
+<p>       C. the estimates would be unbiased but would have larger
+standard errors</p>
+<p>       D. the estimates may be biased but they would still be
+efficient</p>
+<ol start="46" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(\hat \beta\)</span> be the OLS
+estimator of the slope coefficient in a regression ofY onX 1. Let <span
+class="math inline">\(\hat \beta\)</span> be the OLS estimator of the
+coefficient on <span class="math inline">\(X_1\)</span> on a regression
+of Y on <span class="math inline">\(X_1\)</span> and <span
+class="math inline">\(X_2\)</span> . Which of the following is true</li>
+</ol>
+<p>       A. <span class="math inline">\(Var( \hat \beta )&lt;Var(\hat
+\beta  )\)</span></p>
+<p>       B. <span class="math inline">\(Var(\hat \beta )&gt;Var( \hat
+\beta  )\)</span></p>
+<p>       C. <span class="math inline">\(Var( \hat \beta )&lt; \ or\
+&gt;Var(\hat \beta  )\)</span></p>
+<p>       D. <span class="math inline">\(Var( \hat \beta ) = Var(\hat
+\beta  )\)</span></p>
+<ol start="47" style="list-style-type: decimal">
+<li>You estimate the multiple regression <span class="math inline">\(Y
+=a+b_1 X_1 +b_2 X _2 +u\)</span> with a large sample. Let <span
+class="math inline">\(t_1\)</span> be the test statistic for testing the
+null hypothesisb 1 = 0 and <span class="math inline">\(t_2\)</span> be
+the test statistic for testing the null hypothesis <span
+class="math inline">\(b_2 = 0\)</span> . Suppose you test the joint null
+hypothesis that <span class="math inline">\(b_1 =b_2 = 0\)</span> using
+the principle ‘reject the null if either <span
+class="math inline">\(t_1\)</span> or <span
+class="math inline">\(t_2\)</span> exceeds 1.96 in absolute value’
+taking <span class="math inline">\(t_1\)</span> and <span
+class="math inline">\(t_2\)</span> to be independently distributed.</li>
+</ol>
+<p>       A. The probability of error Type 1 is 5 percent in this
+case</p>
+<p>       B. The probability of error Type 1 is less than 5 percent in
+this case</p>
+<p>       C. The probability of error Type 1 is more than 5 percent in
+this case</p>
+<p>       D. The probability of error Type 1 is either 5 percent or less
+than 5 percent in this case</p>
+<ol start="48" style="list-style-type: decimal">
+<li>Four taste testers are asked to independently rank three different
+brands of chocolate (A,B,C). The chocolate each tester likes best is
+given the rank 1, the next 2 and then 3. After this, the assigned ranks
+for each of the chocolates are summed across the testers. Assume that
+the testers cannot really discriminate between the chocolates, so that
+each is assigning her ranks at random. The probability that chocolate A
+receives a total score of 4 is given by:</li>
+</ol>
+<p>       A. <span class="math inline">\(\frac{1}{4}\)</span></p>
+<p>       B. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>       C. <span class="math inline">\(\frac{1}{27}\)</span></p>
+<p>       D. <span class="math inline">\(\frac{1}{81}\)</span></p>
+<ol start="49" style="list-style-type: decimal">
+<li>Suppose 0.1 percent of all people in a town have tuberculosis (TB).
+A TB test is available but it is not completely accurate. If a person
+has TB, the test will indicate it with probability 0.999. If the person
+does not have TB, the test will erroneously indicate that s/he does with
+probability 0.002. For a randomly selected individual, the test shows
+that s/he has TB. What is the probability that this person actually has
+TB?</li>
+</ol>
+<p>       A.<span class="math inline">\(\frac{0.002}{0.999}\)</span></p>
+<p>       B. <span class="math inline">\(\frac{1}{1000}\)</span></p>
+<p>      C. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>       D. <span class="math inline">\(\frac{2}{3}\)</span></p>
+<ol start="50" style="list-style-type: decimal">
+<li>There exists a random variable X with mean <span
+class="math inline">\(\mu_X\)</span> and variance <span
+class="math inline">\(\sigma_X^2\)</span> for which <span
+class="math inline">\(P[\mu X− 2 \sigma_X \leq X \leq \mu_X+ 2\sigma_X]
+= 0.6\)</span> This statement is:</li>
+</ol>
+<p>       A. True for any distribution for appropriate choices of <span
+class="math inline">\(\mu_X\)</span> and <span
+class="math inline">\(\sigma^2 X\)</span></p>
+<p>       B. True only for the uniform distribution defined over an
+appropriate interval</p>
+<p>       C. True only for the normal distribution for appropriate
+choices of <span class="math inline">\(\mu_X\)</span> and <span
+class="math inline">\(\sigma_X^2\)</span></p>
+<p>       D. False</p>
+<ol start="51" style="list-style-type: decimal">
+<li>Consider a sample size of 2 drawn without replacement from an urn
+containing three balls numbered 1, 2, and 3. Let X be the smaller of the
+two numbers drawn and Y the larger. The covariance between X and Y is
+given by</li>
+</ol>
+<p> A. <span class="math inline">\(\frac{1}{9}\)</span></p>
+<p> B. <span class="math inline">\(\frac{3}{11}\)</span></p>
+<p> C.<span class="math inline">\(\frac{11}{3}\)</span></p>
+<p> D.<span class="math inline">\(\frac{3}{4}\)</span></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,742 @@
+---
+title: "PYQ DSE 2011"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+```
+DSE 2011
+```
+
+  
+
+1. For the real-valued function $f(x) =x^4 − 4 x^3 + 6x^2 − 4 x+ 1$ , (defined for all real numbers x), the point x= 1 is
+
+A. a local minimum
+
+B. a local maximum
+
+C. a point of inflection
+
+D. none of the above
+
+  
+
+2. Consider the function f mapping points of the plane into the plane, defined by $f(x,y) =(x−y,x+y)$ . The range of this function is
+
+  
+A. the 45 degree line
+
+B. a ray through the origin but not the 45 degree line
+
+C. the entire plane
+
+D. the first and third quadrants
+
+  
+
+3. Suppose {$v_1 ,v_2 ,\dots ,v_n$ } is a set of linearly dependent vectors , none of them being the zero vector. Suppose $c_1 ,c_2 ,\dots ,c_n$  are scalars, not all zero, such that $\sum_{i=1}^n c_iv_i= 0$ . Then the minimum number of non-zero scalars is
+
+  
+
+A. 1
+
+B. 2
+
+C. $n− 1$
+
+D. can not be determined
+
+  
+
+4. Suppose the non-zero n \times 1 column vector x solves the system of equations $Ax= b$, where A is an $m \times n$  matrix whose columns are the vectors $a_1 ,a_2 ,\dots,a_n$ and b is an $m \times 1$  column vector. Then the set of vectors {$a_1 ,a_2 ,\dots ,a_n,b$ } is
+
+A. linearly independent
+
+B. linearly dependent
+
+C. linearly dependent only if  $a_1 ,a_2 ,\dots ,a_n$ are linearly dependent
+
+D. linearly dependent only if $m=n$
+
+5. For a system of linear equations $Ax=b$  with m equations and n variables, where $m > n$  and b is a given vector, the following is true.
+
+A.  It can never have a unique solution
+
+B.  It always has at least one solution
+
+C.  It has at least a one-dimensional solution space
+
+D.  If Rank(A) =n and a solution exists, it must be unique
+
+  
+
+  
+
+6. Suppose we are interested in estimating the mean height of M.A. students in Delhi University. An avergae height estimated from a random sample of size 30 is better than estimated from a random sample of size 20 because:
+
+A. The sample of size 20 is likely to be more biased because it is less representative
+
+B. The sample of size 30 is likely to yield more precise estimates of average height than the sample of size 20
+
+C. The Central Limit Theorem prescribes a minimum sample size of 30
+
+D. Both (a) and (b)
+
+  
+
+7. A doctor testing a diagnostic tool for a rare disease wants to minimize the chance that the test will find a patient to be healthy when she is in fact sick (the null hypothesis being that the patient is healthy). The doctor should minimize the probability of:
+
+  
+
+A. Type I error, which would denote a false positive
+
+B. Type II error, which would denote a false positive
+
+C. Type I error, which would denote a false negative
+
+D. Type II error, which would denote a false negative
+
+  
+
+8. Suppose you have the following estimated regression equation: ln $Y = 1.2 + 0.5X$ . Which of the following is a good interpretation of the estimated relationship between X and Y
+
+  
+
+A. A unit change in X is associated with a 50 percent change in Y
+
+B. A unit change in X is associated with a 0.5 percent change in Y
+
+C. A one percent change in X is associated with a 50 unit change in Y
+
+D. A one percent change in X is associated with a 0.5 unit change in Y
+
+  
+
+9. Let $A_1 ,A_2 ,A_3$  be independent events with probabilities $p_1 , p_2 , p_3$  respectively. The probability that none of these events occurs equals
+
+A. $1−( p_1+p_2+p_3)$ 
+
+B. $1−( p_1  + p_2+ p_3)+p_1p_2+p_1p_3+p_2+p_3$
+
+C. $(1-p_1)(1-p_2)(1-p)3)$
+
+D. $(1-p_2)(1+p_1p_3)$
+  
+
+10. The market for good X has the demand function $D(p) = 100− 15 p$ where p is the price of good X. There are ten price taking firms , each having a cost function $c(q) =q^2$  , where q is the firm’s own output. There is no new entry.
+
+A. Rs. 20
+
+B. Rs. 15
+
+C. Rs. 10
+
+D. Rs. 5
+
+
+11. The market for good X has the demand function $D(p) = 100−p$ and the supply function $S(p) = 20 + 3p$ where p is the price of good X. If the government imposes a sales tax of Rs. 10 perunit of the good on sellers, the equilibrium market price will increase by
+
+  
+
+A. Rs. 10
+
+B. Rs. 7.5
+
+C. Rs. 5
+
+D. Rs. 0
+
+  
+
+12. A monopolist, who can produce output at a cost of Rs. 20perunit faces an inverse demand curve given by $p= 60− 2 q$ . The profit maximizing price for the monopolist is
+
+A. Rs. 40
+
+B. Rs. 20
+
+C. Rs. 30
+
+D. Rs. 60
+
+  
+
+13. Consider a duopoly market in which both firms choose quantities. Suppose we have the reaction curve of each firm, i.e , the curve that yields the firm’s optimal quantity choice in response to a quantity choice in response to a quantity chosen by the other firm. If one firm is the Stackelberg leader and the other is the Stackelberg follower, then which of the following conditions characterizes the quantity chosen by the leader
+
+  
+
+A. The quantity at which the leader’s isoprofit curve is tangential to the follower’s reaction curve
+
+B. The quantity at which the follower’s isoprofit curve is tangential to the leader’s reaction curve
+
+C. The quantity where the leader’s isoprofit curve attains a maximum
+
+D. The quantity where the two reaction curves intersect
+
+  
+
+14. A society has 3 individuals and 3 alternatives A,B andC. Individuals 1 and 2 strictly prefer A to B and B to C. Individual 3 strictly prefers C to B and B to A. A Rawlsian social planner would therefore choose
+
+A. A
+
+B. B
+
+C. C
+
+D. A or C
+
+  
+
+15. A natural monopoly is said to occur when
+
+A. the long run average cost curve is U-shaped
+
+B. the long run average cost curve is decreasing
+
+C. the long run average cost curve is flat
+
+D. the long run average cost curve is increasing
+
+  
+
+16. If everybody in the economy decides to consume a higher proportion of their income, the corresponding IS curve
+
+  
+
+A. will be flatter
+
+B. will be steeper
+
+C. will remain unchanged
+
+D. will become horizontal
+
+
+17. An increase in the expected rate of inflation will
+
+A. shift the LM curve up
+
+B. shift the LM curve down
+
+C. leave the LM curve unchanged
+
+D. have an ambiguous effect on the LM curve
+
+  
+18. A devaluation of domestic currency will improve the country’s trade balance only if the following is true for price elasticities of demand:
+
+
+A. the sum of price elasticities of exports and imports equals 1
+
+B. the sum of price elasticities of exports and imports is less than 1
+
+C. the sum of price elasticities of exports and imports is greater than 1
+
+D. the price elasticity of exports exactly matches the price elasticity of imports
+
+19. Under nominal wage rigidity, the short run aggregate supply schedule will be
+
+
+A. vertical
+
+B. horizontal
+
+C. upward sloping
+
+D. downward sloping
+
+  
+
+20. Okun’s Law refers to
+
+A. a negative relationship between inflation and unemployment
+
+B. a negative relationship between unemployment and real GDP
+
+C. a negative relationship between interest rate and money demand
+
+D. a negative relationship between inflation and growth
+
+  
+The following notational conventions apply wherever the following symbols are used. R denotes the set of real numbers. $R_{++}$  denotes the set of positive real numbers. Qdenotes the set of rational numbers.
+
+  
+
+21. Suppose the function  $f:R_{++} \to  R$ is given by $f(x) =\int_{1}^x t^{-1} dt$ .Consider the following statements: for $x,y \in R_{++},  f(x+y) =f(x) +f(y) f(xy) =f(x) +f(y)$  In general,
+
+  
+
+A. (i) is true and (ii) is false
+
+B. (i) is false and (ii) is true
+
+C. Both are true
+
+D. Both are false
+
+  
+
+22. Suppose a real valued function f is defined for all real numbers excepting 0, and satisfies the following conditions: $f(xy) =f(x) +f(y$ ) for all $x,y$ in the domain. Consider the statements:
+
+$f(1) =f(−1) = 0$ 
+
+$f(x) =f(−x)$  for every x
+
+A. (i) is true and (ii) is false
+
+B. (i) is false and (ii) is true
+
+C. Both are true
+
+D. Both are false
+
+  
+
+23. The closest point on the parabola $y=\frac{1}{4} x^2$  from a given point (0,b) on the vertical axis, with $b >0$ , is the origin if and only if
+
+A. b < 3
+
+B. b > 3
+
+C. b < 2
+
+D. b > 2
+
+24. Let $f$ be a real valued differentiable function defined for all $x\geq a$ . Consider the function F defined by $F(x) =\int_{a}^x  f(t)dt$ .If $f$ is increasing on any interval, then on that interval Fis
+
+A. convex
+
+B. concave
+
+C. increasing
+
+D. decreasing
+
+  
+
+25. Consider the function $f:R \to  R$ defined by
+
+```
+insert function
+```
+where Q is the set of rational numbers. Then, f is
+
+A. discontinuous at every $x \neq  0$ 
+
+B. is continuous at all points in Q
+
+C. continuous at multiple points
+
+D. is discontinuous on a countable set of points
+
+  
+
+26. Suppose A and B are square matrices that satisfy $$AB+BA= 0$$ where 0 is a square matrix of zeros. Then it must be that
+
+A. $A^2 B^3 =B^3 A^2$
+
+B. $A^2 B^3 =B^2 A^3$
+
+C. $A^2 B^3 =BA^4$
+
+D. None of the above is necessarily true
+
+Consider a Society consisting of individuals. These individuals may belong to various sets called Clubs and Tribes. The collections of Clubs and Tribes satisfy the following rules:
+
+- The entire Society is a Tribe
+- The empty subset of Society is also a Tribe
+- Given any collection of Tribes, the set of individuals who belong to each Tribe in that collection is also a Tribe
+- Given any two Tribes, the set of individuals who belong to at least one of these Tribes is also a Tribe
+- A set of individuals is called a Club if and only if the set of individuals not in it constitute a Tribe
+
+27. The intersection of two Clubs is necessarily
+
+A. a Club
+
+B. a Tribe
+
+C. not a Club
+
+D. not a Tribe
+
+28. The union of a collection of Clubs is necessarily
+
+A. not a Club
+
+B. not a Tribe
+
+C. a Club
+
+D. a Tribe
+
+29. Which of the following statements is necessarily true
+
+A. A set of individuals cannot be a Tribe and a Club
+
+B. There are at least two sets of individuals that are both a Club and a Tribe
+
+C. The union of a Club and a Tribe is a Tribe
+
+D. The intersection of a Club and a Tribe is a Club
+
+  
+
+30. Suppose we are given a Club and a Tribe. Then, the set of individuals who belong to the given Tribe but not to the given Club necessarily constitute
+
+A. a Club
+
+B. a Tribe
+
+C. neither a Club, not a Tribe
+
+D. a Club and a Tribe
+
+  
+
+The next two questions are based on the following information. Suppose X and Y are two random variables. Xcan take values -1 and 1. Y can take integer values between 1 and 6. The following is the joint probability distribution of X and Y.
+
+| |Y = 1 |Y = 2 |Y= 3| Y = 4| Y = 5 |Y = 6|
+|---|---|---|---|---|---|---|
+|X=− 1 |0.1| a |0.3| 0 |0| 0|
+|X= 1 |0 |0| b| 0.1 |0.1 |0.1|
+It is known that the expectations of the two random variables are $E(X) =− 0 .2$  and $E(Y) =3.2$. Then
+
+31. The value ‘a’ in the table equals
+
+A. 0
+
+B. 0.1
+
+C. 0.2
+
+D. 0.3
+
+32. The value ‘b’ in the table equals
+
+A. 0
+
+B. 0.1
+
+C. 0.2
+
+D. 0.3
+
+  
+
+The next two questions are based on the following data. Suppose X and Y are independent random variables that follow the uniform distribution on the $[0,1]$ . Let $Z=min(X,Y)$ .
+
+33. $Pr(Z <−.5)$  (the probability that Z is less than 0.5) equals
+
+A. 0.25
+
+B. 0.5
+
+C. 0.625
+
+D. 0.75
+
+34. $Pr(Z < 0. 5 |X= 0.75)$  is
+
+A. 0.25
+
+B. 0.5
+
+C. 0.625
+
+D. undefined
+
+35. Two players, A and B, will play a best of seven table tennis match ( i.e. , the first to win 4 games will win the match, and the match will have at most 7 games).The two players are equally likely to win any of the games in the match. The probability that match will end in 6 games is
+
+A. less than the probability that it will end in 7 games
+
+B. equal to the probability that it will end in 6 games
+
+C. greater than the probability that it will end in 7 games
+
+D. None of (a), (b) or (c) is true
+
+36. In order to join the ‘Gamers Club’, Mr. A must choose a box from the two identical boxes in a room, and draw one ball from the chosen box. All he knows is that both boxes are nonempty, and have a mix of red and green balls. If the ball that he draws from his chosen box is green, he is admitted to the club. You are given 2 identical boxes, 50 red balls and 50 green balls, and asked to allocate these balls to the two boxes in order to maximize Mr. A’s probability of being admitted to the club, given that he will choose a box randomly. If you allocate these balls correctly, the probability that Mr. A gets admitted to the club equals
+
+A. 1
+
+B. 0.747
+
+C. 0.547
+
+D. 0.257
+
+37. Consider the following equation to be estimated using ordinary least squares: $Y=a_0 +a_1 x_1 +a_2 X_2 +a_3 (X_2 −X_1 ) +a_4 X_1 X_2 +u$ Which of the following statements is true
+
+A. The parameters $a_0 ,a_1 ,a_2 ,a_4$  can be estimated, but not $a_3$ 
+
+B. The parameters $a_0$  and $a_4$  can be estimated, but not $a_1 ,a_2 ,a_3$ 
+
+C. The parameters $a 0 ,a_1 ,a_2 ,a_3$  can be estimated, but not $a_4$
+
+D. All parameters can be estimated
+
+  
+
+38. A researcher wants to test whether there are gender differences in the rates of immunization for boys and girls, after controlling for parental income, mother’s education and access to health care facilities. The easiest way to test this would be to:
+
+A. Include one dummy variable in the multiple regression
+
+B. Include two dummy variables in the multiple regression
+
+C. Include interaction dummies in the multiple regression
+
+D. Run two separate regressions-one for boys and one for girls
+
+  
+
+39. Instead of estimating a production function $y=a_0 +a_1 K+a_2 L+u$ , where y is output, K is capital input and L is labour input, a researcher estimates $y=a_0 +a_1 K+u$ . It is known that in the true model,a 2 >0 and K and L are complements. Which of the following is true
+
+A. The estimateda 1 will be upwardly biased
+
+B. The estimateda 1 will have a downward bias
+
+C. The estimateda 1 will be biased, but the direction of bias cannot be determined
+
+D. The estimateda 1 will be unbiased, buta 0 will be biased
+
+40. A student has the opportunity to take a test at most thrice. The student knows that each time he takes the test, his score is an independent random draw from the uniform distribution on the interval $[0,100]$ . After learning his score on a test, the student can either stop and accept it as his official score, or he can discard the result and retake the test. If the student rejects his score twice and takes the test a third time, that score will be his official score. If his objective is to maximize his expected official score, the student will decide to be retested after the very first test if and only if his score is less than
+
+A. 50
+
+B. 62.5
+
+C. 75
+
+D. 87.5
+
+41. A consumer has utility function $u(x_1 ,x_2 ) =min( 2 x_1 +x_2 ,x_1 + 2x_2$  }. Her income is $y= 100$ , the prices are $p_1  = 20 \ and \  p_2= 30$ . The amount of $x_1$  in the utility maximizing bundle is
+
+A. 7
+
+B. 5
+
+C. 2
+
+D. 0
+
+42. Consider the same utility function and income as above, but suppose the prices are$p_1 = 10 \ and  \ p_2= 30$ . Then the amount of $x_1$  in the utility maximizing bundle is
+
+A. 10
+
+B. 5
+
+C. 2.5
+
+D. 0
+
+  
+
+43. A consumer spends Rs. 100 on only two goods, A and B. Assume non satiation, i.e. , more of any good is preferred to less. Suppose the price of B is fixed at Rs. 20. When the price of A is Rs. 10 , the consumer buys 3 units of B. When the price of A is Rs. 20, she buys 5 units of A. From this we can conclude that for the relevant price range
+
+A. A is an inferior good
+
+B. B is a complement of A
+
+C. A is a Giffen good
+
+D. All of the above
+
+44. Consider a firm using two inputs to produce its output. It is known that greater use of both inputs increases output. Moreover, for any combination of positive input prices, the firm employs and input combination of the form $(x, \alpha x)$  where $\alpha  >0$  is a constant. Which of the following functions represents this firm’s technology
+
+A. $f(x,y) =min(x^{ \alpha} ,y)$
+
+B. $f(x,y) =min( \alpha x,y)$
+
+C. $f(x,y) =min(x, \alpha y)$
+
+D. $f(x,y) =min(x,y ^{\alpha })$
+
+45. Consider an exchange economy with two agents, 1 and 2, and two goods, X and Y. There are 6 units of X and 4 units of Y available. An allocation is denoted by $(x_1 ,y_1 ), (x_2 ,y_2 )$ , where $(x_1 ,y_1 )$  is agent 1’s consumption bundle, $(x_2 ,y_2 )$  is agent 2’s consumption bundle, $x_1 +x_2 = 6 \ and \ y_1 +y_2 = 4$ . Agent 1 has the utility function $u 1 =min(x_1 ,y_1 )$  and agent 2 has the utility function $u_2 (x_2 ,y_2 ) =min(x_2 ,y_2 )$ . Which of the following allocations is not Pareto efficient
+
+
+A. (2,2), (4,2)
+
+B. (3,2), (3,2)
+
+C. (3,1), (3,3)
+
+D. (1,2), (5,2)
+
+46. Consider an exchange economy with two goods and two agents have the same preferences as in the previous question. Agent 1’s endowment is $(0, \alpha )$ and agent 2’s endowment is $(\beta,0)$ . What is generally true
+
+A. Any allocation in which each agent gets equal amounts of the two goods is an equilibrium allocation
+
+B. If $\beta  <  \alpha$  , then the price of X is 0
+
+C. If $\beta  >  \alpha$  , then the price of X is 0
+
+D. Any allocation in which agent 2 gets none of good Y is an equilibrium allocation
+
+
+47. Consider an exchange economy with two goods and two agents. Agent 2’s utility is as above. The equilibrium allocation is $(x_1 ,y_1 ) = (6,1) \ and \ (x_2 ,y_2 ) = (4,4)$ . The equilibrium prices are (1,1). What could be the endowment
+
+A. Agent 1’s endowment is (2,5) and agent 2’s endowment is (8,0)
+
+B. Agent 1’s endowment is (7,0) and agent 2’s endowment is (3,5)
+
+C. Both (a) and (b)
+
+D. Neither (a) nor (b)
+
+48. A firm has an order to supply 20 units of output. It can divide its production across different plants, 1 and 2, with cost function $c_1 (q 1 ) =q_1^2 \ and \ c_2 (q_2 ) = 3q_2^2$  respectively. The total order must be produced, i.e., $q_1 +q_2 = 20$ . To meet the total production target at minimum cost, the amount of output the firm should produce in its first plant is
+
+A. 20 units
+
+B. 15 units
+
+C. 10 units
+
+D. 5 units
+
+49. Consider an exchange economy with two agents and aggregate endowment (10,10). The agents’ utility functions are $u_1 (x_1 ,y_1 ) =x_1 + 2y_1$  and $u_2 (x_2 ,y_2 ) = 2x_2 +y_2$ . Examples of efficient allocations are
+
+A. $(x_1 ,y_1 ) = (5,10) \ and \ (x_2 ,y_2 ) = (5,0)$ 
+
+B. $(x_1 ,y_1 ) = (0,10) \ and \ (x_2 ,y_2 ) = (10,0)$ 
+
+C. $(x_1 ,y_1 ) = (0,5)\  and \  (x_2 ,y_2 ) = (10,5)$ 
+
+D. All of the above
+
+50. Consider the following two games in strategic form.
+
+```
+insert game
+```
+
+  
+Compute the Nash equilibria of the two games. What general lesson can be drawn from these equilibria
+
+  
+
+A. Eliminating a strategic option may be beneficial
+
+B. Having extra strategic option is not beneficial
+
+C. Having extra strategic option is beneficial
+
+D. Eliminating a strategic option is beneficial
+
+  
+
+51. Suppose the following equation holds for an economy, at every time $t: \ P_t= (1 +a) \frac{W_tY_t}{Nt}$. That is the price of output is a fixed markup over unit labour cost. Let $\pi$  be the inflation rate,wbe the wage inflation rate, and \lambda be the rate of growth in labour productivity. (Labour productivity =$\frac{Y_t}{N_t}). Which of the following is true
+
+A. $w= \pi − \lambda$
+
+B. $\pi =w+ \lambda$
+
+C. $\pi =w− \lambda$ 
+
+D. $w= \lambda − \pi$
+
+The next three questions have to do with the following fixed price model of an economy.
+
+$C=C_0 +c_1 (Y−T), 0 < c 1 < 1$
+
+$I=i_0 +i_1 r,i_1 < 0$
+
+$Y =C+I+G$
+
+$M^d=m_0 +m_1 Y+m_2 r,m_2 < 0 < m_1$
+
+$M^d=M$ ,
+
+where $C,I,G,Y,M^d,M$ are respectively aggregate consumption, investment, government expenditure, output, money demand and money stock.
+
+52. In this economy, an increase in G
+
+A. necessarily reduces I
+
+B. may increase I
+
+C. reducesI only if $m_1$  is large
+
+D. increases I only if $m_1$  is small
+
+53. The more negative ism 2 , ceteris paribus,
+
+A. the greater the effect of an increase inGonr
+
+B. the smaller the effect of an increase inGonr
+
+C. The magnitude of the effect ofGonrdoes not depend on the magnitude of $m_2$ 
+
+D. r decreases as G increases, but the magnitude of this is indereminate
+
+54. If $c_1$  is very close to 1, then an increase in M has
+
+A. a very large positive impact on r
+
+B. a very small positive effect on r
+
+C. a very small negative effect on r
+
+D. a very large negative impact on r
+
+The next six questions are based on the following information. Consider an economy in which aggregate output is produced by using 2 factors, capitalKand labour L. Aggregate production technology is given by the production function: $Y_t=A(K_t)^{\alpha} (L_t)^{1 − \alpha} , \ where \ A > 0$  and $0<  \alpha  <1$. At each instant t, both factors are fully employed. A constant proportions of total output is saved and invested in every period, which augments the capital stock in the next period. There is no depreciation of capital. Labour force grows at a constant rate n. Let $A= 20, \alpha =\frac{1}{2} ,s=\frac{1}{4} ,n= 101$ . Then
+
+
+55. The steady state level of output per worker is
+
+A. 50
+
+B. 1000
+
+C. 2500
+
+D. 5000
+
+56. The rate of growth of aggregate output in the steady state is
+
+A. 0
+
+B. 4\frac{1}{4}$
+
+C. $\frac{1}{2}$
+
+D. 101
+
+57. The golden rule of capital per worker is
+
+A. 25
+
+B. 2500
+
+C. 5000
+
+D. 10000
+
+58. The golden rule level of consumption per worker is
+
+A. 500
+
+B. 1000
+
+C. 250
+
+D. 25
+
+59. An increase in the value of the parameter A from its current value
+
+A. will increase the steady state level of output per worker and increase the growth of aggregate output in the steady state
+
+B. will decrease the steady state level of output per worker and increase the growth of aggregate output in the steady state
+
+C. will increase the steady state level of output per worker and leave unchanged the growth of aggregate output in the steady state
+
+D. will decrease the steady state level of output per worker and leave unchanged the growth of aggregate output in the steady state
+
+60. An increase in the value of the parameternfrom its current value
+
+A. will increase the steady state level of output per worker and increase the growth of aggregate output in the steady state
+
+B. will decrease the steady state level of output per worker and increase the growth of aggregate output in the steady state
+
+C. will increase the steady state level of output per worker and leave unchanged the growth of aggregate output in the steady state
+
+D. will decrease the steady state level of output per worker and leave unchanged the growth of aggregate output in the steady state

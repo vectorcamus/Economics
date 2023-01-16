@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2008</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2008</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<div id="dse-2008" class="section level1">
+<h1>DSE 2008</h1>
+<ol style="list-style-type: decimal">
+<li>In the context of ideal price index numbers, consider the following
+statements:</li>
+</ol>
+<p>S1: The index number should be invariant to the choice of base,
+i.e.<span class="math inline">\(P_{rs}  \times   P_{sr}= 1\)</span> .
+S2: An index that satisfies the circularity condition <span
+class="math inline">\(P_{rs}  \times   P_{st}=P_{rt},r \neq t\)</span> ,
+need not satisfy S1. S3: If all prices change in the same proportion
+<span class="math inline">\(\lambda\)</span> , then the index should
+equal <span class="math inline">\(\lambda\)</span>. S4: If we change the
+units of measurement of the prices, but not those of the quantity
+weights, that should not affect the index.</p>
+<p>Given these statements, which of the following is true?</p>
+<p>A. S1 and S2</p>
+<p>B. S2 and S4</p>
+<p>C. S1, S2 and S3</p>
+<p>D. S1 and S3</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Suppose that the probability that any particle emitted by a
+radioactive material will penetrate a given shield is .01. If ten
+particles are emitted, what is the probability that exactly one of the
+particles will penetrate the shield?</li>
+</ol>
+<p>A. <span class="math inline">\((.01)(0.99)^9\)</span></p>
+<p>B. <span class="math inline">\((0.1)(0.99)^9\)</span></p>
+<p>C. <span class="math inline">\(0. 1\)</span> D. <span
+class="math inline">\(\frac{1}{ 9}\)</span></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Consider a symmetric 90% confidence interval for the population mean
+of a normal distribution with unknown variance, constructed using a
+random sample of 400 observations. Which of the following changes,
+ceteris paribus, would shorten the length of the confidence interval by
+the greatest amount?</li>
+</ol>
+<p>A. The confidence level is changed to 99%.</p>
+<p>B. The sample mean is half its original value.</p>
+<p>C. The sample size is four times its original value.</p>
+<p>D. The sample standard deviation is one third its original value.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Let A and B be any two events, each of which has a positive
+probability of occurring. Consider the following statements:</li>
+</ol>
+<p>I. If A and B are independent, they must be mutually exclusive.</p>
+<ol start="2" style="list-style-type: upper-roman">
+<li><p>If A and B are mutually exclusive, they must be
+independent.</p></li>
+<li><p>If A and B are independent, they cannot be mutually
+exclusive.</p></li>
+<li><p>If A and B are mutually exclusive, they cannot be
+independent.</p></li>
+</ol>
+<p>Which of the above statements are true?</p>
+<p>A. I and IV.</p>
+<p>B. II and III.</p>
+<p>C. III and IV.</p>
+<p>D. None of the statements are true.</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Consider a random variableXwhich can take on only nonzero integer
+values from <span class="math inline">\(− 20\)</span> to <span
+class="math inline">\(+20\)</span> , and whose probability distribution
+is symmetric around 0. Suppose the <span
+class="math inline">\(f(x)\)</span> , called theprobability mass
+function of X, gives the probability that <span class="math inline">\(X
+= x,\all x = − 20 ,\dots ,− 1 , 1 ,\dots ,20.\)</span> Now consider the
+random variable <span class="math inline">\(Y =X^2\)</span> . Which of
+the following would be an appropriate definition forg(y), the
+probability mass function for Y?</li>
+</ol>
+<p>A. <span class="math inline">\(g(y) =f(\sqrt y)∀ y= 1, 4 ,\dots ,400
+\ and \ g(y) = 0 \  otherwise\)</span></p>
+<p>B. <span class="math inline">\(g(y) = [f(\sqrt y)]^2 ∀ y= 1, 4 ,\dots
+,400 \ and \ g(y) = 0 \ otherwise\)</span></p>
+<p>C.<span class="math inline">\(g(y) = 2f(\sqrt y)∀ y= 1, 4 ,\dots ,400
+\ and \ g(y) = 0 \ otherwise\)</span></p>
+<p>D. <span class="math inline">\(g(y) =\sqrt{f(\sqrt y)} ∀ y= 1, 4
+,\dots ,400 \ and \ g(y) = 0 \ otherwise\)</span></p>
+<ol start="6" style="list-style-type: decimal">
+<li>A consumer has a utility function <span class="math inline">\(U(x,y)
+= 10(x^2 + 4xy+ 4y^2 ) + 20\)</span> . Which one of the following
+statements must be true?</li>
+</ol>
+<p>A. The goods are imperfect substitutes.</p>
+<p>B. The goods are perfect substitutes.</p>
+<p>C. The goods are perfect complement</p>
+<p>D. None of the above.</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Suppose a consumer has a utility function <span
+class="math inline">\(U(x,y) = min(x+y, 2 y)\)</span> . He maximises his
+utility subject to his budget constraint and consumes <span
+class="math inline">\((x^{∗},y^{*}) = (3,3)\)</span> . Which one of the
+following statements must be true?</li>
+</ol>
+<p>A. price of  good x is  necessarily equal to price of goody.</p>
+<p>B. price of  good x is  double the price of goody.</p>
+<p>C. price of  good x is  less than or equal to price of goody.</p>
+<p>D. none of the above.</p>
+<ol start="8" style="list-style-type: decimal">
+<li>Suppose a monopolist sells his product in two separate markets.
+After the product is sold in one market, there is no possibility of it
+being resold in the other market. Which one of the following statements
+must be true?</li>
+</ol>
+<p>A. Prices in both markets must be equal when the marginal cost of
+output is constant.</p>
+<p>B. Prices must be higher in the market with higher price elasticity
+of demand.</p>
+<p>C. Prices must be higher in the market with lower price elasticity of
+demand.</p>
+<p>D. None of the above.</p>
+<ol start="9" style="list-style-type: decimal">
+<li>Consider a firm producing a single good with the cost function</li>
+</ol>
+<pre><code>insert function</code></pre>
+<p>This firm’s sunk cost and fixed cost are respectively</p>
+<p>A. 10 and 10</p>
+<p>B. 10 and 0</p>
+<p>C. 0 and 10</p>
+<p>D. 5 and 10</p>
+<ol start="10" style="list-style-type: decimal">
+<li>The elasticity of substitution of the production functionf(x,y)
+=cxaybis</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{c}{ab}\)</span></p>
+<p>B. <span class="math inline">\(\frac{ab}{c}\)</span></p>
+<p>C. <span class="math inline">\(a+b\)</span></p>
+<p>D. <span class="math inline">\(1\)</span></p>
+<ol start="11" style="list-style-type: decimal">
+<li>In the standard IS-LM framework if you introduce endogenous money
+supply such that money supply depends positively on the nominal rate of
+interest, the corresponding LM curve</li>
+</ol>
+<p>A. becomes steeper</p>
+<p>B. becomes flatter</p>
+<p>C. becomes horizontal</p>
+<p>D. remains unchanged</p>
+<ol start="12" style="list-style-type: decimal">
+<li>Consider a simple Keynesian model where equilibrium output is
+determined by aggregate demand. Investment is autonomous and a constant
+proportion of the income is saved. In this framework an increase in the
+savings propensity has the following effect:</li>
+</ol>
+<p>A. it leads to higher level of output in the new equilibrium</p>
+<p>B. it leads to lower level of output in the new equilibrium</p>
+<p>C. the level of output in the new equilibrium remains unchanged</p>
+<p>D. the level of output in the new equilibrium may increase or
+decrease depending on the degree of increase in the savings
+propensity</p>
+<ol start="13" style="list-style-type: decimal">
+<li>In the Solow model of growth, an increase in the savings propensity
+has the following impact:</li>
+</ol>
+<p>A. it leads to a higher steady state rate of growth</p>
+<p>B. it leads to a lower steady state rate of growth</p>
+<p>C. the steady state rate of growth remains unchanged</p>
+<p>D. the steady state rate of growth may increase or decrease depending
+on the degree of increase in the savings propensity</p>
+<ol start="14" style="list-style-type: decimal">
+<li>If covered interest parity prevails between two countries,</li>
+</ol>
+<p>A. nominal interest rates of the two countries must be equal.</p>
+<p>B. expected currency depreciation must equal the interest rate
+differential.</p>
+<p>C. expected currency depreciation must equal the interest rate
+differential plus the risk premium.</p>
+<p>D. interest rate differential must equal the risk premium.</p>
+<ol start="15" style="list-style-type: decimal">
+<li>Which of the following constitute the ”impossible trinity” which
+cannot be simultane ously ensured in an open economy?</li>
+</ol>
+<p>       1. Fixed exchange rate</p>
+<p>       2. Balance in the balance of payments</p>
+<p>       3. Free international capital mobility</p>
+<p>       4. Independent monetary policy</p>
+<p>A. 1, 2 and 3</p>
+<p>B. 1, 2 and 4</p>
+<p>C. 1, 3 and 4</p>
+<p>D. 2, 3 and 4</p>
+<ol start="16" style="list-style-type: decimal">
+<li>Consider the following two functions mapping points on the plane
+back to-points on the plane.</li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li><span class="math inline">\(f(x_1 ,x_2 ) = (x_1 + 1,x_2 +
+1)\)</span> and (ii) <span class="math inline">\(g(x_1 ,x_2 ) = (x_2
+,x_1 )\)</span> .</li>
+</ol>
+<p>Which of the above functions is a linear function?</p>
+<p>A. Both functions are linear.</p>
+<p>B. Neither function is linear.</p>
+<p>C. <span class="math inline">\(f\)</span> is a linear function,<span
+class="math inline">\(g\)</span> is not linear.</p>
+<p>D. <span class="math inline">\(g\)</span> is a linear function,<span
+class="math inline">\(f\)</span> is not linear.</p>
+<ol start="17" style="list-style-type: decimal">
+<li>Consider the equationxy+yz+zx=k, defined for all positive values of
+x and y, and where k is a given positive constant. The partial
+derivative <span class="math inline">\(\frac{\partial z}{\partial
+x}\)</span> then equals</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{−(xz^{x−1} +y^z \ln
+y)}{(yx^{y−1} +z^x \ln z)}\)</span> B. <span
+class="math inline">\(\frac{−(yx^{y−1} +z^x \ln z)}{(xz^{x−1} +y^z \ln
+y)}\)</span> C. <span class="math inline">\(\frac{−(zy^{z−1} +x^y \ln
+x)}{(xz^{x−1} +y^z \ln y)}\)</span> D. <span
+class="math inline">\(\frac{−(zy^{z−1} +z^x \ln z)}{(xz^{x−1} +z^x \ln
+z)}\)</span></p>
+<ol start="18" style="list-style-type: decimal">
+<li>The derivative of the function defined by <span
+class="math inline">\(f(x) = \sin^2 x+ \cos^2 x\)</span> is</li>
+</ol>
+<p>A. an increasing function of x</p>
+<p>B. an oscillating function of x</p>
+<p>C. a constant</p>
+<p>D. a decreasing function of x</p>
+<ol start="19" style="list-style-type: decimal">
+<li>Consider an <span class="math inline">\(n  \times   n\)</span> real
+matrix A with <span class="math inline">\(n &gt;4\)</span> .
+Interchanging the positions of two columns</li>
+</ol>
+<p>A. will change the sign of detA</p>
+<p>B. will not change the sign of detA</p>
+<p>C. may or may not change the sign of detA, depending on the value
+ofn</p>
+<p>D. may or may not change the sign of detA, depending on the positions
+of the two columns</p>
+<ol start="20" style="list-style-type: decimal">
+<li>Suppose we have a chair withnlegs and it stands with all its legs
+touching the floor, regardless of the floor quality, i.e., evenness,
+smoothness, etc. Then,n is</li>
+</ol>
+<p>A. 2 B. 3 C. 4 D. 5</p>
+<ol start="21" style="list-style-type: decimal">
+<li>The frequency distribution of variable X (monthly family expenditure
+in Rs. ’000) for 100 household is as follows:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>X</th>
+<th>10 - 15</th>
+<th>5 - 9.9999</th>
+<th>2 - 4.9999</th>
+<th>Below 2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No. of households</td>
+<td>10</td>
+<td>15</td>
+<td>45</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+<p>The median monthly expenditure is in the range:</p>
+<p>A. Rs. 2000 to 3000</p>
+<p>B. Rs. 3000 to 4000</p>
+<p>C. Rs. 4000 to 5000</p>
+<p>D. Rs. 5000 to 6000</p>
+<ol start="22" style="list-style-type: decimal">
+<li>The frequency distribution of variable Y, the number of heads when
+two damaged coins are tossed, is:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>Y</th>
+<th>0</th>
+<th>1</th>
+<th>2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>F(y)</td>
+<td>0.3</td>
+<td>0.45</td>
+<td>0.25</td>
+</tr>
+</tbody>
+</table>
+<p>To two decimal places, the mean and variance of Y (in that order)
+are:</p>
+<p>A. 0.95 and 0.50</p>
+<p>B. 0.50 and 0.95</p>
+<p>C. 0.95 and 0.55</p>
+<p>D. 0.95 and 0.45</p>
+<ol start="23" style="list-style-type: decimal">
+<li><p>For variables x and y we have the data: <span
+class="math inline">\(\sum XY = 350, \sum X= 50,\sum Y = 60,X= 5, \sigma
+X^2 = 4, \ and \ \sigma^2 Y= 9\)</span> . Which of the following holds?
+A. A one unit change inXis associated with a 1.25 unit change in Y, and
+a one unit change in Y is associated with a 0.6 unit change in X. B. A
+one unit change in X is associated with a 0.6 unit change inY, and a one
+unit change in Y is associated with a 1.25 unit change in X. C. The
+covariance between x and y exceeds Y. D. The regression ofY on X passes
+through the origin.</p></li>
+<li><p>The life of a cycle tyre is normally distributed with mean 350
+days and variance 64. It is true that:</p></li>
+</ol>
+<p>A. The probability that the life of the tyre will be less than 336.84
+days is greater than 5%</p>
+<p>B. The probability that the life of the tyre will be greater than
+363.16 days is greater than 5%</p>
+<p>C. The probability that the life of the tyre will be between 336.84
+and 363.16 days is 90%</p>
+<p>D. The probability that the life of the tyre will be less than 334.32
+is greater than 3%</p>
+<ol start="25" style="list-style-type: decimal">
+<li>In a random sample of 400 mangoes selected from a large consignment,
+30 were found rotten. The null hypothesis is that the proportionπof
+rotten mangoes in the consign ment is 10%. It is true that:</li>
+</ol>
+<p>A. Given <span class="math inline">\(H_A:\pi \neq 0.1\)</span> , we
+can’t reject the null at the 1% level of significance, and the
+probability of error type I of this test is 0.005</p>
+<p>B. Given <span class="math inline">\(H_A: \pi &lt; 0 .1\)</span>, we
+reject the null at the 5% level of significance, and the probability of
+error type I of this test is 0.05</p>
+<p>C. Given <span class="math inline">\(H_A:\pi \neq 0.1\)</span> , we
+reject the null at the 10% level of significance, and the probability of
+error type I of this test is 0.1</p>
+<p>D. If <span class="math inline">\(H_A: \pi &gt; 0 .1\)</span> , the
+power of the associated test is higher than if <span
+class="math inline">\(H_A:\pi &lt; 0. 1\)</span></p>
+<ol start="26" style="list-style-type: decimal">
+<li>In a sample of 1000 mangoes, the mean weight of a mango is 210 g,
+and the standard deviation 9.5 g. In another sample of 1200 mangoes, the
+mean is 180 g and the standard deviation 11.5 g. Assume that the
+respective populations from which these samples are drawn have the same
+variances. Given the null hypothesis <span class="math inline">\(H_0
+:\mu_1 −\mu_2 = 0\)</span> , where <span class="math inline">\(\mu_1 \
+and \  \mu_2\)</span> are the population means, it is true that:</li>
+</ol>
+<p>A. If <span class="math inline">\(H_A:\mu_1 −\mu_2 \neq 0\)</span>,
+we reject the null hypothesis at the 15%, 13%, 12% and 8% levels of
+significance.</p>
+<p>B. If <span class="math inline">\(H_A :\mu_1 −\mu_2 \neq 0\)</span> ,
+we do not reject the null hypothesis at the 1% level of
+significance.</p>
+<p>C. The appropriate estimator for testing weather the samples are from
+essentiall the same population is <span class="math inline">\(\mu_1
+−\mu_2\)</span>.</p>
+<p>D. If <span class="math inline">\(H_A:\mu_1 −\mu_2 \neq 0\)</span> ,
+and we conduct a test at the 7% level of significance, the probability
+of error type I of this test is 0.035.</p>
+<ol start="27" style="list-style-type: decimal">
+<li>Data on India’s exports of Jute and Tea for the years 2000-2003 are
+as follows:</li>
+</ol>
+<pre><code>insert table</code></pre>
+<p>Which of the following are true?</p>
+<p>A. The chain-base price indices with 2000 as base year are <span
+class="math inline">\(\bar P_{01} = 146.3, \bar P_{02} =152 .2, \ and \
+\bar P_{03} = 144. 9\)</span></p>
+<p>B. The chain-base price indices with 2000 as base year are <span
+class="math inline">\(\bar P_{01} = 148.3,\bar P_{02} =152 .2, \ and \
+P_{03} = 146. 9\)</span></p>
+<p>C. The chain-base price indices with 2000 as base year are <span
+class="math inline">\(\bar P_{01} = 148.3,\bar P_{02} =154 .2, \ and \
+\bar P_{03} = 144. 9\)</span></p>
+<p>D. The chain-base price indices with 2000 as base year are <span
+class="math inline">\(\bar P_{01} = 148.3,\bar P_{02} = 156 .2, \ and \
+\bar P_{03} = 146. 9\)</span></p>
+<ol start="28" style="list-style-type: decimal">
+<li>Suppose that 80% of all statisticians are shy, whereas only_15% of
+all economists are shy. Suppose also that 90% of the people at a large
+gathering are economists and the other 10% are statisticians. If you
+meet a shy person at random at the gathering, what is the probability
+that the person is a statistician?</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{8}{9}\)</span></p>
+<p>B. <span class="math inline">\(0.8\)</span></p>
+<p>C. <span class="math inline">\(.08\)</span></p>
+<p>D. <span class="math inline">\(\frac{80}{215}\)</span></p>
+<ol start="29" style="list-style-type: decimal">
+<li>Each cell of the following table provides the probability of the
+joint occurrence of the corresponding pair of values of the random
+variables x and y.</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th>X ↓ Y <span class="math inline">\(\to\)</span></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>.1</td>
+<td>0</td>
+<td>.1</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>.3</td>
+<td>0</td>
+<td>.1</td>
+<td>.2</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>0</td>
+<td>.1</td>
+<td>0</td>
+<td>.1</td>
+</tr>
+</tbody>
+</table>
+<p>Consider the following statements about x and y:</p>
+<p>I. <span class="math inline">\(Pr(Y= 2)&gt;Pr(X= 1)\)</span></p>
+<ol start="2" style="list-style-type: upper-roman">
+<li><p>4Pr(Y= 1|X= 2) = Pr(Y = 1|X= 1$)</p></li>
+<li><p>The events <span class="math inline">\(X= 3\)</span> and <span
+class="math inline">\(Y = 3\)</span> are mutually exclusive.</p></li>
+</ol>
+<p>IV.  x and y are independent.</p>
+<p>Which of the above statements are true?</p>
+<p>A. only I and II.</p>
+<p>B. only II and III.</p>
+<p>C. only III and IV.</p>
+<p>D. only II, III and IV.</p>
+<ol start="30" style="list-style-type: decimal">
+<li>A survey of asset ownership in poor households in rural UP and Bihar
+found that 40% of the households own a radio, 15% own a television and
+60% own a bicycle. It also found that 5% of the households own both a
+radio and a television, 26% own both a radio and a bicycle, 5% own both
+a television and a bicycle, and 1% own all three. If a randomly selected
+poor household in these areas is found to own exactly one of these three
+assets, what is the probability that it is a bicycle?</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{20}{23}\)</span></p>
+<p>B. <span class="math inline">\(\frac{17}{23}\)</span></p>
+<p>C. <span class="math inline">\(\frac{15}{23}\)</span></p>
+<p>D. <span class="math inline">\(\frac{12}{23}\)</span></p>
+<ol start="31" style="list-style-type: decimal">
+<li>Consider an exchange economy with two persons and two goods. Person
+1’s utility function is <span class="math inline">\(u_1 (x,y) =
+x+y\)</span> and person 2’s utility function is <span
+class="math inline">\(u_2 (x,y) = ex^2 +y^2 +2xy\)</span> . Person 1’s
+endowment is (1, 0) and person 2’s endowment is (0, 1). Denote person
+1’s allocation by <span class="math inline">\((x_1 ,y_1 )\)</span> and
+person 2’s allocation by <span class="math inline">\((x_2 ,y_2
+)\)</span> . The set of efficient allocations <span
+class="math inline">\(((x_1 ,y_1 ),(x_2 ,y_2 ))\)</span> is such
+that</li>
+</ol>
+<p>A. <span class="math inline">\((x_2 ,y_2 ) = (1−x_1 , 1 −y_1 ) \ for
+\ all \  x_1 ,x_2 \in [0,1]\)</span></p>
+<p>B. <span class="math inline">\((x_2 ,y_2 ) = (1−x_1 , 1 −y_1 ) for \
+all \ x_1 ,x_2 \in (0,1)\)</span></p>
+<p>C. <span class="math inline">\((x_1 ,y_1 ) = (1/ 2 , 1 /2) = (x_2
+,y_2 )\)</span></p>
+<p>D. <span class="math inline">\((x_1 ,y_1 ) = (e^a,e^b) \ and \ (x_2
+,y_2 ) = (1−e^a, 1 −e^b) \ for \ all a,b \in (−\infty ,0)\)</span></p>
+<ol start="32" style="list-style-type: decimal">
+<li>Consider an exchange economy with persons 1 and 2 and goods x and y.
+Person 1’s utility function is <span class="math inline">\(u_1 (x,y) =
+x^2 y^2\)</span> and person 2’s utility function is <span
+class="math inline">\(u_2 (x,y) = e^x+y\)</span>. The total endowment of
+the economy is (2, 1). The allocation <span class="math inline">\((x_1
+,y_1 ) = (1,1)\)</span> and <span class="math inline">\((x_2 ,y_2 ) =
+(1,0)\)</span> is</li>
+</ol>
+<p>A. Pareto inefficient</p>
+<p>B. Pareto efficient or inefficient depending on the endowments of the
+two persons</p>
+<p>C. Pareto efficient or inefficient depending on the state of the
+world</p>
+<p>D. Pareto efficient</p>
+<ol start="33" style="list-style-type: decimal">
+<li>Consider the situation of the preceding question. If person 1’s
+endowment is (1, 1) and 2’s endowment is (1, 0), then the following
+allocation is a competitive equilibrium:</li>
+</ol>
+<p>A. <span class="math inline">\((x_1 ,y_1 ) = (\frac{3}{2} ,
+\frac{1}{2}) \ and \ (x_2 ,y_2 ) = (\frac{1}{2} ,
+\frac{1}{2})\)</span></p>
+<p>B. <span class="math inline">\((x_1 ,y_1 ) = (1,1) \ and \ (x_2 ,y_2
+) = (1,0)\)</span></p>
+<p>C. <span class="math inline">\((x_1 ,y_1 ) = (2,0) \ and \ (x_2 ,y_2
+) = (0,1)\)</span></p>
+<p>D. <span class="math inline">\((x_1 ,y_1 ) = (2,1) \ and \  (x_2 ,y_2
+) = (0,0)\)</span></p>
+<ol start="34" style="list-style-type: decimal">
+<li>Consider the situation of the preceding question. Which of the
+following is an equilibrium price vector?</li>
+</ol>
+<p>A. <span class="math inline">\((p_1 ,p_2 ) = (1,0)\)</span></p>
+<p>B. <span class="math inline">\((p_1 ,p_2 ) = (0,1)\)</span></p>
+<p>C. <span class="math inline">\((p_1 ,p_2 ) = (1,1)\)</span></p>
+<p>D. none of the above</p>
+<ol start="35" style="list-style-type: decimal">
+<li>Consider an exchange economy with the same two agents and utility
+functions as the last three questions, but now the endowments of the two
+persons are (0, 1) and (2, 0). Which of the following pre-trade lump-sum
+transfers of wealth will lead to allocations <span
+class="math inline">\((x_1 ,y_1 ) = (1,1) \ and \ (x_2 ,y_2 ) =
+(1,0)\)</span> and prices <span class="math inline">\((p_1 ,p_2 ) =
+(1,1)\)</span> being a competitive equilibrium?</li>
+</ol>
+<p>A. subsidies of 1 to both persons</p>
+<p>B. taxes of 1 to both persons</p>
+<p>C. a subsidy of 1 to person 1 and a tax of 1 on person 2</p>
+<p>D. a subsidy of 1 to person 2 and a tax of 1 on person 1</p>
+<ol start="36" style="list-style-type: decimal">
+<li>There are 3 items of choice, x,y,z, and Ms. A has 4 possible choice
+situations: in 3 of them, she is asked to choose one or more items from
+the 3 possible pairs of items {x,y},{y,z}and{x,z}. She chooses the
+itemsx,yandzrespectively in these 3 situations. In the 4th situation she
+must choose one or more items from the set{x,y,z}; we are not told
+directly what her choice is. Which of the following is correct?</li>
+</ol>
+<p>A. Ms A’s choice violate the weak axiom of revealed preference.</p>
+<p>B. Ms A’s choices are consistent with the weak axiom of revealed
+preference.</p>
+<p>C. We can’t say (a) or (b) because we don’t know her choice from the
+set{x,y,z}</p>
+<p>D. We can’t say (a) or (b), even though we can deduce her choice from
+the set {x,y,z}</p>
+<p>Questions 37-39 use the following information: A chemical factory
+produces a chemical K and an effluent E which it dumps in a river. A
+downstream fishery produces fish F and its costs are affected by the
+level of effluent in the river. The two firms are competitive and face
+unit pricesPK = 10 andPF = 20 for the chemical and the fish
+respectively. The cost function of the chemical factory is <span
+class="math inline">\(C(K,E) =K^2 [(5−E)^2 + 1]\)</span>. The cost
+function of the fishery is <span class="math inline">\(\tilde C (F,E)
+=F^2 E^2\)</span>.</p>
+<ol start="37" style="list-style-type: decimal">
+<li>If the chemical factory chooses levels of chemical and effluent to
+maximize profits, and the fishery chooses the level of fish to maximize
+profits, the chosen level of the chemical, effluent and fish (i.e.K,E,F)
+are respectively</li>
+</ol>
+<p>A. <span class="math inline">\(5, 0, \frac{5}{8}\)</span></p>
+<p>B. <span class="math inline">\(3, 0, \frac{2}{5}\)</span></p>
+<p>C. <span class="math inline">\(5, 5, \frac{2}{5}\)</span></p>
+<p>D. <span class="math inline">\(5, 5, \frac{5}{8}\)</span></p>
+<ol start="38" style="list-style-type: decimal">
+<li>Suppose the socially optimal levels of the chemical, effluent and
+fish, denoted by K,E,F respectively, are the levels that maximise the
+joint profit of an integrated firm consisting of the chemical factory
+and the fishery. ThenEis equal to</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{5\bar K^2 }{(K^2 −\bar F^2
+)}\)</span> B. <span class="math inline">\(\frac{5\bar F^2 }{(K^2 +\bar
+F^2 )}\)</span> C. <span class="math inline">\(\frac{5\bar F^2 }{(K^2
+−\bar F^2 )}\)</span> D. <span class="math inline">\(\frac{5\bar K^2
+}{(K^2 +\bar F^2 )}\)</span></p>
+<ol start="39" style="list-style-type: decimal">
+<li>Suppose a government knows the firms’ production functions and their
+output prices, and can costlessly monitor the amount of effluent
+released by the chemical factory. If it sets a tax t per unit of
+effluent produced by the chemical factory, the level of this tax that
+will result in the socially optimal effluent levelEis equal to</li>
+</ol>
+<p>A. <span class="math inline">\(t= 10 \frac {(\bar K)(\bar F)^2
+}{(\bar K^2 + \bar F^2 )}\)</span> B. <span class="math inline">\(t= 10
+\frac {(\bar K)^2 (\bar F)^2 }{(\bar K^2 - \bar F^2 )}\)</span> C. <span
+class="math inline">\(t= 10 \frac {(\bar K)^2 (\bar F)^2 }{(\bar K^2 +
+\bar F^2 )}\)</span> D. <span class="math inline">\(t= 5 \frac {(\bar
+K)(\bar F)^2 }{(\bar K^2 + \bar F^2 )}\)</span></p>
+<ol start="40" style="list-style-type: decimal">
+<li>Consider a firm with one output and two possible choices of capital
+stock, say 1 an 2. The associated cost functions are <span
+class="math inline">\(C(x,1) = 2 + 2x \ and \ C(x,2) = 4 +x\)</span> .
+Before choosing its capital stock, the firm’s cost function is</li>
+</ol>
+<pre><code>INSERT OPTIONS</code></pre>
+<p>Questions 41-46 are related and share a common information set. The
+complete set of information is revealed gradually as you move from one
+question to the next. Consider a macro-economy where the aggregate
+output in the short run is given by: <span
+class="math display">\[Y=AL^{\alpha} (\bar K)^{1 −\alpha}\]</span> where
+L is the total employment of labour; K is the total capital stock (which
+is fixed in the short run); and A &gt;0 and <span
+class="math inline">\(0&lt; \alpha  &lt;1\)</span> are parameters of the
+system. Let P and W denote the aggregate price level and the money wage
+rate respectively. Assume that the producers in the economy maximise
+profit in a perfectly competitive set up.</p>
+<ol start="41" style="list-style-type: decimal">
+<li>The corresponding demand for labour schedule as a function of the
+real wage rate is given by</li>
+</ol>
+<p>A. <span class="math inline">\(L^d =[\frac {Y}{A (\bar K)^{1-\alpha}}
+]^{\frac{1}{\alpha}}\)</span> B. <span class="math inline">\(L^d= \bar K
+(A\alpha)^{\frac{1}{1-\alpha}}[\frac{W}{P}]^{\frac{1}{\alpha-1}}\)</span>
+C. <span class="math inline">\(L^d =[\frac {1}{ A \alpha (\bar
+K)^{1-\alpha}}]^{\frac{1}{\alpha}} [\frac{W}{P}]^{\frac{1}{1-
+\alpha}}\)</span> D. None of the above</p>
+<ol start="42" style="list-style-type: decimal">
+<li>If there is a one-shot increase in the stock of capital (K), the
+demand for labour schedule, as derived above,</li>
+</ol>
+<p>A. shifts up</p>
+<p>B. shifts down</p>
+<p>C. does not shift</p>
+<p>D. the information available so far is not adequate to answer this
+question</p>
+<p>Suppose the above economy is characterised by a single household
+which takes the aggregate price level and the money wage rate as given
+and decides on its consumption and labour supply by maximising its
+utility subject to its budget constraint. The household has a total
+endowment ofLunits of labour time, of which it suppliesLS units to the
+market at the money wage rateW, and enjoys the rest as leisure. Its
+utility depends on its consumption and leisure in the following way:
+<span class="math inline">\(U = (C)^{\beta} + (\bar L−L^s)\beta ; 0&lt;
+\beta  &lt;1\)</span> . The only source of income of the household is
+the wage income and it spends its entire wage earning in buying
+consumption goods at the price <span class="math inline">\(P\)</span>
+.</p>
+<ol start="43" style="list-style-type: decimal">
+<li><p>The corresponding supply of labour schedule as a function of the
+real wage rate is given by: A. <span class="math inline">\(L^s=[\frac
+{\bar L
+(\frac{W}{P})^{\frac{\beta}{1-\beta}}}{1+(\frac{W}{P})^{\frac{\beta}{1-\beta}}}]\)</span>
+B. <span class="math inline">\(L^s=[\frac{\bar
+L}{1+(\frac{W}{P})^{\frac{\beta}{1-\beta}}}]\)</span> C. <span
+class="math inline">\(L^s= [\frac{(\frac{W}{P})^{\beta}}{\bar L
++(\frac{W}{P})^{\beta}}]\)</span> D. None of the above</p></li>
+<li><p>If there is an exogenous increase in the total endowment of
+labour time (L), the supply for labour schedule, as derived
+above,</p></li>
+</ol>
+<p>A. shifts up</p>
+<p>B. shifts down</p>
+<p>C. does not shift</p>
+<p>D. the information available so far is not adequate to answer this
+question</p>
+<ol start="45" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(\alpha  =\frac{1}{2} ; K = 10;L=
+10;A= 4\)</span> . Given these parameter values, the unique non negative
+equilibrium value of real wage rate that clears the labour market is
+given by:</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{W}{P}=[\frac{1}{2 \sqrt
+2}]^{\frac{1}{2}}\)</span> B. <span
+class="math inline">\(\frac{W}{P}=[\frac{1+ \sqrt
+2}{2}]^\frac{1}{2}\)</span> C. <span
+class="math inline">\(\frac{W}{P}=[2-\sqrt 2]^{\frac{1}{2}}\)</span> D.
+<span class="math inline">\(\frac{W}{P}=[2+\sqrt 2
+]^{\frac{1}{2}}\)</span></p>
+<ol start="46" style="list-style-type: decimal">
+<li>Given the labour demand and the labour supply schedule as derived
+above, the aggregate supply curve (output supplied as a function of the
+aggregate price level) is</li>
+</ol>
+<p>A. upward sloping</p>
+<p>B. downward sloping</p>
+<p>C. vertical</p>
+<p>D. horizontal</p>
+<p>Questions 47 to 50 are related and share a common information set.
+The complete set of information is given below. Attempt all of them
+together. Consider a closed economy where the general price level is
+exogenously fixed at P. The goods market clearing condition is given
+by:<span class="math inline">\(Y=C+I+G\)</span> , where the consumption
+demand (C) is a function of the disposable income <span
+class="math inline">\((Y−T)\)</span> such that <span
+class="math inline">\(C =c.(Y −T), 0 &lt; c &lt;1\)</span> ; the
+investment demand (I) is a function of the real interestrsuch that <span
+class="math inline">\(I=\bar I−d.r,d &gt; 0\)</span> ; total tax revenue
+in the economy (T) is a function of the aggregate real income such that
+<span class="math inline">\(T=\tau .Y, 0 &lt; \tau  &lt;1\)</span> ; and
+the government expenditure (G) is autonomous such that <span
+class="math inline">\(G=\bar G\)</span>. The money market clearing
+condition is given by: <span class="math inline">\(\frac{\bar M}{P}
+=L\)</span> , where supply of money (M) is exogenous such that <span
+class="math inline">\(M=\bar M\)</span> ; and the demand for real
+balance (L) is a function of the real income (Y) and the nominal
+interest rate (i) such that <span class="math inline">\(L=a.Y−b.i,a,b
+&gt;0\)</span> . Finally, the nominal interest rate is the sum of the
+real rate of interest and the expected rate of inflation <span
+class="math inline">\((\pi^e)\)</span> such that <span
+class="math inline">\(i=r+\pi^e\)</span>. Assume that the economy starts
+from an equilibrium situation where both the goods market and the money
+market clear.</p>
+<ol start="47" style="list-style-type: decimal">
+<li>In ceteris paribus, a unit increase in government expenditure has
+the following impact on the equilibrium income level:</li>
+</ol>
+<p>A. it increases by <span class="math inline">\(b[\frac{1}{1-c(1 −\tau
++ad )}]\)</span> units B. it decreases by <span
+class="math inline">\(b[\frac{1}{1-c(1 −\tau +ad )}]\)</span> units C.
+it increases by <span class="math inline">\(b[\frac{b}{1-c(1 −\tau +ad
+)}]\)</span> units D. it decreases by <span
+class="math inline">\(b[\frac{b}{1-c(1 −\tau +ad )}]\)</span> units</p>
+<ol start="48" style="list-style-type: decimal">
+<li>Inceteris paribus, a unit increase in the expected rate of inflation
+has the following impact on the equilibrium value of the real interest
+rate:</li>
+</ol>
+<p>A. it increases by <span
+class="math inline">\(\frac{[1-c(1-\tau)]}{b[1-c(1-\tau)]+ad}\)</span>
+units</p>
+<p>B. it decreases by <span
+class="math inline">\(\frac{a}{a[1-c(1-\tau)]+ad}\)</span> units</p>
+<p>C. it increases by <span
+class="math inline">\(\frac{b[1-c(1-\tau)]}{b[1-c(1-\tau)]+ad}\)</span>
+units</p>
+<p>D. it decreases by <span
+class="math inline">\(\frac{b[1-c(1-\tau)]}{b[1-c(1-\tau)]+ad}\)</span>
+units</p>
+<ol start="49" style="list-style-type: decimal">
+<li>Inceteris paribus, a unit increase in the general price level has
+the following impact on the equilibrium value of the real interest
+rate:</li>
+</ol>
+<p>A. it increases by <span class="math inline">\(\frac{[\frac{\bar M
+}{(\bar P)^2}]}{b[1-c(1-\tau)]+ad}\)</span> units</p>
+<p>B. it decreases by <span class="math inline">\(\frac{[\frac{\bar M
+}{(\bar P)^2}]}{b[1-c(1-\tau)]+ad}\)</span> units</p>
+<p>C. it increases by <span
+class="math inline">\(\frac{[1-c(1-\tau)][\frac{\bar M }{(\bar
+P)^2}]}{b[1-c(1-\tau)]+ad}\)</span> units</p>
+<p>D. it decreases by <span
+class="math inline">\(\frac{[1-c(1-\tau)][\frac{\bar M }{(\bar
+P)^2}]}{b[1-c(1-\tau)]+ad}\)</span> units</p>
+<ol start="50" style="list-style-type: decimal">
+<li>Suppose we now allow the general price level to be flexible. Given
+the above characteristics of the macro-economy, the corresponding
+aggregate demand curve (output demanded as a function of the general
+price level) is</li>
+</ol>
+<p>A. upward sloping</p>
+<p>B. downward sloping</p>
+<p>C. vertical</p>
+<p>D. horizontal</p>
+<ol start="51" style="list-style-type: decimal">
+<li>Fix an <span class="math inline">\(m  \times   n\)</span> matrix A
+and an m-vector b . A condition that ensures the existence of a solution
+(an n-vector x) of the equation <span
+class="math inline">\(Ax=b\)</span> is</li>
+</ol>
+<p>A. <span class="math inline">\(det A \neq 0\)</span></p>
+<p>B.<span class="math inline">\(m=n\)</span></p>
+<p>C. the columns of A are linearly independent</p>
+<p>D. the rows of <span class="math inline">\(A\)</span> are linearly
+independent</p>
+<ol start="52" style="list-style-type: decimal">
+<li>The real-valued function <span class="math inline">\(f(x) 
+=x^4\)</span> is</li>
+</ol>
+<p>A. strictly convex</p>
+<p>B. strictly concave</p>
+<p>C. neither strictly concave nor strictly convex</p>
+<p>D. convex but not strictly convex</p>
+<ol start="53" style="list-style-type: decimal">
+<li>Consider the equation <span class="math inline">\(Ax= 0\)</span>,
+where A is an <span class="math inline">\(n  \times   n\)</span> matrix
+such that <span class="math inline">\(a_{ij} \neq 0\)</span> for every
+<span class="math inline">\(i\in { 1 ,\dots ,n}\)</span> and <span
+class="math inline">\(a_{ij}= 0\)</span> whenever <span
+class="math inline">\(i &gt; j\)</span>. This equation has</li>
+</ol>
+<p>A. n distinct solutions</p>
+<p>B. an <span class="math inline">\(n−1\)</span> dimensional vector
+space of solutions</p>
+<p>C. exactly one solution</p>
+<p>D. an n dimensional vector space of solutions</p>
+<ol start="54" style="list-style-type: decimal">
+<li>There is a pile of 17 matchsticks on a table. Players 1 and 2 take
+turns in removing matchsticks from the pile, starting with Player 1. On
+each turn, a player has to remove a number of sticks that equals the
+square of a positive integer, such that the number of matchsticks that
+remain on the table equals some non-negative integer. The player who
+cannot do so, when it is his/her turns, loses. Which of the following
+statement is true?</li>
+</ol>
+<p>A. If Player 2 plays appropriately, he can win regardless of how 1
+actually plays.</p>
+<p>B. If Player 1 plays appropriately, she can win regardless of how 2
+actually plays.     C. Both players have a chance to win, if they play
+correctly.</p>
+<p>D. The outcome of the game cannot be predicted on the basis of the
+data given.</p>
+<ol start="55" style="list-style-type: decimal">
+<li>If A is a set of real numbers, letgAbe the function such that <span
+class="math inline">\(g_A(x) = 1 \ if \ x \in A, \ and \  g_A(x) = 0 \
+if\ x \in A\)</span> . With this notation, consider the infinite
+sequence of functionsfn, where <span class="math inline">\(f_n(x)
+=ng_{[0, \frac{1 }{n}]}(x)\)</span> (i.e.,n multiplied by <span
+class="math inline">\(g_{[0, \frac{1 }{n}]}(x)\)</span> for all real
+numbers x and for each n= 1, 2 , 3 <span
+class="math inline">\(\dots\)</span> Then</li>
+</ol>
+<p>A. For every x, the sequence of numbers <span
+class="math inline">\((f_n(x))_{n=1}^{\infty}\)</span> has a limit in
+the space of  real numbers.</p>
+<p>B. <span class="math inline">\(\lim_{n \to \infty} f_n(x)\)</span>
+does not exist, for any x.</p>
+<p>C. When <span class="math inline">\(\lim_{n \to \infty}
+f_n(x)\)</span> exists, the actual limit depends on the x in
+question.</p>
+<p>D. <span class="math inline">\(\lim_{n \to \infty} f_n(x)\)</span>
+exists for all but a finite set of real numbers x.</p>
+<ol start="56" style="list-style-type: decimal">
+<li>Continuing with the sequence of functions above, we consider the
+sequence of real numbers <span class="math inline">\({\int
+f_n}_{n=1}^{\infty}\)</span> (that is, the sequence of their integrals).
+This sequence of integrals is</li>
+</ol>
+<p>A. an increasing sequence B. a decreasing sequence C. a constant
+sequence D. an oscillating sequence</p>
+<ol start="57" style="list-style-type: decimal">
+<li>For each positive integer <span class="math inline">\(a= 1, 2 , 3
+,\dots\)</span> let <span class="math inline">\(S_a\)</span> be the set
+of points lying on the curve <span class="math inline">\(y=
+\frac{1}{x_a}\)</span> , for all positive real numbers x. Then the
+intersection of these sets over all a (that is, <span
+class="math inline">\(\cap_{a=1}^{ \infty} S_a\)</span>) is</li>
+</ol>
+<p>A. a set with infinitely many points B. a set having a single point
+C. a set having exactly_2 points D. a set having more than 2, but a
+finite number of points</p>
+<ol start="58" style="list-style-type: decimal">
+<li>Which of the following two numbers is largereπorπe?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><span class="math inline">\(e^{\pi}\)</span></li>
+</ol>
+<p>B. <span class="math inline">\(\pi^e\)</span></p>
+<ol start="3" style="list-style-type: upper-alpha">
+<li>they are equal</li>
+</ol>
+<p>D. it depends on the value of e</p>
+<ol start="59" style="list-style-type: decimal">
+<li>The function</li>
+</ol>
+<pre><code>insert function</code></pre>
+<p>A. is continuous or discontinuous atx= 0, depending on the value
+ofa</p>
+<p>B. is continuous at x= 0</p>
+<p>C. is discontinuous at x= 0</p>
+<p>D. is upper hemicontinuous at x= 0</p>
+<ol start="60" style="list-style-type: decimal">
+<li>Suppose <span class="math inline">\(v_1 ,v_2 \ and \ v_3\)</span>
+are three vectors in 3-dimensional space, and are linearly depen dent.
+Then the vectors <span class="math inline">\(v_1 +v_2 ,v_2 +v_3\)</span>
+, and <span class="math inline">\(v_1 +v_3\)</span></li>
+</ol>
+<p>A. are linearly independent</p>
+<p>B. may be linearly dependent</p>
+<p>C. are linearly dependent</p>
+<p>D. are linearly independent, except when one of the vectors is
+zero</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

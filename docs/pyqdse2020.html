@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2020</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2020</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<div id="dse-2020" class="section level1">
+<h1>DSE 2020</h1>
+<ol style="list-style-type: decimal">
+<li><p>Consider independently and identically distributed random
+variables <span class="math inline">\(X_1 , ..., X_n\)</span> with
+values in <span class="math inline">\([0, 2]\)</span>. Each of these
+random variables is uniformly distributed on <span
+class="math inline">\([0, 2]\)</span>. If <span class="math inline">\(Y
+=max\{X_1 , ..., X_n\}\)</span>, then the mean of <span
+class="math inline">\(Y\)</span> is A. <span
+class="math inline">\((\frac{n}{n+1})^2\)</span> B. <span
+class="math inline">\(\frac{n}{2n+1}\)</span> C. <span
+class="math inline">\(\frac{2n}{n+1}\)</span> D. <span
+class="math inline">\(\frac{n}{n+1}\)</span></p></li>
+<li><p>A coin toss has possible outcomes H and T with probabilities
+<span class="math inline">\(\frac{3}{4}\)</span> and <span
+class="math inline">\(\frac{1}{4}\)</span> respectively. A gambler
+observes a sequence of tosses of this coin until H occurs. Let the first
+H occur on the <span class="math inline">\(n\)</span>th toss. If <span
+class="math inline">\(n\)</span> is odd, then the gambler’s prize is
+<span class="math inline">\(−(2^n)\)</span>, and if <span
+class="math inline">\(n\)</span> is even, then the gambler’s prize is
+<span class="math inline">\(2^n\)</span>. What is the expected value of
+the gambler’s prize? A. 1 B. -1 C. 3 D. -3</p></li>
+<li><p>Suppose two fair dice are tossed simultaneously. What is the
+probability that the total number of spots on the upper faces of the two
+dice is not divisible by 2, 3, or 5? A. 1/3 B. 2/9 C. 4/9 D.
+7/16</p></li>
+<li><p>A student is answering a multiple-choice examination. Suppose a
+question has <span class="math inline">\(m\)</span> possible answers.
+The student knows the correct answer with probability <span
+class="math inline">\(p\)</span>. If the student knows the correct
+answer, then she picks that answer; otherwise, she picks randomly from
+the choices with probability <span class="math inline">\(1/m\)</span>
+each. Given that the student picked the correct answer, the probability
+that she knew the correct answer is A. <span
+class="math inline">\(\frac{mp}{1+(m-1)p}\)</span> B. <span
+class="math inline">\(\frac{mp}{1+(1-p)m}\)</span> C. <span
+class="math inline">\(\frac{1-p}{1+(m-1)p}\)</span> D. <span
+class="math inline">\(\frac{1-p}{1+(1-p)m}\)</span></p></li>
+<li><p>Suppose Y is a random variable with uniform distribution on <span
+class="math inline">\([0, 2]\)</span>. The value of the cumulative
+distribution function of the random variable <span
+class="math inline">\(X=e^Y\)</span> at <span class="math inline">\(x\in
+[1, e^2 ]\)</span> is A. <span
+class="math inline">\(\frac{log(x)}{2}\)</span> B. <span
+class="math inline">\(\frac{log(x)}{4}\)</span> C. <span
+class="math inline">\(log(x)\)</span> D. <span
+class="math inline">\(log(x) - 1\)</span></p></li>
+<li><p>Consider an economy where the final commodity is produced by a
+single firm using labour only. The price-setting firm charges a 25%
+mark-up over its per unit nominal wage cost. The workers demand a real
+wage rate <span class="math inline">\(\frac{W}{P} = (1−u)\)</span>,
+where <span class="math inline">\(u\)</span> is the unemployment rate,
+<span class="math inline">\(P\)</span> is the price, and <span
+class="math inline">\(W\)</span> is the nominal wage rate. The natural
+rate of unemployment in this economy is<br />
+A. 20% B. 17% C. 13% D. 10%</p></li>
+<li><p>The aggregate production function of an economy is <span
+class="math inline">\(Y_t=(K_tL_t)^{\frac{1}{2}}\)</span>. Capital grows
+according to <span class="math inline">\(K_{t+1}=
+(1−\delta)K_t+S_t\)</span>, where <span
+class="math inline">\(S_t=sY_t\)</span> , <span
+class="math inline">\(L_t =\bar{L}\)</span> , <span
+class="math inline">\(s\)</span> is the saving rate, <span
+class="math inline">\(\delta\)</span> is the depreciation rate and <span
+class="math inline">\(\bar{L}\)</span> is the total population. Then,
+the steady-state level of consumption per capita is A.<span
+class="math inline">\(\frac{s}{\delta}\)</span> B. <span
+class="math inline">\(\frac{{s^2}}{\delta^2}\)</span> C. <span
+class="math inline">\(\delta^\frac{1}{s}\)</span> D. <span
+class="math inline">\(\frac{s(1-s)}{\delta}\)</span></p></li>
+<li><p>Consider a production technology <span class="math inline">\(Y
+=AL\)</span>, where <span class="math inline">\(Y\)</span> is output,
+<span class="math inline">\(A\)</span> is productivity, and <span
+class="math inline">\(L\)</span> is labour input. A firm sets its price
+<span class="math inline">\(P\)</span> at a constant mark-up <span
+class="math inline">\(\mu\)</span> over the effective wage cost per unit
+of production WA. The expected real wage rate of workers is <span
+class="math inline">\(\frac{W}{P^e}=A^\alpha(1−u)^{1 −\alpha}\)</span>,
+where 0 &lt; <span class="math inline">\(\alpha\)</span> &lt; 1 and
+<span class="math inline">\(P^e\)</span> is the expected price. If the
+price expected by workers matches the actual price level, then the
+effect of a rise in the level of productivity on unemployment is A.
+Positive B. Negative C. Zero D. Ambiguous</p></li>
+<li><p>A household has an endowment of 1 unit of time .The household
+maximizes its utility <span class="math inline">\(u= ln(c)
++bln(1−l)\)</span>, where <span class="math inline">\(c\)</span> denotes
+consumption and <span class="math inline">\(l\in [0, 1]\)</span> denotes
+time spent working. It finances its consumption from labour income <span
+class="math inline">\(wl\)</span>, where <span
+class="math inline">\(w\)</span> is the market wage rate per unit of
+labour time. If the market wage rate goes up, then equilibrium labour
+supply of the household A. increases B. decreases C. remains constant D.
+changes in ambiguous manner</p></li>
+<li><p>Consider the IS-LM model with a given price level <span
+class="math inline">\(P\)</span>. Investment is a decreasing function of
+the interest rate and savings is an increasing function of aggregate
+income. The demand for real money balances <span
+class="math inline">\(\frac{M}{P}\)</span> is an increasing function of
+aggregate income and a decreasing function of the interest rate. The
+monetary authority chooses nominal money supply <span
+class="math inline">\(M\)</span> to ensure that the resulting money
+market equilibrium keeps the interest rate fixed at some target level.
+In this setup, an increase in the target interest rate leads to A. a
+rise in equilibrium output B. a fall in equilibrium output C. no effect
+on equilibrium output D. an ambiguous effect on equilibrium
+output</p></li>
+<li><p>Consider the Solow growth model with a given savings ratio, a
+constant population growth rate, zero rate of capital depreciation, and
+no technical progress. Let <span class="math inline">\(k^∗\)</span> be
+the steady state capital labour ratio in this economy. Suppose the
+economy is yet to reach the steady state and has capital labour ratio
+<span class="math inline">\(k_1\)</span> at time <span
+class="math inline">\(t_{1}\)</span> and capital labour ratio <span
+class="math inline">\(k_2\)</span> at time <span
+class="math inline">\(t_{2}\)</span> such that <span
+class="math inline">\(t_{1}&lt;t_{2}\)</span> and <span
+class="math inline">\(k_{1}&lt;k_{2}&lt;k^*\)</span>. Let the associated
+growth rates of per capita income at time <span
+class="math inline">\(t_{1}\)</span> and <span
+class="math inline">\(t_{2}\)</span> be <span
+class="math inline">\(g_1\)</span> and <span
+class="math inline">\(g_2\)</span> respectively. Then, by the properties
+of the Solow model, A. <span class="math inline">\(g_1\)</span> &lt;
+<span class="math inline">\(g_2\)</span> B. <span
+class="math inline">\(g_1\)</span> &gt; <span
+class="math inline">\(g_2\)</span> C .<span
+class="math inline">\(g_1\)</span> =<span
+class="math inline">\(g_2\)</span> D. the relationship between <span
+class="math inline">\(g_1\)</span> and <span
+class="math inline">\(g_2\)</span> is ambiguous</p></li>
+<li><p>A consumer lives for periods 1 and 2. Given consumptions <span
+class="math inline">\(c_1\)</span> and <span
+class="math inline">\(c_2\)</span> in these periods, her utility is
+<span class="math inline">\(U = ln(c_1 ) + (1 +\rho)^{−1} ln(c_2
+)\)</span>. She earns incomes <span class="math inline">\(w_1\)</span>
+and <span class="math inline">\(w_2\)</span> in the two periods and her
+lifetime budget constraint is <span class="math inline">\(c_1 + (1
++r)^{-1} c_2 =w_1 + (1 +r)^{-1} w_2\)</span> , where <span
+class="math inline">\(r\)</span> is the interest rate on savings. If
+<span class="math inline">\(r &gt; \rho\)</span>, then A. <span
+class="math inline">\(c_1 &gt; c_2\)</span> B. <span
+class="math inline">\(c_1 &lt; c_2\)</span> C. <span
+class="math inline">\(c_1 =c_2\)</span> D. the relationship between
+<span class="math inline">\(c_1\)</span> and <span
+class="math inline">\(c_2\)</span> is ambiguous</p></li>
+<li><p>A consumer lives for periods 1 and 2. Her lifetime utility
+function is <span
+class="math inline">\(U(c_{1},c_{2})=\frac{c_{1}^{\gamma}+c_{2}^{\gamma}}{\gamma}\)</span>
+where 0&lt; <span class="math inline">\(\gamma\)</span> &lt;1 and <span
+class="math inline">\(c_{i}\)</span> is consumption in period <span
+class="math inline">\(i\)</span>. The elasticity of substitution between
+consumption in period 1 and consumption in period 2 is A. <span
+class="math inline">\(1+\gamma\)</span> B. <span
+class="math inline">\(1-\gamma\)</span> C. <span
+class="math inline">\(\frac{1}{1+\gamma}\)</span> D.<span
+class="math inline">\(\frac{1}{1-\gamma}\)</span></p></li>
+<li><p>A and B play a best-of-seven table-tennis match, i.e., the first
+to win four games will win the match. The two players are equally likely
+to win any of the games in the match. The probability that the match
+will end in 6 games is A. less than the probability that it will end in
+7 games B. equal to the probability that it will end in 7 games C.
+greater than the probability that it will end in 7 games D. None of
+these</p></li>
+<li><p>Let <span class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span> be jointly normally distributed,
+i.e. <span class="math inline">\((X, Y)∼ N(\mu_X, \mu_Y, \sigma_{X}^2 ,
+\sigma_{Y}^2 , \rho )\)</span>, If <span
+class="math inline">\(\sigma_X^2 =\sigma_Y^2\)</span> and <span
+class="math inline">\(0&lt;\rho&lt;1\)</span>, then A. the OLS
+regression of Y on X will yield a slope that is less than unity, and
+that of X on Y will yield a slope greater than unity B. the OLS
+regression of Y on X will yield a slope that is less than unity, and
+that of X on Y will yield a slope less than unity C. the OLS regression
+of Y on X will yield a slope that is greater than unity, and that of X
+on Y will yield a slope less than unity D. it is not possible to draw
+conclusions from given information</p></li>
+<li><p>Let <span class="math inline">\(\neg\)</span> denote the negation
+of a statement. Consider a set <span class="math inline">\(X\)</span>
+and a binary relation <span class="math inline">\(\succ\)</span> on
+<span class="math inline">\(X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be irreflexive if <span
+class="math inline">\(\neg (x \succ x)\)</span> for every <span
+class="math inline">\(x \in X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be transitive if, for
+all <span class="math inline">\(x, y, z \in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> and <span
+class="math inline">\(y \succ z\)</span> implies <span
+class="math inline">\(x \succ z\)</span>. If is asymmetric (i.e., for
+all <span class="math inline">\(x, y\in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(\neg (y \succ x)\)</span> and negatively
+transitive (i.e., for all <span class="math inline">\(x, y, z\in
+X\)</span>, <span class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(x\succ z\)</span>, or <span
+class="math inline">\(z \succ y\)</span>, or both), then <span
+class="math inline">\(\succ\)</span> is A. irreflexive, but not
+transitive B. transitive, but not irreflexive C. irreflexive and
+transitive D. neither transitive nor irreflexive</p></li>
+<li><p>Let <span class="math inline">\(\neg\)</span> denote the negation
+of a statement. Consider a set <span class="math inline">\(X\)</span>
+and a binary relation <span class="math inline">\(\succ\)</span> on
+<span class="math inline">\(X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be irreflexive if <span
+class="math inline">\(\neg (x \succ x)\)</span> for every <span
+class="math inline">\(x \in X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be transitive if, for
+all <span class="math inline">\(x, y, z \in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> and <span
+class="math inline">\(y \succ z\)</span> implies <span
+class="math inline">\(x \succ z\)</span>. If is asymmetric (i.e., for
+all <span class="math inline">\(x, y\in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(\neg (y \succ x)\)</span> and negatively
+transitive (i.e., for all <span class="math inline">\(x, y, z\in
+X\)</span>, <span class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(x\succ z\)</span>, or <span
+class="math inline">\(z \succ y\)</span>, or both), then <span
+class="math inline">\(\succ\)</span> is A. is not total B. is total C.
+may not be total D. is not total over a nonempty subset of <span
+class="math inline">\(X\)</span></p></li>
+<li><p>Let <span class="math inline">\(\neg\)</span> denote the negation
+of a statement. Consider a set <span class="math inline">\(X\)</span>
+and a binary relation <span class="math inline">\(\succ\)</span> on
+<span class="math inline">\(X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be irreflexive if <span
+class="math inline">\(\neg (x \succ x)\)</span> for every <span
+class="math inline">\(x \in X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be transitive if, for
+all <span class="math inline">\(x, y, z \in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> and <span
+class="math inline">\(y \succ z\)</span> implies <span
+class="math inline">\(x \succ z\)</span>. If is asymmetric (i.e., for
+all <span class="math inline">\(x, y\in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(\neg (y \succ x)\)</span> and negatively
+transitive (i.e., for all <span class="math inline">\(x, y, z\in
+X\)</span>, <span class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(x\succ z\)</span>, or <span
+class="math inline">\(z \succ y\)</span>, or both), then <span
+class="math inline">\(\succ\)</span> is A. is not transitive over a
+nonempty subset of <span class="math inline">\(X\)</span> B. is not
+transitive C. may not be transitive D. is transitive</p></li>
+<li><p>Let <span class="math inline">\(\neg\)</span> denote the negation
+of a statement. Consider a set <span class="math inline">\(X\)</span>
+and a binary relation <span class="math inline">\(\succ\)</span> on
+<span class="math inline">\(X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be irreflexive if <span
+class="math inline">\(\neg (x \succ x)\)</span> for every <span
+class="math inline">\(x \in X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be transitive if, for
+all <span class="math inline">\(x, y, z \in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> and <span
+class="math inline">\(y \succ z\)</span> implies <span
+class="math inline">\(x \succ z\)</span>. If is asymmetric (i.e., for
+all <span class="math inline">\(x, y\in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(\neg (y \succ x)\)</span> and negatively
+transitive (i.e., for all <span class="math inline">\(x, y, z\in
+X\)</span>, <span class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(x\succ z\)</span>, or <span
+class="math inline">\(z \succ y\)</span>, or both), then <span
+class="math inline">\(\succ\)</span> is A. is transitive B. is not
+transitive C. may not be transitive D. is not transitive over a nonempty
+subset of <span class="math inline">\(X\)</span></p></li>
+<li><p>Let <span class="math inline">\(\neg\)</span> denote the negation
+of a statement. Consider a set <span class="math inline">\(X\)</span>
+and a binary relation <span class="math inline">\(\succ\)</span> on
+<span class="math inline">\(X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be irreflexive if <span
+class="math inline">\(\neg (x \succ x)\)</span> for every <span
+class="math inline">\(x \in X\)</span>. Relation <span
+class="math inline">\(\succ\)</span> is said to be transitive if, for
+all <span class="math inline">\(x, y, z \in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> and <span
+class="math inline">\(y \succ z\)</span> implies <span
+class="math inline">\(x \succ z\)</span>. If is asymmetric (i.e., for
+all <span class="math inline">\(x, y\in X\)</span>, <span
+class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(\neg (y \succ x)\)</span> and negatively
+transitive (i.e., for all <span class="math inline">\(x, y, z\in
+X\)</span>, <span class="math inline">\(x \succ y\)</span> implies <span
+class="math inline">\(x\succ z\)</span>, or <span
+class="math inline">\(z \succ y\)</span>, or both), then <span
+class="math inline">\(\succ\)</span> is A. is symmetric B. is not
+symmetric C. may not be symmetric D. is not symmetric over a nonempty
+subset of <span class="math inline">\(X\)</span></p></li>
+<li><p>Consider the following game for players 1 and 2. Player 1 moves
+first and chooses L or R. If she chooses L, then the game ends and the
+payoffs are <span class="math inline">\((1, 0)\)</span>, where the first
+entry is 1’s payoff and the second entry is 2’s payoff. If she chooses
+R, then 2 chooses U or D. If she chooses U, then the game ends and the
+payoffs are <span class="math inline">\((0, 2)\)</span>. If she chooses
+D, then 1 chooses L or R. If she chooses L, then the game ends and the
+payoffs are <span class="math inline">\((4, 0)\)</span>. If she chooses
+R, then the game ends and the payoffs are <span
+class="math inline">\((3, 3)\)</span>. This game has A. one Nash
+equilibrium in pure strategies B. two Nash equilibrium in pure
+strategies C. three Nash equilibrium in pure strategies D. no Nash
+equilibrium in pure strategies</p></li>
+<li><p>Consider the following game for players 1 and 2. Player 1 moves
+first and chooses L or R. If she chooses L, then the game ends and the
+payoffs are <span class="math inline">\((1, 0)\)</span>, where the first
+entry is 1’s payoff and the second entry is 2’s payoff. If she chooses
+R, then 2 chooses U or D. If she chooses U, then the game ends and the
+payoffs are <span class="math inline">\((0, 2)\)</span>. If she chooses
+D, then 1 chooses L or R. If she chooses L, then the game ends and the
+payoffs are <span class="math inline">\((4, 0)\)</span>. If she chooses
+R, then the game ends and the payoffs are <span
+class="math inline">\((3, 3)\)</span>. This game has<br />
+A. one subgame perfect Nash equilibrium B. two subgame perfect Nash
+equilibrium C. three subgame perfect Nash equilibrium D. no subgame
+perfect Nash equilibrium</p></li>
+<li><p>In a non-cooperative game, if a profile of strategies A. is a
+Nash equilibrium, then it is an equilibrium in dominant strategies B. is
+a Nash equilibrium, then it is a subgame perfect equilibrium C. is a
+Nash equilibrium, then it is a sequential equilibrium D. is an
+equilibrium in dominant strategies, then it is a Nash
+equilibrium</p></li>
+<li><p>If player 1 is the row player and player 2 is the column player
+in games <span class="math display">\[\begin{array}{cc} G =
+\begin{array}{ccc} &amp; L &amp; R \\ U &amp; a,b &amp; c,d \\ D &amp;
+e,f &amp; g,h \end{array} &amp;&amp; G&#39; = \begin{array}{cccc} &amp;
+L &amp; M &amp; R \\ U &amp; a,b &amp; \alpha, \beta &amp; c,d \\ D
+&amp; e,f &amp;\gamma,\delta &amp;g,h
+\end{array}\end{array}\]</span>then A. 2s payoff in a Nash equilibrium
+of <span class="math inline">\(G&#39;\)</span> cannot be less than 2s
+payoff in a Nash equilibrium of <span class="math inline">\(G\)</span>
+B. 2s payoff in a Nash equilibrium of <span
+class="math inline">\(G\)</span> cannot be less than 2s payoff in a Nash
+equilibrium of <span class="math inline">\(G&#39;&#39;\)</span> C. 2s
+payoff in a Nash equilibrium of <span class="math inline">\(G\)</span>
+must be equal to 2s payoff in a Nash equilibrium of <span
+class="math inline">\(G\)</span> D. 2s payoff in a Nash equilibrium of
+<span class="math inline">\(G\)</span> may be higher than 2s payoff in a
+Nash equilibrium of <span
+class="math inline">\(G&#39;&#39;\)</span></p></li>
+<li><p>Consider an exchange economy with agents 1 and 2 and goods <span
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>. Agent 1 lexico-graphically prefers
+<span class="math inline">\(x\)</span> to <span
+class="math inline">\(y\)</span>, i.e., between two non-identical
+bundles of <span class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>, she strictly prefers the bundle with
+more of <span class="math inline">\(x\)</span>, but if the bundles have
+the same amount of <span class="math inline">\(x\)</span>, then she
+strictly prefers the bundle with more of <span
+class="math inline">\(y\)</span>. Agent 2’s utility function is <span
+class="math inline">\(u_2 (x, y) =x+y\)</span>. Agent 1’s endowment is
+<span class="math inline">\((\omega_x^1 , \omega_y^1 ) = (0,
+10\)</span>) and Agent 2’s endowment is <span
+class="math inline">\((\omega^2_x, \omega^2_y) = (10, 0)\)</span>. The
+set of competitive equilibrium price ratios <span
+class="math inline">\(\frac{p_x}{p_y}\)</span> for this economy is A.
+<span class="math inline">\(\{ 1 \}\)</span> B. <span
+class="math inline">\([0, 1]\)</span> C. <span class="math inline">\((0,
+1]\)</span> D. <span class="math inline">\(\phi\)</span></p></li>
+<li><p>Consider an exchange economy with agents 1 and 2 and goods <span
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>. Agent 1 lexicographically prefers
+<span class="math inline">\(y\)</span> to <span
+class="math inline">\(x\)</span>, i.e., between two non-identical
+bundles of <span class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>, she strictly prefers the bundle with
+more of <span class="math inline">\(y\)</span>, but if the bundles have
+the same amount of <span class="math inline">\(y\)</span>, then she
+strictly prefers the bundle with more of <span
+class="math inline">\(x\)</span>. Agent 2’s utility function is <span
+class="math inline">\(u_2 (x, y) =x+y\)</span>. Agent 1’s endowment is
+<span class="math inline">\((\omega_x^1 , \omega_y^1 ) = (0,
+10\)</span>) and Agent 2’s endowment is <span
+class="math inline">\((\omega^2_x, \omega^2_y) = (10, 0)\)</span>. The
+set of competitive equilibrium price ratios <span
+class="math inline">\(\frac{p_x}{p_y}\)</span> for this economy is A.
+<span class="math inline">\(\{ 1 \}\)</span> B. <span
+class="math inline">\([0, 1]\)</span> C. <span class="math inline">\((0,
+1]\)</span> D. <span class="math inline">\(\phi\)</span></p></li>
+<li><p>Consider an exchange economy with goods <span
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>, and agents 1 and 2, whose endowments
+are <span class="math inline">\((\omega^1_x, \omega^1_y) = (0,
+9)\)</span> and <span class="math inline">\((\omega^2_x, \omega^2_y ) =
+(10, 0)\)</span> respectively. The utility functions of 1 and 2 are
+<span class="math inline">\(u_1 (x, y) = min\{x, y\}\)</span> and <span
+class="math inline">\(u_2 (x, y) = min\{x, y\}\)</span> respectively.
+The competitive equilibrium price ratio <span
+class="math inline">\(\frac{p_x}{p_y}\)</span> for this economy is A.
+<span class="math inline">\(\frac{9}{10}\)</span> B.<span
+class="math inline">\(\frac{10}{9}\)</span> C. <span
+class="math inline">\(1\)</span> D. <span
+class="math inline">\(0\)</span></p></li>
+<li><p>Consider an exchange economy with goods <span
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>, and agents 1 and 2, whose endowments
+are <span class="math inline">\((\omega^1_x, \omega^1_y) = (0,
+9)\)</span> and <span class="math inline">\((\omega^2_x, \omega^2_y ) =
+(10, 0)\)</span> respectively. The utility functions of 1 and 2 are
+<span class="math inline">\(u_1 (x, y) = min\{x, y\}\)</span> and <span
+class="math inline">\(u_2 (x, y) = min\{x, y\}\)</span> respectively.
+The competitive equilibrium allocations are A. 1 gets <span
+class="math inline">\((10−x, 9 −y)\)</span> and 2 gets <span
+class="math inline">\((x, y)\)</span> where <span
+class="math inline">\(x\in [9, 10]\)</span> and <span
+class="math inline">\(y= 9\)</span> B. 1 gets <span
+class="math inline">\((x, y)\)</span> and 2 gets <span
+class="math inline">\((10−x, 9 −y)\)</span> where <span
+class="math inline">\(x\in [9, 10]\)</span> and <span
+class="math inline">\(y= 9\)</span> C. 1 gets <span
+class="math inline">\((x, y)\)</span> and 2 gets <span
+class="math inline">\((9−x, 10 −y)\)</span> where <span
+class="math inline">\(x\in [8, 9]\)</span> and <span
+class="math inline">\(y= 10\)</span> D. 1 gets <span
+class="math inline">\((x, y)\)</span> and 2 gets <span
+class="math inline">\((9−x, 10 −y)\)</span> where <span
+class="math inline">\(x= 9\)</span> and <span class="math inline">\(y\in
+[9, 10]\)</span></p></li>
+<li><p>Consider an exchange economy with goods <span
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>, and agents 1 and 2, whose endowments
+are <span class="math inline">\((\omega^1_x, \omega^1_y) = (0,
+9)\)</span> and <span class="math inline">\((\omega^2_x, \omega^2_y ) =
+(10, 0)\)</span> respectively. The utility functions of 1 and 2 are
+<span class="math inline">\(u_1 (x, y) = min\{x, y\}\)</span> and <span
+class="math inline">\(u_2 (x, y) = min\{x, y\}\)</span> respectively.
+The allocation that gives <span class="math inline">\((10, 9)\)</span>
+to 1 and <span class="math inline">\((0, 0)\)</span> to 2 is A. Pareto
+efficient but not a competitive equilibrium allocation B. neither Pareto
+efficient nor a competitive equilibrium allocation C. a competitive
+equilibrium allocation that is Pareto efficient D. a competitive
+equilibrium allocation that is not Pareto efficient</p></li>
+<li><p>Given a non-empty set <span class="math inline">\(C\subset
+\mathbb{R}_n\)</span>, for every <span class="math inline">\(p\in
+\mathbb{R}^n_+\)</span>, let <span class="math inline">\(c(p)\in
+C\)</span> be such that <span class="math inline">\(p \cdot c(p) \leq p
+\cdot c\)</span> for every <span class="math inline">\(c\in C\)</span>.
+Then, the function <span class="math inline">\(e :
+\mathbb{R}^n_+→\mathbb{R}\)</span> given by <span
+class="math inline">\(e(p) =p \cdot c(p)\)</span> is A. linear B. convex
+C. concave D. quasi-convex</p></li>
+<li><p>Given a non-empty set <span class="math inline">\(C\subset
+\mathbb{R}_n\)</span>, for every <span class="math inline">\(p\in
+\mathbb{R}^n_+\)</span>, let <span class="math inline">\(c(p)\in
+C\)</span> be such that <span class="math inline">\(p \cdot c(p) \leq p
+\cdot c\)</span> for every <span class="math inline">\(c\in C\)</span>.
+Then, the function <span class="math inline">\(e :
+\mathbb{R}^n_+→\mathbb{R}\)</span> given by <span
+class="math inline">\(e(p) =p \cdot c(p)\)</span> is A. homogeneous of
+degree 0 B. homogeneous of degree 1 C. homogeneous of degree <span
+class="math inline">\(\infty\)</span> D. non-homogeneous</p></li>
+<li><p>Suppose <span class="math inline">\(u : \mathbb{R}→
+\mathbb{R}_+\)</span> is strictly increasing and has the supremum (i.e.,
+least upper bound) <span class="math inline">\(\alpha\in R\)</span>.
+Then the function <span class="math inline">\(x \rightarrow
+\frac{u(x)}{\alpha-u(x)}\)</span> is A. not well defined for some <span
+class="math inline">\(x \in R\)</span> B. bounded above C. unbounded
+above D. not strictly increasing</p></li>
+<li><p>The interval <span class="math inline">\([0, \infty)\)</span> can
+be expressed as A. <span class="math inline">\(\cap^\infty_{n=1}(a_n,
+\infty)\)</span> where each <span class="math inline">\(a_n\)</span> is
+a rational number B. <span class="math inline">\(\cup^\infty_{n=1}(a_n,
+b_n]\)</span> where <span class="math inline">\(a_n\)</span> and <span
+class="math inline">\(b_n\)</span> is a real number C. <span
+class="math inline">\(\cap^\infty_{n=1}[a_n, b_n]\)</span> where each
+<span class="math inline">\(a_n\)</span> and <span
+class="math inline">\(b_n\)</span> is an irrational number D. All of
+these</p></li>
+<li><p>If <span class="math inline">\(f:\mathbb{R}^2
+→\mathbb{R}\)</span> is given by <span class="math display">\[f(x, y) =
+\left\{ \begin{array}{ll} \frac{xy}{x^2+y^2}, &amp; \mbox{for } xy \neq
+0 \\ 0, &amp;\mbox{for } xy=0  \end{array} \right\} \]</span> then A. f
+is differentiable at <span class="math inline">\((0, 0)\)</span> and
+both partial derivatives at <span class="math inline">\((0, 0)\)</span>
+are 0 B. f is non-differentiable at <span class="math inline">\((0,
+0)\)</span> and both partial derivatives at <span
+class="math inline">\((0, 0)\)</span> are 0 C. f is differentiable at
+<span class="math inline">\((0, 0)\)</span> and neither partial
+derivatives at <span class="math inline">\((0, 0)\)</span> is 0 D. f is
+non-differentiable at <span class="math inline">\((0, 0)\)</span> and
+neither partial derivatives at <span class="math inline">\((0,
+0)\)</span> exist</p></li>
+<li><p>Suppose <span class="math inline">\(f\)</span> is a
+twice-differentiable function that solves the differential equation
+<span class="math inline">\(D^2 f− Df−f−1 = 0\)</span> over <span
+class="math inline">\(\mathbb{R}\)</span> and satisfies the condition
+<span class="math inline">\(f(0) = 0 =f(k)\)</span> for some <span
+class="math inline">\(k &gt;0\)</span>. Then, A. <span
+class="math inline">\(f\)</span> has positive and negative values over
+<span class="math inline">\((0, k)\)</span> B. <span
+class="math inline">\(f\)</span> has only positive values over <span
+class="math inline">\((0, k)\)</span> C. <span
+class="math inline">\(f\)</span> has only negative values over <span
+class="math inline">\((0, k)\)</span> D. <span
+class="math inline">\(f=−1\)</span> on <span class="math inline">\((0,
+k)\)</span></p></li>
+<li><p>Let <span class="math inline">\(\mathbf{B}\)</span> be the
+collection of sets <span class="math inline">\(E \subset
+\mathbb{R}\)</span> satisfying: for every <span
+class="math inline">\(x\in E\)</span>, there exist real numbers <span
+class="math inline">\(a\)</span> and <span
+class="math inline">\(b\)</span> such that <span class="math inline">\(a
+&lt; b\)</span> and <span class="math inline">\(x\in (a, b)\subset
+E\)</span>. Let <span class="math inline">\(C\)</span> be the collection
+of sets <span class="math inline">\(E\subset \mathbb{R}\)</span>
+satisfying: for every <span class="math inline">\(x\in E\)</span>, there
+exist rational numbers <span class="math inline">\(a\)</span> and <span
+class="math inline">\(b\)</span> such that <span class="math inline">\(a
+&lt; b\)</span> and <span class="math inline">\(x\in (a, b)\subset
+E\)</span>, then A. <span class="math inline">\(\mathbf{B} \subset
+C\)</span> and <span class="math inline">\(\mathbf{B} \neq C\)</span> B.
+<span class="math inline">\(C \subset \mathbf{B}\)</span> and <span
+class="math inline">\(\mathbf{B} \neq C\)</span> C. <span
+class="math inline">\(\mathbf{B}=C\)</span> D. Neither <span
+class="math inline">\(\mathbf{B} \subset C\)</span> nor <span
+class="math inline">\(C \subset \mathbf{B}\)</span></p></li>
+<li><p>The set <span class="math inline">\(\{(x, y) \in \mathbb{R}^2 |x
+&gt; 0\)</span> and <span class="math inline">\(y \leq ln(x) − e^x
+\}\)</span> is A. a linear subspace of <span
+class="math inline">\(\mathbb{R}^2\)</span> B. convex C. non-convex D.
+convex polytope</p></li>
+<li><p>Suppose the distance between <span class="math inline">\(x, y\in
+\mathbb{R}\)</span> is <span class="math inline">\(|x−y|\)</span> and
+<span class="math inline">\(f:\mathbb{R}→\mathbb{R}\)</span> is a
+continuous function. If <span class="math inline">\(E\)</span> is an
+open subset of <span class="math inline">\(\mathbb{R}\)</span>, then
+<span class="math inline">\(\{x\in \mathbb{R}:f(x)\in E\}\)</span> is A.
+an open subset of <span class="math inline">\(\mathbb{R}\)</span> B. a
+closed subset of <span class="math inline">\(\mathbb{R}\)</span> C.
+neither an open nor a closed subset of <span
+class="math inline">\(\mathbb{R}\)</span><br />
+D. an open and closed subset of <span
+class="math inline">\(\mathbb{R}\)</span></p></li>
+<li><p>Which of the following two numbers is larger for <span
+class="math inline">\(k \neq 0: e^{k\pi} or \pi^{ke}\)</span> A. <span
+class="math inline">\(e^{k\pi}\)</span> B. <span
+class="math inline">\(\pi^{ke}\)</span> C. They are equal D. It depends
+on the value of k</p></li>
+<li><p>Consider the matrix <span
+class="math inline">\(A=\begin{pmatrix}cos\theta &amp; -sin\theta \\
+sin\theta &amp; cos\theta \end{pmatrix}\)</span> where <span
+class="math inline">\(\theta \in (0, 2 \pi)\)</span> The inner product
+of vectors <span class="math inline">\(v= (v_1 , v_2 )\)</span> and
+<span class="math inline">\(w= (w_1 , w_2 )\)</span> in <span
+class="math inline">\(\mathbb{R}^2\)</span> is defined by <span
+class="math inline">\(&lt; v, w &gt;=v_1 w_1 +v_2 w_2\)</span>. So, for
+the vectors <span class="math inline">\(v\)</span> and <span
+class="math inline">\(w\)</span> in <span
+class="math inline">\(\mathbb{R}^2\)</span> A. <span
+class="math inline">\(&lt; Av, Aw &gt;=&lt; v, w &gt;\)</span> B. <span
+class="math inline">\(&lt; Av, Aw &gt;&gt;&lt; v, w &gt;\)</span> C.
+<span class="math inline">\(&lt; Av, Aw &gt;&lt;&lt; v, w &gt;\)</span>
+D. The comparison of <span class="math inline">\(&lt; Av, Aw
+&gt;\)</span> and <span class="math inline">\(&lt; v, w &gt;\)</span>
+depends on <span class="math inline">\(\theta\)</span></p></li>
+<li><p>Let b <span class="math inline">\(\lfloor x \rfloor\)</span> be
+the greatest integer that is less than or equal to <span
+class="math inline">\(x \in \mathbb{R}\)</span>. The function <span
+class="math inline">\(f:\mathbb{R}→\mathbb{R}\)</span> , defined by
+<span class="math inline">\(f(x) =x−\lfloor x \rfloor\ for\ x \in
+\mathbb{R}\)</span> is A. left-discontinuous at an integer B.
+right-discontinuous at an integer C. left discontinuous and
+right-discontinuous at an integer D. discontinuous everywhere</p></li>
+<li><p>Let <span class="math inline">\(\lceil x \rceil\)</span> be the
+smallest integer that is greater than or equal to <span
+class="math inline">\(x\in \mathbb{R}\)</span>. The function <span
+class="math inline">\(f:\mathbb{R}→\mathbb{R}\)</span>, defined by <span
+class="math inline">\(f(x) =\lceil x \rceil −x\ for\ x \in
+\mathbb{R}\)</span> is A. left-discontinuous at an integer B.
+right-discontinuous at an integer C. left discontinuous and
+right-discontinuous at an integer D. discontinuous everywhere</p></li>
+<li><p>Let b <span class="math inline">\(\lfloor x \rfloor\)</span> be
+the greatest integer that is less than or equal to <span
+class="math inline">\(x \in \mathbb{R}\)</span>. Let <span
+class="math inline">\(\lceil x \rceil\)</span> be the smallest integer
+that is greater than or equal to <span class="math inline">\(x\in
+\mathbb{R}\)</span>. The function <span
+class="math inline">\(f:\mathbb{R}→\mathbb{R}\)</span> , defined by
+<span class="math inline">\(f(x) =\lceil x \rceil −\lfloor x \rfloor\
+for\ x \in \mathbb{R}\)</span> is A. left-discontinuous at an integer B.
+right-discontinuous at an integer C. left discontinuous and
+right-discontinuous at an integer D. discontinuous everywhere</p></li>
+<li><p>If <span class="math inline">\(A=\{(x, y)\in \mathbb{R}^2 :x \geq
+0 , y \geq 0 , xy \geq 1 \}\)</span>, <span
+class="math inline">\(B=\{(x, y)\in \mathbb{R}^2 :x \leq 0 , y \geq 0 ,
+xy \leq − 1 \}\)</span> and <span class="math inline">\(C=\{a+b:a\in A,
+b\in B\}\)</span> Then, A. <span class="math inline">\(\{(x, y)\in
+\mathbb{R}^2 :x= 0, y \geq 0 \}\subset C\)</span> B. <span
+class="math inline">\(\{(x, y)\in \mathbb{R}^2 :x= 0, y &gt; 0 \}\subset
+C\)</span> C. <span class="math inline">\(\{(x, y)\in \mathbb{R}^2 :x
+\geq 0 , y= 0\}\subset C\)</span> D. <span class="math inline">\(\{(x,
+y)\in \mathbb{R}^2 :x &gt; 0 , y= 0\}\subset C\)</span></p></li>
+<li><p>Consider a 4×4 -matrix A. Obtain matrix B from matrix A by
+performing the following operations in sequence: (1) Interchange the
+first and fourth columns, and then (2) Interchange the second and fourth
+rows. Then, A. <span class="math inline">\(detA=detB\)</span> B. <span
+class="math inline">\(detA \neq detB\)</span> C. <span
+class="math inline">\(detB \leq 0\)</span> D. <span
+class="math inline">\(detB &gt; 0\)</span></p></li>
+<li><p>The maximum value of <span class="math inline">\(f(x, y)
+=xy\)</span> subject to <span class="math inline">\(|x| \geq |y| \mbox{
+and } |x|+|y| \leq 1\)</span> is A.<span
+class="math inline">\(\frac{1}{4}\)</span> B. <span
+class="math inline">\(\frac{1}{2}\)</span> C. <span
+class="math inline">\(4\)</span> D. <span
+class="math inline">\(2\)</span></p></li>
+<li><p>Consider a decreasing differentiable function <span
+class="math inline">\(g: \mathbb{R}_+\rightarrow \mathbb{R}_+\)</span>
+and an increasing continuous function <span class="math inline">\(f:
+\mathbb{R}_+\rightarrow \mathbb{R}_+\)</span>. If <span
+class="math inline">\(F: \mathbb{R}_+\rightarrow \mathbb{R}_+\)</span>
+satisfies <span class="math inline">\(F(x) =\int_0^{g(x)}
+{f(t)dt}\)</span> for every <span class="math inline">\(x\in
+\mathbb{R}\)</span>, then <span class="math inline">\(F\)</span> is A.
+increasing over <span class="math inline">\([0, a]\)</span> and
+decreasing over <span class="math inline">\([a, \infty)\)</span> for
+some <span class="math inline">\(a &gt; 0\)</span> B. decreasing over
+<span class="math inline">\([0, a]\)</span> and increasing over <span
+class="math inline">\([a, \infty)\)</span> for some <span
+class="math inline">\(a &gt; 0\)</span> C. increasing D.
+decreasing</p></li>
+<li><p>If <span class="math inline">\(f:\mathbb{R}→\mathbb{R}\)</span>
+and <span class="math inline">\(g:\mathbb{R}→\mathbb{R}\)</span> are
+defined by <span class="math display">\[f(x) = \left\{
+\begin{array}{ll}
+0, &amp; \mbox{if } x \mbox{ is rational} \\
+x, &amp; \mbox{if } x \mbox{ is irrational}
+\end{array}
+\right\}\]</span> and <span class="math display">\[g(x) = \left\{
+\begin{array}{ll}
+0, &amp; \mbox{if } x \mbox{ is irrational} \\
+x, &amp; \mbox{if } x \mbox{ is rational}
+\end{array}
+\right\}\]</span> Then, <span
+class="math inline">\(h:\mathbb{R}→\mathbb{R}\)</span>, defined by <span
+class="math inline">\(h(x) =f(x)−g(x)\)</span> is A. injective but not
+surjective B. surjective but not injective C. neither injective nor
+surjective D. bijective</p></li>
+<li><p>Given nonempty subsets of <span
+class="math inline">\(\mathbb{R}^2\)</span> , say <span
+class="math inline">\(Y_1 , \cdots, Y_n\)</span>, let <span
+class="math inline">\(Y^* =\{ \sum_{i=1}^n y_i | y_1 \in Y_1, \cdots,
+y_n \in Y_n \}\)</span>. Fix <span class="math inline">\(p \in
+\mathbb{R}^2\)</span>. For a non-empty set <span class="math inline">\(X
+\subset \mathbb{R}^2\)</span>, let <span class="math inline">\(v(p,X) =
+sup\{p\cdot x| x\in X \}\)</span>. Suppose there exists <span
+class="math inline">\(y^* = Y^*\)</span> such that <span
+class="math inline">\(py^*=v(p,Y^*)\)</span> and for every <span
+class="math inline">\(i \in \{1,2, \dots ,n\}\)</span>, there exists
+<span class="math inline">\(y_i \in Y_i\)</span> such that <span
+class="math inline">\(py_i = v(p, Y_i)\)</span>. Then, A. <span
+class="math inline">\(v(p,Y^*)&lt;\sum_{i=1}^{n} v(p,Y_i)\)</span> or
+<span class="math inline">\(v(p,Y^*)&gt;\sum_{i=1}^{n} v(p,Y_i)\)</span>
+B. <span class="math inline">\(v(p,Y^*)=\sum_{i=1}^{n} v(p,Y_i)\)</span>
+C. <span class="math inline">\(v(p,Y^*)&lt;\sum_{i=1}^{n}
+v(p,Y_i)\)</span> D. <span
+class="math inline">\(v(p,Y^*)&gt;\sum_{i=1}^{n}
+v(p,Y_i)\)</span></p></li>
+<li><p>If <span class="math inline">\(A =\begin{bmatrix}1 &amp; 0 &amp;
+0 &amp; 0 \\ 2 &amp; 2 &amp; 0 &amp; 0 \\ 3 &amp; 2 &amp; -2 &amp; 0 \\
+4 &amp; 3 &amp; 2 &amp; -1 \end{bmatrix}\)</span> and <span
+class="math inline">\(A^T\)</span> is transpose of <span
+class="math inline">\(A\)</span>, then <span
+class="math inline">\(det(A^TA)\)</span> is A. 16 B. -16 C. 4 D.
+-4</p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

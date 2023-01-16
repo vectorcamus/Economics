@@ -1,0 +1,573 @@
+---
+title: "PYQ DSE 2019"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+DSE 2019
+
+  
+
+1. The range of the function $f:R→R$ defined by $f(x)=\frac{x^2+x+2}{x^2+x+1}$
+
+ A.  $(1,∞)$
+
+ B.  $[1,\frac{4}{3} ]$
+
+ C.  $[1,\frac{7}{3} ]$
+ 
+ D.  $[\frac{1}{3},\frac{8}{3}]$ 
+
+
+draft 
+  
+2. If a homeowner adds a new bathroom to her house which increases the house size by 100 sq. ft., what is the expected increase in the value of the house?
+
+
+ A. Rs. 37 , 000
+
+ B.Rs. 39 , 450
+
+ C.Rs. 37 , 200
+
+ D. Rs. 39 , 000
+
+3. If a homeowner converts a bedroom into a bathroom, what is the expected increase in  the value of house?
+
+ A. Rs. 22 , 800
+
+ B.Rs. 22 , 915
+
+ C.Rs. 21 , 800
+ 
+ D. Rs. 23 , 915
+
+ 
+4. Are the coefficients of BA and PC individually statistically significant at the 5% level.
+
+ A. Coefficient of BA is significant, but that of PC is not
+
+ B. Coefficient of PC is significant, but that of BA is not
+
+ C. Both are significant
+
+ D. Neither is significant
+ 
+5. What is the loss in value if a homeowner allows his house to get into poor condition?
+6. 
+A. Rs. 34 , 300
+
+B.Rs. 36 , 000
+
+C.Rs. 35 , 600
+
+D. Rs. 35 , 100
+
+  
+6. If variable age were measured in decades, what would be its coefficient?
+
+
+ A.  0. 090
+ 
+ B.  0. 900
+
+ C.  0. 009
+
+ D.  9. 000
+
+7. What is the adjusted coefficient of determination?
+
+ 
+A.   0. 7032
+
+B.   0. 7042
+
+C.   0. 7022
+
+ D.   0. 7052
+
+ 
+The next Three questions pertain to the following Trader 1 is endowed with 100 identical Left shoes. Trader 2 is endowed with 99 identical Right shoes. Each trader’s utility from her allocation of shoes is equal to the mumber of complete pairs of shoes in the allocation. Traders 1 and 2 trade shoes in competitive markets and arrive at a competitive equilibrium. Assume that shoes are infinitely divisible.
+
+  
+10. Given their endowments, an efficient allocation
+
+ 
+ A.   must give trader 1 at least 50 left shoes
+
+ B.   must give trader 1 at least 50 right shoes
+
+ C.   must give trader 1 at least 99 left shoes
+
+ D.   none of the above
+
+
+11. An equilibrium allocation of shoes gives trader 2:
+
+
+ A.   at most 50 left shoes
+ 
+ B.   at least 99 left shoes
+
+ C.   at most 99 left shoes
+
+ D.   at most 50 right shoes
+
+  
+
+12. The equilibrium price of left shoe divided by the equilibrium price of right shoe is
+
+
+A. 1 
+
+B. slightly less than 1 
+
+C. slightly more than 1
+
+D. 0
+
+13. Assume that the aggregate production of an economy is $Y_i =\sqrt{K_tL_t}$ ,where $K_t+1 = (1−\sigma)K_t+I_t,S_t=sY_i$ and $L_t=L$ (i.e., the notation and meanings correspond to the setting for the Solow Model with constant population). Then, the savings ratesthat maximizes the steady state rate of consumption equals
+
+  
+
+ A.  $\frac{1}{2}$
+
+ B.  $\frac{\sigma}{1+\sigma}$
+
+ C.  $\frac{1}{1+\sigma}$
+ 
+ D.  None of the above
+
+ 
+14. Consider a function $f:R^2 →R$ . Suppose, for every $p\in R^2$ ,there exists x(p)\in R^2$ such that $f(x(p))\geq 1$ and $p·x(p)\leq p.y$ for every $yin R^2$  such that $f(y)\geq 1$ .Define $g:R^2 →R$ by $g(p) =p.x(p)$ .Then,g is
+
+ 
+A. linear
+
+B. convex
+
+C. quasi-convex
+
+D. concave
+
+
+15. Given nonempty-subsets of $R^2$  ,say $Y_1 , \dots ,Y_n$  let $Y^{∗}=  \sum_{j=1}^n y_j |y_1 \in Y_1, \dots , y_n \in Y_n$ } Given $p \in R^2$  and a nonempty set $Y ⊂R^2$  let $v(p,Y) = sup${$p·y|y \in Y$}Then, for every p
+
+  
+
+A.   $v(p,Y^{∗}) =\sum_{j=1}^n v(p,Y_j)$  or $v(p,Y^{∗}) >\sum_{j=1}^n v(p,Y_j)$ 
+
+B.   $v(p,Y^{∗}) =\sum_{j=1}^n v(p,Y_j)$
+
+C.   $v(p,Y^{∗}) \leq \sum_{j=1}^n v(p,Y_j)$
+  
+D.  $v(p,Y^{∗}) \geq \sum_{j=1}^n v(p,Y_j)$
+
+  
+16. A consumer lives for two periods 1 and 2.The lifetime utility function is $U=u(c_1 )+\frac {u(c_2)} {1+p}$. The consumer earns $w_1$ and $w_2$ in the two periods, and her consumption $c_1$ and $c_2$ satjsfies a lifetime budget constraint $c_1 +\frac{c_2}{1+r} =w_1 +\frac{w_2}{1+r}$ .Assume that $u(c_t) =\frac{c_t^1-\sigma}{1=\sigma} , t= 1,2$ . then if $r \geq \roh$ , it follows that 
+
+
+ A.   $c_1 \geq c_2$
+
+ B.   $c_1 \leq c_2$
+ 
+ C.   $c_1 =c_2$
+
+ D.   None of the above is necessarily true
+
+
+17. The price-setting relation determines the real wage paid by firms depending on the level of technology (A) and mark-up m, and is represented by $WP = 1+Am$ .Under the wage- setting relation, the real wage is determined by the level of productivity (A) and the unemployment u. This is represented by $WP =A(1−u)$ .The effect of an increase in the  level of technology on the unemployment is:
+
+ A. Positive
+
+ B. Negative
+
+ C. Zero
+
+ D. ambiguous
+
+ 
+18. If $f:R→R$ and $g:R→R$ are defined by Then, $h:R→R$ , defined by $h(x) =f(x)−g(x)$  is
+
+ 
+A. injective but not surjective
+
+B. surjective but not injective
+
+C. neither injective nor surjective
+
+D. bijective
+
+  
+
+19. Let $‖·‖ _{*}$ n and $‖·‖ _{*}$ m be norms on $R^n$ and $R^m$ respectively. Let L be the space of linear transformations from $R^n$  to $R^m$ and let $‖·‖ _{*} = \sup$ {$‖L(x)‖m|x∈R^n$} and $‖L‖ _{∗∗}  sup${$‖L(x)‖m|x\in R^n$ and $‖x‖n\leq  1$ }Then,
+
+  
+
+       A.   ‖·‖∗defines a norm on L
+
+
+       B.   $‖·‖ _{**}$defines a norm on L
+
+
+       C.   $‖·‖ _{*}$ and  $‖·‖ _{**}$are norms on L
+
+
+       D.   Neither  $‖·‖ _{*}$ nor  $‖·‖ _{**}$is a norm on L
+
+  
+
+20. Suppose that the markup over cost is 20% for a representative firm in an economy with labour being the single factor; and the wage-setting equation is: $W=P(1−u)$ (where, u= the unemploynent rate, $P$ = Price and $W$= wage rate). Then the natural rate of unemployment is:
+
+  
+
+ A.  20%
+
+ B.  17%
+
+ C.  13%
+ 
+ D.  10%
+
+  
+
+21. What is the money demand function when the utility of money for the representative household is given by, $U(Y,\frac{M}{P}) = 0.5 lnY+ 0.5 ln(\frac{M}{P})$  ( $i$ represents the opportunity cost of holding money)?
+
+  
+
+ A.   $\frac{M^D}{P}=\frac{Y}{i}$ 
+
+ B.   $\frac{M^D}{P}=\frac{2Y}{i}$
+
+ C.  $\frac{M^D}{P}=\frac{Y}{2i}$
+
+ D.   None of the above
+
+  
+23. A random number $X$, uniformly distributed on $[0,1]$ ,divides $[0,1]$  into 2 segments of lengths $X$ and $(1−X)$ .Let R be the ratio of the smaller to the larger segment (i.e., $R=\frac{X}{(1−X)}$ ,or $R= \frac{(1−X)}{X}$ ,depending on whether, $X \leq \frac{1}{2}$  1or $X > \frac{1} {2}$  The distribution of R,F(r),that is the probability that $R\leq r$ equals
+
+  
+
+ A.   $\frac{r}{r+1}$
+
+ B.   $\frac{2r}{r+1}$
+
+ C.   $\frac{1}{r+1}$
+
+ D.   $\frac{1-r}{r+1}$  
+
+24. If the marginal propensity to save is 0.3 and the marginal propensity to import is 0.1 and the government increases expenditures by Rs. 10 billion, ignoring foreign-income repercussions, by how much will GDP rise?
+
+  
+
+ A.   Rs.20 billion
+
+  
+
+ B.   Rs.10 billion
+
+  
+
+ C.   Rs.25 billion
+
+  
+
+ D.   Rs.15 billion
+
+  
+
+25. The formula for the effective tariff rate is given by the following formula:  $$e=\frac{(n-ab)}{1-a}$$where e= the effective rate of protection, n= the nominal tariff rate on the final product, a= the ratio of the value of the imported input to the yalue of the final product, and b= the nominal tariff rate on the imported input. Suppose that the tariff rate on the final product is 5 percent, If no imported inputs are used in the domestic production of the final product, the effective tariff rate is
+
+  
+
+A. 3%
+
+B. 5%
+
+C. 8%
+
+D. 12%  
+
+26. Suppose that in the Solow Model of an economy with some positive savings rate, popu lation growth rate, and rate of depreciation,$k^{∗}$ is the steady state capital-labour ratio.  Suppose $k_1$ and $k_2$ are capital-labour ratios such that $k_1 < k_2 < k^{∗}$ ,and let $g_1 ,g_2$  be the growth rates of per capita output at $k_1$   and $k_2$  respectively. Then
+
+
+ A.  $g_1 > g_2$
+
+ B.  $g_1 =g_2$
+
+ C.  $g_1 > g_2$
+
+ D.  None of the above
+
+  
+27. The maximum value attained by the function $f(x) =x^3 −x^2 −x−1$ on the set $S=${$x|x^2 −x− 2 ≤ 0$} occurs at x=
+
+  
+
+ A. 1
+
+ B.$\frac{1}{3}$
+
+ C. 2
+
+ D. $\frac{5}{2}$
+
+  
+
+28. A random variable X has a standard normal distribution. What is the closest guess to the probability that X lies in the interval $[2,3]$
+
+  
+
+ A.  0. 001
+
+ B.  0. 025
+
+ C.  0. 25
+
+ D.  0. 05
+
+  
+
+29. l$\lim_{n\tends \infty} (\frac{x^2-x+1}{x+1} -c_1x-c_2)=-5$  . So, it must be that ($c_1 ,c_2$ ) equals
+
+  
+
+A. (2,−3)
+
+B. (2,3)
+
+C. (1,2)
+
+D. (1,3)
+
+30. The efficiency wage theory argues that firms choose to pay a wage than the classical equilibrium wage, thus the real wage is than the wage at which the labor market clears.
+
+ A.  lower, lower
+ 
+ B.  lower, higher
+ 
+ C.  higher, lower
+ 
+ D.  higher, higher
+
+  
+
+31. According to the theory of comparative advantage, countries gain from trade because
+
+ A.  All firms can take advantage of cheap labour
+
+ B.  Trade makes firms behave more competitively, reducing their market power
+
+ C.  Output per worker in each firm increases
+
+ D.  World output can rise when each country specializes in what it does relatively  best
+
+32. In the 2 factor, 2 good Heckscher-Ohlin model, the two countries differ in
+
+  
+
+A.  tastes
+
+B.  relative availabilities of factors of production
+
+C.  labour productivities
+
+D.  technologies
+
+  
+
+33. The line $y= 2x+ 5$  is tangent to a circle with equation $x^2 +y^2 + 16x+ 12y+c= 0$ , at point P. So, P equals
+
+ A.   (− 9 ,−7)
+
+ B.   (− 10 ,−12)
+ 
+ C.   (− 6 ,−7)
+ 
+ D.   (− 11 ,−15)
+
+34. The random variable X denotes the number of successes in a sequence of independent trials, each with probabilitypof success. Let $\bar X$  denote the mean number of successes. We know that $\bar X$
+
+
+ A.   has a binomial distribution with mean p
+
+ B.   has a normal distribution with mean p
+
+ C.   approximates a normal distribution with mean p
+
+ D.   none of the above
+
+  
+
+35. A family has two children and it is known that at least one is a girl. What is the probability that both are girls given that at least one is a girl?
+
+  
+
+ A.  $\frac{1}{2}$
+
+ B.  $\frac{1}{3}$
+
+ C.  $\frac{3}{4}$
+
+ D.  $\frac{2}{3}$
+
+  
+
+36. It is known that there is a rational number between any two distinct irrational numbers.Consider a continuous function $f : R→R$ such that $f(x) = \sin x$ for every rational  numberx. If x is an irrational number then,
+
+ 
+ A. $f(x) = \sin(x^2 ) + \cos(x^2)$
+
+ B.  $f(x) =\frac{\sin  x}{2} +\frac{\cos x}{2}$
+
+ C.  $f(x) = \cos x$
+
+ D.  $f(x) = \sin x$
+
+37. In a simple open economy framework, an increase in government spending leads to
+
+ A.  a rise in budget deficit and a fall in current account deficit
+
+ B.  a fall in budget deficit and a rise in current account deficit
+ 
+ C.  a fall in both budget deficit and current account deficit  
+
+ D.  a rise in both budget deficit and current account deficit  
+  
+
+39. Nitin is a stamp collector and consumes only stamps and cheese sandwiches. His utility function is $u(s,c) =s+ \log c$ .If Nitin is at a point where he is consuming both goods,  then the total amount that he is spending on cheese sandwiches depends
+
+
+ A.  only on price of sandwiches
+ 
+ B.  only on price of stamps
+
+ C.  only on his income
+
+ D.  on all three of the above
+
+ 
+40. Consider the following set of 2 equations: $(2x)^{\ln  2}= (3y)^{\ln 3}$ and  $3^{\ln x}= 2^{\ln y}$  Suppose a  pair $(x,y)$  of numbers is a solution to this set of equations. Then x equals
+
+  
+ A.  $\frac{1}{4}$
+
+ B.  $\frac{1}{2}$
+
+ C.  $\frac{1}{3}$
+
+ D.  $\frac{1}{6}$
+
+  
+
+41. Your budget is such that if you spend your entire income, you can afford either 4 units of good x and 6 units of goodyor 12 units of goodxand 2 units ofy. What is the ratio of price of x to price of y?
+
+  
+
+ A.   12
+
+ B.   2
+ 
+ C.  13
+
+ D.  23
+
+  
+
+43. Consider a small open economy. If there is a positive productivity shock in the country, how will the domestic capital market be affected?
+
+  
+
+ A.  There will be net capital inflow
+
+ B.  There will be net capital outflow
+
+ C.  Net capital inflow is zero
+
+ D.  The investment demand will fall
+
+
+44. You have a single draw from a Bernoulli distribution. The maximum likelihood estimate of the probability of success p is
+
+ 
+ A.  0
+
+ B.  1
+
+ C.  either 0 or 1
+
+ D.  strictly between 0 and 1
+ 
+45. The functionf(x) is twice differentiable, and $f(2) = 4,f(3) = 9,f(4) = 16$. Then, it must be that
+
+ A.  $f′′(x) = 3$ for some $x\in (2,3)$
+
+ B.   $f′′(x) = 2$ for some $x\in (2,4)$
+
+ C.  $f′′(x) = 4$ for some $x\in (2,3)$
+
+ D. $f′′(x) = 3$ for some $x\in (2,4)$ 
+
+46. Under a floating exchange rate regime, following an expansion in the money supply, monetary authorities will:
+
+
+ A.  buy domestic currency in the foreign exchange market
+
+ B.  sell domestic currency in the foreign exchange market
+
+ C.  do nothing in the foreign exchange market
+
+ D.  buy foreign currency in the foreign exchange market
+
+  
+
+47. In a roll of two fair dice, X is the number on the first die andY is the number on the second die. Which of the following is true?
+
+ 
+ A.  X−Y and X+Y are dependent random variables
+ 
+ B.  $X^2$  and Y are independent random variable
+
+ C.  $X^2$ and $Y^2$ are independent random variable
+
+ D.  All of the above
+
+  
+
+48. A random variable has a uniform distribution on the interval $[− 1 ,1]$ . The probability density function of X conditional on $X > 0 .3$  is given by:
+
+ 
+ A.  $\frac{7}{10}$
+ 
+ B.  $\frac{10}{7}$
+
+ C.  1
+
+ D.  $\frac{3}{10}$ 
+
+  
+
+49. The interval $(0,\infty)$ can be expressed as
+
+ 
+ A.    $\cup_{n=1}^{\infty} [a_n,b_n]$ where each $a_n$ and $b_n$ is a rational number
+
+ B.    $\cup_{n=1}^{\infty} (a_n,b_n)$ where  $a_n$ and $b_n$ is a real number
+
+ C.    $\cup_{n=1}^{\infty} [a_n,b_n]$ where each $a_n$ and $b_n$ is a real number
+
+ D.    All of the above
+
+  
+
+50. What is the probability that at least one 6 appears when 6 fair dice are rolled?
+
+  
+
+ A.    $(\frac{5}{6})^6$
+ 
+ B.    $\frac{1}{6}$
+
+ C.    $1-(\frac{5}{6})^6$
+ 
+ D.    $\frac{5}{6}$

@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2011</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2011</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<pre><code>DSE 2011</code></pre>
+<ol style="list-style-type: decimal">
+<li>For the real-valued function <span class="math inline">\(f(x) =x^4 −
+4 x^3 + 6x^2 − 4 x+ 1\)</span> , (defined for all real numbers x), the
+point x= 1 is</li>
+</ol>
+<p>A. a local minimum</p>
+<p>B. a local maximum</p>
+<p>C. a point of inflection</p>
+<p>D. none of the above</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Consider the function f mapping points of the plane into the plane,
+defined by <span class="math inline">\(f(x,y) =(x−y,x+y)\)</span> . The
+range of this function is</li>
+</ol>
+<p>A. the 45 degree line</p>
+<p>B. a ray through the origin but not the 45 degree line</p>
+<p>C. the entire plane</p>
+<p>D. the first and third quadrants</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Suppose {<span class="math inline">\(v_1 ,v_2 ,\dots ,v_n\)</span> }
+is a set of linearly dependent vectors , none of them being the zero
+vector. Suppose <span class="math inline">\(c_1 ,c_2 ,\dots
+,c_n\)</span> are scalars, not all zero, such that <span
+class="math inline">\(\sum_{i=1}^n c_iv_i= 0\)</span> . Then the minimum
+number of non-zero scalars is</li>
+</ol>
+<p>A. 1</p>
+<p>B. 2</p>
+<p>C. <span class="math inline">\(n− 1\)</span></p>
+<p>D. can not be determined</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Suppose the non-zero n column vector x solves the system of
+equations <span class="math inline">\(Ax= b\)</span>, where A is an
+<span class="math inline">\(m \times n\)</span> matrix whose columns are
+the vectors <span class="math inline">\(a_1 ,a_2 ,\dots,a_n\)</span> and
+b is an <span class="math inline">\(m \times 1\)</span> column vector.
+Then the set of vectors {<span class="math inline">\(a_1 ,a_2 ,\dots
+,a_n,b\)</span> } is</li>
+</ol>
+<p>A. linearly independent</p>
+<p>B. linearly dependent</p>
+<p>C. linearly dependent only if <span class="math inline">\(a_1 ,a_2
+,\dots ,a_n\)</span> are linearly dependent</p>
+<p>D. linearly dependent only if <span
+class="math inline">\(m=n\)</span></p>
+<ol start="5" style="list-style-type: decimal">
+<li>For a system of linear equations <span
+class="math inline">\(Ax=b\)</span> with m equations and n variables,
+where <span class="math inline">\(m &gt; n\)</span> and b is a given
+vector, the following is true.</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>It can never have a unique solution</p></li>
+<li><p>It always has at least one solution</p></li>
+<li><p>It has at least a one-dimensional solution space</p></li>
+<li><p>If Rank(A) =n and a solution exists, it must be unique</p></li>
+</ol>
+<ol start="6" style="list-style-type: decimal">
+<li>Suppose we are interested in estimating the mean height of
+M.A. students in Delhi University. An avergae height estimated from a
+random sample of size 30 is better than estimated from a random sample
+of size 20 because:</li>
+</ol>
+<p>A. The sample of size 20 is likely to be more biased because it is
+less representative</p>
+<p>B. The sample of size 30 is likely to yield more precise estimates of
+average height than the sample of size 20</p>
+<p>C. The Central Limit Theorem prescribes a minimum sample size of
+30</p>
+<p>D. Both (a) and (b)</p>
+<ol start="7" style="list-style-type: decimal">
+<li>A doctor testing a diagnostic tool for a rare disease wants to
+minimize the chance that the test will find a patient to be healthy when
+she is in fact sick (the null hypothesis being that the patient is
+healthy). The doctor should minimize the probability of:</li>
+</ol>
+<p>A. Type I error, which would denote a false positive</p>
+<p>B. Type II error, which would denote a false positive</p>
+<p>C. Type I error, which would denote a false negative</p>
+<p>D. Type II error, which would denote a false negative</p>
+<ol start="8" style="list-style-type: decimal">
+<li>Suppose you have the following estimated regression equation: ln
+<span class="math inline">\(Y = 1.2 + 0.5X\)</span> . Which of the
+following is a good interpretation of the estimated relationship between
+X and Y</li>
+</ol>
+<p>A. A unit change in X is associated with a 50 percent change in Y</p>
+<p>B. A unit change in X is associated with a 0.5 percent change in
+Y</p>
+<p>C. A one percent change in X is associated with a 50 unit change in
+Y</p>
+<p>D. A one percent change in X is associated with a 0.5 unit change in
+Y</p>
+<ol start="9" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(A_1 ,A_2 ,A_3\)</span> be
+independent events with probabilities <span class="math inline">\(p_1 ,
+p_2 , p_3\)</span> respectively. The probability that none of these
+events occurs equals</li>
+</ol>
+<p>A. <span class="math inline">\(1−( p_1+p_2+p_3)\)</span> </p>
+<p>B. <span class="math inline">\(1−( p_1  + p_2+
+p_3)+p_1p_2+p_1p_3+p_2+p_3\)</span></p>
+<p>C. <span class="math inline">\((1-p_1)(1-p_2)(1-p)3)\)</span></p>
+<p>D. <span class="math inline">\((1-p_2)(1+p_1p_3)\)</span></p>
+<ol start="10" style="list-style-type: decimal">
+<li>The market for good X has the demand function <span
+class="math inline">\(D(p) = 100− 15 p\)</span> where p is the price of
+good X. There are ten price taking firms , each having a cost function
+<span class="math inline">\(c(q) =q^2\)</span> , where q is the firm’s
+own output. There is no new entry.</li>
+</ol>
+<p>A. Rs. 20</p>
+<p>B. Rs. 15</p>
+<p>C. Rs. 10</p>
+<p>D. Rs. 5</p>
+<ol start="11" style="list-style-type: decimal">
+<li>The market for good X has the demand function <span
+class="math inline">\(D(p) = 100−p\)</span> and the supply function
+<span class="math inline">\(S(p) = 20 + 3p\)</span> where p is the price
+of good X. If the government imposes a sales tax of Rs. 10 perunit of
+the good on sellers, the equilibrium market price will increase by</li>
+</ol>
+<p>A. Rs. 10</p>
+<p>B. Rs. 7.5</p>
+<p>C. Rs. 5</p>
+<p>D. Rs. 0</p>
+<ol start="12" style="list-style-type: decimal">
+<li>A monopolist, who can produce output at a cost of Rs. 20perunit
+faces an inverse demand curve given by <span class="math inline">\(p=
+60− 2 q\)</span> . The profit maximizing price for the monopolist
+is</li>
+</ol>
+<p>A. Rs. 40</p>
+<p>B. Rs. 20</p>
+<p>C. Rs. 30</p>
+<p>D. Rs. 60</p>
+<ol start="13" style="list-style-type: decimal">
+<li>Consider a duopoly market in which both firms choose quantities.
+Suppose we have the reaction curve of each firm, i.e , the curve that
+yields the firm’s optimal quantity choice in response to a quantity
+choice in response to a quantity chosen by the other firm. If one firm
+is the Stackelberg leader and the other is the Stackelberg follower,
+then which of the following conditions characterizes the quantity chosen
+by the leader</li>
+</ol>
+<p>A. The quantity at which the leader’s isoprofit curve is tangential
+to the follower’s reaction curve</p>
+<p>B. The quantity at which the follower’s isoprofit curve is tangential
+to the leader’s reaction curve</p>
+<p>C. The quantity where the leader’s isoprofit curve attains a
+maximum</p>
+<p>D. The quantity where the two reaction curves intersect</p>
+<ol start="14" style="list-style-type: decimal">
+<li>A society has 3 individuals and 3 alternatives A,B andC. Individuals
+1 and 2 strictly prefer A to B and B to C. Individual 3 strictly prefers
+C to B and B to A. A Rawlsian social planner would therefore choose</li>
+</ol>
+<p>A. A</p>
+<p>B. B</p>
+<p>C. C</p>
+<p>D. A or C</p>
+<ol start="15" style="list-style-type: decimal">
+<li>A natural monopoly is said to occur when</li>
+</ol>
+<p>A. the long run average cost curve is U-shaped</p>
+<p>B. the long run average cost curve is decreasing</p>
+<p>C. the long run average cost curve is flat</p>
+<p>D. the long run average cost curve is increasing</p>
+<ol start="16" style="list-style-type: decimal">
+<li>If everybody in the economy decides to consume a higher proportion
+of their income, the corresponding IS curve</li>
+</ol>
+<p>A. will be flatter</p>
+<p>B. will be steeper</p>
+<p>C. will remain unchanged</p>
+<p>D. will become horizontal</p>
+<ol start="17" style="list-style-type: decimal">
+<li>An increase in the expected rate of inflation will</li>
+</ol>
+<p>A. shift the LM curve up</p>
+<p>B. shift the LM curve down</p>
+<p>C. leave the LM curve unchanged</p>
+<p>D. have an ambiguous effect on the LM curve</p>
+<ol start="18" style="list-style-type: decimal">
+<li>A devaluation of domestic currency will improve the country’s trade
+balance only if the following is true for price elasticities of
+demand:</li>
+</ol>
+<p>A. the sum of price elasticities of exports and imports equals 1</p>
+<p>B. the sum of price elasticities of exports and imports is less than
+1</p>
+<p>C. the sum of price elasticities of exports and imports is greater
+than 1</p>
+<p>D. the price elasticity of exports exactly matches the price
+elasticity of imports</p>
+<ol start="19" style="list-style-type: decimal">
+<li>Under nominal wage rigidity, the short run aggregate supply schedule
+will be</li>
+</ol>
+<p>A. vertical</p>
+<p>B. horizontal</p>
+<p>C. upward sloping</p>
+<p>D. downward sloping</p>
+<ol start="20" style="list-style-type: decimal">
+<li>Okun’s Law refers to</li>
+</ol>
+<p>A. a negative relationship between inflation and unemployment</p>
+<p>B. a negative relationship between unemployment and real GDP</p>
+<p>C. a negative relationship between interest rate and money demand</p>
+<p>D. a negative relationship between inflation and growth</p>
+<p>The following notational conventions apply wherever the following
+symbols are used. R denotes the set of real numbers. <span
+class="math inline">\(R_{++}\)</span> denotes the set of positive real
+numbers. Qdenotes the set of rational numbers.</p>
+<ol start="21" style="list-style-type: decimal">
+<li>Suppose the function <span class="math inline">\(f:R_{++} \to 
+R\)</span> is given by <span class="math inline">\(f(x) =\int_{1}^x
+t^{-1} dt\)</span> .Consider the following statements: for <span
+class="math inline">\(x,y \in R_{++},  f(x+y) =f(x) +f(y) f(xy) =f(x)
++f(y)\)</span> In general,</li>
+</ol>
+<p>A. (i) is true and (ii) is false</p>
+<p>B. (i) is false and (ii) is true</p>
+<p>C. Both are true</p>
+<p>D. Both are false</p>
+<ol start="22" style="list-style-type: decimal">
+<li>Suppose a real valued function f is defined for all real numbers
+excepting 0, and satisfies the following conditions: <span
+class="math inline">\(f(xy) =f(x) +f(y\)</span> ) for all <span
+class="math inline">\(x,y\)</span> in the domain. Consider the
+statements:</li>
+</ol>
+<p><span class="math inline">\(f(1) =f(−1) = 0\)</span></p>
+<p><span class="math inline">\(f(x) =f(−x)\)</span> for every x</p>
+<p>A. (i) is true and (ii) is false</p>
+<p>B. (i) is false and (ii) is true</p>
+<p>C. Both are true</p>
+<p>D. Both are false</p>
+<ol start="23" style="list-style-type: decimal">
+<li>The closest point on the parabola <span
+class="math inline">\(y=\frac{1}{4} x^2\)</span> from a given point
+(0,b) on the vertical axis, with <span class="math inline">\(b
+&gt;0\)</span> , is the origin if and only if</li>
+</ol>
+<p>A. b &lt; 3</p>
+<p>B. b &gt; 3</p>
+<p>C. b &lt; 2</p>
+<p>D. b &gt; 2</p>
+<ol start="24" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(f\)</span> be a real valued
+differentiable function defined for all <span
+class="math inline">\(x\geq a\)</span> . Consider the function F defined
+by <span class="math inline">\(F(x) =\int_{a}^x f(t)dt\)</span> .If
+<span class="math inline">\(f\)</span> is increasing on any interval,
+then on that interval Fis</li>
+</ol>
+<p>A. convex</p>
+<p>B. concave</p>
+<p>C. increasing</p>
+<p>D. decreasing</p>
+<ol start="25" style="list-style-type: decimal">
+<li>Consider the function <span class="math inline">\(f:R \to 
+R\)</span> defined by</li>
+</ol>
+<pre><code>insert function</code></pre>
+<p>where Q is the set of rational numbers. Then, f is</p>
+<p>A. discontinuous at every <span class="math inline">\(x \neq
+0\)</span></p>
+<p>B. is continuous at all points in Q</p>
+<p>C. continuous at multiple points</p>
+<p>D. is discontinuous on a countable set of points</p>
+<ol start="26" style="list-style-type: decimal">
+<li>Suppose A and B are square matrices that satisfy <span
+class="math display">\[AB+BA= 0\]</span> where 0 is a square matrix of
+zeros. Then it must be that</li>
+</ol>
+<p>A. <span class="math inline">\(A^2 B^3 =B^3 A^2\)</span></p>
+<p>B. <span class="math inline">\(A^2 B^3 =B^2 A^3\)</span></p>
+<p>C. <span class="math inline">\(A^2 B^3 =BA^4\)</span></p>
+<p>D. None of the above is necessarily true</p>
+<p>Consider a Society consisting of individuals. These individuals may
+belong to various sets called Clubs and Tribes. The collections of Clubs
+and Tribes satisfy the following rules:</p>
+<ul>
+<li>The entire Society is a Tribe</li>
+<li>The empty subset of Society is also a Tribe</li>
+<li>Given any collection of Tribes, the set of individuals who belong to
+each Tribe in that collection is also a Tribe</li>
+<li>Given any two Tribes, the set of individuals who belong to at least
+one of these Tribes is also a Tribe</li>
+<li>A set of individuals is called a Club if and only if the set of
+individuals not in it constitute a Tribe</li>
+</ul>
+<ol start="27" style="list-style-type: decimal">
+<li>The intersection of two Clubs is necessarily</li>
+</ol>
+<p>A. a Club</p>
+<p>B. a Tribe</p>
+<p>C. not a Club</p>
+<p>D. not a Tribe</p>
+<ol start="28" style="list-style-type: decimal">
+<li>The union of a collection of Clubs is necessarily</li>
+</ol>
+<p>A. not a Club</p>
+<p>B. not a Tribe</p>
+<p>C. a Club</p>
+<p>D. a Tribe</p>
+<ol start="29" style="list-style-type: decimal">
+<li>Which of the following statements is necessarily true</li>
+</ol>
+<p>A. A set of individuals cannot be a Tribe and a Club</p>
+<p>B. There are at least two sets of individuals that are both a Club
+and a Tribe</p>
+<p>C. The union of a Club and a Tribe is a Tribe</p>
+<p>D. The intersection of a Club and a Tribe is a Club</p>
+<ol start="30" style="list-style-type: decimal">
+<li>Suppose we are given a Club and a Tribe. Then, the set of
+individuals who belong to the given Tribe but not to the given Club
+necessarily constitute</li>
+</ol>
+<p>A. a Club</p>
+<p>B. a Tribe</p>
+<p>C. neither a Club, not a Tribe</p>
+<p>D. a Club and a Tribe</p>
+<p>The next two questions are based on the following information.
+Suppose X and Y are two random variables. Xcan take values -1 and 1. Y
+can take integer values between 1 and 6. The following is the joint
+probability distribution of X and Y.</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>Y = 1</th>
+<th>Y = 2</th>
+<th>Y= 3</th>
+<th>Y = 4</th>
+<th>Y = 5</th>
+<th>Y = 6</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>X=− 1</td>
+<td>0.1</td>
+<td>a</td>
+<td>0.3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td>X= 1</td>
+<td>0</td>
+<td>0</td>
+<td>b</td>
+<td>0.1</td>
+<td>0.1</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table>
+<p>It is known that the expectations of the two random variables are
+<span class="math inline">\(E(X) =− 0 .2\)</span> and <span
+class="math inline">\(E(Y) =3.2\)</span>. Then</p>
+<ol start="31" style="list-style-type: decimal">
+<li>The value ‘a’ in the table equals</li>
+</ol>
+<p>A. 0</p>
+<p>B. 0.1</p>
+<p>C. 0.2</p>
+<p>D. 0.3</p>
+<ol start="32" style="list-style-type: decimal">
+<li>The value ‘b’ in the table equals</li>
+</ol>
+<p>A. 0</p>
+<p>B. 0.1</p>
+<p>C. 0.2</p>
+<p>D. 0.3</p>
+<p>The next two questions are based on the following data. Suppose X and
+Y are independent random variables that follow the uniform distribution
+on the <span class="math inline">\([0,1]\)</span> . Let <span
+class="math inline">\(Z=min(X,Y)\)</span> .</p>
+<ol start="33" style="list-style-type: decimal">
+<li><span class="math inline">\(Pr(Z &lt;−.5)\)</span> (the probability
+that Z is less than 0.5) equals</li>
+</ol>
+<p>A. 0.25</p>
+<p>B. 0.5</p>
+<p>C. 0.625</p>
+<p>D. 0.75</p>
+<ol start="34" style="list-style-type: decimal">
+<li><span class="math inline">\(Pr(Z &lt; 0. 5 |X= 0.75)\)</span>
+is</li>
+</ol>
+<p>A. 0.25</p>
+<p>B. 0.5</p>
+<p>C. 0.625</p>
+<p>D. undefined</p>
+<ol start="35" style="list-style-type: decimal">
+<li>Two players, A and B, will play a best of seven table tennis match (
+i.e. , the first to win 4 games will win the match, and the match will
+have at most 7 games).The two players are equally likely to win any of
+the games in the match. The probability that match will end in 6 games
+is</li>
+</ol>
+<p>A. less than the probability that it will end in 7 games</p>
+<p>B. equal to the probability that it will end in 6 games</p>
+<p>C. greater than the probability that it will end in 7 games</p>
+<p>D. None of (a), (b) or (c) is true</p>
+<ol start="36" style="list-style-type: decimal">
+<li>In order to join the ‘Gamers Club’, Mr. A must choose a box from the
+two identical boxes in a room, and draw one ball from the chosen box.
+All he knows is that both boxes are nonempty, and have a mix of red and
+green balls. If the ball that he draws from his chosen box is green, he
+is admitted to the club. You are given 2 identical boxes, 50 red balls
+and 50 green balls, and asked to allocate these balls to the two boxes
+in order to maximize Mr. A’s probability of being admitted to the club,
+given that he will choose a box randomly. If you allocate these balls
+correctly, the probability that Mr. A gets admitted to the club
+equals</li>
+</ol>
+<p>A. 1</p>
+<p>B. 0.747</p>
+<p>C. 0.547</p>
+<p>D. 0.257</p>
+<ol start="37" style="list-style-type: decimal">
+<li>Consider the following equation to be estimated using ordinary least
+squares: <span class="math inline">\(Y=a_0 +a_1 x_1 +a_2 X_2 +a_3 (X_2
+−X_1 ) +a_4 X_1 X_2 +u\)</span> Which of the following statements is
+true</li>
+</ol>
+<p>A. The parameters <span class="math inline">\(a_0 ,a_1 ,a_2
+,a_4\)</span> can be estimated, but not <span
+class="math inline">\(a_3\)</span></p>
+<p>B. The parameters <span class="math inline">\(a_0\)</span> and <span
+class="math inline">\(a_4\)</span> can be estimated, but not <span
+class="math inline">\(a_1 ,a_2 ,a_3\)</span></p>
+<p>C. The parameters <span class="math inline">\(a 0 ,a_1 ,a_2
+,a_3\)</span> can be estimated, but not <span
+class="math inline">\(a_4\)</span></p>
+<p>D. All parameters can be estimated</p>
+<ol start="38" style="list-style-type: decimal">
+<li>A researcher wants to test whether there are gender differences in
+the rates of immunization for boys and girls, after controlling for
+parental income, mother’s education and access to health care
+facilities. The easiest way to test this would be to:</li>
+</ol>
+<p>A. Include one dummy variable in the multiple regression</p>
+<p>B. Include two dummy variables in the multiple regression</p>
+<p>C. Include interaction dummies in the multiple regression</p>
+<p>D. Run two separate regressions-one for boys and one for girls</p>
+<ol start="39" style="list-style-type: decimal">
+<li>Instead of estimating a production function <span
+class="math inline">\(y=a_0 +a_1 K+a_2 L+u\)</span> , where y is output,
+K is capital input and L is labour input, a researcher estimates <span
+class="math inline">\(y=a_0 +a_1 K+u\)</span> . It is known that in the
+true model,a 2 &gt;0 and K and L are complements. Which of the following
+is true</li>
+</ol>
+<p>A. The estimateda 1 will be upwardly biased</p>
+<p>B. The estimateda 1 will have a downward bias</p>
+<p>C. The estimateda 1 will be biased, but the direction of bias cannot
+be determined</p>
+<p>D. The estimateda 1 will be unbiased, buta 0 will be biased</p>
+<ol start="40" style="list-style-type: decimal">
+<li>A student has the opportunity to take a test at most thrice. The
+student knows that each time he takes the test, his score is an
+independent random draw from the uniform distribution on the interval
+<span class="math inline">\([0,100]\)</span> . After learning his score
+on a test, the student can either stop and accept it as his official
+score, or he can discard the result and retake the test. If the student
+rejects his score twice and takes the test a third time, that score will
+be his official score. If his objective is to maximize his expected
+official score, the student will decide to be retested after the very
+first test if and only if his score is less than</li>
+</ol>
+<p>A. 50</p>
+<p>B. 62.5</p>
+<p>C. 75</p>
+<p>D. 87.5</p>
+<ol start="41" style="list-style-type: decimal">
+<li>A consumer has utility function <span class="math inline">\(u(x_1
+,x_2 ) =min( 2 x_1 +x_2 ,x_1 + 2x_2\)</span> }. Her income is <span
+class="math inline">\(y= 100\)</span> , the prices are <span
+class="math inline">\(p_1  = 20 \ and \  p_2= 30\)</span> . The amount
+of <span class="math inline">\(x_1\)</span> in the utility maximizing
+bundle is</li>
+</ol>
+<p>A. 7</p>
+<p>B. 5</p>
+<p>C. 2</p>
+<p>D. 0</p>
+<ol start="42" style="list-style-type: decimal">
+<li>Consider the same utility function and income as above, but suppose
+the prices are<span class="math inline">\(p_1 = 10 \ and \ p_2=
+30\)</span> . Then the amount of <span
+class="math inline">\(x_1\)</span> in the utility maximizing bundle
+is</li>
+</ol>
+<p>A. 10</p>
+<p>B. 5</p>
+<p>C. 2.5</p>
+<p>D. 0</p>
+<ol start="43" style="list-style-type: decimal">
+<li>A consumer spends Rs. 100 on only two goods, A and B. Assume non
+satiation, i.e. , more of any good is preferred to less. Suppose the
+price of B is fixed at Rs. 20. When the price of A is Rs. 10 , the
+consumer buys 3 units of B. When the price of A is Rs. 20, she buys 5
+units of A. From this we can conclude that for the relevant price
+range</li>
+</ol>
+<p>A. A is an inferior good</p>
+<p>B. B is a complement of A</p>
+<p>C. A is a Giffen good</p>
+<p>D. All of the above</p>
+<ol start="44" style="list-style-type: decimal">
+<li>Consider a firm using two inputs to produce its output. It is known
+that greater use of both inputs increases output. Moreover, for any
+combination of positive input prices, the firm employs and input
+combination of the form <span class="math inline">\((x, \alpha
+x)\)</span> where <span class="math inline">\(\alpha  &gt;0\)</span> is
+a constant. Which of the following functions represents this firm’s
+technology</li>
+</ol>
+<p>A. <span class="math inline">\(f(x,y) =min(x^{ \alpha}
+,y)\)</span></p>
+<p>B. <span class="math inline">\(f(x,y) =min( \alpha x,y)\)</span></p>
+<p>C. <span class="math inline">\(f(x,y) =min(x, \alpha y)\)</span></p>
+<p>D. <span class="math inline">\(f(x,y) =min(x,y ^{\alpha
+})\)</span></p>
+<ol start="45" style="list-style-type: decimal">
+<li>Consider an exchange economy with two agents, 1 and 2, and two
+goods, X and Y. There are 6 units of X and 4 units of Y available. An
+allocation is denoted by <span class="math inline">\((x_1 ,y_1 ), (x_2
+,y_2 )\)</span> , where <span class="math inline">\((x_1 ,y_1 )\)</span>
+is agent 1’s consumption bundle, <span class="math inline">\((x_2 ,y_2
+)\)</span> is agent 2’s consumption bundle, <span
+class="math inline">\(x_1 +x_2 = 6 \ and \ y_1 +y_2 = 4\)</span> . Agent
+1 has the utility function <span class="math inline">\(u 1 =min(x_1 ,y_1
+)\)</span> and agent 2 has the utility function <span
+class="math inline">\(u_2 (x_2 ,y_2 ) =min(x_2 ,y_2 )\)</span> . Which
+of the following allocations is not Pareto efficient</li>
+</ol>
+<p>A. (2,2), (4,2)</p>
+<p>B. (3,2), (3,2)</p>
+<p>C. (3,1), (3,3)</p>
+<p>D. (1,2), (5,2)</p>
+<ol start="46" style="list-style-type: decimal">
+<li>Consider an exchange economy with two goods and two agents have the
+same preferences as in the previous question. Agent 1’s endowment is
+<span class="math inline">\((0, \alpha )\)</span> and agent 2’s
+endowment is <span class="math inline">\((\beta,0)\)</span> . What is
+generally true</li>
+</ol>
+<p>A. Any allocation in which each agent gets equal amounts of the two
+goods is an equilibrium allocation</p>
+<p>B. If <span class="math inline">\(\beta &lt;  \alpha\)</span> , then
+the price of X is 0</p>
+<p>C. If <span class="math inline">\(\beta &gt;  \alpha\)</span> , then
+the price of X is 0</p>
+<p>D. Any allocation in which agent 2 gets none of good Y is an
+equilibrium allocation</p>
+<ol start="47" style="list-style-type: decimal">
+<li>Consider an exchange economy with two goods and two agents. Agent
+2’s utility is as above. The equilibrium allocation is <span
+class="math inline">\((x_1 ,y_1 ) = (6,1) \ and \ (x_2 ,y_2 ) =
+(4,4)\)</span> . The equilibrium prices are (1,1). What could be the
+endowment</li>
+</ol>
+<p>A. Agent 1’s endowment is (2,5) and agent 2’s endowment is (8,0)</p>
+<p>B. Agent 1’s endowment is (7,0) and agent 2’s endowment is (3,5)</p>
+<p>C. Both (a) and (b)</p>
+<p>D. Neither (a) nor (b)</p>
+<ol start="48" style="list-style-type: decimal">
+<li>A firm has an order to supply 20 units of output. It can divide its
+production across different plants, 1 and 2, with cost function <span
+class="math inline">\(c_1 (q 1 ) =q_1^2 \ and \ c_2 (q_2 ) =
+3q_2^2\)</span> respectively. The total order must be produced, i.e.,
+<span class="math inline">\(q_1 +q_2 = 20\)</span> . To meet the total
+production target at minimum cost, the amount of output the firm should
+produce in its first plant is</li>
+</ol>
+<p>A. 20 units</p>
+<p>B. 15 units</p>
+<p>C. 10 units</p>
+<p>D. 5 units</p>
+<ol start="49" style="list-style-type: decimal">
+<li>Consider an exchange economy with two agents and aggregate endowment
+(10,10). The agents’ utility functions are <span
+class="math inline">\(u_1 (x_1 ,y_1 ) =x_1 + 2y_1\)</span> and <span
+class="math inline">\(u_2 (x_2 ,y_2 ) = 2x_2 +y_2\)</span> . Examples of
+efficient allocations are</li>
+</ol>
+<p>A. <span class="math inline">\((x_1 ,y_1 ) = (5,10) \ and \ (x_2 ,y_2
+) = (5,0)\)</span></p>
+<p>B. <span class="math inline">\((x_1 ,y_1 ) = (0,10) \ and \ (x_2 ,y_2
+) = (10,0)\)</span></p>
+<p>C. <span class="math inline">\((x_1 ,y_1 ) = (0,5)\  and \  (x_2 ,y_2
+) = (10,5)\)</span></p>
+<p>D. All of the above</p>
+<ol start="50" style="list-style-type: decimal">
+<li>Consider the following two games in strategic form.</li>
+</ol>
+<pre><code>insert game</code></pre>
+<p>Compute the Nash equilibria of the two games. What general lesson can
+be drawn from these equilibria</p>
+<p>A. Eliminating a strategic option may be beneficial</p>
+<p>B. Having extra strategic option is not beneficial</p>
+<p>C. Having extra strategic option is beneficial</p>
+<p>D. Eliminating a strategic option is beneficial</p>
+<ol start="51" style="list-style-type: decimal">
+<li>Suppose the following equation holds for an economy, at every time
+<span class="math inline">\(t: \ P_t= (1 +a) \frac{W_tY_t}{Nt}\)</span>.
+That is the price of output is a fixed markup over unit labour cost. Let
+<span class="math inline">\(\pi\)</span> be the inflation rate,wbe the
+wage inflation rate, and be the rate of growth in labour productivity.
+(Labour productivity =$). Which of the following is true</li>
+</ol>
+<p>A. <span class="math inline">\(w= \pi − \lambda\)</span></p>
+<p>B. <span class="math inline">\(\pi =w+ \lambda\)</span></p>
+<p>C. <span class="math inline">\(\pi =w− \lambda\)</span> </p>
+<p>D. <span class="math inline">\(w= \lambda − \pi\)</span></p>
+<p>The next three questions have to do with the following fixed price
+model of an economy.</p>
+<p><span class="math inline">\(C=C_0 +c_1 (Y−T), 0 &lt; c 1 &lt;
+1\)</span></p>
+<p><span class="math inline">\(I=i_0 +i_1 r,i_1 &lt; 0\)</span></p>
+<p><span class="math inline">\(Y =C+I+G\)</span></p>
+<p><span class="math inline">\(M^d=m_0 +m_1 Y+m_2 r,m_2 &lt; 0 &lt;
+m_1\)</span></p>
+<p><span class="math inline">\(M^d=M\)</span> ,</p>
+<p>where <span class="math inline">\(C,I,G,Y,M^d,M\)</span> are
+respectively aggregate consumption, investment, government expenditure,
+output, money demand and money stock.</p>
+<ol start="52" style="list-style-type: decimal">
+<li>In this economy, an increase in G</li>
+</ol>
+<p>A. necessarily reduces I</p>
+<p>B. may increase I</p>
+<p>C. reducesI only if <span class="math inline">\(m_1\)</span> is
+large</p>
+<p>D. increases I only if <span class="math inline">\(m_1\)</span> is
+small</p>
+<ol start="53" style="list-style-type: decimal">
+<li>The more negative ism 2 , ceteris paribus,</li>
+</ol>
+<p>A. the greater the effect of an increase inGonr</p>
+<p>B. the smaller the effect of an increase inGonr</p>
+<p>C. The magnitude of the effect ofGonrdoes not depend on the magnitude
+of <span class="math inline">\(m_2\)</span></p>
+<p>D. r decreases as G increases, but the magnitude of this is
+indereminate</p>
+<ol start="54" style="list-style-type: decimal">
+<li>If <span class="math inline">\(c_1\)</span> is very close to 1, then
+an increase in M has</li>
+</ol>
+<p>A. a very large positive impact on r</p>
+<p>B. a very small positive effect on r</p>
+<p>C. a very small negative effect on r</p>
+<p>D. a very large negative impact on r</p>
+<p>The next six questions are based on the following information.
+Consider an economy in which aggregate output is produced by using 2
+factors, capitalKand labour L. Aggregate production technology is given
+by the production function: <span
+class="math inline">\(Y_t=A(K_t)^{\alpha} (L_t)^{1 − \alpha} , \ where \
+A &gt; 0\)</span> and <span class="math inline">\(0&lt;  \alpha 
+&lt;1\)</span>. At each instant t, both factors are fully employed. A
+constant proportions of total output is saved and invested in every
+period, which augments the capital stock in the next period. There is no
+depreciation of capital. Labour force grows at a constant rate n. Let
+<span class="math inline">\(A= 20, \alpha =\frac{1}{2} ,s=\frac{1}{4}
+,n= 101\)</span> . Then</p>
+<ol start="55" style="list-style-type: decimal">
+<li>The steady state level of output per worker is</li>
+</ol>
+<p>A. 50</p>
+<p>B. 1000</p>
+<p>C. 2500</p>
+<p>D. 5000</p>
+<ol start="56" style="list-style-type: decimal">
+<li>The rate of growth of aggregate output in the steady state is</li>
+</ol>
+<p>A. 0</p>
+<p>B. 4$</p>
+<p>C. <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>D. 101</p>
+<ol start="57" style="list-style-type: decimal">
+<li>The golden rule of capital per worker is</li>
+</ol>
+<p>A. 25</p>
+<p>B. 2500</p>
+<p>C. 5000</p>
+<p>D. 10000</p>
+<ol start="58" style="list-style-type: decimal">
+<li>The golden rule level of consumption per worker is</li>
+</ol>
+<p>A. 500</p>
+<p>B. 1000</p>
+<p>C. 250</p>
+<p>D. 25</p>
+<ol start="59" style="list-style-type: decimal">
+<li>An increase in the value of the parameter A from its current
+value</li>
+</ol>
+<p>A. will increase the steady state level of output per worker and
+increase the growth of aggregate output in the steady state</p>
+<p>B. will decrease the steady state level of output per worker and
+increase the growth of aggregate output in the steady state</p>
+<p>C. will increase the steady state level of output per worker and
+leave unchanged the growth of aggregate output in the steady state</p>
+<p>D. will decrease the steady state level of output per worker and
+leave unchanged the growth of aggregate output in the steady state</p>
+<ol start="60" style="list-style-type: decimal">
+<li>An increase in the value of the parameternfrom its current
+value</li>
+</ol>
+<p>A. will increase the steady state level of output per worker and
+increase the growth of aggregate output in the steady state</p>
+<p>B. will decrease the steady state level of output per worker and
+increase the growth of aggregate output in the steady state</p>
+<p>C. will increase the steady state level of output per worker and
+leave unchanged the growth of aggregate output in the steady state</p>
+<p>D. will decrease the steady state level of output per worker and
+leave unchanged the growth of aggregate output in the steady state</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

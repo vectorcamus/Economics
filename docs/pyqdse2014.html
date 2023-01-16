@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2014</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2014</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<div id="dse-2014" class="section level1">
+<h1>DSE 2014</h1>
+<ol style="list-style-type: decimal">
+<li>Suppose that we classify all households into one of two states, rich
+and poor. The  probability of a particular generation being in either of
+these states depends only on the state in which their parents were. If a
+parent is poor today, their child is likely to be poor with probability
+0.7. If a parent is rich today, their child is likely to be poor with
+probability 0.6. What is the probability that the great grandson of a
+poor man will be poor?</li>
+</ol>
+<p>      A. 0.72</p>
+<p>      B. 0.67</p>
+<p>      C. 0.62</p>
+<p>      D. 0.78</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Consider the experiment of tossing two fair coins. Let the event A
+be a head on the first coin, the event C be a head on the second coin,
+the event D be that both coins match and the event G be two heads. Which
+of the following is false?</li>
+</ol>
+<p>      A. C and D are statistically independent</p>
+<p>      B. A and G are statistically independent</p>
+<p>      C.A and D are statistically independent</p>
+<p>     D. A and C are statistically independent</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Let Y denote the number of heads obtained when 3 fair coins are
+tossed. Then the expectation of <span class="math inline">\(Z= 4 +
+5Y^2\)</span> is</li>
+</ol>
+<p>      A. 17</p>
+<p>      B. 18</p>
+<p>      C. 19</p>
+<p>      D. None of the above</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Let Y denote the number of heads obtained when 3 fair coins are
+tossed. Then the variance of <span class="math inline">\(Z= 4 +
+5Y^2\)</span> is</li>
+</ol>
+<p>      A. 185.5</p>
+<p>      B. 178.5</p>
+<p>      C. 187.5</p>
+<p>      D. None of the above</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Let events E,F and G be pairwise independent with Pr(G)&gt;0 and
+<span class="math inline">\(Pr(E \cap F∩G)\)</span> = 0. Let <span
+class="math inline">\(X^c\)</span> denote the complement of event X.
+Then <span class="math inline">\(Pr(E^c\cap F^c|G)\)</span> =</li>
+</ol>
+<p>      A. Pr(Ec) + Pr(Fc)</p>
+<p>      B. Pr(Ec)−Pr(Fc)</p>
+<p>      C. Pr(Ec)−Pr(F)             D. None of the above</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(a_n=(1+\frac{1}{n})^{n+1} ,
+n=1,2,\dots\)</span> Then the sequence <span
+class="math inline">\((a_n)_{n=1}^{\infty}\)</span></li>
+</ol>
+<p>A. is an increasing sequence</p>
+<p>B. first increases, then decreases</p>
+<p>C. is a decreasing sequence</p>
+<p>D. first decreases, then increases</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Let M,A,B,C be respectively the four matrices below:</li>
+</ol>
+<pre><code> insert matrix</code></pre>
+<p>A. but x,y,z are not unique.</p>
+<p>B. z =− 1</p>
+<p>C. z=−1 and z=−2 both can hold</p>
+<p>D. x,y,z are unique but z= 2</p>
+<ol start="8" style="list-style-type: decimal">
+<li>Let f be a continuous function from <span
+class="math inline">\([a,b]\)</span> to <span
+class="math inline">\([a,b]\)</span> and is differentiable on (a,b). We
+will say that point <span class="math inline">\(y\in [a,b]\)</span> is a
+fixed pointof f if <span class="math inline">\(y=f(y)\)</span> . If the
+derivative <span class="math inline">\(f′(x) \neq 1\)</span> for any
+<span class="math inline">\(x\in (a,b)\)</span> , then f has</li>
+</ol>
+<p>      A. multiple, and an odd number of, fixed points</p>
+<p>      B. no fixed points in <span
+class="math inline">\([a,b]\)</span></p>
+<p>      C. multiple, but an even number of, fixed points</p>
+<p>      D. exactly one fixed point in <span
+class="math inline">\([a,b]\)</span></p>
+<ol start="9" style="list-style-type: decimal">
+<li>Which of the following statements is true for all real numbers a,b
+with a &lt; b ?</li>
+</ol>
+<p>    A. <span class="math inline">\(\sin b−\sin a\neq b−a\)</span></p>
+<p>    B. <span class="math inline">\(\sin b−\sin a \geq
+b−a\)</span></p>
+<p>    C. <span class="math inline">\(|sin b−sin a| \geq
+b−a\)</span></p>
+<p>    D. <span class="math inline">\(|sinb−sina| \leq
+|b−a|\)</span></p>
+<ol start="10" style="list-style-type: decimal">
+<li>Let O(0,0), P(3,4) and Q(6,0) be the vertices of a triangle OPQ. If
+a point S in the interior of the OPQ is such that triangles OPS,PQS and
+OQShave equal area, then the coordinates of S are:</li>
+</ol>
+<p>A. <span class="math inline">\((\frac{4}{3} ,3)\)</span></p>
+<p>B. <span class="math inline">\((3, \frac{2}{3})\)</span></p>
+<p>C. <span class="math inline">\((3, \frac{4}{3})\)</span></p>
+<p>D. <span class="math inline">\((\frac{4}{3} ,
+\frac{2}{3})\)</span></p>
+<ol start="11" style="list-style-type: decimal">
+<li>5 men and 5 women are seated randomly in a single row of chairs. The
+expected number of women sitting next to at least one man equals</li>
+</ol>
+<p>       A. <span class="math inline">\(\frac{11}{3}\)</span></p>
+<p>      B. <span class="math inline">\(\frac{13}{3}\)</span></p>
+<p>      C. <span class="math inline">\(\frac{35}{9}\)</span></p>
+<p>       D. <span class="math inline">\(\frac{37}{9}\)</span></p>
+<ol start="12" style="list-style-type: decimal">
+<li>Let M be a <span class="math inline">\(3\times 3\)</span> matrix
+such that <span class="math inline">\(M^2 =M\)</span> . Which of the
+following is necessarily true?</li>
+</ol>
+<p>    A. M is invertible</p>
+<p>    B. det(M) = 0</p>
+<p>    C. det(<span class="math inline">\(M^5\)</span> ) = det(M)</p>
+<p>    D. None of the above</p>
+<ol start="13" style="list-style-type: decimal">
+<li>Suppose a straight line in <span
+class="math inline">\(\mathbb{R^3}\)</span> passes through the point (−
+1 , 3 ,3) in the direction of the vector (1, 2 ,3). The line will
+intersect with the xy-plane at point</li>
+</ol>
+<p>       A. (2,− 1 ,0)               B. (1, 3 ,0)               C. (3,
+1 ,0)</p>
+<p>       D. None of the above</p>
+<ol start="14" style="list-style-type: decimal">
+<li>X is a random variable. Which of the following statements is always
+true?</li>
+</ol>
+<p>    A. The expectation of X exists.</p>
+<p>    B. The distribution function of X is strictly increasing</p>
+<p>   C.X has a median</p>
+<p>    D. None of the above</p>
+<ol start="15" style="list-style-type: decimal">
+<li>Consider two disjoint events A and B in a sample space S. Which of
+the following is correct?</li>
+</ol>
+<p>      A. A and B are always independent</p>
+<p>      B.A and B cannot be independent</p>
+<p>      C.A and B are independent if both of them have positive
+probability</p>
+<p>       D. None of the above</p>
+<p>The following information is the starting point for Q 16 − 20
+.Consider an exchange economy with two agents, 1 and 2,and two goods,  x
+and Y. Agent 1’s endowment is (0,10) and agent 2 ’s endowment is (11,0).
+Agent 1 strictly prefers bundle (a,b) to bundle (c,d) if, either <span
+class="math inline">\(a &gt; c\)</span> ,or a=c and b &gt; d. Agent 2
+strictly prefers bundle (a,b) to bundle (c,d) if <span
+class="math inline">\(\min\)</span>{a,b}&gt;<span
+class="math inline">\(\min\)</span> {c,d}.For both agents, we say that
+bundle (a,b) is indifferent to bundle (c,d) if, neither (a,b),nor
+(c,d),is strictly preferred to the other.</p>
+<ol start="16" style="list-style-type: decimal">
+<li>This exchange economy has</li>
+</ol>
+<p>    A. one competitive equilibrium allocation</p>
+<p>    B. two competitive equilibrium allocations</p>
+<p>    C. an infinite number of competitive equilibrium allocations</p>
+<p>    D. no competitive equilibrium allocations</p>
+<ol start="17" style="list-style-type: decimal">
+<li>Which of the following changes makes <span
+class="math inline">\((p_x,p_y)\)</span> = (1,0) a competitive
+equilibrium price vector?</li>
+</ol>
+<p>      A. agent 2’s endowment changes to (9,0)</p>
+<p>      B. agent 2’s endowment changes to (10,0)</p>
+<p>      C. agent 1’s endowment changes to (0,12)</p>
+<p>      D. none of the above</p>
+<ol start="18" style="list-style-type: decimal">
+<li>Suppose only agent 2’s preferences are changed. The changed
+preferences of agent 2’s become identical to those of agent 1.
+Then,</li>
+</ol>
+<p>      A. there is no equilibrium price ratio</p>
+<p>      B. both of the following are true</p>
+<p>      C. <span class="math inline">\(\frac{p_x}{p_y}= 0\)</span> is
+an equilibrium price ratio</p>
+<p>       D. <span class="math inline">\(\frac{p_y}{p_x}= 0\)</span> is
+an equilibrium price ratio</p>
+<ol start="19" style="list-style-type: decimal">
+<li>Suppose only agent 2’s preferences are changed. The changed
+preferences is such that agent 2 strictly prefers bundle (a,b) to bundle
+(c,d) if, either b &gt; d, or b=d and a &gt; c. Then,</li>
+</ol>
+<p>      A. there is no equilibrium price ratio</p>
+<p>      B. both of the following are true</p>
+<p>      C. <span class="math inline">\(\frac{p_x}{p_y}= 0\)</span> is
+an equilibrium price ratio</p>
+<p>       D. <span class="math inline">\(\frac{p_x}{p_y}&gt;0\)</span>
+is an equilibrium price ratio</p>
+<p>      E. <span class="math inline">\(\frac{p_x}{p_y}=
+\frac{10}{11}\)</span> is an equilibrium price ratio</p>
+<ol start="20" style="list-style-type: decimal">
+<li>Suppose only agent 1’s preferences are changed. The changed
+preferences of agent 1’s become identical to those of agent 2.
+Then,</li>
+</ol>
+<p>      A. there is no equilibrium price ratio</p>
+<p>      B. both of the following are true</p>
+<p>      C. <span class="math inline">\(\frac{p_x}{p_y}= 0\)</span> is
+an equilibrium price ratio</p>
+<p>       D. <span class="math inline">\(\frac{p_y}{p_x} = 0\)</span> is
+an equilibrium price ratio</p>
+<ol start="21" style="list-style-type: decimal">
+<li>5 men and 5 women are seated randomly in a single circle of chairs.
+The expected number of women sitting next to at least 1 man equals</li>
+</ol>
+<p>       A. <span class="math inline">\(\frac{23}{ 6}\)</span>       
+       B. <span class="math inline">\(\frac{25}{6}\)</span>            
+  C. 4               D. <span class="math inline">\(\frac{17}{
+4}\)</span></p>
+<ol start="22" style="list-style-type: decimal">
+<li>Ms. A selects a number X randomly from the uniform distribution on
+<span class="math inline">\([0,1]\)</span> . Then Mr. B repeatedly, and
+independently, draws numbers <span class="math inline">\(Y_1 ,Y_2
+,\dots\)</span> from the uniform distribution on <span
+class="math inline">\([0,1]\)</span> , until he gets a number larger
+than <span class="math inline">\(\frac{X}{2}\)</span> , then stops. The
+expected number of draws that Mr. B makes equals</li>
+</ol>
+<p>      A. 2 ln 2</p>
+<p>      B. ln 2</p>
+<p>      C. <span class="math inline">\(\frac{2}{e}\)</span></p>
+<p>       D. <span class="math inline">\(\frac{6}{e}\)</span></p>
+<ol start="23" style="list-style-type: decimal">
+<li>Ms . A selects a number X randomly from the uniform distribution on
+<span class="math inline">\([0,1]\)</span> . Then Mr. B repeatedly, and
+independently, draws numbers <span class="math inline">\(Y_1 ,Y_2
+,\dots\)</span> from the uniform distribution on <span
+class="math inline">\([0,1]\)</span> , until he gets a number larger
+than <span class="math inline">\(\frac{X}{2}\)</span> , then stops. The
+expected sum of the number Mr.B draws, given X=x, equals</li>
+</ol>
+<p>       A. ln 2</p>
+<p>      B. <span class="math inline">\(\frac{1}{(1−\frac{1}{2}
+)}\)</span></p>
+<p>      C. <span class="math inline">\(\frac{1}{(2−x)}\)</span></p>
+<p>       D. <span class="math inline">\(\frac{3}{(1−\frac{1}{2}
+)}\)</span></p>
+<ol start="24" style="list-style-type: decimal">
+<li>There are two fair coins (i.e. Heads and Tails are equally likely
+for tosses of both). Coin 1 is tossed 3 times. Let X be the number of
+Heads that occur. After this, Coin 2 is tossed X times. Let Y be the
+number of Heads we get with Coin 2. The probability <span
+class="math inline">\(Pr(X \geq  2 |Y= 1)\)</span> equals</li>
+</ol>
+<p>      A. <span class="math inline">\(\frac{1}{ 2}\)</span></p>
+<p>      B. <span class="math inline">\(\frac{4}{ 7}\)</span></p>
+<p>      C. <span class="math inline">\(\frac{2}{3}\)</span></p>
+<p>       D. <span class="math inline">\(\frac{11}{ 18}\)</span></p>
+<p>      E. <span class="math inline">\(\frac{10}{18}\)</span></p>
+<ol start="25" style="list-style-type: decimal">
+<li>Two independent random variables <span
+class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span> have the same probability density
+functions:</li>
+</ol>
+<pre><code>INSERT FUNCTIONS</code></pre>
+<p>Then the variance of their sum, <span
+class="math inline">\(\mathbb{V}(X+Y)\)</span> equals</p>
+<p>A. <span class="math inline">\(\frac{2}{9}\)</span></p>
+<p>B. <span class="math inline">\(\frac{13}{81}\)</span></p>
+<p>C. <span class="math inline">\(\frac{4}{45}\)</span></p>
+<p>D. <span class="math inline">\(\frac{5}{18}\)</span></p>
+<ol start="26" style="list-style-type: decimal">
+<li>Suppose two restaurants are going to be located at a street that is
+ten kilometres long. The location of each restaurant will be chosen
+randomly. What is the probability that they will be located less than
+five kilometres apart?</li>
+</ol>
+<p>       A. <span class="math inline">\(\frac{1}{4}\)</span></p>
+<p>      B. <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>      C. <span class="math inline">\(\frac{3}{4}\)</span></p>
+<p>       D. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<ol start="27" style="list-style-type: decimal">
+<li>Consider the linear regression model: <span
+class="math inline">\(y_i=\beta_1 D_{1 i}+\beta D
+_{2i}+\epsilon\)</span> , where <span class="math inline">\(D_{1i} = 1
+if 1\leq i \leq N\)</span> and <span class="math inline">\(D_{2i}=
+0\)</span> if <span class="math inline">\(N+ 1\leq i\leq n\)</span> for
+some <span class="math inline">\(1&lt; N &lt; n\)</span> and <span
+class="math inline">\(D_{2i}= 1−D_{2i}\)</span> . Can this model be
+estimated using least squares?</li>
+</ol>
+<p>A. No, because D1 and D2 are perfectly collinear</p>
+<p>B. Yes, and it is equivalent to running two separate regressions of y
+on D1 and y on D2, respectively</p>
+<p>C. No, because there is no variability in D1 and D 2</p>
+<p>D. Yes, provided an intercept term is included.</p>
+<ol start="28" style="list-style-type: decimal">
+<li>Consider the least squares regression ofyon a single variablex.
+Which of the following statements is true about such a regression?</li>
+</ol>
+<p>       A. The coefficient of determination <span
+class="math inline">\(\mathbb{R^2}\)</span> is always equal to the
+squared correlation coefficient between y and x               B. The
+coefficient of determination <span
+class="math inline">\(\mathbb{R}^2\)</span> is equal to the squared
+correlation coefficient between y and x only if there is no intercept in
+the equation               C. The coefficient of determination <span
+class="math inline">\(\mathbb{R}^2\)</span> is equal to the squared
+correlation coefficient between y and x only if there is an intercept in
+the equation</p>
+<p>       D. There is no relationship between the coefficient of
+determination <span class="math inline">\(\mathbb{R}^2\)</span> and the
+squared correlation coefficient between y and x</p>
+<ol start="29" style="list-style-type: decimal">
+<li>An analyst runs two least squares regressions: first, of y on a
+single variable x, and second of x on y. In both cases, she decides to
+include an intercept term. Which of the following is true of what she
+finds?</li>
+</ol>
+<p>       A. The slope coefficient of the first regression will be the
+inverse of the slope coefficient of the second regression; this will
+also be true of the associated t-ratios               B. The slope
+coefficients will be different, the associated t-ratios will also but
+different, but the <span class="math inline">\(\mathbb{R^2}\)</span>
+from the two regressions will be the same               C. The slope
+coefficients will be different, but the associated t-ratios and the
+<span class="math inline">\(\mathbb{R^2}\)</span> from the two
+regressions will be the same               D. The slope coefficient will
+be the inverse of each other, the associated t-ratios will also be the
+inverse of each other, but the <span
+class="math inline">\(\mathbb{R}^2\)</span> from the two regressions
+will be the same</p>
+<ol start="30" style="list-style-type: decimal">
+<li>Consider the two regression models</li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li><p><span class="math inline">\(y=\beta_0 +\beta_1 X_1 +\beta_2 X_2
++u\)</span></p></li>
+<li><p><span class="math inline">\(y=\gamma_0 +\gamma_1 Z_1 +\gamma_2
+Z_2 +v\)</span></p></li>
+</ol>
+<p>where variables <span class="math inline">\(Z_1\)</span> and <span
+class="math inline">\(Z_2\)</span> are distinct from <span
+class="math inline">\(X_1\)</span> and <span
+class="math inline">\(X_2\)</span> . Assume <span
+class="math inline">\(u∼ N(0,\sigma_u^{2} )\)</span> and <span
+class="math inline">\(v∼ N(0,\sigma_v^2 )\)</span> and the models are
+estimated using ordinary least squares. If the true model is (i) then
+which of the following is true?</p>
+<p>A. <span class="math inline">\(E[\hat \beta_1 ] =E[\hat \gamma_1 ]
+=\beta_1 \ and \ E[\hat \sigma_v^2 ] =\sigma_u^2\)</span></p>
+<p>B.<span class="math inline">\(E[\hat \sigma_v^2 ] \geq
+\sigma_u^2\)</span></p>
+<p>C.<span class="math inline">\(E[\hat \sigma_v^2 ]\leq
+\sigma_u^2\)</span></p>
+<p>D. None of the above as the two models cannot be compared</p>
+<p>The following information is the starting point for Q 31 - 35. Please
+read it carefully before you proceed to answer.</p>
+<p>Consider an economy consisting of N identical firms producing a
+single final commodity to be used for consumption as well as investment
+purposes. Each firm is endowed with a Cobb-Douglas production
+technology, such that</p>
+<p><span class="math inline">\(Y_t^i=(K_t^i) \alpha (L_t^i)^{1 − \alpha}
+; 0&lt;  \alpha  &lt; 1\)</span></p>
+<p>where <span class="math inline">\(K_t^i\)</span> and <span
+class="math inline">\(L_t^i\)</span> denote the amounts of capital and
+labor employed by the i-th firm at time period t. The final commodity is
+the numeraire; wage rate for labour <span
+class="math inline">\((w_t)\)</span> and the rental rate for capital
+<span class="math inline">\((r_t)\)</span> are measured in terms of the
+final commodity. The firms are perfectly competitive and employ labor
+and capital so as to maximise their profits - taking the factor prices
+as given. The aggregate output produced is thus given by:</p>
+<p><span class="math inline">\(Y_t=\sum_{i=1}^N (K_t^i)^{\alpha}
+(L_t^i)^{1-\alpha} \  ;0&lt;\alpha&lt;1\)</span></p>
+<p>where <span class="math inline">\(K_t = \sum{i=1}^N K_t^i \ and\ L_t
+= \sum_{i=1}^N L_t^i\)</span> are the total capital and labor employed
+in the aggregate economy in period t. Labor and Capital on the other
+hand are provided by the households. There are H identical households,
+each endowed with <span class="math inline">\(k_t^h\)</span> units of
+capital and 1 unit of labor at the beginning of period t. Capital stock
+of the households gets augmented over time due to the savings and
+investment made by the households. In particular, each household saves
+and invests exactly half of its total income <span
+class="math inline">\(y_t^h\)</span> (which includes its labour as well
+as capital income) in every period and consumes the rest, such that
+<span class="math inline">\(\frac{dk_t^h}{dt}=\frac{1}{2}y_t^h\)</span>
+(There is no depreciation of capital). The entire capital endowment at
+the beginning of every period is supplied inelastically to the market at
+the given rental rate <span class="math inline">\((r_t)\)</span> . Labor
+supply however is endogenous and responds to the market wage rate. Out
+of the total endowment of 1 unit of labour, a household optimally
+supplies <span class="math inline">\(l_t^h\)</span> units so as to
+maximise its utility:</p>
+<p><span class="math inline">\(U_t^h =w_tl_t^h -(l_t^h)^{\delta}\ ;
+\delta&gt;1\)</span></p>
+<p>where the first term captures the (indirect) utility derived from
+labour earnings while the second term captures the dis-utility of
+labour.</p>
+<ol start="31" style="list-style-type: decimal">
+<li>The labor demand schedule for the aggregate economy is given by the
+following function:</li>
+</ol>
+<p>A. <span class="math inline">\(L_t=[\frac{1}{w_t}]^{\frac{1}{\alpha}}
+K_t\)</span><br />
+B. <span
+class="math inline">\(L_t=N[\frac{1-\alpha}{w_t}]^{\frac{1}{\alpha}}
+K_t\)</span> C. <span
+class="math inline">\(L_t=[\frac{1-\alpha}{w_t}]^{\frac{1}{\alpha}}
+K_t\)</span><br />
+D. None of the above</p>
+<ol start="32" style="list-style-type: decimal">
+<li>The aggregate labour supply schedule by the households is given by
+the following function</li>
+</ol>
+<pre><code>insert function</code></pre>
+<ol start="33" style="list-style-type: decimal">
+<li>The market clearing wage rate in the short run (periodt) is given
+by:</li>
+</ol>
+<pre><code>insert function</code></pre>
+<ol start="34" style="list-style-type: decimal">
+<li>Equilibrium output in the short run (period t ):</li>
+</ol>
+<p>A. is a strictly convex function of <span class="math inline">\(K_t \
+for \ K_t &lt; H(\frac{\sigma}{1-\alpha})^{\frac{1}{\alpha}}=\bar
+K\)</span> ; and is a strictly concave function of <span
+class="math inline">\(K_t \geq \bar K\)</span></p>
+<p>B. is a strictly concave function of <span
+class="math inline">\(K_t\)</span> for all values of <span
+class="math inline">\(K_t\)</span></p>
+<p>C. is a strictly convex function of <span
+class="math inline">\(K_t\)</span> for all values of <span
+class="math inline">\(K_t\)</span></p>
+<p>D. is a linear function of <span class="math inline">\(K_t\)</span>
+for all values of <span class="math inline">\(K_t\)</span></p>
+<ol start="35" style="list-style-type: decimal">
+<li>Over time the aggregate output in this economy</li>
+</ol>
+<p>    A. initially increases until <span
+class="math inline">\(K_t&lt;\bar K\)</span> , and then reaches a
+constant value within finite time when <span class="math inline">\(K_t
+\geq \bar K\)</span>         B. initially decreases until <span
+class="math inline">\(K_t &lt; \bar K\)</span> , and then reaches a
+constant value within finite time when <span class="math inline">\(K_t
+\geq \bar K\)</span>         C. keep increasing at a decreasing rate and
+approaches a constant value only in the very long run (when <span
+class="math inline">\(t\to \infty)\)</span></p>
+<p>    D. increases at a constant rate untilKt&lt;K ̄; increases at a
+decreasing rate when <span class="math inline">\(K_t  \geq  \bar
+K\)</span> and approaches a constant value only in the very long run
+(when <span class="math inline">\(t \to \infty)\)</span></p>
+<p>The following information is the starting point for Q 36 - 40. Please
+read it carefully before you proceed to answer. Consider an economy
+consisting of N identical firms producing a single final commodity to be
+used for consumption as well as investment purposes. Each firm is
+endowed with a Cobb-Douglas production technology, such that</p>
+<p><span class="math inline">\(Y_t^i=(K_t^i)^\alpha (L_t^i)^{1 − \alpha}
+; 0&lt;  \alpha  &lt; 1\)</span></p>
+<p>where <span class="math inline">\(K_t^i\)</span> and <span
+class="math inline">\(L_t^i\)</span> denote the amounts of capital and
+labor employed by the <span class="math inline">\(i^{th}\)</span> firm
+at time period t. The final commodity is the numeraire; wage rate for
+labour <span class="math inline">\((w_t)\)</span> and the rental rate
+for capital <span class="math inline">\((r_t)\)</span> are measured in
+terms of the final commodity. The firms are perfectly competitive and
+employ labor and capital so as to maximise their profits - taking the
+factor prices as given. The aggregate output produced is thus given
+by:</p>
+<p><span class="math inline">\(Y_t= \sum_{i=1}^N
+(K_t^i)^{\alpha}(L_t^i)^{1-\alpha} =(K_t)^{\alpha}
+(L_t)^{1-\alpha}\)</span></p>
+<p>where <span class="math inline">\(K_t = \sum_{i=1}^N K_t^i \ and\ L_t
+= \sum_{i=1}^N L_t^i\)</span> are the total capital and labor employed
+in the aggregate economy in period t. Labor and Capital on the other
+hand are provided by the households. There are H identical households,
+each endowed withkht units of capital and 1 unit of labor at the
+beginning of period t. Capital stock of the households gets augmented
+over time due to the savings and investment made by the households. In
+particular, each household saves and invests exactly half of its total
+income <span class="math inline">\(y_t^h\)</span> (which includes its
+labour as well as capital income) in every period and consumes the rest,
+such that <span
+class="math inline">\(\frac{dk_t^h}{dt}=\frac{1}{2}y_t^h\)</span> (There
+is no depreciation of capital). The entire capital endowment at the
+beginning of every period is supplied inelastically to the market at the
+given rental rate <span class="math inline">\((r_t)\)</span> . Labor
+supply however is endogenous and responds to the market wage rate. Out
+of the total endowment of 1 unit of labour, a household optimally
+supplies <span class="math inline">\(l_t^h\)</span> units so as to
+maximise its utility:</p>
+<pre><code>insert </code></pre>
+<p>For the case <span class="math inline">\(l_t^h&gt;0\)</span> , the
+first term captures the (indirect) utility derived from labour earnings
+while the constant termDcaptures the disutility of labour - which is
+independent of quantity of labour supplied.</p>
+<ol start="36" style="list-style-type: decimal">
+<li>The new aggregate labour supply schedule by the households is given
+by the following function:</li>
+</ol>
+<pre><code>insert function</code></pre>
+<ol start="37" style="list-style-type: decimal">
+<li>The new market clearing wage rate in the short run (periodt) is
+given by:</li>
+</ol>
+<pre><code>Insert function</code></pre>
+<ol start="38" style="list-style-type: decimal">
+<li>An increase in the number of firms (N)</li>
+</ol>
+<p>    A. leaves the wage rate unchanged in the short run (untilKt&lt;K
+̃) and increases it thereafter         B. increases the wage rate in the
+short run (until <span class="math inline">\(K_t&lt;\hat K\)</span> )
+and leaves it unchanged thereafter         C. leaves the wage rate
+unchanged irrespective of <span class="math inline">\(K_t\)</span></p>
+<p>    D. None of the above</p>
+<ol start="39" style="list-style-type: decimal">
+<li>The new equilibrium output in the short run (period t)</li>
+</ol>
+<p>A. is a linear function of <span class="math inline">\(K_t \ for \
+K_t &lt; H(\frac{D}{1-\alpha})^{\frac{1}{\alpha}}=\bar K\)</span> ; and
+is a strictly concave function of <span class="math inline">\(K_t \geq
+\bar K\)</span></p>
+<p>B. is a strictly concave function of <span
+class="math inline">\(K_t\)</span> for all values of <span
+class="math inline">\(K_t\)</span></p>
+<p>C. is a strictly convex function of <span
+class="math inline">\(K_t\)</span> for all values of <span
+class="math inline">\(K_t\)</span></p>
+<p>D. is a linear function of <span class="math inline">\(K_t\)</span>
+for all values of <span class="math inline">\(K_t\)</span></p>
+<ol start="40" style="list-style-type: decimal">
+<li>Over time the aggregate output in this economy</li>
+</ol>
+<p>    A. initially increases until <span
+class="math inline">\(K_t&lt;K\)</span> , and then reaches a constant
+value within finite time when <span class="math inline">\(K_t \geq
+K\)</span> (EDIT)         B. initially decreases until <span
+class="math inline">\(K_t &lt; K\)</span>, and then reaches a constant
+value within finite time when <span class="math inline">\(K_t \geq
+K\)</span>         C. increases at a constant rate until <span
+class="math inline">\(K_t&lt;K\)</span> ; increases at a decreasing rate
+when <span class="math inline">\(K_t  \geq  K\)</span> and approaches a
+constant value only in the very long run (when <span
+class="math inline">\(t\to \infty\)</span> )         D. None of the
+above</p>
+<ol start="41" style="list-style-type: decimal">
+<li><span class="math inline">\(\lim_n\to \infty (\sqrt
+n)^{\frac{1}{n}}=\)</span></li>
+</ol>
+<p>    A. 0         B. 0.5         C. 1</p>
+<p>    D. 2</p>
+<ol start="42" style="list-style-type: decimal">
+<li><span class="math inline">\(\lim_{x\to 0} x^2 \cos
+(\frac{1}{x})=\)</span></li>
+</ol>
+<p>A. − 1</p>
+<p>B. 0</p>
+<p>C. 1</p>
+<p>D. The limit does not exist</p>
+<ol start="43" style="list-style-type: decimal">
+<li>Suppose <span class="math inline">\(A_1 ,A_2 ,.\dots\)</span> is a
+countably infinite family of subsets of a vector space. Suppose all of
+these sets are linearly independent, and that <span
+class="math inline">\(A 1 ⊆A 2 ⊆···\)</span> Then <span
+class="math inline">\(\bigcup_{i=1}^{\infty} A_i\)</span> is</li>
+</ol>
+<p>      A. a linearly independent set of vectors</p>
+<p>      B. a linearly dependent set of vectors</p>
+<p>      C. linearly independent provided the vectors are orthogonal</p>
+<p>      D. not necessarily either dependent or independent</p>
+<ol start="44" style="list-style-type: decimal">
+<li>If u andvare distinct vectors andkandtare distinct scalars, then the
+vectors <span class="math inline">\(u+k(u−v)\)</span> andu <span
+class="math inline">\(u+t(u−v)\)</span></li>
+</ol>
+<p>      A. are linearly independent</p>
+<p>      B. may be identical</p>
+<p>      C. are linearly dependent</p>
+<p>      D. are distinct</p>
+<ol start="45" style="list-style-type: decimal">
+<li>Let d <span class="math inline">\(((x_1 ,x_2 ),(y_1 ,y_2 )) =
+\max\)</span>{<span class="math inline">\(|x_1 −y_1 |,|x_2 −y_2
+|\)</span> }be the distance between two points <span
+class="math inline">\((x_1 ,x_2 ) \ and \ (y_1 ,y_2 )\)</span> on the
+plane. Then the locus of points at distance 1 from the origin is</li>
+</ol>
+<p>      A. a square with side length = 1</p>
+<p>      B. a square with side length = <span
+class="math inline">\(\sqrt 2\)</span>             C. a square with side
+length = 2             D. a circle with radius = 1</p>
+<ol start="46" style="list-style-type: decimal">
+<li>The set of all pairs of positive integersa,b with <span
+class="math inline">\(a &lt; b\)</span> such that <span
+class="math inline">\(ab=ba\)</span></li>
+</ol>
+<p>    A. is an empty set</p>
+<p>    B. consists of a single pair</p>
+<p>    C. consists of multiple, but finite number of pairs</p>
+<p>    D. is countably infinite</p>
+<ol start="47" style="list-style-type: decimal">
+<li>Suppose c is a given positive real number. The equation <span
+class="math inline">\(\ln x=cx^2\)</span> must have a solution if</li>
+</ol>
+<p>      A. <span class="math inline">\(c &lt;\frac{1}
+{(2e)}\)</span></p>
+<p>      B. <span class="math inline">\(c &lt; \frac{1 }{e}\)</span></p>
+<p>      C. <span class="math inline">\(c &gt;
+\frac{1}{(2e)}\)</span></p>
+<p>       D. <span class="math inline">\(c
+&gt;(\frac{1}{e})\)</span></p>
+<ol start="48" style="list-style-type: decimal">
+<li>Sania’s boat is at point A on the sea. The closest point on land,
+point B, is 2 km away. Point C on land is 6 km from point B, such that
+triangle (ABC) is right-angled at point B. Sania wishes to reach pointC,
+by rowing to some pointPon the line <span
+class="math inline">\(\bar{BC}\)</span> , and jog the remaining distance
+to C. If she rows 2 km per hour and jogs 5 km per hour, at what distance
+from pointBshould she choose her landing pointP, in order to minimise
+her time to reach point C?</li>
+</ol>
+<p>       A. <span class="math inline">\(\frac{21}{\sqrt 4}\)</span>   
+    B. <span class="math inline">\(\frac{4}{\sqrt {21}}\)</span>       
+C. <span class="math inline">\(\frac{4}{\sqrt {12}}\)</span>        D.
+<span class="math inline">\(\frac{21}{\sqrt {21}}\)</span>       <br />
+49. Suppose <span class="math inline">\(A_j, \ j= 1, 2 ,\dots\)</span>
+are non-empty sets of real numbers. Define the sets <span
+class="math inline">\(C_n=\bigcap_{k=n}^{\infty} \bigcup_{j=k}^{\infty}
+A_j,n= 1, 2 ,\dots\)</span> Which of the choices below must then hold
+for a given n? (where the symbol ⊂ stands for ‘strict subset’).</p>
+<p>A. <span class="math inline">\(C_n⊂C_n+1\)</span></p>
+<p>B. <span class="math inline">\(C_n+1⊂C_n\)</span></p>
+<p>C. <span class="math inline">\(C_n=C_n+1\)</span></p>
+<p>D. None of the above need hold</p>
+<ol start="50" style="list-style-type: decimal">
+<li>Suppose x and y are given integers. Consider the following
+statements:</li>
+</ol>
+<p>    A. ] If 2x+ 3y is divisible by 17, then 9x+ 5y is divisible by
+17.</p>
+<p>    B. ] If 9x+ 5y is divisible by 17, then 2x+ 3y is divisible by
+17.</p>
+<p>Which of the following is true?</p>
+<p>A. A is true and B is false</p>
+<p>B.B is true and A is false</p>
+<p>C. Both A and B are true</p>
+<p>D. Neither A nor B is true</p>
+<p>The following information is the starting point for Q 51 - 52.
+Consider an exchange economy with two goods. Suppose agent i and j have
+the same preferences. Moreover, suppose their preferences have the
+following property: if (a,b) and (c,d) are distinct bundles that are
+indifferent to each other, then the bundle <span
+class="math inline">\((\frac{(a+c)}{ 2} ,\frac{(b+d)}{2})\)</span> is
+strictly preferred to (a,b) and (c,d).</p>
+<ol start="51" style="list-style-type: decimal">
+<li>In a Pareto efficient allocation,i and j</li>
+</ol>
+<p>    A. will get the same bundle         B. may get different bundles
+        C. will get the same bundle, provided their endowments are
+identical</p>
+<p>    D. will get the same bundle, provided their endowments are
+identical and the preferences are monotonically increasing</p>
+<ol start="52" style="list-style-type: decimal">
+<li>In a competitive equilibrium allocation,i and j</li>
+</ol>
+<p>    A. will get the same bundle</p>
+<p>    B. may get different bundles</p>
+<p>   C. will get the same bundle, if their endowments are identical</p>
+<p>    D. will get the same bundle, only if their endowments are
+identical and the preferences are monotonically increasing</p>
+<p>The following information is the starting point for Q 53 - 55. Two
+firms produce the same commodity. Let <span
+class="math inline">\(x_1\)</span> and <span
+class="math inline">\(x_2\)</span> be the quantity choices of firms 1
+and 2 respectively. The total quantity is <span
+class="math inline">\(X=x_1 +x_2\)</span> . The inverse demand function
+is <span class="math inline">\(P=a−bX\)</span> , where <span
+class="math inline">\(P\)</span> is the market price, andaandbare the
+intercept and the slope parameters respectively. Firms 1 and 2 have
+constant average costs equal toc 1 andc 2 respectively. Suppose <span
+class="math inline">\(b &gt;0, 0&lt; c_1 &lt; c_2 &lt; a \ and\ a+c_1
+&gt; 2 c_2\)</span> .</p>
+<ol start="53" style="list-style-type: decimal">
+<li>In a Cournot equilibrium,</li>
+</ol>
+<p>    A. firm 1 has the larger market share and the larger profit</p>
+<p>    B. firm 2 has the larger market share and the larger profit</p>
+<p>    C. firm 1 has the larger market share and the smaller profit</p>
+<p>    D. firm 2 has the larger market share and the smaller profit</p>
+<ol start="54" style="list-style-type: decimal">
+<li>If a increases, then</li>
+</ol>
+<p>    A. the market share of firm 1 increases and price increases</p>
+<p>    B. the market share of firm 1 decreases and price increases</p>
+<p>   C. the market share of firm 1 increases and price decreases     
+    D. the market share of firm 1 decreases and price decreases</p>
+<ol start="55" style="list-style-type: decimal">
+<li>If b decreases, then</li>
+</ol>
+<p>    A. the price and market share of firm 1 increase</p>
+<p>    B. the price and market share of firm 1 decrease</p>
+<p>   C. the market shares are unchanged and price increases</p>
+<p>    D. neither price, nor market shares, change</p>
+<ol start="56" style="list-style-type: decimal">
+<li>Suppose that an economy has endowment of K units of capital and L
+units of labour. Two final goods <span
+class="math inline">\(X_1\)</span> and <span
+class="math inline">\(X_2\)</span> can be produced by the following
+technologies, <span class="math inline">\(X1 =\sqrt {kl} ,X_2=\sqrt
+l\)</span> where k is quantity of capital and <span
+class="math inline">\(l\)</span> s quantity of labour. Find the
+production possibility frontier.</li>
+</ol>
+<p>A. <span class="math inline">\(X_1^2 +KX_2^2 =KL\)</span></p>
+<p>B.<span class="math inline">\(X1^2 +X_2^2 =KL\)</span></p>
+<p>C. <span class="math inline">\(X_1 +\sqrt KX_2 =\sqrt {KL}\)</span>
+D. <span class="math inline">\(X_1 +X_2^2 =KL\)</span></p>
+<ol start="57" style="list-style-type: decimal">
+<li>A two-person two commodity economy has social endowment of x= 1 unit
+of food and y= 1 unit of wine. Agents preferences are increasing in own
+consumption but decreasing in wine consumption of the other person.
+Preferences of agentsAandBare as follows, <span
+class="math inline">\(u_A( x_A ,y_A,y_B) = x_A [1 + max(y_A−y_B,0)],
+u_B(x_B,y_B,y_A) =x_B[1 + max(y_B−y_A,0)]\)</span> , where A consumes
+<span class="math inline">\(x_A\)</span> and <span
+class="math inline">\(y_A\)</span> units of x and y respectively,
+similarly B’s consumption is <span class="math inline">\(x_B\)</span>
+and <span class="math inline">\(y_B\)</span> . Which of the following is
+a Pareto optimum allocation.</li>
+</ol>
+<p>      A.  <span class="math inline">\(x_A =\frac{1}{4}
+,x_B=\frac{3}{4} ,y_A=y+B=\frac{1}{2}\)</span></p>
+<p>      B. <span class="math inline">\(x_A =x_B=\frac{1}{2}
+,y_A=\frac{1}{4} ,y_B=\frac{3}{4}\)</span></p>
+<p>      C. <span class="math inline">\(x_A =\frac{1}{4}
+,x_B=\frac{3}{4} ,y_A= 1,y_B= 0\)</span></p>
+<p>       D. <span class="math inline">\(x_A =\frac{1}{4}
+,x_B=\frac{3}{4} ,y_A= 0,y_B= 1\)</span></p>
+<ol start="58" style="list-style-type: decimal">
+<li>A two-person two-goods pure exchange economy. The initial endowment
+vectors are <span class="math inline">\(e^1 = (1,0)\  and \ e^2 =
+(0,1)\)</span> . The two individuals have identical preferences
+represented by the utility functions:</li>
+</ol>
+<pre><code>insert function</code></pre>
+<p>where x is the quantity of the first good andyis the quantity of the
+second good. For this economy the set of Pareto optimum allocations</p>
+<p>A. consists of the entire Edgeworth box</p>
+<p>B. is just the equal division of goods</p>
+<p>C. is a null set</p>
+<p>D. is {<span
+class="math inline">\(((0,0),(1,1)),((1,1),(0,0))\)</span> }</p>
+<ol start="59" style="list-style-type: decimal">
+<li>A monopolist seller produces a good with constant marginal cost
+<span class="math inline">\(c \geq 0\)</span> . The monopolist sells the
+entire output to a consumer whose utility from consumingxunits of the
+product is given by <span class="math inline">\(\theta
+\sqrt{x}−t\)</span> , where t is the payment made by the consumer to the
+monopolist. Suppose, consumer’s outside option is 0, i.e., if she does
+not buy the good from the monopolist, she gets 0 utility. Then, the
+monopolist’s profit is</li>
+</ol>
+<p>      A. <span class="math inline">\(\frac{\theta}{4c}\)</span></p>
+<p>      B.<span class="math inline">\(\frac{\theta^2 }{4c}\)</span></p>
+<p>      C. <span class="math inline">\(c\theta^2\)</span></p>
+<p>       D. <span class="math inline">\(\frac{c\theta}{ 2}\)</span></p>
+<ol start="60" style="list-style-type: decimal">
+<li>Consider an economy consisting of <span class="math inline">\(n \geq
+2\)</span> individuals with preference relations defined over the set of
+alternatives X. Let S={a,b,c,d,e} and T= {a,b,c,d} be two subsets of X.
+Now consider the following statements:</li>
+</ol>
+<ul>
+<li>A. If a is Pareto optimal (PO) with respect to set S, then a is PO
+with respect to set T.</li>
+<li>B. Ifais PO with respect to set T, then a is PO with respect to set
+S.</li>
+<li>C. Ifais PO with respect to setSandbisnot PO with respect to set T,
+then a is Pareto superior to b.</li>
+<li>D. If a is the only PO alternative in setSandbisnot PO with respect
+to set S, then a is Pareto superior tob.</li>
+</ul>
+<p>How many of the above statements are necessarily correct?</p>
+<p>   A. 1    B. 2    C. 3    D. 4</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2013</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2013</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<div id="dse-2013" class="section level1">
+<h1>DSE 2013</h1>
+<ol style="list-style-type: decimal">
+<li>Starting from a stationary position, Sonia ran 100 meters in 20
+seconds. Assuming that her distance from the starting point is a
+continuous and differentiable function <span
+class="math inline">\(f(t)\)</span> of time, she would definitely have
+run at a speed of y meters per second at some point of  time, where y
+equals</li>
+</ol>
+<p>A. 4</p>
+<p>B. 20</p>
+<p>C. 6</p>
+<p>D. None of the above necessarily holds</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Suppose <span class="math inline">\(f:R \to R\)</span> (i.e. it is a
+real-valued function defined on the set of real numbers). Iffis
+differentiable, <span class="math inline">\(f(3) = 2, \ and\  3\leq
+f′(x)\leq 4, \ for \  all \  x\)</span>, then it must be that f(5)  lies
+in the following interval.</li>
+</ol>
+<p>A. <span class="math inline">\([ 8,10]\)</span></p>
+<p>B. <span class="math inline">\([ 0,8)\)</span></p>
+<p>C. <span class="math inline">\((10, \infty )\)</span></p>
+<p>D. <span class="math inline">\([ 3,4]\)</span></p>
+<ol start="3" style="list-style-type: decimal">
+<li>The function defined by <span class="math inline">\(f(x)
+=x(x−10)(x−20)(x−30)\)</span> has critical points (i.e., points where
+<span class="math inline">\(f′(x) = 0\)</span> )</li>
+</ol>
+<p>A. at some <span class="math inline">\(x &lt;0\)</span> and some
+<span class="math inline">\(x &gt;30\)</span> .</p>
+<p>B. at an <span class="math inline">\(x &lt;0\)</span> , and at some x
+between 0 and 30.</p>
+<p>C. between 0 and 10, 10 and 20, 20 and 30.</p>
+<p>D. None of the above captures all the critical points.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>The area of the region bounded above by <span
+class="math inline">\(f(x) =x^2 + 1\)</span> and below by <span
+class="math inline">\(g(x) =x−6\)</span>  on the interval <span
+class="math inline">\([ − 1 ,3]\)</span> is</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{50}{ 3}\)</span></p>
+<p>B. 22</p>
+<p>C. 31</p>
+<p>D. <span class="math inline">\(\frac{100}{ 3}\)</span></p>
+<ol start="5" style="list-style-type: decimal">
+<li><span class="math inline">\(\lim_{ x \to 3}
+(\frac{x^2-5x-2}{x-2})^{\frac{1}{3}}\)</span> equals</li>
+</ol>
+<p>A. − 2</p>
+<p>B. <span class="math inline">\(-\frac{4} {3}\)</span></p>
+<p>C. <span class="math inline">\((−\frac{ 4} {3})^{\frac{1
+}{3}}\)</span></p>
+<p>D. <span class="math inline">\((\frac{2}{3})^{\frac{1
+}{3}}\)</span></p>
+<ol start="6" style="list-style-type: decimal">
+<li>Consider an individual A with utility function <span
+class="math inline">\(u(x) = 10\sqrt x\)</span> , where x denotes the
+amount of money available to her. Suppose, she has Rs 100. However, she
+has option of buying a lottery that will cost her Rs 51. If purchased,
+the lottery pays Rs 351 with probability p, and pays 0 (nothing) with
+remaining probability. Assume that A is expected utility maximizer.
+Which of the following statements is correct? A will</li>
+</ol>
+<p>A. not prefer to buy the lottery at all as long as p &lt; 1</p>
+<p>B. certainly prefer to buy the lottery as long as p &gt; 0</p>
+<p>C. prefer to buy the lottery if and only if <span
+class="math inline">\(p &gt; \frac{51 }{ 351}\)</span></p>
+<p>D. prefer to buy the lottery if and only if <span
+class="math inline">\(p &gt; \frac{51 }{ 221}\)</span></p>
+<p>The next TWO questions are based on the following model: Suppose that
+there are two goods, which are imperfect substitutes of each other. Let
+<span class="math inline">\(p_1 ,p_2\)</span> denote the price of good 1
+and good 2 , respectively. Demand of good 1 and good 2 are as follows
+<span class="math inline">\(D_1 (p_1 ,p_2 ) =a−p_1 +bp_2 ; D_2 (p_1 ,p_2
+) =a−p_2 +bp_1\)</span> where <span class="math inline">\(a
+&gt;0\)</span> and <span class="math inline">\(1&gt; b &gt;0\)</span> .
+Both of the goods can be produced at costcper unit.</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Find the equilibrium prices, when good 1 and good 2 are produced by
+two different monopolists</li>
+</ol>
+<p>A. <span class="math inline">\(p_1 =p_2 =\frac{a
++c}{2-b}\)</span></p>
+<p>B. <span class="math inline">\(p_1 =p_2 =\frac{a
++c}{1-b}\)</span></p>
+<p>C.<span class="math inline">\(p_1 =\frac{a +c}{2-b}, p_2 =\frac{a
++c}{1-b}\)</span></p>
+<p>D. <span class="math inline">\(p_1 =\frac{a+c}{1-b}, p_2 =\frac{a
++c}{2-b}\)</span></p>
+<ol start="8" style="list-style-type: decimal">
+<li>Find the equilibrium prices, when both the goods are produced by
+single monopolist.</li>
+</ol>
+<p>A. <span class="math inline">\(p_1 =p_2 =\frac{a+
+c−bc}{2-b}\)</span></p>
+<p>B. <span class="math inline">\(p_1 =p_2 =\frac{a
+c−bc}{1-b}\)</span></p>
+<p>C. <span class="math inline">\(p_1 =p_2
+=\frac{a+c−bc}{2(1-b)}\)</span></p>
+<p>D. <span class="math inline">\(p_1 =p_2 =\frac{a+c
+−bc}{2}\)</span></p>
+<p>Answer 9 and 10 using the following information: H stands for the
+Headcount Ratio of Poverty (total number of poor divided by total
+population); C for Mean Consumption per capita; E for Elasticity of H
+with respect to C; NSS for National Sample Survey; and NAS for National
+Accounts Statistics.</p>
+<pre><code>insert table later </code></pre>
+<ol start="9" style="list-style-type: decimal">
+<li>From the data in Table 1, we can conclude that the total number of
+poor people was</li>
+</ol>
+<p>A. Rising before 1991 but falling after 1991</p>
+<p>B. Falling before 1991 but rising after 1991</p>
+<p>C. Falling both before and after 1991, but at different rates</p>
+<p>D. Rising both before and after 1991, but at different rates</p>
+<ol start="10" style="list-style-type: decimal">
+<li>From the data in Table 2, we can conclude that both before and after
+1991, mean consumption per-capita according to NAS was:</li>
+</ol>
+<p>A. Lower than mean consumption per-capita according to NSS</p>
+<p>B. Growing faster than mean consumption per-capita according to
+NSS</p>
+<p>C. Growing slower than mean consumption per-capita according to
+NSS</p>
+<p>D. None of the above</p>
+<ol start="11" style="list-style-type: decimal">
+<li>If two balanced die are rolled, the sum of dots obtained is even
+with probability</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{1}{ 2}\)</span></p>
+<p>B. $4</p>
+<p>C. <span class="math inline">\(\frac{3}{ 8}\)</span></p>
+<p>D. <span class="math inline">\(\frac{1}{ 3}\)</span></p>
+<ol start="12" style="list-style-type: decimal">
+<li>A population is growing at the instantaneous growth rate of 1.5 per
+cent. The time taken (in years) for it to double is approximately</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{\log 2}{0. 15}\)</span></p>
+<p>B. <span class="math inline">\(\frac{\log 2}{ 15}\)</span></p>
+<p>C. <span class="math inline">\(\frac{\log 2}{. 015}\)</span></p>
+<p>D. <span class="math inline">\(\frac{\log 2}{ 1. 5}\)</span></p>
+<ol start="13" style="list-style-type: decimal">
+<li>A linear regression model <span class="math inline">\(y= \alpha +
+\beta x+\epsilon\)</span> is estimated using OLS. It turns out that the
+estimated <span class="math inline">\(\hat \beta\)</span> equals zero.
+This implies that:</li>
+</ol>
+<p>A. <span class="math inline">\(R^2\)</span> is zero</p>
+<p>B. <span class="math inline">\(R^2\)</span> is one</p>
+<ol start="3" style="list-style-type: upper-alpha">
+<li><span class="math inline">\(0&lt; R^2 &lt; 1\)</span></li>
+</ol>
+<p>D. In this case <span class="math inline">\(R^2\)</span> is
+undefined</p>
+<ol start="14" style="list-style-type: decimal">
+<li>An analyst has data on wages for 100 individuals. The arithmetic
+mean of the log of wages is the same as:</li>
+</ol>
+<p>A. Log of the geometric mean of wages</p>
+<p>B. Log of the arithmetic mean of wages</p>
+<p>C. Exponential of the arithmetic mean of wages</p>
+<p>D. Exponential of the log of arithmetic mean of wages</p>
+<ol start="15" style="list-style-type: decimal">
+<li>A certain club consists of 5 men and 5 women. A 5 member committee
+consisting of 2 men and 3 women has to be constituted. How many ways are
+there of constituting this committee?</li>
+</ol>
+<p>A. 20</p>
+<p>B. 100</p>
+<p>C. 150</p>
+<p>D. None of the above</p>
+<ol start="16" style="list-style-type: decimal">
+<li>Exchange rate overshooting occurs:</li>
+</ol>
+<p>A. under fixed exchange rates when the central bank mistakenly buys
+or sells too much foreign exchange</p>
+<p>B. under fixed exchange rates as a necessary part of the adjustment
+process for any monetary shock</p>
+<p>C. under flexible exchange rates when the exchange rate rises
+(depreciates) above and then falls down to equilibrium after a monetary
+expansion</p>
+<p>D. decreases the value of the determinant</p>
+<ol start="17" style="list-style-type: decimal">
+<li>In an open economy with a system of flexible exchange rates and
+perfect capital mobility,</li>
+</ol>
+<p>an expansionary monetary policy:</p>
+<p>A. causes the domestic currency to appreciate</p>
+<p>B. has a greater impact on income than in a closed economy</p>
+<p>C. increases capital inflows into the country</p>
+<p>D. induces a balance of payments deficit</p>
+<ol start="18" style="list-style-type: decimal">
+<li>The short-run aggregate supply curve is upward sloping because</li>
+</ol>
+<p>A. lower price level creates a wealth effect</p>
+<p>B. lower taxes motivate people to work more</p>
+<p>C. money wages do not immediately change when the price level
+changes</p>
+<p>D. most business firms operate with long-term contracts for output
+but not labour</p>
+<ol start="19" style="list-style-type: decimal">
+<li>The term ‘seignorage’ is associated with</li>
+</ol>
+<p>A. inflation generated by printing new money</p>
+<p>B. real revenue created by printing new money</p>
+<p>C. public indebtedness created by printing new money</p>
+<p>D. none of the above</p>
+<ol start="20" style="list-style-type: decimal">
+<li>If money demand is stable, an open market purchase of government
+securities by the</li>
+</ol>
+<p>central bank will:</p>
+<p>A. increase both the level of income and the interest rate</p>
+<p>B. decrease both the level of income and the interest rate</p>
+<p>C. increase the level of income and lower the interest rate</p>
+<p>D. decrease the level of income and raise the interest rate</p>
+<ol start="21" style="list-style-type: decimal">
+<li>The function defined by <span class="math inline">\(f(x) =x^5 + 7x^3
++ 13x− 18\)</span></li>
+</ol>
+<p>A. may have 5 real roots</p>
+<p>B. has no real roots</p>
+<p>C. has 3 real roots</p>
+<p>D. has exactly 1 real root</p>
+<ol start="22" style="list-style-type: decimal">
+<li>The function <span class="math inline">\(f(x) =\frac{1}{4} x^4
+−\frac{1}{2} x^3 − 3 x^2 + 6\)</span> is</li>
+</ol>
+<p>A. concave on <span class="math inline">\((− \infty ,2)\)</span> and
+convex on <span class="math inline">\((2, \infty )\)</span>.</p>
+<p>B. concave on <span class="math inline">\((− 1 ,2)\)</span>, convex
+on <span class="math inline">\((− \infty ,−1)\)</span> and <span
+class="math inline">\((2, \infty )\)</span>.</p>
+<p>C. convex on <span class="math inline">\((− 1 ,2)\)</span>, concave
+on <span class="math inline">\((− \infty ,−1)\)</span> and <span
+class="math inline">\((2, \infty )\)</span>.</p>
+<p>D. convex on <span class="math inline">\((− \infty ,2)\)</span> and
+concave on <span class="math inline">\((2, \infty )\)</span>.</p>
+<ol start="23" style="list-style-type: decimal">
+<li>Consider the function <span class="math inline">\(f(x) =\frac{9}{2}
+x^{(\frac{2}{3})}−\frac{3}{5} x^{(\frac{5}{3})}\)</span> for allxin the
+closed interval <span class="math inline">\([ − 1 ,5]\)</span>. f(5) is
+approximately equal to 4.386.f(x) attains a maximum on interval <span
+class="math inline">\([ − 1 ,5]\)</span> at</li>
+</ol>
+<p>A. x=− 1</p>
+<p>B. x= 2</p>
+<p>C. x= 3</p>
+<p>D. x= 4</p>
+<ol start="24" style="list-style-type: decimal">
+<li>Consider the functionfdefined by <span class="math inline">\(f(x)
+=x^6 + 5x^4 + 2\)</span> , for all <span class="math inline">\(x \geq
+0\)</span> . The derivative of its inverse function evaluated at f(x) =
+8, that is, <span class="math inline">\(f^{-1} ′(8)\)</span> equals</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{1}{ 7}\)</span></p>
+<p>B. <span class="math inline">\(\frac{1}{ 15}\)</span></p>
+<p>C. <span class="math inline">\(\frac{1}{ 26}\)</span></p>
+<p>D. <span class="math inline">\(\fraaac{1}{ 20}\)</span></p>
+<ol start="25" style="list-style-type: decimal">
+<li>Consider the following functions. <span class="math inline">\(f:R^2
+→R^3\)</span> defined by <span class="math inline">\(f(x,y) = (x+
+2y,x−y,− 2 x+3 y)\)</span> . And <span class="math inline">\(g:R^2
+→R^2\)</span> defined by <span class="math inline">\(g(x,y) = (x+ 1,y+
+2)\)</span> . Then</li>
+</ol>
+<p>A. Both f and g are linear transformations</p>
+<p>B.  f is a linear transformation, but g is not a linear
+transformation</p>
+<p>C . f is not a linear transformation, but g is a linear
+transformation</p>
+<ol start="4" style="list-style-type: upper-alpha">
+<li>Neither f nor g is a linear transformation</li>
+</ol>
+<ol start="26" style="list-style-type: decimal">
+<li>A six meter long string is cut in two pieces. The first piece, with
+length equal to some x, is used to make a circle, the second, with
+length (6−x), to make a square. What value of x will minimize the sum of
+the areas of the circle and the square? (x is allowed to be 0 or 6 as
+well).</li>
+</ol>
+<p>A. <span class="math inline">\(x= \frac{24 \pi }{(1 + 4 \pi
+)}\)</span></p>
+<p>B. <span class="math inline">\(x= \frac{6 \pi }{(4 + \pi
+)}\)</span></p>
+<p>C. x= 6</p>
+<p>D. <span class="math inline">\(x= \frac{1}{ 2  \pi}\)</span> </p>
+<ol start="27" style="list-style-type: decimal">
+<li>The repeated nonterminating decimal 0. 272727 <span
+class="math inline">\(\dots\)</span></li>
+</ol>
+<p>A. cannot be represented as a fraction.</p>
+<p>B. equals <span class="math inline">\(\frac{27}{ 99}\)</span></p>
+<p>C. lies strictly between <span
+class="math inline">\(\frac{27}{99}\)</span> and <span
+class="math inline">\(\frac{27}{100}\)</span>.</p>
+<p>D. is an irrational number.</p>
+<p>Suppose three players, 1, 2 and 3, use the following procedure to
+allocate 9 indivisible coins. Player 1 proposes an allocation <span
+class="math inline">\((x_1 ,x_2 ,x_3 )\)</span> where <span
+class="math inline">\(x_i\)</span> is the number of coins given to
+player i. Players 2 and 3 vote on the proposal, saying either Y (Yes) or
+N (No). If there are two Y votes, then the proposed allocation is
+implemented. If there are two N votes, the proposal is rejected. If
+there is one Y vote and one N vote, then player 1 gets to vote Y or N.
+Now, the proposal is accepted if there are two Y votes and rejected if
+there are two N votes. If 1’s proposal is rejected, then 2 makes a
+proposal. Now, only 3 votes Y or N. If 3 votes Y, then 2’s proposal is
+accepted. If 3 votes N, then the proposal is rejected and the allocation
+(3, 3, 3) is implemented. Assume that, if the expected allocation to be
+received by a particular player by voting Y or N is identical, then the
+player votes N.</p>
+<ol start="28" style="list-style-type: decimal">
+<li>If 1’s proposal is rejected and 2 gets to make a proposal, her
+proposal will be</li>
+</ol>
+<p>A. (0, 5 ,4)</p>
+<p>B. (0, 4 ,5)</p>
+<p>C. (0, 6 ,3)</p>
+<p>D. (0, 3 ,6)</p>
+<ol start="29" style="list-style-type: decimal">
+<li>1’s proposal will be</li>
+</ol>
+<p>A. (5, 0 ,4)</p>
+<p>B. (4, 0 ,5)</p>
+<p>C. (3, 6 ,0)</p>
+<p>D. (6, 3 ,0)</p>
+<ol start="30" style="list-style-type: decimal">
+<li>Consider the following change of the above situation. If 2 makes a
+proposal and 3 votes Y, then 2’s proposal is implemented. However, if 3
+votes N, then 1 gets to choose between 2’s proposal and the allocation
+(3, 3 ,3). If 1’s proposal is rejected and 2 gets to make a proposal,
+her proposal will be</li>
+</ol>
+<p>A. (4, 5 ,0)</p>
+<p>B. (0, 5 ,4)</p>
+<p>C. either (a) or (b)</p>
+<p>D. neither (a) nor (b)</p>
+<ol start="31" style="list-style-type: decimal">
+<li>Utility of a consumer is given by <span class="math inline">\(u(x_1
+,x_2 ) = \min(x _1 ,x_2 )\)</span> . His income is M, and price of good
+2 is 1. There are two available price schemes for good 1: (i) per unit
+price 2 and (ii) a reduced per unit price <span
+class="math inline">\(2−\theta\)</span> along with a fixed fee T. A
+consumer would be  indifferent between the above schemes if</li>
+</ol>
+<p>A. <span class="math inline">\(\theta= \frac{2T}{M}\)</span></p>
+<p>B. <span class="math inline">\(\theta = \frac{3T}{M}\)</span></p>
+<p>C. <span class="math inline">\(\theta =\frac{T}{M}\)</span></p>
+<p>D. <span class="math inline">\(\theta= \frac{(T+ 1)}{M}\)</span></p>
+<p>Suppose, an individual lives for two periods. In each period she
+consumes only one good, which is rice. In period 2, she can costlessly
+produce 1 unit of rice, but in period 1 she produces nothing. However,
+in period 1 she can borrow rice at an interest rate r &gt;0. That is, if
+she borrows z units of rice in period 1, then in Period 2, she must
+return z(1 +r) units of rice. Let <span
+class="math inline">\(x_1\)</span> and <span
+class="math inline">\(x_2\)</span> denote her consumption of rice in
+period 1 and period 2, respectively; <span class="math inline">\(x_1
+,x_2 \geq 0\)</span> . Her utility function is given by <span
+class="math inline">\(U(x_1 ,x_2 ) =x_1 + \beta x_2\)</span> , where
+<span class="math inline">\(\beta\)</span> is the discount factor, <span
+class="math inline">\(0&lt;  \beta  &lt;1\)</span> . Note that there are
+only two sources through which rice can be available; own production and
+borrowing.</p>
+<ol start="32" style="list-style-type: decimal">
+<li>Find the interest rater, at which the individual would borrow <span
+class="math inline">\(\frac{1}{2}\)</span> unit of rice in period
+1.</li>
+</ol>
+<p>A. 2</p>
+<p>B. $4</p>
+<p>C. <span class="math inline">\(\beta − 1\)</span></p>
+<p>D. <span class="math inline">\(\frac{1}{\beta} − 1\)</span></p>
+<ol start="33" style="list-style-type: decimal">
+<li>Now suppose that there are N agents in the above two period economy.
+The agents are identical (in terms of production and utility function)
+except that they have different discount factors. Suppose that  <span
+class="math inline">\(\beta\)</span> follows uniform distribution in the
+interval Assuming <span class="math inline">\(r\leq 1\)</span> , the
+demand function for rice in period 1 will be</li>
+</ol>
+<p>A.<span class="math inline">\(N\frac{1-r}{1+r}\)</span></p>
+<p>B.<span class="math inline">\(N\frac{(1-r)}{(1+r)^2}\)</span></p>
+<p>C.<span class="math inline">\(N \frac{r}{1+r}\)</span></p>
+<p>D.<span class="math inline">\(N\frac{r}{ 2}\)</span></p>
+<p>Answer 34, 35 based on the following situation: Consider a two-person
+two-good exchange economy: persons/agents are A and B, and goods are 1
+and 2. The agents have the following utility functions: <span
+class="math inline">\(u_A(x_1 ,x_2 ) = \alpha x_1 +x_2 u_B(y_1 ,y_2 )
+=y_1 y_2\)</span> where <span class="math inline">\(x_1\)</span> and
+<span class="math inline">\(x_2\)</span> denote the allocation to A of
+good 1 and good 2, respectively. Similarly, y 1 andy 2 denote the
+allocation to Bof good 1 and good 2, respectively. There are 5 units of
+each good; i.e., <span class="math inline">\(x_1 +y_1 = 5 \ and \ x_2
++y_2 = 5\)</span> . Now, consider the following allocation: Agent Agets
+4 units of good 1 only, but agent B gets 1 unit of good 1 and 5 units of
+good 2.</p>
+<ol start="34" style="list-style-type: decimal">
+<li>Suppose an agent i is said to envy agent j , if i strictly prefers
+j’s allocation over her own allocation. And, an allocation is called
+‘No-envy allocation’ if none of the agents envies the other. In that
+case,</li>
+</ol>
+<p>A. the above allocation is always ‘No-envy allocation’</p>
+<p>B. the above allocation is never ‘No-envy allocation’</p>
+<p>C. the above allocation is ‘No-envy allocation’ if <span
+class="math inline">\(\alpha \geq \frac{5}{3}\)</span></p>
+<p>D. the above allocation is ‘No-envy allocation’ if <span
+class="math inline">\(\alpha \leq \frac{3}{5}\)</span></p>
+<ol start="35" style="list-style-type: decimal">
+<li>The above allocation is</li>
+</ol>
+<p>A. always Pareto optimal</p>
+<p>B. never Pareto optimal</p>
+<p>C. Pareto optimal if <span class="math inline">\(\alpha \leq
+5\)</span></p>
+<p>D. Pareto optimal if <span class="math inline">\(\alpha \geq
+5\)</span></p>
+<p>Answer 36, 37 based on the following situation: There are two goods:
+a basic good, say a car, and a complementary good, say car audio.
+Suppose that the basic good is produced by a monopolist at no cost and
+the complementary good is produced by a competitive industry at cost c
+per unit. Let p be the price of the basic good. Each consumer has three
+choices:</p>
+<ol style="list-style-type: lower-roman">
+<li><p>consume nothing, which gives 0 utility</p></li>
+<li><p>consume one unit of the basic good, which gives v−p
+utility</p></li>
+<li><p>consume one unit of the basic good and one unit of the
+complementary good (called bundle), which gives w−p−c utility. Assume w
+&gt; v &gt;0. Next, suppose there are two types of consumers of cars:
+<span class="math inline">\([Middle Class]\)</span> :They have
+valuations <span class="math inline">\(v_1\)</span> and <span
+class="math inline">\(w_1\)</span> for the basic good and the bundle,
+respectively. <span class="math inline">\([ Rich]\)</span>: They have
+valuations <span class="math inline">\(v_2\)</span> and <span
+class="math inline">\(w_2\)</span> for the basic good and the bundle,
+respectively. Suppose, <span class="math inline">\(v_2 &gt; v_1\)</span>
+and <span class="math inline">\(w_2 −v_2 &gt; c &gt; w_1 −v_1\)</span>
+.</p></li>
+</ol>
+<ol start="36" style="list-style-type: decimal">
+<li>Find the socially efficient consumption.</li>
+</ol>
+<p>A. Rich choose (ii) and Middle class choose (i)</p>
+<p>B. Rich choose (iii) and Middle class choose (i)</p>
+<p>C. Rich choose (iii) and Middle class choose (ii)</p>
+<p>D. Both Rich and Middle class choose (ii)</p>
+<ol start="37" style="list-style-type: decimal">
+<li>Suppose that the monopolist can distinguish between two types of
+consumers. What prices would she charge?</li>
+</ol>
+<p>A. <span class="math inline">\(v_2\)</span> from Rich, and <span
+class="math inline">\(v_1\)</span> from Middle Class</p>
+<p>B. <span class="math inline">\(w_2 −c\)</span> from Rich, and <span
+class="math inline">\(w_1 −c\)</span> from Middle Class</p>
+<p>C. <span class="math inline">\(w_1 −c\)</span> from Rich as well as
+Middle Class</p>
+<p>D. <span class="math inline">\(w_2 −c\)</span> from Rich, and <span
+class="math inline">\(v_1\)</span> from Middle Class</p>
+<ol start="38" style="list-style-type: decimal">
+<li>Suppose that a city can be described by an interval <span
+class="math inline">\([ 0,1]\)</span>. Only two citizens, A and B, live
+in this city at different locations; A at 0.2 and B at 0.7. Government
+has decided to set up a nuclear power plant in this city but is yet to
+choose its location. Each citizen wants the plant as far as possible
+from her home and hence both of them have the same utility
+function,<span class="math inline">\(u(d) =d\)</span> , where d denotes
+the distance between the plant and home. Find the set of Pareto optimal
+locations for the plant.</li>
+</ol>
+<p>A. All locations in the interval <span class="math inline">\([ 0,
+1]\)</span> are Pareto optimal</p>
+<p>B. All locations in the interval <span class="math inline">\([ 0.2,
+0.7]\)</span> are Pareto optimal</p>
+<p>C. 0.5 is the only Pareto optimal location</p>
+<p>D. 0 and 1 are the only Pareto optimal locations</p>
+<p>Answer 39, 40 based on the following situation: Consider an exchange
+economy with agents 1 and 2 and goodsxandy. Agent 1 lexicographically
+prefers the goodx: when offered two non-identical bundles ofxandy, she
+strictly prefers the bundle with more of goodx, but if the bundles have
+the same amount of goodx, then she strictly prefers the bundle with more
+of goody. However, Agent 2 lexicographically prefers goody.</p>
+<ol start="39" style="list-style-type: decimal">
+<li>Suppose 1’s endowment is (10,0) and 2’s endowment is (0,10). The
+vector (px,py) is a competitive equilibrium vector of pricesif and only
+if</li>
+</ol>
+<p>A. <span class="math inline">\(p_x= 1 =p_y\)</span></p>
+<p>B. <span class="math inline">\(px&gt;0 \ and\ p_y&gt; 0\)</span></p>
+<p>C. <span class="math inline">\(p_x&gt; p_y&gt; 0\)</span></p>
+<p>D. <span class="math inline">\(p_y&gt; p_x&gt; 0\)</span></p>
+<ol start="40" style="list-style-type: decimal">
+<li>Suppose we make only one change in the above situation: Person 1
+lexicographically prefersyand 2 lexicographically prefers x. The vector
+<span class="math inline">\((p_x,p_y)\)</span> is a competitive
+equilibrium vector of prices if and only if</li>
+</ol>
+<p>A. <span class="math inline">\(p_x= 1 =p_y\)</span></p>
+<p>B. <span class="math inline">\(p_x&gt;0 \ and\ p_y&gt; 0\)</span></p>
+<p>C. <span class="math inline">\(p_x&gt; p_y&gt; 0\)</span></p>
+<p>D. <span class="math inline">\(p_y=p_x&gt; 0\)</span></p>
+<ol start="41" style="list-style-type: decimal">
+<li>Consider two disjoint events A and B in a sample space S. Which of
+the following is correct?</li>
+</ol>
+<p>A. A and B are always independent</p>
+<p>B. A and B cannot be independent</p>
+<p>C. A and B are independent if exactly one of them has positive
+probability</p>
+<p>D. A and B are independent if both of them have positive
+probability</p>
+<ol start="42" style="list-style-type: decimal">
+<li>A bowl contains 5 chips, 3 marked $1 and 2 marked $4. A player draws
+2 chips at random and is paid the sum of the values of the chips. The
+player’s expected gain (in $) is</li>
+</ol>
+<p>A. less than 2</p>
+<p>B. 3</p>
+<p>C. above 3 and less than 4</p>
+<p>D. above 4 and less than 5</p>
+<ol start="43" style="list-style-type: decimal">
+<li>Consider the following two income distributions in a 10 person
+society. A: (1000,1000, 1000, 1000, 1000, 1000, 1000, 2000, 2000, 2000)
+andB: (1000, 1000, 1000, 1000, 1000, 2000, 2000, 2000, 2000, 2000).
+Which of the following statements most accurately describes the
+relationship between the two distributions?</li>
+</ol>
+<p>A. The Lorenz curve for distributionAlies to the right of that for
+distributionB</p>
+<p>B. The Lorenz curve for distributionBlies to the right of that for
+distributionA</p>
+<p>C. The Lorenz curves for the two distributions cross each other</p>
+<p>D. The Lorenz curves for the two distributions are identical for the
+bottom half of the population</p>
+<ol start="44" style="list-style-type: decimal">
+<li>A certain club consists of 5 men and 5 women. A 5-member committee
+consisting of 2 men and 3 women has to be constituted. Also, suppose
+that Mrs. F refuses to work with Mr. M. How many ways are there of
+constituting a 5-member committee that ensures that both of them do not
+work together?</li>
+</ol>
+<p>A. 50</p>
+<p>B. 76</p>
+<p>C. 108</p>
+<p>D. None of the above</p>
+<ol start="45" style="list-style-type: decimal">
+<li>Suppose, you are an editor of a magazine. Everyday you get two
+letters from your correspondents. Each letter is as likely to be from a
+male as from a female correspondent. The letters are delivered by a
+postman, who brings one letter at a time. Moreover, he has a ‘ladies
+first’ policy; he delivers letter from a female first, if there is such
+a letter. Suppose you have already received the first letter for today
+and it is from a female correspondent. What is the probability that the
+second letter will also be from a female?</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>B. <span class="math inline">\(\frac{1}{4}\)</span></p>
+<p>C. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>D. <span class="math inline">\(\frac{2}{3}\)</span></p>
+<ol start="46" style="list-style-type: decimal">
+<li>On an average, a waiter gets no tip from two of his customers on
+Saturdays. What is the probability that on next Saturday, he will get no
+tip from three of his customers?</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{9}{2} e^{-3}\)</span></p>
+<p>B. <span class="math inline">\(2e^{-3}\)</span></p>
+<p>C. <span class="math inline">\(\frac{4}{3} e^{-2}\)</span></p>
+<p>D. <span class="math inline">\(3e^{-2}\)</span></p>
+<ol start="47" style="list-style-type: decimal">
+<li>A linear regression model <span class="math inline">\(y= \alpha +
+\beta x+\epsilon\)</span> is estimated using OLS. It turns out that the
+estimated <span class="math inline">\(R^2\)</span> equals zero. This
+implies that:</li>
+</ol>
+<p>A. All x’s are necessarily zero</p>
+<p>B. <span class="math inline">\(\hat \beta = 1 \ and\ y= \hat \alpha
++x\)</span></p>
+<p>C. <span class="math inline">\(\hat \beta = 0\)</span> or all x’s are
+constant</p>
+<p>D. There are no implications for <span class="math inline">\(\hat
+\beta\)</span></p>
+<ol start="48" style="list-style-type: decimal">
+<li>Using ordinary least squares, a market analyst estimates the
+following demand function <span class="math inline">\(\log X = \alpha +
+\beta \log P+\epsilon\)</span> where X is the output and P is the price.
+In another formulation, she estimates the above function after dividing
+all prices by 1000. Comparing the two sets of estimates she would find
+that</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><span class="math inline">\(\hat \alpha \ and\  \hat \beta\)</span>
+will be the same in both formulations</li>
+</ol>
+<p>B. <span class="math inline">\(\hat \alpha \ and\  \hat
+\beta\)</span> will differ across both formulations</p>
+<p>C. <span class="math inline">\(\hat \alpha\)</span> will change but
+<span class="math inline">\(\hat \beta\)</span> will not</p>
+<p>D.  <span class="math inline">\(\hat \beta\)</span> will change but
+<span class="math inline">\(\hat \alpha\)</span> will not</p>
+<ol start="49" style="list-style-type: decimal">
+<li>A linear regression model is estimated using ordinary least squares
+<span class="math inline">\(y= \alpha + \beta x+\epsilon\)</span> . But
+the variance of the error term is not constant, and in fact varies
+directly with another variablez, which is not included in the model.
+Which of the following statements is true?</li>
+</ol>
+<p>A. The OLS estimated coefficients will be biased because of the
+correlation be- tweenxand the error term</p>
+<p>B. The OLS estimated coefficients will be unbiased but their
+estimated standard errors will be biased</p>
+<p>C. The OLS estimated coefficients will be unbiased and so will their
+estimated standard errors because the error variance is not related tox,
+but tozwhich is not included in the model</p>
+<p>D. Both the OLS estimated coefficients and their estimated standard
+errors will be biased</p>
+<ol start="50" style="list-style-type: decimal">
+<li>Suppose the distribution functionF(x) of a random variableXis rising
+in the interval <span class="math inline">\([ a,b)\)</span> and
+horizontal in the interval <span class="math inline">\([ b,c]\)</span>.
+Which of the following statements CAN be correct?</li>
+</ol>
+<p>A. F(x) is the distribution function of a continuous random
+variableX.</p>
+<p>B.cis not the largest value that X can take.</p>
+<p>C. The probability that X=b is strictly positive.</p>
+<p>D. Any of the above</p>
+<p>Consider an open economy simple Keynesian model with autonomous
+investment (I). People save a constant proportion (s) of their
+disposable income and consume the rest. Government taxes the total
+income at a constant rate (<span class="math inline">\(\tau\)</span> )
+and spends an exogenous amount (G) on various administrative activities.
+The level of export (X) is autonomous at the fixed real exchange rate
+(normalized to unity). Import (M) on the other hand is a linear function
+of total income with a constant import propensitym.Let <span
+class="math inline">\(I= 3200;G= 4000;X= 800;s=\frac{1}{2} ;\tau
+=\frac{2}{5} ; \ and\ m= 101\)</span></p>
+<ol start="51" style="list-style-type: decimal">
+<li>The equilibrium level of income is given by:</li>
+</ol>
+<p>A. 8,000</p>
+<p>B. 16,000</p>
+<p>C. 10,000</p>
+<p>D. None of the above</p>
+<ol start="52" style="list-style-type: decimal">
+<li>At this equilibrium level of income</li>
+</ol>
+<p>A. there is trade surplus</p>
+<p>B. there is a trade deficit</p>
+<p>C. trade is balanced</p>
+<p>D. one cannot comment on the trade account without further
+information</p>
+<ol start="53" style="list-style-type: decimal">
+<li>Now suppose the government decides to maintain a balanced trade by
+appropriately adjusting the tax rate <span
+class="math inline">\(\tau\)</span> (there by affecting domestic
+absorption) - without changing the exchange rate or the amount of
+government expenditure. Values of other parameters remain the same. The
+government</li>
+</ol>
+<p>A. can attain this by decreasing the tax rate to <span
+class="math inline">\(\frac{1}{5}\)</span></p>
+<p>B. can attain this by increasing the tax rate to <span
+class="math inline">\(\frac{4}{5}\)</span></p>
+<p>C. can attain this by simply keeping that tax rate unchanged at <span
+class="math inline">\(\frac{2}{5}\)</span></p>
+<p>D. can never attain this objective by adjusting only the tax rate</p>
+<ol start="54" style="list-style-type: decimal">
+<li>Suppose in an economy banks maintain a cash reserve ratio of 20%.
+People hold 25% of their money in currency form and the rest in the form
+of demand deposits. If government increases the high-powered money by
+2000 units, the corresponding increase in the money supply would be</li>
+</ol>
+<p>A. 5000 units</p>
+<p>B. 2000 units</p>
+<p>C. 7200 units</p>
+<p>D. None of the above</p>
+<ol start="55" style="list-style-type: decimal">
+<li>Consider the standard IS-LM framework with exogenous money supply.
+Now suppose the government introduces an endogenous money supply rule
+such that the money supply becomes an increasing function of the
+interest rate. As compared to the standard IS-LM case, now</li>
+</ol>
+<p>A. the IS curve will be flatter and fiscal policy would be more
+effective</p>
+<p>B. the IS curve will be steeper and fiscal policy would be less
+effective</p>
+<p>C. the LM curve will be flatter and fiscal policy would be more
+effective</p>
+<p>D. the LM curve will be steeper and fiscal policy would be less
+effective</p>
+<p>Answer 56,57,58,59 and 60 based on the following information:
+Consider an economy where aggregate output is produced by using two
+factors: capital (K) and labour (L). Aggregate production technology is
+given by the following production function: <span
+class="math inline">\(Y_t= \alpha K_t+ \beta L_t\)</span> , where <span
+class="math inline">\(\alpha , \beta  &gt; 0\)</span>   At every point
+of time both factors are fully employed; each worker is paid a wage rate
+<span class="math inline">\(\beta\)</span>   and each unit of capital is
+paid a rental price <span class="math inline">\(\alpha\)</span> .A
+constant proportionsof total output is saved and invested in every
+period - which augments the capital stock in the next period (no
+depreciation of capital). Labour force grows at a constant raten.</p>
+<ol start="56" style="list-style-type: decimal">
+<li>This production function violates</li>
+</ol>
+<p>A. the neoclassical property of constant returns to scale</p>
+<p>B. the neoclassical property of diminishing returns to each
+factor</p>
+<p>C. the neoclassical property of factor returns being equal to the
+respective marginal products</p>
+<p>D. the neoclassical property of substitutability between capital and
+labour</p>
+<ol start="57" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(k_t = \frac{K_t}{L_t}\)</span> . The
+correspondingper capita output, <span class="math inline">\(y_t\)</span>
+, is given by which of the following equations?</li>
+</ol>
+<p>A. <span class="math inline">\(y_t= \alpha + \beta k_t\)</span></p>
+<p>B. <span class="math inline">\(y_t= \beta (k_t)^{\alpha}\)</span></p>
+<p>C. <span class="math inline">\(y_t= \alpha k_t+ \beta\)</span> </p>
+<p>D. <span class="math inline">\(y_t= \alpha (k_t)^{\beta}\)</span>
+ </p>
+<ol start="58" style="list-style-type: decimal">
+<li>The dynamic equation for capital accumulation per worker is given
+by</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{dk}{dt} =s \beta k_t \alpha
+−nk_t\)</span></p>
+<p>B. <span class="math inline">\(\frac{dk}{dt} =s \alpha k_t+s \beta
+−nk_t\)</span></p>
+<p>C. <span class="math inline">\(\frac{dk}{dt} =s \alpha
+k_t−nk_t\)</span></p>
+<p>D. <span class="math inline">\(\frac{dk}{dt} =s \alpha k_t^{\beta}
+−nk_t\)</span></p>
+<ol start="59" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(\alpha =\frac{1}{2} ;  \beta = 12;
+s=\frac{1}{4} ; n=\frac{1}{2}\)</span> . The corresponding steady state
+value of capital per worker is given by</li>
+</ol>
+<p>A. 8</p>
+<p>B. 36</p>
+<p>C. <span class="math inline">\((4)^{\frac{1}{11}}\)</span></p>
+<p>D. There does not exist any well-defined steady state value</p>
+<ol start="60" style="list-style-type: decimal">
+<li>Consider the same set of parameter values as above. An increase in
+the savings ratio</li>
+</ol>
+<p>A. unambiguously increases the steady state value of capital per
+worker</p>
+<p>B. unambiguously decreases the steady state value of capital per
+worker</p>
+<p>C. leaves the steady state value of capital per worker unchanged</p>
+<p>D. has an ambiguous effect; a steady state may not exist if the
+savings ratio increases sufficiently</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

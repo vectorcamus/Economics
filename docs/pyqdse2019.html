@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2019</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2019</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<p>DSE 2019</p>
+<ol style="list-style-type: decimal">
+<li>The range of the function <span class="math inline">\(f:R→R\)</span>
+defined by <span
+class="math inline">\(f(x)=\frac{x^2+x+2}{x^2+x+1}\)</span></li>
+</ol>
+<p> A.  <span class="math inline">\((1,∞)\)</span></p>
+<p> B.  <span class="math inline">\([1,\frac{4}{3} ]\)</span></p>
+<p> C.  <span class="math inline">\([1,\frac{7}{3} ]\)</span></p>
+<p> D.  <span
+class="math inline">\([\frac{1}{3},\frac{8}{3}]\)</span> </p>
+<p>draft</p>
+<ol start="2" style="list-style-type: decimal">
+<li>If a homeowner adds a new bathroom to her house which increases the
+house size by 100 sq. ft., what is the expected increase in the value of
+the house?</li>
+</ol>
+<p> A. Rs. 37 , 000</p>
+<p> B.Rs. 39 , 450</p>
+<p> C.Rs. 37 , 200</p>
+<p> D. Rs. 39 , 000</p>
+<ol start="3" style="list-style-type: decimal">
+<li>If a homeowner converts a bedroom into a bathroom, what is the
+expected increase in  the value of house?</li>
+</ol>
+<p> A. Rs. 22 , 800</p>
+<p> B.Rs. 22 , 915</p>
+<p> C.Rs. 21 , 800</p>
+<p> D. Rs. 23 , 915</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Are the coefficients of BA and PC individually statistically
+significant at the 5% level.</li>
+</ol>
+<p> A. Coefficient of BA is significant, but that of PC is not</p>
+<p> B. Coefficient of PC is significant, but that of BA is not</p>
+<p> C. Both are significant</p>
+<p> D. Neither is significant</p>
+<ol start="5" style="list-style-type: decimal">
+<li>What is the loss in value if a homeowner allows his house to get
+into poor condition?</li>
+<li>A. Rs. 34 , 300</li>
+</ol>
+<p>B.Rs. 36 , 000</p>
+<p>C.Rs. 35 , 600</p>
+<p>D. Rs. 35 , 100</p>
+<ol start="6" style="list-style-type: decimal">
+<li>If variable age were measured in decades, what would be its
+coefficient?</li>
+</ol>
+<p> A.  0. 090</p>
+<p> B.  0. 900</p>
+<p> C.  0. 009</p>
+<p> D.  9. 000</p>
+<ol start="7" style="list-style-type: decimal">
+<li>What is the adjusted coefficient of determination?</li>
+</ol>
+<p>A.   0. 7032</p>
+<p>B.   0. 7042</p>
+<p>C.   0. 7022</p>
+<p> D.   0. 7052</p>
+<p>The next Three questions pertain to the following Trader 1 is endowed
+with 100 identical Left shoes. Trader 2 is endowed with 99 identical
+Right shoes. Each trader’s utility from her allocation of shoes is equal
+to the mumber of complete pairs of shoes in the allocation. Traders 1
+and 2 trade shoes in competitive markets and arrive at a competitive
+equilibrium. Assume that shoes are infinitely divisible.</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Given their endowments, an efficient allocation</li>
+</ol>
+<p> A.   must give trader 1 at least 50 left shoes</p>
+<p> B.   must give trader 1 at least 50 right shoes</p>
+<p> C.   must give trader 1 at least 99 left shoes</p>
+<p> D.   none of the above</p>
+<ol start="11" style="list-style-type: decimal">
+<li>An equilibrium allocation of shoes gives trader 2:</li>
+</ol>
+<p> A.   at most 50 left shoes</p>
+<p> B.   at least 99 left shoes</p>
+<p> C.   at most 99 left shoes</p>
+<p> D.   at most 50 right shoes</p>
+<ol start="12" style="list-style-type: decimal">
+<li>The equilibrium price of left shoe divided by the equilibrium price
+of right shoe is</li>
+</ol>
+<p>A. 1</p>
+<p>B. slightly less than 1</p>
+<p>C. slightly more than 1</p>
+<p>D. 0</p>
+<ol start="13" style="list-style-type: decimal">
+<li>Assume that the aggregate production of an economy is <span
+class="math inline">\(Y_i =\sqrt{K_tL_t}\)</span> ,where <span
+class="math inline">\(K_t+1 = (1−\sigma)K_t+I_t,S_t=sY_i\)</span> and
+<span class="math inline">\(L_t=L\)</span> (i.e., the notation and
+meanings correspond to the setting for the Solow Model with constant
+population). Then, the savings ratesthat maximizes the steady state rate
+of consumption equals</li>
+</ol>
+<p> A.  <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p> B.  <span class="math inline">\(\frac{\sigma}{1+\sigma}\)</span></p>
+<p> C.  <span class="math inline">\(\frac{1}{1+\sigma}\)</span></p>
+<p> D.  None of the above</p>
+<ol start="14" style="list-style-type: decimal">
+<li>Consider a function <span class="math inline">\(f:R^2 →R\)</span> .
+Suppose, for every <span class="math inline">\(p\in R^2\)</span> ,there
+exists x(p)R^2$ such that <span class="math inline">\(f(x(p))\geq
+1\)</span> and <span class="math inline">\(p·x(p)\leq p.y\)</span> for
+every <span class="math inline">\(yin R^2\)</span> such that <span
+class="math inline">\(f(y)\geq 1\)</span> .Define <span
+class="math inline">\(g:R^2 →R\)</span> by <span
+class="math inline">\(g(p) =p.x(p)\)</span> .Then,g is</li>
+</ol>
+<p>A. linear</p>
+<p>B. convex</p>
+<p>C. quasi-convex</p>
+<p>D. concave</p>
+<ol start="15" style="list-style-type: decimal">
+<li>Given nonempty-subsets of <span class="math inline">\(R^2\)</span>
+,say <span class="math inline">\(Y_1 , \dots ,Y_n\)</span> let <span
+class="math inline">\(Y^{∗}= \sum_{j=1}^n y_j |y_1 \in Y_1, \dots , y_n
+\in Y_n\)</span> } Given <span class="math inline">\(p \in R^2\)</span>
+and a nonempty set <span class="math inline">\(Y ⊂R^2\)</span> let <span
+class="math inline">\(v(p,Y) = sup\)</span>{<span
+class="math inline">\(p·y|y \in Y\)</span>}Then, for every p</li>
+</ol>
+<p>A.   <span class="math inline">\(v(p,Y^{∗}) =\sum_{j=1}^n
+v(p,Y_j)\)</span> or <span class="math inline">\(v(p,Y^{∗})
+&gt;\sum_{j=1}^n v(p,Y_j)\)</span></p>
+<p>B.   <span class="math inline">\(v(p,Y^{∗}) =\sum_{j=1}^n
+v(p,Y_j)\)</span></p>
+<p>C.   <span class="math inline">\(v(p,Y^{∗}) \leq \sum_{j=1}^n
+v(p,Y_j)\)</span></p>
+<p>D.  <span class="math inline">\(v(p,Y^{∗}) \geq \sum_{j=1}^n
+v(p,Y_j)\)</span></p>
+<ol start="16" style="list-style-type: decimal">
+<li>A consumer lives for two periods 1 and 2.The lifetime utility
+function is <span class="math inline">\(U=u(c_1 )+\frac {u(c_2)}
+{1+p}\)</span>. The consumer earns <span
+class="math inline">\(w_1\)</span> and <span
+class="math inline">\(w_2\)</span> in the two periods, and her
+consumption <span class="math inline">\(c_1\)</span> and <span
+class="math inline">\(c_2\)</span> satjsfies a lifetime budget
+constraint <span class="math inline">\(c_1 +\frac{c_2}{1+r} =w_1
++\frac{w_2}{1+r}\)</span> .Assume that <span
+class="math inline">\(u(c_t) =\frac{c_t^1-\sigma}{1=\sigma} , t=
+1,2\)</span> . then if <span class="math inline">\(r \geq \roh\)</span>
+, it follows that</li>
+</ol>
+<p> A.   <span class="math inline">\(c_1 \geq c_2\)</span></p>
+<p> B.   <span class="math inline">\(c_1 \leq c_2\)</span></p>
+<p> C.   <span class="math inline">\(c_1 =c_2\)</span></p>
+<p> D.   None of the above is necessarily true</p>
+<ol start="17" style="list-style-type: decimal">
+<li>The price-setting relation determines the real wage paid by firms
+depending on the level of technology (A) and mark-up m, and is
+represented by <span class="math inline">\(WP = 1+Am\)</span> .Under the
+wage- setting relation, the real wage is determined by the level of
+productivity (A) and the unemployment u. This is represented by <span
+class="math inline">\(WP =A(1−u)\)</span> .The effect of an increase in
+the  level of technology on the unemployment is:</li>
+</ol>
+<p> A. Positive</p>
+<p> B. Negative</p>
+<p> C. Zero</p>
+<p> D. ambiguous</p>
+<ol start="18" style="list-style-type: decimal">
+<li>If <span class="math inline">\(f:R→R\)</span> and <span
+class="math inline">\(g:R→R\)</span> are defined by Then, <span
+class="math inline">\(h:R→R\)</span> , defined by <span
+class="math inline">\(h(x) =f(x)−g(x)\)</span>  is</li>
+</ol>
+<p>A. injective but not surjective</p>
+<p>B. surjective but not injective</p>
+<p>C. neither injective nor surjective</p>
+<p>D. bijective</p>
+<ol start="19" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(‖·‖ _{*}\)</span> n and <span
+class="math inline">\(‖·‖ _{*}\)</span> m be norms on <span
+class="math inline">\(R^n\)</span> and <span
+class="math inline">\(R^m\)</span> respectively. Let L be the space of
+linear transformations from <span class="math inline">\(R^n\)</span> to
+<span class="math inline">\(R^m\)</span> and let <span
+class="math inline">\(‖·‖ _{*} = \sup\)</span> {<span
+class="math inline">\(‖L(x)‖m|x∈R^n\)</span>} and <span
+class="math inline">\(‖L‖ _{∗∗}  sup\)</span>{<span
+class="math inline">\(‖L(x)‖m|x\in R^n\)</span> and <span
+class="math inline">\(‖x‖n\leq 1\)</span> }Then,</li>
+</ol>
+<p>       A.   ‖·‖∗defines a norm on L</p>
+<p>       B.   <span class="math inline">\(‖·‖ _{**}\)</span>defines a
+norm on L</p>
+<p>       C.   <span class="math inline">\(‖·‖ _{*}\)</span> and <span
+class="math inline">\(‖·‖ _{**}\)</span>are norms on L</p>
+<p>       D.   Neither <span class="math inline">\(‖·‖ _{*}\)</span> nor
+<span class="math inline">\(‖·‖ _{**}\)</span>is a norm on L</p>
+<ol start="20" style="list-style-type: decimal">
+<li>Suppose that the markup over cost is 20% for a representative firm
+in an economy with labour being the single factor; and the wage-setting
+equation is: <span class="math inline">\(W=P(1−u)\)</span> (where, u=
+the unemploynent rate, <span class="math inline">\(P\)</span> = Price
+and <span class="math inline">\(W\)</span>= wage rate). Then the natural
+rate of unemployment is:</li>
+</ol>
+<p> A.  20%</p>
+<p> B.  17%</p>
+<p> C.  13%</p>
+<p> D.  10%</p>
+<ol start="21" style="list-style-type: decimal">
+<li>What is the money demand function when the utility of money for the
+representative household is given by, <span
+class="math inline">\(U(Y,\frac{M}{P}) = 0.5 lnY+ 0.5
+ln(\frac{M}{P})\)</span> ( <span class="math inline">\(i\)</span>
+represents the opportunity cost of holding money)?</li>
+</ol>
+<p> A.   <span
+class="math inline">\(\frac{M^D}{P}=\frac{Y}{i}\)</span></p>
+<p> B.   <span
+class="math inline">\(\frac{M^D}{P}=\frac{2Y}{i}\)</span></p>
+<p> C.  <span
+class="math inline">\(\frac{M^D}{P}=\frac{Y}{2i}\)</span></p>
+<p> D.   None of the above</p>
+<ol start="23" style="list-style-type: decimal">
+<li>A random number <span class="math inline">\(X\)</span>, uniformly
+distributed on <span class="math inline">\([0,1]\)</span> ,divides <span
+class="math inline">\([0,1]\)</span> into 2 segments of lengths <span
+class="math inline">\(X\)</span> and <span
+class="math inline">\((1−X)\)</span> .Let R be the ratio of the smaller
+to the larger segment (i.e., <span
+class="math inline">\(R=\frac{X}{(1−X)}\)</span> ,or <span
+class="math inline">\(R= \frac{(1−X)}{X}\)</span> ,depending on whether,
+<span class="math inline">\(X \leq \frac{1}{2}\)</span> 1or <span
+class="math inline">\(X &gt; \frac{1} {2}\)</span> The distribution of
+R,F(r),that is the probability that <span class="math inline">\(R\leq
+r\)</span> equals</li>
+</ol>
+<p> A.   <span class="math inline">\(\frac{r}{r+1}\)</span></p>
+<p> B.   <span class="math inline">\(\frac{2r}{r+1}\)</span></p>
+<p> C.   <span class="math inline">\(\frac{1}{r+1}\)</span></p>
+<p> D.   <span class="math inline">\(\frac{1-r}{r+1}\)</span></p>
+<ol start="24" style="list-style-type: decimal">
+<li>If the marginal propensity to save is 0.3 and the marginal
+propensity to import is 0.1 and the government increases expenditures by
+Rs. 10 billion, ignoring foreign-income repercussions, by how much will
+GDP rise?</li>
+</ol>
+<p> A.   Rs.20 billion</p>
+<p> B.   Rs.10 billion</p>
+<p> C.   Rs.25 billion</p>
+<p> D.   Rs.15 billion</p>
+<ol start="25" style="list-style-type: decimal">
+<li>The formula for the effective tariff rate is given by the following
+formula: <span class="math display">\[e=\frac{(n-ab)}{1-a}\]</span>where
+e= the effective rate of protection, n= the nominal tariff rate on the
+final product, a= the ratio of the value of the imported input to the
+yalue of the final product, and b= the nominal tariff rate on the
+imported input. Suppose that the tariff rate on the final product is 5
+percent, If no imported inputs are used in the domestic production of
+the final product, the effective tariff rate is</li>
+</ol>
+<p>A. 3%</p>
+<p>B. 5%</p>
+<p>C. 8%</p>
+<p>D. 12% </p>
+<ol start="26" style="list-style-type: decimal">
+<li>Suppose that in the Solow Model of an economy with some positive
+savings rate, popu lation growth rate, and rate of depreciation,<span
+class="math inline">\(k^{∗}\)</span> is the steady state capital-labour
+ratio.  Suppose <span class="math inline">\(k_1\)</span> and <span
+class="math inline">\(k_2\)</span> are capital-labour ratios such that
+<span class="math inline">\(k_1 &lt; k_2 &lt; k^{∗}\)</span> ,and let
+<span class="math inline">\(g_1 ,g_2\)</span> be the growth rates of per
+capita output at <span class="math inline">\(k_1\)</span> and <span
+class="math inline">\(k_2\)</span> respectively. Then</li>
+</ol>
+<p> A.  <span class="math inline">\(g_1 &gt; g_2\)</span></p>
+<p> B.  <span class="math inline">\(g_1 =g_2\)</span></p>
+<p>C.  <span class="math inline">\(g_1 &gt; g_2\)</span></p>
+<p>D.  None of the above</p>
+<ol start="27" style="list-style-type: decimal">
+<li>The maximum value attained by the function <span
+class="math inline">\(f(x) =x^3 −x^2 −x−1\)</span> on the set <span
+class="math inline">\(S=\)</span>{<span class="math inline">\(x|x^2 −x−
+2 ≤ 0\)</span>} occurs at x=</li>
+</ol>
+<p> A. 1</p>
+<p> B.<span class="math inline">\(\frac{1}{3}\)</span></p>
+<p> C. 2</p>
+<p> D. <span class="math inline">\(\frac{5}{2}\)</span></p>
+<ol start="28" style="list-style-type: decimal">
+<li>A random variable X has a standard normal distribution. What is the
+closest guess to the probability that X lies in the interval <span
+class="math inline">\([2,3]\)</span></li>
+</ol>
+<p> A.  0. 001</p>
+<p> B.  0. 025</p>
+<p> C.  0. 25</p>
+<p> D.  0. 05</p>
+<ol start="29" style="list-style-type: decimal">
+<li>l<span class="math inline">\(\lim_{n\tends \infty}
+(\frac{x^2-x+1}{x+1} -c_1x-c_2)=-5\)</span> . So, it must be that (<span
+class="math inline">\(c_1 ,c_2\)</span> ) equals</li>
+</ol>
+<p>A. (2,−3)</p>
+<p>B. (2,3)</p>
+<p>C. (1,2)</p>
+<p>D. (1,3)</p>
+<ol start="30" style="list-style-type: decimal">
+<li>The efficiency wage theory argues that firms choose to pay a wage
+than the classical equilibrium wage, thus the real wage is than the wage
+at which the labor market clears.</li>
+</ol>
+<p> A.  lower, lower</p>
+<p> B.  lower, higher</p>
+<p> C.  higher, lower</p>
+<p> D.  higher, higher</p>
+<ol start="31" style="list-style-type: decimal">
+<li>According to the theory of comparative advantage, countries gain
+from trade because</li>
+</ol>
+<p> A.  All firms can take advantage of cheap labour</p>
+<p> B.  Trade makes firms behave more competitively, reducing their
+market power</p>
+<p> C.  Output per worker in each firm increases</p>
+<p> D.  World output can rise when each country specializes in what it
+does relatively  best</p>
+<ol start="32" style="list-style-type: decimal">
+<li>In the 2 factor, 2 good Heckscher-Ohlin model, the two countries
+differ in</li>
+</ol>
+<p>A.  tastes</p>
+<p>B.  relative availabilities of factors of production</p>
+<p>C.  labour productivities</p>
+<p>D.  technologies</p>
+<ol start="33" style="list-style-type: decimal">
+<li>The line <span class="math inline">\(y= 2x+ 5\)</span> is tangent to
+a circle with equation <span class="math inline">\(x^2 +y^2 + 16x+
+12y+c= 0\)</span> , at point P. So, P equals</li>
+</ol>
+<p> A.   (− 9 ,−7)</p>
+<p> B.   (− 10 ,−12)</p>
+<p> C.   (− 6 ,−7)</p>
+<p> D.   (− 11 ,−15)</p>
+<ol start="34" style="list-style-type: decimal">
+<li>The random variable X denotes the number of successes in a sequence
+of independent trials, each with probabilitypof success. Let <span
+class="math inline">\(\bar X\)</span> denote the mean number of
+successes. We know that <span class="math inline">\(\bar X\)</span></li>
+</ol>
+<p> A.   has a binomial distribution with mean p</p>
+<p> B.   has a normal distribution with mean p</p>
+<p> C.   approximates a normal distribution with mean p</p>
+<p> D.   none of the above</p>
+<ol start="35" style="list-style-type: decimal">
+<li>A family has two children and it is known that at least one is a
+girl. What is the probability that both are girls given that at least
+one is a girl?</li>
+</ol>
+<p> A.  <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p> B.  <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p> C.  <span class="math inline">\(\frac{3}{4}\)</span></p>
+<p> D.  <span class="math inline">\(\frac{2}{3}\)</span></p>
+<ol start="36" style="list-style-type: decimal">
+<li>It is known that there is a rational number between any two distinct
+irrational numbers.Consider a continuous function <span
+class="math inline">\(f : R→R\)</span> such that <span
+class="math inline">\(f(x) = \sin x\)</span> for every rational
+ numberx. If x is an irrational number then,</li>
+</ol>
+<p> A. <span class="math inline">\(f(x) = \sin(x^2 ) +
+\cos(x^2)\)</span></p>
+<p> B.  <span class="math inline">\(f(x) =\frac{\sin x}{2} +\frac{\cos
+x}{2}\)</span></p>
+<p> C.  <span class="math inline">\(f(x) = \cos x\)</span></p>
+<p> D.  <span class="math inline">\(f(x) = \sin x\)</span></p>
+<ol start="37" style="list-style-type: decimal">
+<li>In a simple open economy framework, an increase in government
+spending leads to</li>
+</ol>
+<p> A.  a rise in budget deficit and a fall in current account
+deficit</p>
+<p> B.  a fall in budget deficit and a rise in current account
+deficit</p>
+<p> C.  a fall in both budget deficit and current account deficit  </p>
+<p> D.  a rise in both budget deficit and current account deficit </p>
+<ol start="39" style="list-style-type: decimal">
+<li>Nitin is a stamp collector and consumes only stamps and cheese
+sandwiches. His utility function is <span class="math inline">\(u(s,c)
+=s+ \log c\)</span> .If Nitin is at a point where he is consuming both
+goods,  then the total amount that he is spending on cheese sandwiches
+depends</li>
+</ol>
+<p> A.  only on price of sandwiches</p>
+<p> B.  only on price of stamps</p>
+<p> C.  only on his income</p>
+<p> D.  on all three of the above</p>
+<ol start="40" style="list-style-type: decimal">
+<li>Consider the following set of 2 equations: <span
+class="math inline">\((2x)^{\ln 2}= (3y)^{\ln 3}\)</span> and <span
+class="math inline">\(3^{\ln x}= 2^{\ln y}\)</span> Suppose a  pair
+<span class="math inline">\((x,y)\)</span> of numbers is a solution to
+this set of equations. Then x equals</li>
+</ol>
+<p> A.  <span class="math inline">\(\frac{1}{4}\)</span></p>
+<p> B.  <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p> C.  <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p> D.  <span class="math inline">\(\frac{1}{6}\)</span></p>
+<ol start="41" style="list-style-type: decimal">
+<li>Your budget is such that if you spend your entire income, you can
+afford either 4 units of good x and 6 units of goodyor 12 units of
+goodxand 2 units ofy. What is the ratio of price of x to price of
+y?</li>
+</ol>
+<p> A.   12</p>
+<p> B.   2</p>
+<p> C.  13</p>
+<p> D.  23</p>
+<ol start="43" style="list-style-type: decimal">
+<li>Consider a small open economy. If there is a positive productivity
+shock in the country, how will the domestic capital market be
+affected?</li>
+</ol>
+<p> A.  There will be net capital inflow</p>
+<p> B.  There will be net capital outflow</p>
+<p> C.  Net capital inflow is zero</p>
+<p> D.  The investment demand will fall</p>
+<ol start="44" style="list-style-type: decimal">
+<li>You have a single draw from a Bernoulli distribution. The maximum
+likelihood estimate of the probability of success p is</li>
+</ol>
+<p> A. 0</p>
+<p> B. 1</p>
+<p> C. either 0 or 1</p>
+<p> D. strictly between 0 and 1</p>
+<ol start="45" style="list-style-type: decimal">
+<li>The functionf(x) is twice differentiable, and <span
+class="math inline">\(f(2) = 4,f(3) = 9,f(4) = 16\)</span>. Then, it
+must be that</li>
+</ol>
+<p> A.  <span class="math inline">\(f′′(x) = 3\)</span> for some <span
+class="math inline">\(x\in (2,3)\)</span></p>
+<p> B.  <span class="math inline">\(f′′(x) = 2\)</span> for some <span
+class="math inline">\(x\in (2,4)\)</span></p>
+<p> C.  <span class="math inline">\(f′′(x) = 4\)</span> for some <span
+class="math inline">\(x\in (2,3)\)</span></p>
+<p> D. <span class="math inline">\(f′′(x) = 3\)</span> for some <span
+class="math inline">\(x\in (2,4)\)</span></p>
+<ol start="46" style="list-style-type: decimal">
+<li>Under a floating exchange rate regime, following an expansion in the
+money supply, monetary authorities will:</li>
+</ol>
+<p> A.  buy domestic currency in the foreign exchange market</p>
+<p> B.  sell domestic currency in the foreign exchange market</p>
+<p> C.  do nothing in the foreign exchange market</p>
+<p> D.  buy foreign currency in the foreign exchange market</p>
+<ol start="47" style="list-style-type: decimal">
+<li>In a roll of two fair dice, X is the number on the first die andY is
+the number on the second die. Which of the following is true?</li>
+</ol>
+<p> A.  X−Y and X+Y are dependent random variables</p>
+<p> B.  <span class="math inline">\(X^2\)</span> and Y are independent
+random variable</p>
+<p> C.  <span class="math inline">\(X^2\)</span> and <span
+class="math inline">\(Y^2\)</span> are independent random variable</p>
+<p> D.  All of the above</p>
+<ol start="48" style="list-style-type: decimal">
+<li>A random variable has a uniform distribution on the interval <span
+class="math inline">\([− 1 ,1]\)</span> . The probability density
+function of X conditional on <span class="math inline">\(X &gt; 0
+.3\)</span> is given by:</li>
+</ol>
+<p> A.  <span class="math inline">\(\frac{7}{10}\)</span></p>
+<p> B.  <span class="math inline">\(\frac{10}{7}\)</span></p>
+<p> C.  1</p>
+<p>D.  <span class="math inline">\(\frac{3}{10}\)</span></p>
+<ol start="49" style="list-style-type: decimal">
+<li>The interval <span class="math inline">\((0,\infty)\)</span> can be
+expressed as</li>
+</ol>
+<p> A.    <span class="math inline">\(\cup_{n=1}^{\infty}
+[a_n,b_n]\)</span> where each <span class="math inline">\(a_n\)</span>
+and <span class="math inline">\(b_n\)</span> is a rational number</p>
+<p> B.    <span class="math inline">\(\cup_{n=1}^{\infty}
+(a_n,b_n)\)</span> where <span class="math inline">\(a_n\)</span> and
+<span class="math inline">\(b_n\)</span> is a real number</p>
+<p> C.    <span class="math inline">\(\cup_{n=1}^{\infty}
+[a_n,b_n]\)</span> where each <span class="math inline">\(a_n\)</span>
+and <span class="math inline">\(b_n\)</span> is a real number</p>
+<p> D.    All of the above</p>
+<ol start="50" style="list-style-type: decimal">
+<li>What is the probability that at least one 6 appears when 6 fair dice
+are rolled?</li>
+</ol>
+<p> A.    <span class="math inline">\((\frac{5}{6})^6\)</span></p>
+<p> B.    <span class="math inline">\(\frac{1}{6}\)</span></p>
+<p> C.    <span class="math inline">\(1-(\frac{5}{6})^6\)</span></p>
+<p> D.    <span class="math inline">\(\frac{5}{6}\)</span></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

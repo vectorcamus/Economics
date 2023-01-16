@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2021</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2021</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<ol style="list-style-type: decimal">
+<li><p>Consider the problem of maximizing <span
+class="math inline">\(f(x,y) =x^2 + 2xy+by^2\)</span> , with respect to
+<span class="math inline">\(x,y\)</span> and subject to the constraint
+<span class="math inline">\(x+y= 100\)</span>, where <span
+class="math inline">\(b\)</span> is a parameter taking some fixed value
+greater than 1. Let <span class="math inline">\(v(b)\)</span> the
+minimum value attained, as a function of Let <span
+class="math inline">\(v′(b)\)</span> the derivative of v(b). Which of
+the following is correct ?</p>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(v′(b)&gt; 0\)</span></p></li>
+<li><p><span class="math inline">\(v′(b)&lt; 0\)</span></p></li>
+<li><p><span class="math inline">\(v′(b) = 0\)</span></p></li>
+<li><p>The sign of <span class="math inline">\(v′(b)\)</span> changes
+with <span class="math inline">\(B\)</span></p></li>
+</ol></li>
+<li><p>Consider any real valued, continuous function <span
+class="math inline">\(f\)</span>, defined on the set of all real
+numbers, satisfying <span class="math inline">\(f(f(x)) =x\)</span> for
+all <span class="math inline">\(x∈R\)</span> (set of all real numbers).
+If <span class="math inline">\(f\)</span> is not the identity function,
+then which of the following is true?</p>
+<p>A. <span class="math inline">\(f\)</span> is a constant function</p>
+<p>B. <span class="math inline">\(f\)</span> is a strictly decreasing
+function</p>
+<p>C. <span class="math inline">\(f\)</span> is a strictly increasing
+function</p>
+<p>D. No function other than the identity function can satisfy this
+property</p></li>
+<li><p>Consider a real- valued function <span
+class="math inline">\(f\)</span> that satisfies <span
+class="math inline">\(f′(x) = (f(x))^2\)</span> , for all x in some
+domain of real numbers, and also satisfies <span
+class="math inline">\(f(2) = 2\)</span>. Find <span
+class="math inline">\(f(−2)\)</span>.</p>
+<p>A. <span class="math inline">\(\frac{2}{3}\)</span></p>
+<p>B. <span class="math inline">\(-\frac{2}{3}\)</span></p>
+<p>C. <span class="math inline">\(\frac{2}{7}\)</span></p>
+<p>D. <span class="math inline">\(-\frac{2}{7}\)</span></p></li>
+<li><p>Find the value of <span class="math inline">\(\sum_{r=0}^{50}
+\binom {100}{2r}\)</span></p>
+<p>A. <span class="math inline">\(2^{99}\)</span></p>
+<p>B. <span class="math inline">\(2^{100}\)</span></p>
+<p>C. <span class="math inline">\(2^{101}\)</span></p>
+<p>D. <span class="math inline">\(2^{51}\)</span></p></li>
+<li><p>Suppose that <span class="math inline">\(n\)</span> participants
+with distinct names arrive for a conference. The organizers have
+prepared name- tags for all of them, but by mistake, allocate the name-
+tags randomly to the participants. What is the expected number of
+participants who will receive their own name- tag?</p>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\frac{n}{2}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{n}{n- 2}\)</span></p></li>
+<li><p><span class="math inline">\(1\)</span></p></li>
+<li><p><span class="math inline">\(\frac{n- 1}{n}\)</span></p></li>
+</ol></li>
+<li><p>A right angled triangle has two equal sides of 1 inch. One of
+these sides, drawn horizon tally, is divided into <span
+class="math inline">\((n+ 1)\)</span> equal portions. On each portion
+after the first, a rectangle is formed with height equal to the vertical
+distance from the left- hand end portion of the hypotenuse of the
+triangle. Find the sum of rectangle areas (S) and its limiting
+value.</p>
+<ul>
+<li><span class="math inline">\(S=\frac{n}{n+1}\)</span> and the limit
+is 1.</li>
+<li><span class="math inline">\(S=\frac{n}{2(n+1)}\)</span> and the
+limit is <span class="math inline">\(\frac{1}{2}\)</span></li>
+<li><span class="math inline">\(S=\frac{n+2}{n+1}\)</span> and the limit
+is 1</li>
+<li><span class="math inline">\(S=\frac{n+2}{2(n+1)}\)</span>and the
+limit is <span class="math inline">\(\frac{1}{2}\)</span></li>
+</ul></li>
+<li><p>If <span class="math inline">\(|x|&lt;1\)</span> and <span
+class="math inline">\(y=\sum _{k=1} ^{\infty} (−1)^{(k+1)}
+\frac{x^k}{k}\)</span>, then which of the following is true?</p>
+<ul>
+<li><span class="math inline">\(x=\sum_{k=1} ^{\infty}(−1)^k
+\frac{y^k}{k}\)</span></li>
+<li><span class="math inline">\(x=\sum_{k=1} ^{\infty}
+\frac{k}{y^k}\)</span></li>
+<li><span class="math inline">\(x=\sum_{k=1}
+^{\infty}\frac{y^k}{k!}\)</span></li>
+<li><span class="math inline">\(x=\sum_{k=1} ^{\infty}(−1)^k
+\frac{y^k}{k!}\)</span></li>
+</ul></li>
+<li><p>Consider the vector spaceRnfor somen <span
+class="math inline">\(\geq 2\)</span>, over the field of real numbers;
+and the following two statements:</p></li>
+</ol>
+<p>A:{<span class="math inline">\({v_1 ,v_2 ,...,v_{n− 1} ,v_n}\)</span>
+} are linearly independent vectors.</p>
+<p>B:{<span class="math inline">\((v_1 +v_2 ),(v_2 +v_3 ),...,(v_{n− 1}
++v_n),(v_n+v_ 1 )\)</span> } are linearly independent vectors.</p>
+<p>Which of the following statements is true?</p>
+<ul>
+<li>A implies B and B implies A</li>
+<li>A implies B if n is odd, and B always implies A</li>
+<li>A implies B if n is even, and B always implies A</li>
+<li>A always implies B and B implies A if n is even</li>
+</ul>
+<ol start="9" style="list-style-type: decimal">
+<li>Consider the following system of equations in the unknowns <span
+class="math inline">\(x_1 ,x_2 ,x_3\)</span>, with <span
+class="math inline">\(\lambda\)</span> being a real parameter.</li>
+</ol>
+<p><span class="math display">\[ x_1 + 2x_2 − 2 x_3 = 0\]</span> <span
+class="math display">\[2 x_1 −x_2 +\lambda x_3 = 0\]</span> <span
+class="math display">\[3 x_1 +x_2 −x_3 = 0\]</span></p>
+<p>Under which of the following conditions, this system has nonzero
+solutions?</p>
+<ul>
+<li>For both positive and negative values of <span
+class="math inline">\(\lambda\)</span></li>
+<li>For more than one positive values of <span
+class="math inline">\(\lambda\)</span></li>
+<li>For <span class="math inline">\(\lambda=1\)</span></li>
+<li>For more than one negative values of <span
+class="math inline">\(\lambda\)</span></li>
+</ul>
+<ol start="10" style="list-style-type: decimal">
+<li>There are four statements. Which of these are true?</li>
+</ol>
+<p>Statement 1 :{y is a rational number<span class="math inline">\(|−
+200 ≤y≤ 200\)</span> }is a countable set.</p>
+<p>Statement 2 :{<span class="math inline">\(y = \frac{m}{n} |\)</span>
+m and n are integers } is an uncountable set.</p>
+<p>Statement 3 : {y is a real number | 0 ≤ y &lt; 0.7} is an uncountable
+set.</p>
+<p>Statement 4: {y = n | n is a positive integer } is an uncountable
+set</p>
+<ul>
+<li>Statement 1 and Statement 2</li>
+<li>Statement 1 and Statement 3</li>
+<li>Statement 2 and Statement 4</li>
+<li>Statement 3 and Statement 4</li>
+</ul>
+<ol start="11" style="list-style-type: decimal">
+<li>If <span class="math inline">\(x^2 +y^2 +z^2 = 1\)</span> , then
+what is the maximum value of <span
+class="math inline">\((−x+z)\)</span>?</li>
+</ol>
+<ul>
+<li><span class="math inline">\(1\)</span></li>
+<li><span class="math inline">\(\sqrt 2\)</span></li>
+<li><span class="math inline">\(\sqrt 3\)</span></li>
+<li>It has no maximum</li>
+</ul>
+<ol start="12" style="list-style-type: decimal">
+<li>Consider a triangle with sides <span class="math inline">\(AC= 2·AB=
+\sqrt 3\)</span> and <span class="math inline">\(BC= 1\)</span> Choose a
+random point P. inside the triangle. Minimum distance from P to AC, AB
+and BC are <span class="math inline">\(D_1 ,D_2\)</span>, an <span
+class="math inline">\(D_3\)</span> respectively. Find <span
+class="math inline">\(2D_1 +\sqrt 3 D_2 +D_3\)</span></li>
+</ol>
+<ul>
+<li><span class="math inline">\(\sqrt 3\)</span></li>
+<li><span class="math inline">\(3+\sqrt 3\)</span></li>
+<li><span class="math inline">\(3\sqrt 3\)</span></li>
+<li><span class="math inline">\(3-\sqrt 3\)</span></li>
+</ul>
+<ol start="13" style="list-style-type: decimal">
+<li>One girl is training for half marathon in Delhi. She decides to run
+<span class="math inline">\(x_i\)</span> kilometre on <span
+class="math inline">\(i^{th}\)</span> day for next 12 days (that is
+<span class="math inline">\(x_1\)</span> kilometre on day 1, <span
+class="math inline">\(x_2\)</span> kilometre on day 2 etc.). On the last
+day she finds that she trained for 12 kilometre per day on an average.
+Which of the following statements is true?</li>
+</ol>
+<ul>
+<li><span class="math inline">\(\sum_{i=1}^{12} \log_{12} x_i
+&lt;12\)</span></li>
+<li><span class="math inline">\(\sum_{i=1}^{12} \log_{12} x_i &gt;
+12\)</span></li>
+<li><span class="math inline">\(\sum_{i=1}^{12} \log_{12} x_i =
+12\)</span></li>
+<li><span class="math inline">\(\sum_{i=1}^{12} \log_{12} x_i
+=12^{12}\)</span></li>
+</ul>
+<ol start="14" style="list-style-type: decimal">
+<li>Three boxes are presented to a contestant. Exactly one box has an
+expensive gift and the other two are empty. Each box has imprinted on it
+a declaration. The declarations are as follows: Box 1: The gift is not
+here Box 2: The gift is not here Box 3: The gift is inBox 2 . A
+declaration can be either true or false. Find the least number of true
+declarations that allows the contestant to logically deduce the
+giftbox?</li>
+</ol>
+<ul>
+<li>0</li>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ul>
+<ol start="15" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(a_1 ,a_2 ,a_3 ...a_n\)</span> are
+real numbers such that <span class="math inline">\(a_1 +a_2 +a_3
++···+a_n= 0\)</span> .Suppose <span class="math inline">\(n\geq
+5\)</span>. Which of the following statements is true about the roots of
+<span class="math inline">\(q(x) =a_1 + 2a_2x+ 3a_3 x^2 +···+n a_n
+x(n−1)\)</span>?</li>
+</ol>
+<ul>
+<li><span class="math inline">\(q(x)\)</span> has at least one real
+root</li>
+<li><span class="math inline">\(q(x)\)</span> has no real root</li>
+<li><span class="math inline">\(q(x)\)</span> has <span
+class="math inline">\((n−1)\)</span> real roots</li>
+<li><span class="math inline">\(q(x)\)</span> has <span
+class="math inline">\((n−2)\)</span> real roots</li>
+</ul>
+<ol start="16" style="list-style-type: decimal">
+<li>Which of the following statements is true?</li>
+</ol>
+<ul>
+<li>Any preference can be represented by a utility function</li>
+<li>Any complete and transitive preference can be represented by a
+utility function</li>
+<li>Some complete and transitive preferences cannot be represented by a
+utility function</li>
+<li>Any complete and monotonic preference can be represented by a
+utility function</li>
+</ul>
+<ol start="17" style="list-style-type: decimal">
+<li>Ms A likes grapes (G) and strawberries (S). With every two pieces of
+grapes, she prefers eating thre pieces of strawberries. Thus consumed,
+every piece of grape gives her a utility level of 1. Income of Ms A is
+given byI. Per piece price of grapes and strawberries are given by <span
+class="math inline">\(p_G= 3\)</span> and <span
+class="math inline">\(p_S= 2\)</span> respectively. Suppose price of
+strawberries change to <span class="math inline">\(p_S= 3\)</span> .
+What should be the change in income ( <span class="math inline">\(\Delta
+I\)</span>) to maintain the same level of utility?</li>
+</ol>
+<ul>
+<li><span class="math inline">\(\Delta I =\frac{5I}{4}\)</span></li>
+<li><span class="math inline">\(\Delta I =-\frac{5I}{4}\)</span></li>
+<li><span class="math inline">\(\Delta I =\frac{I}{4}\)</span></li>
+<li><span class="math inline">\(\Delta I =-\frac{I}{4}\)</span></li>
+</ul>
+<ol start="18" style="list-style-type: decimal">
+<li>Suppose that commodity prices are strictly positive. Consider the
+following utility functions. One of these utility functions has no
+income effect on good X for a certain range of income. Identify it.</li>
+</ol>
+<ul>
+<li><span class="math inline">\(u(x,y) =\ln x+y\)</span></li>
+<li><span class="math inline">\(u(x,y) =\ln x+ \ln y\)</span></li>
+<li><span class="math inline">\(u(x,y) =\sqrt xy\)</span></li>
+<li><span class="math inline">\(u(x,y) =\min\)</span>{x,y}</li>
+</ul>
+<ol start="19" style="list-style-type: decimal">
+<li>A Rotating Credit and Savings Association (ROSCA) is made up of a
+group of individuals. Members of a ROSCA pool their money into a common
+fund, generally structured around monthly contributions, and a single
+member withdraws the money from it as a lump sum (called the ’pot’) at
+the end of each quarter. In one cycle, each member must withdraw the pot
+exactly once. ROSCA is quite common in the developing countries. It is
+an example of:</li>
+</ol>
+<ul>
+<li>Public good</li>
+<li>Moral hazard</li>
+<li>Risk sharing</li>
+<li>Altruism</li>
+</ul>
+<ol start="20" style="list-style-type: decimal">
+<li>An economy consists of two agents (R and P) and two states (pandemic
+and normal). If the state is pandemic thenRearns 10 and P earns 5 ,
+while in normal state R earns 20 and P earns 10. Probability of pandemic
+is known; it is denoted by <span class="math inline">\(q_0 &lt; q
+&lt;1\)</span> . Utility function of both R and P is given by <span
+class="math inline">\(u(x)\)</span>, where x is the net earning. Both P
+and R are risk averse. An insurance company, is selling an ’actuarially
+fair’ ’pandemic insurance’ where the consumer has the same income
+irrespective of the state (pandemic or normal). Actuarially fair plans
+are those insurance plans where the insurance company makes no profit.
+Also note that the insurance company is risk neutral. Consider the
+following schemes to protect P in case of pandemic:</li>
+</ol>
+<p>Scheme A: The government purchases a ’pandemic insurance’ for P.
+Premium of the pandemic insurance’ is collected from R as tax.</p>
+<p>SchemeB: If the state is pandemic then R pays 5 to P through a
+charity, otherwise in normal state there is no transfer. Which of the
+above schemes will R prefer? You may also assume that R is not eligible
+to buy the pandemic insurance.</p>
+<ul>
+<li>Scheme A will be preferred by R</li>
+<li>Scheme B will be preferred by R.</li>
+<li>R will be indifferent</li>
+<li>Depends on the functional form of u</li>
+</ul>
+<ol start="21" style="list-style-type: decimal">
+<li>Suppose that the market for pizza is perfectly competitive with
+constant long run marginal cost. If there is a per unit sales tax on
+pizza then which of the following is correct?</li>
+</ol>
+<ul>
+<li>Producers will bear all the taxation burden</li>
+<li>Consumers will bear all the taxation burden</li>
+<li>Consumers and producers will equally share the taxation burden</li>
+<li>Tax incidence will depend on the shape of the demand curve</li>
+</ul>
+<ol start="22" style="list-style-type: decimal">
+<li>Suppose a monopolist produces oil in one factory but sells oil in
+two cities. In each city the monopolist faces the same inverse demand
+function <span class="math inline">\(p=f(q)\)</span> , such that f is
+strictly decreasing and strictly concave. Cost function is increasing
+and convex in quantity. She sells q 1 units in city A andq 2 units in
+city B per month where <span class="math inline">\(q_1 &lt; q_2\)</span>
+. Which of the following choices will increase her profit?</li>
+</ol>
+<ul>
+<li>Sell (<span class="math inline">\(q_1 +q_2\)</span>) units per month
+in city B and nothing in city A</li>
+<li>Sell (<span class="math inline">\(q_1 +q_2\)</span>) units per month
+in city A and nothing in city B</li>
+<li>Sell <span class="math inline">\(\frac{q^1 + 2 q^2}{2}\)</span>
+units per month in each city</li>
+<li>Sell <span class="math inline">\(q_2\)</span> units per month in
+city A and <span class="math inline">\(q_1\)</span> units per month in
+city B</li>
+</ul>
+<ol start="23" style="list-style-type: decimal">
+<li>Two buyers bid for a single object in an auction. Valuation of a
+buyer is private information. However it is known that each of them
+independently draw their valuations from the Uniform <span
+class="math inline">\([0,1]\)</span> distribution. The auction rule lets
+the highest bidder take the object by paying the lowest bid. Suppose
+that the buyers bid truthfully, that is bid of a buyer is equal to her
+valuation of the object. Find the expected revenue of the auction.</li>
+</ol>
+<ul>
+<li><span class="math inline">\(\frac{1}{3}\)</span></li>
+<li><span class="math inline">\(\frac{2}{3}\)</span></li>
+<li><span class="math inline">\(\frac{1}{2}\)</span></li>
+<li><span class="math inline">\(1\)</span></li>
+</ul>
+<ol start="24" style="list-style-type: decimal">
+<li>The competitive market for good X has the demand function <span
+class="math inline">\(x_d = 100−p\)</span> and the supply function <span
+class="math inline">\(x_s= 20 + 3p\)</span> .If the government imposes a
+sales tax of Rs 10 per unit of the good on sellers, the equilibrium
+market price will increase by:</li>
+</ol>
+<ul>
+<li>Rs. 10</li>
+<li>Rs. 7. 50</li>
+<li>Rs. 5</li>
+<li>Rs. 0</li>
+</ul>
+<ol start="25" style="list-style-type: decimal">
+<li>A monopolist sells hand embroidered Pashmina shawls to two types of
+customers: ’Rich’ and ’Middle Income’. ’Rich’ customers value at most
+two shawls; first shawl at Rs. 50 thousands and the marginal value of
+second shawl is Rs. 30 thousands. ’Middle Income’ customers want at most
+one shawl and they value it at Rs. 35 thousands. There are 50 identical
+’Rich’ and 100 identical ’Middle Income’ customers. Cost of production
+is Rs. 25 thousands per shawl. Suppose that the monopolist can NOT
+distinguish between a ’Rich’ and a ’Middle Income’ customer. She,
+however, decided to adopt the following scheme. If a customer purchases
+two shawls then the package is priced at <span
+class="math inline">\(p_2\)</span> , whereas if a customer purchases one
+shawl, she pays <span class="math inline">\(p_1\)</span> What are the
+profit maximizing prices?</li>
+</ol>
+<ul>
+<li><span class="math inline">\(p_1 = 35,000\)</span> and <span
+class="math inline">\(p_2 = 65, 000\)</span></li>
+<li><span class="math inline">\(p_1 = 35,000\)</span> and <span
+class="math inline">\(p_2 = 50, 000\)</span></li>
+<li><span class="math inline">\(p_1 = 25,000\)</span> and <span
+class="math inline">\(p_2 = 65, 000\)</span></li>
+<li><span class="math inline">\(p_1 = 50,000\)</span> and <span
+class="math inline">\(p_2 = 80, 000\)</span></li>
+</ul>
+<ol start="26" style="list-style-type: decimal">
+<li>Suppose that ‘ABC Cinemas’ is the monopolist in a town. Demand to
+see a movie in that town is given by <span class="math inline">\(Q=
+(100− 10 p)\)</span> in the afternoon and <span class="math inline">\(Q=
+(200− 10 p)\)</span> in the evening, where <span
+class="math inline">\(p\)</span> denotes the price of a ticket.
+Currently the movie distributor charges Rs. 4 per ticket sold by the
+’ABC Cinemas’. Suppose that the distributor instead asks the ’ABC
+Cinemas’ to pay a flat fee of Rs. <span class="math inline">\(X\)</span>
+to show the movie, with no charge per customer. Find the value of X such
+that ’ABC Cinemas’ will be indifferent between the current ’pay per
+ticket’ contract and the ’fixed pay’ contract. Assume that ’ABC Cinemas’
+does not incur any cost other than their payment to the
+distributor.</li>
+</ol>
+<ul>
+<li>Pay per ticket’ contract is always better</li>
+<li>Fixed pay’ contract is always better</li>
+<li>X= 520</li>
+<li>X= 180</li>
+</ul>
+<ol start="27" style="list-style-type: decimal">
+<li>In an exchange economy there are two goods X and Y and two agents A
+and B. A owns 10 units of good while B owns 10 units of good X. A has a
+lexicographic preference where good X comes before good Y. She will
+choose the bundle that offers the most X, no matter how much Y there is.
+Only when there is a tie between bundles with regard to X will A start
+comparing Y across bundles. Agent B also has lexicographic preference,
+but for her good Y comes before good X. Consider the following
+statements.</li>
+</ol>
+<p>Statement I: An allocation where A gets 10 units of good X and B gets
+10 units of good Y is Pareto optimal.</p>
+<p>Statement II: An allocation where A gets 10 units of goodX and 5
+units of good Y while B gets 5 units of good Y is Pareto optimal.</p>
+<p>Choose the correct answer from the options given below. - Both
+Statement I and Statement II are true - Both Statement I and Statement
+II are false - Statement I is true but Statement II is false - Statement
+I is false but Statement II is true</p>
+<ol start="28" style="list-style-type: decimal">
+<li>Which of the following assumptions is NOT required for the ’First
+welfare theorem’ in an exchange economy?</li>
+</ol>
+<ul>
+<li>Well defined property rights</li>
+<li>Absence of externalities</li>
+<li>Monotonic preferences</li>
+<li>Convex preferences</li>
+</ul>
+<ol start="29" style="list-style-type: decimal">
+<li>Two players must independently and simultaneously decide how much to
+donate to a charity organization. Each has a budget of Rs. 200. Whenever
+the charity receives at least Rs 100 in aggregate (irrespective of the
+identity of the donor), each player enjoys a payoff equivalent to Rs.
+60. This captures the fact that they are somewhat altruistic Additional
+aggregate donation (above Rs. 100 ) does not bring any extra payoff. All
+payoffs are calculated in money terms. For example, if the first player
+donates Rs. x and the second player donates Rs. y, then the payoff of
+first player is</li>
+</ol>
+<p><span class="math inline">\([(200-X)+60]\)</span> $ and <span
+class="math inline">\((x+y)≥ 100\)</span> <span
+class="math inline">\((200−x)\)</span> if <span
+class="math inline">\((x+y)&lt; 100\)</span></p>
+<p>Which of the following is true? - This game has no Nash equilibrium
+in pure strategies - This game has only one Nash equilibrium in pure
+strategies - This game has many Nash equilibriums in pure strategies,
+where the aggregatedonation is less than 100 - This game has many Nash
+equilibriums in pure strategies’, where the aggregatedonation is Rs.
+100</p>
+<ol start="30" style="list-style-type: decimal">
+<li>Two players must independently and simultaneously decide how much to
+donate to a charity organization. Each has a budget of Rs. 200. Whenever
+the charity receives at least Rs 100 in aggregate (irrespective of the
+identity of the donor), each player enjoys a payoff equivalent to Rs.
+60. This captures the fact that they are somewhat altruistic Additional
+aggregate donation (above Rs. 100 ) does not bring any extra payoff. All
+payoffs are calculated in money terms. For example, if the first player
+donates Rs. x and the second player donates Rs.y, then the payoff of
+first player is</li>
+</ol>
+<p><span class="math inline">\([(200−x) + 60]\)</span> and <span
+class="math inline">\((x+y)≥ 100\)</span> <span
+class="math inline">\((200−x)\)</span> if <span
+class="math inline">\((x+y)&lt; 100\)</span></p>
+<p>Which of the following is NOT true?</p>
+<ul>
+<li>Each player has at least one weakly dominated strategy</li>
+<li>Each player has at least one strictly dominated strategy</li>
+<li>Each player has a strategy which weakly dominates all other
+strategies</li>
+<li>Maximin payoff of each player is 200</li>
+</ul>
+<ol start="31" style="list-style-type: decimal">
+<li>Consider the hypothetical economy with aggregate production function
+given by <span class="math inline">\(F(L,K) =L^{\frac{2}{3}}
+K^{\frac{1}{3}}\)</span> , and 10 percent annual rate of depreciation.
+Find the ’golden rule’ level of capital stock for this economy.
+Notation: <span class="math inline">\(L,K\)</span> denote labour and
+capital respectively</li>
+</ol>
+<ul>
+<li><span
+class="math inline">\((\frac{10}{3})^{\frac{3}{2}}\)</span></li>
+<li><span class="math inline">\(\frac{1}{2}\)</span></li>
+<li><span
+class="math inline">\((\frac{10}{3})^{\frac{1}{2}}\)</span></li>
+<li><span
+class="math inline">\((\frac{3}{10})^{\frac{3}{2}}\)</span></li>
+</ul>
+<ol start="32" style="list-style-type: decimal">
+<li>Given below are two statements</li>
+</ol>
+<p>Statement I: ’Balanced Growth’ in the Solow model implies identical
+rates of growth indifferent sectors ofthe economy.</p>
+<p>Statement II: ’Balanced Growth’ in the Solow model implies constant
+factor shares in agrowing economy.</p>
+<p>Choose the correct answer from the options given below</p>
+<ul>
+<li>Both StatementIand Statement II are true</li>
+<li>Both Statement I and Statement II are false</li>
+<li>StatementIis true but Statement II is false</li>
+<li>StatementIis false but Statement II is true</li>
+</ul>
+<ol start="33" style="list-style-type: decimal">
+<li>Suppose an economy can produce <span
+class="math inline">\(e^k\)</span> amount of output per capita if it
+uses k amount of capital per capita. Which of the following is
+correct?</li>
+</ol>
+<ul>
+<li>The economy has a stable steady state equilibrium</li>
+<li>The economy has multiple stable steady state equilibria</li>
+<li>The economy has unique steady state equilibrium</li>
+<li>There may not be a steady state equilibrium</li>
+</ul>
+<ol start="34" style="list-style-type: decimal">
+<li>Consider a small open economy, where domestic and foreign prices are
+normalised,M is money supply,Lis money demand,iis domestic interest
+rate, <span class="math inline">\(i^{∗}\)</span> is foreign interest
+rate,Y is output, A , is aggregate spending by domestic residents on
+consumption and investment, G is government, expenditure, X is net
+exports,E is exchange rate (domestic currency per unit of foreign
+currency),B is Balance of Payments, <span
+class="math inline">\(KI\)</span> is net capital inflows.</li>
+</ol>
+<p><span class="math display">\[M=L(i,Y)\]</span> <span
+class="math display">\[Y =A(i,Y) +G+X(Y,E)\]</span> <span
+class="math display">\[B= 0 =KI(i−i^{*}) +X(Y,E)\]</span></p>
+<p>Assume that for this economy domestic and foreign assets are perfect
+substitutes for each other, there is no arbitrage in equilibrium, it
+operates under flexible exchange rate regime and Marshall Lerner
+condition holds. What will be the impact of an increase in government
+spending on imported goods?</p>
+<ul>
+<li>Rise in domestic interest rate and output</li>
+<li>Rise in domestic output but domestic interest rate remains
+unchanged</li>
+<li>Both domestic output and interest rate remain unchanged</li>
+<li>Rise in domestic interest rate but domestic output remains
+unchanged</li>
+</ul>
+<ol start="35" style="list-style-type: decimal">
+<li>The aggregate wage bill in an economy is equal to 40 and output,
+which is produced according to the Cobb- Douglas production function, is
+equal to 100. The output growth rate is 10 percent and the growth rates
+of capital and labor are 10 percent and 5 percent respectively. What is
+the overall productivity (TFP) growth rate for this economy?</li>
+</ol>
+<ul>
+<li>0.03</li>
+<li>0.02</li>
+<li>0.04</li>
+<li>0.01</li>
+</ul>
+<ol start="36" style="list-style-type: decimal">
+<li>The Phillips curve relation for an economy is given by <span
+class="math inline">\(π_t−π_t^e = 0. 1 − 3 u_t\)</span> where <span
+class="math inline">\(π_t^e=π_{t− 1}\)</span>. Suppose inflation in year
+<span class="math inline">\((t−1)\)</span> is 2 percent. In yeart, the
+central bank decides to keep the unemployment rate at 3 percent forever.
+Find the rate of inflation for years <span class="math inline">\(t,t+
+1,t+ 2\)</span> and <span class="math inline">\(t+ 3\)</span> ?
+Notation: Actual rate of inflation at period t is <span
+class="math inline">\(π_t\)</span> ; expected rate of inflation at
+period t is <span class="math inline">\(π_t^e\)</span> ; rate of
+unemployment at period t is <span
+class="math inline">\(u_t\)</span>.</li>
+</ol>
+<ul>
+<li>1%,2%,3% and 4% respectively</li>
+<li>2%,3%,4% and 5% respectively</li>
+<li>3%,4%,5% and 6% respectively</li>
+<li>2%,4%,5% and 6% respectively</li>
+</ul>
+<ol start="37" style="list-style-type: decimal">
+<li>If government finances its expenditure with taxes then which of the
+following is correct?</li>
+</ol>
+<ul>
+<li>It causes both reserves and the monetary base to rise.</li>
+<li>It causes both reserves and the monetary base to decline.</li>
+<li>It causes reserves to rise, but the monetary base to decline.</li>
+<li>It has no net effect on the monetary base.</li>
+</ul>
+<ol start="38" style="list-style-type: decimal">
+<li>Consider the following economy:</li>
+</ol>
+<p><span class="math display">\[C= 0.8(1−τ)Y\]</span> <span
+class="math display">\[τ= 0. 25\]</span> <span class="math display">\[I=
+900− 50 r\]</span> <span class="math display">\[\bar G = 800\]</span>
+<span class="math display">\[L= 0. 25 Y− 62. 5 r\]</span> <span
+class="math display">\[\frac{\bar M}{P} =500\]</span></p>
+<p>Aggregate consumption is C; average rate of tax on income is τ;
+aggregate income is Y; aggregate investment is I ; average rate of
+interest is r ; autonomous government expenditure is <span
+class="math inline">\(\bar G\)</span> ; aggregate demand for money is
+<span class="math inline">\(L_i\)</span> real money supply in the
+economy is <span class="math inline">\(\frac{\bar M}{P}\)</span>. Find
+the equilibrium rate of interest in this economy.</p>
+<ul>
+<li>r=5</li>
+<li>r=6</li>
+<li>r=7</li>
+<li>r=8</li>
+</ul>
+<ol start="39" style="list-style-type: decimal">
+<li>Consider the following economy:</li>
+</ol>
+<p><span class="math display">\[C= 0.8(1−τ)Y\]</span> <span
+class="math display">\[τ= 0. 25\]</span> <span class="math display">\[I=
+900− 50 r\]</span> <span class="math display">\[\bar G = 800\]</span>
+<span class="math display">\[L= 0. 25 Y− 62. 5 r\]</span> <span
+class="math display">\[\frac{\bar M}{P} =500\]</span></p>
+<p>Aggregate consumption is C; average rate of tax on income is τ;
+aggregate income is Y; aggregate investment is I ; average rate of
+interest is r ; autonomous government expenditure is <span
+class="math inline">\(\bar G\)</span> ; aggregate demand for money is
+<span class="math inline">\(L_i\)</span> real money supply in the
+economy is <span class="math inline">\(\frac{\bar M}{P}\)</span>. Find
+the equillibrium aggregate income in this country.</p>
+<ul>
+<li>Y = 3000</li>
+<li>Y = 3500</li>
+<li>Y = 4000</li>
+<li>Y = 4500</li>
+</ul>
+<ol start="40" style="list-style-type: decimal">
+<li>There are two countries,X and Y. Both have the same production
+function. The two countries start out with the same levels of capital,
+labour and technology and the capital-labour ratio is lower than the
+steady state level of capital per person. X has a saving rate of 30
+percent, whereas Y has a saving rate of 25 percent. In both countries,
+the growth rate of population is 3 percent per year, depreciation rate
+is equal to 5 percent per year and rate of technical progress equals 3
+percent per year. According to the Solow growth model, which of the
+following statements are correct?</li>
+</ol>
+<ul>
+<li>Y will exhibit higher growth rate of output per person in the
+shortrun and output will grow at 6% per year in both countries in the
+steady state.</li>
+<li>X will exhibit higher growth rate of output per person in the
+shortrun and output will grow at 6% per year in both countries in the
+steady state</li>
+<li>Both X and Y will exhibit same growth rate of output per person in
+the short- run and output will grow at 8% per year in both countries in
+the steady state.</li>
+<li>X will exhibit higher growth rate of output per person in the
+shortrun and output will grow at 8% per year in both countries in the
+steady state</li>
+</ul>
+<ol start="41" style="list-style-type: decimal">
+<li><p>Suppose X is a random variable which takes values in the interval
+<span class="math inline">\([-\frac{1}{2} ,\frac{1}{2}]\)</span> . The
+probability distribution function is denoted by <span
+class="math inline">\(\phi (x)\)</span> . Which of the following is
+certainly true?</p>
+<p>A. For any real numbers <span class="math inline">\(a, b\)</span>
+with <span class="math inline">\(b &gt; a , \phi (b)&gt;
+\phi(a)\)</span> . B. For any real numbers a,b in the interval <span
+class="math inline">\([-\frac{1}{2} ,\frac{1}{2}]\)</span> with <span
+class="math inline">\(b&gt;0 a \phi (b) &gt; \phi (a)\)</span> C.
+Expectation of X equals 0 D. Variance of X can not exceed 1</p></li>
+<li><p>Which of the following statements is correct:</p></li>
+</ol>
+<ul>
+<li>A large sample (say 1000 observations) is always representative of
+the population</li>
+<li>The observed significance level (P- value) of a test depends on the
+data</li>
+<li>Sample mean does not vary from sample to sample</li>
+<li>Standard Deviation and Standard Error is one and the same thing</li>
+</ul>
+<ol start="43" style="list-style-type: decimal">
+<li>You have three variables <span class="math inline">\(Y,X_1
+,X_2\)</span> . First you regress (OLS) Y on <span
+class="math inline">\(X_1\)</span> and <span
+class="math inline">\(X_2\)</span> to get the regression coefficients
+corresponding to <span class="math inline">\(X_1\)</span> and <span
+class="math inline">\(X_2\)</span> as <span
+class="math inline">\(b_1\)</span> and <span
+class="math inline">\(b_2\)</span> respectively. Then you also regress
+(OLS)Y on <span class="math inline">\(X_1\)</span> and <span
+class="math inline">\(X_1 +X_2\)</span> to get the regression
+coefficients corresponding to <span class="math inline">\(X_1\)</span>
+and <span class="math inline">\(X_1 +X_2\)</span> as <span
+class="math inline">\(c_1\)</span> and <span
+class="math inline">\(c_2\)</span> respectively. Which of the following
+statements is correct?</li>
+</ol>
+<ul>
+<li>There is no need to run the second regression;c 1 andc 2 can be
+derived from</li>
+<li><span class="math inline">\(b_1\)</span> and <span
+class="math inline">\(b_2\)</span> directly</li>
+<li>It is incorrect to run the second regression; it will not give an
+unbiased estimator</li>
+<li>It is better to run the first regression; Sum of Square of Residuals
+in the first regressions will be smaller than that of the second
+regression</li>
+<li>It is incorrect to run the second regression, the error term will be
+correlated with independent variables</li>
+</ul>
+<ol start="44" style="list-style-type: decimal">
+<li>Suppose we run OLS regression: <span
+class="math inline">\(Y_i=\alpha+\beta X_i + \epsilon _i\)</span> ,
+where notations have their usual meaning. After this we get an estimate
+of <span class="math inline">\(\hat Y^i= \hat \alpha +\hat \beta
+X_i\)</span>. Now we regress (OLS) <span
+class="math inline">\(Y_i\)</span> on <span
+class="math inline">\(Y^i\)</span>. Estimated coefficient of <span
+class="math inline">\(\hat Y^i\)</span> is <span
+class="math inline">\(\hat \Upsilon\)</span> . Which of the following is
+correct ?</li>
+</ol>
+<ul>
+<li><span class="math inline">\(\hat \Upsilon =\hat \alpha\)</span></li>
+<li><span class="math inline">\(\hat \Upsilon =\hat \beta\)</span></li>
+<li><span class="math inline">\(\hat \Upsilon =0\)</span></li>
+<li><span class="math inline">\(\hat \Upsilon =1\)</span></li>
+</ul>
+<ol start="45" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(X_1 ,X_2\)</span> and <span
+class="math inline">\(X_ 3\)</span> are three (pairwise) uncorrelated
+random variables. The mean and variance of each variable is 0 and 3
+respectively. Find the correlation between <span
+class="math inline">\((X_1 +X_2 )\)</span> and <span
+class="math inline">\((X_1 +X_3 )\)</span></li>
+</ol>
+<ul>
+<li><span class="math inline">\(0\)</span></li>
+<li><span class="math inline">\(\frac{1}{2}\)</span></li>
+<li><span class="math inline">\(\frac{1}{3}\)</span></li>
+<li><span class="math inline">\(1\)</span></li>
+</ul>
+<ol start="46" style="list-style-type: decimal">
+<li><span class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span> are jointly normally distributed.
+Suppose for any real number <span class="math inline">\(x\)</span>, the
+conditional expectation of <span class="math inline">\(Y\)</span> given
+<span class="math inline">\(X=x\)</span> is <span
+class="math inline">\(0\)</span>. Note that for any functiong: <span
+class="math inline">\(R^2 →R\)</span></li>
+</ol>
+<ul>
+<li><span class="math inline">\(E[g(Y,X)|X]\)</span> is a random
+variable</li>
+<li>If <span class="math inline">\(g(Y,X)≡u(X)v(Y)\)</span> for some
+functionu:R→Rand some functionv:R→R, then <span
+class="math inline">\(E[g(Y,X)|X] =u(X).E[v(Y)|X]\)</span></li>
+<li><span class="math inline">\(E[g(Y,X)] =E[E[g(Y,X)|X]]\)</span></li>
+</ul>
+<p><span class="math inline">\(E\)</span> denotes expectation. Which of
+the following statements is true</p>
+<ul>
+<li><span class="math inline">\(E[Y] = 0\)</span> but <span
+class="math inline">\(E[Y X] \neq 0\)</span></li>
+<li><span class="math inline">\(E[Y] = 0,E[Y X] = 0\)</span> but <span
+class="math inline">\(E[Y X^2 ] \neq 0\)</span></li>
+<li><span class="math inline">\(E[Y] = 0,E[Y X] = 0\)</span> and <span
+class="math inline">\(E[Y X^2 ] = 0\)</span></li>
+<li><span class="math inline">\(E[Y] = 0,E[Y X] = 0,E[Y X^2 ] =
+0\)</span> and <span class="math inline">\(E[(Y X)^2 ] = 0\)</span></li>
+</ul>
+<ol start="47" style="list-style-type: decimal">
+<li>An urn contains 2 blue balls and 10 red balls. Red balls are
+numbered 1, 2 ,…,10. Blue balls are not numbered. Balls are randomly
+drawn from the urn and returned until a blue ball is obtained at which
+point the experiment stops. Find the probability that ball number <span
+class="math inline">\(9\)</span> is drawn at least once.</li>
+</ol>
+<ul>
+<li><span class="math inline">\(\frac{1}{12}\)</span></li>
+<li><span class="math inline">\(\frac{1}{10}\)</span></li>
+<li><span class="math inline">\(\frac{1}{4}\)</span></li>
+<li><span class="math inline">\(\frac{1}{3}\)</span></li>
+</ul>
+<ol start="48" style="list-style-type: decimal">
+<li>A fair coin is tossed until a head comes up for the first time. Find
+the probability of this happening on an odd numbered toss.</li>
+</ol>
+<ul>
+<li><span class="math inline">\(\frac{1}{2}\)</span></li>
+<li><span class="math inline">\(\frac{1}{3}\)</span></li>
+<li><span class="math inline">\(\frac{2}{3}\)</span></li>
+<li><span class="math inline">\(\frac{3}{4}\)</span></li>
+</ul>
+<ol start="49" style="list-style-type: decimal">
+<li>Which of the following statements is true about Exponential
+probability distribution?</li>
+</ol>
+<ul>
+<li>Mean and median are the same</li>
+<li>The mean is greater than the median</li>
+<li>The mean is smaller than the median</li>
+<li>Mean and median cannot be compared - it depends on parameters</li>
+</ul>
+<ol start="50" style="list-style-type: decimal">
+<li>The cumulative distribution function <span
+class="math inline">\(F(x)\)</span> of a random variable has a slope of
+2 for x in the interval <span class="math inline">\([0, 0 .5]\)</span>
+and takes a constant value thereafter. Which of the following statements
+most accurately defines the probability density function of this random
+variable?</li>
+</ol>
+<ul>
+<li>It is constant in the interval <span class="math inline">\([0, 0
+.5]\)</span> and zero outside</li>
+<li>It is zero for allxoutside <span
+class="math inline">\([0,2]\)</span> and 0.5 for all values inside
+it</li>
+<li>It is increasing in the <span class="math inline">\([0, 0
+.5]\)</span> interval and constant and positive for all higher values of
+<span class="math inline">\(x\)</span></li>
+<li>It is increasing in the interval <span class="math inline">\([0, 0
+.5]\)</span> and zero for all higher values of <span
+class="math inline">\(x\)</span></li>
+</ul>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

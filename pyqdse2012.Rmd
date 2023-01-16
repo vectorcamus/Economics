@@ -1,0 +1,848 @@
+---
+title: "PYQ DSE 2012"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+DSE 2012
+
+  
+
+1. A rural landowner can deposit his savings in a commercial bank and receive an annual  interest rate of 8%. Alternatively he can lend to villagers who need credit. If all loans are of the same size and only sixty per cent of them are repaid, the interest rate that would make his earnings the same as from depositing his savings in a bank is
+
+  
+
+A. 8%
+
+B. 48%
+
+C. 80%
+
+D. 120%
+
+  
+
+2. Consider a two-person two-good exchange economy, where agents are denoted by A,B and goods are denoted by X,Y. A Pareto optimal allocation of this economy maynot  remain Pareto optimal if
+
+A. Everything else remaining the same, Agent A transfers a part of her endowment to Agent B
+
+B. Everything else remaining the same, Agent A gets additional endowment
+
+C. Everything else remaining the same, Agent A’s utility function is monotonically transformed
+
+D. All of the above
+
+  
+
+3. Given the same production function and market demand, a monopolist earns at least as much profit as a competitive firm in the short run, because
+
+  
+
+A. Monopolist is free to charge the competitive market price
+
+B. Short run profit of a competitive firm is zero
+
+C. Marginal cost of a monopolist is smaller than that of a competitive firm
+
+D. Average cost of a monopolist is smaller than that of a competitive firm
+
+  
+
+4. Mr. B thinks cheese is addictive - the more you eat, the more you want. Suppose x denotes the quantity of cheese. Mr. B’s utility function can be represented by
+
+  
+A. $u(x,y) =x^2 +y$
+
+B. $u(x,y) =\ln x+lny$
+
+C.$u(x,y) =x+y$
+
+D. $u(x,y) =min(x,y)$
+
+  
+
+5. Sania and Saina are bargaining over how to split 10 Rupees. Both claimants simultaneously name shares they would like to have, $s_1$  and $s_2$ , where $0 \leq s_1 ,s_2  \leq 10$. If  $s_1 +s_2  \leq 10$  then the claimants receive the shares they named; otherwise both receive zero. Findallpure strategy Nash Equilibria of this game
+
+A.  $s_1 = 5,s_2 = 5$
+
+B.  {$(s_1 ,s_2 )|s_1 +s_2 = 10$}
+
+C.  {$(s_1 ,s_2 )|s_1 +s_2  \leq  10$ }
+
+D.  There is no pure strategy Nash equilibrium
+
+  
+
+6. “Developing new antibiotics is expensive. It is also known that the more frequently  bacteria are exposed to antibiotics, the more quickly the bacteria will develop resistance to the antibiotics. Yet, usually, each parent will press a doctor for an antibiotic if there  is any chance it will heal a child quicker than t without drugs.” The above statement can be best understood as a problem of
+
+  
+
+A. Public good: Bacteria are public bad
+
+B. Adverse selection: Doctors have information that is not available to parents
+
+C. Risk aversion: Parents are risk averse
+
+D. Short-run utility maximization: Most parents are myopic; they fail to see the long run effect
+
+  
+
+7. If the correlation between variables X and Y is 0, then
+
+A. The regressions of Y onX andX onY intersect at right angles, and pass through (X,Y)
+
+B. The regressions ofY on X and X onY do not intersect at right angles but do pass through (X,Y)
+
+C. The regressions ofY onXandXonY intersect at right angles, but do not pass through (X,Y)
+
+D. The regressions ofY on X and X on Y do not intersect at right angles, and do not pass through (X,Y)
+
+  
+
+8. One reason why the sample median is used as an estimator of the population mean is  that
+
+  
+
+A. The average of all sample medians equals the population mean
+
+B. The sample median equals the population mean
+
+C. The sample median is unaffected by extreme values
+
+D. The sample median occurs more often than the mode or the mean
+
+  
+
+9. SupposeXis a random variable, which follows Uniform $[− 1 ,1]$ . Find the covariance between X and $X^2$
+
+  
+
+A. 1
+
+B. $\frac{1}{4}$
+
+C. $\frac{1}{8}$
+
+D. 0
+
+  
+
+10. Which of the following statements is not an indicator that multicollinearity among two or more variables is present in a multiple regression model estimated using OLS:
+
+  
+
+A. Small changes to the data can cause large changes to estimated coefficients
+
+B. Coefficients are estimated with bias
+
+C. The estimated coefficients have large standard errors even though the $R^2$  is high
+
+D. A test of joint significance of two or more coefficients is significant even though individually they are not significant
+
+  
+
+11. Given the linear regression $Y = \alpha + \beta X$ ; a very high correlation between variables X  andY necessarily implies that
+
+  
+
+A. The slope coefficient \beta is statistically significant
+
+B. The observations (x,y) lie along a straight line
+
+C. Small changes in X cause large changes in Y
+
+D. The regression line is steep
+
+  
+
+12. What would happen (other things being equal) to a confidence interval if you calculated a 99% confidence interval rather than a 95% confidence interval?
+
+  
+
+A. It will be narrower
+
+B. It will not change
+
+C. The sample size will increase
+
+D. It will become wider
+
+  
+
+13. An n−gon is a regular polygon withnequal sides. Find the number of diagonals (edges  of an n−gon are not considered as diagonals) of a 10-gon.
+
+  
+
+A. 20 diagonals
+
+B. 25 diagonals
+
+C. 35 diagonals
+
+D. 45 diagonals
+
+  
+
+14. $\int_0^1 x^n \sin (x) dx$ 
+
+  
+A. Does not exist
+
+B. Is necessarily greater than 1
+
+C. Is greater than $\frac{1}{n+1}$
+
+D. Is less than $\frac{1}{n+1}$
+
+  
+
+15. $\lim_{n \to \infty}  (\sqrt {(n−1)}−\sqrt n)$
+
+  
+
+A. Equals 1
+
+B. Equals 0
+
+C. Does not exist
+
+D. Depends on n
+
+  
+
+16. The equation $x^7 =x+ 1$ 
+
+A. Has no real solution
+
+B. Has no positive real solution
+
+C. Has a real solution in the interval (0,2)
+
+D. Has a real solution but not within (0,2)
+
+  
+
+17. The cumulative distribution function $F(x)$  of a random variable has a slope of 1 for x in the interval $[0,1]$  and takes a constant value thereafter. Which of the following statements most accurately defines the probability density function of X?
+
+  
+
+A. It is zero in the interval $[0,1]$  and 1 for all higher values of x
+
+B. It is 1 in the interval $[0,1]$  and zero for all higher values of x
+
+C. It is increasing in the interval $[0,1]$  and constant and positive for all higher values of x
+
+D. It is increasing in the interval $[0,1]$  and zero for all higher values of x
+
+  
+
+18. A and B are two non empty sets. $A−B=$ {$x \in A|x  \in B$ } and $A+B= (A−B)\cup (B−A)$  Consider the following statements:
+
+  
+
+Statement 1: $A+B=BimpliesA⊂B$
+
+Statement 2: $A+B=φ \ implies \ A=B$
+
+Statement 3: $A+B=A∪B \ implies \ A∩B=φ$ 
+
+How many of the above statements are correct?
+
+  
+
+A. 0
+
+B. 1
+
+C. 2
+
+D. 3
+
+  
+
+19. The short-run aggregate supply curve is upward sloping because
+
+  
+
+A. A lower price level creates a wealth effect
+
+B. Lower taxes motivate people to work more
+
+C. Money wages do not immediately change when the price level changes
+
+D. Most business firms operate with long-term contracts for output but not labour
+
+  
+
+20. The investment demand curve shifts rightward if
+
+A. The expected profit rate increases
+
+B. The real interest rate falls
+
+C. Savers increase their thriftiness
+
+D. The economy moves into a recession
+
+  
+
+21. A firm producing hockey sticks in Punjab has a production function given by $Q= 2$  where $K$  stands for capital,L stands for labour and Q stands for output. The rental rate of capital is Rs 1 and the wage rate is Rs 4. What will be the firm’s cost function?
+
+  
+
+A. 2Q
+
+B. Q
+
+C. $Q^2$
+
+D. $2Q^2$ 
+
+  
+
+22. Antony and Cleopatra run a food stall together. Their joint profit is 10 Rupees per month, from which, Antony gets $I_A$  Rupees and Cleopatra gets $I_C$  Rupees. Utility. functions of Antony and Cleopatra are $U_A= \sqrt {I_aI_C}$ and $U_C=I_C$ , respectively. Consider the following divisions, 
+
+Division 1: $I_A= 7,I_C= 3$  
+Division 2: $I_A= 3,I_C= 7$ 
+
+  
+
+A. Both the divisions are Pareto optimal
+
+B. None of the divisions is Pareto optimal
+
+C. Only Division 1 is Pareto optimal
+
+D. Only Division 2 is Pareto optimal
+
+  
+
+23. Consider a homogenous goods market with the demand function $Q= 30−P$ , where Q  and P denote quantity and price respectively. There are two firms playing a price game  in the following manner: firm 1 quotes a price and then firm 2 chooses a price. When  they charge the same price they share the market equally and otherwise the market  demand goes to the firm charging lower price. Firm 1 has a capacity constraint at the output level 5 units such that upto five units the marginal cost of production is Rs 3 pe  unit of output, however beyond 5 units it cannot produce any output. Firm 2 does not  have any capacity constraint, it can produce any amount with the marginal cost Rs 6.  What would be the equilibrium price in the market?
+
+  
+
+A. 3
+
+B. 6
+
+C. $6 - \epsilon$ , where $\epsilon$ is very small positive number
+
+D. $3 +\epsilon$ , where $\epsilon$ is very small positive number
+
+  
+
+24. Consider the following two-player game. The players simultaneously draw one sample  each from a continuous random variable X, which follows Uniform $[0,100]$ . After observing the value of her own sample, which is private information (that is, opponent  does not observe it), players simultaneously and independently choose one of the following: SWAP,RETAIN. If both the players chooseSWAP then they exchange their initially drawn numbers. Otherwise, if at least one person chooses RETAIN, both of them retain their numbers. A player earns as many Rupees as the number she is holding at the end of the game. Find the probability that the players will exchange their initially drawn numbers
+
+  
+
+A. 1
+
+B. $\frac{1}{2}$
+
+C. $\frac{1}{3}$
+
+D. 0
+
+  
+
+25. The productivity of a labourer depends on his daily wage. In some range of wage, the more he is paid, the better his health and the more work he is able to do in a given  day. Suppose that the relationship between productivity and daily wage is as follows.  No work is done for wage below Rs. 20 per day. Each rupee earned above 20 increases  productivity by 5 units until the daily wage is Rs. 140 per day. Beyond this level of wage, productivity is constant. If a farmer needs to hire labour for a total of 6000 units of work per day, how many labourers is he likely to hire?
+
+  
+
+A. 4
+
+B. 5
+
+C. 6
+
+D. 10
+
+  
+
+26. Consider a society in which half the population earns 100 rupees per day and the other half earns 200 rupees per day. The Gini coefficient of inequality for this society is given  by
+
+  
+
+A. $\frac{1}{2}$
+
+B. $\frac{1}{3}$
+
+C. $\frac{1}{6}$
+
+D. $\frac{1}{8}4
+
+  
+
+27. A and B live in an exchange economy. There are two goods X andY . Utility functions  of A and B are  $U_A(x,y) =x+y$  and $U_B(x,y) =x^2 +y^2$  , respectively. A′s endowment  is 2 units of X and 1 unit of Y, while B′s endowment is 1 unit of X and 2 units of Y.  Consider the following allocations  Allocation 1:Agets 1.5 units of X and zero unit of Y, B gets 1.5 units of X and 3 units  of Y  Allocation 2: A gets 1.5 units of Xand 1.5 unit of Y,B gets 1.5 units of X and 1.5 units of Y
+
+
+
+A. Both the allocations are Pareto optimal
+
+B. None of the allocations is Pareto optimal
+
+C. Only allocation 1 is Pareto optimal
+
+D. Only allocation 2 is Pareto optimal
+
+  
+
+  
+
+28. Fill in the blanks: Given a downward sloping linear demand curve and constant margina cost curves, if a per unit tax is imposed on a monopoly, a monopoly will ...... the quantity of its good and its revenue after tax will ......
+
+  
+
+A. Increase ; Decrease
+
+B. Increase ; Increase
+
+C. Decrease ; Increase
+
+D. Decrease ; Decrease
+
+  
+
+29. The demand curve for electricity is $D(p) = 120−p$ . The marginal cost of electricity  production is $MC_1 (q) = 20 +q$. The marginal cost of pollution due to electricity produc-  tion is $MC_2 (q) = 3q$ . Find the competitive equilibrium output and the social optimum output.
+
+A. 50;20
+
+B. 50;30
+
+C. 60;20
+
+D. 60;30
+
+  
+
+30. Suppose that there are two agents in an economy with income $x_1  \ and \ x_2$ . If the richer person transfers a portion of her income to the poorer person without changing the  income ranking (that is the rich remains richer even after the transfer) then it is called  aprogressive transfer. Welfare of this economy is measured by a function $W(x_1 ,x_2 ).W$  is a ‘good’ measure of social welfare if the social welfare increases due to a progressive  transfer. Consider the following candidates for $W; W_1 (x_1 ,x_2 ) =x_1 +x_2 ; W_2 (x_1 ,x_2 ) =x_1 x_2$
+
+  
+
+A. Only $W_1$  is a ‘good’ measure
+
+B. Only $W+2$  is a ‘good’ measure
+
+C. Both $W_1$  and $W_2$  are ‘good’ measures
+
+D. Neither $W_1$  nor $W_2$  is a ‘good’ measures
+
+  
+
+31. Consider the following model, estimated using OLS  $Y_i= \beta X_i+i; i= 1, 2 ,\dots ,n$  where there is no intercept, and $V ar(i) =\sigma^2$ . Which of the following statements is not true?
+
+A. The $R^2$  from this regression can be large even if X and Y have low correlation.
+
+B. The least squares residuals need not sum to zero.
+
+C. The mean square error is given by $\frac{\sum (Y_i−\hat Y)}{ 2(n−1)}$
+
+D. The least squares estimator of the slope coefficient is given by: $\frac{n \sum X_iY_i− \sum X_i \sum Y_i}{ n \sum X_i^2 −( \sum X_i)^2}$
+
+  
+
+  
+
+32. An analyst trying to estimate the demand for rice has estimated the following two models 
+Model 1: $D= 50 + 0. 3 Y+ 0. 1 P+ 12N;R^2 = 0. 7$  where D is the demand for rice per household,Y is income per household,P is the price of rice and N is household size. The standard errors associated with the coefficient Y is 0 .1, that associated with P is 0.05, and of $N_i$ is 3. 
+Model 2:$\frac{D}{N}= 50 + 0. 2 \frac{Y}{N}− 0. 5 P;R^2 = 0. 9$  where the standard errors of the estimated slope coefficients are 0.1 and 0.2 respectively.  Which of the following statements is true?
+
+  
+
+A. Model 2 is preferred to Model 1 because it has a higher $R^2$ .
+
+B. Model 1 is preferred to Model 2 because the coefficients are all signifcant.
+
+C. The two models are not comparable in terms of fit
+
+D. None of the above
+
+  
+
+33. Consider the regression $Y_i^{∗}= \hat \beta_1^{∗}+ \hat\beta_2^{∗} X_i^{∗}+u_i^{∗}, \ and \ Y_i= \hat \beta_1 + \hat \beta_2 X_i+u_i, \ where \ Y_i^{∗}=w_1 Y_i \ and \ X_i^{∗}=w_2 X_i;w_1 ,w_2$  are constants. Is it true that
+
+A.  $\hat \beta_1^{∗}=w_2  \hat \beta_1$
+
+B. $\hat \beta_2^{∗}=(\frac{w_1}{w_2} ) \hat \beta_2$
+
+C. $Var( \hat \beta_2^{∗}) = (\frac{w_1}{w_2} )^2  Var( \hat \beta_2 )$ 
+
+D. $r_{xy}^2 \neq r_{x*y*}^2$  , where r denotes correlation coefficient
+
+  
+
+34. For variables X and Y we have the data $\sum XY = 350, \sum X = 50, \sum Y = 60,X =5 ,\sigma^2 X= 4,\sigma Y^2 = 9$ , where X denotes the mean of X and $\sigma^2$  X denotes the variance of X. Which of the following holds
+
+  
+
+A. A one unit change in X causes a 1.25 unit change in Y , and a one unit change inY causes a 0.6 unit change inX
+
+B. A one unit change in X causes a 0.6 unit change in Y , and a one unit change in Y causes a 1.25 unit change in X
+
+C. A 10% change in X causes a 15% change in Y
+
+D. The regression of Y on X passes through the origin
+
+  
+
+35. X is a normally distributed random variable with unknown mean $\mu$ and standard deviation equal to 2. The value of the sample mean from a random sample of size 25 is 10. Which of the following values lie within the 95% confidence interval for $\mu$  ?
+
+  
+
+A. 9.3
+
+B. 9.8
+
+C. 10.6
+
+D. All of the above
+
+  
+
+  
+
+36. An econometrician uses data from the Consumer Expenditure Survey conducted by the  National Sample Survey Organization for the years 1991 and 2001 and plots the cumulative distribution function for real consumer expenditure per capita for these years. He  finds that cumulative distribution function for 2001 is everywhere to the right of that  for 1991. Consider the following,
+
+Conclusion 1: The Gini coefficient for 2001 is higher than for 1991
+
+Conclusion 2: Consumption expenditure of every individual has increased in 2001 compared to 1991
+
+Conclusion 3: Real consumption expenditure per capita has increased in 2001 compared to 1991
+
+  
+Which of the above conclusions are correct
+
+
+A. Only (iii) is correct
+
+B. (i) and (ii) are correct
+
+C. (ii) and (iii) are correct
+
+D. None of the conclusions is correct
+
+  
+
+37. Let $X_1 ,X_2 ,\dots ,X_n$ be random samples from a normal distribution with parameters $\mu$  and $\sigma^2$ . Then the random variable $\frac{(n−1)S^2}{\sigma^2} =\frac{1}{\sigma^2} \sum_{i=1}^n (X_i−\bar X)^2$  has a chi-squared $\hat X_{v,n-1}^2$distribution with n−1 degrees of freedom. Here X denotes the mean of $X_1 ,X_2 ,\dots ,X_n$ . Suppose area under a chi-squared curve with n−1 degrees of freedom to the right of $χ_{v,n− 1}^2$  is v. A $100(1− \alpha )$ %  confidence interval for the variance $\sigma^2$  is
+
+```
+insert options
+```
+
+38. Suppose you have 500 observations and you regress wage (measured in rupees per hour)  on experience in the labour market,exper(measures in years), and on experience in the labour market squared, (exper 2 ). Your estimated OLS equation is
+
+$$w\hat age  = 3.73 + 0. 298 \ exper− 0. 0061 \ exper^2$$
+```
+insert s errors
+```
+where the standard errors are in brackets. The estimated equation implies
+
+A. The returns to experience is strictly increasing
+
+B. The returns to experience is strictly diminishing
+
+C. The returns to experience is constant
+
+D. Experience has no statistically significant effect on wage
+
+  
+
+39. Suppose you have a sample of size one from one of the following densities
+
+$$H_0 :f(x) = 2x \ 0\leq x\leq  1$$
+
+$$H_1 :f(x) = 2− 2x \ 0\leq x\leq  1$$
+
+Let $\alpha$  and $\beta$  denote type I error and type II error, respectively. Find the test procedure of the form “Reject $H_0$  if x < k” with $\alpha = 0.09$ . Find $\beta$  for this test.
+
+A. k= 0. 5 , \beta = 0. 25
+
+B.k= 0. 5 , \beta = 0. 36
+
+C.k= 0. 3 , \beta = 0. 16
+
+D. k= 0. 3 , \beta = 0. 49
+
+  
+
+40. An urn contains equal number of green and red balls. Suppose you are playing the following game. You draw one ball at random from the urn and note its colour. The ball is then placed back in the urn, and the selection process is repeated. Each time a green ball is picked you get 1 Rupee. Thefirsttime you pick a red ball, you pay 1 Rupee and  the game ends. Your expected income from this game is
+
+A. $\infty$
+
+B. Positive but finite
+
+C. Zero
+
+D. Negative
+
+41. Two women and four men are to be seated randomly around a circular table. Find the probability that the women are not seated next to each other.
+
+A. $\frac{1}{2}$
+
+B. $\frac{1}{3}$
+
+C. $\frac{2}{5}$
+
+D. $\frac{3}{5}$
+
+42. A fair coin is tossed until a head comes up for the first time. The probability of this happening on an odd-numbered toss is
+
+A. $\frac{1}{2}$
+
+B. $\frac{1}{3}$
+
+C. $\frac{2}{3}$
+
+D. $\frac{3}{4}$
+
+  
+
+43. An experiment has 10 equally likely outcomes. LetAandBbe two non-empty events of the experiment. If A consists of 4 outcomes, then the number of outcomes B must have so that A and B are independent, is
+
+A. 4
+
+B. 3 or 9
+
+C. 6
+
+D. 5 or 10
+
+44. Consider the system of equations
+
+$\alpha x+ \beta y= 0$ 
+
+ $\mu x+vy= 0$ 
+
+$\alpha , \beta , \mu \ and v$ are $i.i.d$  random variable. Each of them takes value 1 and 0 with equal probability.
+
+Statement A: The probability that the system of equations has a unique solution is $\frac{3}{8}$
+
+Statement B: The probability that the system of equations has at least one solution is 1.
+
+A. Both the statements are correct
+
+B. Both the statements are false
+
+C. Statement A is correct but B is false
+
+D. Statement B is correct but A is false
+
+  
+
+45. $f(x,y) =x+y+xy \  where \ x,y \in R_{++}$ . For $c \in R_{++}$ , let us define
+
+L={$(x,y) \in R^2 |f(x,y) \leq c$}
+
+U={$(x,y) \in R^2 |f(x,y)\geq c$}
+
+I={$(x,y) \in R^2 |f(x,y) =c$}
+
+Which of the above sets are convex?
+
+A.  L
+
+B. U
+
+C. I
+
+D.  All of them
+
+  
+
+46. What is the total number of local maxima and local minima of the following function
+```
+insert function
+```
+
+ A. 1
+ 
+ B. 2
+ 
+ C. 3
+
+ D. 4
+
+  
+
+47. Suppose that $f(x)$  is twice differentiable and strictly concave in x. Define, $g(x) = \lim_{t\to x} \frac{f(c+t)-f(c+x)}{t-x}$ 
+
+where c  is a constant. Then g(x) is
+
+A. Decreasing function
+
+B. Increasing function
+
+C. Decreasing function when c >0 and increasing function when $c < 0$
+
+D. Increasing function when c >0 and decreasing function when $c < 0$ 
+
+  
+
+48. A rectangle has its lower left hand corner at the origin and its upper right hand corner on the graph off(x) =x^2 + (1/x^2 ). For whichxis the area of the rectangle minimized?
+
+A. $x= 0$
+
+B. $x=\infty$
+
+C. $x= (\frac{1}{3})^{\frac{1 }{4}}$ 
+
+D. $x=2^{\frac{1}{3}}$
+
+49. The real valued function $f(x) =x+|x|+ (x−1) +|x− 1 |,\ where \ |x|,|x− 1 |$ stand for  absolute values
+
+A. Is differentiable everywhere except at x= 0
+
+B. Is not continuous at 0
+
+C. Is not differentiable at 1
+
+D. Is not continuous at 1
+
+50. Let $x= (x_1 ,x_2 ,\dots ,x_n) \ and \ y= (y_1 ,y_2 ,\dots ,y_n)$  be two vectors in $R_n$ . Define, $x⊗y= \sum_{i=1}^n x_i|y_i|$ , where $|y_i|$ stands for absolute value. How many of the following statements are correct
+
+ Statement 1:$x⊗y=y⊗x$ 
+
+ Statement 2:$x⊗x= 0$  implies $x= (0, 0 ,\dots ,0)$ 
+
+ Statement 3:$x⊗(c,y) =c(x⊗y) , \ where \ c \in R_{++} \ and \ c.y= (cy_1 ,cy_2 ,\dots ,cy_n)$ 
+
+A. 0
+
+B. 1
+
+C. 2
+
+D. 3
+
+  
+
+The following set of information is relevant for the next six questions. Consider an economy where the nominal wage rate is set by a process of wage bargaining between the workers and the producers before actual production takes place. Thus at any period t, the nominal wage rate $(W_t)$  is a function of the expected price level $(P_t^e)$ , the rate of unemployment $(u_t)$  and the average productivity of the workers $(A_t)$ . The exact functional relationship is given below:
+
+$W_t=P_t^e \ F(u_t,A_t) ; F_u<0;F_A> 0$ 
+
+  
+
+Once the nominal wage is determined, the producers set the actual price level $(P_t)$  as a constant mark up $( \mu )$  over the nominal wage rate: $P_t= (1 + \mu )W_t$ . Define the actual rate of inflation as $\pi_t=\frac{P_t^e-P_{t-1}}{P_{t- 1}}$  and the expected rate of inflation as  $\pi_t^e=\frac{P_t^e-P_{t- 1}}{P_{t-1}}$ 
+
+  
+
+51. Given the above wage and price setting equations, derive the relationship between expected rate of inflation and actual rate of inflation. Which of the following equations represents this relationship?
+
+A. $\pi_t= (1 + \pi_t)[F(u_t,A_t)− \mu ]− 1$
+
+B. $\pi_t= (1 + \pi_t)(1 + \mu )F(u_t,A_t)− 1$
+
+C. $\pi_t= \pi_t^e(1 + \mu )F(u_t,A_t)$
+
+D. None of the above
+
+52. Suppose the average productivity of workers remains constant at a level A. Given the relationship in previous question, which of the following equations defines the ‘natural  rate of unemployment’?
+
+A. $F(u_t,\bar A) = \mu$ 
+
+B.$F(u_t,\bar A) =\frac{1}{1+  \mu}$ 
+
+C.$F(u_t,\bar A) =\frac{ \mu}{1+  \mu}$ 
+
+D. None of the above
+
+53. A one-shot increase in the average productivity of worker, ceteris paribus, leads to
+
+ A. An increase in the natural rate of unemployment
+
+B. A decrease in the natural rate of unemployment
+
+C. No change in the natural rate of unemployment
+
+ D. Some change in the natural rate of unemployment but the direction is ambiguous
+
+54. A one-shot increase in the producer’s mark up, ceteris paribus, leads to
+
+A. An increase in the natural rate of unemployment
+
+B. A decrease in the natural rate of unemployment
+
+C. No change in the natural rate of unemployment
+
+D. Some change in the natural rate of unemployment but the direction is ambiguous
+
+  
+
+55. Go back to the relationship between $\pi_t$ and $\pi_t^e$ above (first question of this list). Suppose  expectations are static, i.e., $\pi_t^e= \pi_{t− 1}$ . Also let $F(u_t,A_t) =\frac{A_t}{\mu_t}−1$  and $A_t=\bar A$ (a constant). The corresponding value of the non-accelerating inflation rate of unemployment is given by
+
+A. $u_t= (\frac{\mu}{1+ \mu} )\bar A$ 
+
+B. $u_t= (\frac{\mu}{2+ \mu } )\bar A$ 
+
+C. $u_t= (\frac{1+ \mu }{2+ \mu} )A$ 
+
+D. None of the above
+
+56. Now suppose the workers productivity increases at a constant rate $\gamma$  , that is ,$\frac{A_t -A_{t- 1}}{A_{t-1}}  =\gamma$  . To maintain a non-accelerating inflation rate, rate of unemployment has to increase at the rate
+
+A. $\gamma$ 
+
+B. $\mu$ 
+
+C. $\mu + \gamma$  
+
+D. $(\frac{\mu}{1+  \mu} ) \gamma$  
+
+  
+
+The following set of information is relevant for the next four questions. Consider a small open economy with fixed nominal exchange rate (E), fixed domestic price level (P) and fixed foreign price level $(P^{∗})$ . Let $\epsilon$ be the corresponding real exchange rate. The goods market equilibrium condition is given by the following IS equation: $Y =C+I+G+X−IM$ where $C =c_0 +c_1 Y$  represents domestic consumption; $I=d_1 Y−d_2 r$ represents domestic investment; $G$ represents government expenditure;  $X=x_1 Y^{∗}−x_2 \epsilon$  represents export; $Y^{∗}$  represents income of the foreign country; and $IM=m_1 Y+m_2$  represents import
+
+  
+
+57. Suppose the rate of interest (r) as exogenously given. Then a unit increase in the foreign price level, ceteris paribus, increases domestic output by
+
+```
+  insert options
+```
+  
+
+D. None of the above
+
+  
+
+  
+
+58. Write the goods market clearing level of output as a function of the real exchange rate  $(\epsilon)$ and other parameters. If you plot this relationship between Y and in the Y,plane  (with $\epsilon$ on the vertical axis), you will get
+
+  
+
+A. A positively sloped schedule if the Marshall-Lerner condition is satisfied
+
+B. A negatively sloped schedule if the Marshall-Lerner condition is satisfied
+
+C. A positively sloped schedule irrespective of the Marshall-Lerner condition
+
+D. A negatively sloped schedule irrespective of the Marshall-Lerner condition
+
+  
+
+59. Let us now bring in an asset market and a foreign exchange market into the picture.  Let the asset market equilibrium condition be represented by the following LM equation: $\bar M =l_1 Y −l_2 r$ . Also, let the foreign exchange market equilibrium condition be represented by the following interest rate parity condition $r=r^{∗} +\frac{1 }{e}(\epsilon^e-\epsilon),r^{∗}$ and e  being the foreign interest rate and the expected future exchange rate respectively. For  any given value of $r^{∗}$ ande, derive the level of output which will clear both the asset  market and the foreign exchange market as a function of the real exchange rate $(\epsilon)$  and other parameters. If you plot this relationship between Y and in the Y,plane (with $\epsilon$ on the vertical axis), you will get
+
+  
+
+A. A positively sloped schedule if the Marshall-Lerner condition is satisfied
+
+B. A negatively sloped schedule if the Marshall-Lerner condition is satisfied
+
+C. A positively sloped schedule irrespective of the Marshall-Lerner condition
+
+D. A negatively sloped schedule irrespective of the Marshall-Lerner condition
+
+  
+
+60. Let the equilibrium output and the equilibrium exchange rate be simultaneously determined by the intersection of the above two schedules (derived in the previous two questions). Suppose Marshall-Lerner condition is satisfied. Then
+
+  
+
+A. An increase in G leads to an increase in the equilibrium value of, while an increase in M leads to a decrease in
+
+B. An increase in G leads to an decrease in the equilibrium value of, while anincrease in M leads to an increase in
+
+C. Increase in either G or M leads to an increase in the equilibrium value of
+
+D. Increase in either G or  M leads to a decrease in the equilibrium value of

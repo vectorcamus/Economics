@@ -1,0 +1,700 @@
+---
+title: "PYQ DSE 2007"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+  
+# DSE 2007
+
+  
+
+1. Consider a consumer having a utility function $U = 2x+y$ where x and y are two commodities. Suppose that the price ofx and y are both Rs. 5 each and the consumer’s income is Rs. 100. In equilibrium, the consumer will consume the bundle
+
+    A. (10,10)
+
+    B. (0,20)
+
+    C. (20,0)
+
+    D. None of the above
+
+2. With quantity of x on the horizontal axis, the Engel curve for commodity x corresponding to the utility function $U=y+f(x)$ will be
+
+   A. a ray through the origin
+
+   B. a vertical line
+
+   C. a horizontal line
+
+   D. a curve with an inflexion point
+
+3. Suppose a producer has a fixed coefficient technology $Q= min( 2 K, 3 L)$ , where Q is  output and K and L are the inputs. At equilibrium
+
+    A. K=L
+
+    B. K= ($\frac{3}{2}$)L
+
+    C.K= ($\frac{2}{3}$)L
+
+    D. K and L are indeterminate
+
+
+4. A monopolist will never produce a quantity where the price elasticity of demand is  inelastic because:
+
+    A. $P >MC$  in such a case
+
+    B. $MR>MC$  in such a case
+
+    C. $MR<0$ in such a case
+
+    D. $P<ATC$ in such case 
+    
+
+5. In the figure below when the budget lie (drawn in blue) was originally $5F+ 10C= 200$ ,
+
+    Anita purchased 30 units of F and 5 units ofC. At two later dates, lines (1) and (2) were
+
+    the budget lines. Anita had the same preferences in all three instances. As a rational
+
+    consumer, which market baskets might she have purchased at the later dates?
+
+```inset image```
+
+A. A, B 
+
+B. A, D 
+
+C. B, C 
+
+D. C, D
+
+
+6. NAIRU implies
+
+ 
+    A. the unemployment rate is zero
+
+    B. inflation is contant
+
+    C. the rate of growth of real GDP is constant
+
+    D. none of the above
+
+
+7. In an open economy with perfect capital mobility and fixed exchange rates, an open market operation will
+
+
+    A. increase output and reduce interest rate
+
+    B. increase the money supply
+
+    C. lower the trade deficit
+
+    D. change the composition of the monetary base
+
+
+8. If a person is a borrower, a rise in the interest rate will
+
+    A. always reduce borrowing
+
+    B. always increase borrowing
+
+    C. could increase borrowing depending on the relative strengths of income and  substitution effects
+
+    D. none of the above
+ 
+
+9. The J-curve suggests that the effect of an appreciation of the exchange rate on the trade  balance is to:
+
+
+A. improve it in the short run
+
+B. worsen it in the short run
+
+C. leave it unchanged
+
+D. improve it in the long run
+
+ 
+10. Under classical supply conditions, a fiscal expansion
+
+A. only raises the price level and the interest rate
+
+B. expands supply at constant prices
+
+C. expands supply at rising prices
+
+D. leaves both supply and price level unchanged
+
+
+11. Consider the following functions $f : R → R$ , where R denotes the set of real numbers. Which of the following functions is quasi-convex ?
+
+A. $f(x)=x^2$  
+
+B. $f(x)=\cos x$
+
+C. $f(x)=e^{-x}$
+
+D. $f(x)=x^{-1} \ if \ x\neq 0 \ ;  \ f(x)=0 \ if \ x=0$
+
+12. Consider an n × n matrix A with real entries. If matrix B is derived by adding the first column of A to the last column of A, then
+    
+    A. det A < det B  
+    B. det A > det B  
+    C. det A = det B  
+    D. the sign of det A is the opposite of the sign of det B
+
+
+13. Consider a strictly decreasing (i.e.  $x > y \implies f(x)< f(y))$ and dif $ferentiable function  $f:R→R$, where R denotes the set of real numbers. Denote the derivative of $f$  at $x \in  R$ by $Df(x)$ . Which of the following may be true about $f$ ?
+
+    A. $Df(x)>0$  for some $x \in R$ 
+
+    B. $Df(x) = 0$ for some $x \in  R$
+
+    C. $Df(x) = 0$ for every $x  \in  (a,b)$ where  $a < b$ 
+
+    D. $Df(x)\geq 0$  for every $x  \in  R$
+
+14. If the statement “There exists a legislature and a party such that every legislator in that party pays taxes” is false, then which of the following statements must be true?
+
+    A. In every legislature and every party, all legislators do not pay taxes
+
+    B. There exists a legislature such that every legislator in every party does not pay taxes
+
+    C. In every legislature, there exists a party and a legislator in that party who does not pay taxes
+
+    D. In every legislature and every party, there exists a legislator who does not pay taxes
+
+  
+
+15. if $f :R_n →R$ is twice differentiable, concave and homogeneous of degree 1, then the Hessian matrix of $f$ is
+
+
+    A. negative definite
+
+    B. positive definite
+
+    C. singular
+
+    D. non-singular
+
+  
+
+16. Consider an experiment in which five fibres having different lengths are subjecting to a  testing process to learn which fibre will break first. The lengths of the five fibres are 1  inch, 2 inches, 3 inches, 4 inches and 5 inches. Suppose the probability that any fibre will be the first to break is proportional to the length of that fibre. The probability that the length of the fibre that breaks first is not more than 3 inches is
+
+    A. $\frac{3}{5}$
+
+    B. $\frac{2}{5}$
+
+    C. $\frac{1}{3}$
+
+    D. $\frac{2}{3}$
+
+17. Which of the following statements is WRONG: A probability density function $f(x)$
+
+    A. can be used to model a continuous variable
+
+    B. integrates to 1 over the range of x
+
+    C. increases steadily from 0 to 1
+
+    D. must be greater than or equal to 0 over the range ofx
+
+18. A primary school has 6 classes, numbered from 1 to 6. Class 1 has twice as many students as each of the other classes. What is the probability that a randomly selected student  is from an odd-numbered class?
+
+    A. $\frac{10}{21}$
+
+    B. $\frac{3}{7}$
+
+    C. $\frac{8}{21}$
+
+    D. $\frac{4}{7}$
+
+19. A traffic light on the way to the University is red 40% of the time. What’s the probability of getting a red light (i) 2 days in a row; (ii) any 2 out of the 3 days.
+
+A. (i) 0.16; (ii) 0.
+
+B. (i) 0.16; (ii) 0.
+
+C. (i) 0.24; (ii) 0.
+
+D.  none of the above
+
+  
+
+20. Let Y denote the number of heads obtained when 3 coins are tossed. The variance of $Y^2$  is
+
+    A. 6.5
+
+    B. 7.0
+
+    C. 7.5
+
+    D. 8.0
+
+21. A firm has the production function $Q= 12L−L^2$  , whereLis labour input and Q is output. If the firm is a monopolist with a demand curve $P(Q) = 100−Q$ , what is the MRPL(Marginal Revenue Product of Labour) curve?
+
+    A. $1200− 288 L+ 72L^2 − 4 L^3$
+
+    B. $1200− 288 L− 72 L^2 + 4L^3$
+
+    C. $1200− 488 L+ 72L^2 − 4 L^3$
+
+    D. $1200− 488 L− 72 L^2 + 4L^3$
+
+22. Sudhir lives in Gujarat. His total wealth next year, including his house, will be Rs. 5,00,000. There is a 10% chance that a big earthquake will occur next year and com pletely destroy his house, valued at Rs. 2,00,000. (i) What is Sudhir’s expected wealth next year if he chooses not to buy house insurance? (ii) Suppose Sudhir’s utility function is given by $U(W) =W^{0.5}$ , where W represents total wealth in thousands of rupees. Is Sudhir risk-averse, risk-loving, or risk-neutral?
+
+A. (i) Rs. 4,50,000 and (ii) risk-averse
+
+B. (i) Rs. 4,50,000 and (ii) risk-neutral
+
+C. (i) Rs. 4,80,000 and (ii) risk-loving
+
+D. (i) Rs. 4,80,000 and (ii) risk-averse
+
+23. Consider an airport that produces noise (N) that declines as the distance (d) in kilometres, from the airport increases: N(d) = 1/(d^2 ). Praful works at the airport. Praful’s damage from noise is Rupee 1 per unit of noise and is associated with where Praful lives. His costs of commuting are Rupee 1 per kilometre (each way). The closest he can live to the airport isd= 0.1 km. (i) What is the distance Praful will live from the airport in the absence of compensation for the noise ? (ii) Suppose Praful is compensated for his damage, wherever he may live. How much will he be compensated?
+
+A. (i) 1 km and (ii) Rs. 100
+
+B. (i) 0.1 km and (ii) Rs. 100
+
+C. (i) 1 km and (ii) Rs. 1
+
+D. (i) 0.1 km and (ii) Rs. 100
+
+24. Suppose the car market is perfectly competitive and each firm has the same cost structure. There are 1000 firms in the industry. The market demand and cost schedules are given below. 
+
+Market Demand 
+
+|Price (lacs per car)| 3.65| 5.20| 6.80| 8.40| 10.00| 11.60| 13.20|
+|---|---|---|---|---|---|---|---|
+|Quantity(thousands per year)| 500| 450| 400| 350| 300| 250|200 |
+
+Costs per firm (Rs. lacs)
+
+|Output |200 |250 |300 |350 |400 |450| 500|
+|---|---|---|---|---|---|---|---|
+|MC |6.40| 7.00 |7.65 |8.40| 10.00 |12.40| 12.70|
+|AVC| 7.80| 7.00| 7.10 |7.20 |7.50| 8.00| 9.00|
+|ATC |12.80| 11.00 |10.43| 10.06| 10.00 |10.22| 11.00|
+
+In the long run
+
+A. Some firms will exit the industry, but others will remain
+
+B. Some firms will enter the industry
+
+C. The number of firms will remain the same
+
+D. The industry will close down
+
+  
+25. Abhik’s and Brinda’s demand curves for apples are given by $$p= 20−q \ (Abhik)$$ $$p= 5−(\frac{q}{2}) \ (Brinda)$$
+where $p,q\geq 0$  for each. Suppose these are the only two consumers in the market, and the market supply function is given by: $p= 2 +Q$ . Then the equilibrium quantity in the market is:
+ 
+
+A. 12 apples
+
+B. 9 apples
+
+C. 6 apples
+
+D. 3 apples
+
+26. A farmer’s demand for wheat is given by the function: $$q= 25 +\frac{m}{20p}$$
+where m is his money income andpis the price of the wheat. Let the farmer’s money income be Rs. 1000. Suppose that initially, the farmer purchases wheat in the market for Rs. 10 per kg. Now, consider a situation where the farmer obtains a BPL card which allows him to purchase unto 35 kg of wheat for Rs. 5 per kg. What will be the increase in his demand for wheat attributable to the Slutsky substitution effect?
+
+A. 3.5 kg
+
+B. 4.0 kg
+
+C. 4.5 kg
+
+D. 5.0 kg
+
+Answer 27, 28, 29 and 30 using the following information. An economy has two agents (1 and 2) and 3 units of each of two goods,XandY. Anallocationin this economy is defined as a tuple $((x_0 ,y_0 ),(x_1 ,y_1 ),(x_2 ,y_2 ))$  of non-negative real numbers, where $(x_1 ,y_1 )$  and $(x_2 ,y_2 )$  are the amounts of goodsXandY consumed by Agents 1 and 2 respectively, and $(x_0 ,y_0 )$  are the amounts of the two goods left over after the consumption of the two agents (i.e.,$x_0 = 3−x_1 −x_2 ,y_0 = 3−y_1 −y_2 )$ . The agents’ ability to consume is limited, so that for each Agent $i= 1,2, (x_i,y_i)$  must satisfy $x_i^2 i+y_i^2 \leq 12$ . Agent 1 is higher on the social ladder and gets to choose his consumption bundle $(x_1 ,y_1 )$  first. Agent 2 chooses her consumption bundle from what remains of the two goods after Agent 1 has chosen. Anequilibrium for this economy is an allocation such that 
+
+(1) $(x_1 ,y_1 )$  maximises Agent 1’s utility subject to the constraints: $x_1 \leq 3,y_1 \leq 3,x_1^2  +y_1^2 \leq 12$ , and
+
+(2) $(x_2 ,y_2 )$  maximises Agent 2’s utility subject to the constraints: $x_2 \leq  3 −x_1 ,y_2 \leq  3 −y_1 ,x_2^2 +y_2^2 \leq 12$ , and  It is given that Agent 1’s utility function $u_1 (x_1 ,y_1 ) =x_1^2 y_1$  and Agent 2’s utility function $u_2 (x_2 ,y_2 ) =ax_2 +y_2$  , where ‘$a$’ is a given positive number.
+
+  
+27. Which one of the allocations $((x_0 ,y_0 ),(x_1 ,y_1 ),(x_2 ,y_2 ))$  specified below is an equilibrium for this economy?
+
+    A.  $((0,0),(3,\sqrt 3),(0, 3 −\sqrt 3))$
+    B.  $((0,0),(\sqrt 6, \sqrt 6),(3-\sqrt 6,3-\sqrt 6))$
+    C.  $((0,0),(2.5, \sqrt {5.75}),(0.5,3-\sqrt {5.75}))$
+    D.  $((0,0),(\sqrt 8 , 2),(3-\sqrt 8 , 1))$
+
+28. Leta= 1, for Agent 2’s utility function. Then, the equilibrium allocation in the above question is
+
+A. Pareto efficient, because the slopes of the Agents’ indifference  curves are tangent at that allocation
+
+B. Not Pareto efficient, because the slopes of the Agents’ indifference  curves are not tangent at that allocation
+
+C. Pareto efficient, because there is a bound on Agent 1’s ability to consume
+
+D. Not Pareto efficient, as Agent 2 can be made better off without making Agent 1 worse off
+
+29. Suppose there was no bound on the ability of any agent to consume, and you could choose the value of the parameter ‘a’ in Agent 2’s utility function. For what value of ‘a’ would the equilibrium in Q 27 be efficient?
+
+ A. 1
+ B. $\sqrt 2$
+ C. $\sqrt 8$
+ D. 2
+
+30. Now suppose that Agent 2 is higher on the social ladder than Agent 1, so Agent 2 gets to choose her consumption bundle before Agent 1 does. All other features of the economy are unchanged. If a= 2, which one of the allocations $((x_0 ,y_0 ),(x_1 ,y_1 ),(x_2 ,y_2 ))$  below is an equilibrium for this modified economy?
+
+    A. $((0,0),(3 ,\sqrt 3),(0,3- \sqrt 3))$
+    B.  $((0,0),(3- \sqrt {\frac{48}{5}}, 3- \sqrt {\frac{12}{5}}),(\sqrt {\frac{48}{5}}, \sqrt {\frac{12}{5}} ))$
+    C.  $((0,0),(3 ,3- \sqrt 3),(0, \sqrt 3))$
+    D.  $((0,0),(2 ,3- \sqrt 8),(1,\sqrt 8))$
+
+  
+The following information applies to the questions 31, 32, 33 and 34. Consider an economy where the nominal wage rate (W) is set by the workers and it depends on the expected price level $(P^e)$  and the rate of unemployment (u) in the following way: $W=P^e(1−\alpha u)$ , where $\alpha$  is a parameter;  $0< \alpha  <1$ . The actual price level (P) on the other hand is set by the producers who charge a mark up over the nominal wage rate so that: $P= (1 +\lambda )W$ , where $\lambda  >0$ is another parameter.
+
+
+31. If the workers are always able to correctly guess the price level then the rate of unem ployment will always be maintained at a level which is given by:
+
+    A. $\frac{1}{1 +\lambda}$  
+
+    B. $\frac{\alpha }{1 +\lambda}$  
+
+    C. $\frac{1}{(1+ \lambda )\alpha}$ 
+
+    D. $\frac{1+\alpha}{1+\lambda}$ 
+
+    E. $\frac{\lambda}{\alpha (1+\lambda  )}$ 
+
+32. There will always be full employment of the aggregate stock of labour force if and only  if the expected and the actual price level are related in the following way:
+
+A. $\frac{P}{P^e}= 1$
+
+B.  $\frac{P}{P^e}= 1 +\lambda$
+
+C. $\frac{P}{P^e}= \frac{1  +\lambda}{1-\lambda}$ 
+
+D. $\frac{P}{P^e}= \frac{(1 +\lambda )}{(1−\alpha )}$
+
+  
+
+The following additional information applies to the next two questions. In addition to the information given for the above two questions, suppose the production technology is such that one employed worker can produce one unit of output. Let $Y,N, \ and \ \bar L$ denote the level of output, the level of employment and the aggregate stock of labour force respectively. On the basis of the wage and price information given in the previous questions, work out a relationship between $P,P^e \ and \ Y$  and answer the following two questions:
+
+  
+
+33. An increase in output ceteris paribus leads to
+
+    A. an increase in the actual price level
+
+    B. a decrease in the actual price level
+
+    C. the actual price level will remain unchanged
+
+    D. given information is not sufficient to conclude anything about the change in  the actual price level
+
+34. An increase in the aggregate stock of labour force ceteris paribus leads to
+
+    A. an increase in the actual price level
+
+    B. a decrease in the actual price level
+
+    C. the actual price level will remain unchanged
+
+    D. given information is not sufficient to conclude anything about the change in the actual price level
+
+  
+
+The following information applies to the questions 35 and 36. Consider the following macroeconomic model. The goods market is characterised by the following set of equations:
+
+  $$C = \alpha_0 +\alpha_1 Y$$
+
+$$I = \beta _0 +\beta_1 Y−\beta _2 i$$
+
+$$G = G(exogenously \  given)$$
+
+where $\alpha _0  ,\alpha_1 ,\alpha_2 ,\beta_0 ,\beta_1 ,\beta_2$  are all positive constants and $\alpha_1 +\beta_1 <1$ . The money market equilibrium condition is given by:
+
+  $$\frac{\bar M}{P} =\gamma_1 Y−\gamma_2 i; \gamma_1 ,\gamma_2$$ positive constants. Answer the following two questions on the basis of this model:
+
+  35. If interest rate (i) increases by one unit , to maintain equilibrium in the goods market, income level (Y) has to decrease by
+
+A. $\frac{\beta_2}{1 −(\alpha_1+ \beta_1)}$  units 
+B. $\frac{1}{1 −(\alpha + \beta)}$  units
+C. $\frac{\beta}{1 −(\alpha + \beta)+\frac{\gamma_1}{\gamma_2}\beta_2}$  units
+D. $\frac{\beta}{1 −(\alpha + \beta)+\frac{\gamma_1}{\gamma_2}\alpha_2}$  units
+
+
+36. A unit increase in government expenditure (G) will increase the equilibrium income level
+
+A. $\frac{\beta_2}{1 −(\alpha_1+ \beta_1)}$  units 
+B. $\frac{1}{1 −(\alpha + \beta)}$  units
+C. $\frac{\beta}{1 −(\alpha + \beta)+\frac{\gamma_1}{\gamma_2}\beta_2}$  units
+D. $\frac{\beta}{1 −(\alpha + \beta)+\frac{\gamma_1}{\gamma_2}\alpha_2}$  units
+  
+
+The following information applies to the next two questions. Savitri has got a job in a houschold for 2 months with wages $w_1$ and $w_2$  respectively. She plans for her consumption in the two months (denoted by, $c_1$  and $c_2$  respectively) so as to maximize her utility given by $\log c_1 +\frac{1}{1+\delta} (Y_i-T_i) \log c_2$  ,where $\delta >0$  is the discount rate. She is also allowed to borrow from her employer in the first month which she has to repay, with interest at the rater,from her second month’s earnings. Alternatively she can save some of her wages in the first month and keep it in the bank to earn an interest at the same rater.In this framework answer the following two questions:
+
+  
+
+37. Savitri will optimally decide to borrow from her employer in the first month if and only if the following condition is satisfied:
+
+    A. $w_2 >\frac{(1 +r)}{w_1}$
+
+    B. $(1 +\delta)>(1 +r)$
+
+    C. $(1 +\delta)w_2 >(1 +r)w_1$
+
+    D. $(1 +\delta)<(1 +r)$
+
+38. Assuming that the above condition is satisfied, when the discount rate (δ) goes up, her borrowing
+
+    A. goes up
+
+    B. goes down
+
+    C. does not change
+
+    D. cannot say on the basis of the given information
+
+39. Consider two open economies with fixed exchange rates, when the exchange rate is unity. The economies are characterised by the following set of equations, where $i= 1,2: $$C_i = c_{01} +c_{1i} (Yi−Ti)$$
+$$I+i = \bar I_i , G_i = \bar G_i , T_i = t_iY_i$$
+
+$$M_i = m_{0i}+m_{1i}Y_i$$
+
+$If \ c_{01} =c_{02} = 200; c_{11} =c_{12} = 0.5; I_1 =I_2 = 250; G_1 = 114 \ ; G_2 = 120 \ ;  t_1 =t_2 = 0.4\ ;  m_{01} =m_{02} = 40; m_{11} = 0.05 \ ; \ m_{12} = 0.3$
+then which of the following is true?
+
+A. Country 1 has a higher equilibrium level of output than country 2 and it runs a trade deficit vis-a-vis Country 2
+
+B. Country 1 has a lower equilibrium level of output than country 2 and it runs a trade deficit vis-a-vis Country 2
+
+C. Country 1 has a higher equilibrium level of output than country 2 and it runs a trade surplus vis-a-vis Country 2
+
+D. Country 1 has a lower equilibrium level of output than country 2 and it run a trade surplus vis-a-vis Country 2
+
+  
+
+40. In the Mundell-Fleming model of a small open economy with flexible exchange rates and perfect capital mobility, suppose the economy is initially in equilibrium. If lump sum taxes are increased, what happens to the equilibrium levels of the country’s (i) GDP; (ii) interest rate and (iii) exchange rate?
+
+    A. (i) falls, (ii) falls, (iii) appreciates
+
+    B. (i) and (ii) remain unchanged; (iii) depreciates
+
+    C. (i) falls, (ii) and (iii) remain unchanged
+
+    D. All three remain unchanged
+
+41. $f:R_n \to R$ is convex if and only if
+
+    A. {$(x,r) \in  R_n \times R|f(x)\leq r$ } is convex
+
+    B.{$(x,r) \in  R_n \times R|f(x) \geq r$ } is convex
+
+    C.{$x \in  R_n|f(x)\leq r$ } is convex for every $r \in  R$ 
+
+    D. {$x \in  R_n|f(x)\geq r$} is convex for every $r \in  R$ 
+
+42. if $f:R_+ \to R$ is defined by $f(x) =\int_x^{x^2}  e_t dt$ , then the derivative of $f \ at \ x >0$  is 
+
+A. $2xe^{x^2} −e^x$
+
+B. $2xe^{x^2 }+e^x$ 
+
+C. $(2x−1)e^{x^2}$
+
+D. $(2x−1)e^x$ 
+
+
+43. The sequence $(x_n)$ , where $x_n= (−1)^n(1 +n^{-1} )$  and $n= 1, 2 ,\dots$ 
+
+A. converges to 1 
+
+B. converges to $−1$ 
+
+C. converges to 1 and $−1$ 
+
+D. converges to neither 1 nor $−1$ 
+
+44. The set $\bigcap_{n=1}^{\infty} (− 1 −n^{-1} ,1 +n^{-1})$  is identical to
+
+    A. $(− 1 ,1]$
+
+    B. $[− 1 ,1)$
+
+    C. $(− 1 ,1)$
+
+    D. $[− 1 ,1]$
+
+45. The set  $\bigcup_{n=1}^{\infty}  [−1 +n^{-1} , 1 −n^{-1} ]$  is identical to
+
+    A. $(− 1 ,1]$
+
+    B. $[− 1 ,1)$
+
+    C. $(− 1 ,1)$
+
+    D. $[− 1 ,1]$
+
+46. For $x,y \in  R_n, \ let \ d(x,y) = max(|x_i−y_i||i= 1,\dots , n)$. Which of the following relations holds for all $x,y,z \in  R_n$ ?
+
+    A. $d(x,z) =d(x,y) +d(y,z)$
+
+    B. $d(x,z)> d(x,y) +d(y,z)$
+
+    C. $d(x,z) \geq d(x,y) +d(y,z)$
+
+    D. $d(x,z)\leq d(x,y) +d(y,z)$
+
+47. Given sets $X,Y, \ let \ X\times Y =${$(x,y)|x \in  X \ and\ y \in  Y$}$, \ and  \  let \ X−Y=${$x \in  X|x \in  Y$} . Which of the following formulae is generally correct for sets A,B and C?
+
+    A. $(A−B)\times C= (B \times C)−(A \times C)$
+
+    B. $(A−B) \times C= (A\times C)−(B\times C)$
+
+    C. $(A−B)\times C= (A\times C)−B$
+
+    D. $(A−B)\times C=A−(B \times C)$ 
+
+48. Suppose $f:R^2 \to R$ is defined by $z=xy$ . At $(0,0)$  this function
+
+    A. Attains a maximum
+
+    B. Attains a minimum
+
+    C. Attains saddle point
+
+    D. Is undefined
+
+49. What is the maximum value of the function in the previous question, subject to the constraints $x >0,y >0$ , and $2x+y= 6$ ?
+
+ A. 2. 5
+ 
+ B. 4
+ 
+ C. 4. 5
+ 
+ D. 9
+
+  
+50. ”Beautiful cities repel people. Look at India’s most beautiful cities - they are among the least populated cities of the country”. Which of the following statements illustrates  a method of reasoning most similar to the one in the argument above? 
+
+A. Children who are spanked tend to be more naughty than other children. Hence if a child is not spanked, that child is less likely to be naughty.
+
+B. Pesticides are known to cause asthma among some people. However, most asthmatic people tend to live in regions where pesticides are not commonly used.
+
+C. This software program helps increase the work efficiency of its users. As a result these users have more free time for other activities.
+
+D. During warm weather, my crops suffer from pests more than during cooler weather. Therefore, a warm environment must help pests to multiply.
+
+51. The average travel time to a distant city is w hours by train orzhours by bus. A man cannot decide weather to take the train or the bus, so he tosses a coin. What is his expected travel time?
+
+    A. $2(w+z)$
+    
+    B. $\frac{2(w+z)}{w−z}$
+
+    C. $\frac{(w+z+ 2)}{2}$
+
+    D. None of the above
+
+52. A class has 6 students, randomly divided into two teams, A and  B, for a race. What is  the probability that the three runners in team A will come in first, second and third?
+
+    A. $\frac{3!}{6!}$
+
+    B. $\frac{1}{6!}$
+
+    C. $\frac{(3!)^2}{6!}$
+
+    D.  $\frac{3}{6!}$ 
+
+53. Suppose that each person out of a group of 4 friends is randomly assigned to one of 6 classes. What is the probability that no class has more than one person from this group?
+
+    A. $\frac{6!}{4!}$
+    B. $\frac{5}{18}$
+    C. $\frac{4}{6}$
+    D. $\frac{6}{4!}$
+
+54. A continuous random variable has the probability density function $f(x) = \frac{1}{3}$ , for x
+ between −1 and +2, and 0 elsewhere. Its mean, variance and median are:
+    
+ A. $(1,\frac{3}{4} ,\frac{1}{2} )$
+ 
+ B. $(\frac{1}{2} ,\frac{3}{4} ,\frac{1}{2} )$
+ 
+ C. $(\frac{1}{2} , 1 ,1)$
+
+ D. $(\frac{1}{2} , 1 ,\frac{1}{2} )$
+
+  
+
+55. The joint probability distribution of A and W for a given population is as follows, where
+ A is the individual’s age in years and W is the weight she can lift. 
+ 
+```
+insert matrix 
+```
+ 
+ The expectation of the Marginal distribution of A is:
+
+A. 36.7 years
+
+B. 37.6 years
+
+C. 35.6 years
+
+D. 38.6 years
+
+  
+
+56. In a survey of 400 likely voters, 215 responded that they would vote for the ruling party and 185 responded that they would vote for the opposition party. Let pdenote the fraction ofalllikely voters who preferred the ruling party at the time of the survey, and let ˆpbe the fraction of survey respondents who preferred the ruling party. The standard error of ˆpis:
+
+    A. 0.025
+
+    B. 0.035
+
+    C. 0.045
+
+    D. 0.055
+
+57. Let X and Y be two random variables with $E[X] = 3,E[Y] = 0,V[X] = 4,V[Y] = 25   \ and \ E[XY] = 5$ . Find (i) $C(X,Y)$ ; (ii) the Pearson i an coefficient of correlation between X and Y $(\rho XY); (iii)V[X+Y]$ 
+
+    A. 0. 5 , 5 , 39
+
+    B. 5, 0. 5 , 34
+
+    C. 5, 5 , 39
+
+    D. 5, 0. 5 , 39
+
+58. If Y is a binomial random variable with parameter $s_n = 4 \ and \  p= 0.78$ , calculate $Pr(Y \geq 3)$  to 2 decimal places.
+
+ A. 0.15
+ 
+ B. 0.21
+ 
+ C. 0.64
+
+ D. 0.79
+
+  
+For questions 59 and 60, please note that the two-tailed 5% critical value for a standardised normal distribution is± 1 .96 and the corresponding value for a one-tailed test is± 1 .645. At the 1% level of significance, the critical value for a two-tailed test is ± 2 .58 and the corresponding value for a one-tailed test is± 2 .33.
+
+59. An examination was given to two classes consisting of 40 and 50 students respectively. In the first class the mean grade was 74 with a standard deviation of 8, while in the second class the mean grade was 78 with a standard deviation of 7. On the basis of a two-tailed test, is there a significant difference  between the performance of the two classes at a level of significance of 5% and 1%?
+
+A. There is no significant difference  between the performance of the two classes at the 5% and 1% levels of significance
+
+B. There is a significant difference  between the performance of the classes at the 5% level but no significant difference  at the 1% level of significance
+
+C. There is a significant difference  between the performance of the classes at the 1% level but no significant difference  at the 5% level of significance
+
+D. There is a significant difference  in performance at both the 5% and 1% levels
+
+60. A sample poll of 300 voters from District A and 200 voters from District B showed that 56% and 48% respectively were in favour of a given candidate. At a level of significance of 5%, test the hypothesis that (a) there is a difference  between the districts, (b) the candidate is preferred in District A.
+
+A. There is no significant difference  between the districts and the candidate is not preferred in District A
+
+B. There is no significant difference  between the districts and the candidate is preferred in District A
+
+C. There is a significant difference  between the districts and the candidate is no preferred in District A
+
+ D. There is a significant difference  between the districts and the candidate is preferred in District A

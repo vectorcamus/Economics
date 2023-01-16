@@ -1,0 +1,455 @@
+---
+title: "PYQ DSE 2021"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+1. Consider the problem of maximizing $f(x,y) =x^2 + 2xy+by^2$ , with respect to $x,y$  and subject to the constraint $x+y= 100$, where $b$ is a parameter taking some fixed value greater than 1. Let $v(b)$ the minimum value attained, as a function of  Let $v′(b)$ the derivative of v(b). Which of the following is correct ?
+
+    A.  $v′(b)> 0$
+    
+    B.  $v′(b)< 0$
+    
+    C.  $v′(b) = 0$
+    
+    D.  The sign of $v′(b)$ changes with $B$
+
+2. Consider any real valued, continuous function $f$, defined on the set of all real numbers, satisfying $f(f(x)) =x$ for all $x∈R$ (set of all real numbers). If $f$ is not the identity function, then which of the following is true? 
+
+    A. $f$ is a constant function
+    
+    B. $f$ is a strictly decreasing function
+    
+    C. $f$  is a strictly increasing function
+    
+    D. No function other than the identity function can satisfy this property
+
+3. Consider a real- valued function $f$ that satisfies $f′(x) = (f(x))^2$ , for all x in some domain of real numbers, and also satisfies $f(2) = 2$. Find $f(−2)$.    
+  
+    A. $\frac{2}{3}$
+    
+    B. $-\frac{2}{3}$
+    
+    C. $\frac{2}{7}$
+    
+    D. $-\frac{2}{7}$
+  
+4. Find the value of  $\sum_{r=0}^{50} \binom {100}{2r}$
+ 
+    A. $2^{99}$
+    
+    B. $2^{100}$
+    
+    C. $2^{101}$ 
+    
+    D. $2^{51}$ 
+
+5. Suppose that $n$ participants with distinct names arrive for a conference. The organizers have prepared name- tags for all of them, but by mistake, allocate the name- tags randomly to the participants. What is the expected number of participants who will receive their own name- tag?    
+
+    A.  $\frac{n}{2}$
+    
+    B.  $\frac{n}{n- 2}$
+    
+    C.  $1$
+    
+    D.  $\frac{n- 1}{n}$
+
+6. A right angled triangle has two equal sides of 1 inch. One of these sides, drawn horizon tally, is divided into $(n+ 1)$ equal portions. On each portion after the first, a rectangle is  formed with height equal to the vertical distance from the left- hand end portion of the hypotenuse of the triangle. Find the sum of rectangle areas (S) and its limiting value.
+  
+    - $S=\frac{n}{n+1}$ and the limit is 1.
+    - $S=\frac{n}{2(n+1)}$ and the limit is $\frac{1}{2}$
+    - $S=\frac{n+2}{n+1}$ and the limit is 1
+    - $S=\frac{n+2}{2(n+1)}$and the limit is $\frac{1}{2}$
+
+7. If $|x|<1$  and $y=\sum _{k=1} ^{\infty} (−1)^{(k+1)} \frac{x^k}{k}$, then which of the following is true?
+
+
+    - $x=\sum_{k=1} ^{\infty}(−1)^k \frac{y^k}{k}$
+    - $x=\sum_{k=1} ^{\infty} \frac{k}{y^k}$
+    - $x=\sum_{k=1} ^{\infty}\frac{y^k}{k!}$
+    - $x=\sum_{k=1} ^{\infty}(−1)^k \frac{y^k}{k!}$
+
+8. Consider the vector spaceRnfor somen $\geq 2$, over the field of real numbers; and the  following two statements:
+
+  A:{${v_1 ,v_2 ,...,v_{n− 1} ,v_n}$ } are linearly independent vectors.
+
+  B:{$(v_1 +v_2 ),(v_2 +v_3 ),...,(v_{n− 1} +v_n),(v_n+v_ 1 )$ } are linearly independent vectors.
+
+  Which of the following statements is true?
+  
+-  A implies B and B implies  A
+-  A implies B if n is odd, and B always implies A
+-  A implies B if n is even, and B always implies A 
+-  A always implies B and B implies A if n is even
+
+
+9. Consider the following system of equations in the unknowns $x_1 ,x_2 ,x_3$, with $\lambda$ being a real parameter.
+
+  $$ x_1 + 2x_2 − 2 x_3 = 0$$
+  $$2 x_1 −x_2 +\lambda x_3 = 0$$
+  $$3 x_1 +x_2 −x_3 = 0$$
+
+  Under which of the following conditions, this system has nonzero solutions?
+
+-  For both positive and negative values of $\lambda$
+-  For more than one positive values of $\lambda$
+-  For $\lambda=1$
+-  For more than one negative values of $\lambda$
+
+
+10. There are four statements. Which of these are true? 
+
+  Statement 1 :{y is a rational number$|− 200 ≤y≤ 200$ }is a countable set.
+
+  Statement 2 :{$y = \frac{m}{n} |$ m and n are integers } is an uncountable set.
+
+  Statement 3 : {y is a real number | 0 ≤ y < 0.7} is an uncountable set. 
+
+  Statement 4: {y = n | n is a positive integer } is an uncountable set
+
+-  Statement 1 and Statement 2
+-  Statement 1 and Statement 3
+-  Statement 2 and Statement 4
+-  Statement 3 and Statement 4
+
+11. If $x^2 +y^2 +z^2 = 1$ , then what is the maximum value of $(−x+z)$?
+
+- $1$
+- $\sqrt 2$
+- $\sqrt 3$
+- It has no maximum
+
+12. Consider a triangle with sides $AC= 2·AB= \sqrt 3$ and $BC= 1$ Choose a random point P. inside the triangle. Minimum distance from P to AC, AB and BC are $D_1 ,D_2$,  an $D_3$ respectively. Find $2D_1 +\sqrt 3 D_2 +D_3$
+
+- $\sqrt 3$
+- $3+\sqrt 3$
+- $3\sqrt 3$
+- $3-\sqrt 3$
+
+13. One girl is training for half marathon in Delhi. She decides to run $x_i$ kilometre on $i^{th}$  day for next 12 days (that is $x_1$ kilometre on day 1, $x_2$ kilometre on day 2 etc.). On the last day she finds that she trained for 12 kilometre per day on an average. Which of the following statements is true?
+
+- $\sum_{i=1}^{12} \log_{12} x_i <12$
+- $\sum_{i=1}^{12} \log_{12} x_i > 12$
+- $\sum_{i=1}^{12} \log_{12} x_i = 12$
+- $\sum_{i=1}^{12} \log_{12} x_i =12^{12}$
+
+14. Three boxes are presented to a contestant. Exactly one box has an expensive gift and the other two are empty. Each box has imprinted on it a declaration. The declarations are as follows: Box 1: The gift is not here Box 2: The gift is not here Box 3: The gift is inBox 2 . A declaration can be either true or false. Find the least number of true declarations that allows the contestant to logically deduce the giftbox?
+
+- 0
+- 1
+- 2
+- 3
+
+15. Let $a_1 ,a_2 ,a_3 ...a_n$ are real numbers such that $a_1 +a_2 +a_3 +···+a_n= 0$ .Suppose $n\geq 5$. Which of the following statements is true about the roots of $q(x) =a_1 + 2a_2x+ 3a_3 x^2 +···+n a_n x(n−1)$?
+
+- $q(x)$ has at least one real root
+- $q(x)$ has no real root
+- $q(x)$ has $(n−1)$ real roots
+- $q(x)$ has $(n−2)$ real roots
+
+16. Which of the following statements is true?
+
+- Any preference can be represented by a utility function
+- Any complete and transitive preference can be represented by a utility function
+- Some complete and transitive preferences cannot be represented by a utility function
+- Any complete and monotonic preference can be represented by a utility function
+
+17. Ms A likes grapes (G) and strawberries (S). With every two pieces of grapes, she prefers eating thre pieces of strawberries. Thus consumed, every piece of grape gives her a utility level of 1. Income of Ms A is given byI. Per piece price of grapes and  strawberries are given by $p_G= 3$ and $p_S= 2$  respectively. Suppose price of strawberries change to $p_S= 3$ . What should be the change in income ( $\Delta I$) to maintain the same  level of utility?
+
+- $\Delta I =\frac{5I}{4}$
+- $\Delta I =-\frac{5I}{4}$
+- $\Delta I =\frac{I}{4}$
+- $\Delta I =-\frac{I}{4}$
+
+
+18. Suppose that commodity prices are strictly positive. Consider the following utility functions. One of these utility functions has no income effect on good X for a certain range  of income. Identify it.
+
+- $u(x,y) =\ln x+y$
+- $u(x,y) =\ln x+ \ln y$
+- $u(x,y) =\sqrt xy$
+- $u(x,y) =\min${x,y}
+
+
+19. A Rotating Credit and Savings Association (ROSCA) is made up of a group of individuals. Members of a ROSCA pool their money into a common fund, generally structured around monthly contributions, and a single member withdraws the money from it as a lump sum (called the ’pot’) at the end of each quarter. In one cycle, each member must withdraw the pot exactly once. ROSCA is quite common in the developing countries. It is an example of:
+
+-  Public good
+-  Moral hazard
+-  Risk sharing
+-  Altruism
+
+20. An economy consists of two agents (R and P) and two states (pandemic and normal). If the state is pandemic thenRearns 10 and P earns 5 , while in normal state R earns 20 and P earns 10. Probability of pandemic is known; it is denoted by $q_0 < q <1$ . Utility function of both R and P is given by $u(x)$, where x is the net earning. Both P and R are  risk averse. An insurance company, is selling an ’actuarially fair’ ’pandemic insurance’  where the consumer has the same income irrespective of the state (pandemic or normal). Actuarially fair plans are those insurance plans where the insurance company makes no  profit. Also note that the insurance company is risk neutral. Consider the following schemes to protect  P in case of pandemic:
+
+   Scheme A: The government purchases a ’pandemic insurance’ for P. Premium of the pandemic insurance’ is collected from R as tax.
+
+   SchemeB: If the state is pandemic then R pays 5 to P through a charity, otherwise in normal state there is no transfer. Which of the above schemes will R prefer? You may also assume that R is not eligible to buy the pandemic insurance.
+
+- Scheme A will be preferred by R
+- Scheme B will be preferred by R.
+- R will be indifferent
+- Depends on the functional form of u
+
+21. Suppose that the market for pizza is perfectly competitive with constant long run marginal cost. If there is a per unit sales tax on pizza then which of the following  is correct?
+
+-  Producers will bear all the taxation burden
+-  Consumers will bear all the taxation burden
+-  Consumers and producers will equally share the taxation burden
+-  Tax incidence will depend on the shape of the demand curve
+
+
+22. Suppose a monopolist produces oil in one factory but sells oil in two cities. In each city  the monopolist faces the same inverse demand function $p=f(q)$ , such that f  is strictly decreasing and strictly concave. Cost function is increasing and convex in quantity. She sells q 1 units in city A andq 2 units in city B per month where $q_1 < q_2$ . Which of the following choices will increase her profit?
+
+-  Sell ($q_1 +q_2$) units per month in city B and nothing in city A
+-  Sell ($q_1 +q_2$) units per month in city A and nothing in city B
+-  Sell $\frac{q^1 + 2 q^2}{2}$ units per month in each city
+-  Sell $q_2$ units per month in city A and $q_1$ units per month in city B
+
+23. Two buyers bid for a single object in an auction. Valuation of a buyer is private information. However it is known that each of them independently draw their valuations from the Uniform $[0,1]$ distribution. The auction rule lets the highest bidder take the  object by paying the lowest bid. Suppose that the buyers bid truthfully, that is bid of a buyer is equal to her valuation of the object. Find the expected revenue of the auction.
+
+- $\frac{1}{3}$
+- $\frac{2}{3}$
+- $\frac{1}{2}$
+- $1$
+
+24. The competitive market for good X has the demand function $x_d = 100−p$ and the supply function $x_s= 20 + 3p$ .If the government imposes a sales tax of Rs 10 per unit of the good on sellers, the equilibrium market price will increase by:
+
+-  Rs. 10
+-  Rs. 7. 50
+-  Rs. 5
+-  Rs. 0
+
+25. A monopolist sells hand embroidered Pashmina shawls to two types of customers: ’Rich’ and ’Middle Income’.  ’Rich’ customers value at most two shawls; first shawl at Rs. 50 thousands and the  marginal value of second shawl is Rs. 30 thousands.  ’Middle Income’ customers want at most one shawl and they value it at Rs. 35 thousands.  There are 50 identical ’Rich’ and 100 identical ’Middle Income’ customers. Cost of  production is Rs. 25 thousands per shawl. Suppose that the monopolist can NOT distinguish between a ’Rich’ and a ’Middle Income’ customer. She, however, decided to adopt the following scheme. If a customer purchases two shawls then the package is priced at $p_2$ , whereas if a customer purchases one shawl, she pays $p_1$ What are the profit maximizing prices?
+
+- $p_1 = 35,000$ and $p_2 = 65, 000$
+- $p_1 = 35,000$ and $p_2 = 50, 000$
+- $p_1 = 25,000$ and $p_2 = 65, 000$
+- $p_1 = 50,000$ and $p_2 = 80, 000$
+
+26. Suppose that 'ABC Cinemas’ is the monopolist in a town. Demand to see a movie in  that town is given by $Q= (100− 10 p)$ in the afternoon and $Q= (200− 10 p)$ in the evening, where $p$ denotes the price of a ticket. Currently the movie distributor charges Rs. 4 per ticket sold by the ’ABC Cinemas’. Suppose that the distributor instead asks the ’ABC Cinemas’ to pay a flat fee of Rs. $X$ to show the movie, with no charge per customer. Find the value of X such that ’ABC Cinemas’ will be indifferent between the current ’pay per ticket’ contract and the ’fixed pay’ contract. Assume that ’ABC Cinemas’ does not incur any cost other than their payment to the distributor.
+
+- Pay per ticket’ contract is always better
+- Fixed pay’ contract is always better
+- X= 520
+- X= 180
+
+27. In an exchange economy there are two goods X and Y and two agents A and B.  A owns 10 units of good while B owns 10 units of good X. A has a lexicographic preference  where good X comes before good Y. She will choose the bundle that offers the most X,  no matter how much Y there is. Only when there is a tie between bundles with regard to X will A start comparing Y across bundles. Agent B also has lexicographic preference,  but for her good Y comes before good X. Consider the following statements.
+
+Statement I: An allocation where A gets 10 units of good X and B gets 10 units of good Y is Pareto optimal.
+
+Statement II: An allocation where A gets 10 units of goodX and 5 units of good Y while B gets 5 units of good Y is Pareto optimal.
+
+Choose the correct answer from the options given below.
+-  Both Statement I and Statement II are true
+-  Both Statement I and Statement II are false
+-  Statement I is true but Statement II is false
+-  Statement I is false but Statement II is true
+
+28. Which of the following assumptions is NOT required for the ’First welfare theorem’ in an exchange economy?
+
+-  Well defined property rights
+-  Absence of externalities
+-  Monotonic preferences
+-  Convex preferences
+
+
+29. Two players must independently and simultaneously decide how much to donate to a charity organization. Each has a budget of Rs. 200. Whenever the charity receives at least Rs 100 in aggregate (irrespective of the identity of the donor), each player enjoys a payoff equivalent to Rs. 60. This captures the fact that they are somewhat altruistic Additional aggregate donation (above Rs. 100 ) does not bring any extra payoff. All payoffs are calculated in money terms. For example, if the first player donates Rs. x and the second player donates Rs. y, then the payoff of first player is
+
+
+  $[(200-X)+60]$ $ and $(x+y)≥ 100$
+  $(200−x)$ if $(x+y)< 100$
+
+  Which of the following is true?
+-  This game has no Nash equilibrium in pure strategies
+-  This game has only one Nash equilibrium in pure strategies
+-  This game has many Nash equilibriums in pure strategies, where the aggregatedonation is less than 100
+-  This game has many Nash equilibriums in pure strategies’, where the aggregatedonation is Rs. 100
+
+30. Two players must independently and simultaneously decide how much to donate to a  charity organization. Each has a budget of Rs. 200. Whenever the charity receives at least Rs 100 in aggregate (irrespective of the identity of the donor), each player enjoys a payoff equivalent to Rs. 60. This captures the fact that they are somewhat altruistic Additional aggregate donation (above Rs. 100 ) does not bring any extra payoff. All payoffs are calculated in money terms. For example, if the first player donates Rs. x and the second player donates Rs.y, then the payoff of first player is
+
+  $[(200−x) + 60]$ and $(x+y)≥ 100$
+  $(200−x)$ if $(x+y)< 100$
+
+Which of the following is NOT true?
+
+- Each player has at least one weakly dominated strategy
+- Each player has at least one strictly dominated strategy
+- Each player has a strategy which weakly dominates all other strategies
+- Maximin payoff of each player is 200
+
+31. Consider the hypothetical economy with aggregate production function given by $F(L,K) =L^{\frac{2}{3}} K^{\frac{1}{3}}$ , and 10 percent annual rate of depreciation. Find the ’golden rule’ level of capital stock for this economy. Notation: $L,K$ denote labour and capital respectively
+- $(\frac{10}{3})^{\frac{3}{2}}$
+- $\frac{1}{2}$
+- $(\frac{10}{3})^{\frac{1}{2}}$
+- $(\frac{3}{10})^{\frac{3}{2}}$
+
+
+32. Given below are two statements
+
+  Statement I: ’Balanced Growth’ in the Solow model implies identical rates of growth indifferent sectors ofthe economy.
+
+  Statement II: ’Balanced Growth’ in the Solow model implies constant factor shares in agrowing economy.
+
+  Choose the correct answer from the options given below
+
+- Both StatementIand Statement II are true
+- Both Statement I and Statement II are false
+- StatementIis true but Statement II is false
+- StatementIis false but Statement II is true
+
+33. Suppose an economy can produce $e^k$ amount of output per capita if it uses k amount of capital per capita.    Which of the following is correct? 
+
+-  The economy has a stable steady state equilibrium
+-  The economy has multiple stable steady state equilibria
+-  The economy has unique steady state equilibrium
+-  There may not be a steady state equilibrium
+
+34. Consider a small open economy, where domestic and foreign prices are normalised,M  is money supply,Lis money demand,iis domestic interest rate, $i^{∗}$ is foreign interest rate,Y is output, A , is aggregate spending by domestic residents on consumption and  investment, G is government, expenditure, X is net exports,E is exchange rate (domestic currency per unit of foreign currency),B is Balance of Payments, $KI$ is net capital inflows.
+
+  $$M=L(i,Y)$$
+  $$Y =A(i,Y) +G+X(Y,E)$$
+  $$B= 0 =KI(i−i^{*}) +X(Y,E)$$
+
+  Assume that for this economy domestic and foreign assets are perfect substitutes for each other, there is no arbitrage in equilibrium, it operates under flexible exchange rate regime and Marshall Lerner condition holds. What will be the impact of an increase in government spending on imported goods?
+
+-  Rise in domestic interest rate and output
+-  Rise in domestic output but domestic interest rate remains unchanged
+-  Both domestic output and interest rate remain unchanged
+-  Rise in domestic interest rate but domestic output remains unchanged
+
+35. The aggregate wage bill in an economy is equal to 40 and output, which is produced according to the Cobb- Douglas production function, is equal to 100. The output growth rate is 10 percent and the growth rates of capital and labor are 10 percent and 5 percent  respectively. What is the overall productivity (TFP) growth rate for this economy?
+
+- 0.03
+- 0.02
+- 0.04
+- 0.01
+
+36. The Phillips curve relation for an economy is given by $π_t−π_t^e = 0. 1 − 3 u_t$ where $π_t^e=π_{t− 1}$. Suppose inflation in year $(t−1)$ is 2 percent. In yeart, the central bank decides to keep the unemployment rate at 3 percent forever. Find the rate of inflation for years  $t,t+ 1,t+ 2$ and $t+ 3$ ? Notation: Actual rate of inflation at period  t is $π_t$ ; expected rate  of inflation at period t is $π_t^e$ ; rate of unemployment at period t is $u_t$.
+
+-  1%,2%,3% and 4% respectively
+-  2%,3%,4% and 5% respectively
+-  3%,4%,5% and 6% respectively
+-  2%,4%,5% and 6% respectively
+
+37. If government finances its expenditure with taxes then which of the following is correct?
+
+-  It causes both reserves and the monetary base to rise.
+-  It causes both reserves and the monetary base to decline.
+-  It causes reserves to rise, but the monetary base to decline.
+-  It has no net effect on the monetary base.
+
+38. Consider the following economy:
+
+
+$$C= 0.8(1−τ)Y$$
+$$τ= 0. 25$$
+$$I= 900− 50 r$$
+$$\bar G = 800$$
+$$L= 0. 25 Y− 62. 5 r$$
+$$\frac{\bar M}{P} =500$$
+
+Aggregate consumption is C; average rate of tax on income is τ; aggregate income is Y; aggregate investment is I ; average rate of interest is r ; autonomous government expenditure is $\bar G$ ; aggregate demand for money is $L_i$ real money supply in the economy is $\frac{\bar M}{P}$. Find the equilibrium rate of interest in this economy.
+
+- r=5
+- r=6
+- r=7
+- r=8
+
+
+39. Consider the following economy:
+
+$$C= 0.8(1−τ)Y$$
+$$τ= 0. 25$$
+$$I= 900− 50 r$$
+$$\bar G = 800$$
+$$L= 0. 25 Y− 62. 5 r$$
+$$\frac{\bar M}{P} =500$$
+
+Aggregate consumption is C; average rate of tax on income is τ; aggregate income is Y; aggregate investment is I ; average rate of interest is r ; autonomous government expenditure is $\bar G$ ; aggregate demand for money is $L_i$ real money supply in the economy is $\frac{\bar M}{P}$. Find the equillibrium aggregate income in this country.
+
+
+- Y = 3000
+- Y = 3500
+- Y = 4000
+- Y = 4500
+
+40. There are two countries,X and Y. Both have the same production function. The two countries start out with the same levels of capital, labour and technology and the capital-labour ratio is lower than the steady state level of capital per person. X has a saving  rate of 30 percent, whereas Y has a saving rate of 25 percent. In both countries, the growth rate of population is 3 percent per year, depreciation rate is equal to 5 percent per year and rate of technical progress equals 3 percent per year. According to the Solow growth model, which of the following statements are correct?
+
+- Y will exhibit higher growth rate of output per person in the shortrun and output will grow at 6% per year in both countries in the steady state.
+- X will exhibit higher growth rate of output per person in the shortrun and output will grow at 6% per year in both countries in the steady state
+- Both X and Y will exhibit same growth rate of output per person in the short- run and output will grow at 8% per year in both countries in the steady state.
+- X will exhibit higher growth rate of output per person in the shortrun and output will grow at 8% per year in both countries in the steady state
+
+41. Suppose X is a random variable which takes values in the interval $[-\frac{1}{2} ,\frac{1}{2}]$ . The probability distribution function is denoted by $\phi (x)$ . Which of the following is certainly true?
+    
+    A. For any real numbers $a, b$  with  $b >  a ,  \phi (b)> \phi(a)$ . 
+    B. For any real numbers a,b in the interval  $[-\frac{1}{2} ,\frac{1}{2}]$ with $b>0 a \phi (b) > \phi (a)$
+    C. Expectation of X equals 0
+    D. Variance of X can not exceed 1
+
+42. Which of the following statements is correct:
+
+-  A large sample (say 1000 observations) is always representative of the population
+-  The observed significance level (P- value) of a test depends on the data
+-  Sample mean does not vary from sample to sample
+-  Standard Deviation and Standard Error is one and the same thing
+
+43. You have three variables $Y,X_1 ,X_2$ . First you regress (OLS) Y on $X_1$ and $X_2$ to get the regression coefficients corresponding to $X_1$ and $X_2$ as $b_1$ and $b_2$  respectively. Then you also regress (OLS)Y on $X_1$ and $X_1 +X_2$  to get the regression coefficients corresponding to $X_1$  and $X_1 +X_2$ as $c_1$  and $c_2$ respectively. Which of the following statements is correct?
+
+- There is no need to run the second regression;c 1 andc 2 can be derived from
+- $b_1$ and $b_2$ directly
+- It is incorrect to run the second regression; it will not give an unbiased estimator
+-  It is better to run the first regression; Sum of Square of Residuals in the first regressions will be smaller than that of the second regression
+-  It is incorrect to run the second regression, the error term will be correlated with independent variables
+
+44. Suppose we run OLS regression: $Y_i=\alpha+\beta X_i + \epsilon _i$  , where notations have their usual meaning. After this we get an estimate of $\hat Y^i= \hat \alpha +\hat \beta X_i$. Now we regress (OLS) $Y_i$ on $Y^i$. Estimated coefficient of $\hat Y^i$ is $\hat \Upsilon$ . Which of the following is correct ?
+- $\hat \Upsilon =\hat \alpha$
+- $\hat \Upsilon =\hat \beta$
+- $\hat \Upsilon =0$
+- $\hat \Upsilon =1$
+
+
+45. Let $X_1 ,X_2$  and $X_ 3$  are three (pairwise) uncorrelated random variables. The mean and variance of each variable is 0 and 3 respectively. Find the correlation between $(X_1 +X_2 )$ and $(X_1 +X_3 )$
+-  $0$
+-  $\frac{1}{2}$
+-  $\frac{1}{3}$
+-  $1$
+
+46. $X$ and $Y$ are jointly normally distributed.  Suppose for any real number $x$, the conditional expectation of $Y$ given $X=x$ is $0$. Note that for any functiong: $R^2 →R$
+- $E[g(Y,X)|X]$ is a random variable
+-  If $g(Y,X)≡u(X)v(Y)$ for some functionu:R→Rand some functionv:R→R, then $E[g(Y,X)|X] =u(X).E[v(Y)|X]$
+- $E[g(Y,X)] =E[E[g(Y,X)|X]]$ 
+
+$E$ denotes expectation. Which of the following statements is true
+
+-  $E[Y] = 0$ but $E[Y X]  \neq 0$
+-  $E[Y] = 0,E[Y X] = 0$  but $E[Y X^2 ] \neq 0$
+-  $E[Y] = 0,E[Y X] = 0$ and $E[Y X^2 ] = 0$
+-  $E[Y] = 0,E[Y X] = 0,E[Y X^2 ] = 0$ and $E[(Y X)^2 ] = 0$
+
+47. An urn contains 2 blue balls and 10 red balls. Red balls are numbered 1, 2 ,...,10. Blue balls are not numbered. Balls are randomly drawn from the urn and returned until a blue ball is obtained at which point the experiment stops. Find the probability that ball number $9$ is drawn at least once.
+
+-  $\frac{1}{12}$
+-  $\frac{1}{10}$
+-  $\frac{1}{4}$
+-  $\frac{1}{3}$
+ 
+48. A fair coin is tossed until a head comes up for the first time. Find the probability of this happening on an odd numbered toss.
+-  $\frac{1}{2}$
+-  $\frac{1}{3}$
+-  $\frac{2}{3}$
+-  $\frac{3}{4}$
+
+49. Which of the following statements is true about Exponential probability distribution?
+   
+-  Mean and median are the same
+-  The mean is greater than the median
+-  The mean is smaller than the median
+-  Mean and median cannot be compared - it depends on parameters
+
+50. The cumulative distribution function $F(x)$  of a random variable has a slope of 2 for x in the interval $[0, 0 .5]$ and takes a constant value thereafter. Which of the following statements most accurately defines the probability density function of this random  variable?
+
+-  It is constant in the interval $[0, 0 .5]$ and zero outside
+-  It is zero for allxoutside $[0,2]$ and 0.5 for all values inside it
+-  It is increasing in the $[0, 0 .5]$ interval and constant and positive for all higher values of $x$
+-  It is increasing in the interval $[0, 0 .5]$ and zero for all higher values of $x$
+

@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2018</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2018</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<div id="dse-2018" class="section level2">
+<h2>DSE 2018</h2>
+<ol style="list-style-type: decimal">
+<li>Let R be the set of real numbers and <span
+class="math inline">\(f:R→R\)</span> be a continuous and concave
+function. Which of the following statements is correct?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><span class="math inline">\(|f|\)</span> must be concave</li>
+</ol>
+<p>B. <span class="math inline">\(−f\)</span> must be concave</p>
+<p>C. <span class="math inline">\(f+f\)</span> must be concave</p>
+<ol start="4" style="list-style-type: upper-alpha">
+<li><span class="math inline">\(f◦f\)</span> must be concave</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>The maximum value off <span class="math inline">\((x,y) =
+(xy)^\frac{1}{2}\)</span> , subject to <span
+class="math inline">\(|x|≥|y|\)</span> and <span
+class="math inline">\(|x|+|y|≤1\)</span> is</li>
+</ol>
+<p>A. 1</p>
+<p>B. 2</p>
+<p>C. 0.5</p>
+<p>D. 0.25</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Consider an exchange economy with two agents, 1 and 2, and two
+goods, X and Y. Each agent’s consumption set is <span
+class="math inline">\(R_+^2\)</span> . The endowments of agents 1 and 2
+are (10,1) and (0,9) respectively. (In any commodity bundle, the first
+entry is a quantity of X and the second one is a quantity of Y.) If
+<span class="math inline">\(a &gt; c\)</span> , or <span
+class="math inline">\(a=c\)</span> and <span class="math inline">\(b
+&gt; d\)</span> , then Agent 1 strictly prefers bundle <span
+class="math inline">\((a,b)\)</span> to <span
+class="math inline">\((c,d)\)</span>. If <span class="math inline">\(b
+&gt; d\)</span>, or <span class="math inline">\(b=d\)</span> and <span
+class="math inline">\(a &gt; c\)</span>, then Agent 2 strictly prefers
+bundle (a,b) to (c,d). Which of the following allocations is competitive
+equilibrium allocation?</li>
+</ol>
+<p>A. 1 gets (10,1) and 2 gets (0,9)</p>
+<p>B. 1 gets (10,10) and 2 gets (0,0)</p>
+<p>C. 1 gets (5,5) and 2 gets (5,5)</p>
+<p>D. None of the above</p>
+<p>E. Incorrect options provided for this question.</p>
+<p>4.. Let R be the set of real numbers and let D be the set of
+functionsd: <span class="math inline">\(R\times R→R\)</span> that
+satisfy the following properties for all <span
+class="math inline">\(x,y,z∈R\)</span></p>
+<p><span class="math inline">\(d(x,y)\geq 0\)</span></p>
+<p><span class="math inline">\(d(x,y) = 0\)</span> if and only if <span
+class="math inline">\(x=y\)</span></p>
+<p><span class="math inline">\(d(x,y) =d(y,x)\)</span></p>
+<p><span class="math inline">\(d(x,z)\leq d(x,y) +d(y,z)\)</span></p>
+<p>Which of the following is not a function inD?</p>
+<p>A. d(x,y) = min{|x−y|, 1 } B. C. d(x,y) =</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Letf : [0,1]→R be twice differentiable. Suppose that the line
+segment joining the points (0,f(0)) and (1,f(1)) intersects the graph of
+f at a point (a,f(a)), where 0&lt; a &lt; Then</li>
+</ol>
+<p>A. there existsz∈[0,1] such thatf′(z) = 0 B. there existsz∈[0,1] such
+thatf′′(z) =|f(1)−f(0)| C. there existsz∈[0,1] such thatf′′(z)
+=f(1)−f(0) D. there existsz∈[0,1] such thatf′′(z) = 0</p>
+<p>7 The set [0,1]</p>
+<p>A. cannot be the intersection of a countable collection of sets of
+the form (a,b). B. is the intersection of a countable collection of sets
+of the form (a,b). C. is the union of a countable collection of sets of
+the form (a,b). D. is the union of a countable collection of sets of the
+form <span class="math inline">\([a,a]\)</span></p>
+<ol start="8" style="list-style-type: decimal">
+<li>A sequence of real numbers (xn) converges tox. Consider the
+following claims: (I) The sequence <span class="math inline">\((xnx+1n
+)\)</span> converges to 1 (II) The sequencexn+xn+1converges to 2x.</li>
+</ol>
+<p>A. Only statement II is correct. B. Ouly Statement I is correct. C.
+None of the statements is correct. D. Both the statements are
+correct.</p>
+<p>Persons 1, 2 and 3 have to divide 12 indivisible chocolates among
+themselves. Each person’s preference is strictly increasing in
+chocolates. The procedure for dividing the chocolates is as follows:
+Person 1 proposes a division. Each person votes either Y (Yes) or N
+(No). If at least two persons vote Y, then the proposal is implemented.
+If not, then Person 1 is eliminated from the voting and Person 2 makes a
+proposal. Now, only persons 2 and 3 can vote Y or N. If at least one of
+them votes Y, then Person 2’s proposal is implemented, Otherwise, Person
+3 makes a proposal, which will be implemented.</p>
+<ol start="9" style="list-style-type: decimal">
+<li>What division of chocolates will occur from a subgame
+perfect.equilibrium of this game? (Assume that a person votes N if
+voting Y and N are expected to result in the same number of chocolates
+for that person.)</li>
+</ol>
+<p>A. 1 gets 11, 2 gets 1. 3 gets 0</p>
+<p>B. l gets 11, 2 gets 0, 3 gets 1</p>
+<p>C. 1 gets 12, 2 gets 0, 3 gets 0</p>
+<p>D. 1 gets 4, 2 gets 4, 3 gets 4</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Suppose the above procedure for dividing the chocolates is changed
+as follows: if Person 1’s proposal is rejected and Person 2 makes a
+proposal, if both the remaining voters, 2 and 3, vote Y, then Person 2’s
+proposal is implemented. Otherwise, Person 3 makes a proposal, which
+will be implemented. What division of chocolates will occur from a
+subgame perfect equilibrium of this game? (Assume that a person votes N
+if voting Y and N are expected to result in the same number of
+chocolates for that person.)</li>
+</ol>
+<p>A. 1 gets 11, 2 gets 1. 3 gets 0</p>
+<p>B. l gets 11, 2 gets 0, 3 gets 1</p>
+<p>C. 1 gets 12, 2 gets 0, 3 gets 0</p>
+<p>D. 1 gets 4, 2 gets 4, 3 gets 4</p>
+<ol start="11" style="list-style-type: decimal">
+<li>The set {<span class="math inline">\(f_1 ,f_2 ,...,f_n\)</span> }
+where each <span class="math inline">\(f_k\)</span> is a real-valued
+function defined on R, is said to be linearly independent if <span
+class="math inline">\(c_1 ,c_2 ,...,c_n \in R\)</span> and <span
+class="math inline">\(\sum c_k f_k (x) = 0\)</span> for every <span
+class="math inline">\(x\in R\)</span> implies <span
+class="math inline">\(c_1 =c_2 =···=c_n= 0\)</span> Suppose <span
+class="math inline">\(f_k(x) =x^k\)</span> for all xR$ and <span
+class="math inline">\(k= 1,...,n\)</span> . Then,</li>
+</ol>
+<p>A. the set {<span class="math inline">\(f_1 ,...,f_n\)</span> } is
+linearly independent. B. each pair of these functions is linearly
+independent, but larger n-tuples are not. C. only the subset of
+odd-numbered functions and the subset of even-numbered functions are
+linearly independent. D. every “proper subset of this set of functions
+is linearly independent, but the whole set is not.</p>
+<ol start="12" style="list-style-type: decimal">
+<li><p>Letf : <span class="math inline">\([0,1]→R\)</span> be
+differentiable and suppose that <span class="math inline">\(|f′(x)|
+&lt;1\)</span> for every <span class="math inline">\(x\in[0,1]\)</span>
+.Then, there A. is at least one <span class="math inline">\(c \in
+0,1]\)</span> such that <span class="math inline">\(f(c) =c\)</span>. B.
+are two numbersc 1 andc 2 such that <span class="math inline">\(f(c_i)
+=c_i\)</span> for <span class="math inline">\(i= 1,2\)</span> . C. is
+exactly one <span class="math inline">\(c\in [0,1]\)</span> such that
+<span class="math inline">\(f(c) =c\)</span> . D. is at most one <span
+class="math inline">\(c\in[0,1]\)</span> such that <span
+class="math inline">\(f(c) =c\)</span> .</p></li>
+<li><p>Consider a closed macroeconomy whose demand side is represented
+by <span class="math inline">\(Y =C_0 +c(Y−\tau Y)−\alpha r+G_0 M_0
+=KPY−\beta r\)</span> where <span class="math inline">\(C_0 ,G_0 ,M_0
+,K,c,\tau,\alpha,\beta\)</span> are all positive constants and <span
+class="math inline">\(c,\tau \in (0,1)\)</span>. The AD curve for this
+economy is given by</p></li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><span class="math inline">\(Y =\frac{c_0+\frac{\alpha}{\beta} M_o
++G_0}{1-c(1-\tau) }\)</span></li>
+<li><span class="math inline">\(Y=\frac{C_0+M_0+G_0}{1-c(1-\tau)
++\frac{\alpha}{\beta} KP}\)</span></li>
+<li><span class="math inline">\(Y=\frac{C_0+M_0+G_0}{1-c(1-\tau)
++KP}\)</span></li>
+<li><span class="math inline">\(Y=\frac{C_0+M_0+G_0}{1-c(1-\tau)
++\frac{KP}{\beta}}\)</span></li>
+</ol>
+<ol start="14" style="list-style-type: decimal">
+<li>Consider a closed macroeconomy whose demand side is represented by
+<span class="math inline">\(Y =C_0 +c(Y−\tau Y)−\alpha r+G_0 M_0
+=KPY−\beta r\)</span> where <span class="math inline">\(C_0 ,G_0 ,M_0
+,K,c,\tau,\alpha,\beta\)</span> are all positive constants and <span
+class="math inline">\(c,\tau \in (0,1)\)</span>. . Now suppose the
+government, instead of following a given money supphy rule, follows an
+interest rate targeting policy such that the quantity ofmoney demanded
+is always supplied so as to keep the interest rate fixed at given level
+<span class="math inline">\(r_0\)</span>. The AD curve for this economy
+is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(Y =\frac{c_0+ ar_o +G_0}{1-c(1-\tau)
+}\)</span></p></li>
+<li><p><span class="math inline">\(Y=\frac{C_0+M_0+G_0}{1-c(1-\tau)
++KP}\)</span></p></li>
+<li><p><span class="math inline">\(Y=\frac{C_0+M_0+G_0}{1-c(1-\tau)
++\frac{KP}{\beta}}\)</span></p></li>
+<li><p><span class="math inline">\(Y=\frac{C_0+M_0+G_0}{1-c(1-\tau)
++\frac{\alpha}{\beta}KP}\)</span></p></li>
+</ol>
+<ol start="15" style="list-style-type: decimal">
+<li>Consider a closed macroeconomy whose demand side is represented by
+<span class="math inline">\(Y =C_0 +c(Y−\tau Y)−\alpha r+G_0 M_0
+=KPY−\beta r\)</span> where <span class="math inline">\(C_0 ,G_0 ,M_0
+,K,c,\tau,\alpha,\beta\)</span> are all positive constants and <span
+class="math inline">\(c,\tau \in (0,1)\)</span>. Suppose there an
+increase in the interest sensitivity of the IS curve (parameterα), which
+is accompanied by an increase in the (interest sensitivity of the LM
+curve (parameterβ) by exactly the same proportion. As a result,</li>
+</ol>
+<p>A. the AD curve will be steeper but there will be no shift of the
+entire curve</p>
+<p>B. the entire AD curve will shift to the right and it will also be
+steeper</p>
+<p>C. the entire AD curve will shift to the right with no change in its
+slope</p>
+<p>D. there will be no change in the AD curve (neither any change in its
+slope, nor a shift)</p>
+<ol start="16" style="list-style-type: decimal">
+<li>In a multiple regression model involving three right-hand-side
+variables with 105 observations estimated using OLS, the researcher
+needs to decide whether to include a fourth right-had-side variable or
+not. The residual sum of squares is 250 when four variables are included
+and is 300 when three variables are included. Some critical values of
+the F-table (with <span class="math inline">\(\alpha= 0.05\)</span>)
+are: <span class="math inline">\(F(1,100) = 3. 89 ,F(2,100) = 3. 09
+,F(3,100) = 2. 70 ,F(4,100) =2 .46\)</span> andF(5,100) = 2.31. This
+means when the fourth variable is included, the fit of the
+regression</li>
+</ol>
+<p>A. there is insufficient information to make a determination about
+fit</p>
+<p>B. worsens significantly</p>
+<p>C. has no significant change</p>
+<p>D. improves significantly</p>
+<ol start="17" style="list-style-type: decimal">
+<li>For a variable x the standard error of the sample mean is calculated
+as 20 when samples of size 25 are taken and as 10 when samples of size
+100 are taken. A quadrupling of sample size has only halved the error.
+What must be the value of the standard error of x?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>1000</p></li>
+<li><p>900</p></li>
+<li><p>100</p></li>
+<li><p>377.5</p></li>
+</ol>
+<ol start="18" style="list-style-type: decimal">
+<li>Suppose a consumer lives for two periods and chooses consumptions
+<span class="math inline">\(C_1\)</span> and <span
+class="math inline">\(C_2\)</span> to maximise utility <span
+class="math inline">\(U(C_T) =
+\frac{\sigma}{\sigma-1}(C_t^{(\frac{\sigma -1}{\sigma} -1)})\)</span>
+Future consumption is discounted by <span
+class="math inline">\(\sigma\)</span> . The intertemporal elasticity of
+substitution in consumption between the two periods is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\sigma\)</span></p></li>
+<li><p><span class="math inline">\(1\)</span></p></li>
+<li><p><span class="math inline">\(\frac{\sigma
+-1}{\sigma}\)</span></p></li>
+<li><p><span
+class="math inline">\(\frac{\sigma}{\sigma-1}\)</span></p></li>
+</ol>
+<ol start="19" style="list-style-type: decimal">
+<li>Consider the game where the row player’s payoff is given first,
+followed by the column player’s payoff. Which of the following
+statements is false?</li>
+</ol>
+<p><span class="math display">\[
+\left(\begin{array}{cc}
+2,0 &amp; 3,3 &amp; 0,0 \\
+-1,1 &amp; 0,0 &amp; 1,0 \\
+4,-4 &amp; 2,2 &amp; 1,1
+\end{array}\right)
+\]</span></p>
+<p>A. There is a Nash equilibrium of this game in which the column
+player plays a strictly dominated strategy.</p>
+<p>B. Column player has a strictly dominated strategy.</p>
+<p>C. Row player has a weakly dominated strategy.</p>
+<p>D. There is a Nash equilibrium of this game in which both players
+play weakly dominated strategies.</p>
+<ol start="20" style="list-style-type: decimal">
+<li>In a multiple regression model, the Durbir Watson test statistic is
+1.3, while the critical lower and upper values are 1.5 and 1.7
+respectively. This implies that</li>
+</ol>
+<p>A. There is positive autocorrelation,</p>
+<p>B. There is no positive autocorrelation:</p>
+<p>C. The test is inconclusive about autocorrelation.</p>
+<p>D. There is heteroscedasticity but no autocorrelation.</p>
+<ol start="21" style="list-style-type: decimal">
+<li>Consider the modely = <span class="math inline">\(\beta_0 +\beta_1
+X_1 +\beta_2 X_2\)</span> estimated using OLS. Which of the following
+will lead to a higher <span class="math inline">\(Var(\hat \beta_2
+)\)</span>?
+<ul>
+<li>Smaller sample size</li>
+<li>Less variation in <span class="math inline">\(X_2\)</span></li>
+<li>More variation in</li>
+<li>High correlation between <span class="math inline">\(X_1\)</span>
+and <span class="math inline">\(X_2\)</span></li>
+</ul></li>
+</ol>
+<p>The correct answer is:</p>
+<p>A. (i), (ii), (iii) and (iv)</p>
+<p>B. (ii), (iii) and (iv)</p>
+<p>C. (ii) and (iii)</p>
+<p>D. (iii) and (iv)</p>
+<ol start="22" style="list-style-type: decimal">
+<li>Consider an exchange economy with two agents, 1 and 2, and two
+goods, X and Y. Each agent’s consumption set is <span
+class="math inline">\(R^2\)</span> The endowments of agents 1 and 2 are
+(10,1) and (0,9) respectively. (In any commodity bundle, the first entry
+is a quantity of X and the second one is a quantity of Y.) Ifa &gt; c,
+ora=candb &gt; d, then Agent 1 strictly prefers bundle (a,b) to (b,d).
+Ifb &gt; d, orb=danda &gt; c, then Agent 1 strictly prefers bundle (a,b)
+to (b,d). Which of the following allocations is an efficient
+allocation?</li>
+</ol>
+<p>A. 1 gets (5,5) and 2 gets (5,5)</p>
+<p>B. 1 gets (10,1) and 2 gets (0,9)</p>
+<p>C. 1 gets (10,10) and 2 gets (0.0)</p>
+<p>D. All of the above</p>
+<p>E. Incorrect options provided for this question.</p>
+<ol start="23" style="list-style-type: decimal">
+<li>Consider a country with two citizens, 1 and 2. The government is
+considering a scheme that will cost 100. The government does not know
+the true benefits of the scheme to the citizens, sayB 1 , andB 2 , and
+must decide whether to implement the scheme on the basis of their
+reported benefits. sayR 1 andR 2. It will implement the scheme if and
+only ifR 1 +R 2 ≥100. If it is implemented, the government will impose
+tax 100−R 2 on person 1 and tax 100−R 1 , on person 2. Each citizen’s
+reported benefit seeks to maximize the difference between her true
+benefit (known only to her) and the tax that must be paid if and only if
+the scheme is implemented. The optimal choices ofR 1 andR 2 must be such
+that</li>
+</ol>
+<p>A. <span class="math inline">\(R_1 &lt; B_1\)</span> and <span
+class="math inline">\(R_2 &lt; B_2\)</span></p>
+<p>B. Nothing systematic can be said about <span
+class="math inline">\(R_1\)</span> and <span
+class="math inline">\(R_2\)</span></p>
+<p>C. <span class="math inline">\(R_1 =B_1\)</span> and <span
+class="math inline">\(R_2 =B_2\)</span></p>
+<p>D. <span class="math inline">\(R_1 &gt; B_1\)</span> and <span
+class="math inline">\(R_2 &gt; B_2\)</span></p>
+<p>Consider a Solovian economy with the aggregate production function
+<span class="math inline">\(Y_t = K\)</span> . Initial size of the
+population is 100 and the initial capital stock is given by 9 units. The
+entire output produced in each period is distributed to the households
+as factor incomes(since households are the owners of the capital stock
+and Jabour at any time t), who consume half of their income and save the
+rest. All savings are automatically invested which augment the capital
+stock available for production over time. Population does not grow and
+there is 100% depreciation of capital stock within one period.</p>
+<ol start="24" style="list-style-type: decimal">
+<li>The corresponding steady state value of aggregate output is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>30</p></li>
+<li><p>50</p></li>
+<li><p>5</p></li>
+<li><p>10</p></li>
+</ol>
+<ol start="25" style="list-style-type: decimal">
+<li>The corresponding steady state value of aggregate consumption
+is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>50</p></li>
+<li><p>10</p></li>
+<li><p>30</p></li>
+<li><p>25</p></li>
+</ol>
+<ol start="26" style="list-style-type: decimal">
+<li>The steady state value of aggregate capital stock is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>9</p></li>
+<li><p>25</p></li>
+<li><p>2.5</p></li>
+<li><p>10</p></li>
+</ol>
+<ol start="27" style="list-style-type: decimal">
+<li>Suppose households were free to choose their savings rate. If they
+wanted to maximize the steady state level of consumption, the savings
+rate would be</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\frac{1}{2}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{4}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{5}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{10}\)</span></p></li>
+</ol>
+<ol start="28" style="list-style-type: decimal">
+<li>In the previous problem, where households choose their savings rate,
+at that savings rate, the steady state value of the aggregate capital
+stock is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>25</p></li>
+<li><p>2.5</p></li>
+<li><p>10</p></li>
+<li><p>9</p></li>
+<li><p>Incorrect options provided for this question.</p></li>
+</ol>
+<ol start="29" style="list-style-type: decimal">
+<li>Suppose <span class="math inline">\(X_1 ,...,X_n\)</span> are
+observed completion times of an experiment with values in <span
+class="math inline">\([0,1]\)</span> . Each of these random variables is
+uniformly distributed on (0,1). If Y is the maximum observed completion
+time, then the mean of Y is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\frac{n}{2(n+1)}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{2n}{n+1}\)</span></p></li>
+<li><p><span class="math inline">\((\frac{n}{(n+1)})^2\)</span></p></li>
+<li><p><span class="math inline">\(\frac{n}{n+1}\)</span></p></li>
+</ol>
+<ol start="30" style="list-style-type: decimal">
+<li>If <span class="math inline">\(f:R^2 →R\)</span> is given by
+then</li>
+</ol>
+<p>A. f is differentiable at (0,0) and both partial derivatives at (0,0)
+are 0</p>
+<p>B. f is non-differentiable at (0,0) and both partial derivatives at
+(0,0) are 0</p>
+<p>C. f is differentiable at (0,0) and neither partial derivatives at
+(0,0) is 0</p>
+<p>D. f is non-differentiable at (0,0) and neither partial derivatives
+at (0,0) exist</p>
+<ol start="31" style="list-style-type: decimal">
+<li>Suppose we have estimated <span class="math inline">\(y= 10 + 1. 5
+x+ 4D\)</span> , where y is earnings, &lt;&lt; is experience and D is 0
+for females and 1 for males. If we had coded the dummy as −1 for females
+and 1 for males, the new estimated coefficients (in the same order)
+would have been:</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>12, 1. 5 ,− 2</p></li>
+<li><p>12, 4. 5 , 2</p></li>
+<li><p>14, 1. 5 ,− 4</p></li>
+<li><p>10, 1. 5. 4</p></li>
+</ol>
+<ol start="32" style="list-style-type: decimal">
+<li>Which of the following is/are the consequence(s) of including an
+irrelevant variable in a multiple linear regression model? (i) The
+variances of the OLS coefficients may be larger (ii) The OLS
+coefficients will be biased unless the irrelevant variable is orthogonal
+to the other included variables (iii) The variances of the OLS
+coefficients will be unaffected. The correct answer is:</li>
+</ol>
+<p>A. (i) only</p>
+<p>B. (ii) and (iii) only</p>
+<p>C. (iii) only</p>
+<ol start="4" style="list-style-type: upper-alpha">
+<li><ol style="list-style-type: lower-roman">
+<li>and (ii)</li>
+</ol></li>
+</ol>
+<ol start="33" style="list-style-type: decimal">
+<li>Suppose Y is a random variable with uniform distribution of the
+interval <span class="math inline">\([−\frac{\pi}{2}
+,\frac{\pi}{2}]\)</span>. The value of the (cumulative) distribution
+function of th ́e random variable <span class="math inline">\(X=\sin
+Y\)</span> at <span class="math inline">\(x\in [− 1 ,1]\)</span> is</li>
+</ol>
+<table>
+<tbody>
+<tr class="odd">
+<td>DRAFT</td>
+</tr>
+</tbody>
+</table>
+<ol start="34" style="list-style-type: decimal">
+<li>A student is answering a multiple-choice examination. Suppose a
+question hasmpossible answers. The student knows the correct answer with
+probabilityp. If the student knows the correct answer, then she picks
+that answer; otherwise, she picks randomly from the choices with
+probability <span class="math inline">\(1\frac{1}{m}\)</span> each.
+Given that the student picked the correct answer, the probability that
+she knew the correct answer is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\frac{p}{1+(1-p)m}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{p}{1+(m-1)p}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{mp}{1+(1-p)m}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{mp}{1+(m-1)p}\)</span></p></li>
+</ol>
+<ol start="35" style="list-style-type: decimal">
+<li>Consider the game where the row player’s payoff is given first,
+followed by the column player’s payoff. This game has only one Nash
+equilibrium when</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(x &gt; y &gt; z\)</span></p></li>
+<li><p><span class="math inline">\(x &lt; y &lt; z\)</span></p></li>
+<li><p><span class="math inline">\(x=y=z\)</span></p></li>
+<li><p><span class="math inline">\(y &gt; z &gt; x\)</span></p></li>
+</ol>
+<ol start="36" style="list-style-type: decimal">
+<li>Consider an economy where there is no capital. Production of the
+final good is carried out in each period using a linear production
+function that uses only labour. The production technology is specified
+as follows: <span class="math inline">\(Y_t=A_t(1−\lambda
+_t)L_0\)</span> where <span class="math inline">\(L_0\)</span> is the
+constant labour force in the economy, <span
+class="math inline">\(1−\lambda _t\)</span> , is the proportion of
+labour force engaged in final goods production andAtis the state of
+technology in period t. The index of technology At changes over time
+depending on the proportion of the labour force engaged in R&amp;D,
+which is <span class="math inline">\(\lambda_t\)</span>. The evolution
+of technology in the R&amp;D sector is determined by the equation <span
+class="math inline">\(\frac{dA}{dt} =\lambda _t L_0A_t\)</span> where
+the initial <span class="math inline">\(A_0\)</span> is a positive
+constant. Now suppose that the relative price of the new technologies
+generated in the R&amp;D sector in terms of the final commodity is
+unity. Also suppose the labour across two sectors are employed in such a
+way that the value of marginal product of labour across the two sectors
+are identical. In this case, the equilibrium value of <span
+class="math inline">\(\lambda _t\)</span> will be</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\lambda _0\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{2}\)</span></p></li>
+<li><p><span class="math inline">\(1\)</span></p></li>
+<li><p><span class="math inline">\(1-\lambda _0\)</span></p></li>
+</ol>
+<ol start="37" style="list-style-type: decimal">
+<li>Consider an economy where there is no capital. Production of the
+final good is carried out in each period using a linear production
+function that uses only labour. The production technology is specified
+as follows: <span class="math inline">\(Y_t=A_t(1−\lambda
+_t)L_0\)</span> where <span class="math inline">\(L_0\)</span> is the
+constant labour force in the economy, <span
+class="math inline">\(1−\lambda _t\)</span> , is the proportion of
+labour force engaged in final goods production andAtis the state of
+technology in period t. The index of technology At changes over time
+depending on the proportion of the labour force engaged in R&amp;D,
+which is <span class="math inline">\(\lambda_t\)</span>. The evolution
+of technology in the R&amp;D sector is determined by the equation <span
+class="math inline">\(\frac{dA}{dt} =\lambda _t L_0A_t\)</span> where
+the initial <span class="math inline">\(A_0\)</span> is a positive
+constant. For any exogenously given value of <span
+class="math inline">\(\lambda_t=\lambda_0\)</span> , the long run
+balanced growth rate in this economy is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\((1-\lambda _0)L_0\)</span></p></li>
+<li><p><span class="math inline">\((1-\lambda _0)\)</span></p></li>
+<li><p><span class="math inline">\(\lambda _0\)</span></p></li>
+<li><p><span class="math inline">\(\lambda _0 L_0\)</span></p></li>
+</ol>
+<ol start="38" style="list-style-type: decimal">
+<li>Duopolist firms 1 and 2 sell a homogeneous good in a market with
+demand function Q = 100− 2 P, whereQis the quantity demanded at priceP.
+Firms 1 and 2 have constant marginal costs of 0 and 30 respectively. The
+firms simultaneously announce prices and consumers buy from the firm
+whose price is lower. If the firms choose the same price, all the
+consumers buy from firm 1. Firm 1’s equilibrium price is</li>
+</ol>
+<p>A. 30</p>
+<p>B. 0</p>
+<p>C. 25</p>
+<p>D. 20</p>
+<ol start="39" style="list-style-type: decimal">
+<li>Voters arrive at a social ranking of alternatives by consulting a
+“holy book”: the social ranking is the ranking found in this book. Which
+of Arrow’s axioms defining an attractive preference aggregation method
+is violated by this method?</li>
+</ol>
+<p>A. Independence of irrelevant alternatives</p>
+<p>B. Non-dictatorship</p>
+<p>C. Unrestricted domain</p>
+<p>D. The Pareto principle</p>
+<ol start="40" style="list-style-type: decimal">
+<li>A consumer weakly prefers a basket <span class="math inline">\((a_1
+,a_2 ,a_3 )\)</span> to a basket <span class="math inline">\((b_1 ,b_2
+,b_3 )\)</span> if <span class="math inline">\(a_1 \geq b_1 ,a_1 +a_2
+\geq b_1 +b_2 ,a_1 +a_2 +a_3 \geq b_1 +b_2 +b_3\)</span> Which of the
+following statements about this preference is false?</li>
+</ol>
+<p>A. It is transitive.</p>
+<p>B. It is monotonic.</p>
+<p>C. It is continuous.</p>
+<p>D. It is complete,</p>
+<ol start="41" style="list-style-type: decimal">
+<li>Suppose the economy-wide union sets wage for employed workers by
+<span class="math inline">\(W=P^e(Z−\alpha u)\)</span> with unemployment
+rate u and labour force of the economy L. The producer levies price over
+wage W with mark-up m as <span class="math inline">\(P= (1 +m)W\)</span>
+. If each employed worker produces one unit of output Y, then the
+aggregate supply function is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(P=−P^e(1 +m)(Z−1 +\frac{\alpha
+Y}{L})\)</span></p></li>
+<li><p><span class="math inline">\(P= P^e(1 +m)(Z−1 +\frac{\alpha
+Y}{L})\)</span></p></li>
+<li><p><span class="math inline">\(P=−P^e(1 +m)(Z−\alpha +\frac{\alpha
+Y}{L})\)</span></p></li>
+<li><p><span class="math inline">\(P=P^e(1 +m)(Z−\alpha +\frac{\alpha
+Y}{L})\)</span></p></li>
+</ol>
+<ol start="42" style="list-style-type: decimal">
+<li>Consider the following regression modelyi=α 0 +α 1 x 1 i+α 2 x 2
+i+uiSuppose a researcher is interested in conducting White’s
+heteroscedasticity test using the residuals from an estimation of the
+above equation. What would be the most appropriate form for the
+auxiliary regression?</li>
+</ol>
+<p>A.   <span class="math inline">\(u_i^2=\gamma_0 +\gamma_1
+x_{1i}+\gamma_2 x_{2i}+\gamma_3 x_{1i}^2+\gamma_4 x_{2i}^2+\gamma_5
+x_{1i} x_{2i}+ v_i\)</span></p>
+<p>B.   <span class="math inline">\(u_i^2=\gamma_0 +\gamma_1 u_i− 1
++v_i\)</span></p>
+<p>C.   <span class="math inline">\(u_i^2=\gamma_0 +\gamma_1
+x_{1i}+\gamma_2 x_{2i} +\gamma_3 x{1i}^2+\gamma_4
+x_{2i}^2+v_i\)</span></p>
+<p>D.   <span class="math inline">\(u_i=\gamma_0 +\gamma_1 u_i− 1
++v_i\)</span></p>
+<ol start="43" style="list-style-type: decimal">
+<li>Suppose you have run the following regression: <span
+class="math inline">\(y=\alpha+\beta x+ \gamma Urban +\theta Immigration
++ \sigma UrbanImmigration\)</span> where Urban is a dummy indicating
+that the person lives in a city rather than a rural area, Immigrant is a
+dummy indicating that the person is an immigrant rather than a native.
+The coefficientθis interpreted as the ceteris paribus difference in y
+between</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>A rural immigrant and a rural native</p></li>
+<li><p>An immigrant and a native</p></li>
+<li><p>An urban immigrant and an urban native</p></li>
+<li><p>None of the above</p></li>
+</ol>
+<ol start="44" style="list-style-type: decimal">
+<li>Consider an exchange economy with two agents, 1 and 2, and two
+goods, X and Y. Each agent’s consumption set is <span
+class="math inline">\(R_+^2\)</span> . Given bundles <span
+class="math inline">\((a,b),(c,d)\in R^2\)</span> such that <span
+class="math inline">\((a,b)≥(c,d)\)</span> and <span
+class="math inline">\((a,b) \neq = (c,d)\)</span> , agent 1 strictly
+prefers (a,b). (In any commodity bundle, the first entry is a quantity
+of X and the second one is a quantity of Y.) Consider the following
+claims: In a competitive equilibrium for this economy, (I) both prices
+must be positive, and (II) the sum of the allocations to 1 and 2 must
+equal the sum of their endowments. Which of the following statements is
+correct?</li>
+</ol>
+<p>A. i and ii are true</p>
+<p>B. i and ii are false</p>
+<p>C. i is true and ii is false</p>
+<p>D. i is false and ii is true</p>
+<ol start="45" style="list-style-type: decimal">
+<li>A monopolist faces a demand function <span
+class="math inline">\(D(p) =\alpha−p\)</span> and cost function <span
+class="math inline">\(C(q) =cq\)</span>. She can advertise her product
+to increase demand. Advertisement level <span
+class="math inline">\(\theta\)</span> costs <span
+class="math inline">\(\frac{\theta ^2 }{2}\)</span> and it shifts the
+demand function by <span class="math inline">\(\theta\)</span> i.e., the
+new demand function is <span class="math inline">\(D(p) =\alpha +\theta
+−p\)</span> .The monopolist’s profit is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\frac{(\alpha−
+c)^2}{4}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{(\alpha−
+c)^2}{2}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{(\alpha−
+c-\theta)^2}{2}\)</span></p></li>
+<li><p><span class="math inline">\((\alpha− \theta)^2\)</span></p></li>
+</ol>
+<ol start="46" style="list-style-type: decimal">
+<li>Consider the following game. Player 1 moves first and chooses L or
+R. If she plays R, the game ends and the payoffs are (10,0). If she
+plays L, then player 2 moves and chooses cither L or R. If he plays R,
+the game ends and the payoffs are (0,20). If he plays L, then player 1
+moves and chooses either L or R. The game ends in both cases. If player
+chooses L, then the payoffs are (30.30). If she chooses L, then the
+payoffs are (40,0). This game</li>
+</ol>
+<p>A. bas three subgame perfect equilibria</p>
+<p>B. has a unique Nash equilibrium</p>
+<p>C. has a subgame perfect equilibrium in which 2 plays L</p>
+<p>D. has a unique Nash equilibrium outcome</p>
+<ol start="47" style="list-style-type: decimal">
+<li>If the function <span class="math inline">\(f:R^2 →R\)</span> is
+concave, then</li>
+</ol>
+<p>A. {<span class="math inline">\((x,r)∈R^2 ×R|f(x)&lt; r\)</span> } is
+convex</p>
+<p>B. {<span class="math inline">\((x,r)∈R^2 ×R|f(x) =r\)</span>} is
+convex</p>
+<p>C. {<span class="math inline">\((x,r)∈R^2 ×R|f(x)≥r\)</span>} is
+convex</p>
+<p>D. {<span class="math inline">\((x,r)∈R^2 ×R|f(x)≤r\)</span>} is
+convex</p>
+<ol start="48" style="list-style-type: decimal">
+<li>Let R be the set of real numbers. A subset of R, say E, is said to
+be open-if for every <span class="math inline">\(x\in E\)</span> , there
+exists <span class="math inline">\(r &gt;0\)</span> , such that <span
+class="math inline">\((x−r,x+r)\)</span> is a subset of E. Then,</li>
+</ol>
+<p>A. <span class="math inline">\(E_1 ∩···∩ E_n\)</span> is open, for
+every collection of open sets {<span class="math inline">\(E_1
+,...,E_n\)</span>}</p>
+<p>B. <span class="math inline">\(E_1 ∪···∪ E_n\)</span> is open, for
+every collection of open sets {<span class="math inline">\(E_1
+,...,E_n\)</span>}</p>
+<p>C. φ is open</p>
+<p>D. all of the above are true</p>
+<ol start="49" style="list-style-type: decimal">
+<li>You have 100 observations on y with average value 15, and on x, with
+average value 8. From an OLS regression, you have estimated the slope on
+x to be 2. Your estimate of the mean of y conditioned on x is</li>
+</ol>
+<p>A. 15</p>
+<p>B. 16</p>
+<p>C. 17</p>
+<p>D. None of the above</p>
+<ol start="50" style="list-style-type: decimal">
+<li>Suppose your data produces the regression result <span
+class="math inline">\(y= 10 + 3x\)</span>. Scale <span
+class="math inline">\(y\)</span> by multiplying observations by <span
+class="math inline">\(0.9\)</span> and do not scale <span
+class="math inline">\(x\)</span>. The new intercept and slope estimates
+will be</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>10 and 3</p></li>
+<li><p>9 and 3</p></li>
+<li><p>9 and 2.7</p></li>
+<li><p>10 and 2.7</p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

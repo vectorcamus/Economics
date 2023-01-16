@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2016</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2016</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<p>DSE 2016 DRAFT</p>
+<ol style="list-style-type: decimal">
+<li>If the following equation is estimated using OLS, and a 95%
+confidence interval for <span class="math inline">\(\beta_1\)</span> is
+constructed, then which of the following is true? <span
+class="math display">\[Y =\alpha+\beta_1 X_1 +\beta_2 X_2
++e\]</span></li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>The OLS estimate of <span class="math inline">\(\beta_1\)</span>
+lies in the given interval with 95% probability</p></li>
+<li><p>The true value of <span class="math inline">\(\beta_1\)</span>
+lies in the given interval with 95% probability</p></li>
+<li><p>In repeated sampling 95% of the times the confidence interval
+will contain the true value of <span
+class="math inline">\(\beta_1\)</span></p></li>
+<li><p>Both (B) and (C)</p></li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>What term would best describe the shape of the given boxplot?</li>
+</ol>
+<p><code>draft IMAGE</code></p>
+<p>A. Right-skewed</p>
+<p>B. Left-skewed</p>
+<p>C. Uniform</p>
+<p>D. Normal</p>
+<ol start="3" style="list-style-type: decimal">
+<li>The vitamin content of a particular brand of vitamin supplement
+pills is normally distributed with mean 490 mg and standard deviation 12
+mg. What is the probability(approximately) that a randomly selected pill
+contains at least 500 mg of Vitamin C?</li>
+</ol>
+<p>A. 0.8</p>
+<p>B. 0.2</p>
+<p>C. 0.025</p>
+<p>D. 0.55</p>
+<ol start="4" style="list-style-type: decimal">
+<li>A sample of 100 cows is drawn to estimate the mean weight of a large
+herd of cattle. If the standard deviation of the sample is 100 kg, what
+is the approximate maximum error in a 95% confidence interval
+estimate?</li>
+</ol>
+<p>A. 10</p>
+<p>B. 20</p>
+<p>C. 30</p>
+<p>D. 40</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Recent studies suggest that the migration to Indian cities from
+rural regions(MIG) can be explained be Quality of life(QL), state income
+as a ratio of Aggregate Indian income(Y) and the ratio of state
+employment to overall employment in India(E). Using data for the 29
+Indian states, the following model is estimated: <span
+class="math display">\[M\hat IG -4.2 +1.2 QL -(0.6)Y -0.8E\]</span></li>
+</ol>
+<p><code>the parantheses below the equation are  missing</code></p>
+<p>The figures in the parentheses are standard errors. The t-statistic
+for the null hypothesis that th E quality of life <span
+class="math inline">\((QL)\)</span> index does not impact migration
+is</p>
+<p>A. 0.8</p>
+<p>B. 0.9</p>
+<p>C. 1.5</p>
+<p>D. Insufficient information to calculate</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Consider the following estimated regression relating expenditures on
+Food(<span class="math inline">\(Y_i\)</span>) to Income(<span
+class="math inline">\(X_i\)</span>) <span class="math display">\[\hat
+Y_i= 145 + 0. 3 X_i− 0 .1(X_i-X_i^{∗})D_i\]</span> where i denotes the
+individual; <span class="math inline">\(X_i^{∗}= 500\)</span> , this
+threshold distinguishes lo income from high-income individuals, and
+<span class="math inline">\(D_i\)</span> takes value 1 if <span
+class="math inline">\(X_i \geq X^{*}\)</span> and 0 otherwise. All the
+estimated coefficients are significant at 5% level. Which of th
+following statements is false?</li>
+</ol>
+<p>A. The marginal propensity to consume for people with low income is
+0.3, and is lower for those with higher incomes; this makes sense as it
+is in accordance with Engel’s Law</p>
+<p>B. This is a differential slope, common intercept dummy variable
+formulation with an additional restriction that leads to kinked Engel
+curve</p>
+<p>C. This is a standard differential slope common-intercept dummy
+variable formulation</p>
+<p>D. Using this formulation yields predicted expenditure on food for
+people at income level 490 that is not very different from those people
+at income level 510 (estimate lie within 5 percent of each other)</p>
+<ol start="7" style="list-style-type: decimal">
+<li>The parameters of the following multiple regression model has been
+estimated using OLS. <span class="math inline">\(Y =\beta_1 +\beta_2 X_2
++\beta_3 X_3 + \epsilon\)</span> Denote the estimated residuals from
+this regression as e. Which of the following statements is false?</li>
+</ol>
+<p>A. The R-squared from the regression of e on a constant, <span
+class="math inline">\(X_2\)</span> and <span
+class="math inline">\(X_3\)</span> is zero</p>
+<p>B. The R-squared from the regression of Y on a constant andYˆis the
+same as inthe original regression (Yˆ stands for estimated value of Y
+)</p>
+<p>C. The slope coefficient from the regression of Y on a constant andYˆ
+is 1 and the intercept is 0</p>
+<p>D. The R-squared from the regression of Y on a constant and e is same
+as in the original regression</p>
+<ol start="8" style="list-style-type: decimal">
+<li>In the multiple regression model with 4 explanatory variables, with
+standard assump- tions, estimated using ordinary least squares, all the
+coefficients turn out to be insignificant although the overall R-squared
+is high and associated F-statistic is significant. Also, pair-wise
+correlations amongst the four explanatory variables are all low, and
+range be- tween 0.1 and 0.2, but are not statistically different from 0.
+Which of the following statements is false?</li>
+</ol>
+<p>A. Even though the pair-wise correlations between the explanatory
+variables are low, since they are (individually) statistically different
+from zero, OLS coefficients are likely biased</p>
+<p>B. This is likely a case of multicollinearity even though the
+pairwise correlations are low</p>
+<p>C. If the analyst is only interested in making forecasts then the
+insignificance of coefficients is per se not a problem since the
+F-statistic is significant and R-squared is high</p>
+<p>D. Dropping a variable may improve significance of remaining
+coefficients but they may be biased</p>
+<ol start="9" style="list-style-type: decimal">
+<li>Instead of estimating a true cost function, which is described as a
+quadratic, where costs are regressed on an intercept, output and a
+quadratic term in output, a researcher estimates a linear function by
+regressing costs on an intercept and output. The estimates from linear
+cost function are likely to</li>
+</ol>
+<p>A. have autocorrelated residuals</p>
+<p>B. be a biased estimate of marginal cost, even though there is no
+exact linear relationship between the linear and quadratic terms in
+output</p>
+<p>C. both (A) and (B)</p>
+<p>D. neither (A) nor (B)</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Using data on class size (CS) and average test percentage(TP) from
+101 classes, the following OLS regression is estimated: <span
+class="math inline">\(\hat TP = 96. 4 − 1. 12 CS\)</span> <span
+class="math inline">\(R\)</span> -squared is 0.1 and SER(Standard error
+of regression) is 5. What is the sample variance of test percentages
+across the 101 classes?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li>27.5</li>
+<li>22.5</li>
+<li>5.0</li>
+<li>2.5</li>
+</ol>
+<ol start="11" style="list-style-type: decimal">
+<li>In the OLS regression <span class="math inline">\(Y_i=\beta_1
++\beta_2 X_i+u_i\)</span> , suppose the coefficient of determination is
+estimated to be 0.6. We now transform the variables such that <span
+class="math inline">\(Y_i^{∗} = 0. 5 Y\)</span> and <span
+class="math inline">\(X_i^{*} = 0. 75 X_i\)</span> and rerun the
+regression. The coefficient of determination is now:</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li>0.6</li>
+<li>0.4</li>
+<li>0.9</li>
+<li>0.3</li>
+</ol>
+<ol start="12" style="list-style-type: decimal">
+<li>The OLS regression of infant birth weight(BWT) on the mother’s
+age(AGE) and years of mother’s education(EDU) is: <span
+class="math display">\[B\hat WT = 2600 + 2.3 AGE+ 26 EDU\]</span> Where
+the standard errors are reported below the estimated coefficients.
+Sample size is 1000 and R squared is 0.015. Sample information is
+provided in the table below:</li>
+</ol>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>BWT</th>
+<th>AGE</th>
+<th>EDU</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mean</td>
+<td>3000</td>
+<td>25</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>Standard deviation</td>
+<td>500</td>
+<td>5</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p>A one standard deviation change in AGE is associated with anxstandard
+deviation change in birth weight, where x is</p>
+<p>A. 0.046</p>
+<p>B. 0.007</p>
+<p>C. 0.023</p>
+<p>D. 0.035</p>
+<ol start="13" style="list-style-type: decimal">
+<li>If <span class="math inline">\(f:R→R\)</span> is a continuous
+function (Ris the set of reaL numbers) andEis an open subset ofR, then
+the set{<span class="math inline">\(x\in R|f(x)\in E\)</span>} is
+necessarily</li>
+</ol>
+<p>A. open</p>
+<p>B. closed</p>
+<p>C. neither open, nor closed</p>
+<p>D. open and closed</p>
+<ol start="14" style="list-style-type: decimal">
+<li>If X is a <span class="math inline">\(n\times n\)</span> non
+singular matrix, such that <span
+class="math inline">\(XX^T=X^TX\)</span> (<span
+class="math inline">\(X^T\)</span> denotes the transpose of X). Let
+<span class="math inline">\(Y=X^{-1} X^T\)</span> where <span
+class="math inline">\(X^{-1}\)</span> denotes the inverse of X. Then
+<span class="math inline">\(YY^T\)</span> is equal to</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>I+Y (I is the identity matrix)</p></li>
+<li><p>I</p></li>
+<li><p><span class="math inline">\(Y^{-1}\)</span></p></li>
+<li><p><span class="math inline">\(Y^T\)</span></p></li>
+</ol>
+<ol start="15" style="list-style-type: decimal">
+<li>Suppose that g(x) is a twice differential functio and <span
+class="math inline">\(g(1) = 1;g(2) = 4;g(3) = 9\)</span> . Which of the
+following is necessarily true? First and second derivatives of g are
+represented as <span class="math inline">\(g′\)</span> and <span
+class="math inline">\(g′′\)</span> respectively</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>g′′(x) = 3 for some <span class="math inline">\(x\in
+[1,2]\)</span></p></li>
+<li><p>g′′(x) = 5 for some <span class="math inline">\(x \in
+[2,3]\)</span></p></li>
+<li><p>g′′(x) = 2 for some <span class="math inline">\(x \in
+[1,3]\)</span></p></li>
+<li><p>g′′(x) = 2 for some <span class="math inline">\(x \in [1. 5 , 2
+.5]\)</span></p></li>
+</ol>
+<ol start="16" style="list-style-type: decimal">
+<li>Consider <span class="math inline">\(f:R→R\)</span> defined by <span
+class="math inline">\(f(x) =\sum_{i=1}^{11} |x−a_i|\)</span> for all
+<span class="math inline">\(x\in R\)</span> , wherea <span
+class="math inline">\(1 &lt; .\dots a_{11}\)</span> . This function has
+a minimum when x equals :</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(a_2\)</span></p></li>
+<li><p><span class="math inline">\(a_6\)</span></p></li>
+<li><p><span class="math inline">\(a_7\)</span></p></li>
+<li><p><span class="math inline">\(a_{11}\)</span></p></li>
+</ol>
+<ol start="17" style="list-style-type: decimal">
+<li>Consider the set {<span class="math inline">\(x,y\in R_+ \times R|y
+\geq \ln(x)−e^x\)</span>}. This set is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>a linear subspace of <span
+class="math inline">\(R^2\)</span></p></li>
+<li><p>Convex</p></li>
+<li><p>convex and linear subspace of <span
+class="math inline">\(R^2\)</span></p></li>
+<li><p>neither convex nor linear subspace of <span
+class="math inline">\(R^2\)</span></p></li>
+</ol>
+<ol start="18" style="list-style-type: decimal">
+<li>A school withnstudents hasmclubs to which they can belong, and
+students are allowed to be members of multiple clubs. It is known that
+(I) Each club has an odd number of members (II) Every pair of clubs has
+an even number of common members (including Then it must be that:</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(m\geq n\)</span></p></li>
+<li><p><span class="math inline">\(m\leq n\)</span></p></li>
+<li><p><span class="math inline">\(m\)</span> and <span
+class="math inline">\(n\)</span> can each be larger than the other, but
+<span class="math inline">\(m \neq n\)</span></p></li>
+<li><p><span class="math inline">\(m=n\)</span></p></li>
+</ol>
+<ol start="19" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(n &gt;1\)</span>, and let S be the
+set of all <span class="math inline">\(n\times n\)</span> matrices whose
+entries are all chosen from the set 0,1. Then the sum of the
+determinants of all these matrices</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>is equal to 0</p></li>
+<li><p>is positive but less than <span
+class="math inline">\(n^{\frac{n}{2}}\)</span></p></li>
+<li><p>can be positive or negative, but is bounded by <span
+class="math inline">\(n^n\)</span></p></li>
+<li><p>is either -1 or 1</p></li>
+</ol>
+<ol start="20" style="list-style-type: decimal">
+<li>$ g:R→[0,1]$ is a non-decreasing and right continuous step function
+such that <span class="math inline">\(g(x) = 0\)</span> for all <span
+class="math inline">\(x \leq 0\)</span> and <span
+class="math inline">\(g(x) = 1\)</span> for all <span
+class="math inline">\(x\geq 1\)</span> . Let us define <span
+class="math inline">\(g^{-1}\)</span> as follows, <span
+class="math inline">\(g^{-1}(y)= inf\)</span>{<span
+class="math inline">\(x\geq 0|g(x) \geq y\)</span>}. Which of the
+foloowing is true about <span class="math inline">\(g^{-1}\)</span></li>
+</ol>
+<p>A. is a continuous function</p>
+<p>B. is right-continuous but not left continuous</p>
+<p>C. is left-continuous but not right continuous</p>
+<p>D. neither left-continuous nor right-continuous</p>
+<p>The next two questions pertain to the following: Consider an exchange
+economy with two agents, 1 and 2, and two goods, X and Y. There are 6
+units of X and 4 units of Y available. Agent 1 has the utility function
+<span class="math inline">\(u_1 = \min\)</span> {<span
+class="math inline">\(x_1 ,y_1\)</span>} and agent 2 has the utility
+function <span class="math inline">\(u_2 =x_2 +y_2\)</span> .</p>
+<ol start="21" style="list-style-type: decimal">
+<li>Which of the following allocations is not Pareto efficient?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>(2,0),(4,4)</p></li>
+<li><p>(4,4),(2,0)</p></li>
+<li><p>(2,2),(4,2)</p></li>
+<li><p>(0,0),(6,4)</p></li>
+</ol>
+<ol start="22" style="list-style-type: decimal">
+<li>The set of equilibrium prices for this exchange economy is given
+by?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>{<span class="math inline">\(p_x&gt; 0 ,p_y&gt; 0
+,\frac{p_x}{p_y}\leq 1\)</span> }</p></li>
+<li><p>{<span class="math inline">\(p_x&gt; 0 ,p_y&gt; 0
+,\frac{p_x}{p_y}= 1\)</span>}</p></li>
+<li><p>{<span class="math inline">\(p_x&gt; 0 ,p_y&gt; 0
+,\frac{p_x}{p_y}\geq 1\)</span>}</p></li>
+<li><p>Insufficient information to conclude</p></li>
+</ol>
+<ol start="23" style="list-style-type: decimal">
+<li>The market for widgets has a demand function <span
+class="math inline">\(Q= 100− 10 p\)</span> , where Q is the quantity
+demanded and P is the price in rupees. There are 10 price taking firms
+in the market, each having a cost function <span
+class="math inline">\(c(q) =\frac{q^2}{2}\)</span> , where q is the
+firm’s own output. There is no new entry. Suppose the government imposes
+an excise tax of Rs. 2 per unit of widgets, to be paid by sellers, the
+equilibrium market price is</li>
+</ol>
+<p>A. 7</p>
+<p>B. 6</p>
+<p>C. 5</p>
+<p>D. 2</p>
+<ol start="24" style="list-style-type: decimal">
+<li>A consumer has utility functionu(x 1 ,x 2 ) = min{ 3 x +x 2 ,x 1 +
+2x 2 }. Prices of the two goods arep 1 andp 2 respectively. The consumer
+will buy positive quantities of both the goods if and only if the price
+ratio <span class="math inline">\(\frac{p_1}{p_2}\)</span> is</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>greater than 3</p></li>
+<li><p>between <span class="math inline">\(\frac{1}{2}\)</span> and
+3</p></li>
+<li><p>between 2 and 3</p></li>
+<li><p>less than</p></li>
+</ol>
+<ol start="25" style="list-style-type: decimal">
+<li>Utility function of a consumer over three goods <span
+class="math inline">\(X,Y,Z\)</span> is <span class="math inline">\(U=y
+\min\)</span> {x,z}. Prices of all the three goods are the same in the
+market. Three discount deals are available, which are as follows: Deal
+I: Get a unit of Z free with a unit of X Deal II: Get a unit of Z free
+with a unit of Y Deal III: Get <span
+class="math inline">\(\frac{1}{2}\)</span> unit of X and <span
+class="math inline">\(\frac{1}{2}\)</span> unit of Z free with a unit of
+Y Which of the deals should the consumer choose?</li>
+</ol>
+<p>A. Deal I</p>
+<p>B. Deal II</p>
+<p>C. Deal III</p>
+<p>D. All the deals are equally good</p>
+<ol start="26" style="list-style-type: decimal">
+<li>Two widget producers, A and B, operate in perfectl competitive input
+and output markets. Firm A uses capital (k) and labour (l) to produce
+widget; its production function is <span class="math inline">\(f_1 (k_1
+,l_1 ) = (k_1 l_1 )^{\frac{1}{3}}\)</span> . Firm B uses only labour;
+its production function is <span class="math inline">\(f_2 (l_2)=
+\frac{\sqrt {L_2}}{1+k_1}\)</span> Efficiency of input allocation can be
+improved by:</li>
+</ol>
+<p>A. imposing a tax on capital use</p>
+<p>B. merging firms A and B</p>
+<p>C. providing a subsidy on labour use to firm A</p>
+<p>D. all of the above</p>
+<p>The next two questions pertain to the following: A student has the
+opportunity to take a test at most thrice. The student knows that each
+time she takes the test, her score is an independent random draw from
+the uniform distribution <span class="math inline">\([0,100]\)</span>.
+Each time the student takes the test and learns her score, she can
+either stop and accept it as her official score, or she can discard the
+result and retake the test. However, after the third attempt, the
+student has no more opportunities to retake the test. In that case,her
+score on the last(i.e., third) try will be her official score. The
+student’s objective is to maximize her expected official score</p>
+<ol start="27" style="list-style-type: decimal">
+<li>If the student follows an optimal plan, her final expected score
+before taking any of the tests is approximately:</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li>30</li>
+<li>50</li>
+<li>70</li>
+<li>90</li>
+</ol>
+<ol start="28" style="list-style-type: decimal">
+<li>Now consider the case when the university allows the student to take
+the final test only when her score is below 40 in the second test. The
+student retains the choice to stop or retake after the first attempt.
+The student will decide to be retested after the first test f and only
+if her score is less than:</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li>37.5</li>
+<li>50</li>
+<li>62</li>
+<li>67.5</li>
+</ol>
+<p>The next two questions pertain to the following: Consider a
+homogeneous goods market with two firms. Let <span
+class="math inline">\(x_1\)</span> and <span
+class="math inline">\(x_2\)</span> be the quantity choices of Firms 1
+and 2 respectively. The total quantity is <span
+class="math inline">\(X=x_1 +x_2\)</span> . The inverse demand function
+is $ P=a−bX$ , where <span class="math inline">\(P\)</span> is the
+market price and A and B are the intercept and slope parameters
+respectively. Both firms have the same marginal costs denoted byc.
+Suppose <span class="math inline">\(b &gt;0,\)</span> and <span
+class="math inline">\(0&lt; 3 c &lt; a\)</span> .</p>
+<ol start="29" style="list-style-type: decimal">
+<li>Suppose firm 1 has an objective of maximizing revenue and firm 2 has
+an objective of maximizing profit. Both firms choose quantities
+simultaneously. Then:</li>
+</ol>
+<p>A. Firm 1 has larger market share and larger profits</p>
+<p>B. Firm 2 has smaller market share but larger profits</p>
+<p>C. Firm 1 has smaller market share but larger profits</p>
+<p>D. Firm 2 has larger market share and larger profits</p>
+<ol start="30" style="list-style-type: decimal">
+<li>Suppose both firms become revenue maximizers. TheN</li>
+</ol>
+<p>A. Both will produce more than Cournot output</p>
+<p>B. Both will produce less than Cournot output</p>
+<p>C. Both will produce the perfectly competitive output</p>
+<p>D. Both will produce more than the perfectly competitive output.</p>
+<p>The next two questions pertain to the following: Four cities <span
+class="math inline">\(A,B,C,D\)</span> are located as vertices of a
+square <span class="math inline">\(ABCD\)</span> , and are connected by
+roads that form the four sides of the square. Mr. Rand Walker travels
+thus: if he is at city <span class="math inline">\(i(i\in\)</span>{<span
+class="math inline">\(A,B,C,D\)</span>}) in period <span
+class="math inline">\(t\)</span> , then he randomly, with probability
+<span class="math inline">\(\frac{1}{2}\)</span> each, moves to one of
+the two vertices/cities that are adjacent to <span
+class="math inline">\(i\)</span> in period <span
+class="math inline">\(t+ 1\)</span> .</p>
+<ol start="31" style="list-style-type: decimal">
+<li>If Mr. Walker is at city A at time t= 0 then the respective
+probabilities with which he is at cities A,B,C,Din period t= 10
+are:</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(\frac{1}{4} , \frac{1} { 4} ,\frac{1}
+{4} , \frac{1}{4}\)</span></p></li>
+<li><p><span class="math inline">\(0, \frac{1}{2} , 0 ,
+\frac{1}{2}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{2} , 0 ,0,
+\frac{1}{2}\)</span></p></li>
+<li><p><span class="math inline">\(\frac{1}{2} , 0 ,
+\frac{1}{2},0\)</span></p></li>
+</ol>
+<ol start="32" style="list-style-type: decimal">
+<li>If Mr. Walker is at city A at time <span class="math inline">\(t=
+0\)</span> , then what is the probability that he never visits city A
+again till(including) period <span class="math inline">\(t= 10\)</span>
+?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\((\frac{1}{2})^5\)</span></p></li>
+<li><p><span class="math inline">\((\frac{1}{2})^{10}\)</span></p></li>
+<li><p><span class="math inline">\((\frac{3}{4})^5\)</span></p></li>
+<li><p><span class="math inline">\((\frac{3}{4})^{10}\)</span></p></li>
+</ol>
+<ol start="33" style="list-style-type: decimal">
+<li>Consider a railway signalling system: a signal is received by the
+station A from the traffic control office and then transmit it to
+station B. Suppose that at the origin (traffic control office) signal
+can be yellow or red with probability <span
+class="math inline">\(\frac{4}{5}\)</span> and <span
+class="math inline">\(\frac{1}{5}\)</span> respectively. The probability
+of each station receiving the signal correctly from its predecessor is
+<span class="math inline">\(\frac{3}{4}\)</span> . If the signal
+received at station B is yellow, then the probability that the signal
+was yellow is</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{22}{23}\)</span> B. <span
+class="math inline">\(\frac{11}{20}\)</span> C. <span
+class="math inline">\(\frac{20}{23}\)</span> D. <span
+class="math inline">\(\frac{9}{20}\)</span></p>
+<ol start="34" style="list-style-type: decimal">
+<li>SupposeX has a normal distribution with mean 0 and variance <span
+class="math inline">\(\sigma^2\)</span> . Let Y be an independent random
+variable taking values −1 and 1 with equal probability. Define <span
+class="math inline">\(Z=XY +XY\)</span>. Which of the following is
+true?</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(Var(Z)&gt; \sigma
+^{2}\)</span></p></li>
+<li><p><span class="math inline">\(Var(Z)&lt; \sigma^2\)</span></p></li>
+<li><p><span class="math inline">\(Var(Z) =\sigma^2\)</span></p></li>
+<li><p><span class="math inline">\(Var(Z)\)</span> can be greater than
+or smaller than <span class="math inline">\(\sigma^2\)</span></p></li>
+</ol>
+<ol start="35" style="list-style-type: decimal">
+<li>According to Ricardian equivalence proposition, a reduction in the
+current (lump sum) taxation of household income</li>
+</ol>
+<p>A. would reduce current consumption, but leave future consumption
+unaffected</p>
+<p>B. would reduce future consumption, but leave current consumption
+unaffected</p>
+<p>C. would reduce both current and future consumption</p>
+<p>D. would leave both current and future consumption unaffected</p>
+<ol start="36" style="list-style-type: decimal">
+<li>Tobin’s q theory suggests that firms will find it profitable to
+invest when the value of Tobin’s q is:</li>
+</ol>
+<p>A. greater than zero</p>
+<p>B. less than zero</p>
+<p>C. greater than unity</p>
+<p>D. less than unity</p>
+<p>The next 4 questions pertain to the following: Consider an agrarian
+economy with two single membered households. The households are engaged
+in own cultivation using their family land, labour and capital. Each
+household is endowed with 1 acre of land and 1 unit of labour. However
+the two households differ in terms of  their initial capital endowment
+(<span class="math inline">\(K_0^R\)</span> and <span
+class="math inline">\(K_0^P\)</span> ), whereRdenotes the relatively
+richer household andPdenotes the relatively poorer household. Assume
+<span class="math inline">\(2&lt; K_0^R &lt;4\)</span> and $ 0&lt; K_0^P
+&lt;1$ . The household have access to two technologies which are
+specified by the following production functions: Technology <span
+class="math inline">\(A: Y_t= (N_tL_t)^{\frac{1}{2}} (K_t)^2\)</span>
+Technology <span class="math inline">\(B:Y_t=
+(N_tL_t)^{\frac{1}{2}}(K_t)^{\frac{1}{2}}\)</span> where <span
+class="math inline">\(N_t\)</span> represents land (in acres), <span
+class="math inline">\(L_t\)</span> represents labour, and <span
+class="math inline">\(K_t\)</span> represents capital respectively. The
+households choose the technology which gives them higher output (given
+their land, labour and capital stock) in any period t. In every period
+they consume half of their total income and save the rest, which adds to
+the next period’s capital stock. Land and labour stock remain constant
+over time. Existing capital stock depreciates fully upon production.</p>
+<ol start="37" style="list-style-type: decimal">
+<li>Given their initial factor endowments, the technology choices of the
+rich and the poor households respectively are:</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p>A,B</p></li>
+<li><p>B,A</p></li>
+<li><p>A,A</p></li>
+<li><p>B,B</p></li>
+</ol>
+<ol start="38" style="list-style-type: decimal">
+<li>In the short run, the average capital stock in the economy (K)
+evolves according to the following dynamic path</li>
+</ol>
+<table style="width:6%;">
+<colgroup>
+<col width="5%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>DRAFT</td>
+</tr>
+</tbody>
+</table>
+<ol start="39" style="list-style-type: decimal">
+<li>In the long run:</li>
+</ol>
+<p>A. income of both households grow perpetually</p>
+<p>B. income of household R grows perpetually but that of household P
+approaches a constant</p>
+<p>C. income of household P grows perpetually but that of household R
+approaches a constant</p>
+<p>D. income of household R grows perpetually but that of household P
+falls perpetually</p>
+<ol start="40" style="list-style-type: decimal">
+<li>If, at the end of the initial time period, the household were given
+a choice to spend their savings in buying more land instead of investing
+in capital stock</li>
+</ol>
+<p>A. both households would have bought more land</p>
+<p>B. both households would have still invested in capital</p>
+<p>C. Household R would have still invested in capital but household P
+would have bought more land</p>
+<p>D. Household P would have still invested in capital but household R
+would have bought more land</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

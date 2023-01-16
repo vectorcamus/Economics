@@ -1,0 +1,794 @@
+---
+title: "PYQ DSE 2010"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+  
+```DSE 2010```
+
+  
+
+1. A number, say $X_1$ , is chosen at random from the set { 1 , 2 }. Then a number, say $X_2$  , is chosen at random from the set { $1 , x_1$ }. The probability that $X_1 = 2$ given that $X_2 = 1$  is
+
+A. $1$
+
+B. $\frac{1}{2}$
+
+C. $\frac{1}{3}$
+
+D. $\frac{1}{4}$
+
+
+2. Suppose a random variable X takes values -2, 0, 1 and 4 with probabilities 0.4, 0.1, 0.3 and 0.2 respectively.
+
+
+A. The unique median of the distribution is 1
+
+B. The unique median of the distribution is 0
+
+C. The unique median of the distribution lies between 0 and 1
+
+D. The distribution has multiple medians
+
+  
+
+3. Two persons A and B, shoot at a target. Suppose the probability that A will hit thectarget is $\frac{1}{3}$ and the probability that B will hit the target on any shot is $\frac{1}{4}$ . Suppose A shoots first and takes turns shooting. What is the probability that the target is hitc for the first time by A′s third shot?
+
+  
+
+A. $\frac{1}{24}$
+
+B. $\frac{1}{12}$
+
+C. $\frac{1}{6}$
+
+D. $\frac{1}{3}$
+
+  
+
+4. A fair coin is tossed repeatedly until a head is obtained for the first time. Let X denote  the number of tosses that are required. The value of the distribution function of X at 3  is
+
+  
+
+A. $\frac{3}{4}$
+
+B. $\frac{1}{2}$
+
+C. $\frac{7}{8}$
+
+D. $\frac{7}{16}$
+
+  
+
+5. Using a random sample, an ordinary least squares regression of Y on X yields the 95% confidence interval $0. 43 <  \beta  < 0 .59$  for the slope parameter $\beta$ . Which of the following statements is false?
+
+  
+
+A. This interval contains the parameter \beta with probability 0. 95
+
+B. The point estimate of \beta obtained from our regression always lies within this interval
+
+C. The 90% confidence interval for \beta is a subset of the interval obtained above
+
+D. If such intervals are constructed from repeated samples drawn from the population in question, then on average 95 out of 100 of these intervals are likely to contain the true parameter value
+
+  
+
+6. Consider a binary relationdefined on the set A={x,y,z}. Define relations and  $>$  on A by: for $a,b \in  A.$ a>b  if and only if $a\geq b$  and not  $b\geq a \ a ∼b$ if and only if $a \geq b \ and \ b\geq a$ . Suppose $x\geq y, y∼z \ and \ x∼z$ .Then
+
+
+A.   > is transitive
+
+B. ∼is transitive
+
+C.  both $\geq$ and ∼ are transitive
+
+D. we cannot conclude anything about the transitivity of $\geq$ and ∼
+
+  
+
+7. The utility function $u(x,y) = (x+y)^{\frac{1}{2}}$  , for (x,y) = (0,0), exhibits
+
+A. diminishing marginal rate of substitution and diminishing marginal utilities
+
+B. increasing marginal rate of substitution and diminishing marginal utilities
+
+C. constant marginal rate of substitution and diminishing marginal utilities
+
+D. increasing marginal rate of substitution and constant marginal utilities
+
+  
+
+8. Suppose there are just two goods, say  $x_1$ and $x_2$ . Consider a consumer who chooses  $x_2 = 0$  for all income levels w >0 and all prices $p_1 >0$  and $p_2 >0$ . These choices are consistent with the consumer
+
+  
+
+A. having utility function  $u( x_1 ,x 2 ) = x_1 + 2x_2$
+
+B. having utility function $u( x_1 ,x 2 ) = 2 x_1 +x_2$
+
+C. lexicographically preferring  $x_2 \ to \  x_1$ 
+
+D. lexicographically preferring $x_1 \ to \ x_2$ 
+
+9. Consider a Cournot duopoly with firms 1 and 2 that produces a homogeneous good. The  inverse demand curve for this good is given by $P(x) = 5−x$ , where x is the total output  of the two firms. Firm 1 has a constant average cost $\frac{5}{2}$  and firm 2 has a constant average cost $\frac{3}{2}$ . In equilibirum,
+
+  
+
+A. only firm 1 produces a positive output
+
+B. only firm 2 produces a positive output
+
+C. both firms produces positive outputs with firm 1 producing more than firm 2
+
+D. both firms produces positive outputs with firm 2 producing more than firm 1
+
+  
+
+10. If all input prices double, then what happens to the minimum cost of producing a given output ?
+
+  
+
+A. It doubles
+
+B. It more than doubles
+
+C. It less than doubles
+
+D. It depends on the production function
+
+  
+
+11. In models where expectations adjust slowly, a progressive income tax schedule is
+
+A. a means to maximize tax revenue
+
+B. a means to ensure tax compliance
+
+C. always an automatic stabilizer in the long run
+
+D. often an automatic stabilizer in the short run
+
+12. Open market operations decrease the supply of base money by
+
+A. selling government bonds
+
+B. selling gold
+
+C. reducing foreign currency holdings
+
+D. all of the above
+
+13. If an economy is experiencing hyperinflation, then
+
+A. government seigniorage goes up
+
+B. government seigniorage goes down
+
+C. government seigniorage remains unchanged
+
+D. the impact on government seigniorage is ambiguous
+
+14. When the nominal interest rate changes but the real rate of interest remains unchanged
+
+A. it affects both the investment function as well the money demand function
+
+B. it affects the investment function but does not affect the money demand function
+
+C. it affects the money demand function but does not affect the investment function
+
+D. neither the investment function not the money demand function gets affected
+
+15. Ceteris paribus, higher velocity of money circulation leads to
+
+A. an increase in both the real and the nominal demand for money
+
+B. an increase in the real demand for money and a decrease in the nominal demand for money
+
+C. a decrease in the real demand for money and an increase in the nominal demand for money
+
+D. a decrease in both the real and the nominal demand for money
+
+  
+
+
+16. Consider a $3\times 3$  non singular matrix A with real entries. If the matrix B is derived from A by interchanging the first and last columns of A, then the determinant of B, denoted det B, is equal to
+
+A. det A
+
+B. −det A
+
+C. 0
+
+D. $\frac{1}{det A}$
+
+  
+
+17. The sequence $(−1)^n(1 + \frac{1}{n})$  , for positive integers n,
+
+A. has limit point 1
+
+B. has limit point -1
+
+C. has limit points 1 and -1
+
+D. has no limit points
+
+  
+
+18. Consider the following two games in strategic form.
+
+```
+insert game
+```
+ In every payoff  “x,y”, x is the payoff of the row-player andyis the payoff of column player. Analyze these games. These games illustrates that, in a strategic situation
+
+A. an expanded set of strategic options can be disadvantageous
+
+B. a contracted set of strategic options can be advantageous
+
+C. one should view the situation from one’s own, as well as from one’s opponent’s perspective
+
+D. all of the above are true
+
+  
+
+19. Ice-cream vendors A and B know that they have to locate simultaneously on a beach. The beach is identified with the interval $[0,1]$ and at every point in $[0,1]$ there is a person who wants exactly one ice-cream cone. Each person will buy the ice-cream from the nearest vendor; if there are equidistant vendors, then the buyer randomizes among them with equal probabilities. Each vendor wants to maximize his own expected marke share. The vendors will locate at
+
+  
+
+A. 0 and 1
+
+B. $\frac{1}{4}$ and  $\frac{3}{4}$
+
+C. $\frac{1}{2}$ and $\frac{1}{2}$
+
+D. $\frac{1}{3}$  and $\frac{2}{3}$
+
+  
+
+20. Suppose there is only one future period and the (presently unknown) state of the world in that period can be either $s_1$  or $s_2$ . The future return on a share of a given company is 5 in state $s_1$  and −1 in state $s_2$ . The future return on a government bond is 1 independent of the state. Suppose a third asset is offered on the market whose return is 3 in state $s_1$ and 0 in state $s_2$. The current prices of the stock and the bond are 3 and 1 respectively.  If the price of the new asset rules out the possibility of arbitrage profit (which arises when portfolio of assets that are identical in terms of returns have different prices), what is the price of the new asset?
+
+A. It depends on the probabilities of the future states
+
+B. Strictly between 2 and 3
+
+C. Strictly between 1 and 2
+
+D. 2
+
+  
+
+The following notational conventions apply wherever the following symbols are used. R denotes the set of real numbers. Given a function $f, Df(x) \ and\ D^2 f(x)$  denote the first and second derivatives off(if they exist), respectively, evaluated at x.
+
+  
+
+21. Suppose $X_1$ and $X_2$  are real valued random variables with f as their common probability density function. Suppose ( $x_1 ,x_2$  ) is a sample generated by these random variables. The expectation of observations in the sample that fall within a specified interval $[a,b]$  is
+
+A. $(\int_{a}^{b} f(x) dx)^2$
+B. $\int_{a}^{b} x^2 f(x) dx$
+C. $2 \int_{a}^{b} f(x) dx$
+D. $\int_{a}^{b} x f(x) dx$
+
+22. Suppose $X_1, \dots  ,X_n$ are observed completion times of an experiment with values in $[0,1]$ . Each of these variables is uniformly distributed on $[0,1]$ . If Y is the maximum observed completion time, then mean of Y is
+
+A. $(\frac{n}{n+1})^2$
+
+B. $\frac{n}{2(n+1)}$
+
+C. $\frac{n}{n+1}$
+
+D. $\frac{2n}{n+1}$
+
+  
+
+23. Suppose the random variableXtakes values in the set {− 1 , 0 , 1 }and the probability of each value is equal. Let $Y=X^2$ .Which of the following statements is true?
+
+A. X and Y are correlated but independent
+
+B. X and Y are uncorrelated but dependent
+
+C. X and Y are dependent and have same mean
+
+D. X and Y are correlated and have different means
+
+  
+
+24. Suppose player 1 has five coins and player 2 has four coins. Both players toss all their coins and observe the number that comes up heads. Assuming all the coins are fair, what is the probability that player 1 obtains more heads than player 2?
+
+A. $\frac{1}{2}$
+
+B. $\frac{4}{9}$
+
+C. $\frac{5}{9}$
+
+D. $\frac{4}{5}$
+
+25. Suppose 10 athletes are running in a race and exactly 2 of them are taking banned drugs. An investigator randomly selects 2 athletes for drug testing. What is the probability that neither of the cheaters will be caught?
+
+A. $\frac{16}{25}$
+
+B. $\frac{4}{5}$
+
+C. $\frac{3}{5}$
+
+D. $\frac{28}{45}$
+
+26. Suppose $\theta$  is a random variable with uniform distribution on the interval $[− \frac{\pi}{2} , \frac{\pi}{2}]$ .The value of the distribution function of the random variable $X= \sin \theta$ at x \in  $[− 1 ,1]$  is
+
+A. $\sin^{-1} (x)$
+
+B. $sin^{-1} (x) + \frac{\pi}{ 2}$
+
+C. $\frac{\sin^{-1} (x)}{ {\pi}}  +\frac{\pi}{2}$
+
+D. $\frac{\sin^{-1} (x)}{ {\pi}}  +\frac{1}{2}$
+
+27. Let X be a normally distributed random variable with mean 0 and variance $\sigma ^2$  .Then, the mean of $X^2$  is
+
+A. 0
+
+B. $\sigma$
+
+C. $2\sigma$ 
+
+D. $\sigma^2$ 
+
+  
+
+The next three questions are based on the following data: The number of loaves of bread sold by a bakery in a day is a random variable X. The distribution of X has a probability density function f given by
+
+```
+insert function
+```
+
+  
+
+28. As f is a probability density function, the value of  k must be
+
+  
+
+A. 0
+
+B. $\frac{− 2}{52}$
+
+C. $\frac{1}{25}$
+
+D. $\frac{2}{75}$
+
+  
+
+29. Let A be the event that $X \geq 5$ and let B be the event that $X \in  [3,8]$. The probability  of A conditional on B is
+
+A. $\frac{16}{37}$
+
+B. $\frac{21}{37}$
+
+C. $\frac{25}{37}$
+
+D. 1
+
+  
+
+30. Events A and B are
+
+A. not independent
+
+B. independent
+
+C. conditionally independent
+
+D. unconditionally independent
+
+  
+The next four questions are based on the following data: Consider an exchange economy with agents 1 and 2 and goods x and y. Agent 1’s endowment is (0,1) (i.e. no good x and 1 unit of good y) and agent 2’s endowment is (2,0) (i.e. 2 units of good x and no good y).The agents can consume only non negative amounts of x and y.
+
+  
+
+31. Suppose agent 1 lexicographically prefers x to y, i.e., between any two bundles of goods, she strictly prefers the bundle containing more of x, and if the bundles contain equal  amounts of x, then she strictly prefers the bundle with more ofy. Suppose agent 2 treats x and y as perfect substitutes, i.e., between any two bundles (x,y) and (x′,y′) she strictly prefers (x,y) if and only if x+y > x′+y′. The competitive equilibrium allocation for this economy is  
+
+A. 1 gets (0,1) and 2 gets (2,0)
+
+B. 1 gets (2,0) and 2 gets (0,1)
+
+C. 1 gets (^32 ,0) and 2 gets (^12 ,1)
+
+D. 1 gets (1,0) and 2 gets (1,1)
+
+32. Suppose agents 1 and 2 have the preferences described above. The set of all possible  competitive equilibrium prices consists of all $p_x>0$  and $p_y>0$  such that
+
+A. $\frac{p_x}{p_y}= 1$
+
+B. $\frac{p_x}{p_y} \geq  1$
+
+C. $\frac{p_x}{p_y} \leq  1$
+
+D. $\frac{p_x}{p_y}> 1$
+
+  
+
+33. Now Suppose agents 1 lexicographically prefers y to x and agent 2 treats x and y as  perfect substitutes.The set of all possible competitive equilibrium prices consists of all $p_x>0$ and $p_ y>0$ such that
+
+A. $\frac{p_x}{p_y}= 1$
+
+B. $\frac{p_x}{p_y}\geq  1$
+
+C. $\frac{p_x}{p_y} \leq  1$
+
+D. $\frac{p_x}{p_y}> 1$
+
+34. Now Suppose agents 2 lexicographically prefers x to y and agent 1 treats x and y as perfect complements. The set of competitive equilibrium allocations
+
+A. includes the allocation (1,0) for agent 1 and (1,1) for agent 2
+
+B. includes the allocation (0,1) for agent 1 and (2,0) for agent 2
+
+C. is empty
+
+D. includes all allocations (x,1) for agent 1 and (2−x,0) for agent 2, where $x \in  [0,2]$
+
+35. Consider a person who chooses among lotteries. Each lottery is of the form $( p_1  ,p_2 ,p_3 )$, where $p_1$   is the probability of getting Rs.5, $p_2$  is the probability of getting Rs.1 andp 3 is the probability of getting Rs.0. This person prefers lottery (0, 1 ,0) to (0. 1 , 0. 89 , 0 .01). If  this person maximizes expected utility and is faced with the lotteries (0, 0. 11 , 0 .89) and  (0. 1 , 0 , 0 .9), which lottery should he prefer ?
+
+  
+
+A. the lottery (0, 0. 11 , 0 .89)
+
+B. the lottery (0. 1 , 0 , 0 .9)
+
+C. he should be indifferent between these lotteries
+
+D. there is insufficient data to decide
+
+  
+
+36. Consider an economy with two agents, A and B , and two goods $x_1 \ and \ x_2$ . Both agents  treat $x_1 \ and\ x_2$  as perfect complements. Suppose the total endowment of $x_1$ is 4 and total endowment of $x_2$  is 2. Which of the following allocations is not Pareto optimal ?  (Note that a bundle (a,b) represents a units of $x_1$  and b units of $x_2$  .)
+
+
+A. A gets (1, 1) and Bgets (1, 1)
+
+B.A gets (2, 1) and Bgets (^32 , 1)
+
+C.A gets ($\frac{1}{2} ,\frac{3}{2}$ ) and Bgets (3,$\frac{1}{2}$ )
+
+D. A gets (3, 2) and B gets (0, 0)
+
+  
+
+37. A consumer has the utility functionu(x,y) =xy. Suppose the consumer demands bundle ($x^{∗},y^{∗}$ ). Now suppose the seller of good x offers a “buy one, get one free” scheme: for  each unit of good x purchased, the consumer gets another unit of x for free. Given this scheme, suppose the consumer buys bundle ($x_d,y_d$ ) and gets an additional $x_d$  for free.  Which of the following statements must be true?
+
+  
+A. $x_d> x^{∗} \ and \ y_d> y^{∗}$ 
+
+B. $x_d> x^{∗} \ and  \ y_d=y^{∗}$
+
+C .$x_d> x^{∗} \ and \ y_d< y^{∗}$
+
+D. $x_d=x^{∗} \ and \ y_d=y^{∗}$
+
+  
+
+38. Consider a Bertrand duopoly with firms 1 and 2 that produce a homogenous good and sets prices $p_1$  and $p_2$ respectively. Suppose  $p_1$  and $p_2$  have to be positive integers. If $p_1  < p_2$ (resp. $p_1  > p_2$  ), then firm 1(resp. firm 2) sells $5− p_1$  (resp. $5−p_2$  ) and the other firm sells nothing. If $p_1  =p_2$ , then each firm sells $\frac{(5− p_1  )}{2}$ . Firm 1 has a constant average cost 5/2 and firm 2 has a constant average cost $\frac{3}{2}$.  In equilibrium
+
+  
+
+A.  $p_1  = 2 =p_2$
+
+B.  $p_1  = 3 =p_2$
+
+C.  $p_1  = 3$ and $p_2 = 2$
+
+D.  $p_1  = 3$ and  $p_2$ is 2 or 3
+
+  
+
+39. Consider a Stackelberg duopoly with firm 1 as the leader and firm 2 as the follower. If  $(q_1 ,q_2 )$ is the Stackelberg equilibrium, then
+
+A. firm 1’s optimal isoprofit curve and firm 2’s reaction curve intersect at $(q_1 ,q_2 )$ and are tangential at $(q_1 ,q_2 )$
+
+B. firm 2’s optimal isoprofit curve and firm 1’s reaction curve intersect at $(q_1 ,q_2 )$ and are tangential at $(q_1 ,q_2 )$
+
+C. isoprofit curves of the two firms intersect at $(q_1 ,q_2 )$  and are tangential at (q 1 ,q 2 )
+
+D. reaction curves of the two firms intersect at $(q_1 ,q_2 )$
+
+  
+
+40. Firm 1 is the potential entrant into a market in which firm 2 is the incumbent monopolist. Firm 1 moves first and chooses to “enter” or “not enter”. If it does “not enter”, then  firm 1 gets profit 0 and firm 2 gets the monopoly profit 10. If firm 1 “enters”, then firm  2 chooses to “fight” or “not fight”. If firm 2 fights, then firm 1’s profit is -2 and firm 2’s  profit is 6. If firm 2 does “not fight”, then firm 1’s profit is 2 and firm 2’s profit is 8.  Firm 2’s strategy of “fight” is best response as
+
+  
+
+A. a commitment
+
+B. a non-credible threat
+
+C. a punitive action
+
+D. acquiescence
+
+  
+
+41. Consider a closed economy. If the nominal wage is flexible and nominal money supply is increased, then which of the following will be true in equilibrium?
+
+A. Real wage decreases and real money supply decreases
+
+B. Real wage decreases and real money supply increases
+
+C. Real wage is unchanged and real money supply is unchanged
+
+D. Real wage decreases and real money supply is unchanged
+
+  
+
+42. Suppose an economy is at less than full employment and it consists of an aggregate “worker” and aggregate “capitalist”, with the former having a higher marginal propensity  to consume from his disposable income. Suppose both agents pay income tax according  to the same linear schedule. If the government’s budget is in balance and a lump sum  income transfer is made from the capitalist to the workers, then the government’s
+
+  
+
+A. budget will go into deficit
+
+B. budget will go into surplus
+
+C. income and expenditure will be unchanged
+
+D. income and expenditure will change but the budget will stay in balance
+
+  
+
+The next four questions are based on the following information.Consider an economy with an aggregate production function $Y =\alpha K+ \beta L$  , where $\alpha$ and $\beta$   are positive constants, K is capital,L is labor and Y is output. K is fixed in the short run. Perfectly competitive producers take the nominal wage rateWand the price level P as given, and employ labor so as to maximize profit. This generates the labor demand schedule. The labor supply schedule is $L^S=− \gamma + \delta \frac{W}{P}$ , where $\gamma \ and\  \delta$  are positive constants. Producers and workers have perfect information about  P and W
+
+  
+
+43. The labour market will clear if and only if
+
+
+A.  $\beta  >  \frac{\gamma } {\delta}$ 
+
+B. $\beta  <  \frac{\gamma }{ \delta}$ 
+
+C. $\beta  >  \frac{\delta }{ \gamma }$
+
+D.  $\beta  <  \frac{\delta }{ \gamma}$ 
+
+  
+
+44. Assume that required parametric condition of the previous question holds and the nominal wage is fixed. The short run aggregate supply curve schedule for this economy, with P along the vertical axis and Y along horizontal axis, will look as follows:
+
+  
+
+A. for high values of P it will be horizontal; for some mid-range values of P it will be downward sloping; for low values ofPit will be horizontal again
+
+B. for high values of P it will be horizontal; for some mid-range values of P it will be upward sloping; for low values of P it will be horizontal again
+
+C. for high values of  P it will be vertical; for some mid-range values ofPit will be downward sloping; for low values of P it will be vertical again
+
+D. for high values of  P it will be vertical; for some mid-range values of P it will be upward sloping; for low values ofPit will be vertical again
+
+  
+
+45. If there is a one shot increase in the fixed stock of the capital stock, then the short run aggregate supply schedule will
+
+  
+
+A. shift up
+
+B. shift down
+
+C. shift to the left
+
+D. shift to the right
+
+  
+
+46. If there is a one shot increase in the fixed nominal wage rate, then the short run aggregate  supply schedule will
+
+A. shift up
+
+B. shift down
+
+C. shift to the left
+
+D. shift to the right
+
+  
+
+The next four questions are based on the following information: Consider a closed economy with a simple Keynesian model of goods market, where prices are fixed and output in equilibrium is determined by aggregate demand. Investment is fixed atI∗. There is no government sector. Suppose there are two groups of households, called A and B , and the total income Y is distributed among these two groups in such a way that group A gets $Y^A=\lambda Y$ , and group B gets $Y^B= (1−\lambda)Y$, where $\lambda  \in  (0,1)$  is a constant. The consumption function of group A is $C^A=c+c_AY^A$  and the consumption function of group B is $C^B =c+c_BY^B$ ,  where $0< c_A< c_B<1$ , i.e., the two groups have different consumption propensities.
+
+  
+
+47. The value of the investment multiplier in this economy is given by
+
+  
+
+A. $\frac{1} {1-\lambda c_A  −\lambda c_B}$
+
+B. $\frac{1} {(1-\lambda) c_A  −(1-\lambda) c_B}$
+
+C. $\frac{1} {1-c_B  −\lambda (c_B-c_A)}$
+
+D. $\frac{1} {1-c_A  + (1-\lambda)(c_B-c_A)}$
+
+  
+
+48. If there is a one shot increase in the parameter $\lambda$ ,
+
+A. equilibrium output unambiguously increases
+
+B. equilibrium output unambiguously decreases
+
+C. equilibrium output remains unchanged
+
+D. equilibrium output increases or decreases depending on whether $\lambda \geq  \frac{1}{ 2}$
+
+  
+
+49. If there is a one shot increase in the parameter $c_A$ 
+
+
+A. equilibrium output unambiguously increases
+
+B. equilibrium output unambiguously decreases
+
+C. equilibrium output remains unchanged
+
+D. equilibrium output increases or decreases depending on whether $\lambda  \geq  \frac{1}{2}$
+
+  
+
+50. If there is a one shot increase in the parameter $c_B$ 
+
+
+A. equilibrium output unambiguously increases
+
+B. equilibrium output unambiguously decreases
+
+C. equilibrium output remains unchanged
+
+D. equilibrium output increases or decreases depending on whether $\lambda \geq  \frac{1 }{ 2}$
+
+  
+
+51. Suppose the function $f:R \to R$ is given by $f(x) =x^3 − 3 x+b$ . Find the number of points in the closed interval $[− 1 ,1]$ at which $f(x) = 0.$ 
+
+A. None
+
+B. At most one
+
+C. One
+
+D. At least one
+
+52. Suppose a function $f:R \to R$ is differentiable at x. Consider the statements:
+
+  (i)$Df(x) = \lim_{h \to 0} \frac{f(x)−f(x−h)}{h}$
+
+(ii) $Df(x) = \lim_{h \to 0} \frac{f(x+2h )−f(x−h)}{2h}$ 
+
+In general,
+
+A. (i) is true and (ii) is false
+
+B. (i) is false and (ii) is true
+
+C. Both are true
+
+D. Both are false
+
+  
+
+53. Consider the statements: for $x,y \in  R.$  Consider the statements:
+
+
+(i)$|x|−|y| \leq |x−y|$
+
+(ii)$||x|−|y||=|x−y|$
+
+In general,
+
+A. (i) is true and (ii) is false
+
+B. (i) is false and (ii) is true
+
+C. Both are true
+
+D. Both are false
+
+  
+
+54. Suppose the function $f:R^2  \to R$ is increasing in both arguments, i.e,$f(x,y)$  is increasing in x and increasing in y. For $x,y \in  R$ , let
+
+```
+insert 2 functions
+```
+
+Which of the following statements is correct?
+
+A. g is increasing in x and decreasing in y
+
+B.g is increasing in both x and y
+
+C.g is increasing in x but may or may not be increasing in y
+
+D. g may or may not be increasing in x
+
+  
+
+The next three questions are based on the following definitions.
+
+Consider the set A={(x,y) $\in  R^2 |x^2 +y^2  \leq  1$ }. Given (a,b) \in  R^2 such that (a,b) $\neq$  (0,0) and c >1, let
+
+  
+X={$(x,y) + (a,b)|(x,y) \in  A$}
+
+Y ={$(2^{\frac{-1 }{2}} (x+y), 2^{\frac{-1 }{2}} (x−y)) (x,y) \in  A$}
+
+Z={$c(x,y)|(x,y) \in  A$ }
+
+  
+
+55. Which set is not a disc (i.e., the region inside a circle)?
+
+A. X
+
+B. Y
+
+C. Z
+
+D. None
+
+56. Which set has a larger area than A?
+
+A. X
+
+B.  Y
+
+C. Z
+
+D. None
+
+57. Which set does not contain all the points that belong to A?
+
+A. X
+
+B. Y
+
+C. Z
+
+D. None
+
+58. Consider a twice differentiable function $f:R \to R$ and $a,b \in  R$ such that $a < b, f(a) = 0 =f(b)$  and $D^2 f(x) +Df(x)−1 = 0$  for every $x \in  [a,b]$ . Then,
+
+  
+A. f has a maximum but not a minimum over the open interval (a,b)
+
+B. f has a minimum but not a maximum over (a,b)
+
+C. f has neither a maximum not a minimum over (a,b)
+
+D. f has a maximum and a minimum over (a,b)
+
+  
+
+59. Considerfas described in the previous question. Then,
+
+  
+
+A. $f(x) \leq 0$ for every $x \in  [a,b]$
+
+B. $f(x) \geq 0$  for every $x \in  [a,b]$ 
+
+C. $f(x) = 0$  for every $x \in  [a,b]$
+
+D. f must take positive and negative values on the interval $[a,b]$ 
+
+  
+
+60. Suppose $f : [0,1] \to [0,1]$ is a continuous non decreasing function with $f(0) = 0$ and  $f(1) = 1$. Define $g: [0,1] \to [0,1]$  by $g(y) = \min${$x \in  [0,1]|f(x) \geq y$}. Then,
+
+A. g is non-decreasing
+
+B. If g is continuous, then f is strictly increasing
+
+C. Neither (a) not (b) is true
+
+D. Both (a) and (b) are true

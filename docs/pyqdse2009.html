@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2009</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2009</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<div id="dse-2009" class="section level1">
+<h1>DSE 2009</h1>
+<ol style="list-style-type: decimal">
+<li><p>There are 4 married couples in a club. A 3-member committee must
+be formed among them, such that no married couple is part of the
+committee. The number of ways in which this committee can be formed is
+A. 16<br />
+B. 44<br />
+C. 32<br />
+D. 56</p></li>
+<li><p>For any sets <span class="math inline">\(E\)</span> &amp; <span
+class="math inline">\(F\)</span>, <span class="math inline">\(E−F = \{x
+\in E|x \in F\}\)</span>, <span class="math inline">\(\cup\)</span> and
+<span class="math inline">\(\cap\)</span> refer to the Union and
+intersections of the sets. Consider the following statements for the
+sets <span class="math inline">\(A\)</span>,<span
+class="math inline">\(B\)</span> and <span
+class="math inline">\(C\)</span></p></li>
+</ol>
+<ol style="list-style-type: lower-roman">
+<li><span class="math inline">\(A−(B\cup C) = (A−B)\cup
+(A−C)\)</span><br />
+</li>
+<li><span class="math inline">\(A−(B\cup C) = (A−B)\cap
+(A−C)\)</span><br />
+</li>
+<li><span class="math inline">\(A−(B\cup C) = (A−B)\cap C\)</span> A. i.
+is true<br />
+B. ii. is true<br />
+C. iii. is true<br />
+D. none of them is necessarily true</li>
+</ol>
+<ol start="3" style="list-style-type: decimal">
+<li><p><span class="math inline">\(\int_{1.96}^{\infty}
+e^{-x^2/2}dx\)</span> is approximately A. 0.025 B. <span
+class="math inline">\(\sqrt{2\pi}\)</span> C. <span
+class="math inline">\(\frac{0.025}{\sqrt{\pi}}\)</span> D. <span
+class="math inline">\(0.025\sqrt{2\pi}\)</span></p></li>
+<li><p>Consider maximising <span class="math inline">\(f(x,y) =x^2
+−y^2\)</span> subject to the constraint$ x+y= 1$, where <span
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span> are real numbers. This problem has A.
+no solution<br />
+B. a unique solution<br />
+C. 2 solutions<br />
+D. an infinity of solutions</p></li>
+<li><p>Suppose <span class="math inline">\(P(x)\)</span> and <span
+class="math inline">\(Q(x)\)</span> are real polynomials of degree <span
+class="math inline">\(m\)</span> and <span
+class="math inline">\(k\)</span> respectively, where both <span
+class="math inline">\(m\)</span> and <span
+class="math inline">\(k\)</span> are less than or equal to the positive
+integer <span class="math inline">\(n\)</span>. Suppose the equation
+<span class="math inline">\(P(x) =Q(x)\)</span> has at least <span
+class="math inline">\((n+ 1)\)</span> distinct solutions. Which of the
+following choices best describes what this situation implies?<br />
+A. <span class="math inline">\(m=k=n\)</span> B. <span
+class="math inline">\(m=k &lt; n\)</span> C. <span
+class="math inline">\(P(x)\)</span> and <span
+class="math inline">\(Q(x)\)</span> are identical D. <span
+class="math inline">\(P(x)\)</span> and <span
+class="math inline">\(Q(x)\)</span> are linear</p></li>
+<li><p>There are three alternative definitions of a consistent estimator
+I. An estimator is consistent if its probability limit equals its true
+parameter value as sample size approaches infinity.</p></li>
+</ol>
+<ol start="2" style="list-style-type: upper-roman">
+<li>An estimator is consistent if its mean squared error goes to zero as
+sample size approaches infinity.</li>
+<li>An estimator is consistent if it is unbiased, and its variance goes
+to zero as sample size approaches infinity. A. Only I is correct B. Only
+II is correct C. Only III is correct D. All three are correct</li>
+</ol>
+<ol start="7" style="list-style-type: decimal">
+<li><p>Given the data <span class="math inline">\(\sum XY =
+350\)</span>, <span class="math inline">\(\sum X= 50\)</span>, <span
+class="math inline">\(\sum Y = 60\)</span>,<span class="math inline">\(N
+= 10\)</span>,<span class="math inline">\(V(X) = 4\)</span>,<span
+class="math inline">\(V(Y) = 9\)</span>, where <span
+class="math inline">\(V(.)\)</span> refers to the population variance.
+The correlation coefficient between <span
+class="math inline">\(X\)</span> and <span
+class="math inline">\(Y\)</span>, regression (slope) coefficient of
+<span class="math inline">\(Y\)</span> on <span
+class="math inline">\(X\)</span>, and the regression (slope) coefficient
+of <span class="math inline">\(X\)</span> on <span
+class="math inline">\(Y\)</span> are, respectively:<br />
+A. <span class="math inline">\(35/36 , 35/16 , 35/81\)</span> B. <span
+class="math inline">\(5/6 , 5/4 , 5/9\)</span><br />
+C. <span class="math inline">\(5/6 , 35/16 , 35/81\)</span><br />
+D. <span class="math inline">\(\sqrt{35 / 36} , 35 / 16 , 35 /
+81\)</span></p></li>
+<li><p>In a surprise check in a local bus, 20 passengers were caught
+without tickets. The sum of squares and the population standard
+deviation of the amount in their pockets were Rs. 2000 and Rs. 6,
+respectively. If the total fine equals the total amount discovered on
+them, and a uniform fine is imposed, then the fine imposed on an
+individual is: A. Rs. 8<br />
+B. Rs. 6<br />
+C. Rs. 10<br />
+D. Rs. 12</p></li>
+<li><p>In a linear regression of Y on X, changing the units of
+measurement of the Y variable will affect all of the following
+except:<br />
+A. the estimated intercept parameter<br />
+B. the estimated slope parameter<br />
+C. the Total Sum of Squares for the regression D. R squared for the
+regression</p></li>
+<li><p>A fair dice has numbers 1, 2, 3, 4, 5 and 6 on its side. It is
+tossed <em>once</em>. I win Rs. 1 if an odd number shows up; otherwise I
+lose Rs. 1. Let <span class="math inline">\(X\)</span> be the number
+that shows up and <span class="math inline">\(Y\)</span> the money I
+win. (Note: <span class="math inline">\(Y\)</span> &lt;0 if I lose
+money.) Which of the following is incorrect? A. <span
+class="math inline">\(Prob (X &gt; Y) = 1\)</span><br />
+B. <span class="math inline">\(Prob (X= 3|Y = 1) = 3\)</span><br />
+C. <span class="math inline">\(E(Y) = 0\)</span> D. <span
+class="math inline">\(Prob (Y= 1|X= 5) = 1\)</span></p></li>
+<li><p>Your budget is such that if you spend your entire income on two
+goods, <span class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>, you can afford either 4 units of <span
+class="math inline">\(x\)</span> and 6 units of <span
+class="math inline">\(y\)</span> or 12 units of <span
+class="math inline">\(x\)</span> and 2 units of <span
+class="math inline">\(y\)</span>. If you spent all your income on <span
+class="math inline">\(x\)</span>, how many units of <span
+class="math inline">\(x\)</span> could you buy? A. 7<br />
+B. 16<br />
+C. 15<br />
+D. 18</p></li>
+<li><p>The demand function for lemonade is <span
+class="math inline">\(Qd= 100−p\)</span>, and the supply function is
+<span class="math inline">\(Qs= 10 + 2p\)</span>, where <span
+class="math inline">\(p\)</span> is the price in rupees. The government
+levies a sales tax on lemonade after which the volume of sales drops to
+60. then the per unit tax on lemonade is<br />
+A. Rs. 20<br />
+B. Rs. 15<br />
+C. Rs. 10<br />
+D. Rs. 5</p></li>
+<li><p>There are only two price taking firms in a market. Their cost
+functions are <span class="math inline">\(C_1 =x^21 \mbox{ and } C_2 =
+2x^22\)</span> , where <span class="math inline">\(x_i\)</span> is the
+output of the <span class="math inline">\(i^{th}\)</span> firm. Market
+supply is sum of the two firms output. Then the market supply function
+is A. <span class="math inline">\(x=\frac{3p}{4}\)</span> B. <span
+class="math inline">\(x=\frac{3p}{4}\)</span> C. <span
+class="math inline">\(x=\frac{p}{2}\)</span> D. <span
+class="math inline">\(x= 2p\)</span></p></li>
+<li><p>A monopoly faces the demand curve <span class="math inline">\(P=
+8−Q\)</span>. The monopoly has a constant unit cost equal to 5 for <span
+class="math inline">\(Q\leq 2\)</span> and a constant unit cost equal to
+3 for <span class="math inline">\(Q &gt;2\)</span>. Its profit
+maximising output equals: A. <span class="math inline">\(3/2\)</span> B.
+<span class="math inline">\(2\)</span> C. <span
+class="math inline">\(5/2\)</span> D. Both <span
+class="math inline">\(3/2\)</span> and <span
+class="math inline">\(5/2\)</span></p></li>
+<li><p>A firm has the production function <span class="math inline">\(y=
+min\{L+ 2K, 2 L+K\}\)</span>, where <span
+class="math inline">\(y\)</span> is quantity of output, and <span
+class="math inline">\(L \&amp; K\)</span> are the quantities of labour
+and capital inputs respectively. If the input price of <span
+class="math inline">\(L\)</span> is Rupee 1 and the input price of <span
+class="math inline">\(K\)</span> is Rupees 2, then to produce <span
+class="math inline">\(y= 12\)</span> costs the firm at least A. 10
+Rupees<br />
+B. 12 Rupees<br />
+C. 14 Rupees<br />
+D. 16 Rupees</p></li>
+<li><p>The opportunity cost of holding money (that yields zero nominal
+return) vis-à-vis some interest bearing bond is: A. the real interest
+rate<br />
+B. the nominal interest rate<br />
+C. the real interest rate when measured in real terms and the nominal
+interest<br />
+rate when measured in nominal terms<br />
+D. None of the above</p></li>
+<li><p>In the IS-LM framework, an increase in the expected rate of
+inflation results in A. an increase in the equilibrium value of income
+and an increase in the equilibrium value of real interest rate B. a
+decrease in the equilibrium value of income and a decrease in the
+equilibrium value of real interest rate<br />
+C. an increases in the equilibrium value of income and a decrease in the
+equilibrium value of real interest rate<br />
+D. a decrease in the equilibrium value of income and an increase in the
+equilibrium value of real interest rate</p></li>
+<li><p>When the nominal wage rate is rigid, the aggregate supply
+schedule (in the output-price space) is: A. horizontal<br />
+B. vertical<br />
+C. downward sloping<br />
+D. upward sloping</p></li>
+<li><p>In IS-LM framework with an external sector i.e., the IS equation
+now includes a net export term, an appreciation of the (real) exchange
+rate A. would necessarily result in a decrease in the equilibrium value
+of income B. would result in a decrease in the equilibrium value of
+income only if the LM curve is vertical C. would result in a decrease in
+the equilibrium value of income only if the Marshall-Lerner condition is
+satisfied D. would result in a decrease in the equilibrium value of
+income only if the government maintains a balanced budget</p></li>
+<li><p>According to the Baumol-Tobin Model, if income rises by ten
+percent, the transactions demand for money should rise by<br />
+A. Five percent<br />
+B. Ten Percent<br />
+C. Between five and ten percent<br />
+D. None of the above</p></li>
+<li><p>Consider the following statements:<br />
+(i) <span class="math inline">\(5^44 &gt; 453\)</span> (ii) <span
+class="math inline">\(2^100 + 3^100 &lt; 4100\)</span><br />
+A. Both (i) and (ii) are false.<br />
+B. (i) is true, (ii) is false.<br />
+C. Both (i) and (ii) are true.<br />
+D. (i) is false, (ii) is true.</p></li>
+<li><p>The WOW Language has only 2 letters in its alphabet, O and W; the
+language obeys the following rules: (i) deleting successive letters WO
+from any word which has more than 2 letters, gives another word with the
+same meaning. (ii) inserting OW or WWOO in any place in a word yields
+another word with the same meaning. O, OWOOW, WOO and OWW are 4 words in
+this language. Which of the following statements is FALSE?<br />
+A. the words WOO and OWW necessarily have the same meaning.<br />
+B. WOO and OWW may not have same meaning.<br />
+C. O and OWOOW must have the same meaning.<br />
+D. (b) and (c) are true.</p></li>
+<li><p>Consider the system of equations in the unknowns <span
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span> : <span
+class="math display">\[\begin{array}ax+y=a^2 \\ x+ay= 1
+\end{array}\]</span> Sets of all values of <span
+class="math inline">\(a\)</span> for which this system has (i) no
+solution, (ii) multiple solutions, and (iii) a unique solution are
+respectively A. <span class="math inline">\((i)\begin{array}{ccc}a &lt;
+1 &amp; (ii)a &gt; 1 &amp; (iii)a= 1 \end{array}\)</span> B. <span
+class="math inline">\((i)\begin{array}{ccc}a = -1 &amp; (ii)a = 1 &amp;
+(iii)a &gt; 1 \end{array}\)</span> C. <span
+class="math inline">\((i)\begin{array}{ccc}a = -1 &amp; (ii)a = 1 &amp;
+(iii)\mbox{all other values of a} \end{array}\)</span> D. <span
+class="math inline">\((i)\begin{array}{ccc}a = -1 &amp; (ii)a = 1 &amp;
+(iii)-1 &lt; a &lt; 1 \end{array}\)</span></p></li>
+<li><p>Consider the system of equations: <span
+class="math display">\[\begin{array} x−y+z= 1 \\
+3 x+z= 3 \\
+5 x− 2 y+ 3z= 5 \end{array}\]</span> This system has A. the unique
+solution <span class="math inline">\((x,y,z) = (1, 0 ,0)\)</span> B. the
+solution set <span class="math inline">\(\{\left( 1-\frac{z}{3},
+\frac{2z}{3},z|z \in \mathbf{R} \right) \}\)</span> C. the solution set
+<span class="math inline">\(\{\left( 1-\frac{z}{3}, \frac{2z}{3},z|z
+\geq \mathbf{R} \right) \}\)</span> D. multiple solutions, but not
+described by (b) or (c).</p></li>
+<li><p>Consider the function <span class="math inline">\(f(x) = \left\{
+\begin{array}{ll} x^2 sin(1/x), &amp; x\neq 0 \\ 0, &amp; x=
+0\end{array} \right.\)</span> Then the following is true about the
+derivative of <span class="math inline">\(f\)</span>: A. <span
+class="math inline">\(f^′(0) =−1\)</span> and <span
+class="math inline">\(f′(x)\)</span> is continuous at <span
+class="math inline">\(x= 0\)</span> B. <span
+class="math inline">\(f^′(0) =−1\)</span> and <span
+class="math inline">\(f′(x)\)</span> is discontinuous at <span
+class="math inline">\(x= 0\)</span> C. <span
+class="math inline">\(f^′(0) = 0\)</span> and <span
+class="math inline">\(f′(x)\)</span> is discontinuous at <span
+class="math inline">\(x= 0\)</span> D. <span
+class="math inline">\(f^′(x)\)</span> is not defined at <span
+class="math inline">\(x= 0\)</span></p></li>
+<li><p>For all set <span class="math inline">\(S\)</span>, let <span
+class="math inline">\(S^2\)</span> denote the cartesian product <span
+class="math inline">\(S×S\)</span>. A binary relation<br />
+<span class="math inline">\(R\)</span> on <span
+class="math inline">\(S\)</span> is a subset of <span
+class="math inline">\(S^2\)</span>.<br />
+<span class="math inline">\(R\)</span> is transitive if <span
+class="math inline">\((x,y)\in R\)</span> and <span
+class="math inline">\((y,z)\in R\)</span> implies <span
+class="math inline">\((x,z)\in R\)</span>.<br />
+<span class="math inline">\(R\)</span> is negatively transitive if <span
+class="math inline">\((x,y)\in /R\)</span> and <span
+class="math inline">\((y,z)\in /R\)</span> implies <span
+class="math inline">\((x,z)\in /R\)</span>.<br />
+Inverse of <span class="math inline">\(R\)</span> is defined as follows,
+<span class="math inline">\(R−^1 =\{(y,x)|(x,y)\in R\}\)</span><br />
+Consider the following statements:<br />
+Statement A: <span class="math inline">\(R\)</span> can not be
+transitive and negatively transitive at the same time.<br />
+Statement B: If <span class="math inline">\(R\)</span> is transitive
+then <span class="math inline">\(R−^1\)</span> must be transitive.<br />
+Statement C: If <span class="math inline">\(R\)</span> is transitive
+then <span class="math inline">\(R−^1\)</span> must be negatively
+transitive.<br />
+How many of the above statements are true?<br />
+A. None<br />
+B. One<br />
+C. Two<br />
+D. Three</p></li>
+<li><p>A function <span class="math inline">\(f(x_1 ,x_2 ,T) = (y_1 ,y_2
+)\)</span> is defined as follows, where <span class="math inline">\(x_1
+,x_2\)</span> and T are non<br />
+negative real numbers and <span class="math inline">\(x_1 +x_2 \geq
+T\)</span>. <span class="math inline">\(y_1 = min( \alpha, x_1 ),y_2 =
+min( \alpha, x_2 )\)</span> such that <span class="math inline">\(y_1
++y_2 =T\)</span>. Find <span class="math inline">\(f(5, 2 ,6)\)</span>.
+A. <span class="math inline">\((3,3)\)</span> B. <span
+class="math inline">\((5,1)\)</span> C. <span
+class="math inline">\((0,6)\)</span> D. <span
+class="math inline">\((4,2)\)</span></p></li>
+<li><p>A function <span class="math inline">\(f\)</span> is defined as
+follows. Here <span class="math inline">\(a,b\)</span> and <span
+class="math inline">\(c\)</span> are constants. <span
+class="math display">\[f(x) = \left\{ \begin{array}{ll} x^2 &amp;
+\mbox{if } x \leq c \\ ax+b &amp; \mbox{if } x &gt;
+c  \end{array}\right.\]</span>Find values of <span
+class="math inline">\(a\)</span> and <span
+class="math inline">\(b\)</span> such that <span
+class="math inline">\(f&#39; (c)\)</span> exists. A. <span
+class="math inline">\(a= 2cb=−c^2\)</span> B. <span
+class="math inline">\(a=cb=− 2 c^2\)</span> C. <span
+class="math inline">\(a= 3/2c,b=−1/c\)</span> D. <span
+class="math inline">\(a= 1,b= lnc\)</span></p></li>
+<li><p><span class="math inline">\(f(c) = \max\limits_{2x+y=c,x \geq 0,y
+\geq 0} x+2y\)</span>. Find <span class="math inline">\(f′(c)\)</span>.
+A. <span class="math inline">\(c\)</span> B. <span
+class="math inline">\(0\)</span> C. <span
+class="math inline">\(2\)</span> D. <span class="math inline">\(c/
+2\)</span></p></li>
+<li><p>There are 3 persons, A, B and C. One of them is a Truth-teller
+(always tells the truth), another is a Liar (always lies) and the third
+is a normal person (sometimes lies, other times speaks the truth). They
+all know of each others and their own type. A said: “I am a normal
+person.”<br />
+B said: “A and C sometimes tell the truth.”<br />
+C said: “ B is a normal person.”<br />
+A. These statements are insufficient to determine who is a Liar.<br />
+B. A is a normal person, B is a Truth-teller, C is a Liar.<br />
+C. Who is normal, or Liar or Truth-teller cannot be ascertained from the
+statements. D. A is a Liar, B is a normal person, C is a
+Truth-teller.</p></li>
+<li><p>The nine digits <span class="math inline">\(1, 2
+,\dots,9\)</span> are arranged in r and om order to form a nine digit
+number, which uses each digit ex_Actly once. Find the probability that
+1, 2 and 3 appear as neighbors in the increasing order. A. <span
+class="math inline">\(1/ 12\)</span><br />
+B. <span class="math inline">\(1/ 72\)</span><br />
+C. <span class="math inline">\(1/ 84\)</span> D. <span
+class="math inline">\((2/3)^9\)</span></p></li>
+<li><p>In a survey of 102 Timarpur residents in 2009, the average income
+was found to be Rs. 4635 per month. Previous studies show the population
+variance of income in this locality to be Rs. 12342 per month. It is
+asserted that the average monthly income is Rs. 4650 in this locality.
+Which conclusion below can be asserted from this information? A. The
+assertion is rejected at the 10% level.<br />
+B. The assertion is rejected at the 5% level.<br />
+C. The assertion is not rejected at the 10% level.<br />
+D. None of the above.</p></li>
+<li><p>Let X denote the absolute value of the difference between the
+numbers obtained when two dice are tossed. The expectation of X
+is:<br />
+A. <span class="math inline">\(1 \frac{32}{36}\)</span> B. <span
+class="math inline">\(1 \frac{33}{36}\)</span> C. <span
+class="math inline">\(1 \frac{17}{18}\)</span> D. <span
+class="math inline">\(1 \frac{16}{18}\)</span></p></li>
+<li><p>Let <span class="math inline">\(Y\)</span> denote the number of
+heads obtained when 3 coins are tossed. The variance of <span
+class="math inline">\(Y^2\)</span> is: A. 9.5<br />
+B. 8.5<br />
+C. 6.5<br />
+D. 7.5</p></li>
+<li><p>A company has 100 employees, 40 men and 60 women. There are 6
+male executives. How many female executives should there be for gender
+and rank to be independent?<br />
+A. 9<br />
+B. 6<br />
+C. 10<br />
+D. 8</p></li>
+<li><p>Consider two events <span class="math inline">\(A\)</span> and
+<span class="math inline">\(B\)</span> with <span
+class="math inline">\(Pr(A) = 0.4\)</span> and <span
+class="math inline">\(Pr(B) = 0.7\)</span>. The maximum and minimum
+values of <span class="math inline">\(Pr(A\cap B)\)</span> respectively
+are: A. <span class="math inline">\((0.4; 0.1)\)</span> B. <span
+class="math inline">\((0.7; 0.4)\)</span><br />
+C. <span class="math inline">\((0.7; 0.1)\)</span> D. <span
+class="math inline">\((0.4; 0)\)</span></p></li>
+<li><p>Jai and Vijay are taking a ex_Am in statistics. The ex_Am has
+only three grades A, B and C. The probability that Jai gets a B is 0.3,
+the probability that Vijay gets a B is 0.4, the probability that neither
+gets an A, but at least one gets a B is 0.1. What is the probability
+that neither gets a C but at least one gets a B? A. 0.1<br />
+B. 0.6<br />
+C. 0.8<br />
+D. Insufficient data to answer the question</p></li>
+<li><p>You’ve been told that a family has two children and one of these
+is a daughter. What is the probability that the other child is also a
+daughter? A. <span class="math inline">\(1/2\)</span><br />
+B. <span class="math inline">\(1/3\)</span><br />
+C. <span class="math inline">\(1/4\)</span><br />
+D. <span class="math inline">\(3/4\)</span></p></li>
+</ol>
+<p>Questions 39 and 40. Suppose least squares is used to fit a line
+relating <span class="math inline">\(y\)</span> and <span
+class="math inline">\(x\)</span>, namely <span
+class="math inline">\(y_i= \beta_1 + \beta_2 x_i+ \epsilon_i\)</span>.
+Assume that in our data not all the <span
+class="math inline">\(x\)</span>’s are identical, so that at least some
+of the <span class="math inline">\(x\)</span>’s are different from their
+sample mean <span class="math inline">\(\bar{x}\)</span>. Now consider
+the following possible assumptions about our data. (1) <span
+class="math inline">\(E( \epsilon_i) = 0\)</span> (2) <span
+class="math inline">\(Cov(x_i, \epsilon_i) = 0\)</span> (3)
+Homoskedasticity: <span class="math inline">\(Var( \epsilon_i)
+=\sigma^2\)</span> , a constant (4) No autocorrelation: <span
+class="math inline">\(Cov( \epsilon_i, \epsilon_j) = 0 \mbox{ for } i
+\neq j\)</span> Indicate the one best answer to each question below. 39.
+When are the least-squares estimators unbiased?<br />
+A. Only if our data satisfy assumptions (1) and (2).<br />
+B. Only if our data satisfy assumptions (1), (2), (3), and (4).<br />
+C. Only if our data satisfy assumptions (1), (2), and (3).<br />
+D. Only if our data satisfy (1), (2), and (4).</p>
+<ol start="40" style="list-style-type: decimal">
+<li><p>When are the least-squares estimators “best” (lowest variance) of
+any unbiased estimators<br />
+A. Only if our data satisfy assumptions (1) and (2).<br />
+B. Only if our data satisfy assumptions (1), (2), (3), and (4).<br />
+C. Only if our data satisfy assumptions (1), (2), and (4). D. Cannot be
+determined, without additional assumptions.</p></li>
+<li><p>A consumer spends an income of Rs. 100 on two goods, dosas and
+pizzas. Let <span class="math inline">\(x\)</span> denote the number of
+dosas and <span class="math inline">\(y\)</span> the number of pizzas
+consumed (fractions allowed). The consumer’s utility function is <span
+class="math inline">\(U=ex^2 +y^2\)</span>. If the price of a dosa is
+Rs. 5, and the price of a pizza is Rs. 10, then the number of pizzas
+this consumer will buy is A. 0<br />
+B. 10<br />
+C. 5<br />
+D. 8</p></li>
+<li><p>Romeo and Juliet have 96 chocolates to divide between them. Romeo
+has the utility function <span class="math inline">\(U =R^8 J^4\)</span>
+and Juliet has the utility function <span class="math inline">\(U=R^4
+J^8\)</span> where <span class="math inline">\(R\)</span> is Romeo’s
+chocolate consumption and <span class="math inline">\(J\)</span> is
+Juliet’s chocolate consumption. Which of the following is true A. Romeo
+would want to give Juliet some chocolates if he had more than 62.<br />
+B. Juliet would want to give Romeo some chocolates if she had more than
+60.<br />
+C. Romeo and Juliet would never disagree about how to divide the
+chocolates.<br />
+D. Juliet would want to give Romeo some chocolates if she had more than
+64<br />
+chocolates.</p></li>
+<li><p>A consumer spends an income of Rs. 100 on only two goods, <span
+class="math inline">\(A\)</span> and <span
+class="math inline">\(B\)</span>. Assume non satiation, i.e., more of
+any good is preferred to less. Suppose the price of <span
+class="math inline">\(B\)</span> is fixed at Rs. 20. When the price of
+<span class="math inline">\(A\)</span> is Rs. 10, the consumer buys 3
+units of <span class="math inline">\(B\)</span>. When the price of <span
+class="math inline">\(A\)</span> is Rs. 20, she buys 5 units of <span
+class="math inline">\(A\)</span>. From this we can conclude<br />
+I. <span class="math inline">\(A\)</span> is an inferior good</p>
+<ol start="2" style="list-style-type: upper-roman">
+<li><span class="math inline">\(A\)</span> is a Giffen good<br />
+</li>
+<li><span class="math inline">\(B\)</span> is a complement of <span
+class="math inline">\(A\)</span><br />
+A. I only<br />
+B. I and II<br />
+C. I and III<br />
+D. I, II and III</li>
+</ol></li>
+</ol>
+<p>Questions 44 and 45. ‘Suraksha’ is the sole producer and supplier of
+security systems in India and the sole employer of locksmiths in the
+labour market. The demand for security systems is <span
+class="math inline">\(D(p) = 100−p\)</span>, where <span
+class="math inline">\(p\)</span> is the price. The production of
+security systems only requires locksmiths and the production function is
+given by<span class="math inline">\(f(L) = 4L\)</span>, where <span
+class="math inline">\(L\)</span> is the number of locksmiths employed.
+The supply curve for locksmiths is given by <span
+class="math inline">\(L(w) = max[0, \frac{w}{2}-20]\)</span> where <span
+class="math inline">\(w\)</span> is the wage rate.</p>
+<ol start="44" style="list-style-type: decimal">
+<li><p>How many locksmiths will ‘Suraksha’ employ? A. 5 B. 10 C. 15 D.
+20</p></li>
+<li><p>If the government sets the minimum wage is 70 , how many
+locksmiths will Suraksha employ? A. 5<br />
+B. 10<br />
+C. 15<br />
+D. 20</p></li>
+</ol>
+<p>Questions 46 and 47. Suppose that a typical graduate student at the
+Delhi School of<br />
+Economics lives in a two good world, books (<span
+class="math inline">\(x\)</span>) and movies (<span
+class="math inline">\(y\)</span>), with utility function<br />
+<span class="math inline">\(u(x,y) =x^{1 /5} y^{4 /5}\)</span>. Prices
+of books and movies are 50 and 10 respectively. Suppose the<br />
+University is considering the following schemes. Scheme 1: 750 is paid
+as fellowship and additional 250 as book grant. Naturally, book grant
+can only be spent on books. Scheme 2: 1000 as scholarship and gets one
+movie free on each book they purchase. Believing that books and movies
+are perfectly divisible, compute the optimal consumption bundle under
+each scheme.</p>
+<ol start="46" style="list-style-type: decimal">
+<li><p>Optimal consumption bundle under scheme 1 is<br />
+A. (4 books, 80 movies)<br />
+B. (5 books, 75 movies)<br />
+C. (6.5 books, 57.5 movies)<br />
+D. (10 books, 50 movies)</p></li>
+<li><p>Optimal consumption bundle under scheme 2 is<br />
+A. (4 books, 80 movies)<br />
+B. (4 books, 84 movies)<br />
+C. (5 books, 75 movies)<br />
+D. (5 books, 80 movies)</p></li>
+<li><p>Let <span class="math inline">\(X\)</span> stand for the
+consumption set and let <span class="math inline">\(R, I, P\)</span>
+respectively stand for the weak preference relation, indifference
+relation and strict preference relation of a consumer. The weak
+preference relation <span class="math inline">\(R\)</span> is said to
+satisfy Quasitransitivity if and only if for all <span
+class="math inline">\(x, y, z\)</span> belonging to <span
+class="math inline">\(X\)</span>, <span
+class="math inline">\(xPy\)</span> and <span class="math inline">\(yPz
+\rightarrow xPz\)</span>. Which of the following preference relations
+over <span class="math inline">\(X =\{x,y,z\}\)</span> satisfy
+Quasitransitivity? A. <span class="math inline">\(xPy\ \&amp;\ yPz\
+\&amp;\ zPx\)</span><br />
+B. <span class="math inline">\(xPy\ \&amp;\ yPz\ \&amp;\
+zIx\)</span><br />
+C. <span class="math inline">\(xPy\ \&amp;\ yIz\ \&amp;\ zIx\)</span> D.
+<span class="math inline">\(yPx\ \&amp;\ yIz\ \&amp;\
+xPz\)</span></p></li>
+<li><p>Consider an exchange economy with two consumers (<span
+class="math inline">\(A\)</span> &amp; <span
+class="math inline">\(B\)</span>) and two goods (<span
+class="math inline">\(x\)</span> &amp; <span
+class="math inline">\(y\)</span>). Assume that total amount of <span
+class="math inline">\(x\)</span> available is 4 and total amount of
+<span class="math inline">\(y\)</span> available is 2 which is to be
+optimally distributed between <span class="math inline">\(A\)</span>
+&amp; <span class="math inline">\(B\)</span>. <span
+class="math inline">\(A\)</span>’s utility function is <span
+class="math inline">\(U_A=x_A^2 +4x_Ay_A+4y_A^2\)</span> and B’s utility
+function is <span class="math inline">\(U_B=x_B+y_B\)</span>. The
+contract curve for this exchange economy will be: A. the entire boundary
+of the Edgeworth box<br />
+B. allocations satisfying <span class="math inline">\((x_A= 0, 0 \leq
+y_A \leq 2)\)</span> and <span class="math inline">\((0 \leq x_B \leq 4
+,y_B= 0)\)</span><br />
+C. allocations satisfying <span class="math inline">\((0 \leq x_A \leq 4
+,y_A= 0)\)</span> and <span class="math inline">\((x_B= 0, 0 \leq y_B
+\leq 2)\)</span><br />
+D. all points inside the Edgeworth box.</p></li>
+<li><p>Consider the exchange economy in the above question. Suppose
+<span class="math inline">\(A\)</span> is endowed with 3 units of good 1
+and 1 unit of good 2, and <span class="math inline">\(B\)</span> is
+endowed with 1 unit of each good. A competitive equilibrium is described
+by the following prices (of goods <span class="math inline">\(X\)</span>
+and <span class="math inline">\(Y\)</span> respectively) and allocation
+of goods.<br />
+A. Prices = <span class="math inline">\((1,2)\)</span> and <span
+class="math inline">\((x_A,y_A) = (2. 5 ,2) , (x_B,y_B) = (1. 5
+,0)\)</span><br />
+B. Prices = <span class="math inline">\((2,1)\)</span> and <span
+class="math inline">\((x_A,y_A) = (2. 5 , 1 .5) , (x_B,y_B) = (1. 5 , 0
+.5)\)</span> C. Prices = <span class="math inline">\((1,1)\)</span> and
+<span class="math inline">\((x_A,y_A) = (2,2) , (x_B,y_B) =
+(2,0)\)</span><br />
+D. None of the four option is correct</p></li>
+</ol>
+<p>Questions 51 to 54. The following set of questions use a common set
+of information given below. Read the information carefully and then
+answer the questions sequentially. Consider an economy which is
+described by the following two relationship between aggregate income
+(<span class="math inline">\(Y\)</span>), aggregate price level (<span
+class="math inline">\(P\)</span>), domestic interest rate (<span
+class="math inline">\(r\)</span>), and the real exchange rate (<span
+class="math inline">\(e\)</span>): (i) Goods market equilibrium
+condition: <span class="math inline">\(Y =C(Y) +I(r) +G+NX(Y,e)\)</span>
+(ii) Money market equilibrium condition: <span
+class="math inline">\(\frac{M}{P} =L(Y,r)\)</span> where <span
+class="math inline">\(C = \bar{C}+\sigma(Y−T) ; 0&lt; \sigma &lt;
+1\)</span> <span class="math inline">\(T = \tau Y ; 0&lt; \tau &lt;
+1\)</span> <span class="math inline">\(G = \bar{G}\)</span> <span
+class="math inline">\(I = I−\delta r;\delta &gt; 0\)</span> <span
+class="math inline">\(NX = \bar{X}−\mu Y−\gamma e; 0&lt; \mu &lt;1
+;\gamma &gt; 0\)</span> <span class="math inline">\(L(Y,r) = \bar{L}+
+\alpha Y− \beta r; \alpha, \beta &gt; 0\)</span> <span
+class="math inline">\(r = \bar{r}\)</span> <span class="math inline">\(M
+= \bar{M}\)</span> <span class="math inline">\(P = \bar{P}\)</span>
+Suppose now you draw the IS and the LM relationship in the <span
+class="math inline">\((Y,e)\)</span> plane with Y in the horizontal axis
+and <span class="math inline">\(e\)</span> in the vertical axis. 51. In
+this case<br />
+A. the IS curve is upward sloping and the LM curve is downward
+sloping<br />
+B. the IS curve is downward sloping and the LM curve is vertical<br />
+C. the IS curve is vertical and the LM curve is upward sloping<br />
+D. the IS curve is downward sloping and the LM curve is upward
+sloping</p>
+<ol start="52" style="list-style-type: decimal">
+<li><p>An increase in <span class="math inline">\(\bar{r}\)</span>
+shifts<br />
+A. the IS curve to the left and the LM curve to the right<br />
+B. the IS curve to the right and the LM curve to the left<br />
+C. both the IS and the LM curves to the left<br />
+D. both the IS and the LM curves to the right</p></li>
+<li><p>An increase in <span class="math inline">\(\bar{P}\)</span>
+results in<br />
+A. an increase in the equilibrium value of <span
+class="math inline">\(Y\)</span> and a decrease in the equilibrium value
+of <span class="math inline">\(e\)</span><br />
+B. a decrease in the equilibrium value of <span
+class="math inline">\(Y\)</span> and an increase in the equilibrium
+value of <span class="math inline">\(e\)</span><br />
+C. a decrease in the equilibrium value of <span
+class="math inline">\(Y\)</span> and a decrease in the equilibrium value
+of <span class="math inline">\(e\)</span> D. none of the above</p></li>
+<li><p>If the government arbitrarily fixes the real exchange rate at
+some <span class="math inline">\(\bar{e}\)</span><br />
+A. the two markets can be simultaneously in equilibrium only under
+special para- metric restrictions B. the two markets can be
+simultaneously in equilibrium if the government follows an accommodating
+interest rate policy C. the two markets can be simultaneously in
+equilibrium if the government follows an accommodating money supply
+rule<br />
+D. all of the above</p></li>
+<li><p>A fall in the interest rate<br />
+A. will reduce savings unambiguously<br />
+B. will have an ambiguous effect on savings because of an ambiguous
+substitution effect C. will reduce savings unambiguously only for a
+borrower<br />
+D. will reduce savings unambiguously only for a lender</p></li>
+<li><p>An increase in the rate of depreciation, according to the
+neoclassical theory of investment, will A. lower investment by raising
+the user cost of capital B. raise investment by lowering the user cost
+C. raise investment because now more capital is depreciating D. none of
+the above</p></li>
+<li><p>An increase in the saving rate in the Solow model<br />
+A. increases the growth rate of the economy permanently<br />
+B. increases the growth rate of the economy in the transition to the
+steady state but not in the steady state C. reduces the growth rate
+because aggregate demand falls<br />
+D. none of the above</p></li>
+<li><p>The “golden rule of accumulation” is the<br />
+A. savings ratio that generates the highest growth rate of the economy
+B. the savings ratio that generates the highest capital-labour ratio C.
+the savings ratio where consumption (per capita) is maximized both in
+the transition to the steady state and in the steady state D. the
+savings ratio where consumption (per capita) is maximized in the steady
+state</p></li>
+<li><p>At the “golden rule of accumulation”<br />
+A. all wages invested , all profits consumed<br />
+B. all wages as well as profits invested<br />
+C. all wages consumed, all profits invested<br />
+D. all wages as well as profits consumed</p></li>
+<li><p>Consider the following three definitions for a country’s current
+account surplus. Which of them is correct?</p>
+<ol style="list-style-type: lower-roman">
+<li>equal to its trade balance plus net income from abroad<br />
+</li>
+<li>equal to its trade balance plus foreign direct investment<br />
+</li>
+<li>equal to the change in its claims against the rest of the
+world<br />
+A. (i) and (ii)<br />
+B. (ii)and (iii)<br />
+C. (i) and (iii)<br />
+D. None</li>
+</ol></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

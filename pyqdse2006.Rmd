@@ -1,0 +1,834 @@
+---
+title: "PYQ DSE 2006"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# DSE 2006
+
+  
+
+1. Suppose A and B have to divide a box of chocolates and both of them prefer to have more chocolates to fewer chocolates. An allocation that gives all the chocolates to A is
+
+
+A.    Pareto inefficient
+
+B.    Pareto efficient
+
+C.    Pareto unfair
+
+D.    Pareto fair
+  
+
+2. Among the effects of urban rent control are
+
+
+A.    a disincentive to build for rental purposes
+
+B.    an implicit redistribution of wealth from those who do not have rent-controlled housing to those who do have rent-controlled housing
+
+C.    a low degree of mobility in housing market
+
+D.    all of the above
+ 
+
+3. Processed and piped water is
+
+
+A.    a public good
+
+B.    a private good
+
+C.    a private bad
+
+D.    a public bad
+
+
+4. A situation in which all electricity generators in a state can sell their output only to the State Electricity Board is described as
+
+A.    a monopoly
+
+B.    a monopsony
+
+C.    an oligopolistic market
+
+D.    a monopolistically competitive market
+
+
+5. Consider a firm that produces single good using labor and capital. Let $C,Q,L,K,w,r$ and p denote cost of production, output, labor input, capital input, the wage rate, the price of capital and the price of output respectively. An example of the cost function for the firm is
+
+
+A.    $C=wL+rK$
+
+B.    $C= \min (wL,rK)$
+
+C.    $C=\frac{pQ}{[wL+rK]}$
+
+D.    $C=Q\sqrt{wr}$
+
+
+6. If the IS curve is downward sloping and the LM curve is vertical, a unit increase in government expenditure results in
+
+
+A.    crowding in and higher increase in equilibrium income
+
+B.    no crowding out and equivalent increase in the equilibrium income
+
+C.    partial crowding out and lower increase in equilibrium income
+
+D.    complete crowding out and no increase in equilibrium income
+
+  
+7. Monetary policy is completely ineffective in raising output if
+
+A.    the IS curve is horizontal and the LM curve is upward sloping
+
+B.    the IS curve is vertical and the LM curve is upward sloping
+
+C.    the IS curve is downward sloping and the LM curve is upward sloping
+
+D.    the IS curve is downward sloping and the LM curve is vertical
+
+  
+
+8. The price and quantity combinations of two services (trim and perm) sold at the “Be Handsome” beauty parlour are as follows ($P_t$ and $Q_t$  denote the price and quantity  respectively of a given service at time t):
+
+
+```
+insert matrix
+```
+
+The Laspeyres price index for time $t = 1$ is
+
+A.    117.2
+
+B.    115.3
+
+C.    121.8
+
+D.    119.6
+
+
+9. Suppose we flip a fair coin three times. The probability of getting two heads is
+
+  
+A.     $\frac{2}{ 8}$
+
+B.     $\frac{1} {3}$
+
+C.     $\frac{2}{3}$
+
+D.     $\frac{3}{8}$
+
+
+10. Which one of the following is true?
+
+
+A.    A consumer never buys an inferior good.
+
+B.    A consumer’s budget share for an inferior good is necessarily less than half.
+
+C.    A consumer’s budget share for an inferior good is constant.
+
+D.    A consumer’s budget share for an inferior good decreases with an increase in money income.
+
+  
+
+11. Consider a consumer with the utility function $u(x,y) = x^{\frac{1}{2}} +y$. Which one of the following is true?
+
+
+A.    Income elasticity of both goods x and y is 1.
+
+B.    Income elasticity of good x is 0.
+
+C.    Income elasticity of good y is 0.
+
+D.    Income elasticity of good x is 1 and of good y is 0.
+
+  
+12. Consider the experiment of tossing two unbiased coins in succession. What is the prob ability of obtaining two heads, given that at least one of the coins comes up heads?
+
+
+A.    $\frac{1}{2}$
+
+B.    $\frac{1}{4}$
+
+C.    $\frac{1}{3}$
+
+D.    $\frac{2}{3}$
+ 
+
+13. Suppose all input prices as well as output price double. The level of output produced by a profit-maximizing firm which uses a decreasing returns to scale technology will
+ 
+
+A.    be double of its original level
+
+B.    increase, but not necessarily double
+
+C.    remain constant
+
+D.     change, but we cannot say in which direction
+ 
+
+14. Consider an $n\times n$  matrix A with real entries. Ais non-singular if and only if
+
+  
+A.    the determinant of A is not equal to 0
+
+B.    the columns vectors of A are linearly independent
+
+C.    the row vectors of A are linearly independent
+
+D.    any of the above three conditions is satisfied
+  
+
+15. Consider a function $f : R   →  R$  where $R$ denotes the set of real numbers. If $f$ is increasing, i.e., $x\geq y$ implies $f(x)\geq f(y)$ , then
+
+
+
+A.    $f$ is concave
+
+B.    $f$ is convex
+
+C.    $f$ is quasi-convex
+
+D.    $f$ is continuous
+
+ 
+16. Consider a singular $n\times n$ matrix A with real entries. Interchanging the positions of a pair of adjacent columns of A
+
+  
+
+A.    does not change the value of the determinant of A
+
+B.    changes the sign of the determinant
+
+C.    increases the value of the determinant
+
+D.    decreases the value of the determinant
+
+   
+
+17. There are three women on the platform of a train station. The train that they are  waiting for has 5 coaches and each of them is equally likely to enter any coach. What is  the probability that they will all enter the same coach?
+
+ 
+A.    $\frac{12}{25}$
+
+B.    $\frac{3}{5}$
+
+C.    $\frac{3}{125}$
+
+D.    $\frac{9}{25}$
+
+E.    $\frac{1}{25}$
+
+ 
+18. Suppose a neighborhood has 90 Hindus and 10 Muslims. What is the probability that  two randomly selected persons from that neighborhood will have the same religion?
+
+
+A.    0. 5
+
+B.    0. 81
+
+C.    0. 9
+
+D.    0. 82
+
+
+19. Exchange rate overshooting occurs
+
+
+A.    under fixed exchange rates when the central bank mistakenly buys or sells too much foreign exchange
+
+B.    under fixed exchange rates as a necessary part of the adjustment process for any monetary shock
+
+C.    under flexible exchange rates when the exchange rate rises (depreciates) above and then falls down to equilibrium after a monetary expansion
+
+D.    under flexible exchange rates, so that large financial shocks in the domestic economy have very little impact on exchange rates
+
+
+20. In an open economy with a system of fixed exchange rates
+
+
+A.    monetary policy is an effective tool for stabilizing the economy
+
+B.    fiscal policy is a by-product of exchange rate policy
+
+C.    fiscal policy is an effective tool for stabilizing the economy
+
+D.    both (a) and (b) above
+
+
+Answer 21, 22 and 23 for the following situation. Consider a competitive exchange economy with two agents (1 and 2) and two goods (X and Y). Agent 1’s endowment of (X,Y) is (0,5) and Agent 2’s endowment of (X,Y) is (10,0). An allocation for Agent i is denoted $(x_i,y_i)$ , where $x_i$ is his allocation of X and $y_i$ is his allocation of Y. Agent i’s objective is to choose $(x_i,y_i)$  to maximise his utility $\min${$x_i,y_i$}
+
+
+21. The allocation with $(x_1 ,y_1 )$ = $(3,3)$ and $(x_2 ,y_2 )$ = $(7,2)$  is
+
+  
+
+A.    a competitive equilibrium allocation and is Pareto efficient
+
+B.    not a competitive equilibrium allocation but is Pareto efficient
+
+C.    neither a competitive equilibrium allocation nor is Pareto efficient
+
+D.    a competitive equilibrium allocation but is not Pareto efficient
+ 
+
+22. The allocation with $(x_1 ,y_1 )$ = (10,5) and $(x_2 ,y_2 )$ = (0,0) is
+
+  
+A.    a competitive equilibrium allocation and is Pareto efficient
+
+B.    not a competitive equilibrium allocation but is Pareto efficient
+
+C.    neither a competitive equilibrium allocation nor is Pareto efficient
+
+D.    a competitive equilibrium allocation but is not Pareto efficient
+  
+
+23. Assuming the sum of prices is 1, the competitive equilibrium prices $(p_1 ,p_2 )$ are
+
+  
+A.    (1,0)
+
+B.    (0,1)
+
+C.    $(\frac{1}{2} , \frac{1}{2})$
+
+D.    $(\frac{1}{3} , \frac{2}{3})$
+
+
+24. Consider an economy which is demand constrained.  The components of aggregate demand are: (i) Household Consumption; (ii) Government Investment Expenditure; and (iii) Private Investment. The government finances its expenditure by imposing a lump- sum tax on the households and always maintains a balanced budget. Households consume $\frac{1}{2}$ of their disposable income. Private investment and government investment are complementary and the two are related in the following way: a unit investment by the government induces private investors to invest 2 units. Starting from an equilibrium situation, the government raises its investment expenditure by 10 units, what will be the corresponding increase in the equilibrium level of income for this economy?
+
+  
+
+A.    20 units
+
+B.    10 units
+
+C.    50 units
+
+D.    income remains the same
+
+  
+
+25. Consider an economy where $\frac{1}{2}$ of the total income (output) is distributed to the workers and the other half is distributed to the capitalists. The capitalists save upto 50% of their income and consume the rest; the workers save 25% of their income and consume the  rest. The aggregate demand consists of total consumption demand and total investment demand. Investment demand is autonomously given at 100 units. Output is demand determined. How does the equilibrium income value change if $\frac{3}{4}$ of the total income is distributed to the workers and $\frac{1}{4}$ to the capitalists?
+
+  
+
+A.    equilibrium output increases by $\frac{160}{3}$ units
+
+B.    equilibrium output increases by $\frac{100}{3}$ units
+
+C.    equilibrium output increases by $\frac{800}{3}$  units
+
+D.    equilibrium output does not change
+
+  
+
+26. The aggregate production function in an economy at any time period t is given by $Y_t= min(\frac {K_t}{2} ,\frac{L_t}{ 4} ), where $K_t \ and \ L_t$ are respectively the aggregate stock of capital  and the available stock of labour at time t. In each period, 20% of the total output  is saved and invested, which augments the next period’s capital stock. Capital does  not depreciate. Available labour stock grows by 4 units in every period.      The economy currently has 200 units of capital and 420 units of labour. What is the current level of  employment and what will be the level of employment tomorrow?
+
+  
+
+  
+
+A.    Current Employment: 420; Employment tomorrow: 424
+
+B.    Current Employment: 400; Employment tomorrow: 424
+
+C.    Current Employment: 400; Employment tomorrow: 400
+
+D.    Current Employment: 420; Employment tomorrow: 420
+
+  
+
+  
+
+27. Members of the Gymkhana Club are charged quarterly fees on the basis of their average weight, rounded to the nearest kg. Of the 560 members, 120 weighed between 60 and 69 kg, 140 weighed between 70 and 79 kg, 170 weighed between 80 and 89 kg, and the remaining weighed between 90 and 99 kg. If members are charged Rs. 50 per kilo o their weight, on average how much must each member pay?
+
+  
+
+A.    Rs. 3800
+
+B.    Rs. 3900
+
+C.    Rs. 4000
+
+D.    Rs. 4100
+
+  
+
+28. ICICI Bank collects data on 10000 respondents. Out of the 6800 men, 4200 have credit  cards, and out of the 3200 women, 2500 have credit cards. Out of the men with credit cards, 1200 have unpaid balances, whereas out of the women with credit cards, 1400  have unpaid balances. What is the probability that an individual selected at random is  a man without an unpaid balance?
+
+  
+
+A.    0. 68
+
+B.    0. 56
+
+C.    0. 12
+
+D.    0. 84
+
+  
+
+29. A monopolist has two plants. In plant 1, the total cost function is $c_1(q_1 ) = 2q_1$  and in plant 2, the total cost function is  $c_2 (q_2 ) =\frac{q_2^2 }{2}$ , where q represents the quantity of good produce D. The demand faced by the monopolist is $p= 10−q$ , where $q=q_1 +q_2$ . How does the monopolist allocate its total production to serve the market?
+
+  
+
+A.    $q_1 = 6 \ and \ q_2 = 2$
+
+B.    $q_1 = 2 \ and \ q_2 = 2$
+
+C.    $q_1 = 4 \ and \ q_2 = 4$
+
+D.    $q_1 = 4 \ and\ q_2 = \frac{10}{ 3}$
+
+  
+
+30. There are two individualsAandB.    The utility function of both individuals are identical  and given by $u(x,y) = \max (x,y)$ . Each of them has 1 unit of good x and 1 unit of good y. Which of the following is a Pareto optimal allocation?
+
+  
+
+A.    A has x= 1,y= 1 and B has x= 1,y= 1
+
+B.    A has x= 2,y= 0 and B has x= 0,y= 2
+
+C.    A has x= 0,y= 0 and B has x= 2,y= 2
+
+D.    A has x= $\frac{3}{2} ,y= \frac{1}{2}$  and B has $x= \frac{1}{2}  ,y= \frac{3}{2}$
+
+  
+
+Answer 31, 32 and 33 for the following information. Three players A,B and C take turns playing a game as follows. A and B play in the first round. The winner plays C in the second round, while the loser sits out. The winner of the second round plays the person who was sitting out. The game continues in this fashion, with the winner of the current round playing the next round with the person who sits out in the current round.The game ends when a player wins twice in succession; this player is declared the winner of the contest. For any of the rounds, assume that the two players playing the round each have a probability $\frac{1} {2}$  of winning the round, regardless of how the past rounds were won or lost.
+
+  
+
+31. The probability that A becomes the winner of the contest is
+
+  
+
+A.    $\frac{5}{14}$
+
+B.    $\frac{1}{2}$
+
+C.    $\frac{3}{7}$
+
+D.    $\frac{7}{16}$
+
+  
+
+32. The probability that C becomes the winner of the contest is
+
+  
+
+A.    $\frac{1}{7}$
+
+B.    $\frac{1}{5}$
+
+C.    $\frac{1}{8}$
+
+D.     $\frac{2}{7}$
+ 
+
+33. The probability that the game continues indefinitely, with no one winning twice in succession, is
+
+
+A.    $\frac{1}{10^{23}}$
+
+B.    0
+
+C.    ${1}{2^{23}}$
+
+D.    $\frac{1}{2^{16}}$
+
+
+34. Consider collecting a random sample that has two observations, from a population that  is normally distributed with meanμand variance 16. The variance associated with th  distribution of twice the difference between these two observations equals
+
+ A.    64
+ 
+ B.    128
+ 
+ C.    $\frac{32}{\sqrt 2}$
+ 
+ D.    $\frac{64}{\sqrt 2}$
+
+35. In an open economy with a system of flexible exchange rates and perfect capital mobility, an expansionary monetary policy
+
+  
+
+A.    causes the domestic currency to appreciate
+
+B.    has a greater impact on income than in a closed economy
+
+C.    increases capital inflows into the country
+
+D.    induces a balance of payments deficit
+
+  
+
+36. Which of the following would make the LM curve flatter in the (Y,r) space?
+
+A.    an increase in income sensitivity of money demand
+
+B.    an increase in interest sensitivity of planned investment
+
+C.    an increase in the marginal propensity to consume
+
+D.    an increase in the interest sensitivity of money demand
+
+  
+
+37. Consider the graph of the function $f(x) = \frac{(x^2 + 2x−1)}{x}$defined over all positive real values of $x$ . This graph has the following asymptotes
+
+  
+
+A.    The line defined by $2x+ 2$ and the vertical axis
+
+B.    One asymptote: the line defined by  $y=x+ 2$
+
+C.    The line defined by $y=x+ 2$  and the vertical axis
+
+D.    The line defined by $y= 2x+ 1$ and the vertical axis
+
+  
+
+38. Which of the following statements is correct? In a closed economy, fiscal policy is more effective
+
+A.    the smaller the induced change in interest rates and smaller the responsivenes of investment to these changes
+
+B.    the larger the induced change in interest rates and smaller the responsivenes of investment to these changes
+
+C.    the smaller the induced change in interest rates and larger the responsiveness of investment to these changes
+
+D.    the larger the induced change in interest rates and larger the responsiveness of investment to these changes
+
+  
+
+39. Along the long run supply curve of a perfectly competitive industry, all of the following may change, except
+
+  
+
+A.    the prices of inputs used
+
+B.    the amounts of inputs used
+
+C.    the number of firms in the industry
+
+D.    the level of profits
+
+  
+
+Answer 40 and 41 for the following situation. Consider a market served by a pair of firms, 1 and 2. The inverse market demand is given by $p= 1−(x_1 +x_2 )$ , where $x_i$ is the output of Firm i. Let Firm 1’s cost function be $C_1 (x_1 ) =\frac{x_1}{2}$  and Firm 2’s cost function be  $C_2 (x_2 ) =\frac{x_2}{3}$
+
+40. If Firms 1 and 2 are Cournot duopolists, then Cournot equilibrium outputs are
+
+A.    $(x_1 ,x_2 ) = (\frac{4}{18} , \frac{4}{18})$
+
+B.    $(x_1 ,x_2 ) = (\frac{2}{18} , \frac{5}{18})$
+
+C.    $(x_1 ,x_2 ) = (\frac{5}{18} , \frac{3}{18})$
+
+D.    $(x_1 ,x_2 ) = (0 , \frac{1}{3})$
+
+  
+
+41. Now suppose the situation changes so that Firm 1 chooses $x_1$ first and Firm 2 chooses $x_2$  after observing Firm 1’s choice. Relative to Cournot situation, in this new situation,
+
+  
+
+A.    $x_1$  and $x_2$  decrease
+
+B.    $x_1$  decreases and $x_2$ increases
+
+C.    $x_1$ increases and $x_2$ decreases
+
+D.    $x_1$ and $x_2$  increase
+
+  
+
+42. Suppose Asha’s preferences between two commodities $x_1$ and $x_2$  can be represented by $u(x_1 ,x_2 ) = min(x_1 − 5 ,x_2 + 3)$ . Given an income of Rs. 73, and facing prices of Rs. 3 for $x_1$  and Rs. 4 for $x_2$  , Asha’s optimal consumption bundle of $(x_1 ,x_2 )$  will be
+
+  
+
+A.    (12. 5 , 4 .5)
+
+B.    (10. 42 , 10 .42)
+
+C.    (15,7)
+
+D.    (3,16)
+
+  
+
+43. Consider the following macroeconomic model:
+
+  
+
+$$C = 2000 + 0. 4 Y_D $$
+
+$$ I = 500− 10 r+ 0. 4 Y $$ 
+
+$$ G = 400  , T = 1000 $$
+
+$$ (\frac{M}{P})^D = 0. 2 Y− 50 r $$  
+$$ (\frac{M}{P})^S = 1000$$
+
+  
+
+where $Y_D$ is disposable income. The equation of the IS curve for this model is
+
+  
+
+A.    Y = 9500− 50 r
+
+B.    Y = 12500− 50 r
+
+C.    Y = 14500− 100 r
+
+D.    Y = 14500− 60 r
+
+  
+
+44. A negative supply shock (e.g., oil price increase) shifts the Phillips curve and  the natural rate of unemployment. If the government wants to keep the economy at the  original rate of unemployment, it must have inflation.
+
+  
+
+A.    lowers, ever increasing
+
+B.    raises, ever decreasing
+
+C.    raises, ever increasing
+
+D.    does not change, ever increasing
+
+  
+
+45. An increase in foreign income the equilibrium output of a small open economy with uncovered interest parity and flexible exchange rates.
+
+  
+
+A.    increases
+
+B.    decreases
+
+C.    leaves unchanged
+
+D.    first increases then decreases
+
+  
+
+46. Amit has a box containing 6 red balls and 3 yellow balls. Amita has a box containing 4 red balls and 5 yellow balls. Amit randomly draws one ball from his box and puts it into Amita’s box. Now Amita randomly draws one ball out of her box. What is the probability that balls drawn by Amit and Amita were of different colours?
+
+
+A.    $\frac{1}{3}$
+
+B.    $\frac{2}{15}$
+
+C.    $\frac{4}{15}$
+
+D.    $\frac{7}{15}$ 
+
+
+47. Two patients share a hospital room for two days. Suppose that, on any given day, a person independently picks up an airborne infection with probability 1/4. An individual who is infected on the first day will certainly pass it to the other patient on the second day. Once contracted, the infection stays for at least two days. What is the probability  that both patients have contracted the infection by the end of the second day?
+
+  
+
+A.    $\frac{125}{256}$
+
+B.    $\frac{121}{256}$
+
+C.    $\frac{135}{256}$
+
+D.    $\frac{131}{256}$
+
+  
+48. A blood test detects a given disease with probability $\frac{8}{10}$  given that the tested person actually has the disease. With probability $\frac{2}{10}$ , the test incorrectly shows the presence  of the disease in a disease-free person. Suppose $\frac{1}{10}$  of the population has the disease. What is the probability that the person tested actually has the disease if the test indicates  the presence of the disease?
+
+  
+
+A.    1
+
+B.    $\frac{9}{13}$ 
+
+C.    $\frac{4}{13}$ 
+
+D.    $\frac{7}{13}$ 
+
+  
+
+49. Your teacher knows 6 jokes and in each class tells 2 jokes; each joke has an equal chance of being selected. What is the probability that, in a given lecture, at least 1 joke is told which was not told in the previous class?
+
+  
+
+A.    $\frac{28}{30}$ 
+
+B.    $\frac{14}{30}$ 
+
+C.    $\frac{16}{30}$ 
+
+D.    $\frac{12}{30}$ 
+
+  
+
+50. Suppose there are only two goods (X and Y), two countries (A and B), and labour is  the only factor of production. The amount of labour required to produce a unit of the  $i^{th}$  good in the  $j^{th}$  country is a constant $l_{ij}$ . Suppose $\frac{l_{XA}}{l_{YA}}< \frac {l_{XB}}{l_{YB}}$ .    If these two countries trade with each other, which of the following outcomes would definitely not occur in equilibrium?
+
+  
+
+A.    A produces only X and B produces only Y
+
+B.    A produces both goods and B produces onlyY
+
+C.    A produces onlyX and B produces both goods
+
+D.    Both countries produce both goods
+
+  
+
+51. Suppose that in a particular country, the (inverse) demand curve for a certain good is given by $P=a−Q$ , where $P$ is price, $Q$ is quantity demanded and a is a positive constant. The market supply curve of a competitive domestic industry is given by $P=bQ$ , where b is a positive constant. The country can import any amount of the same good at an exogenously given world price of $P^{∗}$ . If, in order to raise revenue, the government imposes a tariff oftper unit on imports, it will result in a deadweight welfare loss of
+
+  
+
+A.    $t(a−P^{∗})$
+
+B.    $a−b(P^{∗}+t)$
+
+C.    t
+
+D.    $t^2$
+
+E.     $\frac{t^2 (1 +b)}{2 b}$ 
+
+    
+
+52. Consider a function $f : R→ R$, where $R$ , where $R$ denotes the set of real numbers.  If $f$  is strictly increasing (i.e.,$x > y$  implies $f(x)> f(y))$ and differentiable, then the derivative off
+
+  
+
+A.    may be less than 0 at some $x\in R$
+
+B.    may be infinite at some $x\in R$
+
+C.    is greater than or equal to 0 at every $x\in R$
+
+D.    is greater than 0 at every $x \in R$
+
+
+
+53. Consider the following claim: ”There is some general election and some party such that all the candidates of that party in that election are honest.” If this claim is false, then which of the following statements must be true?
+
+  
+
+A.    In every election, there exists a party such that all its candidates are dishonest.
+
+B.    There is some general election and some party such that all the candidates of\ that party in that election are honest.
+
+C.    In every election, all candidates of all parties are dishonest.
+
+D.    In every election, every party has at least one dishonest candidate.
+
+  
+
+Answer 54, 55, 56 and 57 using the following information. Consider a society consists of individuals who may belong to various sets called Family and/or Gangs. The collections of Families and Gangs satisfy the following rules:
+
+  
+
+-  The entire society is a Family.
+
+-  The empty subset of a Society is also a family.
+
+-  Given a collection of Families, the set of individuals who belong to every Family in that collection is also a Family.
+
+-  Given any two Families, the set of individuals who belong to either of the two Families is also a Family.
+
+-  A set of individuals is called a Gang if and only if the set of individuals not in it constitute a Family.
+
+  
+
+54. The intersection of two Gangs is necessarily
+
+  
+
+A.    a Family
+
+B.    a Gang
+
+C.    not a Family
+
+D.    not a Gang
+
+  
+
+55. The union of a collection of Gangs is necessarily
+ 
+
+A.    not a Family
+
+B.    not a Gang
+
+C.    a Family
+
+D.    a Gang
+
+
+56. Which of the following statements is necessarily true?
+
+
+A.    A set of individuals cannot be a Gang and a Family.
+
+B.    There are at least two sets of individuals that are both a Family and a Gang.
+
+C.    The union of a Family and a Gang is a Gang.
+
+D.    The intersection of a Family and a Gang is a Family.
+
+  
+
+57. Suppose we are given a Family and a Gang. Then, the set of individuals who belong to  the given Family but not to the given Gang necessarily constitute
+
+
+A.    a Family
+
+B.    a Gang
+
+C.    neither a Family, nor a Gang
+
+D.    a Family and a Gang
+
+
+58. You have 10 pockets. What is the smallest number of one rupee coins you need to have a different number of coins in each pocket?
+
+  
+
+A.    45
+
+B.    35
+
+C.    60
+
+D.    50
+
+ 
+59. There are 3 red and 5 black balls in an urn. You draw two balls in succession without  replacing the first ball. What is the probability that the second ball you draw is red ?
+
+
+A.    $\frac{2}{7}$
+
+B.    $\frac{3}{8}$
+
+C.    $\frac{5}{7}$
+
+D.    $\frac{1}{4}$
+
+ 
+60. Given that R denotes the set of real numbers, which of the following mappings is a one-to-one (i.e., injective) function?
+
+A.    $f(x) = \tan x, where \ x\in R \ and \ x \geq 0$
+
+B.    $f(x) =|x|, \ where \ x\in R$
+
+C.    $f(x) = \frac{1}{x}, \ where \ x\in R \ and \geq  0$
+
+D.    $f(x) =|x|, \ where \ x\in R \ and \ x\geq  0$

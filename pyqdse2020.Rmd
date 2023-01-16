@@ -1,0 +1,328 @@
+---
+title: "PYQ DSE 2020"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+---
+status: done
+---
+# DSE 2020
+1. Consider independently and identically distributed random variables $X_1 , ..., X_n$ with values in $[0, 2]$. Each of these random variables is uniformly distributed on $[0, 2]$. If $Y =max\{X_1 , ..., X_n\}$, then the mean of $Y$ is 
+	A. $(\frac{n}{n+1})^2$
+	B. $\frac{n}{2n+1}$
+	C. $\frac{2n}{n+1}$
+	D. $\frac{n}{n+1}$
+
+2. A coin toss has possible outcomes H and T with probabilities $\frac{3}{4}$ and $\frac{1}{4}$ respectively. A gambler observes a sequence of tosses of this coin until H occurs. Let the first H occur on the $n$th toss. If $n$ is odd, then the gambler’s prize is $−(2^n)$, and if $n$ is even, then the gambler’s prize is $2^n$. What is the expected value of the gambler’s prize? 
+	A. 1 
+	B. -1 
+	C. 3 
+	D. -3
+
+3. Suppose two fair dice are tossed simultaneously. What is the probability that the total number of spots on the upper faces of the two dice is not divisible by 2, 3, or 5? 
+	A. 1/3 
+	B. 2/9 
+	C. 4/9 
+	D. 7/16
+
+4. A student is answering a multiple-choice examination. Suppose a question has $m$ possible answers. The student knows the correct answer with probability $p$. If the student knows the correct answer, then she picks that answer; otherwise, she picks randomly from the choices with probability $1/m$ each. Given that the student picked the correct answer, the probability that she knew the correct answer is 
+	A. $\frac{mp}{1+(m-1)p}$ 
+	B. $\frac{mp}{1+(1-p)m}$
+	C. $\frac{1-p}{1+(m-1)p}$ 
+	D. $\frac{1-p}{1+(1-p)m}$
+
+5. Suppose Y is a random variable with uniform distribution on $[0, 2]$. The value of the cumulative distribution function of the random variable $X=e^Y$ at $x\in [1, e^2 ]$ is 
+	A. $\frac{log(x)}{2}$
+	B. $\frac{log(x)}{4}$
+	C. $log(x)$
+	D. $log(x) - 1$
+
+6. Consider an economy where the final commodity is produced by a single firm using labour only. The price-setting firm charges a 25% mark-up over its per unit nominal wage cost. The workers demand a real wage rate $\frac{W}{P} = (1−u)$, where $u$ is the unemployment rate, $P$ is the price, and $W$ is the nominal wage rate. The natural rate of unemployment in this economy is   
+	A. 20% 
+	B. 17% 
+	C. 13% 
+	D. 10%
+
+7. The aggregate production function of an economy is $Y_t=(K_tL_t)^{\frac{1}{2}}$. Capital grows according to $K_{t+1}= (1−\delta)K_t+S_t$, where $S_t=sY_t$ , $L_t =\bar{L}$ , $s$ is the saving rate, $\delta$ is the depreciation rate and $\bar{L}$ is the total population. Then, the steady-state level of consumption per capita is 
+	A.$\frac{s}{\delta}$ 
+	B. $\frac{{s^2}}{\delta^2}$ 
+	C. $\delta^\frac{1}{s}$ 
+	D. $\frac{s(1-s)}{\delta}$ 
+
+8. Consider a production technology $Y =AL$, where $Y$ is output, $A$ is productivity, and $L$ is labour input. A firm sets its price $P$ at a constant mark-up $\mu$ over the effective wage cost per unit of production WA. The expected real wage rate of workers is $\frac{W}{P^e}=A^\alpha(1−u)^{1 −\alpha}$,  where 0 < $\alpha$ < 1 and $P^e$ is the expected price. If the price expected by workers matches the actual price level, then the effect of a rise in the level of productivity on unemployment is 
+	A. Positive 
+	B. Negative 
+	C. Zero 
+	D. Ambiguous
+
+9. A household has an endowment of 1 unit of time .The household maximizes its utility $u= ln(c) +bln(1−l)$, where $c$ denotes consumption and $l\in [0, 1]$ denotes time spent working. It finances its consumption from labour income $wl$, where $w$ is the market wage rate per unit of labour time. If the market wage rate goes up, then equilibrium labour supply of the household 
+	A. increases 
+	B. decreases
+	C. remains constant
+	D. changes in ambiguous manner
+
+10. Consider the IS-LM model with a given price level $P$. Investment is a decreasing function of the interest rate and savings is an increasing function of aggregate income. The demand for real money balances $\frac{M}{P}$ is an increasing function of aggregate income and a decreasing function of the interest rate. The monetary authority chooses nominal money supply $M$ to ensure that the resulting money market equilibrium keeps the interest rate fixed at some target level. In this setup, an increase in the target interest rate leads to 
+	 A. a rise in equilibrium output 
+	 B. a fall in equilibrium output 
+	 C. no effect on equilibrium output 
+	 D. an ambiguous effect on equilibrium output
+
+11. Consider the Solow growth model with a given savings ratio, a constant population growth rate, zero rate of capital depreciation, and no technical progress. Let $k^∗$ be the steady state capital labour ratio in this economy. Suppose the economy is yet to reach the steady state and has capital labour ratio $k_1$ at time $t_{1}$ and capital labour ratio $k_2$ at time $t_{2}$ such that $t_{1}<t_{2}$ and $k_{1}<k_{2}<k^*$. Let the associated growth rates of per capita income at time $t_{1}$ and $t_{2}$ be $g_1$ and $g_2$ respectively. Then, by the properties of the Solow model, 
+	A. $g_1$ < $g_2$ 
+	B. $g_1$ > $g_2$ 
+	C .$g_1$ =$g_2$ 
+	D. the relationship between $g_1$ and $g_2$ is ambiguous
+
+12. A consumer lives for periods 1 and 2. Given consumptions $c_1$ and $c_2$ in these periods, her utility is $U = ln(c_1 ) + (1 +\rho)^{−1} ln(c_2 )$. She earns incomes $w_1$ and $w_2$ in the two periods and her lifetime budget constraint is $c_1 + (1 +r)^{-1} c_2 =w_1 + (1 +r)^{-1} w_2$ , where $r$ is the interest rate on savings. If  $r > \rho$, then 
+	A. $c_1 > c_2$
+	B. $c_1 < c_2$
+	C. $c_1 =c_2$
+	D. the relationship between $c_1$ and $c_2$ is ambiguous
+	  
+13. A consumer lives for periods 1 and 2. Her lifetime utility function is $U(c_{1},c_{2})=\frac{c_{1}^{\gamma}+c_{2}^{\gamma}}{\gamma}$ where 0< $\gamma$ <1 and $c_{i}$ is consumption in period $i$. The elasticity of substitution between consumption in period 1 and consumption in period 2 is
+	A. $1+\gamma$
+	B. $1-\gamma$
+	C. $\frac{1}{1+\gamma}$
+	D.$\frac{1}{1-\gamma}$
+
+14. A and B play a best-of-seven table-tennis match, i.e., the first to win four games will win the match. The two players are equally likely to win any of the games in the match. The probability that the match will end in 6 games is 
+	A. less than the probability that it will end in 7 games 
+	B. equal to the probability that it will end in 7 games 
+	C. greater than the probability that it will end in 7 games 
+	D. None of these
+  
+15. Let $X$ and $Y$ be jointly normally distributed, i.e. $(X, Y)∼ N(\mu_X, \mu_Y, \sigma_{X}^2 , \sigma_{Y}^2 , \rho )$, If $\sigma_X^2 =\sigma_Y^2$ and $0<\rho<1$, then 
+	A. the OLS regression of Y on X will yield a slope that is less than unity, and that of X on Y will yield a slope greater than unity 
+	B. the OLS regression of Y on X will yield a slope that is less than unity, and that of X on Y will yield a slope less than unity 
+	C. the OLS regression of Y on X will yield a slope that is greater than unity, and that of X on Y will yield a slope less than unity 
+	D. it is not possible to draw conclusions from given information
+	  
+16. Let $\neg$  denote the negation of a statement. Consider a set $X$ and a binary relation $\succ$ on $X$. Relation $\succ$ is said to be irreflexive if $\neg (x \succ x)$ for every $x \in  X$. Relation $\succ$ is said to be transitive if, for all $x, y, z \in  X$, $x \succ y$ and $y \succ z$ implies $x \succ z$. If is asymmetric (i.e., for all $x, y\in  X$, $x \succ y$ implies $\neg (y \succ x)$ and negatively transitive (i.e., for all $x, y, z\in  X$, $x \succ y$ implies $x\succ z$, or $z \succ y$, or both), then $\succ$ is 
+	A. irreflexive, but not transitive 
+	B. transitive, but not irreflexive 
+	C. irreflexive and transitive 
+	D. neither transitive nor irreflexive
+	
+17. Let $\neg$  denote the negation of a statement. Consider a set $X$ and a binary relation $\succ$ on $X$. Relation $\succ$ is said to be irreflexive if $\neg (x \succ x)$ for every $x \in  X$. Relation $\succ$ is said to be transitive if, for all $x, y, z \in  X$, $x \succ y$ and $y \succ z$ implies $x \succ z$. If is asymmetric (i.e., for all $x, y\in  X$, $x \succ y$ implies $\neg (y \succ x)$ and negatively transitive (i.e., for all $x, y, z\in  X$, $x \succ y$ implies $x\succ z$, or $z \succ y$, or both), then $\succ$ is 
+	A. is not total 
+	B. is total 
+	C. may not be total 
+	D. is not total over a nonempty subset of $X$
+
+18. Let $\neg$  denote the negation of a statement. Consider a set $X$ and a binary relation $\succ$ on $X$. Relation $\succ$ is said to be irreflexive if $\neg (x \succ x)$ for every $x \in  X$. Relation $\succ$ is said to be transitive if, for all $x, y, z \in  X$, $x \succ y$ and $y \succ z$ implies $x \succ z$. If is asymmetric (i.e., for all $x, y\in  X$, $x \succ y$ implies $\neg (y \succ x)$ and negatively transitive (i.e., for all $x, y, z\in  X$, $x \succ y$ implies $x\succ z$, or $z \succ y$, or both), then $\succ$ is 
+	A. is not transitive over a nonempty subset of $X$ 
+	B. is not transitive 
+	C. may not be transitive 
+	D. is transitive
+
+19. Let $\neg$  denote the negation of a statement. Consider a set $X$ and a binary relation $\succ$ on $X$. Relation $\succ$ is said to be irreflexive if $\neg (x \succ x)$ for every $x \in  X$. Relation $\succ$ is said to be transitive if, for all $x, y, z \in  X$, $x \succ y$ and $y \succ z$ implies $x \succ z$. If is asymmetric (i.e., for all $x, y\in  X$, $x \succ y$ implies $\neg (y \succ x)$ and negatively transitive (i.e., for all $x, y, z\in  X$, $x \succ y$ implies $x\succ z$, or $z \succ y$, or both), then $\succ$ is 
+	A. is transitive 
+	B. is not transitive 
+	C. may not be transitive 
+	D. is not transitive over a nonempty subset of $X$
+
+20. Let $\neg$  denote the negation of a statement. Consider a set $X$ and a binary relation $\succ$ on $X$. Relation $\succ$ is said to be irreflexive if $\neg (x \succ x)$ for every $x \in  X$. Relation $\succ$ is said to be transitive if, for all $x, y, z \in  X$, $x \succ y$ and $y \succ z$ implies $x \succ z$. If is asymmetric (i.e., for all $x, y\in  X$, $x \succ y$ implies $\neg (y \succ x)$ and negatively transitive (i.e., for all $x, y, z\in  X$, $x \succ y$ implies $x\succ z$, or $z \succ y$, or both), then $\succ$ is 
+	A. is symmetric 
+	B. is not symmetric 
+	C. may not be symmetric 
+	D. is not symmetric over a nonempty subset of $X$
+
+21. Consider the following game for players 1 and 2. Player 1 moves first and chooses L or R. If she chooses L, then the game ends and the payoffs are $(1, 0)$, where the first entry is 1’s payoff and the second entry is 2’s payoff. If she chooses R, then 2 chooses U or D. If she chooses U, then the game ends and the payoffs are $(0, 2)$. If she chooses D, then 1 chooses L or R. If she chooses L, then the game ends and the payoffs are $(4, 0)$. If she chooses R, then the game ends and the payoffs are $(3, 3)$. This game has 
+	A. one Nash equilibrium in pure strategies 
+	B. two Nash equilibrium in pure strategies 
+	C. three Nash equilibrium in pure strategies 
+	D. no Nash equilibrium in pure strategies
+
+22. Consider the following game for players 1 and 2. Player 1 moves first and chooses L or R. If she chooses L, then the game ends and the payoffs are $(1, 0)$, where the first entry is 1’s payoff and the second entry is 2’s payoff. If she chooses R, then 2 chooses U or D. If she chooses U, then the game ends and the payoffs are $(0, 2)$. If she chooses D, then 1 chooses L or R. If she chooses L, then the game ends and the payoffs are $(4, 0)$. If she chooses R, then the game ends and the payoffs are $(3, 3)$. This game has  
+	A. one subgame perfect Nash equilibrium 
+	B. two subgame perfect Nash equilibrium 
+	C. three subgame perfect Nash equilibrium 
+	D. no subgame perfect Nash equilibrium
+	
+23. In a non-cooperative game, if a profile of strategies 
+	A. is a Nash equilibrium, then it is an equilibrium in dominant strategies 
+	B. is a Nash equilibrium, then it is a subgame perfect equilibrium 
+	C. is a Nash equilibrium, then it is a sequential equilibrium 
+	D. is an equilibrium in dominant strategies, then it is a Nash equilibrium
+	
+24. If player 1 is the row player and player 2 is the column player in games $$\begin{array}{cc} G = \begin{array}{ccc} & L & R \\ U & a,b & c,d \\ D & e,f & g,h \end{array} && G' = \begin{array}{cccc} & L & M & R \\ U & a,b & \alpha, \beta & c,d \\ D & e,f &\gamma,\delta &g,h \end{array}\end{array}$$then
+	A. 2s payoff in a Nash equilibrium of $G'$ cannot be less than 2s payoff in a Nash equilibrium of $G$
+	B. 2s payoff in a Nash equilibrium of $G$ cannot be less than 2s payoff in a Nash equilibrium of $G''$
+	C. 2s payoff in a Nash equilibrium of $G$ must be equal to 2s payoff in a Nash 	equilibrium of $G$
+	D. 2s payoff in a Nash equilibrium of $G$ may be higher than 2s payoff in a Nash 	equilibrium of $G''$ 
+
+25. Consider an exchange economy with agents 1 and 2 and goods $x$ and $y$. Agent 1 lexico-graphically prefers $x$ to $y$, i.e., between two non-identical bundles of $x$ and $y$, she strictly prefers the bundle with more of $x$, but if the bundles have the same amount of $x$, then she strictly prefers the bundle with more of $y$. Agent 2’s utility function is $u_2 (x, y) =x+y$. Agent 1’s endowment is $(\omega_x^1 , \omega_y^1 ) = (0, 10$) and Agent 2’s endowment is $(\omega^2_x, \omega^2_y) = (10, 0)$. The set of competitive equilibrium price ratios $\frac{p_x}{p_y}$ for this economy is 
+	A. $\{ 1 \}$
+	B. $[0, 1]$
+	C. $(0, 1]$
+	D. $\phi$
+
+26. Consider an exchange economy with agents 1 and 2 and goods $x$ and $y$. Agent 1 lexicographically prefers $y$ to $x$, i.e., between two non-identical bundles of $x$ and $y$, she strictly prefers the bundle with more of $y$, but if the bundles have the same amount of $y$, then she strictly prefers the bundle with more of $x$. Agent 2’s utility function is $u_2 (x, y) =x+y$. Agent 1’s endowment is $(\omega_x^1 , \omega_y^1 ) = (0, 10$) and Agent 2’s endowment is $(\omega^2_x, \omega^2_y) = (10, 0)$. The set of competitive equilibrium price ratios $\frac{p_x}{p_y}$ for this economy is 
+	A. $\{ 1 \}$
+	B. $[0, 1]$
+	C. $(0, 1]$
+	D. $\phi$
+	
+27. Consider an exchange economy with goods $x$ and $y$, and agents 1 and 2, whose endowments are $(\omega^1_x, \omega^1_y) = (0, 9)$ and $(\omega^2_x, \omega^2_y ) = (10, 0)$ respectively. The utility functions of 1 and 2 are $u_1 (x, y) = min\{x, y\}$ and $u_2 (x, y) = min\{x, y\}$ respectively. The competitive equilibrium price ratio $\frac{p_x}{p_y}$ for this economy is 
+	A. $\frac{9}{10}$
+	B.$\frac{10}{9}$
+	C. $1$ 
+	D. $0$
+
+28. Consider an exchange economy with goods $x$ and $y$, and agents 1 and 2, whose endowments are $(\omega^1_x, \omega^1_y) = (0, 9)$ and $(\omega^2_x, \omega^2_y ) = (10, 0)$ respectively. The utility functions of 1 and 2 are $u_1 (x, y) = min\{x, y\}$ and $u_2 (x, y) = min\{x, y\}$ respectively. The competitive equilibrium allocations are 
+	A. 1 gets $(10−x, 9 −y)$ and 2 gets $(x, y)$ where $x\in [9, 10]$ and $y= 9$
+	B. 1 gets $(x, y)$ and 2 gets $(10−x, 9 −y)$ where $x\in [9, 10]$ and $y= 9$ 
+	C. 1 gets $(x, y)$ and 2 gets $(9−x, 10 −y)$ where $x\in [8, 9]$ and $y= 10$ 
+	D. 1 gets $(x, y)$ and 2 gets $(9−x, 10 −y)$ where $x= 9$ and $y\in [9, 10]$
+  
+29. Consider an exchange economy with goods $x$ and $y$, and agents 1 and 2, whose endowments are $(\omega^1_x, \omega^1_y) = (0, 9)$ and $(\omega^2_x, \omega^2_y ) = (10, 0)$ respectively. The utility functions of 1 and 2 are $u_1 (x, y) = min\{x, y\}$ and $u_2 (x, y) = min\{x, y\}$ respectively. The allocation that gives $(10, 9)$ to 1 and $(0, 0)$ to 2 is 
+	A. Pareto efficient but not a competitive equilibrium allocation 
+	B. neither Pareto efficient nor a competitive equilibrium allocation 
+	C. a competitive equilibrium allocation that is Pareto efficient 
+	D. a competitive equilibrium allocation that is not Pareto efficient
+
+30. Given a non-empty set $C\subset \mathbb{R}_n$, for every $p\in  \mathbb{R}^n_+$, let $c(p)\in  C$ be such that $p \cdot c(p) \leq p \cdot c$ for every $c\in  C$. Then, the function $e : \mathbb{R}^n_+→\mathbb{R}$ given by $e(p) =p \cdot c(p)$ is 
+	A. linear 
+	B. convex 
+	C. concave 
+	D. quasi-convex
+  
+31. Given a non-empty set $C\subset \mathbb{R}_n$, for every $p\in  \mathbb{R}^n_+$, let $c(p)\in  C$ be such that $p \cdot c(p) \leq p \cdot c$ for every $c\in  C$. Then, the function $e : \mathbb{R}^n_+→\mathbb{R}$ given by $e(p) =p \cdot c(p)$ is 
+	A. homogeneous of degree 0 
+	B. homogeneous of degree 1 
+	C. homogeneous of degree $\infty$ 
+	D. non-homogeneous
+  
+32. Suppose $u : \mathbb{R}→ \mathbb{R}_+$ is strictly increasing and has the supremum (i.e., least upper 
+  bound) $\alpha\in  R$. Then the function $x \rightarrow \frac{u(x)}{\alpha-u(x)}$ is 
+	A. not well defined for some $x \in  R$ 
+	B. bounded above 
+	C. unbounded above 
+	D. not strictly increasing
+	
+33. The interval $[0, \infty)$ can be expressed as 
+	A. $\cap^\infty_{n=1}(a_n, \infty)$ where each $a_n$ is a rational number 
+	B. $\cup^\infty_{n=1}(a_n, b_n]$ where $a_n$ and $b_n$ is a real number 
+	C. $\cap^\infty_{n=1}[a_n, b_n]$ where each $a_n$ and $b_n$ is an irrational number 
+	D. All of these
+	
+34. If $f:\mathbb{R}^2 →\mathbb{R}$ is given by
+$$f(x, y) = \left\{ \begin{array}{ll} \frac{xy}{x^2+y^2}, & \mbox{for } xy \neq 0 \\ 0, &\mbox{for } xy=0  \end{array} \right\} $$
+then
+	A. f is differentiable at $(0, 0)$ and both partial derivatives at $(0, 0)$ are 0
+	B. f is non-differentiable at $(0, 0)$ and both partial derivatives at $(0, 0)$ are 0
+	C. f is differentiable at $(0, 0)$ and neither partial derivatives at $(0, 0)$ is 0
+	D. f is non-differentiable at $(0, 0)$ and neither partial derivatives at $(0, 0)$ exist
+
+35. Suppose $f$ is a twice-differentiable function that solves the differential equation $D^2 f− Df−f−1 = 0$ over $\mathbb{R}$ and satisfies the condition $f(0) = 0 =f(k)$ for some $k >0$. Then, 
+	A. $f$ has positive and negative values over $(0, k)$
+	B. $f$ has only positive values over $(0, k)$
+	C. $f$ has only negative values over $(0, k)$
+	D. $f=−1$ on $(0, k)$
+
+36. Let $\mathbf{B}$ be the collection of sets $E \subset \mathbb{R}$ satisfying: for every $x\in E$, there exist real numbers $a$ and $b$ such that $a < b$ and $x\in (a, b)\subset E$. Let $C$ be the collection of sets $E\subset \mathbb{R}$ satisfying: for every $x\in E$, there exist rational numbers $a$ and $b$ such that $a < b$ and $x\in (a, b)\subset E$, then 
+	A. $\mathbf{B} \subset C$ and $\mathbf{B} \neq C$ 
+	B. $C \subset \mathbf{B}$ and $\mathbf{B} \neq C$
+	C. $\mathbf{B}=C$
+	D. Neither $\mathbf{B} \subset C$ nor $C \subset \mathbf{B}$
+  
+37. The set $\{(x, y) \in \mathbb{R}^2 |x > 0$ and $y \leq ln(x) − e^x \}$ is 
+	A. a linear subspace of $\mathbb{R}^2$ 
+	B. convex 
+	C. non-convex 
+	D. convex polytope
+  
+38. Suppose the distance between $x, y\in \mathbb{R}$ is $|x−y|$ and $f:\mathbb{R}→\mathbb{R}$ is a continuous function. If $E$ is an open subset of $\mathbb{R}$, then $\{x\in \mathbb{R}:f(x)\in E\}$ is 
+	A. an open subset of $\mathbb{R}$ 
+	B. a closed subset of $\mathbb{R}$ 
+	C. neither an open nor a closed subset of $\mathbb{R}$  
+	D. an open and closed subset of $\mathbb{R}$ 
+  
+39. Which of the following two numbers is larger for $k \neq 0: e^{k\pi} or \pi^{ke}$ 
+  A. $e^{k\pi}$
+  B. $\pi^{ke}$
+  C. They are equal 
+  D. It depends on the value of k
+  
+40. Consider the matrix $A=\begin{pmatrix}cos\theta & -sin\theta \\ sin\theta & cos\theta \end{pmatrix}$ where $\theta \in (0, 2 \pi)$ The inner product of vectors $v= (v_1 , v_2 )$ and $w= (w_1 , w_2 )$ in $\mathbb{R}^2$ is defined by $< v, w >=v_1 w_1 +v_2 w_2$. So, for the vectors $v$ and $w$ in $\mathbb{R}^2$
+	A. $< Av, Aw >=< v, w >$
+	B. $< Av, Aw >>< v, w >$
+	C. $< Av, Aw ><< v, w >$
+	D. The comparison of $< Av, Aw >$ and $< v, w >$ depends on $\theta$ 
+
+41. Let b $\lfloor x \rfloor$ be the greatest integer that is less than or equal to $x \in \mathbb{R}$. The function $f:\mathbb{R}→\mathbb{R}$ , defined by $f(x) =x−\lfloor x \rfloor\ for\ x \in \mathbb{R}$ is 
+	A. left-discontinuous at an integer 
+	B. right-discontinuous at an integer 
+	C. left discontinuous and right-discontinuous at an integer 
+	D. discontinuous everywhere
+  
+42. Let $\lceil x \rceil$ be the smallest integer that is greater than or equal to $x\in \mathbb{R}$. The function 
+  $f:\mathbb{R}→\mathbb{R}$, defined by $f(x) =\lceil x \rceil −x\ for\ x \in \mathbb{R}$ is 
+	A. left-discontinuous at an integer 
+	B. right-discontinuous at an integer 
+	C. left discontinuous and right-discontinuous at an integer 
+	D. discontinuous everywhere
+  
+43. Let b $\lfloor x \rfloor$ be the greatest integer that is less than or equal to $x \in \mathbb{R}$. Let $\lceil x \rceil$ be the smallest integer that is greater than or equal to $x\in \mathbb{R}$. The function $f:\mathbb{R}→\mathbb{R}$ , defined by $f(x) =\lceil x \rceil −\lfloor x \rfloor\ for\ x \in \mathbb{R}$ is 
+	A. left-discontinuous at an integer 
+	B. right-discontinuous at an integer 
+	C. left discontinuous and right-discontinuous at an integer 
+	D. discontinuous everywhere
+  
+44. If $A=\{(x, y)\in \mathbb{R}^2 :x \geq 0 , y \geq 0 , xy \geq 1 \}$, $B=\{(x, y)\in \mathbb{R}^2 :x \leq 0 , y \geq 0 , xy \leq − 1 \}$ and $C=\{a+b:a\in A, b\in B\}$ Then, 
+	  A. $\{(x, y)\in \mathbb{R}^2 :x= 0, y \geq 0 \}\subset C$
+	  B. $\{(x, y)\in \mathbb{R}^2 :x= 0, y > 0 \}\subset C$ 
+	  C. $\{(x, y)\in \mathbb{R}^2 :x \geq 0 , y= 0\}\subset C$ 
+	  D. $\{(x, y)\in \mathbb{R}^2 :x > 0 , y= 0\}\subset C$
+	  
+45. Consider a 4×4 -matrix A. Obtain matrix B from matrix A by performing the following operations in sequence: (1) Interchange the first and fourth columns, and then (2) Interchange the second and fourth rows. Then, 
+	  A. $detA=detB$
+	  B. $detA \neq detB$
+	  C. $detB \leq 0$ 
+	  D. $detB > 0$
+  
+46. The maximum value of $f(x, y) =xy$ subject to $|x| \geq |y| \mbox{ and } |x|+|y| \leq 1$ is
+	A.$\frac{1}{4}$
+	B. $\frac{1}{2}$
+	C. $4$
+	D. $2$
+
+47. Consider a decreasing differentiable function $g: \mathbb{R}_+\rightarrow \mathbb{R}_+$ and an increasing continuous function $f: \mathbb{R}_+\rightarrow \mathbb{R}_+$. If $F: \mathbb{R}_+\rightarrow \mathbb{R}_+$ satisfies $F(x) =\int_0^{g(x)} {f(t)dt}$ for every $x\in \mathbb{R}$, then $F$ is
+	A. increasing over $[0, a]$ and decreasing over $[a, \infty)$ for some $a > 0$
+	B. decreasing over $[0, a]$ and increasing over $[a, \infty)$ for some $a > 0$
+	C. increasing
+	D. decreasing
+
+48. If $f:\mathbb{R}→\mathbb{R}$ and $g:\mathbb{R}→\mathbb{R}$ are defined by
+$$f(x) = \left\{ 
+\begin{array}{ll}
+0, & \mbox{if } x \mbox{ is rational} \\ 
+x, & \mbox{if } x \mbox{ is irrational} 
+\end{array}
+\right\}$$
+and 
+$$g(x) = \left\{ 
+\begin{array}{ll}
+0, & \mbox{if } x \mbox{ is irrational} \\ 
+x, & \mbox{if } x \mbox{ is rational} 
+\end{array}
+\right\}$$
+Then, $h:\mathbb{R}→\mathbb{R}$, defined by $h(x) =f(x)−g(x)$ is
+	A. injective but not surjective
+	B. surjective but not injective
+	C. neither injective nor surjective
+	D. bijective
+
+49. Given nonempty subsets of $\mathbb{R}^2$ , say $Y_1 , \cdots, Y_n$, let $Y^* =\{ \sum_{i=1}^n y_i | y_1 \in Y_1, \cdots, y_n \in Y_n \}$. Fix $p \in \mathbb{R}^2$. For a non-empty set $X \subset \mathbb{R}^2$, let $v(p,X) = sup\{p\cdot x| x\in X \}$. Suppose there exists $y^* = Y^*$ such that $py^*=v(p,Y^*)$ and for every $i \in \{1,2, \dots ,n\}$, there exists $y_i \in Y_i$ such that $py_i = v(p, Y_i)$. Then,
+  A. $v(p,Y^*)<\sum_{i=1}^{n} v(p,Y_i)$ or $v(p,Y^*)>\sum_{i=1}^{n} v(p,Y_i)$
+  B. $v(p,Y^*)=\sum_{i=1}^{n} v(p,Y_i)$
+  C. $v(p,Y^*)<\sum_{i=1}^{n} v(p,Y_i)$
+  D. $v(p,Y^*)>\sum_{i=1}^{n} v(p,Y_i)$
+  
+50. If $A =\begin{bmatrix}1 & 0 & 0 & 0 \\ 2 & 2 & 0 & 0 \\ 3 & 2 & -2 & 0 \\ 4 & 3 & 2 & -1 \end{bmatrix}$ and $A^T$ is transpose of $A$, then $det(A^TA)$ is
+	A. 16
+	B. -16
+	C. 4
+	D. -4
+

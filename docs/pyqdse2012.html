@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ DSE 2012</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ DSE 2012</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<p>DSE 2012</p>
+<ol style="list-style-type: decimal">
+<li>A rural landowner can deposit his savings in a commercial bank and
+receive an annual  interest rate of 8%. Alternatively he can lend to
+villagers who need credit. If all loans are of the same size and only
+sixty per cent of them are repaid, the interest rate that would make his
+earnings the same as from depositing his savings in a bank is</li>
+</ol>
+<p>A. 8%</p>
+<p>B. 48%</p>
+<p>C. 80%</p>
+<p>D. 120%</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Consider a two-person two-good exchange economy, where agents are
+denoted by A,B and goods are denoted by X,Y. A Pareto optimal allocation
+of this economy maynot  remain Pareto optimal if</li>
+</ol>
+<p>A. Everything else remaining the same, Agent A transfers a part of
+her endowment to Agent B</p>
+<p>B. Everything else remaining the same, Agent A gets additional
+endowment</p>
+<p>C. Everything else remaining the same, Agent A’s utility function is
+monotonically transformed</p>
+<p>D. All of the above</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Given the same production function and market demand, a monopolist
+earns at least as much profit as a competitive firm in the short run,
+because</li>
+</ol>
+<p>A. Monopolist is free to charge the competitive market price</p>
+<p>B. Short run profit of a competitive firm is zero</p>
+<p>C. Marginal cost of a monopolist is smaller than that of a
+competitive firm</p>
+<p>D. Average cost of a monopolist is smaller than that of a competitive
+firm</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Mr. B thinks cheese is addictive - the more you eat, the more you
+want. Suppose x denotes the quantity of cheese. Mr. B’s utility function
+can be represented by</li>
+</ol>
+<p>A. <span class="math inline">\(u(x,y) =x^2 +y\)</span></p>
+<p>B. <span class="math inline">\(u(x,y) =\ln x+lny\)</span></p>
+<p>C.<span class="math inline">\(u(x,y) =x+y\)</span></p>
+<p>D. <span class="math inline">\(u(x,y) =min(x,y)\)</span></p>
+<ol start="5" style="list-style-type: decimal">
+<li>Sania and Saina are bargaining over how to split 10 Rupees. Both
+claimants simultaneously name shares they would like to have, <span
+class="math inline">\(s_1\)</span> and <span
+class="math inline">\(s_2\)</span> , where <span class="math inline">\(0
+\leq s_1 ,s_2  \leq 10\)</span>. If <span class="math inline">\(s_1
++s_2  \leq 10\)</span> then the claimants receive the shares they named;
+otherwise both receive zero. Findallpure strategy Nash Equilibria of
+this game</li>
+</ol>
+<ol style="list-style-type: upper-alpha">
+<li><p><span class="math inline">\(s_1 = 5,s_2 = 5\)</span></p></li>
+<li><p>{<span class="math inline">\((s_1 ,s_2 )|s_1 +s_2 =
+10\)</span>}</p></li>
+<li><p>{<span class="math inline">\((s_1 ,s_2 )|s_1 +s_2  \leq 
+10\)</span> }</p></li>
+<li><p>There is no pure strategy Nash equilibrium</p></li>
+</ol>
+<ol start="6" style="list-style-type: decimal">
+<li>“Developing new antibiotics is expensive. It is also known that the
+more frequently  bacteria are exposed to antibiotics, the more quickly
+the bacteria will develop resistance to the antibiotics. Yet, usually,
+each parent will press a doctor for an antibiotic if there  is any
+chance it will heal a child quicker than t without drugs.” The above
+statement can be best understood as a problem of</li>
+</ol>
+<p>A. Public good: Bacteria are public bad</p>
+<p>B. Adverse selection: Doctors have information that is not available
+to parents</p>
+<p>C. Risk aversion: Parents are risk averse</p>
+<p>D. Short-run utility maximization: Most parents are myopic; they fail
+to see the long run effect</p>
+<ol start="7" style="list-style-type: decimal">
+<li>If the correlation between variables X and Y is 0, then</li>
+</ol>
+<p>A. The regressions of Y onX andX onY intersect at right angles, and
+pass through (X,Y)</p>
+<p>B. The regressions ofY on X and X onY do not intersect at right
+angles but do pass through (X,Y)</p>
+<p>C. The regressions ofY onXandXonY intersect at right angles, but do
+not pass through (X,Y)</p>
+<p>D. The regressions ofY on X and X on Y do not intersect at right
+angles, and do not pass through (X,Y)</p>
+<ol start="8" style="list-style-type: decimal">
+<li>One reason why the sample median is used as an estimator of the
+population mean is  that</li>
+</ol>
+<p>A. The average of all sample medians equals the population mean</p>
+<p>B. The sample median equals the population mean</p>
+<p>C. The sample median is unaffected by extreme values</p>
+<p>D. The sample median occurs more often than the mode or the mean</p>
+<ol start="9" style="list-style-type: decimal">
+<li>SupposeXis a random variable, which follows Uniform <span
+class="math inline">\([− 1 ,1]\)</span> . Find the covariance between X
+and <span class="math inline">\(X^2\)</span></li>
+</ol>
+<p>A. 1</p>
+<p>B. <span class="math inline">\(\frac{1}{4}\)</span></p>
+<p>C. <span class="math inline">\(\frac{1}{8}\)</span></p>
+<p>D. 0</p>
+<ol start="10" style="list-style-type: decimal">
+<li>Which of the following statements is not an indicator that
+multicollinearity among two or more variables is present in a multiple
+regression model estimated using OLS:</li>
+</ol>
+<p>A. Small changes to the data can cause large changes to estimated
+coefficients</p>
+<p>B. Coefficients are estimated with bias</p>
+<p>C. The estimated coefficients have large standard errors even though
+the <span class="math inline">\(R^2\)</span> is high</p>
+<p>D. A test of joint significance of two or more coefficients is
+significant even though individually they are not significant</p>
+<ol start="11" style="list-style-type: decimal">
+<li>Given the linear regression <span class="math inline">\(Y = \alpha +
+\beta X\)</span> ; a very high correlation between variables X  andY
+necessarily implies that</li>
+</ol>
+<p>A. The slope coefficient is statistically significant</p>
+<p>B. The observations (x,y) lie along a straight line</p>
+<p>C. Small changes in X cause large changes in Y</p>
+<p>D. The regression line is steep</p>
+<ol start="12" style="list-style-type: decimal">
+<li>What would happen (other things being equal) to a confidence
+interval if you calculated a 99% confidence interval rather than a 95%
+confidence interval?</li>
+</ol>
+<p>A. It will be narrower</p>
+<p>B. It will not change</p>
+<p>C. The sample size will increase</p>
+<p>D. It will become wider</p>
+<ol start="13" style="list-style-type: decimal">
+<li>An n−gon is a regular polygon withnequal sides. Find the number of
+diagonals (edges  of an n−gon are not considered as diagonals) of a
+10-gon.</li>
+</ol>
+<p>A. 20 diagonals</p>
+<p>B. 25 diagonals</p>
+<p>C. 35 diagonals</p>
+<p>D. 45 diagonals</p>
+<ol start="14" style="list-style-type: decimal">
+<li><span class="math inline">\(\int_0^1 x^n \sin (x) dx\)</span></li>
+</ol>
+<p>A. Does not exist</p>
+<p>B. Is necessarily greater than 1</p>
+<p>C. Is greater than <span
+class="math inline">\(\frac{1}{n+1}\)</span></p>
+<p>D. Is less than <span
+class="math inline">\(\frac{1}{n+1}\)</span></p>
+<ol start="15" style="list-style-type: decimal">
+<li><span class="math inline">\(\lim_{n \to \infty} (\sqrt {(n−1)}−\sqrt
+n)\)</span></li>
+</ol>
+<p>A. Equals 1</p>
+<p>B. Equals 0</p>
+<p>C. Does not exist</p>
+<p>D. Depends on n</p>
+<ol start="16" style="list-style-type: decimal">
+<li>The equation <span class="math inline">\(x^7 =x+ 1\)</span></li>
+</ol>
+<p>A. Has no real solution</p>
+<p>B. Has no positive real solution</p>
+<p>C. Has a real solution in the interval (0,2)</p>
+<p>D. Has a real solution but not within (0,2)</p>
+<ol start="17" style="list-style-type: decimal">
+<li>The cumulative distribution function <span
+class="math inline">\(F(x)\)</span> of a random variable has a slope of
+1 for x in the interval <span class="math inline">\([0,1]\)</span> and
+takes a constant value thereafter. Which of the following statements
+most accurately defines the probability density function of X?</li>
+</ol>
+<p>A. It is zero in the interval <span
+class="math inline">\([0,1]\)</span> and 1 for all higher values of
+x</p>
+<p>B. It is 1 in the interval <span class="math inline">\([0,1]\)</span>
+and zero for all higher values of x</p>
+<p>C. It is increasing in the interval <span
+class="math inline">\([0,1]\)</span> and constant and positive for all
+higher values of x</p>
+<p>D. It is increasing in the interval <span
+class="math inline">\([0,1]\)</span> and zero for all higher values of
+x</p>
+<ol start="18" style="list-style-type: decimal">
+<li>A and B are two non empty sets. <span
+class="math inline">\(A−B=\)</span> {<span class="math inline">\(x \in
+A|x \in B\)</span> } and <span class="math inline">\(A+B= (A−B)\cup
+(B−A)\)</span> Consider the following statements:</li>
+</ol>
+<p>Statement 1: <span class="math inline">\(A+B=BimpliesA⊂B\)</span></p>
+<p>Statement 2: <span class="math inline">\(A+B=φ \ implies \
+A=B\)</span></p>
+<p>Statement 3: <span class="math inline">\(A+B=A∪B \ implies \
+A∩B=φ\)</span></p>
+<p>How many of the above statements are correct?</p>
+<p>A. 0</p>
+<p>B. 1</p>
+<p>C. 2</p>
+<p>D. 3</p>
+<ol start="19" style="list-style-type: decimal">
+<li>The short-run aggregate supply curve is upward sloping because</li>
+</ol>
+<p>A. A lower price level creates a wealth effect</p>
+<p>B. Lower taxes motivate people to work more</p>
+<p>C. Money wages do not immediately change when the price level
+changes</p>
+<p>D. Most business firms operate with long-term contracts for output
+but not labour</p>
+<ol start="20" style="list-style-type: decimal">
+<li>The investment demand curve shifts rightward if</li>
+</ol>
+<p>A. The expected profit rate increases</p>
+<p>B. The real interest rate falls</p>
+<p>C. Savers increase their thriftiness</p>
+<p>D. The economy moves into a recession</p>
+<ol start="21" style="list-style-type: decimal">
+<li>A firm producing hockey sticks in Punjab has a production function
+given by <span class="math inline">\(Q= 2\)</span> where <span
+class="math inline">\(K\)</span> stands for capital,L stands for labour
+and Q stands for output. The rental rate of capital is Rs 1 and the wage
+rate is Rs 4. What will be the firm’s cost function?</li>
+</ol>
+<p>A. 2Q</p>
+<p>B. Q</p>
+<p>C. <span class="math inline">\(Q^2\)</span></p>
+<p>D. <span class="math inline">\(2Q^2\)</span></p>
+<ol start="22" style="list-style-type: decimal">
+<li>Antony and Cleopatra run a food stall together. Their joint profit
+is 10 Rupees per month, from which, Antony gets <span
+class="math inline">\(I_A\)</span> Rupees and Cleopatra gets <span
+class="math inline">\(I_C\)</span> Rupees. Utility. functions of Antony
+and Cleopatra are <span class="math inline">\(U_A= \sqrt
+{I_aI_C}\)</span> and <span class="math inline">\(U_C=I_C\)</span> ,
+respectively. Consider the following divisions,</li>
+</ol>
+<p>Division 1: <span class="math inline">\(I_A= 7,I_C= 3\)</span><br />
+Division 2: <span class="math inline">\(I_A= 3,I_C= 7\)</span></p>
+<p>A. Both the divisions are Pareto optimal</p>
+<p>B. None of the divisions is Pareto optimal</p>
+<p>C. Only Division 1 is Pareto optimal</p>
+<p>D. Only Division 2 is Pareto optimal</p>
+<ol start="23" style="list-style-type: decimal">
+<li>Consider a homogenous goods market with the demand function <span
+class="math inline">\(Q= 30−P\)</span> , where Q  and P denote quantity
+and price respectively. There are two firms playing a price game  in the
+following manner: firm 1 quotes a price and then firm 2 chooses a price.
+When  they charge the same price they share the market equally and
+otherwise the market  demand goes to the firm charging lower price. Firm
+1 has a capacity constraint at the output level 5 units such that upto
+five units the marginal cost of production is Rs 3 pe  unit of output,
+however beyond 5 units it cannot produce any output. Firm 2 does not 
+have any capacity constraint, it can produce any amount with the
+marginal cost Rs 6.  What would be the equilibrium price in the
+market?</li>
+</ol>
+<p>A. 3</p>
+<p>B. 6</p>
+<p>C. <span class="math inline">\(6 - \epsilon\)</span> , where <span
+class="math inline">\(\epsilon\)</span> is very small positive
+number</p>
+<p>D. <span class="math inline">\(3 +\epsilon\)</span> , where <span
+class="math inline">\(\epsilon\)</span> is very small positive
+number</p>
+<ol start="24" style="list-style-type: decimal">
+<li>Consider the following two-player game. The players simultaneously
+draw one sample  each from a continuous random variable X, which follows
+Uniform <span class="math inline">\([0,100]\)</span> . After observing
+the value of her own sample, which is private information (that is,
+opponent  does not observe it), players simultaneously and independently
+choose one of the following: SWAP,RETAIN. If both the players chooseSWAP
+then they exchange their initially drawn numbers. Otherwise, if at least
+one person chooses RETAIN, both of them retain their numbers. A player
+earns as many Rupees as the number she is holding at the end of the
+game. Find the probability that the players will exchange their
+initially drawn numbers</li>
+</ol>
+<p>A. 1</p>
+<p>B. <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>C. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>D. 0</p>
+<ol start="25" style="list-style-type: decimal">
+<li>The productivity of a labourer depends on his daily wage. In some
+range of wage, the more he is paid, the better his health and the more
+work he is able to do in a given  day. Suppose that the relationship
+between productivity and daily wage is as follows.  No work is done for
+wage below Rs. 20 per day. Each rupee earned above 20 increases 
+productivity by 5 units until the daily wage is Rs. 140 per day. Beyond
+this level of wage, productivity is constant. If a farmer needs to hire
+labour for a total of 6000 units of work per day, how many labourers is
+he likely to hire?</li>
+</ol>
+<p>A. 4</p>
+<p>B. 5</p>
+<p>C. 6</p>
+<p>D. 10</p>
+<ol start="26" style="list-style-type: decimal">
+<li>Consider a society in which half the population earns 100 rupees per
+day and the other half earns 200 rupees per day. The Gini coefficient of
+inequality for this society is given  by</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>B. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>C. <span class="math inline">\(\frac{1}{6}\)</span></p>
+<p>D. $4</p>
+<ol start="27" style="list-style-type: decimal">
+<li>A and B live in an exchange economy. There are two goods X andY .
+Utility functions  of A and B are <span class="math inline">\(U_A(x,y)
+=x+y\)</span> and <span class="math inline">\(U_B(x,y) =x^2
++y^2\)</span> , respectively. A′s endowment  is 2 units of X and 1 unit
+of Y, while B′s endowment is 1 unit of X and 2 units of Y.  Consider the
+following allocations  Allocation 1:Agets 1.5 units of X and zero unit
+of Y, B gets 1.5 units of X and 3 units  of Y  Allocation 2: A gets 1.5
+units of Xand 1.5 unit of Y,B gets 1.5 units of X and 1.5 units of
+Y</li>
+</ol>
+<p>A. Both the allocations are Pareto optimal</p>
+<p>B. None of the allocations is Pareto optimal</p>
+<p>C. Only allocation 1 is Pareto optimal</p>
+<p>D. Only allocation 2 is Pareto optimal</p>
+<ol start="28" style="list-style-type: decimal">
+<li>Fill in the blanks: Given a downward sloping linear demand curve and
+constant margina cost curves, if a per unit tax is imposed on a
+monopoly, a monopoly will …… the quantity of its good and its revenue
+after tax will ……</li>
+</ol>
+<p>A. Increase ; Decrease</p>
+<p>B. Increase ; Increase</p>
+<p>C. Decrease ; Increase</p>
+<p>D. Decrease ; Decrease</p>
+<ol start="29" style="list-style-type: decimal">
+<li>The demand curve for electricity is <span class="math inline">\(D(p)
+= 120−p\)</span> . The marginal cost of electricity  production is <span
+class="math inline">\(MC_1 (q) = 20 +q\)</span>. The marginal cost of
+pollution due to electricity produc-  tion is <span
+class="math inline">\(MC_2 (q) = 3q\)</span> . Find the competitive
+equilibrium output and the social optimum output.</li>
+</ol>
+<p>A. 50;20</p>
+<p>B. 50;30</p>
+<p>C. 60;20</p>
+<p>D. 60;30</p>
+<ol start="30" style="list-style-type: decimal">
+<li>Suppose that there are two agents in an economy with income <span
+class="math inline">\(x_1 \ and \ x_2\)</span> . If the richer person
+transfers a portion of her income to the poorer person without changing
+the  income ranking (that is the rich remains richer even after the
+transfer) then it is called  aprogressive transfer. Welfare of this
+economy is measured by a function <span class="math inline">\(W(x_1 ,x_2
+).W\)</span>  is a ‘good’ measure of social welfare if the social
+welfare increases due to a progressive  transfer. Consider the following
+candidates for <span class="math inline">\(W; W_1 (x_1 ,x_2 ) =x_1 +x_2
+; W_2 (x_1 ,x_2 ) =x_1 x_2\)</span></li>
+</ol>
+<p>A. Only <span class="math inline">\(W_1\)</span> is a ‘good’
+measure</p>
+<p>B. Only <span class="math inline">\(W+2\)</span> is a ‘good’
+measure</p>
+<p>C. Both <span class="math inline">\(W_1\)</span> and <span
+class="math inline">\(W_2\)</span> are ‘good’ measures</p>
+<p>D. Neither <span class="math inline">\(W_1\)</span> nor <span
+class="math inline">\(W_2\)</span> is a ‘good’ measures</p>
+<ol start="31" style="list-style-type: decimal">
+<li>Consider the following model, estimated using OLS <span
+class="math inline">\(Y_i= \beta X_i+i; i= 1, 2 ,\dots ,n\)</span> where
+there is no intercept, and <span class="math inline">\(V ar(i)
+=\sigma^2\)</span> . Which of the following statements is not true?</li>
+</ol>
+<p>A. The <span class="math inline">\(R^2\)</span> from this regression
+can be large even if X and Y have low correlation.</p>
+<p>B. The least squares residuals need not sum to zero.</p>
+<p>C. The mean square error is given by <span
+class="math inline">\(\frac{\sum (Y_i−\hat Y)}{ 2(n−1)}\)</span></p>
+<p>D. The least squares estimator of the slope coefficient is given by:
+<span class="math inline">\(\frac{n \sum X_iY_i− \sum X_i \sum Y_i}{ n
+\sum X_i^2 −( \sum X_i)^2}\)</span></p>
+<ol start="32" style="list-style-type: decimal">
+<li>An analyst trying to estimate the demand for rice has estimated the
+following two models Model 1: <span class="math inline">\(D= 50 + 0. 3
+Y+ 0. 1 P+ 12N;R^2 = 0. 7\)</span> where D is the demand for rice per
+household,Y is income per household,P is the price of rice and N is
+household size. The standard errors associated with the coefficient Y is
+0 .1, that associated with P is 0.05, and of <span
+class="math inline">\(N_i\)</span> is 3. Model 2:<span
+class="math inline">\(\frac{D}{N}= 50 + 0. 2 \frac{Y}{N}− 0. 5 P;R^2 =
+0. 9\)</span> where the standard errors of the estimated slope
+coefficients are 0.1 and 0.2 respectively.  Which of the following
+statements is true?</li>
+</ol>
+<p>A. Model 2 is preferred to Model 1 because it has a higher <span
+class="math inline">\(R^2\)</span> .</p>
+<p>B. Model 1 is preferred to Model 2 because the coefficients are all
+signifcant.</p>
+<p>C. The two models are not comparable in terms of fit</p>
+<p>D. None of the above</p>
+<ol start="33" style="list-style-type: decimal">
+<li>Consider the regression <span class="math inline">\(Y_i^{∗}= \hat
+\beta_1^{∗}+ \hat\beta_2^{∗} X_i^{∗}+u_i^{∗}, \ and \ Y_i= \hat \beta_1
++ \hat \beta_2 X_i+u_i, \ where \ Y_i^{∗}=w_1 Y_i \ and \ X_i^{∗}=w_2
+X_i;w_1 ,w_2\)</span> are constants. Is it true that</li>
+</ol>
+<p>A.  <span class="math inline">\(\hat \beta_1^{∗}=w_2  \hat
+\beta_1\)</span></p>
+<p>B. <span class="math inline">\(\hat \beta_2^{∗}=(\frac{w_1}{w_2} )
+\hat \beta_2\)</span></p>
+<p>C. <span class="math inline">\(Var( \hat \beta_2^{∗}) =
+(\frac{w_1}{w_2} )^2 Var( \hat \beta_2 )\)</span></p>
+<p>D. <span class="math inline">\(r_{xy}^2 \neq r_{x*y*}^2\)</span> ,
+where r denotes correlation coefficient</p>
+<ol start="34" style="list-style-type: decimal">
+<li>For variables X and Y we have the data <span
+class="math inline">\(\sum XY = 350, \sum X = 50, \sum Y = 60,X =5
+,\sigma^2 X= 4,\sigma Y^2 = 9\)</span> , where X denotes the mean of X
+and <span class="math inline">\(\sigma^2\)</span> X denotes the variance
+of X. Which of the following holds</li>
+</ol>
+<p>A. A one unit change in X causes a 1.25 unit change in Y , and a one
+unit change inY causes a 0.6 unit change inX</p>
+<p>B. A one unit change in X causes a 0.6 unit change in Y , and a one
+unit change in Y causes a 1.25 unit change in X</p>
+<p>C. A 10% change in X causes a 15% change in Y</p>
+<p>D. The regression of Y on X passes through the origin</p>
+<ol start="35" style="list-style-type: decimal">
+<li>X is a normally distributed random variable with unknown mean <span
+class="math inline">\(\mu\)</span> and standard deviation equal to 2.
+The value of the sample mean from a random sample of size 25 is 10.
+Which of the following values lie within the 95% confidence interval for
+<span class="math inline">\(\mu\)</span> ?</li>
+</ol>
+<p>A. 9.3</p>
+<p>B. 9.8</p>
+<p>C. 10.6</p>
+<p>D. All of the above</p>
+<ol start="36" style="list-style-type: decimal">
+<li>An econometrician uses data from the Consumer Expenditure Survey
+conducted by the  National Sample Survey Organization for the years 1991
+and 2001 and plots the cumulative distribution function for real
+consumer expenditure per capita for these years. He  finds that
+cumulative distribution function for 2001 is everywhere to the right of
+that  for 1991. Consider the following,</li>
+</ol>
+<p>Conclusion 1: The Gini coefficient for 2001 is higher than for
+1991</p>
+<p>Conclusion 2: Consumption expenditure of every individual has
+increased in 2001 compared to 1991</p>
+<p>Conclusion 3: Real consumption expenditure per capita has increased
+in 2001 compared to 1991</p>
+<p>Which of the above conclusions are correct</p>
+<p>A. Only (iii) is correct</p>
+<p>B. (i) and (ii) are correct</p>
+<p>C. (ii) and (iii) are correct</p>
+<p>D. None of the conclusions is correct</p>
+<ol start="37" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(X_1 ,X_2 ,\dots ,X_n\)</span> be
+random samples from a normal distribution with parameters <span
+class="math inline">\(\mu\)</span>  and <span
+class="math inline">\(\sigma^2\)</span> . Then the random variable <span
+class="math inline">\(\frac{(n−1)S^2}{\sigma^2} =\frac{1}{\sigma^2}
+\sum_{i=1}^n (X_i−\bar X)^2\)</span> has a chi-squared <span
+class="math inline">\(\hat X_{v,n-1}^2\)</span>distribution with n−1
+degrees of freedom. Here X denotes the mean of <span
+class="math inline">\(X_1 ,X_2 ,\dots ,X_n\)</span> . Suppose area under
+a chi-squared curve with n−1 degrees of freedom to the right of <span
+class="math inline">\(χ_{v,n− 1}^2\)</span> is v. A <span
+class="math inline">\(100(1− \alpha )\)</span> % confidence interval for
+the variance <span class="math inline">\(\sigma^2\)</span> is</li>
+</ol>
+<pre><code>insert options</code></pre>
+<ol start="38" style="list-style-type: decimal">
+<li>Suppose you have 500 observations and you regress wage (measured in
+rupees per hour)  on experience in the labour market,exper(measures in
+years), and on experience in the labour market squared, (exper 2 ). Your
+estimated OLS equation is</li>
+</ol>
+<p><span class="math display">\[w\hat age  = 3.73 + 0. 298 \ exper− 0.
+0061 \ exper^2\]</span></p>
+<pre><code>insert s errors</code></pre>
+<p>where the standard errors are in brackets. The estimated equation
+implies</p>
+<p>A. The returns to experience is strictly increasing</p>
+<p>B. The returns to experience is strictly diminishing</p>
+<p>C. The returns to experience is constant</p>
+<p>D. Experience has no statistically significant effect on wage</p>
+<ol start="39" style="list-style-type: decimal">
+<li>Suppose you have a sample of size one from one of the following
+densities</li>
+</ol>
+<p><span class="math display">\[H_0 :f(x) = 2x \ 0\leq x\leq 
+1\]</span></p>
+<p><span class="math display">\[H_1 :f(x) = 2− 2x \ 0\leq x\leq 
+1\]</span></p>
+<p>Let <span class="math inline">\(\alpha\)</span> and <span
+class="math inline">\(\beta\)</span> denote type I error and type II
+error, respectively. Find the test procedure of the form “Reject <span
+class="math inline">\(H_0\)</span> if x &lt; k” with <span
+class="math inline">\(\alpha = 0.09\)</span> . Find <span
+class="math inline">\(\beta\)</span> for this test.</p>
+<p>A. k= 0. 5 , = 0. 25</p>
+<p>B.k= 0. 5 , = 0. 36</p>
+<p>C.k= 0. 3 , = 0. 16</p>
+<p>D. k= 0. 3 , = 0. 49</p>
+<ol start="40" style="list-style-type: decimal">
+<li>An urn contains equal number of green and red balls. Suppose you are
+playing the following game. You draw one ball at random from the urn and
+note its colour. The ball is then placed back in the urn, and the
+selection process is repeated. Each time a green ball is picked you get
+1 Rupee. Thefirsttime you pick a red ball, you pay 1 Rupee and  the game
+ends. Your expected income from this game is</li>
+</ol>
+<p>A. <span class="math inline">\(\infty\)</span></p>
+<p>B. Positive but finite</p>
+<p>C. Zero</p>
+<p>D. Negative</p>
+<ol start="41" style="list-style-type: decimal">
+<li>Two women and four men are to be seated randomly around a circular
+table. Find the probability that the women are not seated next to each
+other.</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>B. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>C. <span class="math inline">\(\frac{2}{5}\)</span></p>
+<p>D. <span class="math inline">\(\frac{3}{5}\)</span></p>
+<ol start="42" style="list-style-type: decimal">
+<li>A fair coin is tossed until a head comes up for the first time. The
+probability of this happening on an odd-numbered toss is</li>
+</ol>
+<p>A. <span class="math inline">\(\frac{1}{2}\)</span></p>
+<p>B. <span class="math inline">\(\frac{1}{3}\)</span></p>
+<p>C. <span class="math inline">\(\frac{2}{3}\)</span></p>
+<p>D. <span class="math inline">\(\frac{3}{4}\)</span></p>
+<ol start="43" style="list-style-type: decimal">
+<li>An experiment has 10 equally likely outcomes. LetAandBbe two
+non-empty events of the experiment. If A consists of 4 outcomes, then
+the number of outcomes B must have so that A and B are independent,
+is</li>
+</ol>
+<p>A. 4</p>
+<p>B. 3 or 9</p>
+<p>C. 6</p>
+<p>D. 5 or 10</p>
+<ol start="44" style="list-style-type: decimal">
+<li>Consider the system of equations</li>
+</ol>
+<p><span class="math inline">\(\alpha x+ \beta y= 0\)</span></p>
+<p> <span class="math inline">\(\mu x+vy= 0\)</span></p>
+<p><span class="math inline">\(\alpha , \beta , \mu \ and v\)</span> are
+<span class="math inline">\(i.i.d\)</span> random variable. Each of them
+takes value 1 and 0 with equal probability.</p>
+<p>Statement A: The probability that the system of equations has a
+unique solution is <span class="math inline">\(\frac{3}{8}\)</span></p>
+<p>Statement B: The probability that the system of equations has at
+least one solution is 1.</p>
+<p>A. Both the statements are correct</p>
+<p>B. Both the statements are false</p>
+<p>C. Statement A is correct but B is false</p>
+<p>D. Statement B is correct but A is false</p>
+<ol start="45" style="list-style-type: decimal">
+<li><span class="math inline">\(f(x,y) =x+y+xy \  where \ x,y \in
+R_{++}\)</span> . For <span class="math inline">\(c \in R_{++}\)</span>
+, let us define</li>
+</ol>
+<p>L={<span class="math inline">\((x,y) \in R^2 |f(x,y) \leq
+c\)</span>}</p>
+<p>U={<span class="math inline">\((x,y) \in R^2 |f(x,y)\geq
+c\)</span>}</p>
+<p>I={<span class="math inline">\((x,y) \in R^2 |f(x,y) =c\)</span>}</p>
+<p>Which of the above sets are convex?</p>
+<ol style="list-style-type: upper-alpha">
+<li>L</li>
+</ol>
+<p>B. U</p>
+<p>C. I</p>
+<ol start="4" style="list-style-type: upper-alpha">
+<li>All of them</li>
+</ol>
+<ol start="46" style="list-style-type: decimal">
+<li>What is the total number of local maxima and local minima of the
+following function</li>
+</ol>
+<pre><code>insert function</code></pre>
+<p> A. 1    B. 2    C. 3</p>
+<p> D. 4</p>
+<ol start="47" style="list-style-type: decimal">
+<li>Suppose that <span class="math inline">\(f(x)\)</span> is twice
+differentiable and strictly concave in x. Define, <span
+class="math inline">\(g(x) = \lim_{t\to x}
+\frac{f(c+t)-f(c+x)}{t-x}\)</span></li>
+</ol>
+<p>where c is a constant. Then g(x) is</p>
+<p>A. Decreasing function</p>
+<p>B. Increasing function</p>
+<p>C. Decreasing function when c &gt;0 and increasing function when
+<span class="math inline">\(c &lt; 0\)</span></p>
+<p>D. Increasing function when c &gt;0 and decreasing function when
+<span class="math inline">\(c &lt; 0\)</span></p>
+<ol start="48" style="list-style-type: decimal">
+<li>A rectangle has its lower left hand corner at the origin and its
+upper right hand corner on the graph off(x) =x^2 + (1/x^2 ). For
+whichxis the area of the rectangle minimized?</li>
+</ol>
+<p>A. <span class="math inline">\(x= 0\)</span></p>
+<p>B. <span class="math inline">\(x=\infty\)</span></p>
+<p>C. <span class="math inline">\(x= (\frac{1}{3})^{\frac{1
+}{4}}\)</span></p>
+<p>D. <span class="math inline">\(x=2^{\frac{1}{3}}\)</span></p>
+<ol start="49" style="list-style-type: decimal">
+<li>The real valued function <span class="math inline">\(f(x) =x+|x|+
+(x−1) +|x− 1 |,\ where \ |x|,|x− 1 |\)</span> stand for  absolute
+values</li>
+</ol>
+<p>A. Is differentiable everywhere except at x= 0</p>
+<p>B. Is not continuous at 0</p>
+<p>C. Is not differentiable at 1</p>
+<p>D. Is not continuous at 1</p>
+<ol start="50" style="list-style-type: decimal">
+<li>Let <span class="math inline">\(x= (x_1 ,x_2 ,\dots ,x_n) \ and \ y=
+(y_1 ,y_2 ,\dots ,y_n)\)</span> be two vectors in <span
+class="math inline">\(R_n\)</span> . Define, <span
+class="math inline">\(x⊗y= \sum_{i=1}^n x_i|y_i|\)</span> , where <span
+class="math inline">\(|y_i|\)</span> stands for absolute value. How many
+of the following statements are correct</li>
+</ol>
+<p> Statement 1:<span class="math inline">\(x⊗y=y⊗x\)</span></p>
+<p> Statement 2:<span class="math inline">\(x⊗x= 0\)</span> implies
+<span class="math inline">\(x= (0, 0 ,\dots ,0)\)</span></p>
+<p> Statement 3:<span class="math inline">\(x⊗(c,y) =c(x⊗y) , \ where \
+c \in R_{++} \ and \ c.y= (cy_1 ,cy_2 ,\dots ,cy_n)\)</span></p>
+<p>A. 0</p>
+<p>B. 1</p>
+<p>C. 2</p>
+<p>D. 3</p>
+<p>The following set of information is relevant for the next six
+questions. Consider an economy where the nominal wage rate is set by a
+process of wage bargaining between the workers and the producers before
+actual production takes place. Thus at any period t, the nominal wage
+rate <span class="math inline">\((W_t)\)</span> is a function of the
+expected price level <span class="math inline">\((P_t^e)\)</span> , the
+rate of unemployment <span class="math inline">\((u_t)\)</span> and the
+average productivity of the workers <span
+class="math inline">\((A_t)\)</span> . The exact functional relationship
+is given below:</p>
+<p><span class="math inline">\(W_t=P_t^e \ F(u_t,A_t) ; F_u&lt;0;F_A&gt;
+0\)</span></p>
+<p>Once the nominal wage is determined, the producers set the actual
+price level <span class="math inline">\((P_t)\)</span> as a constant
+mark up <span class="math inline">\(( \mu )\)</span> over the nominal
+wage rate: <span class="math inline">\(P_t= (1 + \mu )W_t\)</span> .
+Define the actual rate of inflation as <span
+class="math inline">\(\pi_t=\frac{P_t^e-P_{t-1}}{P_{t- 1}}\)</span> and
+the expected rate of inflation as <span
+class="math inline">\(\pi_t^e=\frac{P_t^e-P_{t-
+1}}{P_{t-1}}\)</span></p>
+<ol start="51" style="list-style-type: decimal">
+<li>Given the above wage and price setting equations, derive the
+relationship between expected rate of inflation and actual rate of
+inflation. Which of the following equations represents this
+relationship?</li>
+</ol>
+<p>A. <span class="math inline">\(\pi_t= (1 + \pi_t)[F(u_t,A_t)− \mu ]−
+1\)</span></p>
+<p>B. <span class="math inline">\(\pi_t= (1 + \pi_t)(1 + \mu
+)F(u_t,A_t)− 1\)</span></p>
+<p>C. <span class="math inline">\(\pi_t= \pi_t^e(1 + \mu
+)F(u_t,A_t)\)</span></p>
+<p>D. None of the above</p>
+<ol start="52" style="list-style-type: decimal">
+<li>Suppose the average productivity of workers remains constant at a
+level A. Given the relationship in previous question, which of the
+following equations defines the ‘natural  rate of unemployment’?</li>
+</ol>
+<p>A. <span class="math inline">\(F(u_t,\bar A) = \mu\)</span> </p>
+<p>B.<span class="math inline">\(F(u_t,\bar A) =\frac{1}{1+ 
+\mu}\)</span> </p>
+<p>C.<span class="math inline">\(F(u_t,\bar A) =\frac{ \mu}{1+ 
+\mu}\)</span> </p>
+<p>D. None of the above</p>
+<ol start="53" style="list-style-type: decimal">
+<li>A one-shot increase in the average productivity of worker, ceteris
+paribus, leads to</li>
+</ol>
+<p> A. An increase in the natural rate of unemployment</p>
+<p>B. A decrease in the natural rate of unemployment</p>
+<p>C. No change in the natural rate of unemployment</p>
+<p> D. Some change in the natural rate of unemployment but the direction
+is ambiguous</p>
+<ol start="54" style="list-style-type: decimal">
+<li>A one-shot increase in the producer’s mark up, ceteris paribus,
+leads to</li>
+</ol>
+<p>A. An increase in the natural rate of unemployment</p>
+<p>B. A decrease in the natural rate of unemployment</p>
+<p>C. No change in the natural rate of unemployment</p>
+<p>D. Some change in the natural rate of unemployment but the direction
+is ambiguous</p>
+<ol start="55" style="list-style-type: decimal">
+<li>Go back to the relationship between <span
+class="math inline">\(\pi_t\)</span> and <span
+class="math inline">\(\pi_t^e\)</span> above (first question of this
+list). Suppose  expectations are static, i.e., <span
+class="math inline">\(\pi_t^e= \pi_{t− 1}\)</span> . Also let <span
+class="math inline">\(F(u_t,A_t) =\frac{A_t}{\mu_t}−1\)</span> and <span
+class="math inline">\(A_t=\bar A\)</span> (a constant). The
+corresponding value of the non-accelerating inflation rate of
+unemployment is given by</li>
+</ol>
+<p>A. <span class="math inline">\(u_t= (\frac{\mu}{1+ \mu} )\bar
+A\)</span></p>
+<p>B. <span class="math inline">\(u_t= (\frac{\mu}{2+ \mu } )\bar
+A\)</span></p>
+<p>C. <span class="math inline">\(u_t= (\frac{1+ \mu }{2+ \mu}
+)A\)</span></p>
+<p>D. None of the above</p>
+<ol start="56" style="list-style-type: decimal">
+<li>Now suppose the workers productivity increases at a constant rate
+<span class="math inline">\(\gamma\)</span> , that is ,<span
+class="math inline">\(\frac{A_t -A_{t- 1}}{A_{t-1}} =\gamma\)</span> .
+To maintain a non-accelerating inflation rate, rate of unemployment has
+to increase at the rate</li>
+</ol>
+<p>A. <span class="math inline">\(\gamma\)</span> </p>
+<p>B. <span class="math inline">\(\mu\)</span> </p>
+<p>C. <span class="math inline">\(\mu + \gamma\)</span>  </p>
+<p>D. <span class="math inline">\((\frac{\mu}{1+  \mu} ) \gamma\)</span>
+ </p>
+<p>The following set of information is relevant for the next four
+questions. Consider a small open economy with fixed nominal exchange
+rate (E), fixed domestic price level (P) and fixed foreign price level
+<span class="math inline">\((P^{∗})\)</span> . Let <span
+class="math inline">\(\epsilon\)</span> be the corresponding real
+exchange rate. The goods market equilibrium condition is given by the
+following IS equation: <span class="math inline">\(Y
+=C+I+G+X−IM\)</span> where <span class="math inline">\(C =c_0 +c_1
+Y\)</span> represents domestic consumption; <span
+class="math inline">\(I=d_1 Y−d_2 r\)</span> represents domestic
+investment; <span class="math inline">\(G\)</span> represents government
+expenditure; <span class="math inline">\(X=x_1 Y^{∗}−x_2
+\epsilon\)</span> represents export; <span
+class="math inline">\(Y^{∗}\)</span> represents income of the foreign
+country; and <span class="math inline">\(IM=m_1 Y+m_2\)</span>
+represents import</p>
+<ol start="57" style="list-style-type: decimal">
+<li>Suppose the rate of interest (r) as exogenously given. Then a unit
+increase in the foreign price level, ceteris paribus, increases domestic
+output by</li>
+</ol>
+<pre><code>  insert options</code></pre>
+<p>D. None of the above</p>
+<ol start="58" style="list-style-type: decimal">
+<li>Write the goods market clearing level of output as a function of the
+real exchange rate  <span class="math inline">\((\epsilon)\)</span> and
+other parameters. If you plot this relationship between Y and in the
+Y,plane  (with <span class="math inline">\(\epsilon\)</span> on the
+vertical axis), you will get</li>
+</ol>
+<p>A. A positively sloped schedule if the Marshall-Lerner condition is
+satisfied</p>
+<p>B. A negatively sloped schedule if the Marshall-Lerner condition is
+satisfied</p>
+<p>C. A positively sloped schedule irrespective of the Marshall-Lerner
+condition</p>
+<p>D. A negatively sloped schedule irrespective of the Marshall-Lerner
+condition</p>
+<ol start="59" style="list-style-type: decimal">
+<li>Let us now bring in an asset market and a foreign exchange market
+into the picture.  Let the asset market equilibrium condition be
+represented by the following LM equation: <span
+class="math inline">\(\bar M =l_1 Y −l_2 r\)</span> . Also, let the
+foreign exchange market equilibrium condition be represented by the
+following interest rate parity condition <span
+class="math inline">\(r=r^{∗} +\frac{1
+}{e}(\epsilon^e-\epsilon),r^{∗}\)</span> and e  being the foreign
+interest rate and the expected future exchange rate respectively. For 
+any given value of <span class="math inline">\(r^{∗}\)</span> ande,
+derive the level of output which will clear both the asset  market and
+the foreign exchange market as a function of the real exchange rate
+<span class="math inline">\((\epsilon)\)</span> and other parameters. If
+you plot this relationship between Y and in the Y,plane (with <span
+class="math inline">\(\epsilon\)</span> on the vertical axis), you will
+get</li>
+</ol>
+<p>A. A positively sloped schedule if the Marshall-Lerner condition is
+satisfied</p>
+<p>B. A negatively sloped schedule if the Marshall-Lerner condition is
+satisfied</p>
+<p>C. A positively sloped schedule irrespective of the Marshall-Lerner
+condition</p>
+<p>D. A negatively sloped schedule irrespective of the Marshall-Lerner
+condition</p>
+<ol start="60" style="list-style-type: decimal">
+<li>Let the equilibrium output and the equilibrium exchange rate be
+simultaneously determined by the intersection of the above two schedules
+(derived in the previous two questions). Suppose Marshall-Lerner
+condition is satisfied. Then</li>
+</ol>
+<p>A. An increase in G leads to an increase in the equilibrium value of,
+while an increase in M leads to a decrease in</p>
+<p>B. An increase in G leads to an decrease in the equilibrium value of,
+while anincrease in M leads to an increase in</p>
+<p>C. Increase in either G or M leads to an increase in the equilibrium
+value of</p>
+<p>D. Increase in either G or  M leads to a decrease in the equilibrium
+value of</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

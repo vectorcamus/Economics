@@ -1,0 +1,433 @@
+---
+title: "PYQ DSE 2016"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+DSE 2016 DRAFT 
+
+
+1. If the following equation is estimated using OLS, and a 95% confidence interval for $\beta_1$ is constructed, then which of the following is true? $$Y =\alpha+\beta_1 X_1 +\beta_2 X_2 +e$$
+
+A.  The OLS estimate of $\beta_1$  lies in the given interval with 95% probability
+
+B.  The true value of $\beta_1$ lies in the given interval with 95% probability
+
+C.  In repeated sampling 95% of the times the confidence interval will contain the true value of $\beta_1$
+
+D.  Both (B) and (C)
+
+2. What term would best describe the shape of the given boxplot?
+
+```draft IMAGE```
+
+A. Right-skewed
+
+B. Left-skewed
+
+C. Uniform
+
+D. Normal
+
+
+3. The vitamin content of a particular brand of vitamin supplement pills is normally distributed with mean 490 mg and standard deviation 12 mg. What is the probability(approximately) that a randomly selected pill contains at least 500 mg of Vitamin C?
+
+A. 0.8
+
+B. 0.2
+
+C. 0.025
+
+D. 0.55
+
+4. A sample of 100 cows is drawn to estimate the mean weight of a large herd of cattle. If the standard deviation of the sample is 100 kg, what is the approximate maximum error in a 95% confidence interval estimate?
+
+
+A. 10
+
+B. 20
+
+C. 30
+
+D. 40
+
+5. Recent studies suggest that the migration to Indian cities from rural regions(MIG) can be explained be Quality of life(QL), state income as a ratio of Aggregate Indian income(Y)  and the ratio of state employment to overall employment in India(E). Using data for the 29 Indian states, the following model is estimated:
+$$M\hat IG -4.2 +1.2 QL -(0.6)Y -0.8E$$
+
+``` the parantheses below the equation are  missing```
+
+The figures in the parentheses are standard errors. The t-statistic for the null hypothesis that th E quality of life $(QL)$  index does not impact migration is
+
+A. 0.8
+
+B. 0.9
+
+C. 1.5
+
+D. Insufficient information to calculate
+
+6. Consider the following estimated regression relating expenditures on Food($Y_i$) to Income($X_i$) $$\hat Y_i= 145 + 0. 3 X_i− 0 .1(X_i-X_i^{∗})D_i$$
+where i denotes the individual; $X_i^{∗}= 500$ , this threshold distinguishes lo income from high-income individuals, and $D_i$ takes value 1 if $X_i \geq X^{*}$  and 0 otherwise. All the estimated coefficients are significant at 5% level. Which of th following statements is false?
+
+A. The marginal propensity to consume for people with low income is 0.3, and is lower for those with higher incomes; this makes sense as it is in accordance with Engel’s Law
+
+B. This is a differential slope, common intercept dummy variable formulation with an additional restriction that leads to kinked Engel curve
+
+C. This is a standard differential slope common-intercept dummy variable formulation
+
+D. Using this formulation yields predicted expenditure on food for people at income level 490 that is not very different from those people at income level 510 (estimate lie within 5 percent of each other)
+
+7. The parameters of the following multiple regression model has been estimated using OLS. $Y =\beta_1 +\beta_2 X_2 +\beta_3 X_3 + \epsilon$ Denote the estimated residuals from this regression as e. Which of the following statements is false?
+
+A. The R-squared from the regression of e on a constant, $X_2$ and $X_3$  is zero
+
+B. The R-squared from the regression of Y on a constant andYˆis the same as inthe original regression (Yˆ stands for estimated value of Y )
+
+C. The slope coefficient from the regression of Y on a constant andYˆ is 1 and the intercept is 0
+
+D. The R-squared from the regression of Y on a constant and e is same as in the original regression
+
+
+8. In the multiple regression model with 4 explanatory variables, with standard assump- tions, estimated using ordinary least squares, all the coefficients turn out to be insignificant although the overall R-squared is high and associated F-statistic is significant. Also, pair-wise correlations amongst the four explanatory variables are all low, and range be- tween 0.1 and 0.2, but are not statistically different from 0. Which of the following statements is false?
+
+A. Even though the pair-wise correlations between the explanatory variables are low, since they are (individually) statistically different from zero, OLS coefficients are likely biased
+
+B. This is likely a case of multicollinearity even though the pairwise correlations are low
+
+C. If the analyst is only interested in making forecasts then the insignificance of coefficients is per se not a problem since the F-statistic is significant and R-squared is high
+
+D. Dropping a variable may improve significance of remaining coefficients but they may be biased
+
+9. Instead of estimating a true cost function, which is described as a quadratic, where  costs are regressed on an intercept, output and a quadratic term in output, a researcher estimates a linear function by regressing costs on an intercept and output. The estimates from linear cost function are likely to
+
+A. have autocorrelated residuals
+
+B. be a biased estimate of marginal cost, even though there is no exact linear relationship between the linear and quadratic terms in output
+
+C. both (A) and (B)
+
+D. neither (A) nor (B)
+
+10. Using data on class size (CS) and average test percentage(TP) from 101 classes, the following OLS regression is estimated: $\hat TP = 96. 4 − 1. 12 CS$ $R$ -squared is 0.1 and SER(Standard error of regression) is 5. What is the sample variance of test percentages across the 101 classes?
+
+A.  27.5
+B.  22.5
+C.  5.0
+D.  2.5
+
+11. In the OLS regression $Y_i=\beta_1 +\beta_2 X_i+u_i$ , suppose the coefficient of determination is estimated to be 0.6. We now transform the variables such that $Y_i^{∗} = 0. 5 Y$  and $X_i^{*} = 0. 75 X_i$ and rerun the regression. The coefficient of determination is now:
+
+A.  0.6
+B.  0.4
+C.  0.9
+D.  0.3
+
+12. The OLS regression of infant birth weight(BWT) on the mother’s age(AGE) and years of mother’s education(EDU) is: $$B\hat WT = 2600 + 2.3 AGE+ 26 EDU$$
+Where the standard errors are reported below the estimated coefficients. Sample size is 1000 and R squared is 0.015. Sample information is provided in the table below:
+
+| |BWT|AGE|EDU|
+|---|---|---|---|
+|Mean|3000|25|10|
+|Standard deviation|500|5|2|
+
+
+A one standard deviation change in AGE is associated with anxstandard deviation change in birth weight, where x is
+
+
+A. 0.046
+
+B. 0.007
+
+C. 0.023
+
+D. 0.035
+
+
+13. If $f:R→R$ is a continuous function (Ris the set of reaL numbers) andEis an open subset ofR, then the set{$x\in R|f(x)\in E$} is necessarily
+
+A. open
+
+B. closed
+
+C. neither open, nor closed
+
+D. open and closed
+
+14. If X is a $n\times n$ non singular matrix, such that $XX^T=X^TX$ ($X^T$ denotes the transpose of X). Let $Y=X^{-1} X^T$ where $X^{-1}$  denotes the inverse of X. Then $YY^T$ is equal to
+
+A.  I+Y (I is the identity matrix)
+
+B.  I
+
+C.  $Y^{-1}$
+
+D.  $Y^T$
+
+
+15. Suppose that g(x) is a twice differential functio and $g(1) = 1;g(2) = 4;g(3) = 9$ . Which of the following is necessarily true? First and second derivatives of g are represented as $g′$ and $g′′$ respectively
+
+A.  g′′(x) = 3 for some $x\in [1,2]$
+
+B.  g′′(x) = 5 for some $x \in [2,3]$
+
+C.  g′′(x) = 2 for some $x \in [1,3]$ 
+
+D.  g′′(x) = 2 for some $x \in [1. 5 , 2 .5]$
+
+16. Consider $f:R→R$ defined by $f(x) =\sum_{i=1}^{11}  |x−a_i|$ for all $x\in R$ , wherea $1 < .\dots a_{11}$ . This function has a minimum when x equals :
+
+A.  $a_2$
+
+B.  $a_6$
+
+C.  $a_7$
+
+D.  $a_{11}$
+
+17. Consider the set {$x,y\in R_+ \times R|y \geq \ln(x)−e^x$}. This set is
+
+A.   a linear subspace of $R^2$
+
+B.   Convex
+
+C.   convex and linear subspace of $R^2$
+
+D.   neither convex nor linear subspace of $R^2$ 
+
+18. A school withnstudents hasmclubs to which they can belong, and students are allowed to be members of multiple clubs. It is known that (I) Each club has an odd number of members (II) Every pair of clubs has an even number of common members (including Then it must be that:
+
+A.  $m\geq n$
+
+B.  $m\leq n$
+
+C.  $m$ and $n$ can each be larger than the other, but $m \neq n$
+
+D.  $m=n$
+
+19. Let $n >1$, and let S be the set of all $n\times n$ matrices whose entries are all chosen from the set 0,1. Then the sum of the determinants of all these matrices
+
+A.   is equal to 0
+
+B.   is positive but less than $n^{\frac{n}{2}}$ 
+
+C.   can be positive or negative, but is bounded by $n^n$
+
+D.   is either -1 or 1
+
+20. $ g:R→[0,1]$  is a non-decreasing and right continuous step function such that $g(x) = 0$  for all $x \leq 0$  and $g(x) = 1$  for all $x\geq 1$ . Let us define $g^{-1}$ as follows, $g^{-1}(y)= inf${$x\geq 0|g(x) \geq y$}. Which of the foloowing is true about $g^{-1}$ 
+
+A. is a continuous function
+
+B. is right-continuous but not left continuous
+
+C. is left-continuous but not right continuous
+
+D. neither left-continuous nor right-continuous
+
+The next two questions pertain to the following: Consider an exchange economy with two agents, 1 and 2, and two goods, X and Y. There are 6 units of X and 4 units of Y available. Agent 1 has the utility function 
+$u_1 = \min$ {$x_1 ,y_1$} and agent 2 has the utility function $u_2 =x_2 +y_2$ .
+
+21. Which of the following allocations is not Pareto efficient?
+
+A.  (2,0),(4,4)
+
+B.  (4,4),(2,0)
+
+C.  (2,2),(4,2)
+
+D.  (0,0),(6,4)
+
+22. The set of equilibrium prices for this exchange economy is given by?
+
+A.  {$p_x> 0 ,p_y> 0 ,\frac{p_x}{p_y}\leq 1$ }
+
+B.  {$p_x> 0 ,p_y> 0 ,\frac{p_x}{p_y}= 1$}
+
+C.  {$p_x> 0 ,p_y> 0 ,\frac{p_x}{p_y}\geq 1$}
+
+D.   Insufficient information to conclude
+
+23. The market for widgets has a demand function $Q= 100− 10 p$ , where Q is the quantity demanded and P is the price in rupees. There are 10 price taking firms in the market, each having a cost function $c(q) =\frac{q^2}{2}$  , where q is the firm’s own output. There is no new entry. Suppose the government imposes an excise tax of Rs. 2 per unit of widgets, to be paid by sellers, the equilibrium market price is
+
+A. 7
+
+B. 6
+
+C. 5
+
+D. 2
+
+24. A consumer has utility functionu(x 1 ,x 2 ) = min{ 3 x +x 2 ,x 1 + 2x 2 }. Prices of the two goods arep 1 andp 2 respectively. The consumer will buy positive quantities of both the goods if and only if the price ratio $\frac{p_1}{p_2}$ is
+
+A.  greater than 3
+
+B.  between $\frac{1}{2}$ and 3
+
+C.  between 2 and 3
+
+D.  less than
+
+
+25. Utility function of a consumer over three goods $X,Y,Z$ is $U=y \min$ {x,z}. Prices of all the three goods are the same in the market. Three discount deals are available, which are as follows: 
+Deal I: Get a unit of Z free with a unit of X 
+Deal II: Get a unit of Z free with a unit of Y 
+Deal III: Get $\frac{1}{2}$ unit of X and $\frac{1}{2}$  unit of Z free with a unit of Y Which of the deals should the consumer choose?
+
+A. Deal I
+
+B. Deal II
+
+C. Deal III
+
+D. All the deals are equally good
+
+26. Two widget producers, A and B, operate in perfectl competitive input and output markets. Firm A uses capital (k) and labour (l) to produce widget; its production  function is  $f_1 (k_1 ,l_1 ) = (k_1 l_1 )^{\frac{1}{3}}$ . Firm B uses only labour; its production function is $f_2 (l_2)= \frac{\sqrt {L_2}}{1+k_1}$  Efficiency of input allocation can be improved by:
+
+A. imposing a tax on capital use
+
+B. merging firms A and B
+
+C. providing a subsidy on labour use to firm A
+
+D. all of the above
+
+
+The next two questions pertain to the following: A student has the opportunity to take a test at most thrice. The student knows that each time she takes the test, her score is an independent random draw from the uniform distribution $[0,100]$. Each time the student takes the test and learns her score, she can either stop and accept it as her official score, or she can discard the result and retake the test. However, after the third attempt, the student has no more opportunities to retake the test. In that case,her score on the last(i.e., third) try will be her official score. The student’s objective is to maximize her expected official score
+
+27. If the student follows an optimal plan, her final expected score before taking any of the tests is approximately:
+
+A.  30
+B.  50
+C.  70
+D.  90
+
+
+28. Now consider the case when the university allows the student to take the final test only when her score is below 40 in the second test. The student retains the choice to stop or retake after the first attempt. The student will decide to be retested after the first test f and only if her score is less than:
+
+A.   37.5
+B.   50
+C.   62
+D.   67.5
+
+The next two questions pertain to the following: Consider a homogeneous goods market with two firms. Let $x_1$  and $x_2$  be the quantity choices of Firms 1 and 2 respectively. The total quantity is $X=x_1 +x_2$ . The inverse demand function is $ P=a−bX$ , where $P$ is the market price and A and B are the intercept and slope parameters respectively. Both firms have the same marginal costs denoted byc. Suppose $b >0,$  and $0< 3 c < a$ .
+
+29. Suppose firm 1 has an objective of maximizing revenue and firm 2 has an objective of maximizing profit. Both firms choose quantities simultaneously. Then:
+
+A. Firm 1 has larger market share and larger profits
+
+B. Firm 2 has smaller market share but larger profits
+
+C. Firm 1 has smaller market share but larger profits
+
+D. Firm 2 has larger market share and larger profits
+
+30. Suppose both firms become revenue maximizers. TheN
+ 
+A. Both will produce more than Cournot output
+
+B. Both will produce less than Cournot output
+
+C. Both will produce the perfectly competitive output
+
+D. Both will produce more than the perfectly competitive output.
+
+The next two questions pertain to the following: Four cities $A,B,C,D$  are located as vertices of a square $ABCD$ , and are connected by roads that form the four sides of the square. Mr. Rand Walker travels thus: if he is at city $i(i\in${$A,B,C,D$}) in period $t$ , then he randomly, with probability $\frac{1}{2}$  each, moves to one of the two vertices/cities that are adjacent to $i$ in period $t+ 1$ .
+
+31. If Mr. Walker is at city A at time t= 0 then the respective probabilities with which he is at cities A,B,C,Din period t= 10 are:
+
+A.  $\frac{1}{4} , \frac{1} { 4} ,\frac{1} {4} , \frac{1}{4}$
+
+B.  $0, \frac{1}{2}  , 0 , \frac{1}{2}$
+
+C.  $\frac{1}{2} , 0 ,0, \frac{1}{2}$
+
+D.  $\frac{1}{2}  , 0 , \frac{1}{2},0$
+
+32. If Mr. Walker is at city A at time $t= 0$ , then what is the probability that he never visits city A again till(including) period $t= 10$ ?
+
+A.   $(\frac{1}{2})^5$
+
+B.   $(\frac{1}{2})^{10}$
+
+C.   $(\frac{3}{4})^5$
+
+D.   $(\frac{3}{4})^{10}$
+
+
+33. Consider a railway signalling system: a signal is received by the station A from the  traffic control office and then transmit it to station B. Suppose that at the origin (traffic control office) signal can be yellow or red with probability $\frac{4}{5}$  and $\frac{1}{5}$  respectively. The probability of each station receiving the signal correctly from its predecessor is $\frac{3}{4}$ . If the signal received at station B is yellow, then the probability that the signal was yellow is
+
+A. $\frac{22}{23}$
+B. $\frac{11}{20}$
+C. $\frac{20}{23}$
+D. $\frac{9}{20}$
+
+34. SupposeX has a normal distribution with mean 0 and variance $\sigma^2$ . Let Y be an independent random variable taking values −1 and 1 with equal probability. Define $Z=XY +XY$. Which of the following is true?
+
+A.  $Var(Z)> \sigma ^{2}$
+
+B.  $Var(Z)< \sigma^2$
+
+C.  $Var(Z) =\sigma^2$
+
+D.  $Var(Z)$ can be greater than or smaller than $\sigma^2$
+
+35. According to Ricardian equivalence proposition, a reduction in the current (lump sum) taxation of household income
+
+A. would reduce current consumption, but leave future consumption unaffected
+
+B. would reduce future consumption, but leave current consumption unaffected
+
+C. would reduce both current and future consumption
+
+D. would leave both current and future consumption unaffected
+
+36. Tobin’s q theory suggests that firms will find it profitable to invest when the value of Tobin’s q is:
+
+A. greater than zero
+
+B. less than zero
+
+C. greater than unity
+
+D. less than unity
+
+
+The next 4 questions pertain to the following: Consider an agrarian economy with two single membered households. The households are engaged in own cultivation using their family land, labour and capital. Each household is endowed with 1 acre of land and 1 unit
+of labour. However the two households differ in terms of \ their initial capital endowment ($K_0^R$  and $K_0^P$ ), whereRdenotes the relatively richer household andPdenotes the relatively poorer household. Assume $2< K_0^R <4$  and $ 0< K_0^P <1$ . The household have access to two technologies which are specified by the following production functions: Technology  $A: Y_t= (N_tL_t)^{\frac{1}{2}} (K_t)^2$  Technology $B:Y_t= (N_tL_t)^{\frac{1}{2}}(K_t)^{\frac{1}{2}}$ where $N_t$ represents land (in acres), $L_t$  represents labour, and  $K_t$ represents capital respectively. The households choose the technology which gives them higher output (given their land, labour and capital stock) in any period t. In every period they consume half of their total income and save the rest, which adds to the next period’s capital stock. Land and labour stock remain constant over time. Existing capital stock depreciates fully upon production.
+
+37. Given their initial factor endowments, the technology choices of the rich and the poor households respectively are:
+
+A.    A,B
+
+B.    B,A
+
+C.    A,A
+
+D.    B,B
+
+38. In the short run, the average capital stock in the economy (K) evolves according to the following dynamic path
+
+---
+DRAFT
+
+---
+
+39. In the long run:
+
+A. income of both households grow perpetually
+
+B. income of household R grows perpetually but that of household P approaches a constant
+
+C. income of household P grows perpetually but that of household R approaches a constant
+
+D. income of household R grows perpetually but that of household P falls perpetually
+
+40. If, at the end of the initial time period, the household  were given a choice to spend their savings in buying more land instead of investing in capital stock 
+
+A. both households would have bought more land
+
+B. both households would have still invested in capital
+
+C. Household R would have still invested in capital but household P would have bought more land
+
+D. Household P would have still invested in capital but household R would have bought more land

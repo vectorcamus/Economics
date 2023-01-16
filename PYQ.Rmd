@@ -6,3 +6,37 @@ output: html_document
 # IES
 
 [2022 Indian Economy](ies2022ie.html)
+
+# DSE
+
+[2006](pyqdse2006.html)
+
+[2007](pyqdse2007.html)
+
+[2008](pyqdse2008.html)
+
+[2009](pyqdse2009.html)
+
+[2010](pyqdse2010.html)
+
+[2011](pyqdse2011.html)
+
+[2012](pyqdse2012.html)
+
+[2013](pyqdse2013.html)
+
+[2014](pyqdse2014.html)
+
+[2015](pyqdse2015.html)
+
+[2016](pyqdse2016.html)
+
+[2017](pyqdse2017.html)
+
+[2018](pyqdse2018.html)
+
+[2019](pyqdse2019.html)
+
+[2020](pyqdse2020.html)
+
+[2021](pyqdse2021.html)

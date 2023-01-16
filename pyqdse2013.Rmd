@@ -1,0 +1,754 @@
+---
+title: "PYQ DSE 2013"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+  
+# DSE 2013
+
+  
+1. Starting from a stationary position, Sonia ran 100 meters in 20 seconds. Assuming that her distance from the starting point is a continuous and differentiable function $f(t)$ of time, she would definitely have run at a speed of y meters per second at some point of  time, where y equals
+
+A. 4
+
+B. 20
+
+C. 6
+
+D. None of the above necessarily holds
+
+2. Suppose $f:R \to R$ (i.e. it is a real-valued function defined on the set of real numbers). Iffis differentiable, $f(3) = 2, \ and\  3\leq f′(x)\leq 4, \ for \  all \  x$, then it must be that f(5)  lies in the following interval.
+
+  
+
+A. $[ 8,10]$
+
+B. $[ 0,8)$
+
+C. $(10, \infty )$
+
+D. $[ 3,4]$
+
+  
+
+3. The function defined by $f(x) =x(x−10)(x−20)(x−30)$  has critical points (i.e., points where $f′(x) = 0$ )
+
+A. at some $x <0$  and some $x >30$ .
+
+B. at an $x <0$ , and at some x between 0 and 30.
+
+C. between 0 and 10, 10 and 20, 20 and 30.
+
+D. None of the above captures all the critical points.
+
+4. The area of the region bounded above by $f(x) =x^2 + 1$ and below by $g(x) =x−6$  on the interval $[ − 1 ,3]$ is
+
+A. $\frac{50}{ 3}$
+
+B. 22
+
+C. 31
+
+D. $\frac{100}{ 3}$
+
+5. $\lim_{ x \to 3} (\frac{x^2-5x-2}{x-2})^{\frac{1}{3}}$ equals 
+
+A. − 2
+
+B. $-\frac{4} {3}$
+
+C. $(−\frac{ 4} {3})^{\frac{1 }{3}}$ 
+
+D. $(\frac{2}{3})^{\frac{1 }{3}}$ 
+
+  
+
+  
+
+6. Consider an individual A with utility function $u(x) = 10\sqrt x$ , where x denotes the amount of money available to her. Suppose, she has Rs 100. However, she has option of buying a lottery that will cost her Rs 51. If purchased, the lottery pays Rs 351 with probability p, and pays 0 (nothing) with remaining probability. Assume that A is expected utility maximizer. Which of the following statements is correct? A will
+
+A. not prefer to buy the lottery at all as long as p < 1
+
+B. certainly prefer to buy the lottery as long as p > 0
+
+C. prefer to buy the lottery if and only if  $p > \frac{51 }{ 351}$ 
+
+D. prefer to buy the lottery if and only if $p > \frac{51 }{ 221}$ 
+
+  
+
+The next TWO questions are based on the following model: Suppose that there are two goods, which are imperfect substitutes of each other. Let $p_1 ,p_2$  denote the price of good 1 and good 2 , respectively. Demand of good 1 and good 2 are as follows $D_1 (p_1 ,p_2 ) =a−p_1 +bp_2 ; D_2 (p_1 ,p_2 ) =a−p_2 +bp_1$  where $a >0$  and  $1> b >0$ . Both of the goods can be produced at costcper unit.
+
+7. Find the equilibrium prices, when good 1 and good 2 are produced by two different monopolists
+
+A. $p_1 =p_2 =\frac{a  +c}{2-b}$
+
+B. $p_1 =p_2 =\frac{a +c}{1-b}$
+
+C.$p_1 =\frac{a +c}{2-b}, p_2 =\frac{a +c}{1-b}$
+
+D. $p_1 =\frac{a+c}{1-b}, p_2 =\frac{a +c}{2-b}$
+
+  
+
+8. Find the equilibrium prices, when both the goods are produced by single monopolist.
+
+A. $p_1 =p_2 =\frac{a+  c−bc}{2-b}$
+
+B. $p_1 =p_2 =\frac{a  c−bc}{1-b}$
+
+C. $p_1 =p_2 =\frac{a+c−bc}{2(1-b)}$ 
+
+D. $p_1 =p_2 =\frac{a+c  −bc}{2}$ 
+
+Answer 9 and 10 using the following information: H stands for the Headcount Ratio of Poverty (total number of poor divided by total population); C for Mean Consumption per capita; E for Elasticity of H with respect to C; NSS for National Sample Survey; and NAS for National Accounts Statistics.
+
+```
+insert table later 
+```
+  
+
+9. From the data in Table 1, we can conclude that the total number of poor people was
+
+A. Rising before 1991 but falling after 1991
+
+B. Falling before 1991 but rising after 1991
+
+C. Falling both before and after 1991, but at different rates
+
+D. Rising both before and after 1991, but at different rates
+
+10. From the data in Table 2, we can conclude that both before and after 1991, mean consumption per-capita according to NAS was:
+
+A. Lower than mean consumption per-capita according to NSS
+
+B. Growing faster than mean consumption per-capita according to NSS
+
+C. Growing slower than mean consumption per-capita according to NSS
+
+D. None of the above
+
+11. If two balanced die are rolled, the sum of dots obtained is even with probability
+
+A. $\frac{1}{ 2}$
+
+B. $\frac{1}{4}4
+
+C. $\frac{3}{ 8}$
+
+D. $\frac{1}{ 3}$
+
+12. A population is growing at the instantaneous growth rate of 1.5 per cent. The time taken (in years) for it to double is approximately
+
+A. $\frac{\log 2}{0. 15}$
+
+B. $\frac{\log 2}{ 15}$
+
+C. $\frac{\log 2}{. 015}$
+
+D. $\frac{\log 2}{ 1. 5}$
+
+  
+
+13. A linear regression model $y= \alpha + \beta x+\epsilon$ is estimated using OLS. It turns out that the estimated $\hat \beta$ equals zero. This implies that:
+
+A. $R^2$  is zero
+
+B. $R^2$  is one
+
+C.  $0< R^2 < 1$ 
+
+D. In this case $R^2$  is undefined
+
+14. An analyst has data on wages for 100 individuals. The arithmetic mean of the log of wages is the same as:
+
+A. Log of the geometric mean of wages
+
+B. Log of the arithmetic mean of wages
+
+C. Exponential of the arithmetic mean of wages
+
+D. Exponential of the log of arithmetic mean of wages
+
+15. A certain club consists of 5 men and 5 women. A 5 member committee consisting of 2 men and 3 women has to be constituted. How many ways are there of constituting this committee?
+
+A. 20
+
+B. 100
+
+C. 150
+
+D. None of the above
+
+16. Exchange rate overshooting occurs:
+
+A. under fixed exchange rates when the central bank mistakenly buys or sells too much foreign exchange
+
+B. under fixed exchange rates as a necessary part of the adjustment process for any monetary shock
+
+C. under flexible exchange rates when the exchange rate rises (depreciates) above and then falls down to equilibrium after a monetary expansion
+
+D. decreases the value of the determinant
+
+17. In an open economy with a system of flexible exchange rates and perfect capital mobility,
+
+an expansionary monetary policy:
+
+A. causes the domestic currency to appreciate
+
+B. has a greater impact on income than in a closed economy
+
+C. increases capital inflows into the country
+
+D. induces a balance of payments deficit
+
+  
+
+18. The short-run aggregate supply curve is upward sloping because
+
+A. lower price level creates a wealth effect
+
+B. lower taxes motivate people to work more
+
+C. money wages do not immediately change when the price level changes
+
+D. most business firms operate with long-term contracts for output but not labour
+
+19. The term ‘seignorage’ is associated with
+
+A. inflation generated by printing new money
+
+B. real revenue created by printing new money
+
+C. public indebtedness created by printing new money
+
+D. none of the above
+
+20. If money demand is stable, an open market purchase of government securities by the
+
+central bank will:
+
+A. increase both the level of income and the interest rate
+
+B. decrease both the level of income and the interest rate
+
+C. increase the level of income and lower the interest rate
+
+D. decrease the level of income and raise the interest rate
+
+21. The function defined by $f(x) =x^5 + 7x^3 + 13x− 18$
+
+A. may have 5 real roots
+
+B. has no real roots
+
+C. has 3 real roots
+
+D. has exactly 1 real root
+
+22. The function  $f(x) =\frac{1}{4} x^4 −\frac{1}{2} x^3 − 3 x^2 + 6$  is
+
+A. concave on $(− \infty ,2)$ and convex on $(2, \infty )$.
+
+B. concave on $(− 1 ,2)$, convex on $(− \infty ,−1)$ and $(2, \infty )$.
+
+C. convex on $(− 1 ,2)$, concave on $(− \infty ,−1)$ and $(2, \infty )$.
+
+D. convex on $(− \infty ,2)$ and concave on $(2, \infty )$.
+
+23. Consider the function $f(x) =\frac{9}{2} x^{(\frac{2}{3})}−\frac{3}{5} x^{(\frac{5}{3})}$ for allxin the closed interval $[ − 1 ,5]$. f(5) is approximately equal to 4.386.f(x) attains a maximum on interval $[ − 1 ,5]$ at
+
+A. x=− 1
+
+B. x= 2
+
+C. x= 3
+
+D. x= 4
+
+  
+
+24. Consider the functionfdefined by $f(x) =x^6 + 5x^4 + 2$ , for all $x \geq 0$ . The derivative of its inverse function evaluated at f(x) = 8, that is, $f^{-1} ′(8)$  equals
+
+A. $\frac{1}{ 7}$
+
+B. $\frac{1}{ 15}$
+
+C. $\frac{1}{ 26}$
+
+D. $\fraaac{1}{ 20}$
+
+25. Consider the following functions. $f:R^2 →R^3$  defined by $f(x,y) = (x+ 2y,x−y,− 2 x+3 y)$ . And  $g:R^2 →R^2$  defined by $g(x,y) = (x+ 1,y+ 2)$ . Then
+
+A. Both f and g are linear transformations
+
+B.  f is a linear transformation, but g is not a linear transformation
+
+C . f is not a linear transformation, but g is a linear transformation
+
+D.  Neither f nor g is a linear transformation
+
+26. A six meter long string is cut in two pieces. The first piece, with length equal to some x, is used to make a circle, the second, with length (6−x), to make a square. What value of x will minimize the sum of the areas of the circle and the square? (x is allowed to be 0 or 6 as well).
+
+  
+A. $x= \frac{24 \pi }{(1 + 4 \pi )}$
+
+B. $x= \frac{6 \pi }{(4 + \pi )}$
+
+C. x= 6
+
+D. $x= \frac{1}{ 2  \pi}$ 
+
+  
+
+27. The repeated nonterminating decimal 0. 272727 $\dots$ 
+
+A. cannot be represented as a fraction.
+
+B. equals $\frac{27}{ 99}$
+
+C. lies strictly between $\frac{27}{99}$ and $\frac{27}{100}$.
+
+D. is an irrational number.
+
+  
+
+Suppose three players, 1, 2 and 3, use the following procedure to allocate 9 indivisible coins. Player 1 proposes an allocation  $(x_1 ,x_2 ,x_3 )$  where $x_i$ is the number of coins given to player i. Players 2 and 3 vote on the proposal, saying either Y (Yes) or N (No). If there are two Y votes, then the proposed allocation is implemented. If there are two N votes, the proposal is rejected. If there is one Y vote and one N vote, then player 1 gets to vote Y or N. Now, the proposal is accepted if there are two Y votes and rejected if there are two N votes. If 1’s proposal is rejected, then 2 makes a proposal. Now, only 3 votes Y or N. If 3 votes Y, then 2’s proposal is accepted. If 3 votes N, then the proposal is rejected and the allocation (3, 3, 3) is implemented. Assume that, if the expected allocation to be received by a particular player by voting Y or N is identical, then the player votes N.
+
+
+28. If 1’s proposal is rejected and 2 gets to make a proposal, her proposal will be
+
+
+A. (0, 5 ,4)
+
+B. (0, 4 ,5)
+
+C. (0, 6 ,3)
+
+D. (0, 3 ,6)
+
+  
+
+29. 1’s proposal will be
+
+A. (5, 0 ,4)
+
+B. (4, 0 ,5)
+
+C. (3, 6 ,0)
+
+D. (6, 3 ,0)
+
+30. Consider the following change of the above situation. If 2 makes a proposal and 3 votes Y, then 2’s proposal is implemented. However, if 3 votes N, then 1 gets to choose between 2’s proposal and the allocation (3, 3 ,3). If 1’s proposal is rejected and 2 gets to make a proposal, her proposal will be
+
+
+A. (4, 5 ,0)
+
+B. (0, 5 ,4)
+
+C. either (a) or (b)
+
+D. neither (a) nor (b)
+
+  
+
+31. Utility of a consumer is given by  $u(x_1 ,x_2 ) = \min(x _1 ,x_2 )$ . His income is M, and price of good 2 is 1. There are two available price schemes for good 1: (i) per unit price 2 and (ii) a reduced per unit price $2−\theta$ along with a fixed fee T. A consumer would be  indifferent between the above schemes if
+
+A. $\theta= \frac{2T}{M}$
+
+B. $\theta = \frac{3T}{M}$
+
+C. $\theta =\frac{T}{M}$
+
+D. $\theta= \frac{(T+ 1)}{M}$
+
+  
+
+Suppose, an individual lives for two periods. In each period she consumes only one good, which is rice. In period 2, she can costlessly produce 1 unit of rice, but in period 1 she produces nothing. However, in period 1 she can borrow rice at an interest rate r >0. That is, if she borrows z units of rice in period 1, then in Period 2, she must return  z(1 +r) units of rice. Let  $x_1$  and  $x_2$  denote her consumption of rice in period 1 and period 2, respectively; $x_1 ,x_2 \geq 0$ . Her utility function is given by $U(x_1 ,x_2 ) =x_1 + \beta x_2$  , where $\beta$  is the discount factor,  $0<  \beta  <1$ . Note that there are only two sources through which rice can be available; own production and borrowing.
+
+  
+
+32. Find the interest rater, at which the individual would borrow $\frac{1}{2}$  unit of rice in period 1.
+
+A. 2
+
+B. $\frac{1}{2}4
+
+C. $\beta − 1$
+
+D. $\frac{1}{\beta} − 1$ 
+
+  
+
+33. Now suppose that there are N agents in the above two period economy. The agents are identical (in terms of production and utility function) except that they have different discount factors. Suppose that  $\beta$  follows uniform distribution in the interval Assuming $r\leq 1$ , the demand function for rice in period 1 will be
+
+A.$N\frac{1-r}{1+r}$ 
+
+B.$N\frac{(1-r)}{(1+r)^2}$ 
+
+C.$N \frac{r}{1+r}$ 
+
+D.$N\frac{r}{ 2}$ 
+
+  
+
+Answer 34, 35 based on the following situation: Consider a two-person two-good exchange economy: persons/agents are A and B, and goods are 1 and 2. The agents have the following utility functions: $u_A(x_1 ,x_2 ) = \alpha x_1 +x_2 u_B(y_1 ,y_2 ) =y_1 y_2$  where $x_1$  and $x_2$  denote the allocation to A of good 1 and good 2, respectively. Similarly, y 1 andy 2 denote the allocation to Bof good 1 and good 2, respectively. There are 5 units of each good; i.e., $x_1 +y_1 = 5 \ and \ x_2 +y_2 = 5$ . Now, consider the following allocation: Agent Agets 4 units of good 1 only, but agent B gets 1 unit of good 1 and 5 units of good 2.
+
+  
+
+34. Suppose an agent i is said to envy agent j , if i strictly prefers j’s allocation over her own allocation. And, an allocation is called ‘No-envy allocation’ if none of the agents envies the other. In that case,
+
+A. the above allocation is always ‘No-envy allocation’
+
+B. the above allocation is never ‘No-envy allocation’
+
+C. the above allocation is ‘No-envy allocation’ if $\alpha \geq \frac{5}{3}$ 
+
+D. the above allocation is ‘No-envy allocation’ if $\alpha \leq \frac{3}{5}$ 
+
+35. The above allocation is
+
+A. always Pareto optimal
+
+B. never Pareto optimal
+
+C. Pareto optimal if $\alpha \leq  5$ 
+
+D. Pareto optimal if $\alpha \geq  5$ 
+
+  
+
+  
+
+Answer 36, 37 based on the following situation: There are two goods: a basic good, say a car, and a complementary good, say car audio. Suppose that the basic good is produced by a monopolist at no cost and the complementary good is produced by a competitive industry at cost c per unit. Let p be the price of the basic good. Each consumer has three choices:
+
+
+(i) consume nothing, which gives 0 utility
+
+(ii) consume one unit of the basic good, which gives v−p utility
+
+(iii) consume one unit of the basic good and one unit of the complementary good (called bundle), which gives w−p−c utility. Assume w > v >0. Next, suppose there are two types of consumers of cars: $[Middle Class]$ :They have valuations $v_1$ and $w_1$  for the basic good and the bundle, respectively. $[ Rich]$: They have valuations $v_2$  and $w_2$  for the basic good and the bundle, respectively. Suppose, $v_2 > v_1$  and $w_2 −v_2 > c > w_1 −v_1$ .
+
+36. Find the socially efficient consumption.
+
+A. Rich choose (ii) and Middle class choose (i)
+
+B. Rich choose (iii) and Middle class choose (i)
+
+C. Rich choose (iii) and Middle class choose (ii)
+
+D. Both Rich and Middle class choose (ii)
+
+  
+37. Suppose that the monopolist can distinguish between two types of consumers. What prices would she charge?
+
+  
+A. $v_2$  from Rich, and $v_1$  from Middle Class
+
+B. $w_2 −c$ from Rich, and $w_1 −c$ from Middle Class
+
+C. $w_1 −c$ from Rich as well as Middle Class
+
+D. $w_2 −c$ from Rich, and $v_1$  from Middle Class
+
+  
+
+38. Suppose that a city can be described by an interval $[ 0,1]$. Only two citizens, A and B, live in this city at different locations; A at 0.2 and B at 0.7. Government has decided to set up a nuclear power plant in this city but is yet to choose its location. Each citizen wants the plant as far as possible from her home and hence both of them have the same utility function,$u(d) =d$ , where d denotes the distance between the plant and home. Find the set of Pareto optimal locations for the plant.
+
+  
+
+A. All locations in the interval $[ 0, 1]$ are Pareto optimal
+
+B. All locations in the interval $[ 0.2, 0.7]$ are Pareto optimal
+
+C. 0.5 is the only Pareto optimal location
+
+D. 0 and 1 are the only Pareto optimal locations
+
+Answer 39, 40 based on the following situation: Consider an exchange economy with agents 1 and 2 and goodsxandy. Agent 1 lexicographically prefers the goodx: when offered two non-identical bundles ofxandy, she strictly prefers the bundle with more of goodx, but if the bundles have the same amount of goodx, then she strictly prefers the bundle with more of goody. However, Agent 2 lexicographically prefers goody.
+
+  
+
+39. Suppose 1’s endowment is (10,0) and 2’s endowment is (0,10). The vector (px,py) is a competitive equilibrium vector of pricesif and only if
+
+A. $p_x= 1 =p_y$
+
+B. $px>0 \ and\ p_y> 0$
+
+C. $p_x> p_y> 0$ 
+
+D. $p_y> p_x> 0$ 
+
+40. Suppose we make only one change in the above situation: Person 1 lexicographically prefersyand 2 lexicographically prefers x. The vector $(p_x,p_y)$  is a competitive equilibrium vector of prices if and only if
+
+A. $p_x= 1 =p_y$ 
+
+B. $p_x>0 \ and\ p_y> 0$ 
+
+C. $p_x> p_y> 0$ 
+
+D. $p_y=p_x> 0$ 
+
+  
+
+41. Consider two disjoint events A and B in a sample space S. Which of the following is correct?
+
+A. A and B are always independent
+
+B. A and B cannot be independent
+
+C. A and B are independent if exactly one of them has positive probability
+
+D. A and B are independent if both of them have positive probability
+
+42. A bowl contains 5 chips, 3 marked $1 and 2 marked $4. A player draws 2 chips at random and is paid the sum of the values of the chips. The player’s expected gain (in $) is
+
+A. less than 2
+
+B. 3
+
+C. above 3 and less than 4
+
+D. above 4 and less than 5
+
+43. Consider the following two income distributions in a 10 person society. A: (1000,1000, 1000, 1000, 1000, 1000, 1000, 2000, 2000, 2000) andB: (1000, 1000, 1000, 1000, 1000, 2000, 2000, 2000, 2000, 2000). Which of the following statements most accurately describes the relationship between the two distributions?
+
+A. The Lorenz curve for distributionAlies to the right of that for distributionB
+
+B. The Lorenz curve for distributionBlies to the right of that for distributionA
+
+C. The Lorenz curves for the two distributions cross each other
+
+D. The Lorenz curves for the two distributions are identical for the bottom half of the population
+
+  
+
+44. A certain club consists of 5 men and 5 women. A 5-member committee consisting of 2 men and 3 women has to be constituted. Also, suppose that Mrs. F refuses to work with Mr. M. How many ways are there of constituting a 5-member committee that ensures that both of them do not work together?
+
+
+A. 50
+
+B. 76
+
+C. 108
+
+D. None of the above
+
+  
+
+45. Suppose, you are an editor of a magazine. Everyday you get two letters from your correspondents. Each letter is as likely to be from a male as from a female correspondent. The letters are delivered by a postman, who brings one letter at a time. Moreover, he has a ‘ladies first’ policy; he delivers letter from a female first, if there is such a letter. Suppose you have already received the first letter for today and it is from a female correspondent. What is the probability that the second letter will also be from a female?
+
+  
+
+A. $\frac{1}{2}$
+
+B. $\frac{1}{4}$
+
+C. $\frac{1}{3}$
+
+D. $\frac{2}{3}$
+
+46. On an average, a waiter gets no tip from two of his customers on Saturdays. What is the probability that on next Saturday, he will get no tip from three of his customers?
+
+  
+
+A. $\frac{9}{2} e^{-3}$
+
+B. $2e^{-3}$
+
+C. $\frac{4}{3} e^{-2}$
+
+D. $3e^{-2}$
+
+47. A linear regression model $y= \alpha + \beta x+\epsilon$ is estimated using OLS. It turns out that the estimated $R^2$  equals zero. This implies that:
+
+A. All x’s are necessarily zero
+
+B. $\hat \beta = 1 \ and\ y= \hat \alpha +x$
+
+C. $\hat \beta = 0$  or all x’s are constant
+
+D. There are no implications for $\hat \beta$ 
+
+
+48. Using ordinary least squares, a market analyst estimates the following demand function $\log X = \alpha + \beta \log P+\epsilon$  where X is the output and P is the price. In another formulation, she estimates the above function after dividing all prices by 1000. Comparing the two sets of estimates she would find that
+
+  
+
+A.  $\hat \alpha \ and\  \hat \beta$ will be the same in both formulations
+
+B. $\hat  \alpha \ and\  \hat \beta$ will differ across both formulations
+
+C. $\hat \alpha$  will change but $\hat  \beta$ will not
+
+D.  $\hat \beta$ will change but $\hat \alpha$  will not
+
+  
+
+49. A linear regression model is estimated using ordinary least squares $y= \alpha + \beta x+\epsilon$ . But the variance of the error term is not constant, and in fact varies directly with another variablez, which is not included in the model. Which of the following statements is true?
+
+A. The OLS estimated coefficients will be biased because of the correlation be- tweenxand the error term
+
+B. The OLS estimated coefficients will be unbiased but their estimated standard errors will be biased
+
+C. The OLS estimated coefficients will be unbiased and so will their estimated standard errors because the error variance is not related tox, but tozwhich is not included in the model
+
+D. Both the OLS estimated coefficients and their estimated standard errors will be biased
+
+  
+
+50. Suppose the distribution functionF(x) of a random variableXis rising in the interval $[ a,b)$  and horizontal in the interval $[ b,c]$. Which of the following statements CAN be correct?
+
+  
+
+A. F(x) is the distribution function of a continuous random variableX.
+
+B.cis not the largest value that X can take.
+
+C. The probability that X=b is strictly positive.
+
+D. Any of the above
+
+  
+
+Consider an open economy simple Keynesian model with autonomous investment (I). People save a constant proportion (s) of their disposable income and consume the rest. Government taxes the total income at a constant rate ($\tau$ ) and spends an exogenous amount (G) on various administrative activities. The level of export (X) is autonomous at the fixed real exchange rate (normalized to unity). Import (M) on the other hand is a linear function of total income with a constant import propensitym.Let $I= 3200;G= 4000;X= 800;s=\frac{1}{2} ;\tau =\frac{2}{5} ; \ and\ m= 101$ 
+
+51. The equilibrium level of income is given by:
+
+  
+
+A. 8,000
+
+B. 16,000
+
+C. 10,000
+
+D. None of the above
+
+  
+
+52. At this equilibrium level of income
+
+A. there is trade surplus
+
+B. there is a trade deficit
+
+C. trade is balanced
+
+D. one cannot comment on the trade account without further information
+
+  
+
+53. Now suppose the government decides to maintain a balanced trade by appropriately adjusting the tax rate $\tau$  (there by affecting domestic absorption) - without changing the exchange rate or the amount of government expenditure. Values of other parameters remain the same. The government
+
+
+A. can attain this by decreasing the tax rate to $\frac{1}{5}$
+
+B. can attain this by increasing the tax rate to $\frac{4}{5}$
+
+C. can attain this by simply keeping that tax rate unchanged at $\frac{2}{5}$
+
+D. can never attain this objective by adjusting only the tax rate
+
+  
+
+54. Suppose in an economy banks maintain a cash reserve ratio of 20%. People hold 25% of their money in currency form and the rest in the form of demand deposits. If government increases the high-powered money by 2000 units, the corresponding increase in the money supply would be
+
+  
+
+A. 5000 units
+
+B. 2000 units
+
+C. 7200 units
+
+D. None of the above
+
+  
+
+55. Consider the standard IS-LM framework with exogenous money supply. Now suppose the government introduces an endogenous money supply rule such that the money supply becomes an increasing function of the interest rate. As compared to the standard IS-LM case, now
+
+  
+
+A. the IS curve will be flatter and fiscal policy would be more effective
+
+B. the IS curve will be steeper and fiscal policy would be less effective
+
+C. the LM curve will be flatter and fiscal policy would be more effective
+
+D. the LM curve will be steeper and fiscal policy would be less effective
+
+  
+
+  
+
+Answer 56,57,58,59 and 60 based on the following information: Consider an economy where aggregate output is produced by using two factors: capital (K) and labour (L). Aggregate production technology is given by the following production function: $Y_t= \alpha K_t+ \beta L_t$ , where $\alpha , \beta  > 0$   At every point of time both factors are fully employed; each worker is paid a wage rate $\beta$   and each unit of capital is paid a rental price $\alpha$  .A constant proportionsof total output is saved and invested in every period - which augments the capital stock in the next period (no depreciation of capital). Labour force grows at a constant raten.
+
+  
+
+56. This production function violates
+
+A. the neoclassical property of constant returns to scale
+
+B. the neoclassical property of diminishing returns to each factor
+
+C. the neoclassical property of factor returns being equal to the respective marginal products
+
+D. the neoclassical property of substitutability between capital and labour
+
+  
+
+  
+
+57. Let $k_t = \frac{K_t}{L_t}$ . The correspondingper capita output,  $y_t$ , is given by which of the following equations?
+
+  
+
+A. $y_t= \alpha + \beta k_t$
+
+B. $y_t= \beta (k_t)^{\alpha}$
+
+C. $y_t= \alpha k_t+ \beta$ 
+
+D. $y_t= \alpha (k_t)^{\beta}$  
+
+  
+
+58. The dynamic equation for capital accumulation per worker is given by
+
+  
+
+A. $\frac{dk}{dt} =s \beta k_t \alpha −nk_t$
+
+B. $\frac{dk}{dt} =s \alpha k_t+s \beta −nk_t$
+
+C. $\frac{dk}{dt} =s \alpha k_t−nk_t$ 
+
+D. $\frac{dk}{dt} =s \alpha k_t^{\beta} −nk_t$ 
+
+  
+
+59. Let $\alpha =\frac{1}{2} ;  \beta = 12; s=\frac{1}{4} ; n=\frac{1}{2}$ . The corresponding steady state value of capital per worker is given by
+
+A. 8
+
+B. 36
+
+C. $(4)^{\frac{1}{11}}$
+
+D. There does not exist any well-defined steady state value
+
+  
+
+60. Consider the same set of parameter values as above. An increase in the savings ratio
+
+  
+
+A. unambiguously increases the steady state value of capital per worker
+
+B. unambiguously decreases the steady state value of capital per worker
+
+C. leaves the steady state value of capital per worker unchanged
+
+D. has an ambiguous effect; a steady state may not exist if the savings ratio increases sufficiently

@@ -1,0 +1,693 @@
+---
+title: "PYQ DSE 2008"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+# DSE 2008
+
+  
+
+1. In the context of ideal price index numbers, consider the following statements: 
+
+S1: The index number should be invariant to the choice of base, i.e.$P_{rs}  \times   P_{sr}= 1$ .
+S2: An index that satisfies the circularity condition $P_{rs}  \times   P_{st}=P_{rt},r \neq t$ , need not satisfy S1.
+S3: If all prices change in the same proportion $\lambda$ , then the index should equal $\lambda$.
+S4: If we change the units of measurement of the prices, but not those of the quantity weights, that should not affect the index.
+
+Given these statements, which of the following is true?
+
+A. S1 and S2
+
+B. S2 and S4
+
+C. S1, S2 and S3
+
+D. S1 and S3
+
+2. Suppose that the probability that any particle emitted by a radioactive material will penetrate a given shield is .01. If ten particles are emitted, what is the probability that exactly one of the particles will penetrate the shield?
+
+A. $(.01)(0.99)^9$
+
+B. $(0.1)(0.99)^9$
+
+C. $0. 1$
+D. $\frac{1}{ 9}$ 
+
+3. Consider a symmetric 90% confidence interval for the population mean of a normal distribution with unknown variance, constructed using a random sample of 400 observations. Which of the following changes, ceteris paribus, would shorten the length of the confidence interval by the greatest amount?
+
+A. The confidence level is changed to 99%.
+
+B. The sample mean is half its original value.
+
+C. The sample size is four times its original value.
+
+D. The sample standard deviation is one third its original value.
+
+4. Let A and B be any two events, each of which has a positive probability of occurring. Consider the following statements:
+
+I. If A and B are independent, they must be mutually exclusive.
+
+II. If A and B are mutually exclusive, they must be independent.
+
+III. If A and B are independent, they cannot be mutually exclusive.
+
+IV. If A and B are mutually exclusive, they cannot be independent.
+
+Which of the above statements are true?
+
+A. I and IV.
+
+B. II and III.
+
+C. III and IV.
+
+D. None of the statements are true.
+
+
+5. Consider a random variableXwhich can take on only nonzero integer values from $− 20$  to $+20$ , and whose probability distribution is symmetric around 0. Suppose the $f(x)$ , called theprobability mass function of X, gives the probability that $X = x,\all  x = − 20 ,\dots ,− 1 , 1 ,\dots ,20.$  Now consider the random variable $Y =X^2$ . Which of the following would be an appropriate definition forg(y), the probability mass function for Y?
+
+A. $g(y) =f(\sqrt y)∀ y= 1, 4 ,\dots ,400 \ and \ g(y) = 0 \  otherwise$ 
+
+B. $g(y) = [f(\sqrt y)]^2 ∀ y= 1, 4 ,\dots ,400 \ and \ g(y) = 0 \ otherwise$
+
+C.$g(y) = 2f(\sqrt y)∀ y= 1, 4 ,\dots ,400 \ and \ g(y) = 0 \ otherwise$
+
+D. $g(y) =\sqrt{f(\sqrt y)} ∀ y= 1, 4 ,\dots ,400 \ and \ g(y) = 0 \ otherwise$ 
+
+6. A consumer has a utility function $U(x,y) = 10(x^2 + 4xy+ 4y^2 ) + 20$ . Which one of the following statements must be true?
+
+A. The goods are imperfect substitutes.
+
+B. The goods are perfect substitutes.
+
+C. The goods are perfect complement
+
+D. None of the above.
+
+7. Suppose a consumer has a utility function $U(x,y) = min(x+y, 2 y)$ . He maximises his utility subject to his budget constraint and consumes $(x^{∗},y^{*}) = (3,3)$ . Which one of the following statements must be true?
+
+A. price of  good x is  necessarily equal to price of goody.
+
+B. price of  good x is  double the price of goody.
+
+C. price of  good x is  less than or equal to price of goody.
+
+D. none of the above.
+
+8. Suppose a monopolist sells his product in two separate markets. After the product is sold in one market, there is no possibility of it being resold in the other market. Which one of the following statements must be true?
+
+A. Prices in both markets must be equal when the marginal cost of output is constant.
+
+B. Prices must be higher in the market with higher price elasticity of demand.
+
+C. Prices must be higher in the market with lower price elasticity of demand.
+
+D. None of the above.
+ 
+
+9. Consider a firm producing a single good with the cost function
+
+```
+insert function
+```
+
+This firm’s sunk cost and fixed cost are respectively
+
+A. 10 and 10
+
+B. 10 and 0
+
+C. 0 and 10
+
+D. 5 and 10
+
+  
+
+10. The elasticity of substitution of the production functionf(x,y) =cxaybis
+
+A. $\frac{c}{ab}$
+
+B. $\frac{ab}{c}$
+
+C. $a+b$
+
+D. $1$
+
+11. In the standard IS-LM framework if you introduce endogenous money supply such that money supply depends positively on the nominal rate of interest, the corresponding LM curve
+
+A. becomes steeper
+
+B. becomes flatter
+
+C. becomes horizontal
+
+D. remains unchanged
+
+12. Consider a simple Keynesian model where equilibrium output is determined by aggregate demand. Investment is autonomous and a constant proportion of the income is saved. In this framework an increase in the savings propensity has the following effect:
+
+A. it leads to higher level of output in the new equilibrium
+
+B. it leads to lower level of output in the new equilibrium
+
+C. the level of output in the new equilibrium remains unchanged
+
+D. the level of output in the new equilibrium may increase or decrease depending on the degree of increase in the savings propensity
+
+13. In the Solow model of growth, an increase in the savings propensity has the following impact:
+
+A. it leads to a higher steady state rate of growth
+
+B. it leads to a lower steady state rate of growth
+
+C. the steady state rate of growth remains unchanged
+
+D. the steady state rate of growth may increase or decrease depending on the degree of increase in the savings propensity
+
+  
+
+14. If covered interest parity prevails between two countries,
+
+A. nominal interest rates of the two countries must be equal.
+
+B. expected currency depreciation must equal the interest rate differential.
+
+C. expected currency depreciation must equal the interest rate differential plus the risk premium.
+
+D. interest rate differential must equal the risk premium.
+
+15. Which of the following constitute the ”impossible trinity” which cannot be simultane ously ensured in an open economy?
+
+       1. Fixed exchange rate
+
+       2. Balance in the balance of payments
+
+       3. Free international capital mobility
+
+       4. Independent monetary policy
+
+A. 1, 2 and 3
+
+B. 1, 2 and 4
+
+C. 1, 3 and 4
+
+D. 2, 3 and 4
+
+16. Consider the following two functions mapping points on the plane back to-points on the plane.
+
+(i) $f(x_1 ,x_2 ) = (x_1 + 1,x_2 + 1)$  and (ii) $g(x_1 ,x_2 ) = (x_2 ,x_1 )$ .
+
+Which of the above functions is a linear function?
+
+A. Both functions are linear.
+
+B. Neither function is linear.
+
+C. $f$ is a linear function,$g$ is not linear.
+
+D. $g$ is a linear function,$f$ is not linear.
+
+17. Consider the equationxy+yz+zx=k, defined for all positive values of x and y, and where k is a given positive constant. The partial derivative $\frac{\partial z}{\partial x}$ then equals
+
+A. $\frac{−(xz^{x−1} +y^z \ln y)}{(yx^{y−1} +z^x \ln z)}$
+B. $\frac{−(yx^{y−1} +z^x \ln z)}{(xz^{x−1} +y^z \ln y)}$
+C. $\frac{−(zy^{z−1} +x^y \ln x)}{(xz^{x−1} +y^z \ln y)}$
+D. $\frac{−(zy^{z−1} +z^x \ln z)}{(xz^{x−1} +z^x \ln z)}$
+
+  
+
+18. The derivative of the function defined by $f(x) = \sin^2 x+ \cos^2 x$ is
+
+A. an increasing function of x
+
+B. an oscillating function of x
+
+C. a constant
+
+D. a decreasing function of x
+
+19. Consider an $n  \times   n$ real matrix A with $n >4$ . Interchanging the positions of two columns
+
+A. will change the sign of detA
+
+B. will not change the sign of detA
+
+C. may or may not change the sign of detA, depending on the value ofn
+
+D. may or may not change the sign of detA, depending on the positions of the two columns
+
+20. Suppose we have a chair withnlegs and it stands with all its legs touching the floor, regardless of the floor quality, i.e., evenness, smoothness, etc. Then,n is
+
+A. 2
+B. 3
+C. 4
+D. 5
+
+21. The frequency distribution of variable X (monthly family expenditure in Rs. ‘000) for 100 household is as follows:
+
+  |X|10 - 15| 5 - 9.9999 |2 - 4.9999 |Below 2|
+  |---|---|----|---|---|
+  |No. of households |10| 15| 45 |30|
+  
+The median monthly expenditure is in the range:
+
+A. Rs. 2000 to 3000
+
+B. Rs. 3000 to 4000
+
+C. Rs. 4000 to 5000
+
+D. Rs. 5000 to 6000
+
+  
+
+22. The frequency distribution of variable Y, the number of heads when two damaged coins are tossed, is:
+
+  |Y| 0| 1| 2|
+  |---|---|---|---|
+  |F(y)| 0.3| 0.45| 0.25|
+
+To two decimal places, the mean and variance of Y (in that order) are:
+
+A. 0.95 and 0.50
+
+B. 0.50 and 0.95
+
+C. 0.95 and 0.55
+
+D. 0.95 and 0.45
+
+23. For variables x and y we have the data: $\sum XY = 350, \sum X= 50,\sum Y = 60,X= 5, \sigma X^2 = 4, \ and \ \sigma^2 Y= 9$ . Which of the following holds?
+A. A one unit change inXis associated with a 1.25 unit change in Y, and a one unit change in Y is associated with a 0.6 unit change in X.
+B. A one unit change in X is associated with a 0.6 unit change inY, and a one unit change in Y is associated with a 1.25 unit change in X.
+C. The covariance between x and y exceeds Y.
+D. The regression ofY on X passes through the origin.
+
+24. The life of a cycle tyre is normally distributed with mean 350 days and variance 64. It is true that:
+
+A. The probability that the life of the tyre will be less than 336.84 days is greater than 5%
+
+B. The probability that the life of the tyre will be greater than 363.16 days is greater than 5%
+
+C. The probability that the life of the tyre will be between 336.84 and 363.16 days is 90%
+
+D. The probability that the life of the tyre will be less than 334.32 is greater than 3%
+
+25. In a random sample of 400 mangoes selected from a large consignment, 30 were found rotten. The null hypothesis is that the proportionπof rotten mangoes in the consign ment is 10%. It is true that:
+
+A. Given $H_A:\pi  \neq  0.1$ , we can’t reject the null at the 1% level of significance, and the probability of error type I of this test is 0.005
+
+B. Given $H_A: \pi  < 0 .1$, we reject the null at the 5% level of significance, and the probability of error type I of this test is 0.05
+
+C. Given $H_A:\pi  \neq 0.1$ , we reject the null at the 10% level of significance, and the probability of error type I of this test is 0.1
+
+D. If $H_A: \pi > 0 .1$ , the power of the associated test is higher than if $H_A:\pi  < 0. 1$
+
+26. In a sample of 1000 mangoes, the mean weight of a mango is 210 g, and the standard deviation 9.5 g. In another sample of 1200 mangoes, the mean is 180 g and the standard deviation 11.5 g. Assume that the respective populations from which these samples are drawn have the same variances. Given the null hypothesis $H_0 :\mu_1 −\mu_2 = 0$ , where $\mu_1 \ and \  \mu_2$  are the population means, it is true that:
+
+A. If $H_A:\mu_1 −\mu_2 \neq 0$, we reject the null hypothesis at the 15%, 13%, 12% and 8% levels of significance.
+
+B. If $H_A :\mu_1 −\mu_2 \neq 0$ , we do not reject the null hypothesis at the 1% level of significance.
+
+C. The appropriate estimator for testing weather the samples are from essentiall the same population is $\mu_1 −\mu_2$.
+
+D. If $H_A:\mu_1 −\mu_2 \neq 0$ , and we conduct a test at the 7% level of significance, the probability of error type I of this test is 0.035.
+
+  
+27. Data on India’s exports of Jute and Tea for the years 2000-2003 are as follows:
+
+```
+insert table
+```
+
+  
+Which of the following are true?
+
+A. The chain-base price indices with 2000 as base year are $\bar P_{01} = 146.3, \bar P_{02} =152 .2, \ and \ \bar P_{03} = 144. 9$
+
+B. The chain-base price indices with 2000 as base year are $\bar P_{01} = 148.3,\bar P_{02} =152 .2, \ and \ P_{03} = 146. 9$
+
+C. The chain-base price indices with 2000 as base year are $\bar P_{01} = 148.3,\bar P_{02} =154 .2, \ and \ \bar P_{03} = 144. 9$
+
+D. The chain-base price indices with 2000 as base year are $\bar P_{01} = 148.3,\bar P_{02} = 156 .2, \ and \ \bar P_{03} = 146. 9$
+
+  
+
+28. Suppose that 80% of all statisticians are shy, whereas only_15% of all economists are shy. Suppose also that 90% of the people at a large gathering are economists and the other 10% are statisticians. If you meet a shy person at random at the gathering, what is the probability that the person is a statistician?
+
+A. $\frac{8}{9}$
+
+B. $0.8$
+
+C. $.08$
+
+D. $\frac{80}{215}$
+
+29. Each cell of the following table provides the probability of the joint occurrence of the corresponding pair of values of the random variables x and y.
+
+|X ↓ Y $\to$ |1|2|3|4|
+|---|---|---|---|---|
+|1 |.1| 0 |.1| 0|
+|2| .3| 0 |.1| .2|
+|3| 0| .1| 0| .1|
+
+Consider the following statements about x and y:
+
+I. $Pr(Y= 2)>Pr(X= 1)$
+
+II. 4Pr(Y= 1|X= 2) = Pr(Y = 1|X= 1$)
+
+III. The events $X= 3$ and $Y = 3$ are mutually exclusive.
+
+IV.  x and y are independent.
+
+Which of the above statements are true?
+
+A. only I and II.
+
+B. only II and III.
+
+C. only III and IV.
+
+D. only II, III and IV.
+
+  
+
+30. A survey of asset ownership in poor households in rural UP and Bihar found that 40% of the households own a radio, 15% own a television and 60% own a bicycle. It also found that 5% of the households own both a radio and a television, 26% own both a radio and a bicycle, 5% own both a television and a bicycle, and 1% own all three. If a randomly selected poor household in these areas is found to own exactly one of these three assets, what is the probability that it is a bicycle?
+
+A. $\frac{20}{23}$
+
+B. $\frac{17}{23}$
+
+C. $\frac{15}{23}$
+
+D. $\frac{12}{23}$
+
+31. Consider an exchange economy with two persons and two goods. Person 1’s utility function is $u_1 (x,y) = x+y$  and person 2’s utility function is $u_2 (x,y) = ex^2 +y^2 +2xy$ . Person 1’s endowment is (1, 0) and person 2’s endowment is (0, 1). Denote person 1’s allocation by $(x_1 ,y_1 )$  and person 2’s allocation by $(x_2 ,y_2 )$ . The set of efficient allocations $((x_1 ,y_1 ),(x_2 ,y_2 ))$  is such that
+
+A. $(x_2 ,y_2 ) = (1−x_1 , 1 −y_1 ) \ for \ all \  x_1 ,x_2 \in [0,1]$
+
+B. $(x_2 ,y_2 ) = (1−x_1 , 1 −y_1 ) for \ all \ x_1 ,x_2 \in (0,1)$
+
+C. $(x_1 ,y_1 ) = (1/ 2 , 1 /2) = (x_2 ,y_2 )$
+
+D. $(x_1 ,y_1 ) = (e^a,e^b) \ and \ (x_2 ,y_2 ) = (1−e^a, 1 −e^b) \ for \ all a,b \in (−\infty ,0)$
+
+
+32. Consider an exchange economy with persons 1 and 2 and goods x and y. Person 1’s  utility function is $u_1 (x,y) = x^2 y^2$ and person 2’s utility function is $u_2 (x,y) = e^x+y$. The total endowment of the economy is (2, 1). The allocation $(x_1 ,y_1 ) = (1,1)$  and  $(x_2 ,y_2 ) = (1,0)$  is
+
+A. Pareto inefficient
+
+B. Pareto efficient or inefficient depending on the endowments of the two persons
+
+C. Pareto efficient or inefficient depending on the state of the world
+
+D. Pareto efficient
+
+33. Consider the situation of the preceding question. If person 1’s endowment is (1, 1) and 2’s endowment is (1, 0), then the following allocation is a competitive equilibrium:
+
+A. $(x_1 ,y_1 ) = (\frac{3}{2} , \frac{1}{2}) \ and \ (x_2 ,y_2 ) = (\frac{1}{2} , \frac{1}{2})$
+
+B. $(x_1 ,y_1 ) = (1,1) \ and \ (x_2 ,y_2 ) = (1,0)$
+
+C. $(x_1 ,y_1 ) = (2,0) \ and \ (x_2 ,y_2 ) = (0,1)$
+
+D. $(x_1 ,y_1 ) = (2,1) \ and \  (x_2 ,y_2 ) = (0,0)$ 
+
+34. Consider the situation of the preceding question. Which of the following is an equilibrium price vector?
+
+A. $(p_1 ,p_2 ) = (1,0)$
+
+B. $(p_1 ,p_2 ) = (0,1)$
+
+C. $(p_1 ,p_2 ) = (1,1)$
+
+D. none of the above
+
+35. Consider an exchange economy with the same two agents and utility functions as the last three questions, but now the endowments of the two persons are (0, 1) and (2, 0). Which of the following pre-trade lump-sum transfers of wealth will lead to allocations $(x_1 ,y_1 ) = (1,1)  \ and \ (x_2 ,y_2 ) = (1,0)$  and prices $(p_1 ,p_2 ) = (1,1)$  being a competitive equilibrium?
+
+A. subsidies of 1 to both persons
+
+B. taxes of 1 to both persons
+
+C. a subsidy of 1 to person 1 and a tax of 1 on person 2
+
+D. a subsidy of 1 to person 2 and a tax of 1 on person 1
+
+36. There are 3 items of choice, x,y,z, and Ms. A has 4 possible choice situations: in 3 of them, she is asked to choose one or more items from the 3 possible pairs of items {x,y},{y,z}and{x,z}. She chooses the itemsx,yandzrespectively in these 3 situations. In the 4th situation she must choose one or more items from the set{x,y,z}; we are not told directly what her choice is. Which of the following is correct?
+
+A. Ms A’s choice violate the weak axiom of revealed preference.
+
+B. Ms A’s choices are consistent with the weak axiom of revealed preference.
+
+C. We can’t say (a) or (b) because we don’t know her choice from the set{x,y,z}
+
+D. We can’t say (a) or (b), even though we can deduce her choice from the set {x,y,z}
+
+  
+
+Questions 37-39 use the following information: A chemical factory produces a chemical K and an effluent E which it dumps in a river. A downstream fishery produces fish F and its costs are affected by the level of effluent in the river. The two firms are competitive and face unit pricesPK = 10 andPF = 20 for the chemical and the fish respectively. The cost function of the chemical factory is $C(K,E) =K^2 [(5−E)^2 + 1]$. The cost function of the fishery is $\tilde C (F,E) =F^2 E^2$.
+
+37. If the chemical factory chooses levels of chemical and effluent to maximize profits, and the fishery chooses the level of fish to maximize profits, the chosen level of the chemical, effluent and fish (i.e.K,E,F) are respectively
+
+A. $5, 0, \frac{5}{8}$
+
+B. $3, 0, \frac{2}{5}$
+
+C. $5, 5, \frac{2}{5}$
+
+D. $5, 5, \frac{5}{8}$
+
+38. Suppose the socially optimal levels of the chemical, effluent and fish, denoted by K,E,F respectively, are the levels that maximise the joint profit of an integrated firm consisting of the chemical factory and the fishery. ThenEis equal to
+
+A. $\frac{5\bar K^2 }{(K^2 −\bar F^2 )}$
+B.  $\frac{5\bar F^2 }{(K^2 +\bar F^2 )}$
+C. $\frac{5\bar F^2 }{(K^2 −\bar F^2 )}$
+D. $\frac{5\bar K^2 }{(K^2 +\bar F^2 )}$
+
+39. Suppose a government knows the firms’ production functions and their output prices, and can costlessly monitor the amount of effluent released by the chemical factory. If it sets a tax t per unit of effluent produced by the chemical factory, the level of this tax that will result in the socially optimal effluent levelEis equal to
+
+A. $t= 10 \frac {(\bar K)(\bar F)^2 }{(\bar K^2 + \bar F^2 )}$
+B. $t= 10 \frac {(\bar K)^2 (\bar F)^2 }{(\bar K^2 - \bar F^2 )}$
+C. $t= 10 \frac {(\bar K)^2 (\bar F)^2 }{(\bar K^2 + \bar F^2 )}$
+D. $t= 5 \frac {(\bar K)(\bar F)^2 }{(\bar K^2 + \bar F^2 )}$
+
+40. Consider a firm with one output and two possible choices of capital stock, say 1 an 2. The associated cost functions are $C(x,1) = 2 + 2x \ and \ C(x,2) = 4 +x$ . Before choosing its capital stock, the firm’s cost function is
+
+```
+INSERT OPTIONS
+```
+  
+
+Questions 41-46 are related and share a common information set. The complete set of information is revealed gradually as you move from one question to the next. Consider a macro-economy where the aggregate output in the short run is given by: $$Y=AL^{\alpha} (\bar K)^{1 −\alpha}$$ where L is the total employment of labour; K is the total capital stock (which is fixed in the short run); and A >0 and $0< \alpha  <1$  are parameters of the system. Let P and W denote the aggregate price level and the money wage rate respectively. Assume that the producers in the economy maximise profit in a perfectly competitive set up.
+
+  
+
+41. The corresponding demand for labour schedule as a function of the real wage rate is given by
+
+A. $L^d =[\frac {Y}{A (\bar K)^{1-\alpha}} ]^{\frac{1}{\alpha}}$
+B. $L^d= \bar K (A\alpha)^{\frac{1}{1-\alpha}}[\frac{W}{P}]^{\frac{1}{\alpha-1}}$
+C. $L^d =[\frac {1}{ A \alpha (\bar K)^{1-\alpha}}]^{\frac{1}{\alpha}} [\frac{W}{P}]^{\frac{1}{1- \alpha}}$
+D. None of the above
+
+  
+
+42. If there is a one-shot increase in the stock of capital (K), the demand for labour schedule, as derived above,
+
+A. shifts up
+
+B. shifts down
+
+C. does not shift
+
+D. the information available so far is not adequate to answer this question
+
+  
+
+Suppose the above economy is characterised by a single household which takes the aggregate price level and the money wage rate as given and decides on its consumption and labour supply by maximising its utility subject to its budget constraint. The household has a total endowment ofLunits of labour time, of which it suppliesLS units to the market at the money wage rateW, and enjoys the rest as leisure. Its utility depends on its consumption and leisure in the following way: $U = (C)^{\beta}  + (\bar L−L^s)\beta ; 0< \beta  <1$ . The only source of income of the household is the wage income and it spends its entire wage earning in buying consumption goods at the price $P$ .
+
+43. The corresponding supply of labour schedule as a function of the real wage rate is given by:
+A. $L^s=[\frac {\bar L (\frac{W}{P})^{\frac{\beta}{1-\beta}}}{1+(\frac{W}{P})^{\frac{\beta}{1-\beta}}}]$
+B. $L^s=[\frac{\bar L}{1+(\frac{W}{P})^{\frac{\beta}{1-\beta}}}]$
+C. $L^s= [\frac{(\frac{W}{P})^{\beta}}{\bar L +(\frac{W}{P})^{\beta}}]$
+D. None of the above
+
+  
+
+44. If there is an exogenous increase in the total endowment of labour time (L), the supply for labour schedule, as derived above,
+
+A. shifts up
+
+B. shifts down
+
+C. does not shift
+
+D. the information available so far is not adequate to answer this question
+
+45. Let $\alpha  =\frac{1}{2} ; K = 10;L= 10;A= 4$ . Given these parameter values, the unique non negative equilibrium value of real wage rate that clears the labour market is given by:
+
+A. $\frac{W}{P}=[\frac{1}{2 \sqrt 2}]^{\frac{1}{2}}$
+B. $\frac{W}{P}=[\frac{1+  \sqrt 2}{2}]^\frac{1}{2}$
+C. $\frac{W}{P}=[2-\sqrt 2]^{\frac{1}{2}}$
+D. $\frac{W}{P}=[2+\sqrt 2 ]^{\frac{1}{2}}$
+
+
+
+46. Given the labour demand and the labour supply schedule as derived above, the aggregate supply curve (output supplied as a function of the aggregate price level) is
+
+A. upward sloping
+
+B. downward sloping
+
+C. vertical
+
+D. horizontal
+
+
+
+Questions 47 to 50 are related and share a common information set. The complete set of information is given below. Attempt all of them together. Consider a closed economy where the general price level is exogenously fixed at P. The goods market clearing condition is given by:$Y=C+I+G$ , where the consumption demand (C) is a function of the disposable income $(Y−T)$  such that $C =c.(Y −T), 0 < c <1$ ; the investment demand (I) is a function of the real interestrsuch that $I=\bar I−d.r,d > 0$  ; total tax revenue in the economy (T) is a function of the aggregate real income such that $T=\tau .Y, 0 < \tau  <1$  ; and the government expenditure (G) is autonomous such that $G=\bar G$. The money market clearing condition is given by: $\frac{\bar M}{P} =L$ , where supply of money (M) is exogenous such that $M=\bar M$  ; and the demand for real balance (L) is a function of the real income (Y) and the nominal interest rate (i) such that $L=a.Y−b.i,a,b >0$ . Finally, the nominal interest rate is the sum of the real rate of interest and the expected rate of inflation $(\pi^e)$  such that $i=r+\pi^e$. Assume that the economy starts from an equilibrium situation where both the goods market and the money market clear.
+
+  
+
+47. In ceteris paribus, a unit increase in government expenditure has the following impact on the equilibrium income level:
+
+A. it increases by $b[\frac{1}{1-c(1 −\tau +ad )}]$ units
+B. it decreases by $b[\frac{1}{1-c(1 −\tau +ad )}]$ units
+C. it increases by $b[\frac{b}{1-c(1 −\tau +ad )}]$ units
+D. it decreases by $b[\frac{b}{1-c(1 −\tau +ad )}]$ units
+
+  
+
+48. Inceteris paribus, a unit increase in the expected rate of inflation has the following impact on the equilibrium value of the real interest rate:
+
+A. it increases by $\frac{[1-c(1-\tau)]}{b[1-c(1-\tau)]+ad}$ units
+
+B. it decreases by  $\frac{a}{a[1-c(1-\tau)]+ad}$ units
+
+C. it increases by   $\frac{b[1-c(1-\tau)]}{b[1-c(1-\tau)]+ad}$  units
+
+D. it decreases by  $\frac{b[1-c(1-\tau)]}{b[1-c(1-\tau)]+ad}$ units
+
+  
+
+49. Inceteris paribus, a unit increase in the general price level has the following impact on the equilibrium value of the real interest rate:
+
+A. it increases by $\frac{[\frac{\bar M }{(\bar P)^2}]}{b[1-c(1-\tau)]+ad}$  units
+
+B. it decreases by    $\frac{[\frac{\bar M }{(\bar P)^2}]}{b[1-c(1-\tau)]+ad}$  units 
+
+C. it increases by  $\frac{[1-c(1-\tau)][\frac{\bar M }{(\bar P)^2}]}{b[1-c(1-\tau)]+ad}$  units 
+
+D. it decreases by   $\frac{[1-c(1-\tau)][\frac{\bar M }{(\bar P)^2}]}{b[1-c(1-\tau)]+ad}$  units 
+
+50. Suppose we now allow the general price level to be flexible. Given the above characteristics of the macro-economy, the corresponding aggregate demand curve (output demanded as a function of the general price level) is
+
+A. upward sloping
+
+B. downward sloping
+
+C. vertical
+
+D. horizontal
+
+51. Fix an $m  \times   n$ matrix A and an m-vector b . A condition that ensures the existence of a solution (an n-vector x) of the equation $Ax=b$ is
+
+A. $det A \neq  0$
+
+B.$m=n$
+
+C. the columns of A are linearly independent
+
+D. the rows of $A$ are linearly independent
+
+52. The real-valued function $f(x)  =x^4$  is
+
+A. strictly convex
+
+B. strictly concave
+
+C. neither strictly concave nor strictly convex
+
+D. convex but not strictly convex
+
+53. Consider the equation $Ax= 0$, where A is an $n  \times   n$ matrix such that $a_{ij} \neq 0$  for every $i\in { 1 ,\dots ,n}$ and $a_{ij}= 0$  whenever $i > j$. This equation has
+
+A. n distinct solutions
+
+B. an $n−1$  dimensional vector space of solutions
+
+C. exactly one solution
+
+D. an n dimensional vector space of solutions
+
+54. There is a pile of 17 matchsticks on a table. Players 1 and 2 take turns in removing matchsticks from the pile, starting with Player 1. On each turn, a player has to remove a number of sticks that equals the square of a positive integer, such that the number of matchsticks that remain on the table equals some non-negative integer. The player who cannot do so, when it is his/her turns, loses. Which of the following statement is true?
+
+A. If Player 2 plays appropriately, he can win regardless of how 1 actually plays.
+
+B. If Player 1 plays appropriately, she can win regardless of how 2 actually plays.
+   
+C. Both players have a chance to win, if they play correctly.
+
+D. The outcome of the game cannot be predicted on the basis of the data given.
+
+  
+
+55. If A is a set of real numbers, letgAbe the function such that $g_A(x) = 1 \ if \ x \in A, \ and \  g_A(x) = 0 \ if\ x \in A$ . With this notation, consider the infinite sequence of functionsfn, where $f_n(x) =ng_{[0, \frac{1 }{n}]}(x)$  (i.e.,n multiplied by $g_{[0, \frac{1 }{n}]}(x)$  for all real numbers x and for each n= 1, 2 , 3 $\dots$ Then
+
+A. For every x, the sequence of numbers $(f_n(x))_{n=1}^{\infty}$ has a limit in the space of  real numbers.
+
+B. $\lim_{n \to \infty} f_n(x)$  does not exist, for any x.
+
+C. When $\lim_{n \to \infty} f_n(x)$  exists, the actual limit depends on the x in question.
+
+D. $\lim_{n \to \infty} f_n(x)$  exists for all but a finite set of real numbers x.
+
+56. Continuing with the sequence of functions above, we consider the sequence of real numbers ${\int f_n}_{n=1}^{\infty}$ (that is, the sequence of their integrals). This sequence of integrals is
+
+A. an increasing sequence
+B. a decreasing sequence
+C. a constant sequence
+D. an oscillating sequence
+
+57. For each positive integer $a= 1, 2 , 3 ,\dots$  let $S_a$  be the set of points lying on the curve $y= \frac{1}{x_a}$ , for all positive real numbers x. Then the intersection of these sets over all a (that is, $\cap_{a=1}^{ \infty} S_a$)  is
+
+A. a set with infinitely many points
+B. a set having a single point
+C. a set having exactly_2 points
+D. a set having more than 2, but a finite number of points
+
+58. Which of the following two numbers is largereπorπe?
+
+A.  $e^{\pi}$
+
+B. $\pi^e$
+
+C.  they are equal
+
+D. it depends on the value of e
+
+59. The function 
+
+```
+insert function
+```
+
+A. is continuous or discontinuous atx= 0, depending on the value ofa
+
+B. is continuous at x= 0
+
+C. is discontinuous at x= 0
+
+D. is upper hemicontinuous at x= 0
+
+  
+60. Suppose $v_1 ,v_2 \ and \ v_3$  are three vectors in 3-dimensional space, and are linearly depen dent. Then the vectors $v_1 +v_2 ,v_2 +v_3$  , and $v_1 +v_3$ 
+
+A. are linearly independent
+
+B. may be linearly dependent
+
+C. are linearly dependent
+
+D. are linearly independent, except when one of the vectors is zero

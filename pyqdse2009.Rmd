@@ -1,0 +1,432 @@
+---
+title: "PYQ DSE 2009"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+---
+status: done
+---
+# DSE 2009
+
+1.  There are 4 married couples in a club. A 3-member committee must be formed among them, such that no married couple is part of the committee. The number of ways in which this committee can be formed is 
+A. 16  
+B. 44  
+C. 32  
+D. 56
+
+    
+2.  For any sets $E$ & $F$, $E−F = \{x \in  E|x \in  F\}$, $\cup$ and $\cap$  refer to the Union and intersections of the sets. Consider the following statements for the sets $A$,$B$ and $C$
+i. $A−(B\cup C) = (A−B)\cup (A−C)$  
+ii. $A−(B\cup C) = (A−B)\cap (A−C)$  
+iii. $A−(B\cup C) = (A−B)\cap C$ 
+A. i. is true  
+B. ii. is true  
+C. iii. is true  
+D. none of them is necessarily true
+
+
+3. $\int_{1.96}^{\infty} e^{-x^2/2}dx$ is approximately
+A. 0.025
+B. $\sqrt{2\pi}$
+C. $\frac{0.025}{\sqrt{\pi}}$
+D. $0.025\sqrt{2\pi}$
+
+4.  Consider maximising $f(x,y) =x^2 −y^2$ subject to the constraint$ x+y= 1$, where $x$ and $y$ are real numbers. This problem has 
+A. no solution  
+B. a unique solution  
+C. 2 solutions  
+D. an infinity of solutions
+
+5.  Suppose $P(x)$ and $Q(x)$ are real polynomials of degree $m$ and $k$ respectively, where both $m$ and $k$ are less than or equal to the positive integer $n$. Suppose the equation $P(x) =Q(x)$ has at least $(n+ 1)$ distinct solutions. Which of the following choices best describes what this situation implies?  
+A. $m=k=n$
+B. $m=k < n$
+C. $P(x)$ and $Q(x)$ are identical
+D. $P(x)$ and $Q(x)$ are linear
+
+6.  There are three alternative definitions of a consistent estimator
+I. An estimator is consistent if its probability limit equals its true parameter value as sample size approaches infinity.
+II. An estimator is consistent if its mean squared error goes to zero as sample size approaches infinity.
+III. An estimator is consistent if it is unbiased, and its variance goes to zero as sample size approaches infinity.
+A. Only I is correct
+B. Only II is correct
+C. Only III is correct
+D. All three are correct
+
+
+7.  Given the data $\sum XY = 350$, $\sum X= 50$, $\sum Y = 60$,$N = 10$,$V(X) = 4$,$V(Y) = 9$, where $V(.)$ refers to the population variance. The correlation coefficient between $X$ and $Y$, regression (slope) coefficient of $Y$ on $X$, and the regression (slope) coefficient of $X$ on $Y$ are, respectively:  
+A. $35/36 , 35/16 , 35/81$ 
+B. $5/6 , 5/4 , 5/9$  
+C. $5/6 , 35/16 , 35/81$  
+D. $\sqrt{35 / 36} , 35 / 16 , 35 / 81$
+
+8.  In a surprise check in a local bus, 20 passengers were caught without tickets. The sum of squares and the population standard deviation of the amount in their pockets were Rs. 2000 and Rs. 6, respectively. If the total fine equals the total amount discovered on them, and a uniform fine is imposed, then the fine imposed on an individual is: 
+A. Rs. 8  
+B. Rs. 6  
+C. Rs. 10  
+D. Rs. 12
+
+9.  In a linear regression of Y on X, changing the units of measurement of the Y variable will affect all of the following except:  
+A. the estimated intercept parameter  
+B. the estimated slope parameter  
+C. the Total Sum of Squares for the regression
+D. R squared for the regression
+
+10. A fair dice has numbers 1, 2, 3, 4, 5 and 6 on its side. It is tossed _once_. I win Rs. 1 if an odd number shows up; otherwise I lose Rs. 1. Let $X$ be the number that shows up and $Y$ the money I win. (Note: $Y$ <0 if I lose money.) Which of the following is incorrect? 
+A. $Prob (X > Y) = 1$  
+B. $Prob (X= 3|Y = 1) = 3$  
+C. $E(Y) = 0$ 
+D. $Prob (Y= 1|X= 5) = 1$
+
+11.  Your budget is such that if you spend your entire income on two goods, $x$ and $y$, you can afford either 4 units of $x$ and 6 units of $y$ or 12 units of $x$ and 2 units of $y$. If you spent all your income on $x$, how many units of $x$ could you buy? 
+A. 7  
+B. 16  
+C. 15  
+D. 18
+    
+12.  The demand function for lemonade is $Qd= 100−p$, and the supply function is $Qs= 10 + 2p$, where $p$ is the price in rupees. The government levies a sales tax on lemonade after which the volume of sales drops to 60. then the per unit tax on lemonade is  
+A. Rs. 20  
+B. Rs. 15  
+C. Rs. 10  
+D. Rs. 5
+    
+13.  There are only two price taking firms in a market. Their cost functions are $C_1 =x^21 \mbox{ and } C_2 = 2x^22$ , where $x_i$ is the output of the $i^{th}$ firm. Market supply is sum of the two firms output. Then the market supply function is 
+A. $x=\frac{3p}{4}$
+B. $x=\frac{3p}{4}$
+C. $x=\frac{p}{2}$
+D. $x= 2p$
+
+14.  A monopoly faces the demand curve $P= 8−Q$. The monopoly has a constant unit cost equal to 5 for $Q\leq 2$ and a constant unit cost equal to 3 for $Q >2$. Its profit maximising output equals: 
+A. $3/2$
+B. $2$
+C. $5/2$
+D. Both $3/2$ and $5/2$
+
+15.  A firm has the production function $y= min\{L+ 2K, 2 L+K\}$, where $y$ is quantity of output, and $L \& K$ are the quantities of labour and capital inputs respectively. If the input price of $L$ is Rupee 1 and the input price of $K$ is Rupees 2, then to produce $y= 12$ costs the firm at least 
+A. 10 Rupees  
+B. 12 Rupees  
+C. 14 Rupees  
+D. 16 Rupees
+
+16.  The opportunity cost of holding money (that yields zero nominal return) vis-à-vis some interest bearing bond is: 
+A. the real interest rate  
+B. the nominal interest rate  
+C. the real interest rate when measured in real terms and the nominal interest  
+rate when measured in nominal terms  
+D. None of the above
+
+17.  In the IS-LM framework, an increase in the expected rate of inflation results in 
+A. an increase in the equilibrium value of income and an increase in the equilibrium value of real interest rate 
+B. a decrease in the equilibrium value of income and a decrease in the equilibrium value of real interest rate  
+C. an increases in the equilibrium value of income and a decrease in the equilibrium value of real interest rate  
+D. a decrease in the equilibrium value of income and an increase in the equilibrium value of real interest rate 
+
+18.  When the nominal wage rate is rigid, the aggregate supply schedule (in the output-price space) is: 
+A. horizontal  
+B. vertical  
+C. downward sloping  
+D. upward sloping
+    
+19.  In IS-LM framework with an external sector i.e., the IS equation now includes a net export term, an appreciation of the (real) exchange rate
+A. would necessarily result in a decrease in the equilibrium value of income
+B. would result in a decrease in the equilibrium value of income only if the LM curve is vertical
+C. would result in a decrease in the equilibrium value of income only if the Marshall-Lerner condition is satisfied
+D. would result in a decrease in the equilibrium value of income only if the government maintains a balanced budget
+
+20.  According to the Baumol-Tobin Model, if income rises by ten percent, the transactions demand for money should rise by  
+A. Five percent  
+B. Ten Percent  
+C. Between five and ten percent  
+D. None of the above
+
+21.  Consider the following statements:  
+    (i) $5^44 > 453$    (ii) $2^100 + 3^100 < 4100$  
+A. Both (i) and (ii) are false.  
+B. (i) is true, (ii) is false.  
+C. Both (i) and (ii) are true.  
+D. (i) is false, (ii) is true.
+
+22.  The WOW Language has only 2 letters in its alphabet, O and W; the language obeys the following rules: (i) deleting successive letters WO from any word which has more than 2 letters, gives another word with the same meaning. (ii) inserting OW or WWOO in any place in a word yields another word with the same meaning. O, OWOOW, WOO and OWW are 4 words in this language. Which of the following statements is FALSE?  
+A. the words WOO and OWW necessarily have the same meaning.  
+B. WOO and OWW may not have same meaning.  
+C. O and OWOOW must have the same meaning.  
+D. (b) and (c) are true.
+
+23.  Consider the system of equations in the unknowns $x$ and $y$ : $$\begin{array}ax+y=a^2 \\ x+ay= 1 \end{array}$$ Sets of all values of $a$ for which this system has (i) no solution, (ii) multiple solutions, and (iii) a unique solution are respectively
+A. $(i)\begin{array}{ccc}a < 1 & (ii)a > 1 & (iii)a= 1 \end{array}$
+B. $(i)\begin{array}{ccc}a = -1 & (ii)a = 1 & (iii)a > 1 \end{array}$
+C. $(i)\begin{array}{ccc}a = -1 & (ii)a = 1 & (iii)\mbox{all other values of a} \end{array}$
+D. $(i)\begin{array}{ccc}a = -1 & (ii)a = 1 & (iii)-1 < a < 1 \end{array}$
+
+24.  Consider the system of equations:
+$$\begin{array} x−y+z= 1 \\
+3 x+z= 3 \\
+5 x− 2 y+ 3z= 5 \end{array}$$
+This system has
+A. the unique solution $(x,y,z) = (1, 0 ,0)$
+B. the solution set $\{\left( 1-\frac{z}{3}, \frac{2z}{3},z|z \in \mathbf{R} \right) \}$
+C. the solution set $\{\left( 1-\frac{z}{3}, \frac{2z}{3},z|z \geq \mathbf{R} \right) \}$
+D. multiple solutions, but not described by (b) or (c).
+
+25.  Consider the function $f(x) = \left\{ \begin{array}{ll} x^2 sin(1/x), & x\neq 0 \\ 0, & x= 0\end{array} \right.$
+Then the following is true about the derivative of $f$:
+A. $f^′(0) =−1$ and $f′(x)$ is continuous at $x= 0$
+B. $f^′(0) =−1$ and $f′(x)$ is discontinuous at $x= 0$
+C. $f^′(0) = 0$ and $f′(x)$ is discontinuous at $x= 0$
+D. $f^′(x)$ is not defined at $x= 0$
+
+26.  For all set $S$, let $S^2$ denote the cartesian product $S×S$. A binary relation  
+    $R$ on $S$ is a subset of $S^2$.  
+    $R$ is transitive if $(x,y)\in R$ and $(y,z)\in R$ implies $(x,z)\in R$.  
+    $R$ is negatively transitive if $(x,y)\in /R$ and $(y,z)\in /R$ implies $(x,z)\in /R$.  
+    Inverse of $R$ is defined as follows, $R−^1 =\{(y,x)|(x,y)\in R\}$  
+    Consider the following statements:  
+    Statement A: $R$ can not be transitive and negatively transitive at the same time.  
+    Statement B: If $R$ is transitive then $R−^1$ must be transitive.  
+    Statement C: If $R$ is transitive then $R−^1$ must be negatively transitive.  
+    How many of the above statements are true?  
+A. None  
+B. One  
+C. Two  
+D. Three
+
+27.  A function $f(x_1 ,x_2 ,T) = (y_1 ,y_2 )$ is defined as follows, where $x_1 ,x_2$ and T are non  
+    negative real numbers and $x_1 +x_2 \geq T$.  $y_1 = min( \alpha, x_1 ),y_2 = min( \alpha, x_2 )$ such that $y_1 +y_2 =T$. Find $f(5, 2 ,6)$.
+A. $(3,3)$
+B. $(5,1)$
+C. $(0,6)$
+D. $(4,2)$
+
+28.  A function $f$ is defined as follows. Here $a,b$ and $c$ are constants.
+	$$f(x) = \left\{ \begin{array}{ll} x^2 & \mbox{if } x \leq c \\ ax+b & \mbox{if } x > c  \end{array}\right.$$Find values of $a$ and $b$ such that $f' (c)$ exists.
+A. $a= 2cb=−c^2$
+B. $a=cb=− 2 c^2$
+C. $a= 3/2c,b=−1/c$
+D. $a= 1,b= lnc$
+
+29.  $f(c) = \max\limits_{2x+y=c,x \geq 0,y \geq 0} x+2y$. Find $f′(c)$.
+A. $c$
+B. $0$
+C. $2$
+D. $c/ 2$
+
+29.  There are 3 persons, A, B and C. One of them is a Truth-teller (always tells the truth), another is a Liar (always lies) and the third is a normal person (sometimes lies, other times speaks the truth). They all know of each others and their own type. 
+	A said: “I am a normal person.”  
+	B said: “A and C sometimes tell the truth.”  
+	C said: “ B is a normal person.”  
+A. These statements are insufficient to determine who is a Liar.  
+B. A is a normal person, B is a Truth-teller, C is a Liar.  
+C. Who is normal, or Liar or Truth-teller cannot be ascertained from the statements. 
+D. A is a Liar, B is a normal person, C is a Truth-teller.
+
+30.  The nine digits $1, 2 ,\dots,9$ are arranged in r and om order to form a nine digit number, which uses each digit ex_Actly once. Find the probability that 1, 2 and 3 appear as neighbors in the increasing order. 
+A. $1/ 12$  
+B. $1/ 72$  
+C. $1/ 84$
+D. $(2/3)^9$
+
+32.  In a survey of 102 Timarpur residents in 2009, the average income was found to be Rs. 4635 per month. Previous studies show the population variance of income in this locality to be Rs. 12342 per month. It is asserted that the average monthly income is Rs. 4650 in this locality. Which conclusion below can be asserted from this information? 
+A. The assertion is rejected at the 10% level.  
+B. The assertion is rejected at the 5% level.  
+C. The assertion is not rejected at the 10% level.  
+D. None of the above.
+
+33.  Let X denote the absolute value of the difference between the numbers obtained when two dice are tossed. The expectation of X is:  
+A. $1 \frac{32}{36}$
+B. $1 \frac{33}{36}$
+C. $1 \frac{17}{18}$
+D. $1 \frac{16}{18}$
+
+34.  Let $Y$ denote the number of heads obtained when 3 coins are tossed. The variance of $Y^2$ is: 
+A. 9.5  
+B. 8.5  
+C. 6.5  
+D. 7.5
+
+35.  A company has 100 employees, 40 men and 60 women. There are 6 male executives. How many female executives should there be for gender and rank to be independent?  
+A. 9  
+B. 6  
+C. 10  
+D. 8
+    
+36.  Consider two events $A$ and $B$ with $Pr(A) = 0.4$ and $Pr(B) = 0.7$. The maximum and minimum values of $Pr(A\cap B)$ respectively are: 
+A. $(0.4; 0.1)$ 
+B. $(0.7; 0.4)$  
+C. $(0.7; 0.1)$
+D. $(0.4; 0)$
+
+37.  Jai and Vijay are taking a ex_Am in statistics. The ex_Am has only three grades A, B and C. The probability that Jai gets a B is 0.3, the probability that Vijay gets a B is 0.4, the probability that neither gets an A, but at least one gets a B is 0.1. What is the probability that neither gets a C but at least one gets a B? 
+A. 0.1  
+B. 0.6  
+C. 0.8  
+D. Insufficient data to answer the question
+    
+38.  You’ve been told that a family has two children and one of these is a daughter. What is the probability that the other child is also a daughter? 
+    A. $1/2$  
+    B. $1/3$  
+    C. $1/4$  
+    D. $3/4$
+
+Questions 39 and 40. Suppose least squares is used to fit a line relating $y$ and $x$, namely $y_i= \beta_1 + \beta_2 x_i+ \epsilon_i$. Assume that in our data not all the $x$’s are identical, so that at least some of the $x$’s are different from their sample mean $\bar{x}$. Now consider the following possible assumptions about our data.
+(1) $E( \epsilon_i) = 0$
+(2) $Cov(x_i, \epsilon_i) = 0$
+(3) Homoskedasticity: $Var( \epsilon_i) =\sigma^2$ , a constant
+(4) No autocorrelation: $Cov( \epsilon_i, \epsilon_j) = 0 \mbox{ for } i \neq j$
+Indicate the one best answer to each question below.
+39.  When are the least-squares estimators unbiased?  
+A. Only if our data satisfy assumptions (1) and (2).  
+B. Only if our data satisfy assumptions (1), (2), (3), and (4).  
+C. Only if our data satisfy assumptions (1), (2), and (3).  
+D. Only if our data satisfy (1), (2), and (4).
+    
+40.  When are the least-squares estimators “best” (lowest variance) of any unbiased estimators  
+A. Only if our data satisfy assumptions (1) and (2).  
+B. Only if our data satisfy assumptions (1), (2), (3), and (4).  
+C. Only if our data satisfy assumptions (1), (2), and (4).
+D. Cannot be determined, without additional assumptions.
+
+41.  A consumer spends an income of Rs. 100 on two goods, dosas and pizzas. Let $x$ denote the number of dosas and $y$ the number of pizzas consumed (fractions allowed). The consumer's utility function is $U=ex^2 +y^2$. If the price of a dosa is Rs. 5, and the price of a pizza is Rs. 10, then the number of pizzas this consumer will buy is 
+A. 0  
+B. 10  
+C. 5  
+D. 8
+
+41.  Romeo and Juliet have 96 chocolates to divide between them. Romeo has the utility function $U =R^8 J^4$ and Juliet has the utility function $U=R^4 J^8$ where $R$ is Romeo’s chocolate consumption and $J$ is Juliet’s chocolate consumption. Which of the following is true 
+A. Romeo would want to give Juliet some chocolates if he had more than 62.  
+B. Juliet would want to give Romeo some chocolates if she had more than 60.  
+C. Romeo and Juliet would never disagree about how to divide the chocolates.  
+D. Juliet would want to give Romeo some chocolates if she had more than 64  
+chocolates.
+    
+43. A consumer spends an income of Rs. 100 on only two goods, $A$ and $B$. Assume non satiation, i.e., more of any good is preferred to less. Suppose the price of $B$ is fixed at Rs. 20. When the price of $A$ is Rs. 10, the consumer buys 3 units of $B$. When the price of $A$ is Rs. 20, she buys 5 units of $A$. From this we can conclude  
+	I. $A$ is an inferior good  
+	II. $A$ is a Giffen good  
+	III. $B$ is a complement of $A$  
+A. I only  
+B. I and II  
+C. I and III  
+D. I, II and III
+
+Questions 44 and 45. ‘Suraksha’ is the sole producer and supplier of security systems in India and the sole employer of locksmiths in the labour market. The demand for security systems is $D(p) = 100−p$, where $p$ is the price. The production of security systems only requires locksmiths and the production function is given by$f(L) = 4L$, where $L$ is the number of locksmiths employed. The supply curve for locksmiths is given by $L(w) = max[0, \frac{w}{2}-20]$ where $w$ is the wage rate.
+
+44.  How many locksmiths will ‘Suraksha’ employ?
+A. 5
+B. 10
+C. 15
+D. 20
+
+45.  If the government sets the minimum wage is 70 , how many locksmiths will Suraksha employ? 
+A. 5  
+B. 10  
+C. 15  
+D. 20
+
+Questions 46 and 47. Suppose that a typical graduate student at the Delhi School of  
+Economics lives in a two good world, books ($x$) and movies ($y$), with utility function  
+$u(x,y) =x^{1 /5} y^{4 /5}$. Prices of books and movies are 50 and 10 respectively. Suppose the  
+University is considering the following schemes. Scheme 1: 750 is paid as fellowship and additional 250 as book grant. Naturally, book grant can only be spent on books. Scheme 2: 1000 as scholarship and gets one movie free on each book they purchase. Believing that books and movies are perfectly divisible, compute the optimal consumption bundle under each scheme.
+
+46.  Optimal consumption bundle under scheme 1 is  
+    A. (4 books, 80 movies)  
+    B. (5 books, 75 movies)  
+    C. (6.5 books, 57.5 movies)  
+    D. (10 books, 50 movies)
+    
+47.  Optimal consumption bundle under scheme 2 is  
+    A. (4 books, 80 movies)  
+    B. (4 books, 84 movies)  
+    C. (5 books, 75 movies)  
+    D. (5 books, 80 movies)
+    
+48. Let $X$ stand for the consumption set and let $R, I, P$ respectively stand for the weak preference relation, indifference relation and strict preference relation of a consumer. The weak preference relation $R$ is said to satisfy Quasitransitivity if and only if for all $x, y, z$ belonging to $X$, $xPy$ and $yPz \rightarrow xPz$. Which of the following preference relations over $X =\{x,y,z\}$ satisfy Quasitransitivity? 
+A. $xPy\ \&\ yPz\ \&\ zPx$  
+B. $xPy\ \&\ yPz\ \&\ zIx$  
+C. $xPy\ \&\ yIz\ \&\ zIx$
+D. $yPx\ \&\ yIz\ \&\ xPz$
+
+
+49.  Consider an exchange economy with two consumers ($A$ & $B$) and two goods ($x$ & $y$). Assume that total amount of $x$ available is 4 and total amount of $y$ available is 2 which is to be optimally distributed between $A$ & $B$. $A$’s utility function is $U_A=x_A^2 +4x_Ay_A+4y_A^2$ and B’s utility function is $U_B=x_B+y_B$. The contract curve for this exchange economy will be: 
+A. the entire boundary of the Edgeworth box  
+B. allocations satisfying $(x_A= 0, 0  \leq y_A \leq 2)$ and $(0 \leq x_B \leq  4 ,y_B= 0)$  
+C. allocations satisfying $(0 \leq x_A \leq  4 ,y_A= 0)$ and $(x_B= 0, 0  \leq y_B \leq 2)$  
+D. all points inside the Edgeworth box.
+
+50.  Consider the exchange economy in the above question. Suppose $A$ is endowed with 3 units of good 1 and 1 unit of good 2, and $B$ is endowed with 1 unit of each good. A competitive equilibrium is described by the following prices (of goods $X$ and $Y$ respectively) and allocation of goods.  
+    A. Prices = $(1,2)$ and $(x_A,y_A) = (2. 5 ,2) , (x_B,y_B) = (1. 5 ,0)$  
+    B. Prices = $(2,1)$ and $(x_A,y_A) = (2. 5 , 1 .5) , (x_B,y_B) = (1. 5 , 0 .5)$ 
+    C. Prices = $(1,1)$ and $(x_A,y_A) = (2,2) , (x_B,y_B) = (2,0)$  
+    D. None of the four option is correct
+
+Questions 51 to 54. The following set of questions use a common set of information given below. Read the information carefully and then answer the questions sequentially. Consider an economy which is described by the following two relationship between aggregate income ($Y$), aggregate price level ($P$), domestic interest rate ($r$), and the real exchange rate ($e$): (i) Goods market equilibrium condition: $Y =C(Y) +I(r) +G+NX(Y,e)$ (ii) Money market equilibrium condition: $\frac{M}{P} =L(Y,r)$ where
+$C = \bar{C}+\sigma(Y−T) ; 0< \sigma < 1$
+$T = \tau Y ; 0< \tau < 1$
+$G = \bar{G}$
+$I = I−\delta r;\delta > 0$
+$NX = \bar{X}−\mu Y−\gamma e; 0< \mu <1 ;\gamma > 0$
+$L(Y,r) = \bar{L}+ \alpha Y− \beta r; \alpha, \beta > 0$
+$r = \bar{r}$
+$M = \bar{M}$
+$P = \bar{P}$
+Suppose now you draw the IS and the LM relationship in the $(Y,e)$ plane with Y in the horizontal axis and $e$ in the vertical axis. 
+51.  In this case  
+A. the IS curve is upward sloping and the LM curve is downward sloping  
+B. the IS curve is downward sloping and the LM curve is vertical  
+C. the IS curve is vertical and the LM curve is upward sloping  
+D. the IS curve is downward sloping and the LM curve is upward sloping
+
+52.  An increase in $\bar{r}$ shifts  
+A. the IS curve to the left and the LM curve to the right  
+B. the IS curve to the right and the LM curve to the left  
+C. both the IS and the LM curves to the left  
+D. both the IS and the LM curves to the right
+
+53.  An increase in $\bar{P}$ results in  
+A. an increase in the equilibrium value of $Y$ and a decrease in the equilibrium value of $e$  
+B. a decrease in the equilibrium value of $Y$ and an increase in the equilibrium value of $e$  
+C. a decrease in the equilibrium value of $Y$ and a decrease in the equilibrium value of $e$ 
+D. none of the above
+
+54. If the government arbitrarily fixes the real exchange rate at some $\bar{e}$  
+A. the two markets can be simultaneously in equilibrium only under special para- metric restrictions 
+B. the two markets can be simultaneously in equilibrium if the government follows an accommodating interest rate policy 
+C. the two markets can be simultaneously in equilibrium if the government follows an accommodating money supply rule  
+D. all of the above
+
+55.  A fall in the interest rate  
+A. will reduce savings unambiguously  
+B. will have an ambiguous effect on savings because of an ambiguous substitution effect 
+C. will reduce savings unambiguously only for a borrower  
+D. will reduce savings unambiguously only for a lender
+
+56.  An increase in the rate of depreciation, according to the neoclassical theory of investment, will
+A. lower investment by raising the user cost of capital
+B. raise investment by lowering the user cost
+C. raise investment because now more capital is depreciating
+D. none of the above
+
+57.  An increase in the saving rate in the Solow model  
+A. increases the growth rate of the economy permanently  
+B. increases the growth rate of the economy in the transition to the steady state but not in the steady state 
+C. reduces the growth rate because aggregate demand falls  
+D. none of the above
+    
+58.  The “golden rule of accumulation” is the  
+A. savings ratio that generates the highest growth rate of the economy 
+B. the savings ratio that generates the highest capital-labour ratio 
+C. the savings ratio where consumption (per capita) is maximized both in the transition to the steady state and in the steady state 
+D. the savings ratio where consumption (per capita) is maximized in the steady state
+    
+59. At the “golden rule of accumulation”  
+A. all wages invested , all profits consumed  
+B. all wages as well as profits invested  
+C. all wages consumed, all profits invested  
+D. all wages as well as profits consumed
+
+60. Consider the following three definitions for a country’s current account surplus. Which of them is correct? 
+	(i) equal to its trade balance plus net income from abroad  
+	(ii) equal to its trade balance plus foreign direct investment  
+	(iii) equal to the change in its claims against the rest of the world  
+A. (i) and (ii)  
+B. (ii)and (iii)  
+C. (i) and (iii)  
+D. None

@@ -1,0 +1,602 @@
+---
+title: "PYQ DSE 2017"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+  
+DSE 2017 draft 
+
+  
+
+1. Person A lexicographically prefers good x to good y, i.e., when comparing two bundles of x and y, she strictly prefers the bundle that has more of good x; if the bundles have  equal amounts of good x, then she strictly prefers the bundle that has more of goody.  A’s indifference curves in the (x,y)-space are 
+
+    A. vertical lines
+
+    B. horizontal lines
+
+    C. diagonal lines
+
+    D.  none of the above
+
+ 
+ 2. Consider person A as described above. Consider the bundle (2,1) and a sequence ofbundles $(s^n)$ such that each bundle $s^n$ is strictly preferred to (2,1). If this sequence of bundles converges to a bundles, then
+
+ A. s is strictly preferred to (2,1)
+
+ B.s is indifferent to (2,1)
+
+ C. (2,1) is strictly preferred to s
+
+ D. any of the above 3. 
+
+ 
+ Consider an economy with two agents,A and B, and two goods, x and y. Both agents treat the two goods as perfect complements. Suppose the total endowment of this economy is (4,2). Which of the following allocations is not Pareto optimal?
+
+
+ A. A gets (1,1) and Bgets (1,1).
+
+ B. A gets (2,1) and B gets $(\frac{3}{2} ,1)$.
+
+ C.A gets $(\frac{1}{ 2} , \frac{3 }{2})$ and B gets $(3, \frac{1 }{2})$.
+
+ D. A gets (3,2) and B gets (0,0).
+
+ **The next four questions** are based on the following information.Consider an exchange economy with agents A and B and goods x and y. A’s endowment is (0,1) (i.e., no good x and 1 unit of  y) and B’s endowment is (2,0) (i.e., 2 units of good x and no good y. The agents can consume only nonnegative amounts of x and y.
+
+
+4. Suppose A lexicographically prefers x to y and B considers x and y to be perfect substitutes, i.e., between bundles (x,y) and (x′,y′), she strictly prefers (x,y) if and only if $x+y > x′+y′$. The competitive equilibrium allocation for this economy is 
+
+ A.  A gets (0,1) and B gets (2,0).
+
+ B.  A gets (2,0) and B gets (0,1).
+
+ C.  A gets $(\frac{3}{ 2} ,0)$ and B gets $(\frac{1}{ 2} ,1)$ .
+
+ D.  A gets (1,0) and B gets (1,1).
+
+
+5. Refer to the previous question. The set of all possible competitive equilibrium prices consists of all {$p_x$}$>0$ and {$p_y$ }$>0$  such that
+
+A. $\frac{p_x}{p_y}= 1$
+
+B.   $\frac{p_x}{p_y}\geq 1$
+
+C.  $\frac{p_x}{p_y}\leq 1$
+
+D.  $\frac{p_x}{p_y}> 0$ 
+
+
+6. Now suppose A lexicographically prefers y to x and B considers x and y to be perfect substitutes. The set of all possible competitive equilibrium prices consists of all $p_x$> 0 and  $p_y>0$  such that
+
+ A.  $\frac{p_x}{p_y}= 1$
+
+ B.  $\frac{p_x}{p_y}\geq  1$
+
+ C.   $\frac{p_x}{p_y}\leq 1$ 
+
+ D.  $\frac{p_x}{p_y}> 0$
+
+
+7. Now suppose A lexicographically prefers y to x and B considers x and y to be perfect complements. The set of competitive equilibrium allocations
+
+ A. includes the allocation (1,0) for A and (1,1) for B
+
+ B. includes the allocation (1,0) for A and (1,1) for B
+
+ C. is empty
+
+ D. includes all allocations $(x, 1)$  for A and $(2−x,0)$  for B, where $x \in [0,2]$ 
+
+ 
+ Suppose A is selling the Taj Mahal by the following auction procedure. There are two bidders, 1 and 2. Each bidder has a valuation $v_i$ of the Taj and submits a bid $b_i$ in a sealed envelope. The Taj is given to the bidder who submits the highest bid; if both bidders submit the same bid, then each gets the Taj with equal probability. If bidder i wins, then she pays the price $\min(b_1 ,b_2 )$  and gets payoff $v_i−\min(b_1 ,b_2 )$ . If bidder i loses, then she pays nothing and her payoff is 0. Bidder i’s valuation $v_i$ is known only to bidder i and her bid $b_i$ may or may not match $v_i$ 
+
+ 
+8.  In order to maximize her payoff, Bidder i must bid
+
+ A. $b_i=v_i$
+
+ B. $b_i< v_i$
+
+ C. $b_i\leq v_i$
+
+ D. $b_i\geq v_i$
+
+
+9. If $b_i$ is the optimal bid for bidder $i$ , then
+
+ A. it varies with bidder $i$ ’s belief about the other bidder’s valuation
+
+ B. it varies with bidder $i$ ’s belief about the other bidder’s bid
+
+ C. both (A) and (B)
+
+ D. neither (A) nor (B)
+
+
+10. The Nash equilibrium of the Cournot duopoly model is a pair of quantities $(x_1 ,x_2 )$  such that
+
+ A. the best response curves of firms’ 1 and 2 are tangential at $(x_1 ,x_2 )$
+
+ B. isoprofit curves of firms’ 1 and 2 are tangential at $(x_1 ,x_2 )$ 
+
+ C. an isoprofit curve of each firm is tangential to the best response curve of the other firm at $(x_1 ,x_2 )$
+
+ D. none of the above
+
+
+11. Consider the Stackelberg duopoly model with firm 1 choosing quantity $x_1$  first. Firm 2 observes $x_1$  and sets quantity $x_2$ thereafter. The equilibrium outcome of this game is a pair of quantities $(x_1 ,x_2 )$  such that
+
+ A. isoprofit curves of firms’ 1 and 2 are tangent ial at $(x_1 ,x_2 )$
+
+ B. an isoprofit curve of firm 1 is tangential to the best response curve of firm 2 at $(x_1 ,x_2 )$
+
+ C. an isoprofit curve of firm 2 is tangential to the best response curve of firm 1 at $(x_1 ,x_2 )$
+
+ D. none of the above
+
+
+12. Consider the following game
+
+draft 
+
+Which of the following statements is true when $y > x> a > b$ ?
+
+A. The strategy profile (B,R) is the unique Nash equilibrium.
+
+B. (B,R) is one of many Nash equilibria.
+
+C. Both (B,R) and (B,R) are Nash equilibria.
+
+D. none of the above
+
+
+13. Consider a consumer with utility function $u(x,y,z) = y \min$ {$x,z$}. The prices of all three goods are the same. The consumer has Rs.100 to spend on these three goods. The demands will be such that
+
+ A. $y < x=z$
+
+ B.  $y > x=z$
+ 
+ C. $x=y=z$
+
+ D. none of the above
+
+
+14. A firm uses two inputs to produce its output. For all positive input prices, the firm employs an input combination of the form $(x,\alpha x)$  where $\alpha >0$  is a constant. Which of the following production functions could represent this firm’s technology?
+
+A. $f(x,y) = \min$ {$x^{\alpha} ,y$}
+
+B. $f(x,y) = \min${$alpha x,y$}
+
+C. $f(x,y) = \min${$x,\alpha y$ }
+
+D.   $f(x,y) = \min${$x,y^{\alpha}$}
+
+
+15. Suppose there are two telecom firms, 1 and 2, who have paid fees $k_1 >0$ and $k_2 >0$  for telecom spectrum. Let $k_1 > k_2$ . They produce an identical good (telecom service) at an identical average cost of production $c >0$ . If they engage in Bertrand competition, then the Nash equilibrium prices $(p_1 ,p_2 )$  are such that
+
+ A.  $p_1 > p_2 > c$
+
+ B.  $p_1 =p_2 > c$
+
+ C.  $p _1 =p_2 =c$
+
+ D. are indeterminate
+
+
+16. Consider the following game with players 1 and 2; payoffs are denoted by (a,b) whereais 1’s payoff andbis 2’s payoff. First, player 1 chooses either U or D. If she plays D, then the game ends and the payoff are (1,0). If she plays U, then player 2 chooses either U or D. If he plays D, then the game ends and the payoffs are (0,2). If he plays U, then player 1 again chooses either U or D. The game ends in both cases. If player 1 chooses D, then the payoffs are (4,0). If player chooses U, then the payoffs are (3,3).
+
+ A. This game has a unique Nash equilibrium
+
+ B. This game has a unique subgame perfect equilibrium
+
+ C. This game has no subgame perfect equilibrium
+
+ D. This game has multiple subgame perfect equilibria
+
+
+17. The interval (0,1) can be expressed as
+
+ A. the union of a countable collection of closed intervals
+
+ B. the intersection of a countable collection of closed intervals
+
+ C. both (A) and (B)
+
+ D. neither (A) nor (B)
+
+
+18. The interval $[0,1]$  can be expressed as
+
+ A. the union of a countable collection of open intervals
+
+ B. the intersection of a countable collection of open intervals
+
+ C. both (A) and (B)
+
+ D. neither (A) nor (B)
+
+
+19. A function $f:R^n→R$ is a convex function if and only if
+
+A. {$(x,y)\in R^n \times R |y\geq f(x)$}  is a convex set
+
+B. {$(x,y)\in R^n \times R |y\leq f(x)$ }  is a convex set
+
+C.{$(x,y)\in R^n \times R |y\geq f(x)$ } is a concave set
+
+D. {$(x,y) \in R^n \times R |y\leq f(x)$}  is a concave set
+
+
+20. A function $f:R^n→R$ is a quasi-convex function if and only if
+
+ A. {$(x,y)\in R^n \times R |y\geq f(x)$} is a convex set
+
+ B.{$x\in R^n |y\geq f(x)$} is a convex set for every $y\in R$ 
+
+ C.{$(x,y) \in R^n \times R |y\leq f(x)$ } is a convex set
+
+ D. {$x \times R^n|y\leq f(x)$ }is a convex set for every $y\in R$ 
+
+21. If  draft  $$A = {$(x,y)∈R^2 |x\geq  0 ,y\geq  0 ,xy\geq  1 },$$ $$B = {(x,y)∈R^2 |x\leq 0 ,y\geq  0 ,xy\leq− 1 }$$ $$C = {a+b|a∈A,b∈B}$$ then
+
+A. {$(x,y)\in R^2 |x= 0,y\geq  0$} is a subset of C
+
+B.{$(x,y)\in R^2 |x= 0,y > 0 $} is a subset of C
+
+C.{$(x,y)\in R^2 |x\geq  0 ,y= 0$} is a subset of C
+
+D. {$(x,y)\in R^2 |x > 0 ,y= 0$} is a subset of C
+
+22. $\lim  (1 + \frac{1}{2n})^{5n}$ equals
+
+A. $e^2$
+
+B. $e^{2.5}$
+
+C. $\infty$ 
+
+D.  $e^{1.5}$ 
+
+23.  draft 
+
+A.  a= 2 andb=− 1
+
+B. a=−1 andb= 2
+
+C. a=−1 andb= 1
+
+D.  a= 1 andb=− 1
+
+24. If A and B are $n\times n$ matrices such that $A+B=AB$ , then
+
+ A.  $AB=BA$ 
+ B.  $AB \neq BA$ 
+ C. $B=A^{-1}$
+ D.  $B=A^T$ , where $A^T$ is the transpose of A
+
+  
+
+25. If $B$ is an $n\times n$ real matrix and $B^T$  is the transpose of B, then
+
+ A. $B^TB$ is negative definite
+
+ B. $B^TB$ is positive definite
+
+ C. $B^TB$ is negative semidefinite
+
+ D. $B^TB$ is positive semidefinite
+
+  
+
+26. Consider a twice differentiable function $f : R → R$ and $a,b \in  R$   such that $a < b, f(a) = 0 =f(b)$  and $D^2 f(x) +Df(x)−1 = 0$  for every $x\in [a,b]$ . Then,
+
+ A.  $f(x)\leq 0$ for every $x\in [a,b]$
+
+ B. 4f(x)\geq 0$ for every $x\in [a,b]$ 
+
+ C. $f(x) = 0$  for every $x\in [a,b]$
+
+ D.  f must take positive and negative values on the interval $[a,b]$ 
+
+  
+
+27. Suppose $f:R_+→ R$   is decreasing and differentiable. If $ F:R_+→ R$ satisfies $F(x) = 0 f(t)dt$ , then $F$ is
+
+ A. convex
+
+ B. concave
+
+ C. increasing
+
+ D. decreasing
+
+  
+
+28. If real numbers p and q satisfy $0< q < p$ , then the following is true for the numbers $p,q,p+q$ and $q−p$ :
+
+ A. their mean equals their median
+
+ B. their mean is greater than their median
+
+ C. their mean is less than their median
+
+ D. there is insufficient information to compare their mean and their median
+
+  
+
+29. If a binomial random variable X has expectation 7 and variance 2.1, then the probability  that X= 11 is
+
+ A. $462(0.7)^5 (0.3)^6$
+
+ B. 0
+
+ C. $11(0.7)^11$
+
+ D. $462(0.7)^6 (0.3)^5$
+
+  
+
+30. A machine starts operating at time 0 and fails at a random timeT. The distribution of Thas densityf(t) = (1}{3)e−t}{^3 fort >0. The machine will not be monitored until time t= 2.The expected time of discovery of the machine’s failure is
+
+ A. 2 +e−^6 }{ 3
+
+ B. 2− 2 e−^2 }{^3 + 5e−^4 }{^3
+
+ C. 2 + 3e−^2 }{^3
+
+ D. 3
+
+31. An insuree has an insurance policy against a random loss $X\in[0,1]$ . If loss $X$  occurs, then the insurer pays $X−C$ to the insuree, who bears the remaining loss $C \in (0,1)$ .The loss X is a continuous random variable with density function 
+draft
+
+If the probability of the insurance payment being less than $\frac{1}{2}$  is equal to 0.64, then C is
+
+A. 0. 1
+
+B. 0. 3
+
+C. 0. 4
+
+D. 0. 6
+
+  
+
+32. A tour operator has a bus that can accommodate 20 tourists. The operator knows that  tourists may not show up, so he sells 21 tickets. The probability that an individual tourist will not show up is 0.02, independent of all other tourists. Each ticket costs 50, and is non-refundable if a tourist fails to show up. If a tourist shows up and a seat isnot available, the tour operator has to pay 100 to that tourist. The expected revenue of the tour operator is
+
+ A. 950
+
+ B. 967
+
+ C. 976
+
+ D. 985
+
+  
+
+33. An insurance policy-holder can submit up to 5 claims. The probability that the policy-holder submits exactly n claims is $p_n$ , for $n= 0, 1 , 2 , 3 , 4 ,5.$  It is known that 
+  - The differenc between $p_n$ and $p_n+1$ is constant for $n= 0, 1 , 2 , 3 , 4$  ,and 
+  - 40% of the policyholders submit 0 or 1 claim.
+
+What is the probability that a policyholder submits 4 or 5 claims?
+
+ A. 0. 06
+ B. 0. 19 
+ C. 0. 26 
+ D. 0. 34
+ 
+ 34. Suppose n students are asked to solve a problem at time 0. The random time to completion for student i is $Ti \geq  0$.  Each $T_i$  is uniformly distributed on $[0,1]$ . If $Y = \max${$T_1 , \dots ,T_n$} , then the mean of $Y$  is
+
+A. $[\frac{n}{n+1}]^2$
+
+B. $\frac {n}{2(n+ 1)}$
+
+C. $\frac{n}{n+ 1}$ 
+
+D. $\frac{2n}{n+1}$ 
+
+  
+
+35. A hospital determines that N, the number of patients in a week, is a random variable with $Pr[N=n] = 2^{-n−1}$  , where $n\geq 0$ . The hospital also determines that the number of patients in a given week is independent of the number of patients in any other week. The probability that there are exactly seven patients during a two-week period is
+
+ A. $\frac{1}{ 2}$
+
+
+ B. $\frac{1}{ 64}$
+
+
+ C. $\frac{1}{ 128}$ 
+
+
+ D. $\frac {1}{ 256}$ 
+
+  
+
+ The next two questions are based on the following information. X and Y are random variables and their joint probability distribution is as follows: 
+
+  
+
+36. The value of $\alpha$ is
+
+ A. 0
+
+ B. 0. 1
+
+ C. 0. 2
+
+ D. 0. 3
+
+  
+
+37. The value of $\beta$ is
+
+ A. 0 
+
+ B. 0. 1 
+
+ C. 0. 2 
+
+ D. 0. 3
+
+ 
+ 38. There are 3 red and 5 black balls in an urn. You draw two balls in succession without replacing the first ball. The probability that the second ball is red equals
+
+ A. $\frac{2}{ 7}$
+
+ B. $\frac{3}{ 8}$
+
+ C. $\frac{5}{ 7}$ 
+
+ D. $\frac{1}{ 4}$ 
+
+  
+
+39. Suppose X and Y are independent random variables with standard Normal distributions. The probability of $X >1$  is p. The probability of the event $X^2 >1$ and $Y^3 <1$  is
+
+ A. $2p(1−p)$
+
+ B. $4p$
+
+ C. $p(1−p)$
+
+ D. $2p^2$
+
+  
+
+40. Suppose $\frac{1}{10}$  of the population has a disease. If a person has the disease, then a test detects it with probability $\frac{8}{10}$ . If a person does not have the disease, then the test incorrectly shows the presence of the disease with probability $\frac{2}{10}$ . What is the probability that the person tested has the disease if the test indicates the presence of the disease?
+
+ A. 1
+
+ B. $\frac{9}{ 13}$
+
+ C. $\frac{4}{ 13}$
+
+ D.  $\frac{7}{ 13}$ 
+
+  
+
+41. Two patients share a hospital room for two days. Suppose that, on any given day, aperson independently picks up an airborne infection with probability $\frac{1}{4}$ . An individual who is infected on the first day will certainly pass it to the other patient on the second day. Once contracted, the infection stays for at least two days. What is the probability that fewer than two patients have the infection by the end of the second day?
+
+ A. $\frac{135}{ 256}$ 
+
+ B. $\frac{121}{ 256}$ 
+
+ C. $\frac{131}{ 256}$ 
+
+ D. $\frac{125}{ 256}$ 
+
+  
+
+Answer the next question using the following information. Let $w=\frac{W}{P}$ be the real wage rate, where W is the nominal wage rate and P is the aggregate price level. The demand for labour is given by $D(w) = 1−w$ and the supply of labour is described by the equation $S(w) =w$ . If N is the employment level, then f(N) is the aggregate output.
+
+  
+
+42. If nominal wage is always such that the labour market clears, then the aggregate supply curve is given by the equation
+
+ A. $Y =Pf(N)$
+
+ B. $Y =f(N)$
+
+ C.$Y =Pf(\frac{1}{2})$
+
+ D. $Y =f(\frac{1}{2})$ 
+ 
+
+ Answer the next five questions using the following information. Consider the above-described abour market with the following change: the nominal wage rate W minimizes $|D(\frac{W}{P})−S(\frac{W}{P}) |$ subject to the constraint $W\geq W_0$  , where $W_0 >0$  is an exogenously given minimum nominal wage.
+ 
+ 
+43. Given the price level P, the nominal wage W is
+
+ A. $\max$ {$W_0 ,\frac{P}{ 2}$  }
+
+ B. $\min$ {$W_0 ,\frac{P}{ 2}$ }
+
+ C. $\frac{1}{ 2}$
+ 
+ D. $\frac{W_0 }{ 2}$
+
+  
+
+44. Given the price level P, the employment level is
+
+ A. min{ $\frac{1 }{ 2} , 1 −\frac{W_0 }{P}$}
+
+ B. $\max$ { $\frac{1 }{ 2} , 1 −\frac{W_0 }{P}$}
+
+ C. $1−\frac{W_0 }{ 2 P}$
+
+ D. $1− \frac{1 }{ 2 P}$ 
+
+  
+
+45. Given the price level P such that $\frac{1}{ 2} \leq 1 −\frac{W_0 }{P}$ , the aggregate supply is
+
+ A.  $f(\frac{1}{2})$
+
+ B. $f(1− \frac{1 }{ 2 P})$
+
+ C. $f(1−\frac{W_0 }{P})$
+
+ D. $f(1−\frac{W_0 }{ 2 P})$
+
+  
+
+46. If the marginal productivity of capital is positive and the stock of capital increases, then the aggregate supply schedule will
+
+ A. shift up
+
+ B. shift down
+
+ C. shift to the left
+
+D. shift to the right
+
+  
+
+47. If the fixed nominal wage $W_0$  increases, then the aggregate supply schedule will
+
+ A. shift up
+
+ B. shift down
+
+ C. shift to the left
+
+ D. shift to the right
+
+  
+
+48. Consider a closed economy. If the nominal wage is flexible and nominal money supply is increased, then which of the following will be true in equilibrium?
+
+ A. Real wage decreases and real money supply decreases
+
+ B. Real wage decreases and real money supply increases
+
+ C. Real wage is unchanged and real money supply is unchanged
+
+ D. Real wage decreases and real money supply is unchanged
+
+49. Which of the following would make the LM curve flatter in the $(Y,r)$  space?
+
+  
+
+ A. An increase in income sensitivity of money demand
+
+ B. An increase in interest sensitivity of planned investment
+
+ C. An increase in the marginal propensity to consume
+
+ D. An increase in the interest sensitivity of money demand
+
+  
+
+50. In an IS-LM model with fixed exchange rates and perfect capital mobility, an increase in government spending will lead to
+
+  
+
+ A. a deterioration in the trade balance
+
+ B. an improvement in the trade balance
+
+ C. no change in the trade balance
+
+ D. an increase in export without affecting imports

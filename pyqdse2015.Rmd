@@ -1,0 +1,657 @@
+---
+title: "PYQ DSE 2015"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+# DSE 2015
+
+  
+
+1. There are two individuals, 1 and 2. Suppose, they are offered a lottery that gives Rs 160 or Rs 80 each with probability equal to $\frac{1}{2}$ . The alternative to the lottery is a fixed amount of money given to the individual. Assume that individuals are expected utility maximizers. Suppose, individual 1 will prefer to get Rs 110 with certainty over the lottery. However, Individual 2 is happy receiving a sure sum of Rs 90 rather than facing the lottery. Which of the following statements is correct? Given these statements, which of the following is true?
+
+      A. both individuals are risk averse
+
+      B. 2 is risk averse but 1 loves risk
+
+      C. 1 is risk averse but 2 loves risk
+
+      D. none of the above
+
+2. Consider an exchange economy with agents 1 and 2 and goods x and y. The agents’ preferences over x and y are given. If it rains, 1’s endowment is (10, 0) and 2’s endowment is (0, 10). If it shines, 1’s endowment is (0, 10) and 2’s endowment is (10, 0)
+
+  A. the set of Pareto efficient allocations is independent of whether it rains or shines
+  
+  B. the set of Pareto efficient allocations will depend on the weather
+  
+  C. the set of Pareto efficient allocations may depend on the weather
+  
+  D. whether the set of Pareto efficient allocations varies with the weather depends on the preference of the agents
+
+3. Deadweight loss is a measure of
+
+    A. change in consumer welfare
+
+    B. change in producer welfare
+
+    C. change in social welfare
+
+    D. change in social inequality
+
+4. To regulate a natural monopolist with cost function $C(q) =a+bq$ , the government has to subsidize the monopolist under
+
+      A. average cost pricing
+
+      B. marginal cost pricing
+
+      C. non-linear pricing
+
+      D. all of the above
+
+5. Suppose an economic agent lexicographically prefersxtoy, then her indifference curves are
+
+      A. straight lines are parallel to the x axis 
+      
+      B. straight lines are parallel to the y axis
+      
+      C. convex sets
+      
+      D. L shaped curves
+
+  
+
+The following Two questions are based on the function $f:\mathbb{R^2} \to \mathbb{R}$ given by
+
+```
+Insert function
+```
+
+  
+
+6. Which of the following statements is correct?
+
+    A. f is continuous and has partial derivatives at all points
+
+    B. f is discontinuous but has partial derivatives at all points
+
+    C. f is continuous but does not have partial derivatives at all points
+
+    D. f is discontinuous and does not have partial derivatives at all points
+
+7. Which of the following statements is correct?
+
+    A. f is continuous and differentiable
+    
+    B. f is discontinuous and differentiable
+    
+    C. f is continuous but not differentiable
+
+    D. f is discontinuous and non-differentiable
+
+8. Consider the following system of equations:
+
+$x+ 2y+ 2z−s+ 2t= 0$
+
+$x+ 2y+ 3z+s+t= 0$
+
+$3 x+ 6y+ 8z+s+ 4t= 0$
+
+The dimension of the solution space of this system of equations is
+
+A. 1
+
+B. 2
+
+C. 3
+
+D. 4
+
+  
+
+9. The vectors $v_0 ,v_1 ,\dots ,v_n$ in $\mathbb{R^m}$  are said to be affinely independent if with scalars $c_0 ,c_1 ,\dots ,c_n$ , we have that $\sum_{i=0}^n c_iv_i= 0 \ and\ \sum_{i=0}^n c_i= 0$  implies $c_i= 0 \ for\ i= 0, 1 ,\dots ,n$ .For such an  affinely independent set of vectors, which of the following is an implication:
+ 
+ (I) $v_0 ,v_1 ,...,v_n$ are linearly independent.
+
+(II) $(v_1 −v_0 ),(v_2 −v_0 ),\dots ,(v_n−v_0 )$  are linearly independent.
+
+(III)  $n\leq m$ .
+
+
+A. Only I and II are true
+
+B. Only I and III are true
+
+C. Only II is true
+
+D. Only II and III are true
+
+  
+
+10. $\mathbb{R}^2 \to \mathbb{R}^2$  be a linear mapping (i.e., for every pair of vectors $(x_1 ,x_2 ),(y_1 ,y_2 )$  and scalars  $c_1 ,c_2 ,F(c_1 (x_1 ,x_2 ) +c_2 (y_1 ,y_2 )) =c_1 F(x_1 ,x_2 ) +c_2 F(y_1 ,y_2 )$ .Suppose $F(1,2) = (2,3)$  and F(0,1) = (1,4). Then in general, $F(x_1 ,x_2 )$  equals
+
+       A. $(x_2 , 4 x_2 )$
+       
+       B. (x_2 ,x_1 +x_2 )
+
+       C. (1 +x_1 , 4 x_2 )
+
+       D. (x_2 ,− 5 x_1 + 4x_2 )
+
+11. A correlation coefficient of 0.2 between Savings and Investment implies that:
+
+    A. A unit change in Income leads to a less than 20 percent increase in Savings
+    
+    B. A unit change in Income leads to a 20 percent increase in Savings
+    
+    C. A unit change in Income may cause Savings to increase by less than or more than 20
+
+    D. If we plot Savings against Income, the points would lie more or less on a straight line
+
+12. In a simple regression model estimated using OLS, the covariance between the estimated errors and the regressors is zero by construction. This statement is:
+
+       A. True only if the regression model contains an intercept term
+       
+       B. True only if the regression model does not contain an intercept term
+       
+       C. True irrespective of whether the regression model contains an intercept term
+
+       D. False
+
+13. Consider the uniform distribution over the interval  $[a,b]$ .
+
+    A. The mean of this distribution depends on the length of the interval, but the variance does not
+    
+    B. The mean of this distribution does not depend on the length of the interval, but the variance does
+    
+    C. Neither the mean, nor the variance, of this distribution depends on the length of the interval
+
+    D. The mean and the variance of this distribution depend on the length of the interval
+
+The next Two questions are based on the following information. Let $F : \mathbb{R} \to  \mathbb{R}$ be a (cumulative) distribution function. Define $b: [0,1]\to \mathbb{R}$ by
+
+```
+insert 
+```
+  
+
+14. IfFhas a jump at x, say $c=F(x)> a\geq F(x−)$ , then
+
+    A. b has a jump at c
+
+    B. b has a jump at a
+
+    C.b is strictly increasing over (a,c)
+
+    D. b is constant over (a,c)
+
+15. If F is constant over (x,y) with F(z)< F(x) for every z < x, then
+
+    A. b has a jump at y
+    
+    B. b has a jump at x
+    
+    C.b is continuous at F(x)
+
+    D. b is decreasing over $[0,F(x)]$ 
+
+The following set of information is relevant for the next Four questions. Consider a closed
+
+economy where at any periodt the actual output $(Y_t)$  is demand-determined. Aggregate demand on the other hand has two components: consumption demand $(C_t)$  and investment demand $(I_t)$ . Both consumption and investment demands depend on agents’ expectation about period t output  $(Y_t^e)$  in the following way:
+
+$C_t=\alpha Y_t^e; 0< \alpha <1$ ,
+
+$I_t=\gamma (Y_t^e)^2 ;\gamma > 0$ 
+
+  
+
+16. Suppose agents have static expectations. Static expectation implies that
+
+    A. in every period agents expect the previous period’s actual value to prevail
+    
+    B. in every period agents adjust their expected value by a constant positive fraction of the expectational error made in the previous period
+    
+    C. in every period agents use all the information available in that period so that the expected value can differ from the actual value if and only if there is a stochastic element present
+
+    D. none of the above
+
+  
+
+  
+
+17. Under static expectations, starting from any given initial level of actual output $Y_0 \neq \frac{1 −\alpha}{\gamma}$  in the long run the actual output in this economy
+
+      A. will always go to zero
+
+       B. will always go to infinity
+
+       C. will always go to a finite positive value given by $\frac{1 −α}{\gamma}$ 
+       
+       D. will go to zero or infinity depending on whether $Y_0 > \ or\ <\frac{1 −α}{\gamma}$ 
+
+  
+
+18. Suppose now agents have rational expectations. Rational expectation implies that
+
+    A. in every period agents expect the previous period’s actual value to prevail
+    
+    B. in every period agents adjust their expected value by a constant positive fraction of the expectational error made in the previous period
+    
+    C. in every period agents use all the information available in that period so that the expected value can differ from the actual value if and only if there is stochastic element present
+
+    D. none of the above
+
+19. Under rational expectations, in the long run the actual output in this economy
+
+    A. will always go to zero
+
+    B. will always go to infinity
+
+    C. will always go to a finite positive value given by $\frac{1 −\alpha}{\gamma}$ 
+
+    D. will go to zero or infinity depending on agent’s expectations
+
+20. Suppose we conduct n independent Bernoulli trials, each with probability of success p. If k is such that the probability of k successes is equal to the probability of k+ 1 successes, then
+
+       A. $(n+ 1)p=n(1 +p)$
+       
+       B. $np= (n−1)(1 +p)$
+
+       C. $np$ is a positive integer
+
+       D. $(n+ 1)p$ is a positive integer
+
+  
+
+The next Two questions are based on the following. Consider a pure exchange economy with three persons: 1 , 2, 3 and two goods x and y. The utilities are given by $u^1 (.) =xy,u^2 (.) =x^3 y$ and $u^3 (.) =xy^2$ , respectively.
+
+  
+
+21. If the endowments are (2,0), (0,12) and (12,0), respectively, then
+
+    A. an equilibrium price ratio does not exist
+    
+    B.$\frac{p_x}{p_y}= 1$  is an equilibrium price ratio
+    
+    C. $\frac{p_x}{p_y}>1$  is an equilibrium price ratio
+    
+    D. $\frac{p_x}{p_y}<1$  is an equilibrium price ratio
+
+  
+
+22. If the endowments are (0,2), (12,0) and (0,12), respectively, then
+
+    A. an equilibrium price ratio does not exist
+    
+    B. equilibrium price ratio is the same as in the above question
+    
+    C. $\frac{p_x}{p_y}<1$  is an equilibrium price ratio
+
+    D. $\frac{p_x}{p_y}>1$  is an equilibrium price ratio
+
+  
+
+The next Two questions are based on the following information. A city has a single electricity supplier. Electricity production cost is Rs. cper unit. There are two types of customers. Utility function for typei is given by $u_i(q,t) = \theta_i \ln (1 +q)−t$ , where q is electricity consumption andtis electricity tariff. High type customers are more energy efficient, that is, $\theta_H>  \theta_L$ ; moreover $\theta_L> c$ .
+
+  
+
+23. Suppose the supplier can observe type of the consumer, i.e., whether $\theta = \theta_H \ or \  \theta = \theta_L$ . If the supplier decides to sell package $(q_H,t_H)$  to those for whom $\theta = \theta_H \ and \  (q_L,t_L)$  to those for whom $\theta = \theta_L$ , then profit maximizing tariffs will be
+
+       A. $t_H=c \ln (\frac{\theta_H}{c}) \ and \ t_L=c \ln (\frac{\theta_L}{c})$
+       B.  $t_H=\theta_H \ln (\frac{\theta_H}{c}) \ and \ t_L=0$ 
+       C  $t_H=\theta_H \ln (\frac{\theta_H}{c}) \ and \ t_L=\theta_L \ln (\frac{\theta_L}{c})$ 
+       D.  $t_H=t_L=c \ln (\frac{\theta_H+\theta_L}{c})$ 
+
+
+24. Now, assume that the supplier cannot observe type of the consumer. Suppose, he puts  on offer both of the packages that he would offer in the above question. If consumers are free to choose any of the offered packages, then
+
+       A. Both types will earn zero utility
+
+       B. Only low type can earn positive utility
+
+       C. Only high type can earn positive utility
+
+       D. Both types can earn positive utility
+
+25. Suppose buyers of ice-cream are uniformly distributed on the interval $[0,1]$ . Ice-cream sellers 1 and 2 simultaneously locate on the interval, each locating so to maximize her market share given the location of the rival. Each seller’s market share corresponds to the proportion of buyers who are located closer to her location than to the rival’s location
+
+       A. Both will locate at $\frac{1}{2}$
+
+       B. One will locate at $\frac{1}{4}$ and the other at $\frac{3}{4}$
+       
+       C. One will locate at 0 and the other at 1
+       
+       D. One will locate at $\frac{1}{3}$  and the other at $\frac{2}{3}$ 
+
+  
+
+26. In the context of previous question, suppose it is understood by all players that seller 3 will locate on $[0, 1]$  after observing the simultaneous location choices of sellers 1 and 2. Seller 3 aims to maximize market share given the locations of 1 and 2. The locations of sellers 1 and 2 are as follows:
+
+       A. Both will locate at $\frac{1}{2}$
+       
+       B. One will locate at $\frac{1}{4}$ and the other at $\frac{3}{4}$
+       
+       C. One will locate at 0 and the other at 1
+
+       D. One will locate at $\frac{1}{3}$ and the other at $\frac{2}{3}$
+
+27. Consider a government and two citizens. The government has to decide whether to create a public good, say a park, at cost Rs 100. The value of the park is Rs 30 to the citizen 1 and Rs 60 to citizen 2; each valuation is private information for the relevant citizen and not known to the government. The government asks the citizens to report their valuations, say $r_1$  and $r_2$. It cannot verify the truthfulness of the reports. It decides to build the park if $r_1 +r_2 \geq 100$ , in which case, citizen 1 will pay the tax $100 -r_2$  and citizen 2 will pay the tax $100 -r_1$ . If the park is not built, then no taxes are imposed. The reported valuations will be
+
+       A. $r_1 <30 \ and \ r_2 > 60$
+
+       B. $r_1 >30 \ and \ r_2 < 60$ 
+
+       C.$r_1 = 60 \ and \ r_2 = 30$ 
+
+       D. $r_1 = 30 \ and \ r_2 = 60$ 
+
+28. In the context of the previous question, suppose the only change is that citizen 1’s valuation rises to 50 and the same procedure is followed, then
+
+       A. The park will be built and result in a government budget surplus of Rs 10
+
+       B. The park will be built and result in a government budget deficit of Rs 10
+
+       C. The park will be built and result in a government balanced budget
+
+       D. The park will not be built
+
+29. Consider the following two games in which player 1 chooses a row and player 2 chooses a column.
+```
+insert games
+```
+Analysis of these games shows
+
+A. Having an extra option cannot hurt
+
+B. Having an extra option cannot hurt as long as it dominates other options
+
+C. Having an extra option can hurt if the other player is irrational
+
+D. Having an extra option can hurt if the other player is rational
+
+  
+
+30. Consider an exchange economy with agents 1 and 2 and goodsxandy. Agent 1 lexicographically prefers $x$ to $y$ . Agent 2’s utility function is $\min${$x,y$}. Agent 1’s endowment  is (0, 10) and agent 2’s endowment is (10, 0). The competitive equilibrium price ratio, $\frac{p_x}{p_y}$ , for this economy
+
+       A. can be any positive number
+
+       B. is greater than 1
+
+       C. is less than 1
+
+       D. does not exist
+
+31. Consider a strictly increasing , differentiable function $u:\mathbb{R}^2 \to \mathbb{R}$ and the equations:
+
+$\frac{D_1 u(x_1 ,x_2 )}{D_2 u(x_1 ,x_2 )}=\frac{p_1}{p_2}$ and  $p_1 x_1 +p_2 x_2 =w$ , where $p_1 ,p_2 ,w$ are strictly positive. What additional assumptions will guarantee the existence of continuously differentiable functions $x_1 (p_1 ,p_2 ,w)$  and $x_2 (p_1 ,p_2 ,w)$  that will solve these equations for all strictly positive $p_1 ,p_2 ,w$ ?
+
+A. u is injective
+
+B. u is bijective
+
+C. u is twice continuously differentiable
+
+D. u is twice continuously differentiable and
+```
+insert matrix
+```
+is nonsingular
+
+  
+
+32. As $n \up?  \infty$ , the sequence $(−1)^n(1 +n^{-1} )$ 
+
+    A. converges to 1
+
+    B. converges to -1
+
+    C. converges to both -1 and 1
+
+    D. does not converge
+
+33. The set (0,1) can be expressed as
+
+    A. the union of a finite family of closed intervals
+
+    B. the intersection of a finite family of closed intervals
+
+    C. the union of an infinite family of closed intervals
+
+    D. the intersection of an infinite family of closed intervals
+
+  
+
+  
+
+34. The set $[0,1]$  can be expressed as
+
+    A. the union of a finite family of open intervals
+
+    B. the intersection of a finite family of open intervals
+
+    C. the union of an infinite family of open intervals
+
+    D. the intersection of an infinite family of open intervals
+
+  
+
+The following information is used in the next Two questions. Consider a linear transformation $P:\mathbb{R}^n\to \mathbb{R}^n$ . Let $R(P) =${$P_x|x\in R^n$ } and $N(P) =${$x\in R^n|P_x= 0$ }. P is said to be a projector if
+
+(a) every $x\in R^n$ can be uniquely written as $x=y+z$ for some $y\in  R(P) \ and\ z\in  N(P)$ , and
+
+(b) $P(y+z) =y$ for all $y\in R(P) \ and\ z\in N(P)$ 
+
+  
+
+35. If  P is a projector, then
+
+A. $P^2 =I$ , where I is the identity mapping
+
+B. $P=P^{-1}$ 
+
+C.$P^2 =P$ 
+
+D. Both (a) and (b)
+
+36. If P is a projector and $Q:\mathbb{R^m}\to \mathbb{R^n}$ is a linear transformation such that R(P) =R(Q), then
+
+       A. QP=P
+
+       B.PQ=Q
+
+       C.QP=I
+
+       D. PQ=I
+
+37. Suppose that a and b are two consecutive roots of a polynomial function f, with a < b. Suppose a and  b are non-repeated roots. Consequently,f(x) = (x−a)(x−b)g(x) for some polynomial function g. Consider the statements:
+
+       (I) g(a) and g(b) have opposite signs
+       
+       (II) f′(x) = 0 for some  $x\in (a,b)$ 
+
+    Of these statements,
+
+       A. Both I and II are true
+
+       B. Only I is true
+
+       C. Only II is true
+
+       D. Both I and II are false
+
+38. Suppose $f: [0,1]\to R$ is a twice differentiable function that satisfies $D^2 f(x)+Df(x) = 1$  for every $x\in (0,1)$  and $f(0) = 0 =f(1)$ . Then,
+
+A. f does not attain positive values over (0,1)
+
+B. f does not attain negative values over (0,1)
+
+C. f attains positive and negative values over (0,1)
+
+D. f is constant over (0,1)
+
+  
+
+39. Suppose $x_1 ,\dots  ,x_n$ are positive and $\lambda_1 ,\dots  ,\lambda_n$ are non-negative with $\sum_{i=1}^n \lambda_i= 1$ . Then
+
+    A. $\sum_{i=1}^n \lambda_i x_i\geq x_1^{\lambda_1} , \dots ,  \lambda_n^{\lambda_n}$ 
+
+    B.  $\sum_{i=1}^n \lambda_i x_i <  x_1^{\lambda_1} , \dots ,  \lambda_n^{\lambda_n}$ 
+
+    C.$\sum_{i=1}^n \lambda_i x_i \leq  sqrt{x_1^{\lambda_1} , \dots ,  \lambda_n^{\lambda_n}}$ 
+    D. None of the above is necessarity true 
+
+
+  
+
+40. Let N={ 1 , 2 , 3 ,...}. Suppose there is a bijection, i.e., a one-to-one correspondence (an “into” and “onto” mapping), between N and a set X. Suppose there is also a bijection betweenNand a setY. Then,
+
+       A. there is a bijection between N and $X\cup Y$ 
+
+       B. there is a bijection between N and $X\cap Y$ 
+
+       C. there is no bijection between N and $X\cap Y$
+
+       D. there is no bijection between N and $X\cup Y$ 
+
+  
+
+The next Three questions pertain to the following: A simple linear regression of wages on gender, run on a sample of 200 individuals, 150 of whom are men, yields the following $W_i= 300− 50 D_i+u_i$ 
+
+(20) (10) # edit
+
+  
+
+where $W_i$ is the wage in Rs per day of the $i^{th}$ individual,$D_i= 1$  if individual $i$ is male, and 0 otherwise,$u_i$ is a classical error term , and the figures in parentheses are standard errors.
+
+  
+
+41. What is the average wage in the sample?
+
+    A. Rs. 250 per day
+
+    B. Rs. 275 per day
+
+    C. Rs. 262.50 per day
+
+    D. Rs. 267.50 per day
+
+42. The most precise estimate of the difference in wages between men and women would have been obtained if, among these 200 individuals,
+
+       A. There were an equal number (100) of men and women in the sample
+
+       B. The ratio of the number of men and women in the sample was the same as the ratio of their average wages
+       
+       C. There were at least 30 men and 30 women; this is sufficient for estimation: precision does not depend on the distribution of the sample across men and women
+       
+       D. None of the above
+
+  
+
+43. The explained (regression) sum of squares in this case is:
+
+    A. 93750
+
+    B. 1406.25
+
+    C. 15000
+
+    D. This cannot be calculated from the information given
+
+44. A researcher estimate the following two models using OLS
+
+    Model $A:y_i= \beta_0 + \beta_1 S_i+ \beta_2 A_i+i$ 
+
+    Model $B:y_i= \beta_0 + \beta_1 S_i+i$ 
+
+    where $y_i$ refers to the marks (out of 100) that a studentigets on an exam,$S_i$ refers to the number of hours spent studying for the exam by the student, and $A_i$ is an index of innate ability (varying continuously from a low ability score of 1 to a high ability score of 10).ithe usual classical error term. The estimated $\beta_1$  coefficient is 7.1 for Model A, but 2.1 for Model B; both are statistically significant. The estimated \beta  2 coefficient is 1.9 and is also significantly different from zero. This suggests that:
+
+       A. Students with lower ability also spend fewer hours studying
+
+       B. Students with lower ability spend more time studying
+
+       C. There is no way that students of even high ability can get more than 40 marks
+
+       D. None of the above
+
+45. An analyst estimates the model $Y = \beta _1 + \beta_1 X_1 + \beta_2 X_2 + \beta_3 X_3 +u$ using OLS.
+
+    But the true $\beta  3 = 0$ . In this case, by including $X_3$ 
+
+       A. there is no harm done as all the estimates would be unbiased and efficient
+
+       B. there is a problem because all the estimates would be biased and inconsistent
+
+       C. the estimates would be unbiased but would have larger standard errors
+
+       D. the estimates may be biased but they would still be efficient
+
+46. Let $\hat \beta$ be the OLS estimator of the slope coefficient in a regression ofY onX 1. Let $\hat \beta$ be the OLS estimator of the coefficient on $X_1$  on a regression of Y on $X_1$  and $X_2$ . Which of the following is true
+
+       A. $Var( \hat \beta )<Var(\hat  \beta  )$ 
+
+       B. $Var(\hat  \beta )>Var( \hat \beta  )$
+
+       C. $Var( \hat \beta )< \ or\ >Var(\hat  \beta  )$ 
+
+       D. $Var( \hat \beta ) = Var(\hat  \beta  )$ 
+
+  
+
+  
+
+47. You estimate the multiple regression $Y =a+b_1 X_1 +b_2 X _2 +u$ with a large sample. Let $t_1$  be the test statistic for testing the null hypothesisb 1 = 0 and $t_2$  be the test statistic for testing the null hypothesis $b_2 = 0$ . Suppose you test the joint null hypothesis that $b_1 =b_2 = 0$  using the principle ‘reject the null if either $t_1$  or $t_2$  exceeds 1.96 in absolute value’  taking $t_1$  and $t_2$  to be independently distributed.
+
+       A. The probability of error Type 1 is 5 percent in this case
+
+       B. The probability of error Type 1 is less than 5 percent in this case
+
+       C. The probability of error Type 1 is more than 5 percent in this case
+
+       D. The probability of error Type 1 is either 5 percent or less than 5 percent in this case
+
+48. Four taste testers are asked to independently rank three different brands of chocolate (A,B,C). The chocolate each tester likes best is given the rank 1, the next 2 and then 3. After this, the assigned ranks for each of the chocolates are summed across the testers. Assume that the testers cannot really discriminate between the chocolates, so that each is assigning her ranks at random. The probability that chocolate A receives a total score of 4 is given by:
+
+       A. $\frac{1}{4}$ 
+
+       B. $\frac{1}{3}$
+
+       C. $\frac{1}{27}$
+
+       D. $\frac{1}{81}$
+
+49. Suppose 0.1 percent of all people in a town have tuberculosis (TB). A TB test is available but it is not completely accurate. If a person has TB, the test will indicate it with probability 0.999. If the person does not have TB, the test will erroneously indicate that s/he does with probability 0.002. For a randomly selected individual, the test shows that s/he has TB. What is the probability that this person actually has TB?
+
+       A.$\frac{0.002}{0.999}$ 
+
+       B. $\frac{1}{1000}$
+
+       C. $\frac{1}{3}$ 
+
+       D. $\frac{2}{3}$
+
+50. There exists a random variable X with mean $\mu_X$ and variance $\sigma_X^2$  for which $P[\mu X− 2 \sigma_X \leq X \leq \mu_X+ 2\sigma_X] = 0.6$  This statement is:
+
+       A. True for any distribution for appropriate choices of $\mu_X$ and $\sigma^2 X$ 
+
+       B. True only for the uniform distribution defined over an appropriate interval
+
+       C. True only for the normal distribution for appropriate choices of $\mu_X$ and $\sigma_X^2$ 
+
+       D. False
+
+51. Consider a sample size of 2 drawn without replacement from an urn containing three balls numbered 1, 2, and 3. Let X be the smaller of the two numbers drawn and Y the  larger. The covariance between X and Y is given by
+
+ A. $\frac{1}{9}$
+
+  
+
+ B. $\frac{3}{11}$
+
+  
+
+ C.$\frac{11}{3}$
+
+  
+
+ D.$\frac{3}{4}$
+
+  

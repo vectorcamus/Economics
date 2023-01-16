@@ -1,0 +1,723 @@
+---
+title: "PYQ DSE 2014"
+author: "dhananjaya"
+date: "`r Sys.Date()`"
+output: html_document
+---
+# DSE 2014
+
+  
+
+1. Suppose that we classify all households into one of two states, rich and poor. The  probability of a particular generation being in either of these states depends only on the state in which their parents were. If a parent is poor today, their child is likely to be poor with probability 0.7. If a parent is rich today, their child is likely to be poor with probability 0.6. What is the probability that the great grandson of a poor man will be poor?
+
+      A. 0.72
+
+      B. 0.67
+
+      C. 0.62
+
+      D. 0.78
+
+2. Consider the experiment of tossing two fair coins. Let the event A be a head on the first coin, the event C be a head on the second coin, the event D be that both coins match and the event G be two heads. Which of the following is false?
+
+      A. C and D are statistically independent
+
+      B. A and G are statistically independent
+
+      C.A and D are statistically independent
+
+      D. A and C are statistically independent
+
+3. Let Y denote the number of heads obtained when 3 fair coins are tossed. Then the expectation of $Z= 4 + 5Y^2$  is
+
+      A. 17
+
+      B. 18
+
+      C. 19
+
+      D. None of the above
+
+4. Let Y denote the number of heads obtained when 3 fair coins are tossed. Then the variance of $Z= 4 + 5Y^2$  is
+
+      A. 185.5
+
+      B. 178.5
+
+      C. 187.5
+
+      D. None of the above
+
+5. Let events E,F and G be pairwise independent with Pr(G)>0 and $Pr(E \cap F∩G)$  = 0. Let $X^c$ denote the complement of event X. Then $Pr(E^c\cap F^c|G)$ =
+
+      A. Pr(Ec) + Pr(Fc)
+
+      B. Pr(Ec)−Pr(Fc)
+
+      C. Pr(Ec)−Pr(F)
+      
+      D. None of the above
+
+  
+
+6. Let $a_n=(1+\frac{1}{n})^{n+1} , n=1,2,\dots$ Then the sequence $(a_n)_{n=1}^{\infty}$ 
+
+A. is an increasing sequence
+
+B. first increases, then decreases
+
+C. is a decreasing sequence
+
+D. first decreases, then increases
+
+  
+
+7. Let M,A,B,C be respectively the four matrices below:
+
+```
+ insert matrix
+```
+
+A. but x,y,z are not unique.
+
+B. z =− 1
+
+C. z=−1 and z=−2 both can hold
+
+D. x,y,z are unique but z= 2
+
+  
+
+8. Let  f be a continuous function from $[a,b]$ to $[a,b]$ and is differentiable on (a,b). We will say that point $y\in [a,b]$  is a fixed pointof f if $y=f(y)$ . If the derivative $f′(x) \neq 1$ for any $x\in (a,b)$ , then f has
+
+      A. multiple, and an odd number of, fixed points
+
+      B. no fixed points in $[a,b]$
+
+      C. multiple, but an even number of, fixed points
+
+      D. exactly one fixed point in $[a,b]$
+
+9. Which of the following statements is true for all real numbers a,b with a < b ?
+
+    A. $\sin b−\sin a\neq b−a$
+
+    B. $\sin b−\sin a \geq b−a$
+
+    C. $|sin b−sin a| \geq b−a$ 
+
+    D. $|sinb−sina| \leq |b−a|$ 
+
+10. Let O(0,0), P(3,4) and Q(6,0) be the vertices of a triangle OPQ. If a point S in the interior of the OPQ is such that triangles OPS,PQS and OQShave equal area, then the coordinates of S are:
+
+A. $(\frac{4}{3} ,3)$
+
+B. $(3, \frac{2}{3})$
+
+C. $(3, \frac{4}{3})$
+
+D. $(\frac{4}{3} , \frac{2}{3})$
+
+  
+
+  
+
+11. 5 men and 5 women are seated randomly in a single row of chairs. The expected number of women sitting next to at least one man equals
+
+       A. $\frac{11}{3}$
+
+      B. $\frac{13}{3}$
+
+      C. $\frac{35}{9}$
+
+       D. $\frac{37}{9}$
+
+12. Let M be a $3\times 3$  matrix such that $M^2 =M$ . Which of the following is necessarily true?
+
+    A. M is invertible
+
+    B. det(M) = 0
+
+    C. det($M^5$  ) = det(M)
+
+    D. None of the above
+
+13. Suppose a straight line in $\mathbb{R^3}$  passes through the point (− 1 , 3 ,3) in the direction of the vector (1, 2 ,3). The line will intersect with the xy-plane at point
+
+       A. (2,− 1 ,0)
+       
+       B.  (1, 3 ,0)
+       
+       C. (3, 1 ,0)
+
+       D. None of the above
+
+14. X is a random variable. Which of the following statements is always true?
+
+    A. The expectation of X exists.
+
+    B. The distribution function of X is strictly increasing
+
+    C.X has a median
+
+    D. None of the above
+
+15. Consider two disjoint events A and B in a sample space S. Which of the following is correct?
+
+      A. A and B are always independent
+
+      B.A and B cannot be independent
+
+      C.A and B are independent if both of them have positive probability
+
+       D. None of the above
+
+  
+
+The following information is the starting point for Q 16 − 20 .Consider an exchange economy with two agents, 1 and 2,and two goods,  x and Y. Agent 1’s endowment is (0,10) and agent 2 ’s endowment is (11,0). Agent 1 strictly prefers bundle (a,b) to bundle (c,d) if, either $a > c$ ,or a=c and b > d. Agent 2 strictly prefers bundle (a,b) to bundle (c,d) if $\min${a,b}>$\min$ {c,d}.For both agents, we say that bundle (a,b) is indifferent to bundle (c,d) if, neither (a,b),nor (c,d),is strictly preferred to the other.
+
+  
+
+  
+
+16. This exchange economy has
+
+    A. one competitive equilibrium allocation
+
+    B. two competitive equilibrium allocations
+
+    C. an infinite number of competitive equilibrium allocations
+
+    D. no competitive equilibrium allocations
+
+17. Which of the following changes makes $(p_x,p_y)$  = (1,0) a competitive equilibrium price vector?
+
+      A. agent 2’s endowment changes to (9,0)
+
+      B. agent 2’s endowment changes to (10,0)
+
+      C. agent 1’s endowment changes to (0,12)
+
+      D. none of the above
+
+18. Suppose only agent 2’s preferences are changed. The changed preferences of agent 2’s become identical to those of agent 1. Then,
+
+      A. there is no equilibrium price ratio
+
+      B. both of the following are true
+
+      C. $\frac{p_x}{p_y}= 0$  is an equilibrium price ratio
+
+       D. $\frac{p_y}{p_x}= 0$  is an equilibrium price ratio
+
+19. Suppose only agent 2’s preferences are changed. The changed preferences is such that agent 2 strictly prefers bundle (a,b) to bundle (c,d) if, either b > d, or b=d and a > c. Then,
+
+      A. there is no equilibrium price ratio
+
+      B. both of the following are true
+
+      C. $\frac{p_x}{p_y}= 0$  is an equilibrium price ratio
+
+       D. $\frac{p_x}{p_y}>0$  is an equilibrium price ratio
+
+      E. $\frac{p_x}{p_y}= \frac{10}{11}$  is an equilibrium price ratio
+
+20. Suppose only agent 1’s preferences are changed. The changed preferences of agent 1’s become identical to those of agent 2. Then,
+
+      A. there is no equilibrium price ratio
+
+      B. both of the following are true
+
+      C. $\frac{p_x}{p_y}= 0$  is an equilibrium price ratio
+
+       D. $\frac{p_y}{p_x} = 0$  is an equilibrium price ratio
+
+21. 5 men and 5 women are seated randomly in a single circle of chairs. The expected number of women sitting next to at least 1 man equals
+
+       A. $\frac{23}{ 6}$
+       
+       B. $\frac{25}{6}$
+       
+       C. 4
+       
+       D. $\frac{17}{ 4}$
+
+  
+
+22. Ms. A selects a number X randomly from the uniform distribution on $[0,1]$ . Then Mr. B repeatedly, and independently, draws numbers $Y_1 ,Y_2 ,\dots$ from the uniform distribution on $[0,1]$ , until he gets a number larger than $\frac{X}{2}$ , then stops. The expected number of draws that Mr. B makes equals
+
+      A. 2 ln 2
+
+      B. ln 2
+
+      C. $\frac{2}{e}$
+
+       D. $\frac{6}{e}$
+
+23. Ms . A selects a number X randomly from the uniform distribution on $[0,1]$ . Then Mr. B  repeatedly, and independently, draws numbers $Y_1 ,Y_2 ,\dots$ from the uniform distribution on $[0,1]$ , until he gets a number larger than $\frac{X}{2}$ , then stops. The expected sum of the number Mr.B draws, given X=x, equals
+
+       A. ln 2
+
+      B. $\frac{1}{(1−\frac{1}{2} )}$ 
+
+      C. $\frac{1}{(2−x)}$ 
+
+       D. $\frac{3}{(1−\frac{1}{2} )}$ 
+
+24. There are two fair coins (i.e. Heads and Tails are equally likely for tosses of both). Coin 1 is tossed 3 times. Let X be the number of Heads that occur. After this, Coin 2 is tossed X times. Let Y be the number of Heads we get with Coin 2. The probability $Pr(X \geq  2 |Y= 1)$ equals
+
+      A. $\frac{1}{ 2}$
+
+      B. $\frac{4}{ 7}$
+
+      C. $\frac{2}{3}$
+
+       D. $\frac{11}{ 18}$
+
+      E. $\frac{10}{18}$ 
+
+25. Two independent random variables $X$  and $Y$ have the same probability density functions:
+
+```
+INSERT FUNCTIONS
+```
+
+Then the variance of their sum, $\mathbb{V}(X+Y)$  equals
+
+A. $\frac{2}{9}$
+
+B. $\frac{13}{81}$
+
+C. $\frac{4}{45}$
+
+D. $\frac{5}{18}$
+
+  
+
+26. Suppose two restaurants are going to be located at a street that is ten kilometres long. The location of each restaurant will be chosen randomly. What is the probability that they will be located less than five kilometres apart?
+
+       A. $\frac{1}{4}$
+
+      B.  $\frac{1}{2}$
+
+      C. $\frac{3}{4}$
+
+       D. $\frac{1}{3}$
+
+  
+
+27. Consider the linear regression model: $y_i=\beta_1 D_{1 i}+\beta D _{2i}+\epsilon$ , where $D_{1i} = 1 if 1\leq i \leq N$  and $D_{2i}= 0$  if $N+ 1\leq i\leq n$ for some $1< N < n$ and $D_{2i}= 1−D_{2i}$ . Can this model be estimated using least squares?
+
+A. No, because D1 and D2 are perfectly collinear
+
+B. Yes, and it is equivalent to running two separate regressions of y on D1 and y on D2, respectively
+
+C. No, because there is no variability in D1 and D 2
+
+D. Yes, provided an intercept term is included.
+
+  
+
+28. Consider the least squares regression ofyon a single variablex. Which of the following statements is true about such a regression?
+
+       A. The coefficient of determination $\mathbb{R^2}$  is always equal to the squared correlation coefficient between y and x
+       
+       B. The coefficient of determination $\mathbb{R}^2$  is equal to the squared correlation coefficient between y and x only if there is no intercept in the equation
+       
+       C. The coefficient of determination $\mathbb{R}^2$ is equal to the squared correlation coefficient between y and x only if there is an intercept in the equation
+
+       D. There is no relationship between the coefficient of determination $\mathbb{R}^2$  and the  squared correlation coefficient between y and x
+
+29. An analyst runs two least squares regressions: first, of y on a single variable x, and second of x on y. In both cases, she decides to include an intercept term. Which of the following is true of what she finds?
+
+       A. The slope coefficient of the first regression will be the inverse of the slope coefficient of the second regression; this will also be true of the associated t-ratios
+       
+       B. The slope coefficients will be different, the associated t-ratios will also but different, but the $\mathbb{R^2}$  from the two regressions will be the same
+       
+       C. The slope coefficients will be different, but the associated t-ratios and the $\mathbb{R^2}$  from the two regressions will be the same
+       
+       D. The slope coefficient will be the inverse of each other, the associated t-ratios will also be the inverse of each other, but the $\mathbb{R}^2$  from the two regressions will be the same
+
+  
+
+30. Consider the two regression models
+
+(i) $y=\beta_0 +\beta_1 X_1 +\beta_2 X_2 +u$ 
+
+(ii) $y=\gamma_0 +\gamma_1 Z_1 +\gamma_2 Z_2 +v$ 
+
+where variables $Z_1$  and $Z_2$  are distinct from  $X_1$  and $X_2$ . Assume $u∼ N(0,\sigma_u^{2} )$  and $v∼ N(0,\sigma_v^2 )$  and the models are estimated using ordinary least squares. If the true model is (i) then which of the following is true?
+
+A. $E[\hat \beta_1 ] =E[\hat \gamma_1 ] =\beta_1 \ and \ E[\hat \sigma_v^2 ] =\sigma_u^2$ 
+
+B.$E[\hat \sigma_v^2 ] \geq \sigma_u^2$ 
+
+C.$E[\hat \sigma_v^2 ]\leq \sigma_u^2$ 
+
+D. None of the above as the two models cannot be compared
+
+  
+
+The following information is the starting point for Q 31 - 35. Please read it carefully before you proceed to answer.
+
+Consider an economy consisting of N identical firms producing a single final commodity to be used for consumption as well as investment purposes. Each firm is endowed with a Cobb-Douglas production technology, such that
+
+$Y_t^i=(K_t^i) \alpha (L_t^i)^{1 − \alpha} ; 0<  \alpha  < 1$
+
+  where $K_t^i$ and $L_t^i$ denote the amounts of capital and labor employed by the i-th firm at time period t. The final commodity is the numeraire; wage rate for labour $(w_t)$  and the rental rate for capital $(r_t)$  are measured in terms of the final commodity. The firms are perfectly competitive and employ labor and capital so as to maximise their profits - taking the factor prices as given. The aggregate output produced is thus given by:
+
+$Y_t=\sum_{i=1}^N (K_t^i)^{\alpha} (L_t^i)^{1-\alpha} \  ;0<\alpha<1$  
+
+where $K_t = \sum{i=1}^N K_t^i \ and\ L_t = \sum_{i=1}^N L_t^i$  are the total capital and labor employed in the aggregate economy in period t. Labor and Capital on the other hand are provided by the households. There are H identical households, each endowed with $k_t^h$  units of capital and 1 unit of labor at the beginning of period t. Capital stock of the households gets augmented over time due to the savings and investment made by the households. In particular, each household saves and invests  exactly  half of its total income $y_t^h$  (which includes its labour as well as capital income) in every period and consumes the rest, such that $\frac{dk_t^h}{dt}=\frac{1}{2}y_t^h$ (There is no depreciation of capital). The entire capital endowment at the beginning of every period is supplied inelastically to the market at the given rental rate $(r_t)$ . Labor supply however is endogenous and responds to the market wage rate. Out of the total endowment of 1 unit of labour, a household optimally supplies $l_t^h$ units so as to maximise its utility:
+
+$U_t^h =w_tl_t^h -(l_t^h)^{\delta}\ ; \delta>1$ 
+
+where the first term captures the (indirect) utility derived from labour earnings while the second term captures the dis-utility of labour.
+
+  
+
+31. The labor demand schedule for the aggregate economy is given by the following function:
+
+ A. $L_t=[\frac{1}{w_t}]^{\frac{1}{\alpha}} K_t$  
+ B. $L_t=N[\frac{1-\alpha}{w_t}]^{\frac{1}{\alpha}} K_t$
+ C. $L_t=[\frac{1-\alpha}{w_t}]^{\frac{1}{\alpha}} K_t$  
+ D. None of the above
+
+32. The aggregate labour supply schedule by the households is given by the following function 
+  
+```
+insert function
+```
+33. The market clearing wage rate in the short run (periodt) is given by:
+
+```
+insert function
+```
+34. Equilibrium output in the short run (period t ):
+
+  
+ A. is a strictly convex function of $K_t  \ for \ K_t < H(\frac{\sigma}{1-\alpha})^{\frac{1}{\alpha}}=\bar K$ ; and is a strictly concave function of $K_t \geq \bar K$  
+
+B. is a strictly concave function of $K_t$ for all values of $K_t$ 
+
+C. is a strictly convex function of $K_t$ for all values of $K_t$ 
+
+D. is a linear function of $K_t$ for all values of $K_t$ 
+
+  
+
+  
+
+35. Over time the aggregate output in this economy
+
+    A. initially increases until $K_t<\bar K$  , and then reaches a constant value within finite time when $K_t \geq \bar K$
+    
+    B. initially decreases until $K_t < \bar K$ , and then reaches a constant value within finite time when $K_t \geq \bar K$ 
+    
+    C. keep increasing at a decreasing rate and approaches a constant value only in the very long run (when $t\to \infty)$ 
+
+    D. increases at a constant rate untilKt<K ̄; increases at a decreasing rate when $K_t  \geq  \bar K$  and approaches a constant value only in the very long run (when $t \to \infty)$ 
+
+  
+
+The following information is the starting point for Q 36 - 40. Please read it carefully before you proceed to answer. Consider an economy consisting of N identical firms producing a single final commodity to be used for consumption as well as investment purposes. Each firm is endowed with a Cobb-Douglas production technology, such that
+
+
+$Y_t^i=(K_t^i)^\alpha (L_t^i)^{1 − \alpha} ; 0<  \alpha  < 1$ 
+
+where $K_t^i$ and $L_t^i$ denote the amounts of capital and labor employed by the $i^{th}$ firm at time period t. The final commodity is the numeraire; wage rate for labour $(w_t)$ and the rental rate for capital $(r_t)$  are measured in terms of the final commodity. The firms are perfectly competitive and employ labor and capital so as to maximise their profits - taking the factor prices as given. The aggregate output produced is thus given by:
+
+$Y_t= \sum_{i=1}^N (K_t^i)^{\alpha}(L_t^i)^{1-\alpha} =(K_t)^{\alpha} (L_t)^{1-\alpha}$ 
+
+where $K_t = \sum_{i=1}^N K_t^i \ and\ L_t = \sum_{i=1}^N L_t^i$ are the total capital and labor employed in the aggregate economy in period t. Labor and Capital on the other hand are provided by the households. There are H identical households, each endowed withkht units of capital and 1 unit of labor at the beginning of period t. Capital stock of the households gets augmented over time due to the savings and investment made by the households. In particular, each household saves and invests exactly half of its total income $y_t^h$   (which includes its labour as well as capital income) in every period and consumes the rest, such that $\frac{dk_t^h}{dt}=\frac{1}{2}y_t^h$ (There is no depreciation of capital). The entire capital endowment at the beginning of every period is supplied inelastically to the market at the given rental rate $(r_t)$ . Labor supply however is endogenous and responds to the market wage rate. Out of the total endowment of 1 unit of labour, a household optimally supplies $l_t^h$  units so as to maximise its utility:
+
+```
+insert 
+```
+For the case $l_t^h>0$ , the first term captures the (indirect) utility derived from labour earnings while the constant termDcaptures the disutility of labour - which is independent of quantity of labour supplied.
+
+  
+
+36. The new aggregate labour supply schedule by the households is given by the following function:
+
+```
+insert function
+```
+  
+
+37. The new market clearing wage rate in the short run (periodt) is given by:
+
+```
+Insert function
+```
+
+38. An increase in the number of firms (N)
+
+    A. leaves the wage rate unchanged in the short run (untilKt<K ̃) and increases it thereafter 
+    
+    B. increases the wage rate in the short run (until $K_t<\hat K$ ) and leaves it unchanged thereafter
+    
+    C. leaves the wage rate unchanged irrespective of $K_t$ 
+
+    D. None of the above
+
+39. The new equilibrium output in the short run (period t)
+
+  A. is a linear function of $K_t  \ for \ K_t < H(\frac{D}{1-\alpha})^{\frac{1}{\alpha}}=\bar K$ ; and is a strictly concave function of $K_t \geq \bar K$ 
+  
+  B. is a strictly concave function of $K_t$ for all values of $K_t$ 
+  
+  C. is a strictly convex function of $K_t$ for all values of $K_t$ 
+  
+  D. is a linear function of $K_t$ for all values of $K_t$ 
+
+  
+
+40. Over time the aggregate output in this economy
+
+    A. initially increases until $K_t<K$ , and then reaches a constant value within finite time when $K_t \geq K$ (EDIT)
+    
+    B. initially decreases until $K_t < K$, and then reaches a constant value within finite time when $K_t \geq K$ 
+    
+    C. increases at a constant rate until $K_t<K$ ; increases at a decreasing rate when $K_t  \geq  K$  and approaches a constant value only in the very long run (when $t\to \infty$ )
+    
+    D. None of the above
+
+  
+
+41. $\lim_n\to \infty  (\sqrt n)^{\frac{1}{n}}=$ 
+
+    A. 0
+    
+    B. 0.5
+    
+    C. 1
+
+    D. 2
+
+42. $\lim_{x\to  0} x^2 \cos (\frac{1}{x})=$ 
+
+  
+A. − 1
+
+B. 0
+
+C. 1
+
+D. The limit does not exist
+
+  
+
+43. Suppose $A_1 ,A_2 ,.\dots$ is a countably infinite family of subsets of a vector space. Suppose all of these sets are linearly independent, and that $A 1 ⊆A 2 ⊆···$ Then $\bigcup_{i=1}^{\infty} A_i$ is
+
+      A. a linearly independent set of vectors
+
+      B. a linearly dependent set of vectors
+
+      C. linearly independent provided the vectors are orthogonal
+
+      D. not necessarily either dependent or independent
+
+44. If u andvare distinct vectors andkandtare distinct scalars, then the vectors $u+k(u−v)$  andu $u+t(u−v)$ 
+
+      A. are linearly independent
+
+      B. may be identical
+
+      C. are linearly dependent
+
+      D. are distinct
+
+45. Let d $((x_1 ,x_2 ),(y_1 ,y_2 )) = \max${$|x_1 −y_1 |,|x_2 −y_2 |$ }be the distance between two points  $(x_1 ,x_2 ) \ and \ (y_1 ,y_2 )$  on the plane. Then the locus of points at distance 1 from the origin is
+
+      A. a square with side length = 1
+
+      B. a square with side length = $\sqrt 2$ 
+      
+      C. a square with side length = 2
+      
+      D. a circle with radius = 1
+
+  
+
+  
+
+46. The set of all pairs of positive integersa,b with $a < b$ such that $ab=ba$ 
+
+    A. is an empty set
+
+    B. consists of a single pair
+
+    C. consists of multiple, but finite number of pairs
+
+    D. is countably infinite
+
+47. Suppose c is a given positive real number. The equation $\ln x=cx^2$  must have a solution if
+
+      A. $c <\frac{1} {(2e)}$ 
+
+      B. $c < \frac{1 }{e}$
+
+      C. $c > \frac{1}{(2e)}$
+
+       D. $c >(\frac{1}{e})$
+
+48. Sania’s boat is at point A on the sea. The closest point on land, point B, is 2 km away. Point C on land is 6 km from point B, such that triangle (ABC) is right-angled at point B. Sania wishes to reach pointC, by rowing to some pointPon the line $\bar{BC}$  , and jog the remaining distance to C. If she rows 2 km per hour and jogs 5 km per hour, at what distance from pointBshould she choose her landing pointP, in order to minimise her time to reach point C?
+
+       A. $\frac{21}{\sqrt 4}$ 
+       B. $\frac{4}{\sqrt {21}}$
+       C. $\frac{4}{\sqrt {12}}$ 
+       D. $\frac{21}{\sqrt {21}}$ 
+        
+49. Suppose $A_j, \ j= 1, 2 ,\dots$ are non-empty sets of real numbers. Define the sets $C_n=\bigcap_{k=n}^{\infty} \bigcup_{j=k}^{\infty} A_j,n= 1, 2 ,\dots$  Which of the choices below must then hold for a given n? (where the symbol ⊂ stands for ‘strict subset’).
+
+A. $C_n⊂C_n+1$
+
+B. $C_n+1⊂C_n$
+
+C. $C_n=C_n+1$ 
+
+D. None of the above need hold
+
+  
+
+50. Suppose x and y are given integers. Consider the following statements:
+
+    A. ] If 2x+ 3y is divisible by 17, then 9x+ 5y is divisible by 17.
+
+    B. ] If 9x+ 5y is divisible by 17, then 2x+ 3y is divisible by 17.
+
+Which of the following is true?
+
+A. A is true and B is false
+
+B.B is true and A is false
+
+C. Both A and B are true
+
+D. Neither A nor B is true
+
+  
+
+The following information is the starting point for Q 51 - 52. Consider an exchange economy with two goods. Suppose agent i and j have the same preferences. Moreover, suppose their preferences have the following property: if (a,b) and (c,d) are distinct bundles that are indifferent to each other, then the bundle $(\frac{(a+c)}{ 2} ,\frac{(b+d)}{2})$  is strictly preferred to (a,b) and (c,d).
+
+  
+
+51. In a Pareto efficient allocation,i and j
+
+    A. will get the same bundle
+    
+    B. may get different bundles
+    
+    C. will get the same bundle, provided their endowments are identical
+
+    D. will get the same bundle, provided their endowments are identical and the preferences are monotonically increasing
+
+52. In a competitive equilibrium allocation,i and j
+
+    A. will get the same bundle
+
+    B. may get different bundles
+
+    C. will get the same bundle, if their endowments are identical
+
+    D. will get the same bundle, only if their endowments are identical and the preferences are monotonically increasing
+
+  
+
+The following information is the starting point for Q 53 - 55. Two firms produce the same commodity. Let $x_1$  and $x_2$  be the quantity choices of firms 1 and 2 respectively. The total quantity is $X=x_1 +x_2$ . The inverse demand function is $P=a−bX$ , where $P$ is the market price, andaandbare the intercept and the slope parameters respectively. Firms 1 and 2 have constant average costs equal toc 1 andc 2 respectively. Suppose $b >0, 0< c_1 < c_2 < a \ and\ a+c_1 > 2 c_2$ .
+
+  
+
+53. In a Cournot equilibrium,
+
+    A. firm 1 has the larger market share and the larger profit
+
+    B. firm 2 has the larger market share and the larger profit
+
+    C. firm 1 has the larger market share and the smaller profit
+
+     D. firm 2 has the larger market share and the smaller profit
+
+54. If a increases, then
+
+    A. the market share of firm 1 increases and price increases
+
+    B. the market share of firm 1 decreases and price increases
+
+    C. the market share of firm 1 increases and price decreases
+    
+    D. the market share of firm 1 decreases and price decreases
+
+  
+
+55. If b decreases, then
+
+    A. the price and market share of firm 1 increase
+
+    B. the price and market share of firm 1 decrease
+
+    C. the market shares are unchanged and price increases
+
+    D. neither price, nor market shares, change
+
+56. Suppose that an economy has endowment of K units of capital and L units of labour. Two final goods $X_1$  and $X_2$  can be produced by the following technologies, $X1 =\sqrt {kl} ,X_2=\sqrt l$ where k is quantity of capital and $l$ s quantity of labour. Find the production possibility frontier.
+
+A. $X_1^2 +KX_2^2 =KL$
+
+B.$X1^2 +X_2^2 =KL$
+
+C. $X_1 +\sqrt KX_2 =\sqrt {KL}$ 
+D. $X_1 +X_2^2 =KL$ 
+
+  
+
+57. A two-person two commodity economy has social endowment of x= 1 unit of food and y= 1 unit of wine. Agents preferences are increasing in own consumption but decreasing in wine consumption of the other person. Preferences of agentsAandBare as follows, $u_A( x_A ,y_A,y_B) = x_A [1 + max(y_A−y_B,0)], u_B(x_B,y_B,y_A) =x_B[1 + max(y_B−y_A,0)]$ , where A consumes $x_A$  and $y_A$ units of x and y respectively, similarly B’s consumption is $x_B$ and $y_B$ . Which of the following is a Pareto optimum allocation.
+
+      A.  $x_A =\frac{1}{4} ,x_B=\frac{3}{4} ,y_A=y+B=\frac{1}{2}$
+
+      B. $x_A =x_B=\frac{1}{2} ,y_A=\frac{1}{4} ,y_B=\frac{3}{4}$ 
+
+      C. $x_A =\frac{1}{4} ,x_B=\frac{3}{4} ,y_A= 1,y_B= 0$ 
+
+       D. $x_A =\frac{1}{4} ,x_B=\frac{3}{4} ,y_A= 0,y_B= 1$ 
+
+58. A two-person two-goods pure exchange economy. The initial endowment vectors are  $e^1 = (1,0)\  and \ e^2 = (0,1)$ . The two individuals have identical preferences represented  by the utility functions:
+
+```
+insert function
+```
+where x is the quantity of the first good andyis the quantity of the second good. For this economy the set of Pareto optimum allocations
+
+A. consists of the entire Edgeworth box
+
+B. is just the equal division of goods
+
+C. is a null set
+
+D. is {$((0,0),(1,1)),((1,1),(0,0))$ }
+
+  
+
+59. A monopolist seller produces a good with constant marginal cost $c \geq 0$ . The monopolist sells the entire output to a consumer whose utility from consumingxunits of the product is given by $\theta \sqrt{x}−t$ , where t is the payment made by the consumer to the monopolist. Suppose, consumer’s outside option is 0, i.e., if she does not buy the good from the monopolist, she gets 0 utility. Then, the monopolist’s profit is
+
+      A. $\frac{\theta}{4c}$
+
+      B.$\frac{\theta^2 }{4c}$
+
+      C.  $c\theta^2$
+
+       D. $\frac{c\theta}{ 2}$
+
+60. Consider an economy consisting of $n \geq 2$  individuals with preference relations defined over the set of alternatives X. Let S={a,b,c,d,e} and T= {a,b,c,d} be two subsets of X. Now consider the following statements:
+- A. If a is Pareto optimal (PO) with respect to set S, then a is PO with respect to set T.
+- B. Ifais PO with respect to set T, then a is PO with respect to set S.
+- C. Ifais PO with respect to setSandbisnot PO with respect to set T, then a is Pareto superior to b.
+- D. If a is the only PO alternative in setSandbisnot PO with respect to set S, then a is Pareto superior tob.
+
+How many of the above statements are necessarily correct?
+
+   A. 1
+   B. 2
+   C. 3
+   D. 4
