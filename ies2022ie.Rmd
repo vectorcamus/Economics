@@ -1,0 +1,93 @@
+---
+title: "IES 2022 Indian Economy"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+
+### 2022
+100 words 
+
+1. **Write down the key recommendations of the 15th Finance Commission of India**.
+
+- Share of central taxes should be 41 %
+
+- 2011 population data for demographic performance
+
+- Grants to local bodies with condition like minimum floor rates
+
+- Fiscal deficit limit of 4 %
+
+- Extra annual borrowing 0.5 % upon power sector reforms like reducing operational losses and reduction in revenue gap, adopting debt
+
+- Reducing excessive dependency on income tax , expanding tds/tcs
+
+- Integrated Computerised records
+
+- Health spending as  8 % of budget ( 2/3 on primary healthcare)
+
+- MFDIS formation and finance through disinvestment of defence public sector enterprises and monetisation of defence lands
+
+- Threshold for annual allocation of css and third party evaluation 
+
+- Transparent accounting and funding
+
+2. **What are the basic approaches of financial sector reforms in India ?** 
+
+- *Banking sector reforms*
+-recapitalization of banks from government resources to bring them at par appropriate capitalization standards
+and replacing privatization .
+
+- *Debt Market reforms* 
+-move from a strategy of pre-emption of resources from banks at administrated interest rates and through monetization of a SLR
+
+- *Forex market reforms* 
+-increasing trade control designed to foster import substitution
+
+- *Reforms in other segment*
+-establishing prudential regulation, supervision, competition and efficiency enhancing measures, increasing transparency ,market efficiency ,integration of national markets and prevention of unfair trade practices
+3. **Discuss how e-NAM and derivatives market linkages can benefit farmers in India.**
+
+- (e-NAM) initiative could prove a big leap forward if it succeeds in breaking the traders’ nexus.
+- panacea for all anomalies including fragmented markets, restrictions on movement of farm commodities, varying state taxes, etc.
+- Transparent e-NAM, backed by greater standardisation and quality awareness will stimulate PPP for standardised infrastructure, assets, warehousing & logistics, etc.
+- Additionally, farmers can access buyers from across states and can offer prices after a complete review.
+- principle of ‘One Trader One License’ will enable growth of secondary trading among traders, throwing light on the ‘price discovery’ process as it attracts participation.
+- Bulk-buyers will save on costs of intermediation buying through eNAM 
+4. Discuss the role of Monetary Policy Committee (MPC) in India in the context of inflation targeting.
+5. **Write down the main features of foreign trade policy (2015-20) of India.** 
+
+
+- Simplification & Merger of Rewards Scheme like  Merchandise Exports from India Scheme (MEIS) & Service Exports from India Scheme (SEIS)
+
+- Online filing of documents/application, inter-ministerial consultation, Simplification of procedures,  digitization
+- For ease of doing business reforms in EPCG Authorization, Record Maintenance, Exporter Importer Profile, Communication with Exporters/Importers, Online message exchange with CBDT & MCA, Communication with Committees of DGFT, Online application for refunds. 
+Facilitating & Encouraging Export of dual use items (SCOMET) and Defense Exports
+-  Introduction of Duty Free tariff Preference (DFTP) Scheme
+-  Reforms in E-commerce Exports, Quality complaints and Trade Disputes
+-  Additional ports allowed for Export and Import, Vishakhapatnam & Bhimavaram added as Town of Export Excellence
+
+6. Analyse the trends in ‘Fuel and Power’ inflation in India based on WPI. 
+
+200 words
+
+1. “India has a worse underemployment problem than unemployment.” Do you agree ? Give reasons. 
+2. Analyse the performance of commodity futures markets in India. Critically evaluate the working of Forward Markets Commission (FMC) in India. 
+3. Describe the measures taken by the Government of India to tackle the problem of black money. To what extent these measures are successful in addressing the problem ? 
+4. What is competition policy? Why do we need a national competition policy (NCP) ? How does NCP affect economic growth in India ? 
+5. Discuss the opportunities and challenges of India’s insurance sector. How the insurance sector reforms can resolve these challenges ? 
+6. Analyse the effects of tariff protections on domestic industries in India. Evaluate India’s trade openness and tariff policy since the 1991 reforms. 
+7. Explain the rationale for various monetary policy measures undertaken by the RBI during COVID-19 Pandemic in India. 
+8. How is core inflation different from CPI headline inflation ? What is the rationale in measuring core inflation ? Explain. 
+9. What is the Aspirational Districts Programme of the Government of India ? Discuss how it is a manifestation of the inclusive development agenda. 
+
+300 Words 
+
+1. (a). Differentiate between the strategies for self-reliance through protection and self-reliance through globalisation. 
+1. (b). Evaluate Public Expenditure Management Policy as an instrument of fiscal reforms in India. 
+2. What are the basic principles of fiscal management in India ? Discuss the role of FRBM rules (2004) to improve the fiscal health at sub-national level. 
+3. (a). Critically examine whether growing population is the cause of poverty or poverty is the main cause of population growth in India. 
+3. (b).Analyse the trend in consumption inequality in India since the early 1990s. 
+4. Examine the complementarity between technological change and institutional change in enhancing agricultural growth in India. Suggest some measures for adoption of technologies for sustainable farming system in India. 
+5. Discuss the characteristic features of internal migration in India. Explain how urbanisation is linked with migration. What are the major determinants of rural to urban migration in large agglomerations in India ? 
+6. Analyse the complementarity, difference and integration between Foreign Direct Investment (FDI) and Foreign Portfolio Investment (FPI). “FDI is necessary but not sufficient condition for economic growth in India”. Critically examine. 
