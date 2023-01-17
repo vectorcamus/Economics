@@ -9,17 +9,49 @@ output: html_document
 
   
 
-1. Consider a consumer having a utility function $U = 2x+y$ where x and y are two commodities. Suppose that the price ofx and y are both Rs. 5 each and the consumer’s income is Rs. 100. In equilibrium, the consumer will consume the bundle
+# {.tabset} 
 
-    A. (10,10)
+## **Question 1**
 
-    B. (0,20)
+**Consider a consumer having a utility function $U = 2x+y$ where x and y are two commodities. Suppose that the price of x and y are both Rs. 5 each and the consumer’s income is Rs. 100. In equilibrium, the consumer will consume the bundle**
 
-    C. (20,0)
+     A. (10,10)
 
-    D. None of the above
+     B. (0,20)
 
-2. With quantity of x on the horizontal axis, the Engel curve for commodity x corresponding to the utility function $U=y+f(x)$ will be
+     C. (20,0)
+
+     D. None of the above
+
+## Answer
+
+Linear Utility Function $\to$ Lagrange method does not work
+
+$P_xX+P_yY=100$ OR $5X+5Y=100$
+
+Extreme Bundles 
+
+{X,Y}={0,20} and {20,0}
+
+As $U=2X+3Y$
+
+U(0,20)= 2(0)+3(20)=60 Utils
+
+U(20,0)=2(20)+3(0)=40 Utils
+
+
+Hence $U(0,20) < U(20,0)$
+
+Optimal Consumption is (X ,Y)=(0,20)
+
+
+
+
+#  {.tabset} 
+
+## **Question 2**. 
+
+With quantity of x on the horizontal axis, the Engel curve for commodity x corresponding to the utility function $U=y+f(x)$ will be
 
    A. a ray through the origin
 
@@ -28,6 +60,11 @@ output: html_document
    C. a horizontal line
 
    D. a curve with an inflexion point
+
+## Answer 
+
+something 
+
 
 3. Suppose a producer has a fixed coefficient technology $Q= min( 2 K, 3 L)$ , where Q is  output and K and L are the inputs. At equilibrium
 
