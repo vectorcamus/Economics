@@ -25,6 +25,14 @@ output: html_document
 
 ## Answer
 
+**Method 1**
+
+For $U=2X+Y$ ,  $\frac{\frac{\partial u}{\partial x}}{P_x} > \frac{\frac{\partial u}{\partial y}}{P_y}$
+
+So consumer will only consume Good X as Marginal benifit per unit of money spend on good X is more. 
+
+**Method 2**
+
 Linear Utility Function $\to$ Lagrange method does not work
 
 $P_xX+P_yY=100$ OR $5X+5Y=100$
@@ -33,16 +41,16 @@ Extreme Bundles
 
 {X,Y}={0,20} and {20,0}
 
-As $U=2X+3Y$
+As $U=2X+Y$
 
-U(0,20)= 2(0)+3(20)=60 Utils
+U(0,20)= 2(0)+1(20)=20 Utils
 
-U(20,0)=2(20)+3(0)=40 Utils
+U(20,0)=2(20)+1(0)=40 Utils
 
 
-Hence $U(0,20) < U(20,0)$
+Hence $U(0,20) >  U(20,0)$
 
-Optimal Consumption is (X ,Y)=(0,20)
+Optimal Consumption is (X ,Y)=(20,0)
 
 
 
