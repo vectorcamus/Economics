@@ -40,3 +40,7 @@ output: html_document
 [2020](pyqdse2020.html)
 
 [2021](pyqdse2021.html)
+
+# CSE 
+
+[Prelims Economics](cseprelimseconomics.html)
