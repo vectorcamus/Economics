@@ -1,0 +1,64 @@
+---
+title: "PYQ GATE"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+
+39
+
+
+
+$$A=\left(\begin{array}{cc}  a_{11} & a_{12} \\ a_{21} & a_{22} \end{array}\right)= \left(\begin{array}{cc} \frac{500}{1000} & \frac{350}{800} \\\frac{320}{1000} & \frac{360}{800} \end{array}\right)= \left(\begin{array}{cc} \frac{1}{2} & \frac{7}{16} \\ \frac{8}{25} & \frac{9}{20}\end{array}\right)$$
+
+$$D=\left(\begin{array}{cc} 300 \\ 200 \end{array}\right)$$$$X=[I-A]^{-1}D$$
+
+
+$$X=\left(\begin{array}{cc}  x_1 \\x_2 \end{array}\right)$$
+
+$$we \ have \ to \ find \ the \ value \ of \ x_1$$
+
+
+---
+
+$$[I-A]=
+\left(\begin{array}{cc} 
+\frac{1}{2} & \frac{-7}{16} \\
+\frac{-8}{25} & \frac{11}{20}
+\end{array}\right)$$
+$$det[I-A]=\frac{27}{200}
+$$
+$$
+\left(\begin{array}{cc} 
+m_{11} & m_{12} \\
+m_{21} & m_{22}
+\end{array}\right)= \left(\begin{array}{cc} 
+\frac{11}{20} & \frac{8}{25} \\
+\frac{7}{16} & \frac{1}{2}
+\end{array}\right)$$
+$$
+Adj[I-A]=
+\left(\begin{array}{cc} 
+\frac{11}{20} & \frac{7}{16} \\
+\frac{8}{25} & \frac{1}{2}
+\end{array}\right)$$
+$$[I-A]^{-1}=\frac{1}{det [I-A]}=
+\left(\begin{array}{cc} 
+\frac{110}{27} & \frac{350}{108} \\
+\frac{64}{27} & \frac{100}{27}
+\end{array}\right)$$
+---
+
+$$X=[I-A]^{-1}D$$
+$$\left(\begin{array}{cc} 
+x_1 \\
+x_2
+\end{array}\right)=\left(\begin{array}{cc} 
+\frac{110}{27} & \frac{350}{108} \\
+\frac{64}{27} & \frac{100}{27}
+\end{array}\right) 
+\left(\begin{array}{cc} 
+300 \\
+200
+\end{array}\right)$$
+$$x_1=\frac{110}{27}\times 300 +\frac{350}{108} \times 200= 1870 \  approx$$ 

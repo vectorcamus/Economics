@@ -41,6 +41,16 @@ output: html_document
 
 [2021](pyqdse2021.html)
 
-# CSE 
+# CSE {.tabset}
+
+## prelims
 
 [Prelims Economics](cseprelimseconomics.html)
+
+## Mains 
+
+2022 [Paper II](pyqcsemainsoptionaleconomics2014paper2.html)
+
+# GATE
+
+[gate pyq solution](PYQGATE.html)

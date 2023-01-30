@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-01-17" />
+
+<title>PYQ 2014 CSE Mains Optional Paper II</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ 2014 CSE Mains Optional Paper II</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-01-17</h4>
+
+</div>
+
+
+<p><strong>1.Answer the following questions in about 150 words
+each</strong>:</p>
+<div id="section" class="section level1 tabset">
+<h1 class="tabset"></h1>
+<div id="a" class="section level2">
+<h2>1.(a)</h2>
+<p>Land system during British period was responsible for sustained
+poverty in Indian and stagnant growth of Indian economy. Discuss.**</p>
+</div>
+<div id="answer" class="section level2">
+<h2>Answer:</h2>
+<ul>
+<li>British land revenue system raised some problems which led to
+sustained poverty and stagnant growth in the Indian economy.</li>
+</ul>
+<p>Issues associated with British land revenue system</p>
+<p><strong>Disruption of traditional mechanism</strong></p>
+<ul>
+<li>Landlord now had property rights over the lands in his jurisdiction,
+instead of tiller. Tillers became tenants who could be summarily
+dismissed. It pushed many tenants towards severe poverty.</li>
+</ul>
+<p><strong>Growth of ABSENTEE LANDLORDISM</strong></p>
+<ul>
+<li>Rent payment in money format led to growth of moneylenders.
+Moneylenders used to charge high interest rate. It reduced surplus for
+farmers and led to lower investments in agriculture.</li>
+</ul>
+<p><strong>Prevented growth of capitalist farming in India</strong></p>
+<ul>
+<li>It led to decline in productivity . According to Blyn growth rate
+was just 0.72%. Thus India has to resort to food import.</li>
+</ul>
+<p><strong>Reasons</strong></p>
+<ul>
+<li>Small size of landholdings because large landowners leased out their
+holdings to many small farmers;</li>
+<li>Zamindar didn’t invest because his land could be confiscated on non
+payment of rent</li>
+<li>Tenant didn’t invest because of frequent transfer of land and all
+benefits accruing to the land owner</li>
+<li>Given high rents, many farmers moved from growing food crops to cash
+crops like cotton and sugarcane, leading to famines. Thus it can be said
+that land system during British period was responsible for sustained
+poverty in Indian and stagnant growth of Indian economy.</li>
+</ul>
+</div>
+<div id="reference" class="section level2">
+<h2>Reference</h2>
+<p>something</p>
+</div>
+<div id="b" class="section level2">
+<h2>1.b</h2>
+<p><strong>Write about the policy of discriminating protection during
+the British rule and its impact on industrial development in
+India.</strong></p>
+<p>Answer:</p>
+<p>Until the First World War, the government followed a policy of
+LAISSEZ FAIRE in the promotion of industry. However to strengthen
+finances and pacify Indian nationalist, after world war 1 government
+adapted policy of discriminating protection. It raised some of the
+tariff on imports.</p>
+<p>Economic Consequence of discrimination protection</p>
+<p>Some Increase in tariff take place, hence it Protected the Indian
+industries. This led to diversification of industrial base and new
+factories came up in sugar, iron and steel, matches, paper.
+Manufacturing grew @ 5.6% between 1920 and 1938 Industries like Tata and
+Birla expanded for example eg Tata entered into Aviation sector. However
+protection was only to the industries which had Natural Advantage. These
+were mostly those goods that did not create Competition with Britain .
+But, their competition was more with other countries especially Japan.
+Hence gains were limited that to to few industries. As a result of this
+discriminations export share of Britain rose to 35%.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Why socialist model of development could not bring about equitable
+distribution of income in India and the country remained on a slow
+growth trajectory of 3 to 3.5 percent for a long time? Discuss.</li>
+</ol>
+<p>Answer:</p>
+<p>Looking at socio economic condition prevailing at that time, India
+adapted socialist order. However it could not bring about equitable
+distribution of income and faster growth of the economy.</p>
+<p>Reasons of failure of socialist model</p>
+<p>In planning system focus was on capital industries rather than
+agriculture and consumer industries. High gestation period of capital
+industries deprived common Indians. Thus benefits of growth did not
+reach to marginal sections.</p>
+<p>System of import controls which was designed to conserve scarce
+foreign exchange, actually served only to provide open-ended protection
+for domestic producers against foreign competition. It led to a high
+cost and low quality domestic production structure. Thus it slowed
+growth of the manufacturing.</p>
+<p>Protections to SSI and excessive regulation of large scale industries
+prevented growth of manufacturing. Thus employment creation was very
+low. In addition to that there were many regulations like MRTP,
+Licensing, FERA, etc. Thus all paved way for crony socialism. Benefits
+of growth was cornered by few people. It led to unequitable
+distribution.</p>
+<p>Looking at that situation of socialist model, India decided to open
+up and go for market economy.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>Specify the main factors which hindered trickle-down in Indian
+economy and agenda of ‘inclusive growth’ is being pressed into for
+economic justice.</li>
+</ol>
+<p>Answer:</p>
+<p>The trickle-down theory, argues that growth would lead to more jobs,
+more output, more income and less poverty as the growth and higher
+incomes at the top end will move at the lower end and to the poor.</p>
+<p>Factors which hindered trickle down in Indian economy</p>
+<p>Indian economic development in earlier year has given less importance
+to the agriculture and consumer goods and gave more importance to
+capital good manufacturing. Capital good manufacturing are labor
+intensive and high gestation period thus it does not benefitted
+poor.</p>
+<p>After 1980 service sector grow faster than agriculture and
+manufacturing. Service sector is less employment elastic than the
+manufacturing or agricultural sector. Thus it led to jobless growth.
+Jobless growth is major reason for slow trickle down.</p>
+<p>India before 1991 saw crony socialism and later after reforms it was
+converted to crony capitalism. It benefitted rich and excluded poor. At
+the same time there was little public investment on education and
+health. It limited capability development of poor. This factors together
+lead to slow and incomplete trickle down in the Indian economy.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>What are the consequences of deviation from socialistic pattern of
+society and mixed economy particularly for the persons below the poverty
+line? Explain.</li>
+</ol>
+<p>Answer:</p>
+<p>In 1991 India shifted from socialistic pattern of society to the
+liberalisation. Lets analyse its consequences for the person below
+BPL.</p>
+<p>World Bank study by Gaurav Datt suggest that poverty declined by 1.36
+percentage points per annum after 1991, compared to that of 0.44
+percentage points per annum prior to 1991. Telndulkar committee report
+also suggest that poverty rate declined from 45% in 1991 to 22% in 2011.
+This indicates reforms were successful in reducing poverty. It raised
+the standard of life for BPL families.</p>
+<p>But Himanshu’s study suggest that it was PDS and MGNREGA which
+reduced poverty and not the reforms. It can be seen that India after
+reforms is seeing jobless growth. It is impacting BPL families most.
+Inequalities have also increased thus relative standard of living is
+worsen for poor. Privatization of school and hospitals and low public
+spending on education and hospitals are impacting poor.</p>
+<p>After 1991 reforms absolute poverty decreased. But it marginally
+improved standard of living of poor. There is need to focus on inclusive
+growth so that poor also get equal benefit of growth.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Answer the following questions:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Elaborate growth-mediated security and support-led security
+strategies of poverty alleviation given by Jean Dreze and Amartya
+Sen.</li>
+</ol>
+<p>Answer:</p>
+<p>Amartya Sen and Jean Dereze have brought out two approaches to reduce
+poverty – growth mediated security and support-led security. Poverty
+reduction and income expansion achieved through high economic growth is
+called ‘growth mediated security’.</p>
+<p>Support led security is achievement of growth and poverty reduction
+through wide ranging public support is given in areas such as
+’employment provision, income redistribution, health care, education and
+social assistance in order to improve distribution without waiting for a
+transformation in the level of general affluence.</p>
+<p>Sen advocates approach of building capability through investment in
+education and health. He suggest that growth of India is not reflected
+in significant reduction in poverty, employment generation and human
+capital development. Thus there is now need to make growth inclusive.
+State should investment in education and health right away without
+waiting for being rich and then redistribution.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Do you think Gandhian vision of development is still relevant in
+India? Explain with reasons.</li>
+</ol>
+<p>Answer:</p>
+<p>Gandhian vision of development was based on decentralization
+development by empowering local self governments at grass root level.
+Socialism is another basic philosophical entity of Gandhianism. Although
+Gandhian view of socialism is not radical in its approach but it aspires
+for a classless society with no poverty, no hunger, no unemployment and
+education and health for all.</p>
+<p>Gandhi aims at what we may call sustainable development. Thus his
+ideas are still relevant in today’s India. His emphasis on
+decentralization development is still relevant. Its success can be seen
+in the form of MGNREGA and community led development. His vision to make
+cottage industries as engine of growth can be way towards Atmanirbhar
+Bharat.</p>
+<p>His views on school are very relevant in todays world. Nayi Talim
+school system gives practical education to children. Its modified
+version can help to fulfill dream of skill India.</p>
+<p>Development should be targeted to eradicate poverty, hunger,
+unemployment. It should provide health and education to all. These are
+exactly objectives of many government schemes.</p>
+<p>His ideas may not be adapted as it is. His opposition to
+mechanization can be counter productive in today’s world. But basic
+philosophy of Gandhian development can still be guiding light for
+India’s development process.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Why are land reforms still not complete in India? What are the
+obstacles in its way? Elaborate.</li>
+</ol>
+<p>Answer:</p>
+<p>Land reforms has important components like Zamindari abolition,
+tenancy regulation, land ceiling and land consolidation. However it has
+limited success. According to P S Appu, by 1992, ownership right
+conferred to only 4% of cultivated area. According to Haque, on the
+national scale only 1/3rd of the consolidatable area has been
+consolidated.</p>
+<p>Reasons for failure of land reforms</p>
+<p>Zamindar used loopholes in clause of personal cultivation. voluntary
+surrender clause was used as a guise. It lead to forceful eviction. To
+evade land ceiling clause, zamindar made benami transfers or transferred
+land in the names of other members of a households. Property right was
+recognized as fundamental right. It led to several disputes in courts.
+Many states did not passed law on time. UP took four and half year to
+pass law. Strong tenancy regulation led to informalization of tenancy.
+Tenants were renamed as farm servants or sharecroppers. In many states
+land ceiling limit was very high. Indian’s have emotional attachment
+with land. Thus it created problems for land consolidation. PS Appu
+blamed apathy of bureaucracy and politicians for unsuccessful land
+reforms. Thus except abolition of Zamindari all other reforms more or
+less incomplete.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: decimal">
+<li>Answer the following questions:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Why Green Revolution lost its steam and India needs yet another
+Green Revolution or Evergreen Revolution? Discuss.</li>
+</ol>
+<p>Answer:</p>
+<p>In 1965 government of India introduced green revolution program. It
+was characterized by use High yield verities, chemical fertilizers,
+machineries, farmer education, government procurement, minimum support
+price, etc.</p>
+<p>Between 1967-1970 food production rose by 35%. Food grain production
+increased from 75mt to 105mt in 1971. Agriculture growth increased from
+0.8% to 3%. India became self sufficient in food production. Our current
+food grain production is 250mt. It was helpful in commercialization of
+agriculture.</p>
+<p>However Green revolution assistance was cereal centric. Thus its
+success was limited to cereals. Pulses production dropped from 61mg per
+capita to 42 mg per capita now. It is seen that it was limited to
+Punjab, Haryana and western UP. Eastern and north eastern sector was
+ignored.</p>
+<p>Increased mechanization reduced employment elasticity of the
+agriculture. It increased rural distress. It is also seen that increased
+fertilizer use deteriorated environment and soil quality. Productivity
+might further decrease due to global warming and climate change.</p>
+<p>The technologies used in green revolution are showing decreasing
+return to scale. In the recent time agricultural growth has been
+stagnated. It showed that impact of green revolution was limited and
+there is need of sustainable evergreen revolution.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Highlight the structural changes in Indian economy before 1991.</li>
+</ol>
+<p>Answer:</p>
+<p>Structural changes in economy before 1991 can be analyzed in three
+phases. First phase between 1951 to 1965. Second phase between 1965 to
+1980 and last phase between 1980 and 1990</p>
+<p>1951 – 1965</p>
+<p>After independence India adapted strategy of planned economy. During
+this period focus was on setting up capital industries. PSU were given
+role of commanding heights. In this period agricultural share goes down
+and capital industries share increased in GDP.</p>
+<p>1965-1980</p>
+<p>This phase in known for inward orientation and industrial stagnation.
+During this period India realized importance of agriculture. Policy of
+green revolution was launched during this period. It made India self
+sufficient.</p>
+<p>However policies like MRTP, FERA, reservation for small scale
+industries, etc created inefficiencies. It stagnated industrial growth.
+This led to stagnation in GDP growth rate at 3.5%.</p>
+<p>1980-1990</p>
+<p>During this period growth started exceeding 5% mark. According to
+Subramaniam pro business attitude change and reforms like MRTP
+relaxation, decrease in tax law helped economy to grow. Panagaria called
+it most significant structural change.</p>
+<p>India’s growth rate in pre reform period was low compared to its
+potential. Low growth can be contributed to excessive regulation, anti
+business environment and licence raj.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Examine the Labour Policy of India and its impact on employment
+(labour) market in Indian economy.</li>
+</ol>
+<p>Answer:</p>
+<p>Note : Answer to this question is not provided as it was old debate.
+Now after Atmanirbhar Bharat its going to change.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="4" style="list-style-type: decimal">
+<li>Answer the following questions:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>National Rural Employment Guarantee Scheme should be reoriented to
+create productive permanent assets to promote employment and generate
+income in the rural sector. Critically evaluate.</li>
+</ol>
+<p>Answer:</p>
+<p>In 2005 MGNREGA was started. Its aim was to provided 100 days
+guaranteed employment to unskilled population. The scheme has potential
+to change fate of rural area.</p>
+<p>MGNREGA is aimed at unskilled population. There is need of skilling
+of MNREGA workers through Deen Dayal Upaadhyaya Grameen Kaushal Yojana
+for vertical mobility of labour towards skilled work. This will help
+realizing the dream of Skill India. It will increase productivity and
+thus will create better opportunities for workers.</p>
+<p>The scheme should be converged with other schemes of agriculture,
+irrigation, road transport and animal husbandry, water management etc.
+There is need of sharing of costs for each component – wage and material
+by center and state so that there is no bias towards high labor cost
+projects.</p>
+<p>Permitting contractors within the overall ceiling of material
+component to include skilled and semi-skilled workers would lead to
+speedy and effective implementation of the projects and improve the
+quality of assets created. It would improve the employment availability
+as well as income generations.</p>
+<p>Thus there is need to reorient MGNREGA. MGNREGA 2.0 should aim at
+creating productive permanent assets, to promote employment and generate
+income in the rural sector.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>What are the factors responsible for large number of farmers
+suicides in relatively richer Indian States? Examine.</li>
+</ol>
+<p>Answer:</p>
+<p>Relatively richer states like Maharashtra and Karnataka are seeing
+increasing number of farmer suicides. There are various socio economic
+reasons.</p>
+<p>Factors Responsible for large number of farmers suicide</p>
+<p>Economic Factors</p>
+<p>Day by day cost of farming has increase. There is surge in input
+cost, fertilizers cost, labor cost. But at the same time agriculture
+marker is highly volatile. It led to frequent losses for the farmers. It
+creates distress for farmers.</p>
+<p>Due to volatility in prices there is less surplus remain to repay the
+loan and run the livelihood. Thus there are cases of loan defaults for
+farmers.</p>
+<p>Environmental Factors</p>
+<p>Farming activity is highly dependent on environmental factors.
+Drought or heavy rainfall may damage crop. In the Maharashtra region
+suicide is prevalent in Vidarbha. It is rainfed region. A drought season
+destroys crop which leads to farmer distress.</p>
+<p>Social Factors</p>
+<p>Social evils like dowry, alcoholism is pushing farmers towards debt
+trap. It led to suicide for farmers.</p>
+<p>We need to tackle socio, economic and environmental problems at the
+same time to deal with problems of suicide.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>In Indian economy, dichotomy of development emerged during the
+pre-reform period despite efforts of holistic development. Delineate the
+factors responsible for it.</li>
+</ol>
+<p>Answer:</p>
+<p>1980s is often cited as that breaking point when India made a
+transition from an economic laggard to one of the fastest growing
+nations of the world. Any increase in our GDP and per capita income is
+supposed to imply an increase in our living standards. However growth
+has not equated to human development and thus increased living
+standards.</p>
+<p>Even though the growth rate of our per capita income rose from 1.7%
+in 1950-1980 period to an average of 4% thereafter, the core human
+development parameters continued to be dismal . This is reflected by the
+fact that India’s relative rank in human development among 177 countries
+has risen by only two positions from 128 in 1999 to 126 in 2004.
+Education, health and security continued to be ignored which led to poor
+development.</p>
+<p>Amartya Sen emphasized, while the case of economic reforms of 1980s
+and 1991 correctly diagnosed too much governance in some sectors of the
+economy, it ignored the fact that India had too less governance in other
+fields like education, healthcare, social security, and land reforms.
+This led to dichotomy of growth and development.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Answer the following questions in about 150 words each:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Highlight the issues of Bhagwati-Sen controversy over tackling
+poverty and slow growth rate.</li>
+</ol>
+<p>Answer:</p>
+<p>There is debate going on between Sen and Bhagwati over issues of
+growth and distribution.</p>
+<p>Bhagwati’s Approach</p>
+<p>Bhagwati focuses more on growth than distribution. He thinks more
+liberalization, privatization and foreign trade will promote growth. He
+points out that economic growth will lead to reduction in poverty.
+According to him economic growth will increase employment opportunities
+and thus reduces poverty. Economic growth increased revenue for the
+government thus government can now spend more on health, education and
+social welfare schemes. He suggested that in the country where the poor
+exceeds rich by large margin, redistribution will increase welfare of
+poor marginally.</p>
+<p>However empirical evidence confirms that growth not necessarily
+generates adequate employment &amp; thus it will be difficult to tackle
+poverty. India is seeing similar jobless growth.</p>
+<p>Sen’s Approach</p>
+<p>Sen advocates approach of building capability through investment in
+education and health. Unlike Bhagwati he does not consider, growth first
+and then redistribution. He suggest that growth of India is not
+reflected in significant reduction in poverty, employment generation and
+human capital development. Thus there is now need to make growth
+inclusive. State should investment in education and health right away
+without waiting for being rich and then redistribution. He was not
+against liberalization but he gave priority to investment in education
+and health. However Sen’s view underplays importance of infrastructure
+and physical capital.</p>
+<p>What required is balanced between strategy of Sen and Bhagwati. There
+is need to have equal emphasis on human capital development and rapid
+growth with capital accumulation.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>While Indian economic growth in recent years is services-led growth
+and Chinese model is manufacturing-led growth, show the implications of
+the two models for long-term sustainable development.</li>
+</ol>
+<p>Answer:</p>
+<p>India’s policy of liberalization was aimed at increasing industrial
+growth. However manufacturing share in GDP remain stagnated at 16% while
+service sector share increased to 60% from 40%. On other hand China’s
+share of manufacturing in GDP was highest. .</p>
+<p>Service sector is less labor intensive, thus with growth India is not
+seeing growth in the employment. This jobless growth is creating
+problems of inequalities and unequal distribution. It also weakens fight
+against poverty. On other hand China’s manufacturing is labor intensive
+and was able to generate enough jobs.</p>
+<p>From the trade perspective, there is reluctance from world towards
+opening trade in service sector. Thus India is not able to exploit its
+trade potentials. Also over dependence on import for manufacturing goods
+can be problematic for economic sovereignty.</p>
+<p>Thus service led growth with stagnant manufacturing may not good for
+long term sustainability. India has to work towards increasing its
+manufacturing growth.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Employment pattern in India in post-reform period has moved in
+favour of contractual, casual and self-employment. How public sector
+employment deceleration would impact the future of labour (employment)
+market in India? Elaborate.</li>
+</ol>
+<p>Answer:</p>
+<p>Since 1991 to 2010, informal sector employment increased from 91% to
+93 %. It is increasing casualization. Even in formal sector there is
+preference given for contractual workers. It might be because of complex
+and rigid labor system of India.</p>
+<p>Impact of casualization on future labor market</p>
+<p>In contractual employment, there is less incentive in investing in
+labour’s training. There is evidence that hiring contract workers today
+hurts a firm’s productivity tomorrow, precisely because contract workers
+do not accumulate “firm specific human capital”. It would impact long
+run growth trajectory. There is increased contractualisation of
+government jobs. It might create difficulties for person to switch from
+government sector to private sector. Worker right protection is absent.
+Thus it might lead to exploitation of labor. In the economic shock
+unemployment rate might increase leading to further depression. It might
+increase unwillingness to participate in labor force. It will encourage
+rent seeking over investing in productive activity. The changing trend
+of casualization might not be good for long term. There is need to focus
+on creating social safety net and long term sustainable quality
+employment.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="4" style="list-style-type: lower-alpha">
+<li>Skill development and thereby raising productivity like that in
+China would be the only panacea for long-term growth in Indian economy.
+Discuss.</li>
+</ol>
+<p>Answer:</p>
+<p>Endogenous growth model suggest that for long run sustainable
+economic growth there is need to focus on human capital development.
+Without it growth process could be converging and stagnant. India is
+currently facing skill gap.</p>
+<p>India skill report suggests that only 48% of graduated students are
+employable. Unskilled population hindrance development of manufacturing
+industry. With the advent of fourth industrial revolution it might
+aggravate problems of of unemployment and poverty.</p>
+<p>Skill development is an important driver to address poverty reduction
+by improving employability, productivity and helping sustainable
+enterprise development and inclusive growth. It facilitates a cycle of
+high productivity, increased employment opportunities, income growth and
+development.</p>
+<p>The increase in productivity could be due to availability of skilled
+&amp; healthy manpower; technological up gradation and innovative
+practices. Thus India has to focus on these factors to ensure long term
+sustainable growth.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="5" style="list-style-type: lower-alpha">
+<li>Second generation economic reforms are crucial for raising the
+growth rate of economy. Throw light on these dimensions.</li>
+</ol>
+<p>Answer:</p>
+<p>Second generation of economic reforms in the country gave special
+stress on fiscal reforms, financial reforms, structural reforms, labour
+law reforms etc.</p>
+<p>Fiscal reforms has to undertaken for broadening the income tax base
+and introducing GST. There is also need to streamline tax structure so
+that it become conducive to growth.</p>
+<p>It is seen that complex and rigid labor laws are major hinderance in
+the development of manufacturing sector. Its streamlining will ensure
+the growth of manufacturing sector.</p>
+<p>India has to work on improving Ease of Doing Business. It will help
+to attract foreign capital in India. Currently red tapism is hindering
+growth process. Single window system and digital system can reduce the
+delay.</p>
+<p>Agriculture growth has been stagnated from long time. There is need
+to focus on agricultural reforms. Liberalisation of agriculture market
+and investment in the capital infrastructure will increase the growth
+rate of agriculture.</p>
+<p>Thus second generation will remove bottlenecks in the development of
+Indian economy. It will help us to achieve double digit growth rate.</p>
+<p>Note : Most of the reforms are implemented. Another interest thing is
+second generation reform term was coined by IMF. But even IMF has not
+defined it. So basically you can write any reforms.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="6" style="list-style-type: decimal">
+<li>Answer the following questions:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>What are the salient features of FRBM Act? Examine the criticisms
+labelled against it.</li>
+</ol>
+<p>Answer:</p>
+<p>To limit the fiscal deficit FRBM act was introduced.</p>
+<p>Salient features of FRBM Act</p>
+<p>It aims at reducing fiscal deficit to 6% (3% of the central
+government and 3% of the state government). Revenue deficit should be
+eliminated. Government in required to submit four documents in
+parliament Medium Term Fiscal Policy Statement, Fiscal Policy Strategy
+Statement, Macroeconomic Framework Statement and Medium Term Expenditure
+Framework Statement On grounds of national security, calamity, etc, the
+set targets of fiscal deficits and revenue could be exceeded. Criticism
+of FRBM act</p>
+<p>It is criticized that 3% target of FRBM is arbitrarily set. Some also
+criticize that it puts excessive limit on government expenditure.
+However it is actually ensuring expenditure switching from revenue
+expenditure to capital expenditure.</p>
+<p>Another issue with FRBM act is that the limit on fiscal deficit is
+frequently breached and act is frequently amended. Thus NK Singh
+committee suggested using debt as the primary target for fiscal policy
+and that the target must be achieved by 2023.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Discuss the issues involved in Capital Account Convertibility. In
+the light of this, explain India’s important Capital Account
+Liberalization measures.</li>
+</ol>
+<p>Answer:</p>
+<p>Capital account convertibility refers to, freedom to convert local
+financial assets into foreign financial assets and vice versa at market
+determined rates of exchange There are continuous demands for full
+capital account convertibility. However it has some issues involved.</p>
+<p>In the good economic situation full capital account convertibility
+might lead to excessive capital inflow appreciates currency. It affects
+our export competitiveness. Due to economic shock there could be large
+foreign out flow. It creates deficit in capital account which affects
+BoP. In 1997 similar situation was seen in ASEAN countries which
+destabilized their economies.</p>
+<p>Thus India has not introduced full capital account convertibility.
+But it has introduced some measures for capital account
+liberalization.</p>
+<p>Measures for Capital Account Liberalization</p>
+<p>In many sectors automatic FDI is allowed Indian corporate is allowed
+full convertibility in the automatic route up to $ 500 million overseas
+ventures (investment by Ltd. companies in foreign countries allowed).
+Indian corporate is allowed to prepay their external commercial
+borrowings (ECBs) via automatic route if the loan is above $ 500
+million. Individuals are allowed to invest in foreign assets, shares,
+etc., up to the level of $ 2,50,000 per annum. Unlimited amount of gold
+is allowed to be imported. Gradually by fulfilling Tarapore Committee
+recommendations India should move towards full capital account
+convertibility.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>How global financial crisis and sovereign debt crisis of European
+nations exposed the disturbing role of speculative motive and fiscal
+imprudence? What lesson could India derive from it?</li>
+</ol>
+<p>Answer:</p>
+<p>The global financial crisis (GFC) refers to the period of extreme
+stress in global financial markets and banking systems between mid 2007
+and early 2009. The European sovereign debt crisis was a period when
+several European countries experienced the collapse of financial
+institutions, high government debt, and rapidly rising bond yield
+spreads in government securities.</p>
+<p>Theses crisis have some lessons for India. First lesson is that
+financial sector issues should not be overlooked. Any excessive credit
+expansion in financial market should be regulated on time. Any
+speculation should be controlled before it becoming bubble.</p>
+<p>Second lesson is that overleveraged state can be problematic. State
+should follow the fiscal imprudence. Excessive fiscal deficit and
+government deficit can damage macro economic framework of the country.
+It can also lead to sovereign debt default. In the medium term it can
+harm countries growth potential and credibility.</p>
+<p>Third lesson is that in the globally linked world crisis anywhere is
+threat to economic development everywhere. Thus India should be vigilant
+on development of global crisis. In any such crisis government should be
+ready to deal it with fiscal, monetary, regulatory and policy tools.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="7" style="list-style-type: decimal">
+<li>Answer the following questions:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>‘Elitist bias’ and ‘crony capitalism’ have eclipsed the issues of
+efficiency and distributive justice in India. Elaborate.</li>
+</ol>
+<p>Answer:</p>
+<p>Crony capitalism is an economic system in which businesses thrive not
+as a result of risk, but rather as a return on money amassed through a
+nexus between a business class and the political class. It creates
+oligarchies and slows down growth.</p>
+<p>According to Raghuram Rajan one of the greatest dangers to the growth
+of developing countries is the middle income trap, where crony
+capitalism creates oligarchies that slow down growth.</p>
+<p>In India crony capitalism is helping few elite individuals to corner
+most of the generated wealth. It is impacting distributive issues in
+India. Economic Survey 2020 suggest that crony capitalism has impacted
+efficiency in India. Crony capitalism creates environment of
+protectionism and monopoly. It impacts both consumer and total
+welfare.</p>
+<p>In India even after the reforms agriculture sector was largely
+ignored. It is employer of 50% workforce of India. The policy making
+largely focused on manufacturing and service sector. This elite biased
+impacted efficiency in the agriculture.</p>
+<p>Thus it can be said that ‘elitist bias’ and ‘crony capitalism’ have
+eclipsed the issues of efficiency and distributive justice in India.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Vitalization of rural economy is key to ‘inclusive growth’ which is
+possible through ‘strategic management’ and technological up gradation.
+Explain.</li>
+</ol>
+<p>Answer:</p>
+<p>India’s 65% population lives in rural area. India’s 50% workforce is
+dependent on agriculture. Agriculture is dominantly rural occupation
+thus vitalization of rural economy is key to inclusive growth.</p>
+<p>Vitalisation of rural economy</p>
+<p>Strategic Management</p>
+<p>Strategic management involves setting objectives, analyzing the
+competitive environment, evaluating strategies, and ensuring that
+government rolls out the strategies. Agriculture is strength of rural
+area. Government can set objectives of all round development around
+agriculture. It can focus on creating completive environment for the
+growth of agriculture and allied industries, government can focus on
+development of rural infrastructure.</p>
+<p>Technological up gradation</p>
+<p>Access to internet in rural area will help in improvement of
+education. It also opens jobs opportunities in digital sector.
+Technological upgradation in agriculture sector improves productivity.
+Technology of food processing, storage, food transports adds value to
+the agricultural production. Rural area is dominated by MSMEs.
+Technological upgradation in MSMEs improves their profitability and thus
+employment opportunities. Technological upgradation of infrastructure
+reduces logistic cost. It will help to attract investment in rural
+area.</p>
+<p>Thus vitalization of rural economy is key to ‘inclusive growth’ which
+is possible through ‘strategic management’ and technological up
+gradation.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>How could e-governance tackle the issues of corruption and
+inefficiency in the government sector to lead to higher growth rate in
+the economy? Discuss.</li>
+</ol>
+<p>Answer:</p>
+<p>Under the digital India scheme government is pushing for e governance
+initiatives. It has ability yo tackle issues of corruption and
+inefficiencies.</p>
+<p>The red tapism and corruption are hampering India’s growth rate. E
+governance can improve this. Single window system, form simplification
+and field reduction, online applications and tracking, etc can
+significantly reduce red tapism and corruption.</p>
+<p>Tax system of India is reformed through faceless assessment. It
+reduces contact between officials and tax payers. Thus it reduces cases
+of corruption. Similarly now tax filing can be done online thus has
+become very simple process.</p>
+<p>MyGov aims to establish a link between Government and Citizens
+towards meeting the goal of good governance. It encourages citizens as
+well as people abroad to participate in various activities i.e. ‘Do’,
+‘Discuss’, ‘Poll’, ‘Talk’, ‘Blog’, etc. People participation increases
+accountability and reduces corruptions.</p>
+<p>E governance can increases transparency and accountability of the
+system. Online process fastens the file movement. Thus it can be said
+that e governance, is a significant instrument of tackling the issues of
+corruption and inefficiency in the government sector.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="8" style="list-style-type: decimal">
+<li>Answer the following questions:</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>Subsidy is a contentious issue and roadblock in the WTO. Examine
+India’s stand for protecting its farmer’s interests.</li>
+</ol>
+<p>Answer:</p>
+<p>Subsidies are contentious issue and roadblock in the WTO. Developed
+and developing world are divided over the issues of subsidies.</p>
+<p>In the WTO developed countries are allowed to maintain trade
+distorting subsidies or ‘Amber box’ subsidies (AMS) to level of 5% of
+total value of agricultural output and for developing countries this
+figure was 10% of agricultural output. This domestic price support is
+calculated as the difference between the fixed external reference price
+prevailing between 1986-88.</p>
+<p>According to developing countries including India the reference
+period of 1986-88 is outdated . Thee base year in general had an
+exceptionally lower prices also it fails to count in the high inflation
+in developing countries. Developing countries argue that they need to be
+given flexibility to stock enough grains for the food security of
+millions of their poor.</p>
+<p>Another contention is over domestic price support provided by
+developed country. Developed country have already used Amber box
+subsidies which are now restricted for the less developed countries.</p>
+<p>Developed countries are heavily subsidizing their agriculture by
+export subsidies, food aid program, credit guarantee scheme, etc.
+Farmer’s of the developed countries are also relatively rich. But now
+this WTO restrictions on agricultural subsidies are impacting food
+security and farmer welfare in developing countries.</p>
+<p>India has taken firm stand that will not accept any limits on
+subsidies on farm inputs such as seeds and fertilizers. India is
+committed to protect food security and welfare of the farmers.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Write on the Look East Policy of India.</li>
+</ol>
+<p>Answer:</p>
+<p>Look East Policy of India was launched in 1991 by the Government of
+India led by the former Prime Minister Narasimha Rao. The objective was
+to develop political, economic and security co-operation with countries
+in Southeast Asia.</p>
+<p>The results of India’s ‘Look East’ policy are also amply demonstrated
+in our growing economic interaction with the region. India’s trade with
+Asean has risen from US $2.4 billion in 1990, to US $23 billion in 2005.
+Our trade with the countries of the East Asia Summit has, similarly,
+risen from US $8 billion in 1990, to US $67.6 billion in 2005. This
+accounts for nearly 30% of our external trade. At the same time, the
+period has also seen an increase in FDI flows, both from India to the
+region and region to India.</p>
+<p>In the present phase of our ‘Look East’ policy, we in India seek to
+deepen our economic integration by entering into Free Trade or
+Comprehensive Economic Partnership Agreements, both with Asean as a
+whole and with individual countries of the region. Such agreements are
+already under different stages of discussion or implementation with
+Singapore, Thailand, Malaysia and Indonesia.</p>
+<p>In the recent time India wanted to increase ties with ASEAN. Thus
+Look East Policy has been replaced by the Act East Policy.</p>
+<p>©opyright : abhishekdudhal.wordpress.com</p>
+<p>———————————————————————————————————————————————————</p>
+<ol start="3" style="list-style-type: lower-alpha">
+<li>Write for and against FDI in retail trade of India.</li>
+</ol>
+<p>Answer:</p>
+<p>In India FDI in retail sector is not allowed. There are both support
+and opponents of allowing FDI in retail sector.</p>
+<p>Why to allow FDI in retail trade?</p>
+<p>FDI in retail trade will boost growth in the economy. Due to its
+economies of scale it generates many jobs from office assistant,
+delivery boy to high level management jobs. Due to less intermediaries
+it will benefit farmers. Due to its economies of scale, prices will be
+reduced. It will benefit to consumers. Also FDI in retail trade will
+boost infrastructure, storage facilities, new technology development.
+Thus FDI in retail sector can play conducive role in economic
+development.</p>
+<p>Why not to allow FDI in retail trade?</p>
+<p>Retail sector is employer of many small shopkeepers and households.
+Their volume is very low. On contrary FDI will have big pockets. They
+can buy goods at bulk quantity at low prices and thus can give heavy
+discount. It will disrupt economy of small shop keepers. Once the small
+shopkeepers economy weakens, large FDI players can establish monopoly.
+It will hurt consumer welfare in long run. Thus we need precautions to
+allow FDI in retail sectors.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
