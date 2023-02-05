@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="dhananjaya" />
+
+<meta name="date" content="2023-02-06" />
+
+<title>PYQ IES 2022 GE I</title>
+
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="PYQ.html">PYQ</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">PYQ IES 2022 GE I</h1>
+<h4 class="author">dhananjaya</h4>
+<h4 class="date">2023-02-06</h4>
+
+</div>
+
+
+<p><strong>13.A.</strong> Show That MC cuts ATC at it’s lowest
+point.</p>
+<p><span class="math inline">\(C(q)=F+VC(q)\)</span></p>
+<p><span class="math inline">\(AC=\frac{C(q)}{q}\)</span></p>
+<p>when ac is minimum</p>
+<p><span
+class="math inline">\(\frac{dAC}{dq}=\frac{\frac{dC}{dq}q-c}{q^2}=0\)</span></p>
+<p><span
+class="math inline">\(\frac{dAC}{dq}=\frac{MCq-c}{q^2}=0\)</span></p>
+<p><span
+class="math inline">\(\frac{dAC}{dq}=\frac{MCq}{q^2}-\frac{c}{q^2}=0\)</span></p>
+<p><span
+class="math inline">\(\frac{dAC}{dq}=\frac{MC}{q}-\frac{c}{q^2}=0\)</span></p>
+<p><span
+class="math inline">\(\frac{dAC}{dq}=\frac{1}{q}(MC-AC)=0\)</span></p>
+<p>so AC is minimum when mc=ac</p>
+<p><strong>1.G</strong> The principle underlying least squares
+regression is that the sum of the squares of the errors is minimized. We
+can use calculus to find equations for the
+parameters \beta_0 and \beta_1 that minimize the sum of the squared
+errors.</p>
+<p>Let $S = \displaystyle\sum\limits_{i=1}^n \left(e_i \right)^2= \sum
+\left(y_i - \hat{y_i} \right)^2= \sum \left(y_i - \beta_0 -
+\beta_1x_i\right)^2$</p>
+<p>We want to find \beta_0 and \beta_1 that minimize the sum, S. We
+start by taking the partial derivative of S with respect to \beta_0 and
+setting it to zero.</p>
+<p>$\frac{\partial{S}}{\partial{\beta_0}} = \sum 2\left(y_i - \beta_0 -
+\beta_1x_i\right)^1 (-1) = 0$</p>
+<p>notice that this says,</p>
+<p>$\begin{align}\sum \left(y_i - \beta_0 - \beta_1x_i\right) &amp;= 0
+\\ \sum \left(y_i - \hat{y_i} \right) &amp;= 0 \qquad (eqn.
+1)\end{align}$</p>
+<p>Hence, **the sum of the residuals is zero** (as expected).
+Rearranging and solving for \beta_0 we arrive at,</p>
+<p>$\sum \beta_0 = \sum y_i -\beta_1 \sum x_i$</p>
+<p>$n\beta_0 = \sum y_i -\beta_1 \sum x_i$</p>
+<p>$\beta_0 = \frac{1}{n}\sum y_i -\beta_1 \frac{1}{n}\sum x_i$</p>
+<p>now taking the partial of S with respect to$ \beta_1$ and setting it
+to zero we have,</p>
+<p>$\frac{\partial{S}}{\partial{\beta_1}} = \sum 2\left(y_i - \beta_0 -
+\beta_1x_i\right)^1 (-x_i) = 0$</p>
+<p>and dividing through by -2 and rearranging we have,</p>
+<p>$\sum x_i \left(y_i - \beta_0 - \beta_1x_i\right) = 0$</p>
+<p>$\sum x_i \left(y_i - \hat{y_i} \right) = 0$</p>
+<p>but, again we know that $\hat{y_i} = \beta_0 + \beta_1x_i. Thus, x_i
+= \frac{1}{\beta_1}\left( \hat{y_i} - \beta_0 \right) =
+\frac{1}{\beta_1}\hat{y_i} -\frac{\beta_0}{\beta_1}$. Substituting this
+into the equation above gives the desired result.</p>
+<p>$\sum x_i \left(y_i - \hat{y_i} \right) = 0$</p>
+<p>$\sum \left(\frac{1}{\beta_1}\hat{y_i} -
+\frac{\beta_0}{\beta_1}\right) \left(y_i - \hat{y_i} \right) = 0$</p>
+<p>$\frac{1}{\beta_1}\sum \hat{y_i} \left(y_i - \hat{y_i} \right) -
+\frac{\beta_0}{\beta_1} \sum \left(y_i - \hat{y_i} \right)= 0$</p>
+<p>Now, the second term is zero (by eqn. 1) and so, we arrive
+immediately at the desired result:</p>
+<p>$\sum \hat{y_i} \left(y_i - \hat{y_i} \right) = 0 \qquad$ (eqn.
+2)</p>
+<p>Now, let’s use _eqn. 1_ and _eqn. 2_ to show that $\sum
+\left(\hat{y_i} - \bar{y_i} \right) \left( y_i - \hat{y_i} \right) =
+0$ </p>
+<p>$\sum \left(\hat{y_i} - \bar{y_i} \right) \left( y_i - \hat{y_i}
+\right) = \sum \hat{y_i} \left( y_i - \hat{y_i} \right) - \bar{y_i} \sum
+\left( y_i - \hat{y_i} \right) = 0$</p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
