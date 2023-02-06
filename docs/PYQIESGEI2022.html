@@ -294,52 +294,63 @@ class="math inline">\(\frac{dAC}{dq}=\frac{1}{q}(MC-AC)=0\)</span></p>
 <p>so AC is minimum when mc=ac</p>
 <p><strong>1.G</strong> The principle underlying least squares
 regression is that the sum of the squares of the errors is minimized. We
-can use calculus to find equations for the
-parameters \beta_0 and \beta_1 that minimize the sum of the squared
-errors.</p>
-<p>Let $S = \displaystyle\sum\limits_{i=1}^n \left(e_i \right)^2= \sum
-\left(y_i - \hat{y_i} \right)^2= \sum \left(y_i - \beta_0 -
-\beta_1x_i\right)^2$</p>
-<p>We want to find \beta_0 and \beta_1 that minimize the sum, S. We
-start by taking the partial derivative of S with respect to \beta_0 and
-setting it to zero.</p>
-<p>$\frac{\partial{S}}{\partial{\beta_0}} = \sum 2\left(y_i - \beta_0 -
-\beta_1x_i\right)^1 (-1) = 0$</p>
+can use calculus to find equations for the parameters _0 and _1 that
+minimize the sum of the squared errors.</p>
+<p>Let</p>
+<p><span class="math inline">\(S = \displaystyle\sum\limits\_{i=1}^n
+\left(e_i \right)^2= \sum \left(y_i - \hat{y_i} \right)^2= \sum
+\left(y_i - \beta_0 - \beta_1x_i\right)^2\)</span></p>
+<p>We want to find <span class="math inline">\(\beta_0\)</span> and
+<span class="math inline">\(\beta_1\)</span> that minimize the sum,
+<span class="math inline">\(S\)</span>. We start by taking the partial
+derivative of <span class="math inline">\(S\)</span> with respect to
+<span class="math inline">\(\beta_0\)</span> and setting it to zero.</p>
+<p><span class="math inline">\(\frac{\partial{S}}{\partial{\beta_0}} =
+\sum 2\left(y_i - \beta_0 - \beta_1x_i\right)^1 (-1) = 0\)</span></p>
 <p>notice that this says,</p>
-<p>$\begin{align}\sum \left(y_i - \beta_0 - \beta_1x_i\right) &amp;= 0
-\\ \sum \left(y_i - \hat{y_i} \right) &amp;= 0 \qquad (eqn.
-1)\end{align}$</p>
+<p><span class="math inline">\(\begin{align}\sum \left(y_i - \beta_0 -
+\beta_1x_i\right) &amp;= 0 \\ \sum \left(y_i - \hat{y_i} \right) &amp;=
+0 \qquad (eqn. 1)\end{align}\)</span></p>
 <p>Hence, **the sum of the residuals is zero** (as expected).
-Rearranging and solving for \beta_0 we arrive at,</p>
-<p>$\sum \beta_0 = \sum y_i -\beta_1 \sum x_i$</p>
-<p>$n\beta_0 = \sum y_i -\beta_1 \sum x_i$</p>
-<p>$\beta_0 = \frac{1}{n}\sum y_i -\beta_1 \frac{1}{n}\sum x_i$</p>
-<p>now taking the partial of S with respect to$ \beta_1$ and setting it
-to zero we have,</p>
-<p>$\frac{\partial{S}}{\partial{\beta_1}} = \sum 2\left(y_i - \beta_0 -
-\beta_1x_i\right)^1 (-x_i) = 0$</p>
+Rearranging and solving for _0 we arrive at,</p>
+<p><span class="math inline">\(\sum \beta_0 = \sum y_i -\beta_1 \sum
+x_i\)</span></p>
+<p><span class="math inline">\(n\beta_0 = \sum y_i -\beta_1 \sum
+x_i\)</span></p>
+<p><span class="math inline">\(\beta_0 = \frac{1}{n}\sum y_i -\beta_1
+\frac{1}{n}\sum x_i\)</span></p>
+<p>now taking the partial of S with respect to$ _1$ and setting it to
+zero we have,</p>
+<p><span class="math inline">\(\frac{\partial{S}}{\partial{\beta_1}} =
+\sum 2\left(y_i - \beta_0 - \beta_1x_i\right)^1 (-x_i) = 0\)</span></p>
 <p>and dividing through by -2 and rearranging we have,</p>
-<p>$\sum x_i \left(y_i - \beta_0 - \beta_1x_i\right) = 0$</p>
-<p>$\sum x_i \left(y_i - \hat{y_i} \right) = 0$</p>
-<p>but, again we know that $\hat{y_i} = \beta_0 + \beta_1x_i. Thus, x_i
-= \frac{1}{\beta_1}\left( \hat{y_i} - \beta_0 \right) =
-\frac{1}{\beta_1}\hat{y_i} -\frac{\beta_0}{\beta_1}$. Substituting this
-into the equation above gives the desired result.</p>
-<p>$\sum x_i \left(y_i - \hat{y_i} \right) = 0$</p>
-<p>$\sum \left(\frac{1}{\beta_1}\hat{y_i} -
-\frac{\beta_0}{\beta_1}\right) \left(y_i - \hat{y_i} \right) = 0$</p>
-<p>$\frac{1}{\beta_1}\sum \hat{y_i} \left(y_i - \hat{y_i} \right) -
-\frac{\beta_0}{\beta_1} \sum \left(y_i - \hat{y_i} \right)= 0$</p>
+<p><span class="math inline">\(\sum x_i \left(y_i - \beta_0 -
+\beta_1x_i\right) = 0\)</span></p>
+<p><span class="math inline">\(\sum x_i \left(y_i - \hat{y_i} \right) =
+0\)</span></p>
+<p>but, again we know that <span class="math inline">\(\hat{y_i} =
+\beta_0 + \beta_1x_i. Thus, x_i = \frac{1}{\beta_1}\left( \hat{y_i} -
+\beta_0 \right) = \frac{1}{\beta_1}\hat{y_i}
+-\frac{\beta_0}{\beta_1}\)</span>. Substituting this into the equation
+above gives the desired result.</p>
+<p><span class="math inline">\(\sum x_i \left(y_i - \hat{y_i} \right) =
+0\)</span></p>
+<p><span class="math inline">\(\sum \left(\frac{1}{\beta_1}\hat{y_i} -
+\frac{\beta_0}{\beta_1}\right) \left(y_i - \hat{y_i} \right) =
+0\)</span></p>
+<p><span class="math inline">\(\frac{1}{\beta_1}\sum \hat{y_i} \left(y_i
+- \hat{y_i} \right) - \frac{\beta_0}{\beta_1} \sum \left(y_i - \hat{y_i}
+\right)= 0\)</span></p>
 <p>Now, the second term is zero (by eqn. 1) and so, we arrive
 immediately at the desired result:</p>
-<p>$\sum \hat{y_i} \left(y_i - \hat{y_i} \right) = 0 \qquad$ (eqn.
-2)</p>
-<p>Now, let’s use _eqn. 1_ and _eqn. 2_ to show that $\sum
-\left(\hat{y_i} - \bar{y_i} \right) \left( y_i - \hat{y_i} \right) =
-0$ </p>
-<p>$\sum \left(\hat{y_i} - \bar{y_i} \right) \left( y_i - \hat{y_i}
-\right) = \sum \hat{y_i} \left( y_i - \hat{y_i} \right) - \bar{y_i} \sum
-\left( y_i - \hat{y_i} \right) = 0$</p>
+<p><span class="math inline">\(\sum \hat{y_i} \left(y_i - \hat{y_i}
+\right) = 0 \qquad\)</span> (eqn. 2)</p>
+<p>Now, let’s use _eqn. 1_ and _eqn. 2_ to show that <span
+class="math inline">\(\sum \left(\hat{y_i} - \bar{y_i} \right) \left(
+y_i - \hat{y_i} \right) = 0\)</span> </p>
+<p><span class="math inline">\(\sum \left(\hat{y_i} - \bar{y_i} \right)
+\left( y_i - \hat{y_i} \right) = \sum \hat{y_i} \left( y_i - \hat{y_i}
+\right) - \bar{y_i} \sum \left( y_i - \hat{y_i} \right) = 0\)</span></p>
 
 
 
