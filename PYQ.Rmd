@@ -7,6 +7,8 @@ output: html_document
 
 [2022 Indian Economy](ies2022ie.html)
 
+[2022 general Economics I](PYQIESGEI2022.html)
+
 # DSE
 
 [2006](pyqdse2006.html)
