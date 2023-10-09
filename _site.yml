@@ -2,8 +2,6 @@ name: "Economics"
 navbar:
   title: "Home"
   left:
-    - text: "PYQ"
-      href: "PYQ.html"
     - text: "Blog"
       href: "blog.html"
 output_dir: "docs"
