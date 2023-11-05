@@ -1,0 +1,12 @@
+name: newtrial
+title: newtrial
+username: vectorcamus
+account: vectorcamus
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 10419521
+bundleId: 7890841
+url: https://vectorcamus.shinyapps.io/newtrial/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,24 @@
+---
+title: "ugcnetjrf"
+output: 
+    html_document:
+      css: "style.css"
+---
+
+# Paper 1
+
+## Unit I- Teaching and research aptitude 
+
+[PYQ](https://econ398083349.wordpress.com/2023/11/04/ugc-net-paper-1-unit-i-teaching-aptitude/)
+
+
+[app1](newtrial/app.RR)
+
+
+# My Shiny App Integration
+
+Welcome to my Shiny app! You can interact with it below:
+
+<iframe src="https://vectorcamus.shinyapps.io/newtrial/" width="800" height="600"></iframe>
+
+The above Shiny app allows you to explore various data visualizations.
