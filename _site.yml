@@ -4,9 +4,5 @@ navbar:
   left:
     - text: "Blog"
       href: "blog.html"
-    - text: "IES"
-      href: "ies.html"
-    - text: "UGC NET/JRF"
-      href: "ugcnetjrf.html"
 output_dir: "docs"
 
